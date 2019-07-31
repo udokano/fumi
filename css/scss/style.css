@@ -359,6 +359,10 @@ body.page {
 @media (min-width: 768px) {
   .rl {
     writing-mode: vertical-rl; } }
+.bg-cp {
+  background-color: #f6eeee;
+  padding: 50px 0; }
+
 .cp {
   color: #a64987; }
 
@@ -1325,17 +1329,15 @@ footer.pages {
     top: -210px; } }
 .access-info .inner {
   width: 900px; }
-  .access-info .inner .cont {
-    margin-bottom: 60px; }
-    .access-info .inner .cont .thumb {
-      width: 48%; }
-    .access-info .inner .cont .text {
-      width: 48%; }
-      .access-info .inner .cont .text h2 {
-        margin-bottom: 27px;
-        font-size: 1.62rem; }
-      .access-info .inner .cont .text dl {
-        margin-bottom: 20px; }
+  .access-info .inner .cont .thumb {
+    width: 48%; }
+  .access-info .inner .cont .text {
+    width: 48%; }
+    .access-info .inner .cont .text h2 {
+      margin-bottom: 27px;
+      font-size: 1.62rem; }
+    .access-info .inner .cont .text dl {
+      margin-bottom: 20px; }
   .access-info .inner .map {
     width: 100%;
     height: 430px;

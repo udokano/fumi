@@ -7,37 +7,43 @@ Template Name: アクセス
 <div class="page-head">
   <h1 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/access/h1_txt.png" alt="アクセス"></h1>
   <?php echo breadcrumb_func(); ?> </div>
-<section class="access-info">
+<section class="access-info bg-cp">
   <div class="inner">
     <div class="cont flex">
       <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/access/noimg01.jpg" alt=""></div>
       <div class="text box-size gosic">
-        <h2 class="gd tc">fumi beauty clinic</h2>
+        <h2 class="gd">fumi beauty clinic<br>
+</h2>
         <dl class="flex">
-          <dt class="gd">院長</dt>
+          <dt>院長</dt>
           <dd>先山 史</dd>
         </dl>
         <dl class="flex">
-          <dt class="gd">所在地</dt>
+          <dt>所在地</dt>
           <dd>大阪府大阪市◯◯◯</dd>
         </dl>
         <dl class="flex">
-          <dt class="gd">電話番号</dt>
+          <dt>電話番号</dt>
           <dd>0120-000-000</dd>
         </dl>
         <dl class="flex">
-          <dt class="gd">診療時間</dt>
+          <dt>診療時間</dt>
           <dd>0120-000-000</dd>
         </dl>
         <dl class="flex">
-          <dt class="gd">休診日</dt>
+          <dt>休診日</dt>
           <dd>◯曜日</dd>
         </dl>
       </div>
     </div><!--Cont END-->
       
       
-      <!-- add test -->
+</section>
+    
+    
+    
+    <section class="access-info">
+
       
       <div class="map">
       
