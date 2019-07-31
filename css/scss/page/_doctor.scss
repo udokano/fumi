@@ -1,0 +1,146 @@
+.doctor-intro {
+    background-color: #f6eeee;
+    padding: 60px 0 0;
+    .inner {
+        background: url("../img/doctor/doctor_img.png") no-repeat 100% 100%/250px;
+        .text {
+        width: 62%;
+            padding-bottom: 80px;
+           h2 {
+                width: 34%;
+               margin-bottom: 35px;
+           }
+           
+           p {
+               line-height: 1.84;
+               margin-bottom: 35px;
+           }
+           
+           .blog {
+               margin-bottom: 30px;
+               a {
+                   display: inline-block;
+                   background-color: $cp;
+                   padding: 2px 3px;
+                   margin-right: 1.1rem;
+                   font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
+               }
+           }
+       } 
+    }
+    
+}
+
+
+.doctor-carrer {
+    div {
+        width: 47%;
+        h3 {
+            background-color: #d7ccb0;
+        }
+        
+        h3,ul li {
+            padding: 14px 24px;
+        }
+        
+        ul {
+            li {
+                font-size: 1.17rem;
+                span {
+                    display: inline-block;
+                    padding-right: 1.1rem;
+                }
+                
+                &:nth-of-type(even) {
+                    background-color: #f4f4f4;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    
+    
+    .doctor-intro {
+    padding: 60px 0 0;
+    .inner {
+        background: none;
+        .text {
+        width: 94%;
+            margin: auto;
+            padding-bottom: 80px;
+           h2 {
+                width: 62%;
+               margin:0 auto 35px;
+           }
+            
+            .thumb {
+                width: 90%;
+                margin: 0 auto 35px;
+            }
+           
+           p {
+               line-height: 1.84;
+               margin-bottom: 35px;
+           }
+           
+           .blog {
+               margin-bottom: 30px;
+               a {
+                   display: inline-block;
+                   background-color: $cp;
+                   padding: 2px 3px;
+                   margin-right: 1.1rem;
+                   font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
+               }
+           }
+       } 
+    }
+    
+}
+
+
+.doctor-carrer {
+    
+    
+    .inner {
+        width: 94%;
+        margin: auto;
+        display: block;
+        div {
+        width: 100%;
+        margin: auto;
+        h3 {
+        }
+        
+        h3,ul li {
+            padding: 14px 24px;
+        }
+        
+        ul {
+            li {
+                font-size: 1.17rem;
+               
+                
+                
+            }
+        }
+    }
+        
+        .left {
+            margin-bottom: 35px;
+        }
+        
+        
+        
+    }
+    
+}
+
+    
+    
+    
+    
+    
+}

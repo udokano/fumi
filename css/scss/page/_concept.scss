@@ -1,0 +1,261 @@
+
+.pos {
+    position: relative;
+}
+
+.bg-under {
+    background-color: #f6eeee;
+    position: absolute;
+    z-index: -1;
+}
+
+.under1 {
+      top: 0;
+    right: 0;
+    width: 62%;
+    height: 100%;
+}
+
+.vision {
+    .inner {
+        padding: 70px 0 120px;
+        .left {
+            width: 42%;
+            
+            h2 {
+                margin-bottom: 30px;
+                width: 92%;
+            }
+            
+            p {
+                padding-right: 18%;
+                line-height: 1.8;
+            }
+        }
+        
+        .right {
+            width: 39%;
+            img {
+                width: 70%;
+                margin: auto;
+                display: block;
+            }
+        }
+    }
+}
+
+.mission-area {
+    .inner {
+        justify-content: flex-start;
+        margin-bottom: 60px;
+        .thumb {
+            width: 53%;
+            max-height: 455px;
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        
+        .text {
+            width: 28%;
+            padding-left: 3.5%;
+            padding-right: 10%;
+            .txt {
+                .img {
+                    width: 110px;
+                    margin-bottom: 20px;
+                }
+                
+                 p {
+                    line-height: 1.7;
+                  }
+                
+                
+            }
+            
+            h3 {
+                position: absolute;
+                right: 0;
+                top: -200px;
+                font-size: 1.86rem;
+            }
+        }
+    }
+}
+
+.mission-area {
+    .mission1 {
+        margin-top: -70px;
+    }
+    
+    .mission2 {
+        flex-flow: row-reverse;
+        
+        .thumb {
+            
+        }
+        
+        .text {
+            padding-right: 2%;
+            padding-left: 12%;
+             h3 {
+            right: auto;
+                 top: -200px;
+            left: 0;
+            font-size: 1.37rem;
+        }
+            
+        }
+        
+       
+    }
+    
+    .mission3 {
+        .text {
+            h3 {
+                top: -210px;
+            }
+        }
+    }
+}
+
+.bg-under2 {
+    left: 0;
+    bottom: 280px;
+    height: 580px;
+    width: 64%;
+}
+
+@media (max-width: 767px) {
+    
+    
+    .under1 {
+  
+    width: 82%;
+}
+
+    
+.vision {
+    margin-bottom: 60px!important;
+    .inner {
+        padding: 30px 0;
+        display: block;
+        .left {
+            width: 88%;
+            
+            h2 {
+                width: 78%;
+            }
+            
+            p {
+                padding-right: 0;
+            }
+        }
+        
+        .right {
+            width: 100%;
+            img {
+                width: 47%;
+                margin: auto;
+                display: block;
+            }
+        }
+    }
+}
+    
+    
+.mission-area {
+    .inner {
+        display: block;
+        margin-bottom: 60px;
+        .thumb {
+            position: relative;
+          box-sizing: border-box;
+            max-height: 300px;
+            margin-bottom: 30px;
+            width: 100%;
+            padding-right: 24%;
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+            
+            h3 {
+                position: absolute;
+                right: 3.7%;
+                top: 0;
+                writing-mode: vertical-rl;
+            }
+        }
+        
+        .text {
+            width: 100%;
+            padding: 0;
+            .txt {
+                .img {
+                    width: 110px;
+                    margin-bottom: 20px;
+                }
+                
+                 p {
+                    line-height: 1.7;
+                  }
+                
+                
+            }
+            
+            h3 {
+                display: none;
+            }
+        }
+    }
+}
+
+.mission-area {
+    .mission1 {
+        margin-top: 0px;
+    }
+    
+    .mission2 {
+        flex-flow: row-reverse;
+        .thumb {
+            padding-right: 0;
+            padding-left: 30.2%;
+            
+             h3 {
+                position: absolute;
+                right: auto;
+                 left: 1.4%;
+                top: 0;
+                writing-mode: vertical-rl;
+                 font-size: 1.27rem;
+            }
+            
+        }
+        
+        .text {
+           padding: 0;
+             h3 {
+            display: none;
+        }
+            
+        }
+        
+       
+    }
+    
+    .mission3 {
+        .text {
+            h3 {
+                top: -210px;
+            }
+        }
+    }
+}
+
+    
+    
+    
+    
+}

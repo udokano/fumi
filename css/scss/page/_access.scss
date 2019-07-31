@@ -1,0 +1,139 @@
+.access-info {
+    .inner {
+        width: 900px;
+        .cont {
+            margin-bottom: 60px;
+            .thumb {
+                width: 48%;
+            }
+            
+            .text {
+                width: 48%;
+                
+                h2 {
+                    margin-bottom: 27px;
+                    font-size: 1.62rem;
+                }
+                
+                dl {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        
+        .map {
+            width: 100%;
+            height: 430px;
+            margin-bottom: 80px;
+        }
+        
+        .info {
+            margin-bottom: 50px;
+            font-size: 1.12rem;
+            dt,dd {
+                padding: 12px 18px;
+                border: 0.6px solid #838383;
+            }
+            
+            dt {
+                background-color: #d7ccb0;
+                color: #fff;
+            }
+            
+            dd {
+                border-top: none;
+                p {
+                    margin-bottom: 10px;
+                }
+                
+                .box {
+                    width: 72%;
+                     @include box-center;
+                    figure {
+                        width: 47%;
+                        img {
+                            display: block;
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    
+.access-info {
+    .inner {
+        width: 94%;
+        margin: auto;
+        .cont {
+            margin-bottom: 60px;
+            display: block;
+            .thumb {
+                width: 90%;
+                margin: 0 auto 30px;
+            }
+            
+            .text {
+                width: 90%;
+                margin: auto;
+                
+                h2 {
+                    margin-bottom: 27px;
+                    font-size: 1.62rem;
+                }
+                
+                dl {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        
+        .map {
+            width: 100%;
+            height: 360px;
+            margin-bottom: 80px;
+        }
+        
+        .info {
+            margin-bottom: 50px;
+            font-size: 1.12rem;
+            dt,dd {
+                padding: 12px 18px;
+            }
+            
+            dt {
+                text-align: center;
+            }
+            
+            dd {
+                text-align: center;
+                p {
+                    margin: 18px 0;
+                }
+                
+                .box {
+                    width: 90%;
+                    display: block;
+                    margin: 0 auto;
+                    figure {
+                        width: 96%;
+                        margin: 0 auto 30px;
+                        img {
+                            display: block;
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+    
+    
+    
+    
+    
+}

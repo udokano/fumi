@@ -1,0 +1,233 @@
+/*FV TOP PC*/
+
+
+.site-header {
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    z-index: 9999;
+    .header-inner {
+        .logo {
+            padding-left: 2%;
+            width: 22%;
+            max-width: 260px;
+        }
+        
+        .navi {
+            width: 48%;
+            ul {
+                justify-content: flex-end;
+            }
+        }
+        
+        .top-cv-btn {
+            
+        }
+    }
+}
+
+
+
+.fv {
+    padding-top: 91px;
+    background: url("../img/top/fv_pc.jpg") no-repeat 50% 0% /cover;
+    height: 1000px;
+    position: relative;
+    .inner-box {
+        
+        .fv-top-wrap {
+            width: 94%;
+            margin: 0 auto;
+            .top {
+            padding-top: 80px;
+            margin-bottom: 140px;
+            h1 {
+                width: 29%;
+                min-width: 310px;
+            }
+            
+            .logos {
+                width: 31%;
+                min-width: 320px;
+                img {
+                    display: block;
+                    margin-bottom: 50px;
+                }
+                
+                .band {
+                    border: 1px solid $cp;
+                    background-color: $bg-w;
+                    padding: 8px 18px;
+                    font-size: 1.27rem;
+                }
+                
+            }
+        }
+            
+            
+            
+        }
+        
+        
+        .bottom {
+            
+            
+            .menu-link {
+                width: 49%;
+                li {
+                    width: 48%;
+                    a {
+                        img {
+                            height: 120px;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+            
+            
+            .cv-wrap {
+                width: 49%;
+                background-color: $bg-w;
+                padding: 20px;
+                .top {
+                    padding-top: 0;
+                    margin-bottom: 30px;
+                    justify-content: flex-start;
+                    .left {
+
+                    }
+                    
+                    .tel {
+                        margin: 0 3.2%;
+                    }
+                    
+                    .time {
+                    }
+                    
+                    .sm {
+                        font-size: .74rem;
+                    }
+                    
+                }
+            }
+        }
+    }
+    
+    
+    .scroll-down {
+        position: absolute;
+        bottom: 4%;
+        right: 2%;
+        width: 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    
+    .site-header {
+    .header-inner {
+        .logo {
+            padding-left: 2%;
+            width: 30%;
+            min-width: 140px;
+        }
+        
+     
+        
+        .top-cv-btn {
+            
+        }
+    }
+}
+    
+    .fv {
+        padding-top: 61px;
+    background:none;
+    height: auto;
+    position: relative;
+
+    .box-wrap {
+        width: 96%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 10px;
+        margin: auto;
+        height: auto;
+      
+            
+            .menu-link {
+                width: 100%;
+                margin-bottom: 10px;
+                li {
+                    width: 48%;
+                    a {
+                        p {
+                            font-size: .8rem;
+                        }
+                    }
+                }
+            
+        }
+            
+            .cv-wrap {
+                width: 100%;
+                background-color: $bg-w;
+                padding: 20px;
+                .top {
+                    padding-top: 0;
+
+                    
+                    .txt {
+                        font-size: 1.7rem;
+                        margin-bottom: 5px;
+                    }
+                    
+                    .midle {
+                        
+                        margin-bottom: 10px;
+                        
+                        .tel {
+                        width: 70%;
+                            a {
+                              background-size: 28px;
+                              font-size: 1.8rem;
+                                padding-left: 35px;
+                            }
+                    }
+                    
+                    .time {
+                        width: 30%;
+                    }
+                        
+                        
+                    }
+                    
+                
+    
+                }
+                
+                .bottom {
+                    .cv-btns {
+                        width: 48%;
+                        padding: 20px 0;
+                        .bg-icon {
+                            font-size: .9rem;
+                            .sm {
+                                font-size: .6rem;
+                            }
+                        }
+                    }
+                }
+            }
+        
+    }
+    
+}
+
+    
+    
+    
+}

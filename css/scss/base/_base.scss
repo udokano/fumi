@@ -1,0 +1,842 @@
+/* reset & set
+-------------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+  border: 0;
+  outline: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+li {
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+a img:hover,a:hover {
+	opacity: 0.8;
+}
+
+li img {
+	display: block;
+}
+
+a img {
+	border-style: none;
+}
+
+img {
+    vertical-align: bottom;
+    @include img-fit;
+}
+
+
+//フォームリセット
+
+
+input,
+label,
+select,
+button,
+submit,
+textarea {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  background: none;
+  line-height: 1;
+  font: inherit;
+}
+
+/* iOSでのデフォルトスタイルをリセット */
+input[type="submit"],
+input[type="button"] {
+  border-radius: 0;
+  -webkit-box-sizing: content-box;
+  -webkit-appearance: button;
+  appearance: button;
+  border: none;
+  box-sizing: border-box;
+    background: none;
+    &::-webkit-search-decoration {
+      display: none;
+    }
+    &::focus {
+      outline-offset: -2px;
+    }
+}
+
+select {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+input:focus,
+button:focus,
+select:focus,
+textarea:focus{
+  outline: 0;
+}
+
+/* Make webkit render the search input like a normal text field */
+input[type=search] {
+  -webkit-appearance: textfield;
+}
+
+/* Turn off the recent search for webkit. It adds about 15px padding on the left */
+::-webkit-search-decoration {
+  display: none;
+}
+
+/* Turn off scroll bars in IE unless needed */
+textarea {
+  overflow: auto;
+}
+
+
+
+
+/*クリアフィックス*/
+.cf:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.sp{
+	display: none;
+}
+
+h2,h3,h4 {
+	font-weight: 300;
+}
+
+/*トップコンテンツ見出し*/
+
+h2{
+    font-size: 2.4rem;
+    letter-spacing: 3px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 767px) {
+    
+h2{
+    font-size: 2.0rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}    
+    
+    
+}
+
+
+html {
+	font-size: 100%; /*18px*/
+}
+
+body {
+    line-height: 1.5;
+	color: $cg;
+    font-family:  "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
+
+}
+
+.wrappre {
+    position: relative;
+    width: 100%;
+    min-width: 1160px;
+    }
+
+section {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+/*矢印　くの字*/
+
+.arrow::before {
+    content: "";
+    position: absolute;
+  right: 25px;
+  top: 50%;
+  width: 15px;
+  height: 15px;
+  border-top: 1px solid #FFF;
+  border-right: 1px solid #fff;
+  transform: rotate(45deg) translateY(-50%);
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  background-color: $cp;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  width: 240px;
+  color: #fff;
+ font-size: 14px;
+    letter-spacing: 1px;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+        
+  &:hover {
+    opacity: .8;
+  }
+}
+
+@media (max-width: 767px) {
+    
+.btn {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  width: 180px;
+ font-size: 14px;
+}
+    
+    
+    
+}
+
+
+/*CV-BTNS*/
+
+.cv-btns {
+    display: inline-block;
+    width: 46%;
+    padding: 23px 0;
+    color: #fff;
+    text-align: center;
+    .sm {
+        text-align: left;
+        display: inline-block;
+    }
+}
+
+.cv-btns.bg-rs .bg-icon,.cv-btns.bg-ct .bg-icon {
+   background: no-repeat 15% 50%/ 13%;
+    display: block;
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+    text-align: left;
+    padding-left: 34%;
+}
+
+ .cv-btns.bg-rs {
+    background-color: $cg;
+      .bg-icon{
+        background-image: url("../img/common/icon_cal.png");
+
+     }
+}
+
+ .cv-btns.bg-ct {
+    background-color: $cp;
+     .bg-icon {
+    background-image: url("../img/common/icon_mail.png");
+
+     }
+}
+
+
+ .sm {
+        font-size: .6rem;
+     letter-spacing: 1px;
+    display: block;
+     opacity: .8;
+    }
+
+
+/*HEADER  CV-BTNS*/
+
+.top-cv-btn {
+    font-size: 0;
+    .cv-btns {
+        text-align: center;
+            width: 100px;
+            padding: 50px 0 20px;
+        display: inline-block;
+        span {
+            font-size: .9rem;
+            padding-top: 37px;
+            background: no-repeat 50% 0%/ 24px;
+            color: #fff;
+        }
+    }
+    
+    .bg-rs {
+        span {
+            background-image: url("../img/common/icon_cal.png");
+        }
+    }
+    
+    .bg-ct {
+        span {
+            padding-top: 34px;
+            background-image: url("../img/common/icon_mail.png");
+        }
+    }
+}
+
+
+@media (max-width: 767px) {
+    
+    
+    .top-cv-btn {
+    font-size: 0;
+    .cv-btns {
+        text-align: center;
+            width: 66px;
+            padding: 35px 0 10px;
+        display: inline-block;
+        span {
+            font-size: .8rem;
+            padding-top: 28px;
+            background: no-repeat 50% 0%/ 16px;
+            color: #fff;
+        }
+    }
+    
+    .bg-rs {
+        span {
+            background-image: url("../img/common/icon_cal.png");
+        }
+    }
+    
+    .bg-ct {
+        span {
+            padding-top: 25px;
+            background-image: url("../img/common/icon_mail.png");
+        }
+    }
+}
+
+    
+    
+    
+    
+}
+
+/*下層ページ基本カラー*/
+
+body.page {
+    color: #454545;
+}
+
+
+/*パンくずリスト*/
+
+.path {
+    text-align: center;
+    margin-bottom: 90px;
+    li {
+        display: inline-block;
+        margin: 0 0.5%;
+        a {
+            font-size: .78rem;
+            color: $cg;
+            font-family: $gosic;
+        }
+        
+        &:nth-of-type(1) a {
+            color: #686868;
+        }
+    }
+}
+
+
+/*下層ページ　トップ*/
+
+.page-head {
+    padding-top: 130px;
+    
+    h1 {
+        width: 175px;
+        margin: 0 auto 15px;
+    }
+}
+
+
+
+/* GNAVI*/
+
+.navi {
+    ul {
+        li {
+            margin: 0 2.85%;
+            a {
+                color: $cp;
+            }
+        }
+    }
+}
+
+
+/*MUNU LIST 基本スタイル*/
+
+.menu-link {
+    li {
+        
+        a {
+            background-color: $bg-w;
+            display: block;
+                    padding: 22px;
+
+             img {
+            margin-bottom: 10px;
+        }
+        
+        p {
+           font-size: 1.2rem;
+            span {
+                font-size: .9rem;
+            }
+        }
+            
+            
+        }
+       
+    }
+}
+
+/*TEL */
+
+.tel {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    line-height: 1.0;
+    a {
+            background: url("../img/common/icon_free.svg") no-repeat 2% 50%/ 36px;
+            padding-left: 48px;
+
+    }
+}
+
+
+@media (max-width: 767px) {
+    
+.tel {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    line-height: 1.0;
+    a {
+            padding-left: 20px;
+
+    }
+}
+    
+    
+    
+}
+
+/*三角形*/
+
+.triangle {
+    position: absolute;
+    top: 1px;
+    left: 30px;
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 15px 23px 15px;
+border-color: transparent transparent rgba(0,0,0,.70) transparent;
+}
+
+.tl {
+    text-align: left!important;
+}
+
+.tc {
+    text-align: center;
+}
+
+.trx {
+    transform: translateX(-50%);
+}
+
+.try {
+    transform: translateY(-50%);
+}
+
+.ls1 {
+    letter-spacing: 1px;
+}
+
+.ls2 {
+    letter-spacing: 2px;
+}
+
+
+@media (min-width: 768px) {
+    
+    .inner-box {
+    width: 93%;
+    max-width: 1400px;
+    min-width: 1200px;
+     @include box-center;
+}
+
+.inner {
+    max-width: 1360px;
+    margin: auto;
+}
+    
+    
+    .page .inner {
+        width: 1200px;
+        margin: auto;
+    }
+    
+    
+    
+}
+
+
+
+@media (max-width: 767px) {
+    
+    
+    .inner-box {
+    width: 96%;
+     @include box-center;
+}
+
+.inner {
+    width: 96%;
+    margin: auto;
+}
+    
+    
+    
+    
+}
+
+@media (min-width: 768px) {
+    
+.rl {
+    writing-mode: vertical-rl;
+}
+    
+}
+
+
+.cp {
+    color: $cp;
+}
+
+.cw {
+    color: #fff;
+}
+
+.bg-p {
+    background-color: #fff7f4;
+
+}
+
+.gd {
+    color: $cg;
+}
+
+.gosic {
+    font-family: $gosic;
+}
+
+.jc-cent {
+    justify-content: center!important;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fw {
+    flex-wrap: wrap;
+}
+
+.box-size {
+    box-sizing: border-box;
+}
+
+.vt {
+    vertical-align: top!important;
+}
+
+.al-cent {
+    align-items: center!important;
+}
+
+.al-top {
+    align-items: flex-start!important;
+}
+
+.al-bottom {
+    align-items: flex-end!important;
+}
+
+.ju-st {
+    justify-content: flex-start!important;
+}
+
+
+/*swiper*/
+
+.swiper-wrapper {
+    height: auto;
+}
+
+.swiper-button-prev {
+    background: url("../img/common/arrow_02.svg") no-repeat 50% 50%/20px ;
+}
+
+.swiper-button-next {
+    background: url("../img/common/arrow_01.svg") no-repeat 50% 50%/20px ;
+}
+
+
+.area-bgs {
+    background: no-repeat 50% 50%/cover;
+}
+
+
+.in-view{
+	opacity: 0;
+	transform: translate(0,60px);
+    transition: ease 1.5s;
+}
+.fade-in{
+  opacity: 1.0;
+  transform: translate(0,0);
+}
+
+
+/*qa 症例*/
+
+.slide-p2 {
+    position: static;
+}
+
+.slide-p2 .swiper-slide {
+    height: 283px;
+}
+
+.prev2,.next2 {
+    top: 58%;
+}
+
+.prev2 {
+    left: 0px;
+}
+
+.next2 {
+    right: 0px;
+}
+
+.swiper-container-horizontal .swiper-pagination {
+    bottom: -40px;
+}
+
+.swiper-pagination-bullet {
+    border-radius: 0;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: $cp;
+}
+
+@media (max-width: 767px) {
+    
+.swiper-button-prev,.swiper-button-next {
+    background-size: 16px;
+}
+
+    
+
+    
+    .swiper3 .swiper-slide {
+        height: auto;
+        max-height: 260px;
+        min-height: 240px;
+    }
+
+.prev2,.next2 {
+    top: 58%;
+}
+
+.prev2 {
+    left: -35px;
+}
+
+.next2 {
+    right: -35px;
+}
+    
+    .swiper3 .prev2 {
+        left: -20px;
+    }
+    
+    .swiper3 .next2 {
+        right: -20px;
+    }
+
+.swiper-container-horizontal .swiper-pagination {
+    bottom: -30px;
+}
+
+.swiper-pagination-bullet {
+    border-radius: 0;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: $cp;
+}
+    
+}
+
+
+
+/*ループ内テキストオーバーフロー設定基本*/
+
+.text-over {
+        max-height: 150px;
+        overflow: hidden;
+        position: relative;
+    &::before,&::after {
+        position: absolute;
+            background-color: #fff;
+
+    }
+    
+    &::before {
+        content: "...";
+  bottom: 0;
+  right: 10px;
+        width: .9rem;
+    }
+    
+    &::after {
+        content: "";
+  height: 100%;
+  width: 100%;
+    }
+}
+
+
+
+
+/*PAGE TOP SCROll*/
+
+.page-top {
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    width: 12px;
+    z-index: 9000;
+    display: none;
+
+}
+
+.bounce{
+  animation: bounce linear 1.6s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes bounce{
+  0% {
+    transform:  translate(0px,0px)  ;
+  }
+  15% {
+    transform:  translate(0px,-25px)  ;
+  }
+  30% {
+    transform:  translate(0px,0px)  ;
+  }
+  45% {
+    transform:  translate(0px,-15px)  ;
+  }
+  60% {
+    transform:  translate(0px,0px)  ;
+  }
+  75% {
+    transform:  translate(0px,-5px)  ;
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+
+@media (max-width: 767px) {
+    
+    .page-top {
+    bottom: 12%;
+    right: 3.75%;
+    width: 7px;
+
+}
+
+    
+}
+
+
+@media only screen and (max-width: 768px){
+
+
+    .wrapper {
+        position: relative;
+        width: 100%;
+    }
+
+    html {
+        font-size: 80%;
+    }
+
+	.pc {
+		display: none;
+	}
+
+    .pc-dis {
+        display: none!important;
+    }
+
+	.sp {
+		display: block;
+	}
+
+    section {
+        margin-bottom: 30px;
+    }
+
+
+    
+
+
+
+}
