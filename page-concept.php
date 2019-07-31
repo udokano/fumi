@@ -13,6 +13,16 @@ Template Name: 医院について
     <div class="left">
       <h2><img src="<?php echo get_template_directory_uri(); ?>/img/concept/beautiful_aging.png" alt="Beautiful
 Aging 私たちが目指すもの"></h2>
+        
+        <ul class="cachs flex">
+        
+            <li><img src="<?php echo get_template_directory_uri(); ?>/img/concept/sub_cach1.jpg" alt="安心・安全"></li>
+            <li><img src="<?php echo get_template_directory_uri(); ?>/img/concept/sub_cach2.jpg" alt="一人一人にあった治療"></li>
+            <li><img src="<?php echo get_template_directory_uri(); ?>/img/concept/sub_cach3.jpg" alt="誠実な治療"></li>
+
+        
+        </ul>
+        
       <p>ご来院いただいた全ての皆様にマッチした治療を提供し、
         皆様がより自分らしく美しく年齢を重ね、
         豊かな人生を送れるようサポートをします。</p>
