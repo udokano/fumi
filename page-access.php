@@ -25,15 +25,15 @@ Template Name: アクセス
         </dl>
         <dl class="flex">
           <dt>電話番号</dt>
-          <dd>0120-000-000</dd>
+          <dd>06-6372-2323</dd>
         </dl>
         <dl class="flex">
           <dt>診療時間</dt>
-          <dd>0120-000-000</dd>
+          <dd>平日 10:00~18:00 土 10:00~17:00</dd>
         </dl>
         <dl class="flex">
           <dt>休診日</dt>
-          <dd>◯曜日</dd>
+          <dd>木・日・祝</dd>
         </dl>
       </div>
     </div><!--Cont END-->

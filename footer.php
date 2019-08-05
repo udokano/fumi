@@ -13,7 +13,7 @@
             
             <p class="gosic logo-info">ふみビューティークリニック梅田<span class="cw">美容皮膚科・形成外科</span></p>
         
-            <a href="#" class="tel gd mb20">0120-000-000</a>
+            <a href="#" class="tel gd mb20">06-6372-2323</a>
             
             <p class="gosic mb20">受付時間 平日 10:00~18:00 土 10:00~17:00<br>
                 定休日 木・日・祝</p>

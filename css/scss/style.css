@@ -1340,14 +1340,14 @@ footer.pages {
   height: 430px;
   margin-bottom: 80px; }
 .access-info .inner {
-  width: 900px; }
+  width: 1200px; }
   .access-info .inner .cont .thumb {
     width: 48%; }
   .access-info .inner .cont .text {
     width: 48%; }
     .access-info .inner .cont .text h2 {
       margin-top: -7px;
-      margin-bottom: 15px;
+      margin-bottom: 45px;
       font-size: 1.62rem; }
     .access-info .inner .cont .text dl {
       margin-bottom: 18px;

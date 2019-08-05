@@ -44,7 +44,7 @@
         <div class="top cp">
           <div class="tc txt">お電話によるお問い合わせ</div>
           <div class="midle flex al-cent">
-            <div class="tel"><a href="#" class="cp">0120-000-000</a></div>
+            <div class="tel"><a href="#" class="cp">06-6372-2323</a></div>
             <div class="time sm"> 受付時間<br>
               10:00～20:00 </div>
           </div>
@@ -84,9 +84,9 @@
           <div class="top flex cp al-cent">
             <div class="left sm">お電話による<br>
               お問い合わせ</div>
-            <div class="tel"><a href="#" class="cp">0120-000-000</a></div>
+            <div class="tel"><a href="#" class="cp">06-6372-2323</a></div>
             <div class="time sm"> 受付時間<br>
-              10:00～20:00 </div>
+              10:00～18:00 </div>
           </div>
           <div class="bottom flex"> <a href="#" class="cv-btns bg-rs" target="_blank"><span class="bg-icon">来院予約<br>
             <span class="sm">RESERVATION</span></span></a> <a href="<?php echo home_url( '/' ); ?>contact" class="cv-btns bg-ct"><span class="bg-icon">お問合わせ<br>
