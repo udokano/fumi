@@ -769,8 +769,16 @@ footer.pages {
     margin: 50px auto 60px; }
     footer.pages .pages-footer-box .f-logo {
       width: 180px; }
-    footer.pages .pages-footer-box .left .tel {
-      display: block; }
+    footer.pages .pages-footer-box .left {
+      font-size: .72rem; }
+      footer.pages .pages-footer-box .left .logo-info {
+        margin-bottom: 13px; }
+        footer.pages .pages-footer-box .left .logo-info span {
+          background-color: #9d8440;
+          padding: 2px;
+          margin-left: 8px; }
+      footer.pages .pages-footer-box .left .tel {
+        display: block; }
 
 @media (max-width: 767px) {
   footer.pages .pages-footer-box {
@@ -1327,6 +1335,10 @@ footer.pages {
         display: none; }
   .mission-area .mission3 .text h3 {
     top: -210px; } }
+.access-info .page-map {
+  width: 100%;
+  height: 430px;
+  margin-bottom: 80px; }
 .access-info .inner {
   width: 900px; }
   .access-info .inner .cont .thumb {
@@ -1334,35 +1346,48 @@ footer.pages {
   .access-info .inner .cont .text {
     width: 48%; }
     .access-info .inner .cont .text h2 {
-      margin-bottom: 27px;
+      margin-top: -7px;
+      margin-bottom: 15px;
       font-size: 1.62rem; }
     .access-info .inner .cont .text dl {
-      margin-bottom: 20px; }
-  .access-info .inner .map {
-    width: 100%;
-    height: 430px;
-    margin-bottom: 80px; }
+      margin-bottom: 18px;
+      justify-content: flex-start;
+      align-items: flex-start; }
+      .access-info .inner .cont .text dl dt {
+        width: 12em; }
+      .access-info .inner .cont .text dl dd {
+        text-align: left; }
   .access-info .inner .info {
     margin-bottom: 50px;
     font-size: 1.12rem; }
-    .access-info .inner .info dt, .access-info .inner .info dd {
-      padding: 12px 18px;
-      border: 0.6px solid #838383; }
-    .access-info .inner .info dt {
-      background-color: #d7ccb0;
-      color: #fff; }
-    .access-info .inner .info dd {
-      border-top: none; }
-      .access-info .inner .info dd p {
-        margin-bottom: 10px; }
-      .access-info .inner .info dd .box {
-        width: 72%;
-        margin: 0 auto; }
-        .access-info .inner .info dd .box figure {
-          width: 47%; }
-          .access-info .inner .info dd .box figure img {
-            display: block;
-            margin-bottom: 15px; }
+    .access-info .inner .info h3 {
+      border-top: 1px solid #454545;
+      border-bottom: 1px solid #454545;
+      padding: 12px 0;
+      font-size: 1.12rem;
+      margin-bottom: 30px; }
+    .access-info .inner .info ul li {
+      width: 29%;
+      position: relative; }
+      .access-info .inner .info ul li .thumb {
+        margin-bottom: 12px; }
+      .access-info .inner .info ul li h4 {
+        margin-bottom: 7px; }
+      .access-info .inner .info ul li p {
+        font-size: .83rem;
+        line-height: 1.3; }
+      .access-info .inner .info ul li:nth-of-type(1)::after, .access-info .inner .info ul li:nth-of-type(2)::after {
+        content: "";
+        position: absolute;
+        top: 32%;
+        right: -15%;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px 0 10px 17.3px;
+        border-color: transparent transparent transparent #9d8440; }
+    .access-info .inner .info p.note {
+      font-size: .82rem; }
 
 @media (max-width: 767px) {
   .access-info .inner {
@@ -1382,31 +1407,24 @@ footer.pages {
           font-size: 1.62rem; }
         .access-info .inner .cont .text dl {
           margin-bottom: 20px; }
-    .access-info .inner .map {
-      width: 100%;
-      height: 360px;
-      margin-bottom: 80px; }
+    .access-info .inner .page-map {
+      height: 300px;
+      margin-bottom: 50px; }
     .access-info .inner .info {
-      margin-bottom: 50px;
-      font-size: 1.12rem; }
-      .access-info .inner .info dt, .access-info .inner .info dd {
-        padding: 12px 18px; }
-      .access-info .inner .info dt {
-        text-align: center; }
-      .access-info .inner .info dd {
-        text-align: center; }
-        .access-info .inner .info dd p {
-          margin: 18px 0; }
-        .access-info .inner .info dd .box {
-          width: 90%;
-          display: block;
-          margin: 0 auto; }
-          .access-info .inner .info dd .box figure {
-            width: 96%;
-            margin: 0 auto 30px; }
-            .access-info .inner .info dd .box figure img {
-              display: block;
-              margin-bottom: 15px; } }
+      margin-bottom: 50px; }
+      .access-info .inner .info ul li {
+        width: 29%;
+        position: relative; }
+        .access-info .inner .info ul li .thumb {
+          margin-bottom: 12px; }
+        .access-info .inner .info ul li h4 {
+          margin-bottom: 7px; }
+        .access-info .inner .info ul li p {
+          font-size: .68rem; }
+        .access-info .inner .info ul li:nth-of-type(1)::after, .access-info .inner .info ul li:nth-of-type(2)::after {
+          top: 25%;
+          right: -16%;
+          border-width: 6px 0 6px 10.3px; } }
 .contact-tel {
   background-color: #f6eeee;
   padding: 60px 0; }

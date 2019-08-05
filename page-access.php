@@ -10,9 +10,10 @@ Template Name: アクセス
 <section class="access-info bg-cp">
   <div class="inner">
     <div class="cont flex">
-      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/access/noimg01.jpg" alt=""></div>
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/access/clinic_thumbjpg.jpg" alt=""></div>
       <div class="text box-size gosic">
         <h2 class="gd">fumi beauty clinic<br>
+           <span class="sm"> (ふみビューティクリニック梅田)</span>
 </h2>
         <dl class="flex">
           <dt>院長</dt>
@@ -43,54 +44,110 @@ Template Name: アクセス
     
     
     <section class="access-info">
-
-      
-      <div class="map">
-      
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.247522339175!2d135.49375498422734!3d34.7010965294239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e68d95e3a70b%3A0x1baec822e859c84a!2z5aSn6Ziq6aeF!5e0!3m2!1sja!2sjp!4v1562905173218!5m2!1sja!2sjp" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-      
+        
+        
+        <div class="inner">
+        
+        
+                  <div class="page-map" id="map">
       
       </div><!--MAP END-->
       
-      <dl class="info gosic">
-          <dt>電車でご来院の方へ</dt>
-          <dd>
-              <p>◯◯線◯◯駅から◯◯口から徒歩◯分</p>
-              <p>◯◯線◯◯駅から◯◯口から徒歩◯分</p>
-          </dd>
-      </dl>
+      <div class="info gosic">
+            
+          <h3 class="tc">〇〇駅からのアクセス方法</h3> 
+          
+          
+          
+          <ul class="flex gosic">
+              <li><div class="thumb">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/access/sample_thumb1.jpg" alt="">
+                  
+                  </div>
+              
+                  <h4 class="cp tc">順路❶</h4>
+                  
+                  <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              
+              
+              </li>
+              
+              <li><div class="thumb">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/access/sample_thumb2.jpg" alt="">
+                  
+                  </div>
+              
+                  <h4 class="cp tc">順路❷</h4>
+                  
+                  <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              
+              
+              </li>
+              
+              <li><div class="thumb">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/access/sample_thumb3.jpg" alt="">
+                  
+                  </div>
+              
+                  <h4 class="cp tc">順路❸</h4>
+                  
+                  <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              
+              
+              </li>
+          </ul>
+          
+          
+            
+            
+      </div>
       
       
-       <dl class="info gosic">
-          <dt>お車でご来院の方へ</dt>
-          <dd>
-              <p>お近くのコインパーキングをご利用ください</p>
-              
-              <div class="box flex">
-              
-                  <figure>
-                  
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/access/noimg02.jpg" alt="">
-                      
-                      <figcaption>◯◯パーク</figcaption>
-                  
-                  </figure>
-                  
-                   <figure>
-                  
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/access/noimg02.jpg" alt="">
-                      
-                      <figcaption>◯◯パーク</figcaption>
-                  
-                  </figure>
-                  
-              </div>
-              
-          </dd>
-      </dl>
+         <div class="info gosic">
+            
+          <h3 class="tc">〇〇駅からのアクセス方法</h3> 
+        
+            <p class="tc note pc">当院には専用駐車場がございませんので、周辺の有料駐車場をご利用ください。<br>
+また、fumi beauty clinicご利用時の駐車料金の割引はございません。
+</p>
+             
+               <p class="tc note sp">当院には専用駐車場がございませんので、周辺の有料駐車場をご利用ください。また、fumi beauty clinicご利用時の駐車料金の割引はございません。
+</p>
+        
+        </div>
+
+      </div>
+    
       
       
   </div><!--Inner END-->
 </section>
+  <script>
+    function initMap() {
+        var latlng = new google.maps.LatLng( 34.707103, 135.495992 );
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 16,
+            center: latlng
+        });
+			
+             var marker = new google.maps.Marker({
+          position: latlng,
+          map: map
+        });
+			
+        /*=========ここから追加=========*/
+        var mapStyle = [ {
+            "stylers": [ {
+            "saturation": -100
+            } ]
+        } ];
+        var mapType = new google.maps.StyledMapType(mapStyle);
+            map.mapTypes.set( 'GrayScaleMap', mapType);
+            map.setMapTypeId( 'GrayScaleMap' );
+        /*=========ここまで追加=========*/
+      }
+</script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBwr6DPo5X5S4CbkcKpSV5atpzNnKAifI&callback=initMap"></script>
+<?php wp_footer(); ?>
 
 <?php get_footer();?>

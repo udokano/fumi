@@ -342,7 +342,7 @@
   <!--SLIDES END-->
   
   <section class="map">
-    <div class="inner"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6019.145383641161!2d135.49192335533408!3d34.69973733163128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e68d95e3a70b%3A0x1baec822e859c84a!2z5aSn6Ziq6aeF!5e0!3m2!1sja!2sjp!4v1563446843039!5m2!1sja!2sjp" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    <div class="inner" id="map"></div>
   </section>
   <!--MAP END-->
   
@@ -394,6 +394,32 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script> 
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script> 
 <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
+      <script>
+    function initMap() {
+        var latlng = new google.maps.LatLng( 34.707103, 135.495992 );
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 16,
+            center: latlng
+        });
+			
+             var marker = new google.maps.Marker({
+          position: latlng,
+          map: map
+        });
+			
+        /*=========ここから追加=========*/
+        var mapStyle = [ {
+            "stylers": [ {
+            "saturation": -100
+            } ]
+        } ];
+        var mapType = new google.maps.StyledMapType(mapStyle);
+            map.mapTypes.set( 'GrayScaleMap', mapType);
+            map.setMapTypeId( 'GrayScaleMap' );
+        /*=========ここまで追加=========*/
+      }
+</script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBwr6DPo5X5S4CbkcKpSV5atpzNnKAifI&callback=initMap"></script>
 <?php wp_footer(); ?>
 </body>
 </html>

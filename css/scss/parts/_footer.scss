@@ -154,6 +154,16 @@ footer.pages {
         }
         
         .left {
+            font-size: .72rem;
+            .logo-info {
+                margin-bottom: 13px;
+                span {
+                    background-color: $cg;
+                    padding: 2px;
+                    margin-left: 8px;
+                }
+            }
+            
             .tel {
                 display: block;
             }

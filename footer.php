@@ -10,12 +10,15 @@
         </div>
         
         <div class="left">
+            
+            <p class="gosic logo-info">ふみビューティークリニック梅田<span class="cw">美容皮膚科・形成外科</span></p>
         
             <a href="#" class="tel gd mb20">0120-000-000</a>
             
-            <p class="gosic mb20">受付時間　10:00~20:00</p>
+            <p class="gosic mb20">受付時間 平日 10:00~18:00 土 10:00~17:00<br>
+                定休日 木・日・祝</p>
             
-            <p class="gosic">〒000-0000　大阪府大阪市000</p>
+            <p class="gosic">〒530-0012　大阪市北区芝田2丁目8-33 芝田ビル3F</p>
         
         </div>
     
@@ -79,6 +82,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script> 
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script> 
 <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
+  <script>
+  
 <?php wp_footer(); ?>
 </body>
 </html>
