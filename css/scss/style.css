@@ -1037,10 +1037,9 @@ footer.pages {
     .menu .munu-link li.box-size {
       width: 29.7%;
       margin-bottom: 5%;
-      height: 360px; }
+      height: 420px; }
       .menu .munu-link li.box-size a {
         display: block;
-        width: 100%;
         height: 100%;
         background-color: rgba(166, 73, 135, 0.65);
         padding: 18px; }
@@ -1051,7 +1050,12 @@ footer.pages {
             display: inline;
             vertical-align: middle; }
         .menu .munu-link li.box-size a .thumb {
-          margin-bottom: 20px; }
+          margin-bottom: 20px;
+          height: 240px; }
+          .menu .munu-link li.box-size a .thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; }
         .menu .munu-link li.box-size a ul {
           overflow: hidden; }
           .menu .munu-link li.box-size a ul li {
@@ -1118,9 +1122,9 @@ footer.pages {
         right: -440px;
         font-size: 1.6rem;
         line-height: .78;
-        background: url("../img/top/bg_doctor_name.png") no-repeat 50% 50%/cover;
-        padding: 220px;
-        margin: -220px; }
+        background: url("../img/top/bg_doctor_name.png") no-repeat 50% 50%/520px;
+        padding: 20%;
+        margin: -20%; }
         .doctor .inner .text .doctor-name .sm {
           font-size: .9rem; }
 
