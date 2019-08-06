@@ -913,7 +913,7 @@ footer.pages {
       background-image: url("../img/top/bg_thumb1.jpg"), url("../img/top/bg_thumb2.jpg");
       background-size: 50%,50%;
       position: relative;
-      bottom: -110px;
+      bottom: 0px;
       left: 0px; }
       .infusion .inner .bottom .box .box-inner {
         position: relative;

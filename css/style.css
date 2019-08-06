@@ -971,13 +971,12 @@ footer.pages {
     display: inline-block; }
   .infusion .inner {
     width: 100%;
-    position: relative;
-    padding-bottom: 50px; }
+    position: relative; }
     .infusion .inner .top {
-      position: relative; }
+      position: relative;
+      margin-bottom: 45px; }
       .infusion .inner .top .text {
         width: 43%;
-        padding-top: 60px;
         padding-left: 8%; }
         .infusion .inner .top .text p {
           line-height: 1.7;
@@ -994,7 +993,7 @@ footer.pages {
       background-image: url("../img/top/bg_thumb1.jpg"), url("../img/top/bg_thumb2.jpg");
       background-size: 50%,50%;
       position: relative;
-      bottom: -110px;
+      bottom: 0px;
       left: 0px; }
       .infusion .inner .bottom .box .box-inner {
         position: relative;
@@ -1018,7 +1017,7 @@ footer.pages {
           top: 0; }
     .infusion .inner .bottom .text {
       float: right;
-      padding-top: 80px;
+      padding-top: 50px;
       padding-right: 6%;
       width: 43%; }
       .infusion .inner .bottom .text p {
@@ -1052,7 +1051,6 @@ footer.pages {
         .infusion .inner .top .text {
           width: 92%;
           margin: 0 auto;
-          padding-top: 45px;
           padding-left: 0;
           padding-bottom: 45px; }
           .infusion .inner .top .text p {
@@ -1097,7 +1095,6 @@ footer.pages {
                 font-size: .8rem; }
         .infusion .inner .bottom .text {
           float: none;
-          padding-top: 45px;
           padding-right: 6%;
           width: 92%;
           margin: 0 auto;
@@ -1107,7 +1104,6 @@ footer.pages {
             line-height: 1.7;
             margin-bottom: 35px; } }
 .menu {
-  margin-top: 60px;
   padding: 60px 0; }
   .menu h2 {
     margin-bottom: 30px; }

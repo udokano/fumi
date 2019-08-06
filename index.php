@@ -193,17 +193,17 @@
   </section>-->
   <!--CONCEPT END-->
   
-  <section class="infusion cp cf in-view" id="bg2">
+  <section class="infusion cp cf in-view mb0" id="bg2">
     <div class="inner bg-areas">
       <div class="top flex">
-        <div class="text cp box-size">
+        <div class="text tc cp box-size">
           <h3>注入治療</h3>
           <span class="sm gd">Infusion therapy</span>
-          <p class="pc gosic">カウンセリングで、患者様から、<br>
+          <p class="pc gosic tc">カウンセリングで、患者様から、<br>
             要望・悩みをヒアリングして、<br>
             多くの製剤や治療法の中から最も適したものを<br>
             ご提案いたします。</p>
-          <p class="sp gosic">カウンセリングで、患者様から、
+          <p class="sp gosic tc">カウンセリングで、患者様から、
             要望・悩みをヒアリングして、
             多くの製剤や治療法の中から最も適したものを
             ご提案いたします。</p>
@@ -227,14 +227,14 @@
             </div>
           </div>
         </div>
-        <div class="text cp box-size">
+        <div class="text tc cp box-size">
           <h3>製剤一覧</h3>
           <span class="sm gd">FORMULATION</span>
-          <p class="pc gosic">当院の厳格な審査を通過した、<br>
+          <p class="pc gosic tc">当院の厳格な審査を通過した、<br>
             優良な品質の製剤のみを使用しております。<br>
             患者様の幅広い悩みを解決するために、<br>
             多種類の製剤を取り扱っています。</p>
-          <p class="sp gosic">当院の厳格な審査を通過した、
+          <p class="sp gosic tc">当院の厳格な審査を通過した、
             優良な品質の製剤のみを使用しております。
             患者様の幅広い悩みを解決するために、
             多種類の製剤を取り扱っています。</p>
