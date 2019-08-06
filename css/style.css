@@ -382,6 +382,9 @@ body.page {
 .gd {
   color: #9d8440; }
 
+.bg-cg {
+  background-color: #9d8440 !important; }
+
 .gosic {
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif"; }
 
@@ -1145,19 +1148,38 @@ footer.pages {
             .menu .munu-link li a h3 .sm {
               font-size: .6rem; } }
 .doctor {
-  padding: 60px 0;
-  height: 420px; }
-  .doctor .inner .text {
-    width: 45.4%;
-    padding-left: 5%;
-    padding-top: 30px; }
-    .doctor .inner .text h2 {
-      margin-bottom: 15px; }
-    .doctor .inner .text .cach {
-      font-size: 1.9rem;
-      margin-bottom: 10px; }
-    .doctor .inner .text .btn {
-      margin-top: 60px; }
+  height: 513px; }
+  .doctor .inner {
+    background: url("../img/top/doctor_thumb.png") no-repeat 90% 100%/300px auto;
+    padding: 60px 0; }
+    .doctor .inner .text {
+      width: 45.4%;
+      padding-left: 5%;
+      padding-top: 30px;
+      position: relative; }
+      .doctor .inner .text h2 {
+        margin-bottom: 15px; }
+      .doctor .inner .text .band {
+        border: 1px solid #a64987;
+        padding: 5px 8px;
+        width: 220px;
+        margin: 0 auto 40px; }
+      .doctor .inner .text .cach {
+        font-size: 1.9rem;
+        margin-bottom: 40px; }
+      .doctor .inner .text .btn-wrap {
+        text-align: center; }
+        .doctor .inner .text .btn-wrap .btn {
+          margin: 0px 13px 0;
+          display: inline-block; }
+      .doctor .inner .text .doctor-name {
+        position: absolute;
+        bottom: 10px;
+        right: -440px;
+        font-size: 1.6rem;
+        line-height: .78; }
+        .doctor .inner .text .doctor-name .sm {
+          font-size: .9rem; }
 
 @media (max-width: 767px) {
   .doctor {

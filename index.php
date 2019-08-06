@@ -63,7 +63,7 @@
       <div class="fv-top-wrap">
         <div class="top pc-dis">
           <div class="logos pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_logo.png" alt="FMUI BEAUTY CLINIC">
-            <div class="band cp tc ls2">注入治療専門クリニック</div>
+            <div class="band cp tc ls2">注入＆スレッド治療専門クリニック</div>
           </div>
           <h1><img src="<?php echo get_template_directory_uri(); ?>/img/top/fv2_cach.png" alt="洗練された美容技術で、あなたの美しさを引き出します。"></h1>
         </div>
@@ -137,6 +137,38 @@
   
   <!--banner-area END-->
   <?php endif; ?>
+    <section class="doctor mb0 area-bgs" id="bg4">
+    <div class="inner">
+      <div class="text">
+        <h2 class="cp tc">CONCEPT <span class="sm">ご挨拶</span></h2>
+          
+          
+           <div class="band cp tc ls2">beautiful aging</div>
+          
+          
+        <p class="cach gd pc tc">美しく年齢を重ね<br>輝き続けるために</p>
+        <p class="cach gd sp tc">美しく年齢を重ね輝き続けるために</p>
+          
+          
+             <div class="btn-wrap">
+          
+                      <a href="<?php echo home_url( '/' ); ?>doctor" class="btn bg-cg">院長紹介</a> 
+
+                  <a href="<?php echo home_url( '/' ); ?>concept" class="btn">当院について</a> 
+              
+              </div>
+          
+          
+          
+              <p class="doctor-name cp tc"><span class="sm">fumi beauty clinic院長</span><br>
+先山 史</p>
+          
+      
+            </div>
+        
+         
+    </div>
+  </section>
   <section class="concept area-bgs cf mb0" id="bg1">
     <h2 class="concept-h2 cw">
       <div class="inner-text">CONCEPT <span>コンセプト</span></div>
@@ -234,20 +266,7 @@
         </a> </li>
     </ul>
   </section>
-  <section class="doctor area-bgs" id="bg4">
-    <div class="inner">
-      <div class="text">
-        <h2 class="cp">DOCTOR <span class="sm">院長紹介</span></h2>
-        <p class="cach gd pc">患者様の美と健康のために<br>
-          少しでもお力になれるような<br>
-          出会いを大切にしています。</p>
-        <p class="cach gd sp">患者様の美と健康のために
-          少しでもお力になれるような
-          出会いを大切にしています。</p>
-        <p class="sm gd gosic">fumi beauty clinic院長　先山 史</p>
-        <a href="<?php echo home_url( '/' ); ?>" class="btn">詳しく見る</a> </div>
-    </div>
-  </section>
+  
   <section class="slides">
     <div class="inner flex">
       <div class="left-slide slide-area">

@@ -393,26 +393,55 @@
 
 
 .doctor {
-    padding:  60px 0;
-    height: 420px;
+   
+    height: 513px;
     .inner {
-     
+         background: url("../img/top/doctor_thumb.png") no-repeat 90% 100%/ 300px auto;
+         padding:  60px 0;
+        
         .text {
             width: 45.4%;
             padding-left: 5%;
             padding-top: 30px;
+            position: relative;
             h2 {
                 margin-bottom: 15px;
             }
             
-            .cach {
-                font-size: 1.9rem;
-                margin-bottom: 10px;
+            .band {
+                border: 1px solid $cp;
+                padding: 5px 8px;
+               width: 220px;
+                margin: 0 auto 40px;
             }
             
-            .btn {
-                margin-top: 60px;
+            .cach {
+                font-size: 1.9rem;
+                margin-bottom: 40px;
             }
+            
+            .btn-wrap {
+                text-align: center;
+                 .btn {
+                margin: 0px 13px 0;
+                display: inline-block;
+            }
+                
+                
+            }
+            
+            .doctor-name {
+                position: absolute;
+                bottom: 10px;
+                right: -440px;
+                font-size: 1.6rem;
+                line-height: .78;
+                .sm {
+                    font-size: .9rem;
+                }
+            }
+            
+           
         }
     }
 }
