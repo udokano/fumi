@@ -40,23 +40,25 @@
             margin: 0 auto;
             .top {
             padding-top: 80px;
-            margin-bottom: 140px;
+            margin-bottom: 5px;
             h1 {
-                width: 29%;
+                width: 84%;
+                margin: auto;
                 min-width: 310px;
             }
             
             .logos {
                 width: 31%;
+                margin: auto;
                 min-width: 320px;
                 img {
                     display: block;
-                    margin-bottom: 50px;
+                    margin-bottom: 0px;
                 }
                 
                 .band {
                     border: 1px solid $cp;
-                    background-color: $bg-w;
+                    background-color: transparent;
                     padding: 8px 18px;
                     font-size: 1.27rem;
                 }

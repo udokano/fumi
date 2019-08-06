@@ -61,23 +61,23 @@
   <div class="fv">
     <div class="inner-box">
       <div class="fv-top-wrap">
-        <div class="top flex pc-dis">
-          <h1><img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_cach.png" alt="洗練された美容技術で、あなたの美しさを引き出します。"></h1>
+        <div class="top pc-dis">
           <div class="logos pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_logo.png" alt="FMUI BEAUTY CLINIC">
             <div class="band cp tc ls2">注入治療専門クリニック</div>
           </div>
+          <h1><img src="<?php echo get_template_directory_uri(); ?>/img/top/fv2_cach.png" alt="洗練された美容技術で、あなたの美しさを引き出します。"></h1>
         </div>
       </div>
       <!--FV-top-wrap END-->
       <div class="bottom flex">
         <ul class="menu-link flex">
           <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>concept"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
-            <p class="cp tc ls1">当院について<br>
-              <span class="gd">ABOUT</span></p>
+            <p class="cp tc ls1">注入オーダーメイド<br>
+              <span class="gd">ORDER MADE</span></p>
             </a> </li>
           <li class="box-size"> <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02.jpg" alt="サムネイル">
-            <p class="cp tc ls1">オーダーメイド治療<br>
-              <span class="gd">ORDER MADE</span></p>
+            <p class="cp tc ls1">スレッドリフト<br>
+              <span class="gd">THREAD LIFT</span></p>
             </a> </li>
         </ul>
         <div class="cv-wrap box-size">
@@ -111,18 +111,15 @@
         <div class="swiper-slide"><a href="<?php the_sub_field('bnr_sp_link',28); ?>" target="_blank"><img src="<?php the_sub_field('bnr_sp_img',28); ?>" alt="注入オーダーメイドカウンセリングで、患者様から要望・お悩みをヒアリングして、
                             多くの製材や治療法の中から最も適したものをご提案いたします。"></a></div>
         <?php endwhile; ?>
-                </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
   </div>
   <?php else: ?>
   <?php endif; ?>
   <?php else: ?>
-    
-    
-     <?php if( have_rows('bnr_pc',28) ): ?>
+  <?php if( have_rows('bnr_pc',28) ): ?>
   <div class="banner-arwa" id="contents1">
     <div class="swiper-container swiper1 cont">
       <div class="swiper-wrapper">
@@ -130,16 +127,14 @@
         <div class="swiper-slide"><a href="<?php the_sub_field('bnr_pc_link',28); ?>" target="_blank"><img src="<?php the_sub_field('bnr_pc_img',28); ?>" alt="注入オーダーメイドカウンセリングで、患者様から要望・お悩みをヒアリングして、
                             多くの製材や治療法の中から最も適したものをご提案いたします。"></a></div>
         <?php endwhile; ?>
-            </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-    
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
   </div>
   <?php else: ?>
   <?php endif; ?>
   
-
   <!--banner-area END-->
   <?php endif; ?>
   <section class="concept area-bgs cf mb0" id="bg1">
@@ -161,13 +156,12 @@
   </section>
   <!--CONCEPT END-->
   
-  <section class="infusion flex cp cf in-view">
-    <h2 class="rl">注入治療</h2>
-    <div class="contents bg-areas"  id="bg2">
+  <section class="infusion cp cf in-view" id="bg2">
+    <div class="inner bg-areas">
       <div class="top flex">
         <div class="text cp box-size">
-          <h3>オーダーメイド治療</h3>
-          <span class="sm gd">ORDER MADE</span>
+          <h3>注入治療</h3>
+          <span class="sm gd">Infusion therapy</span>
           <p class="pc gosic">カウンセリングで、患者様から、<br>
             要望・悩みをヒアリングして、<br>
             多くの製剤や治療法の中から最も適したものを<br>
@@ -275,17 +269,18 @@
             ?>
             <div class="qas gd box-size swiper-slide">
               <h3 class="cat cw tc">
-        <?php //所属タクソノミー表示
-        $terms = wp_get_object_terms($post->ID,'faq_kind');
-        foreach($terms as $term){
-          echo $term->name;
-        }
-      ?></h3>
+                <?php //所属タクソノミー表示
+                $terms = wp_get_object_terms( $post->ID, 'faq_kind' );
+                foreach ( $terms as $term ) {
+                  echo $term->name;
+                }
+                ?>
+              </h3>
               <p class="qa-txt pb0"><span class="q">Q</span>
                 <?php the_title(); ?>
               </p>
               <div class="qa-txt text-over"><span class="a">A</span>
-                      <?php remove_filter('the_content', 'wpautop'); ?>
+                <?php remove_filter('the_content', 'wpautop'); ?>
                 <?php the_content()?>
               </div>
             </div>
@@ -322,7 +317,7 @@
                     <?php the_title(); ?>
                   </h3>
                   <div class="ba-txt gosic box-size text-over">
-                      <?php remove_filter('the_content', 'wpautop'); ?>
+                    <?php remove_filter('the_content', 'wpautop'); ?>
                     <?php the_content()?>
                   </div>
                 </div>
@@ -393,8 +388,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script> 
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script> 
-<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
-      <script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script> 
+<script>
     function initMap() {
         var latlng = new google.maps.LatLng( 34.707103, 135.495992 );
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -418,8 +413,8 @@
             map.setMapTypeId( 'GrayScaleMap' );
         /*=========ここまで追加=========*/
       }
-</script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBwr6DPo5X5S4CbkcKpSV5atpzNnKAifI&callback=initMap"></script>
+</script> 
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBwr6DPo5X5S4CbkcKpSV5atpzNnKAifI&callback=initMap"></script>
 <?php wp_footer(); ?>
 </body>
 </html>
