@@ -638,30 +638,33 @@ body.page {
 .fv {
   padding-top: 91px;
   background: url("../img/top/fv2_pc.jpg") no-repeat 50% 0%/cover;
-  height: 1000px;
+  height: 880px;
   position: relative; }
   .fv .inner-box .fv-top-wrap {
     width: 94%;
     margin: 0 auto; }
     .fv .inner-box .fv-top-wrap .top {
-      padding-top: 80px;
+      padding-top: 35px;
       margin-bottom: 5px; }
       .fv .inner-box .fv-top-wrap .top h1 {
         width: 84%;
         margin: auto;
         min-width: 310px; }
       .fv .inner-box .fv-top-wrap .top .logos {
-        width: 31%;
-        margin: auto;
-        min-width: 320px; }
+        width: 41%;
+        margin: 0 auto 18px;
+        min-width: 320px;
+        text-align: center; }
         .fv .inner-box .fv-top-wrap .top .logos img {
           display: block;
-          margin-bottom: 0px; }
+          width: 77%;
+          margin: 0px auto; }
         .fv .inner-box .fv-top-wrap .top .logos .band {
           border: 1px solid #a64987;
           background-color: transparent;
           padding: 8px 18px;
-          font-size: 1.27rem; }
+          font-size: 1.27rem;
+          display: inline-block; }
   .fv .inner-box .bottom .menu-link {
     width: 49%; }
     .fv .inner-box .bottom .menu-link li {
