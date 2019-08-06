@@ -759,17 +759,17 @@ footer {
   margin-bottom: 60px; }
   footer .inner .navi {
     width: 80%;
-    min-width: 1000px; }
+    min-width: 700px; }
     footer .inner .navi ul {
       -webkit-box-pack: start;
           -ms-flex-pack: start;
               justify-content: flex-start; }
       footer .inner .navi ul li {
         margin: 0;
-        margin-right: 5.5%; }
+        margin-right: 3.5%; }
   footer .inner .copy {
     font-size: .7rem;
-    min-width: 300px; }
+    width: 300px; }
 
 @media (max-width: 767px) {
   footer {
@@ -1125,7 +1125,7 @@ footer.pages {
     display: -ms-flexbox;
     display: flex; }
     .menu .munu-link li.box-size {
-      width: 29.7%;
+      width: 31.7%;
       margin-bottom: 5%;
       height: 420px; }
       .menu .munu-link li.box-size a {

@@ -6,19 +6,19 @@ footer {
     .inner {
         .navi {
             width: 80%;
-            min-width: 1000px;
+            min-width: 700px;
             ul {
                 justify-content: flex-start;
                 li {
                     margin: 0;
-                    margin-right: 5.5%;
+                    margin-right: 3.5%;
                 }
             }
         }
         
         .copy {
             font-size: .7rem;
-            min-width: 300px;
+            width: 300px;
         }
     }
 }
