@@ -122,8 +122,7 @@
     <div class="swiper-container swiper1 cont">
       <div class="swiper-wrapper">
         <?php while ( have_rows('bnr_sp',28) ) : the_row(); ?>
-        <div class="swiper-slide"><a href="<?php the_sub_field('bnr_sp_link',28); ?>" target="_blank"><img src="<?php the_sub_field('bnr_sp_img',28); ?>" alt="注入オーダーメイドカウンセリングで、患者様から要望・お悩みをヒアリングして、
-                            多くの製材や治療法の中から最も適したものをご提案いたします。"></a></div>
+        <div class="swiper-slide"><a href="<?php the_sub_field('bnr_sp_link',28); ?>" target="_blank"><img src="<?php the_sub_field('bnr_sp_img',28); ?>" alt="キャンペーンバナー"></a></div>
         <?php endwhile; ?>
       </div>
       <div class="swiper-button-prev"></div>
@@ -138,8 +137,7 @@
     <div class="swiper-container swiper1 cont">
       <div class="swiper-wrapper">
         <?php while ( have_rows('bnr_pc',28) ) : the_row(); ?>
-        <div class="swiper-slide"><a href="<?php the_sub_field('bnr_pc_link',28); ?>" target="_blank"><img src="<?php the_sub_field('bnr_pc_img',28); ?>" alt="注入オーダーメイドカウンセリングで、患者様から要望・お悩みをヒアリングして、
-                            多くの製材や治療法の中から最も適したものをご提案いたします。"></a></div>
+        <div class="swiper-slide"><a href="<?php the_sub_field('bnr_pc_link',28); ?>" target="_blank"><img src="<?php the_sub_field('bnr_pc_img',28); ?>" alt="キャンペーンバナー"></a></div>
         <?php endwhile; ?>
       </div>
       <div class="swiper-button-prev"></div>
