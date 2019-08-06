@@ -169,7 +169,7 @@
          
     </div>
   </section>
-  <section class="concept area-bgs cf mb0" id="bg1">
+ <!-- <section class="concept area-bgs cf mb0" id="bg1">
     <h2 class="concept-h2 cw">
       <div class="inner-text">CONCEPT <span>コンセプト</span></div>
     </h2>
@@ -185,7 +185,7 @@
         <p class="tc mb30 sp">スタッフ一同、患者様の気持ちに寄り添い、患者様との優良な信頼関係を作りあげるように日々精進しています。 </p>
         <a href="<?php echo home_url( '/' ); ?>concept" class="btn">当院について</a> </div>
     </div>
-  </section>
+  </section>-->
   <!--CONCEPT END-->
   
   <section class="infusion cp cf in-view" id="bg2">
