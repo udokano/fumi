@@ -13,7 +13,10 @@
 <div class="wrapper">
   <header class="site-header front">
     <div class="header-inner flex al-cent">
-      <div class="logo"><a href="<?php echo home_url( '/' ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/common/logo.png" alt="FMUI BEAUTY CLINIC"></a></div>
+      <div class="logo tc"><a href="<?php echo home_url( '/' ); ?>">
+          <p class="gosic">ふみビューティークリニック梅田</p>
+          
+          <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo.png" alt="FMUI BEAUTY CLINIC"></a></div>
       <nav class="navi pc-dis">
         <ul class="flex">
           <li><a href="<?php echo home_url( '/' ); ?>concept">当院について</a></li>

@@ -9,11 +9,20 @@
     .header-inner {
         .logo {
             padding-left: 2%;
-            width: 22%;
+            width: 16%;
             max-width: 260px;
+            p {
+                font-size: .68rem;
+                color: #454545;
+                margin-bottom: 5px;
+            }
+            img {
+                display: block;
+            }
         }
         
         .navi {
+            padding-left: 8%;
             width: 48%;
             ul {
                 justify-content: flex-end;
@@ -135,8 +144,11 @@
     .header-inner {
         .logo {
             padding-left: 2%;
-            width: 30%;
+            width: 45%;
             min-width: 140px;
+              p {
+                font-size: .5rem;
+            }
         }
         
      
