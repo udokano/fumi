@@ -102,42 +102,21 @@
   <!--FV END-->
   
   <?php endif; ?>
-  
-    <section class="doctor mb0 area-bgs" id="bg4">
+  <section class="doctor mb0 area-bgs" id="bg4">
     <div class="inner">
       <div class="text">
         <h2 class="cp tc">CONCEPT <span class="sm">ご挨拶</span></h2>
-          
-          
-           <div class="band cp tc ls2">beautiful aging</div>
-          
-          
-        <p class="cach gd pc tc">美しく年齢を重ね<br>輝き続けるために</p>
+        <div class="band cp tc ls2">beautiful aging</div>
+        <p class="cach gd pc tc">美しく年齢を重ね<br>
+          輝き続けるために</p>
         <p class="cach gd sp tc">美しく年齢を重ね輝き続けるために</p>
-          
-          
-             <div class="btn-wrap">
-          
-                      <a href="<?php echo home_url( '/' ); ?>doctor" class="btn bg-cg">院長紹介</a> 
-
-                  <a href="<?php echo home_url( '/' ); ?>concept" class="btn">当院について</a> 
-              
-              </div>
-          
-          
-          
-              <p class="doctor-name cp tc"><span class="sm">fumi beauty clinic院長</span><br>
-先山 史</p>
-          
-      
-            </div>
-        
-         
+        <div class="btn-wrap"> <a href="<?php echo home_url( '/' ); ?>doctor" class="btn bg-cg">院長紹介</a> <a href="<?php echo home_url( '/' ); ?>concept" class="btn">当院について</a> </div>
+        <p class="doctor-name cp tc"><span class="sm">fumi beauty clinic院長</span><br>
+          先山 史</p>
+      </div>
     </div>
   </section>
-    
-    
-    <?php if ( wp_is_mobile() ) : ?>
+  <?php if ( wp_is_mobile() ) : ?>
   <?php if( have_rows('bnr_sp',28) ): ?>
   <div class="banner-arwa" id="contents1">
     <div class="swiper-container swiper1 cont">
@@ -172,9 +151,8 @@
   
   <!--banner-area END-->
   <?php endif; ?>
-    
-    
- <!-- <section class="concept area-bgs cf mb0" id="bg1">
+  
+  <!-- <section class="concept area-bgs cf mb0" id="bg1">
     <h2 class="concept-h2 cw">
       <div class="inner-text">CONCEPT <span>コンセプト</span></div>
     </h2>
@@ -190,7 +168,7 @@
         <p class="tc mb30 sp">スタッフ一同、患者様の気持ちに寄り添い、患者様との優良な信頼関係を作りあげるように日々精進しています。 </p>
         <a href="<?php echo home_url( '/' ); ?>concept" class="btn">当院について</a> </div>
     </div>
-  </section>-->
+  </section>--> 
   <!--CONCEPT END-->
   
   <section class="infusion cp cf in-view mb0" id="bg2">
@@ -242,36 +220,62 @@
       </div>
     </div>
   </section>
-  <section class="menu area-bgs mb0" id="bg3">
+  <section class="menu area-bgs" id="bg3">
     <h2 class="cw tc">MENU</h2>
     <ul class="munu-link flex">
       <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>concept">
+        <h3 class="cw tc">たるみ治療</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb05.jpg" alt="サムネイル"></div>
-        <h3 class="cw tc">当院について <span class="sm tc cw">ABOUT
-          </sapn>
-        </h3>
+        <ul>
+          <li>・ヒアルロン酸</li>
+          <li>・スレッドリフト</li>
+        </ul>
         </a> </li>
       <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>">
+        <h3 class="cw tc">しわ治療 </h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb06.jpg" alt="サムネイル"></div>
-        <h3 class="cw tc">施術・料金 <span class="sm tc cw">LIST
-          </sapn>
-        </h3>
+        <ul>
+          <li>・ヒアルロン酸</li>
+          <li>・スレッドリフト</li>
+        </ul>
         </a> </li>
       <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>">
+        <h3 class="cw tc">小顔治療 </h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb07.jpg" alt="サムネイル"></div>
-        <h3 class="cw tc">採用情報 <span class="sm tc cw">RECRUIT
-          </sapn>
-        </h3>
+        <ul>
+          <li>・脂肪溶解注射</li>
+          <li>・BNLS</li>
+          <li>・ボトックスリフト</li>
+        </ul>
         </a> </li>
       <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>" target="_blank">
+        <h3 class="cw tc">鼻 <span class="sm">(隆鼻、鼻筋をつくる)</span></h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb08.jpg" alt="サムネイル"></div>
-        <h3 class="cw tc">来院予約 <span class="sm tc cw">RESERVE
-          </sapn>
-        </h3>
+        <ul>
+          <li>・Gメッシュ</li>
+          <li>・Gコグノーズ</li>
+        </ul>
+        </a> </li>
+        
+         <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>" target="_blank">
+        <h3 class="cw tc">形成外科治療</h3>
+        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb09.jpg" alt="サムネイル"></div>
+        <ul>
+          <li>・色素性母斑(黒子、ホクロ)</li>
+            <li>・皮膚良性腫瘍(粉瘤、脂漏性角化症、軟繊維種、汗管腫など)</li>
+          <li>・肥厚性瘢痕/ケロイド</li> <li>・巻き爪・陥入爪</li>
+        </ul>
+        </a> </li>
+        
+         <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>" target="_blank">
+        <h3 class="cw tc">美肌治療</h3>
+        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb10.jpg" alt="サムネイル"></div>
+        <ul>
+          <li>・メディカルエステ</li>
+        </ul>
         </a> </li>
     </ul>
   </section>
-  
   <section class="slides">
     <div class="inner flex">
       <div class="left-slide slide-area">
