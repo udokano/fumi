@@ -21,7 +21,7 @@
           <li><a href="<?php echo home_url( '/' ); ?>">施術・料金</a></li>
           <li><a href="<?php echo home_url( '/' ); ?>access">アクセス</a></li>
           <li><a href="<?php echo home_url( '/' ); ?>doctor">ドクター紹介</a></li>
-          <li><a href="<?php echo home_url( '/' ); ?>">採用情報</a></li>
+          <li><a href="<?php echo home_url( '/' ); ?>recruit">採用情報</a></li>
         </ul>
       </nav>
       <div class="top-cv-btn"> <a class="bg-rs cv-btns" href="#" target="_blank"><span>来院予約</span></a> <a class="bg-ct cv-btns" href="<?php echo home_url( '/' ); ?>contact"><span>お問合わせ</span></a> </div>

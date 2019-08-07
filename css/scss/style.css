@@ -1617,6 +1617,8 @@ footer.pages {
           overflow-y: scroll; }
         .contact-form .inner form dl dd .harf {
           width: 50%; }
+        .contact-form .inner form dl dd ::placeholder {
+          color: #ccc; }
   .contact-form .inner dl.kind dd {
     border-top: 1px solid #efefef; }
   .contact-form .inner .send-wrap .btn {
@@ -1769,7 +1771,8 @@ footer.pages {
   max-width: 1360px; }
   .recruit-intro .inner .text {
     width: 50%;
-    padding: 40px 28px; }
+    padding: 40px;
+    padding-left: 100px; }
     .recruit-intro .inner .text h2 {
       margin-bottom: 25px; }
     .recruit-intro .inner .text p {

@@ -1895,7 +1895,8 @@ footer.pages {
   max-width: 1360px; }
   .recruit-intro .inner .text {
     width: 50%;
-    padding: 40px 28px; }
+    padding: 40px;
+    padding-left: 100px; }
     .recruit-intro .inner .text h2 {
       margin-bottom: 25px; }
     .recruit-intro .inner .text p {

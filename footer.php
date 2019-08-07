@@ -5,7 +5,7 @@
     
         <div class="f-logo">
         
-            <img src="<?php echo get_template_directory_uri(); ?>/img/common/footer_logo.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/common/footer_logo.png" alt="ふみビューティークリニック梅田">
         
         </div>
         
@@ -32,7 +32,7 @@
           <li><a href="<?php echo home_url( '/' ); ?>">施術・料金</a></li>
           <li><a href="<?php echo home_url( '/' ); ?>access">アクセス</a></li>
           <li><a href="<?php echo home_url( '/' ); ?>doctor">ドクター紹介</a></li>
-          <li><a href="<?php echo home_url( '/' ); ?>">採用情報</a></li>
+          <li><a href="<?php echo home_url( '/' ); ?>"recruit>採用情報</a></li>
           <li><a href="#" target="_blank">来院予約</a></li>
           <li><a href="<?php echo home_url( '/' ); ?>contact">お問合わせ</a></li>
         </ul>
