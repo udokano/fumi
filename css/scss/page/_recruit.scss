@@ -136,31 +136,22 @@
         }
         
         dl {
-            border-bottom: 1px solid #ccc;
-            display: table;
             table-layout: fixed;
             width: 100%;
             dt,dd {
-                display:table-cell;
                 padding: 12px 10px;
-                box-sizing: border-box;
             }
             
             dt {
                 width: 20%;
-                background-color: #f8f8f8;
             }
             
             dd {
                 width: 80%;
                 span {
-                    margin-right: .5em;
                 }
             }
-            &:nth-of-type(1) {
-                border-top: 1px solid #ccc;
-            }
-            
+           
         }
         
         

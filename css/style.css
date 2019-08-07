@@ -1965,23 +1965,13 @@ footer.pages {
     .recruit-info .inner h2 {
       margin-bottom: 45px; }
     .recruit-info .inner dl {
-      border-bottom: 1px solid #ccc;
-      display: table;
       table-layout: fixed;
       width: 100%; }
       .recruit-info .inner dl dt, .recruit-info .inner dl dd {
-        display: table-cell;
-        padding: 12px 10px;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box; }
+        padding: 12px 10px; }
       .recruit-info .inner dl dt {
-        width: 20%;
-        background-color: #f8f8f8; }
+        width: 20%; }
       .recruit-info .inner dl dd {
-        width: 80%; }
-        .recruit-info .inner dl dd span {
-          margin-right: .5em; }
-      .recruit-info .inner dl:nth-of-type(1) {
-        border-top: 1px solid #ccc; } }
+        width: 80%; } }
 
 /*# sourceMappingURL=style.css.map */
