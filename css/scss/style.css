@@ -1578,7 +1578,8 @@ footer.pages {
   .contact-form .inner .contact-flow {
     margin-bottom: 30px; }
   .contact-form .inner form {
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif"; }
     .contact-form .inner form dl {
       display: table; }
       .contact-form .inner form dl dd, .contact-form .inner form dl dt {

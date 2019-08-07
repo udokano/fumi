@@ -70,8 +70,10 @@ Template Name: 採用情報
 採用担当者より折り返しご連絡いたします。</p>
     <div class="contact-flow"> <img src="<?php echo get_template_directory_uri(); ?>/img/contact/flow.jpg" alt="流れ"> </div>
   
+       <?php echo do_shortcode('[mwform_formkey key="72"]'); ?>
+      
      
-    <form class="gosic">
+   <!-- <form class="gosic">
       <dl class="kind">
         <dt>希望職種<span class="ra">必須</span></dt>
         <dd>
@@ -100,10 +102,10 @@ Template Name: 採用情報
          <dl class="">
         <dt>住所<span class="ra">必須</span></dt>
         <dd>
-          <label><input type="text" name="000-0000" class="harf" placeholder="000-0000"></label>
-             <label><input type="text" name="000-0000" placeholder="都道府県"></label>
-             <label><input type="text" name="000-0000" placeholder="市区町村"></label>
-             <label><input type="text" name="000-0000" placeholder="丁目番地"></label>
+          <label><input type="text" name="郵便番号" class="harf" placeholder="000-0000"></label>
+             <label><input type="text" name="都道府県" placeholder="都道府県"></label>
+             <label><input type="text" name="市区町村" placeholder="市区町村"></label>
+             <label><input type="text" name="丁目番地" placeholder="丁目番地"></label>
             
             
             
@@ -163,7 +165,7 @@ Template Name: 採用情報
         <input type="submit" value="確認画面へ" class="send btn">
       </div>
      
-    </form>
+    </form>-->
       
       
         <div class="note tc">※ドメイン指定受信を設定されている方は、<br>

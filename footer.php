@@ -82,6 +82,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script> 
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script> 
 <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
+<script src="https://ajaxzip3.github.io/ajaxzip3.js"></script>
+
   <script>
   
 <?php wp_footer(); ?>
