@@ -359,6 +359,11 @@ body.page {
 @media (min-width: 768px) {
   .rl {
     writing-mode: vertical-rl; } }
+.f-ryu {
+  font-family: a-otf-ryumin-pr6n, serif;
+  font-weight: 300;
+  font-style: normal; }
+
 .bg-cp {
   background-color: #f6eeee;
   padding: 50px 0; }
@@ -627,7 +632,8 @@ body.page {
       margin-bottom: 30px;
       justify-content: flex-start; }
       .fv .inner-box .bottom .cv-wrap .top .tel {
-        margin: 0 3.2%; }
+        margin: 0 3.2%;
+        font-size: 2.2rem; }
       .fv .inner-box .bottom .cv-wrap .top .sm {
         font-size: .74rem; }
   .fv .scroll-down {
@@ -696,18 +702,24 @@ body.page {
         .fv .box-wrap .cv-wrap .top {
           padding-top: 0; }
           .fv .box-wrap .cv-wrap .top .txt {
-            font-size: 1.7rem;
-            margin-bottom: 5px; }
+            font-size: 1.4rem;
+            margin-bottom: 2.1%; }
           .fv .box-wrap .cv-wrap .top .midle {
             margin-bottom: 10px; }
             .fv .box-wrap .cv-wrap .top .midle .tel {
-              width: 70%; }
+              width: 100%;
+              text-align: center;
+              margin-bottom: 1.1%; }
               .fv .box-wrap .cv-wrap .top .midle .tel a {
                 background-size: 28px;
-                font-size: 1.8rem;
-                padding-left: 35px; }
+                font-size: 2.57rem;
+                padding-left: 52px;
+                background-size: 40px; }
             .fv .box-wrap .cv-wrap .top .midle .time {
-              width: 30%; }
+              width: 100%;
+              font-size: .5rem;
+              letter-spacing: 0;
+              text-align: center; }
         .fv .box-wrap .cv-wrap .bottom .cv-btns {
           width: 48%;
           padding: 20px 0; }
@@ -1093,11 +1105,15 @@ footer.pages {
             width: 50%;
             font-size: .8rem;
             font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
-            margin-bottom: 12px; }
+            margin-bottom: 8px; }
         .menu .munu-link li.box-size a ul.col li {
           display: block;
           width: 100%;
           float: none; }
+          .menu .munu-link li.box-size a ul.col li .sm {
+            font-size: .5rem;
+            opacity: 1;
+            display: inline; }
 
 @media (max-width: 767px) {
   .menu {
@@ -1114,7 +1130,7 @@ footer.pages {
         margin-bottom: 60px;
         height: 240px; }
         .menu .munu-link li.box-size a .thumb {
-          margin-bottom: 20px;
+          margin-bottom: 10px;
           height: 90px; }
           .menu .munu-link li.box-size a .thumb img {
             width: 100%;
@@ -1133,11 +1149,7 @@ footer.pages {
             width: 100%;
             font-size: .7rem;
             font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
-            margin-bottom: 4px; }
-            .menu .munu-link li.box-size a ul li .sm {
-              font-size: .5rem;
-              opacity: 1;
-              display: inline; } }
+            margin-bottom: 4px; } }
 .doctor {
   height: 500px; }
   .doctor .inner {
