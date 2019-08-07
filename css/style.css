@@ -1306,7 +1306,7 @@ footer.pages {
           -webkit-transform: translateX(-50%);
                   transform: translateX(-50%);
           bottom: 50px;
-          font-size: 1.6rem;
+          font-size: 1.8rem;
           line-height: .78;
           background: url("../img/top/bg_doctor_name.png") no-repeat 50% 50%/180px;
           padding: 0%;
@@ -1732,6 +1732,8 @@ footer.pages {
         .contact-form .inner form dl dd textarea {
           height: 430px;
           overflow-y: scroll; }
+        .contact-form .inner form dl dd .harf {
+          width: 50%; }
   .contact-form .inner dl.kind dd {
     border-top: 1px solid #efefef; }
   .contact-form .inner .send-wrap .btn {
@@ -1879,5 +1881,97 @@ footer.pages {
         font-size: 1.17rem; }
     .doctor-carrer .inner .left {
       margin-bottom: 35px; } }
+.recruit-intro .inner {
+  width: auto;
+  max-width: 1360px; }
+  .recruit-intro .inner .text {
+    width: 50%;
+    padding: 40px 28px; }
+    .recruit-intro .inner .text h2 {
+      margin-bottom: 25px; }
+    .recruit-intro .inner .text p {
+      margin-bottom: 35px;
+      line-height: 1.7; }
+    .recruit-intro .inner .text a {
+      display: inline-block;
+      padding: 14px 44px;
+      border: 1px solid #666;
+      color: #666; }
+  .recruit-intro .inner .thumb {
+    width: 50%; }
+
+.recruit-info .inner {
+  width: 800px;
+  margin: auto; }
+  .recruit-info .inner h2 {
+    margin-bottom: 45px; }
+  .recruit-info .inner dl {
+    border-bottom: 1px solid #ccc;
+    display: table; }
+    .recruit-info .inner dl dt, .recruit-info .inner dl dd {
+      display: table-cell;
+      padding: 15px 25px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+    .recruit-info .inner dl dt {
+      width: 120px;
+      background-color: #f8f8f8; }
+    .recruit-info .inner dl dd {
+      width: 680px; }
+      .recruit-info .inner dl dd span {
+        margin-right: .5em; }
+    .recruit-info .inner dl:nth-of-type(1) {
+      border-top: 1px solid #ccc; }
+
+.recruit-form h2 {
+  margin-bottom: 30px; }
+
+@media (max-width: 767px) {
+  .recruit-intro .inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse; }
+    .recruit-intro .inner .text {
+      width: 90%;
+      margin: auto;
+      padding: 40px 28px; }
+      .recruit-intro .inner .text h2 {
+        margin-bottom: 25px; }
+      .recruit-intro .inner .text p {
+        margin-bottom: 35px;
+        line-height: 1.7; }
+      .recruit-intro .inner .text a {
+        display: inline-block;
+        padding: 14px 44px;
+        border: 1px solid #666;
+        color: #666; }
+    .recruit-intro .inner .thumb {
+      width: 100%; }
+
+  .recruit-info .inner {
+    width: 92%;
+    margin: auto; }
+    .recruit-info .inner h2 {
+      margin-bottom: 45px; }
+    .recruit-info .inner dl {
+      border-bottom: 1px solid #ccc;
+      display: table;
+      table-layout: fixed;
+      width: 100%; }
+      .recruit-info .inner dl dt, .recruit-info .inner dl dd {
+        display: table-cell;
+        padding: 12px 10px;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box; }
+      .recruit-info .inner dl dt {
+        width: 20%;
+        background-color: #f8f8f8; }
+      .recruit-info .inner dl dd {
+        width: 80%; }
+        .recruit-info .inner dl dd span {
+          margin-right: .5em; }
+      .recruit-info .inner dl:nth-of-type(1) {
+        border-top: 1px solid #ccc; } }
 
 /*# sourceMappingURL=style.css.map */
