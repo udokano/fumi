@@ -915,7 +915,7 @@ footer.pages {
         padding-left: 0px; } }
 .infusion {
   padding-top: 60px;
-  max-width: 1350px;
+  max-width: 1380px;
   margin: 0 auto; }
   .infusion h2 {
     width: 10%;
@@ -990,6 +990,8 @@ footer.pages {
       display: block;
       width: auto;
       margin-bottom: 35px; }
+    .infusion h3 {
+      font-size: 1.87rem; }
     .infusion .inner {
       width: 100%;
       max-width: none;
@@ -999,13 +1001,13 @@ footer.pages {
         position: relative;
         flex-flow: column; }
         .infusion .inner .top .text {
-          width: 92%;
+          width: 80%;
           margin: 0 auto;
           padding-left: 0;
           padding-bottom: 45px; }
           .infusion .inner .top .text p {
             line-height: 1.7;
-            margin: 30px 0 20px; }
+            margin: 20px 0; }
         .infusion .inner .top .thumb {
           width: 100%;
           margin: auto; }
@@ -1042,12 +1044,13 @@ footer.pages {
                 font-size: .8rem; }
         .infusion .inner .bottom .text {
           float: none;
-          padding-right: 6%;
-          width: 92%;
+          padding-top: 0;
+          padding-right: 0%;
+          width: 80%;
           margin: 0 auto;
           padding-bottom: 45px; }
           .infusion .inner .bottom .text p {
-            margin: 30px 0 20px;
+            margin: 20px 0;
             line-height: 1.7;
             margin-bottom: 35px; } }
 .menu {
@@ -1055,7 +1058,7 @@ footer.pages {
   .menu h2 {
     margin-bottom: 30px; }
   .menu .munu-link {
-    max-width: 1350px;
+    max-width: 1380px;
     margin: auto;
     flex-wrap: wrap;
     display: flex; }
@@ -1090,9 +1093,11 @@ footer.pages {
             width: 50%;
             font-size: .8rem;
             font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
-            margin-bottom: 15px; }
-        .menu .munu-link li.box-size a span {
-          display: block; }
+            margin-bottom: 12px; }
+        .menu .munu-link li.box-size a ul.col li {
+          display: block;
+          width: 100%;
+          float: none; }
 
 @media (max-width: 767px) {
   .menu {
@@ -1125,14 +1130,14 @@ footer.pages {
             color: #fff;
             float: left;
             display: inline-block;
-            width: 50%;
-            font-size: .8rem;
+            width: 100%;
+            font-size: .7rem;
             font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
-            margin-bottom: 8px; }
-        .menu .munu-link li.box-size a ul.col li {
-          display: block;
-          width: 100%;
-          float: none; } }
+            margin-bottom: 4px; }
+            .menu .munu-link li.box-size a ul li .sm {
+              font-size: .5rem;
+              opacity: 1;
+              display: inline; } }
 .doctor {
   height: 500px; }
   .doctor .inner {

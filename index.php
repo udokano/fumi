@@ -270,8 +270,8 @@
         <h3 class="cw tc">形成外科治療</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb09.jpg" alt="サムネイル"></div>
         <ul class="col">
-          <li>・色素性母斑(黒子、ホクロ)</li>
-            <li>・皮膚良性腫瘍(粉瘤、脂漏性角化症、軟繊維種、汗管腫など)</li>
+          <li>・色素性母斑<span class="sm">(黒子、ホクロ)</span></li>
+            <li>・皮膚良性腫瘍<span class="sm">(粉瘤、脂漏性角化症、軟繊維種、汗管腫など)</span></li>
           <li>・肥厚性瘢痕/ケロイド</li> <li>・巻き爪・陥入爪</li>
         </ul>
         </a> </li>

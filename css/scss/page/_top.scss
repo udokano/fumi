@@ -115,7 +115,7 @@
 
 .infusion {
     padding-top: 60px;
-    max-width: 1350px;
+    max-width: 1380px;
     margin: 0 auto;
     h2 {
         width: 10%;
@@ -222,6 +222,10 @@
         margin-bottom: 35px;
     }
     
+    h3 {
+        font-size: 1.87rem;
+    }
+    
     .inner {
         width: 100%;
         max-width: none;
@@ -231,14 +235,14 @@
             position: relative;
             flex-flow: column;
             .text {
-                width: 92%;
+                width: 80%;
                  @include box-center;
                
                 padding-left: 0;
                 padding-bottom: 45px;
                 p {
                     line-height: 1.7;
-                    margin: 30px 0 20px;
+                    margin: 20px 0;
                 }
             }
             
@@ -295,13 +299,13 @@
             
             .text {
                 float: none;
-                
-                padding-right: 6%;
-                width: 92%;
+                padding-top: 0;
+                padding-right: 0%;
+                width:80%;
                  @include box-center;
                 padding-bottom: 45px;
                 p {
-                    margin: 30px 0 20px;
+                    margin: 20px 0 ;
                      line-height: 1.7;
                     margin-bottom: 35px;
                 }
@@ -324,7 +328,7 @@
     }
     
     .munu-link {
-        max-width: 1350px;
+        max-width: 1380px;
         margin: auto;
         flex-wrap: wrap;
         display: flex;
@@ -369,16 +373,19 @@
                         width: 50%;
                         font-size: .8rem;
                         font-family: $gosic;
-                        margin-bottom: 15px;
+                        margin-bottom: 12px;
                        
                     }
                 }
                 
-               
-            span {
-                display: block;
-            }
-      
+                
+                  ul.col {
+                    li {
+                        display: block;
+                        width: 100%;
+                        float: none;
+                    }
+                }
             }
         }
     }
@@ -427,21 +434,20 @@
                         color: #fff;
                         float: left;
                         display: inline-block;
-                        width: 50%;
-                        font-size: .8rem;
+                        width: 100%;
+                        font-size: .7rem;
                         font-family: $gosic;
-                        margin-bottom: 8px;
+                        margin-bottom: 4px;
+                        .sm {
+                            font-size: .5rem;
+                            opacity: 1;
+                            display: inline;
+                        }
                        
                     }
                 }
                 
-                ul.col {
-                    li {
-                        display: block;
-                        width: 100%;
-                        float: none;
-                    }
-                }
+              
       
             }
         }
