@@ -639,27 +639,52 @@ body.page {
 @media (max-width: 767px) {
   .site-header .header-inner .logo {
     padding-left: 2%;
-    width: 45%;
+    width: 38%;
     min-width: 140px; }
+    .site-header .header-inner .logo img {
+      transform: scale(0.92);
+      display: block;
+      margin-top: -6px; }
     .site-header .header-inner .logo p {
       font-size: .5rem; }
 
   .fv {
     padding-top: 61px;
-    background: none;
-    height: auto;
+    background: url("../img/top/fv2_sp.png") no-repeat 50% 0%/cover;
+    height: 820px;
     position: relative; }
+    .fv .fv-top-wrap {
+      width: 96%;
+      margin: auto; }
+      .fv .fv-top-wrap .top {
+        padding-top: 2.5%;
+        margin-bottom: 5px; }
+        .fv .fv-top-wrap .top h1 {
+          width: 84%;
+          margin: auto;
+          min-width: 310px; }
+        .fv .fv-top-wrap .top .logos {
+          width: 100%;
+          min-width: 180px;
+          max-width: 380px;
+          margin: auto;
+          text-align: center; }
+          .fv .fv-top-wrap .top .logos img {
+            display: block;
+            width: 64%;
+            margin: 0px auto; }
+          .fv .fv-top-wrap .top .logos .band {
+            border: 1px solid #a64987;
+            background-color: transparent;
+            padding: 8px 18px;
+            font-size: 1.08rem;
+            display: inline-block; }
     .fv .box-wrap {
       width: 96%;
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 10px;
-      margin: auto;
-      height: auto; }
+      margin: auto; }
       .fv .box-wrap .menu-link {
         width: 100%;
-        margin-bottom: 10px; }
+        margin-bottom: 25px; }
         .fv .box-wrap .menu-link li {
           width: 48%; }
           .fv .box-wrap .menu-link li a p {
@@ -987,7 +1012,7 @@ footer.pages {
       .infusion .inner .bottom {
         flex-flow: column-reverse; }
         .infusion .inner .bottom .box {
-          width: 96%;
+          width: 100%;
           margin: auto;
           height: 400px;
           background: none;
@@ -1071,7 +1096,7 @@ footer.pages {
 
 @media (max-width: 767px) {
   .menu {
-    margin-top: 60px;
+    margin-top: 0px;
     padding: 60px 0; }
     .menu h2 {
       margin-bottom: 30px; }
@@ -1079,20 +1104,37 @@ footer.pages {
       max-width: none;
       width: 96%;
       flex-wrap: wrap; }
-      .menu .munu-link li {
-        width: 48%;
-        margin-bottom: 18px; }
-        .menu .munu-link li a {
+      .menu .munu-link li.box-size {
+        width: 49.2%;
+        margin-bottom: 60px;
+        height: 240px; }
+        .menu .munu-link li.box-size a .thumb {
+          margin-bottom: 20px;
+          height: 90px; }
+          .menu .munu-link li.box-size a .thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; }
+        .menu .munu-link li.box-size a h3 {
+          font-size: 1.1rem; }
+          .menu .munu-link li.box-size a h3 .sm {
+            font-size: .6rem; }
+        .menu .munu-link li.box-size a ul {
+          overflow: hidden; }
+          .menu .munu-link li.box-size a ul li {
+            color: #fff;
+            float: left;
+            display: inline-block;
+            width: 50%;
+            font-size: .8rem;
+            font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+            margin-bottom: 8px; }
+        .menu .munu-link li.box-size a ul.col li {
           display: block;
-          padding: 18px; }
-          .menu .munu-link li a .thumb {
-            margin-bottom: 20px; }
-          .menu .munu-link li a h3 {
-            font-size: 1.1rem; }
-            .menu .munu-link li a h3 .sm {
-              font-size: .6rem; } }
+          width: 100%;
+          float: none; } }
 .doctor {
-  height: 513px; }
+  height: 500px; }
   .doctor .inner {
     background: url("../img/top/doctor_thumb.png") no-repeat 90% 100%/300px auto;
     padding: 60px 0; }
@@ -1115,14 +1157,17 @@ footer.pages {
         text-align: center; }
         .doctor .inner .text .btn-wrap .btn {
           margin: 0px 13px 0;
-          display: inline-block; }
+          display: inline-block;
+          width: 190px;
+          height: 60px;
+          line-height: 60px; }
       .doctor .inner .text .doctor-name {
         position: absolute;
         bottom: 10px;
         right: -440px;
         font-size: 1.6rem;
         line-height: .78;
-        background: url("../img/top/bg_doctor_name.png") no-repeat 50% 50%/520px;
+        background: url("../img/top/bg_doctor_name.png") no-repeat 50% 50%/390px;
         padding: 20%;
         margin: -20%; }
         .doctor .inner .text .doctor-name .sm {
@@ -1130,18 +1175,48 @@ footer.pages {
 
 @media (max-width: 767px) {
   .doctor {
-    padding: 60px 0; }
-    .doctor .inner .text {
-      width: 49.47%;
-      padding-left: 5%;
-      padding-top: 30px; }
-      .doctor .inner .text h2 {
-        margin-bottom: 15px; }
-      .doctor .inner .text .cach {
-        font-size: 1.3rem;
-        margin-bottom: 10px; }
-      .doctor .inner .text .btn {
-        margin-top: 60px; } }
+    padding: 0;
+    height: 740px; }
+    .doctor .inner {
+      background-position: 50% 100%;
+      background-size: 210px;
+      height: 100%;
+      position: relative;
+      box-sizing: border-box; }
+      .doctor .inner .text {
+        width: 90%;
+        margin: auto;
+        padding-left: 0;
+        padding-top: 0px;
+        position: static; }
+        .doctor .inner .text h2 {
+          margin-bottom: 15px; }
+        .doctor .inner .text .band {
+          border: 1px solid #a64987;
+          padding: 5px 8px;
+          width: 180px;
+          margin: 0 auto 40px; }
+        .doctor .inner .text .cach {
+          font-size: 2.1rem;
+          margin-bottom: 38px; }
+        .doctor .inner .text .btn-wrap .btn {
+          margin: 0px 8px 0;
+          width: 140px;
+          height: 50px;
+          line-height: 50px; }
+        .doctor .inner .text .doctor-name {
+          position: absolute;
+          left: 50%;
+          right: auto;
+          transform: translateX(-50%);
+          bottom: 50px;
+          font-size: 1.6rem;
+          line-height: .78;
+          background: url("../img/top/bg_doctor_name.png") no-repeat 50% 50%/180px;
+          padding: 0%;
+          margin: 0%; }
+          .doctor .inner .text .doctor-name .sm {
+            font-size: .9rem; } }
 .slides .inner .slide-area {
   position: relative;
   padding: 0 4%;

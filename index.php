@@ -14,7 +14,6 @@
   <header class="site-header front">
     <div class="header-inner flex al-cent">
       <div class="logo tc"><a href="<?php echo home_url( '/' ); ?>">
-          <p class="gosic">ふみビューティークリニック梅田</p>
           
           <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo.png" alt="FMUI BEAUTY CLINIC"></a></div>
       <nav class="navi pc-dis">
@@ -31,7 +30,17 @@
   </header>
   <?php if ( wp_is_mobile() ) : ?>
   <div class="fv">
-    <h1><img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_sp.jpg" alt="洗練された美容技術で、あなたの美しさを引き出します。"></h1>
+      
+         <div class="fv-top-wrap">
+        <div class="top">
+          <div class="logos"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_logo.png" alt="FMUI BEAUTY CLINIC">
+            <div class="band cp tc ls2">注入＆スレッド治療専門クリニック</div>
+          </div>
+          <h1><img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_cach_sp.png" alt="洗練された美容技術で、あなたの美しさを引き出します。"></h1>
+        </div>
+      </div>
+      
+      
     <div class="box-wrap">
       <ul class="menu-link flex">
         <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>concept"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
@@ -110,9 +119,8 @@
       <div class="text">
         <h2 class="cp tc">CONCEPT <span class="sm">ご挨拶</span></h2>
         <div class="band cp tc ls2">beautiful aging</div>
-        <p class="cach gd pc tc">美しく年齢を重ね<br>
+        <p class="cach gd tc">美しく年齢を重ね<br>
           輝き続けるために</p>
-        <p class="cach gd sp tc">美しく年齢を重ね輝き続けるために</p>
         <div class="btn-wrap"> <a href="<?php echo home_url( '/' ); ?>doctor" class="btn bg-cg">院長紹介</a> <a href="<?php echo home_url( '/' ); ?>concept" class="btn">当院について</a> </div>
         <p class="doctor-name cp tc"><span class="sm">fumi beauty clinic院長</span><br>
           先山 史</p>
@@ -261,7 +269,7 @@
          <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>" target="_blank">
         <h3 class="cw tc">形成外科治療</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb09.jpg" alt="サムネイル"></div>
-        <ul>
+        <ul class="col">
           <li>・色素性母斑(黒子、ホクロ)</li>
             <li>・皮膚良性腫瘍(粉瘤、脂漏性角化症、軟繊維種、汗管腫など)</li>
           <li>・肥厚性瘢痕/ケロイド</li> <li>・巻き爪・陥入爪</li>
