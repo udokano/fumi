@@ -17,6 +17,92 @@
 }
 
 
+/*たるみ・しわ・小顔・鼻の糸特徴記載*/
+
+
+.features.layout1 {
+    .inner-box2 {
+        position: relative;
+    padding: 80px 0;
+        h2 {
+            position: absolute;
+            top: 0;
+            left: 116px;
+            font-size: 1.54rem;
+            padding: 10px 0;
+            border-top: 1px solid $cp;
+             border-bottom: 1px solid $cp;
+        }
+        
+        
+        .box {
+            position: relative;
+            margin-bottom: 100px;
+            .desc {
+                padding: 45px;
+                padding-top: 90px;
+                padding-right: 120px;
+                width: 480px;
+                height: 400px;
+                .points {
+                    font-size: .88rem;
+                    background-color: #c775ac;
+                    padding: 6px 10px;
+                    margin-bottom: 15px;
+                    display: inline-block;
+                }
+                
+                
+                h3 {
+                    margin-bottom: 15px;
+                }
+                
+                p {
+                    margin-bottom: 15px;
+                    font-size: 1.1rem;
+                }
+                
+                
+            }
+            
+            
+            .thumb {
+                position: absolute;
+                right: 0;
+                top: -80px;
+                width: 600px;
+                height: 400px;
+            }
+            
+            
+            
+            &:nth-of-type(even){
+
+                    .desc {
+                        float: right;
+                         padding: 45px;
+                padding-top: 90px;
+                        padding-left: 120px;
+                    }
+                
+                
+                  .thumb {
+                left: 0;
+                top: -80px;
+            }
+            }
+            
+           
+        }
+        
+        
+    }
+    
+    
+    
+}
+
+
 
 
 /*形成外科治療特徴エリア記載*/
@@ -110,6 +196,90 @@
     }
 }
 
+.bg-cg2 {
+                    background-color: #fbfaf7;
+
+}
+
+
+.ope-kind {
+    .wrap {
+        
+         .inner {
+        .box {
+            padding: 60px 0;
+            .desc {
+                width: 57%;
+                h3 {
+                    margin-bottom: 25px;
+                }
+            }
+            
+            .thumb {
+                width: 34%;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            
+        }
+    }
+        
+        
+        
+    }
+   
+}
+
+/*症例*/
+
+
+.case {
+    .inner {
+        
+        h2 {
+            margin-bottom: 50px;
+        }
+        
+        .case-wrap {
+            flex-wrap: wrap;
+            .case-box {
+                margin-bottom: 55px;
+                .box {
+                    .thumb {
+                        img {height: auto;}
+                    }
+                    
+                    &:nth-of-type(1) {
+                        margin-right: 50px;
+                        position: relative;
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            top: 42%;
+                            right: -35px;
+                            border-style: solid;
+                            border-width: 12px 0 12px 19.3px;
+                            border-color: transparent transparent transparent $cp;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .note {
+            width: 620px;
+            margin: auto;
+            padding: 28px;
+            font-size: .92rem;
+            background-color: #f9f9f9;
+            
+        }
+        
+        
+    }
+}
 
 
 /*料金表*/
