@@ -597,6 +597,11 @@ border-color: transparent transparent rgba(0,0,0,.70) transparent;
     padding: 50px 0;
 }
 
+.bg-grade {
+    background: rgb(2,0,36);
+background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, rgba(255,255,255,0) 100%);
+}
+
 
 .cp {
     color: $cp;
