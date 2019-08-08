@@ -42,7 +42,7 @@ Template Name: メディカルエステ
       <ul class="flex">
           <li class="box-size">
               <div class="points f-ryu">Point.1</div>
-          <h3 class="gd tc">老化予防</h3>
+          <h3 class="gd tc line1">老化予防</h3>
               
               <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb02.jpg" alt="サムネイル"></div>
               
@@ -52,7 +52,7 @@ Template Name: メディカルエステ
           
           <li class="box-size">
               <div class="points f-ryu">Point.2</div>
-          <h3 class="gd tc">美肌効果</h3>
+          <h3 class="gd tc line1">美肌効果</h3>
               
               <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb03.jpg" alt="サムネイル"></div>
           
@@ -62,7 +62,7 @@ Template Name: メディカルエステ
           
           <li class="box-size">
               <div class="points f-ryu">Point.3</div>
-          <h3 class="gd tc">メスを入れない</h3>
+          <h3 class="gd tc line1">メスを入れない</h3>
               
               <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb04.jpg" alt="サムネイル"></div>
           
