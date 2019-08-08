@@ -2399,6 +2399,9 @@ footer.pages .pages-footer-box .left .tel {
 }
 
 /*美容点滴特徴エリア記載*/
+.features.layout2 .inner-box2 h2 {
+  margin-bottom: 60px;
+}
 .features.layout2 .inner-box2 ul li {
   position: relative;
   height: 455px;
@@ -2465,7 +2468,7 @@ footer.pages .pages-footer-box .left .tel {
   /*形成外科治療特徴エリア記載*/
   .layout2 .inner-box2 h2 {
     margin-bottom: 45px;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
   .layout2 .inner-box2 ul {
     -ms-flex-wrap: wrap;
@@ -2492,6 +2495,37 @@ footer.pages .pages-footer-box .left .tel {
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+
+  /*美容点滴特徴エリア記載*/
+  .features.layout2 .inner-box2 h2 {
+    margin-bottom: 60px;
+  }
+  .features.layout2 .inner-box2 ul li {
+    position: relative;
+    height: 290px;
+    margin-bottom: 40px;
+  }
+  .features.layout2 .inner-box2 ul li .points {
+    font-size: 1.7rem;
+    padding: 5px 12px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    top: -24px;
+  }
+  .features.layout2 .inner-box2 ul li h3 {
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+    white-space: nowrap;
+    height: 2.8rem;
+  }
+  .features.layout2 .inner-box2 ul li .thumb {
+    margin-bottom: 12px;
+    height: 110px;
+  }
+  .features.layout2 .inner-box2 ul li p {
+    font-size: .8rem;
   }
 }
 .doctor-intro {

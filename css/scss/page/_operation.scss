@@ -70,6 +70,11 @@
 
 .features.layout2 {
     .inner-box2 {
+        
+        h2 {
+            margin-bottom: 60px;
+        }
+        
         ul {
             li {
                 position: relative;
@@ -165,7 +170,7 @@
     .inner-box2 {
         h2 {
             margin-bottom: 45px;
-            font-size: 1.8rem;
+            font-size: 1.4rem;
         }
         
         ul {
@@ -200,6 +205,50 @@
     }
     
     
+}
+    
+    
+/*美容点滴特徴エリア記載*/
+
+.features.layout2 {
+    .inner-box2 {
+        
+        h2 {
+            margin-bottom: 60px;
+            
+        }
+        
+        ul {
+            li {
+                position: relative;
+                height: 290px;
+                margin-bottom: 40px;
+                .points {
+                    font-size: 1.7rem;
+                    padding: 5px 12px;
+                    left: 50%;
+                    @include trx;
+                    top: -24px;
+                }
+                
+                h3 {
+                    font-size: 1.4rem;
+                    margin-bottom: 25px;
+                    white-space: nowrap;
+                    height: 2.8rem;
+                }
+                
+                .thumb {
+                    margin-bottom: 12px;
+                    height: 110px;
+                }
+                
+                p {
+                    font-size: .8rem;
+                }
+            }
+        }
+    }
 }
 
     

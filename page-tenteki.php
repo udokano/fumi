@@ -38,7 +38,7 @@ Template Name: 美容点滴
       <ul class="flex">
           <li class="box-size">
               <div class="points f-ryu">Point.1</div>
-          <h3 class="gd tc">体の内側から健康になれる</h3>
+          <h3 class="gd tc pc">体の内側から健康になれる</h3> <h3 class="gd tc sp">体の内側から<br>健康になれる</h3>
               
               <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tenteki/thumb02.jpg" alt="サムネイル"></div>
               
@@ -47,7 +47,8 @@ Template Name: 美容点滴
           </li>
           
           <li class="box-size">
-          <h3 class="gd tc">短時間で効果を実感できる</h3>
+              <div class="points f-ryu">Point.2</div>
+          <h3 class="gd tc pc">短時間で効果を実感できる</h3><h3 class="gd tc sp">短時間で効果<br>を実感できる</h3>
               
               <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tenteki/thumb03.jpg" alt="サムネイル"></div>
           
@@ -56,7 +57,8 @@ Template Name: 美容点滴
           </li>
           
           <li class="box-size">
-          <h3 class="gd tc">不足している栄養素の摂取</h3>
+              <div class="points f-ryu">Point.3</div>
+          <h3 class="gd tc pc">不足している栄養素の摂取</h3><h3 class="gd tc sp">不足している<br>栄養素の摂取</h3>
               
               <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tenteki/thumb04.jpg" alt="サムネイル"></div>
           
@@ -66,6 +68,7 @@ Template Name: 美容点滴
           </li>
           
           <li class="box-size">
+              <div class="points f-ryu">Point.4</div>
           <h3 class="gd tc">疲労回復</h3>
               
               <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tenteki/thumb05.jpg" alt="サムネイル"></div>
@@ -97,23 +100,23 @@ Template Name: 美容点滴
             </dl>
             
              <dl class="flex">
-                <dt>色素性母斑(ホクロ)</dt>
+                <dt>内容入ります</dt>
                 <dd>¥00,000</dd>
             </dl>
             
              <dl class="flex">
-                <dt>皮膚良性腫瘍</dt>
+                <dt>内容入ります</dt>
                 <dd>¥00,000</dd>
             </dl>
             
             
              <dl class="flex">
-                <dt>肥厚性瘢痕・ケロイド</dt>
+                <dt>内容入ります</dt>
                 <dd>¥00,000</dd>
             </dl>
             
              <dl class="flex">
-                <dt>巻き爪・陥入爪</dt>
+                <dt>内容入ります</dt>
                 <dd>¥00,000</dd>
             </dl>
         
