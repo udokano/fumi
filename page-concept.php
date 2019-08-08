@@ -5,7 +5,7 @@ Template Name: 医院について
 ?>
 <?php get_header()?>
 <div class="page-head">
-  <h1 class="tc ryu">当院について</h1>
+  <h1 class="tc f-ryu">当院について</h1>
   <?php echo breadcrumb_func(); ?> </div>
 <section class="vision pos mb0">
   <div class="bg-under under1"></div>
