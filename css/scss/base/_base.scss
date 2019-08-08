@@ -468,6 +468,34 @@ border-width: 0 15px 23px 15px;
 border-color: transparent transparent rgba(0,0,0,.70) transparent;
 }
 
+
+/*円型サムネイル*/
+
+
+.thumb-sq {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 360px;
+    height: 360px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+@media (max-width: 767px) {
+    
+    .thumb-sq {
+        height: 280px;
+        width: 280px;
+    }
+    
+    
+}
+
+
 .tl {
     text-align: left!important;
 }
@@ -513,6 +541,11 @@ border-color: transparent transparent rgba(0,0,0,.70) transparent;
         margin: auto;
     }
     
+    .inner-box2 {
+        width: 1000px;
+        margin: auto;
+    }
+    
     
     
 }
@@ -522,7 +555,7 @@ border-color: transparent transparent rgba(0,0,0,.70) transparent;
 @media (max-width: 767px) {
     
     
-    .inner-box {
+    .inner-box,.inner-box2 {
     width: 96%;
      @include box-center;
 }
@@ -552,6 +585,10 @@ border-color: transparent transparent rgba(0,0,0,.70) transparent;
     font-style: normal;
     font-size: 2.1rem;
     letter-spacing: 2px;
+}
+
+.f-bold {
+    font-weight: 600;
 }
 
 

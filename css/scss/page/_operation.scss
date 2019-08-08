@@ -1,0 +1,173 @@
+.ope-intro {
+    .inner {
+        .text {
+            width: 700px;
+            h2 {
+                margin-bottom: 30px;
+            }
+            
+            p {
+                line-height: 1.77;
+            }
+        }
+    } 
+}
+
+
+
+
+/*形成外科治療特徴エリア記載*/
+
+
+
+.layout2 {
+    
+    .inner-box2 {
+        h2 {
+            margin-bottom: 45px;
+            font-size: 1.8rem;
+        }
+        
+        ul {
+            flex-wrap: wrap;
+     
+        
+        li {
+            width: 46%;
+            height: 380px;
+            padding: 38px 45px;
+            margin-bottom: 70px;
+            border: 1px solid $cp;
+            h3 {
+                margin-bottom: 35px;
+                font-size: 1.6rem;
+            }
+            
+            .thumb {
+                width: 100%;
+                height: 220px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            } 
+        }
+            
+    }
+        
+    }
+    
+    
+}
+
+
+/*料金表*/
+
+
+.price {
+    .inner-box2 {
+        h2 {
+            margin-bottom: 35px;
+        }
+        
+        .price-list {
+            dl {
+                border-bottom: 1px solid #ccc;
+                margin-top: 18px;
+                padding-bottom: 7px;
+                letter-spacing: 1px;
+                font-size: 1.07rem;
+                dt {
+                    padding-left: 1em;
+                }
+                
+                dd {
+                    padding-right: 1em;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    
+
+/*施術紹介*/    
+    
+.ope-intro {
+    .inner {
+        flex-flow: column;
+        .text {
+            width: 80%;
+            margin: auto;
+            h2 {
+                margin-top: 30px;
+                margin-bottom: 22px;
+                text-align: center;
+            }
+            
+        }
+    } 
+    }
+    
+    /*形成外科治療特徴エリア記載*/
+    
+    .layout2 {
+    
+    .inner-box2 {
+        h2 {
+            margin-bottom: 45px;
+            font-size: 1.8rem;
+        }
+        
+        ul {
+            flex-wrap: wrap;
+     
+        
+        li {
+            width: 49.2%;
+            height: 200px;
+            padding: 18px 20px;
+            margin-bottom: 20px;
+            border: 1px solid $cp;
+            h3 {
+                margin-bottom: 15px;
+                font-size: .9rem;
+                white-space: nowrap;
+            }
+            
+            .thumb {
+                width: 100%;
+                height: 122px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            } 
+        }
+            
+    }
+        
+    }
+    
+    
+}
+
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+}

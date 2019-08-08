@@ -315,6 +315,21 @@ body.page {
   border-width: 0 15px 23px 15px;
   border-color: transparent transparent rgba(0, 0, 0, 0.7) transparent; }
 
+/*円型サムネイル*/
+.thumb-sq {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 360px;
+  height: 360px; }
+  .thumb-sq img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+@media (max-width: 767px) {
+  .thumb-sq {
+    height: 280px;
+    width: 280px; } }
 .tl {
   text-align: left !important; }
 
@@ -346,9 +361,13 @@ body.page {
 
   .page .inner {
     width: 1200px;
+    margin: auto; }
+
+  .inner-box2 {
+    width: 1000px;
     margin: auto; } }
 @media (max-width: 767px) {
-  .inner-box {
+  .inner-box, .inner-box2 {
     width: 96%;
     margin: 0 auto; }
 
@@ -364,6 +383,9 @@ body.page {
   font-style: normal;
   font-size: 2.1rem;
   letter-spacing: 2px; }
+
+.f-bold {
+  font-weight: 600; }
 
 .bg-cp {
   background-color: #f6eeee;
@@ -1707,6 +1729,85 @@ footer.pages {
       height: 70px;
       line-height: 70px;
       font-size: 1.2rem; } }
+.ope-intro .inner .text {
+  width: 700px; }
+  .ope-intro .inner .text h2 {
+    margin-bottom: 30px; }
+  .ope-intro .inner .text p {
+    line-height: 1.77; }
+
+/*形成外科治療特徴エリア記載*/
+.layout2 .inner-box2 h2 {
+  margin-bottom: 45px;
+  font-size: 1.8rem; }
+.layout2 .inner-box2 ul {
+  flex-wrap: wrap; }
+  .layout2 .inner-box2 ul li {
+    width: 46%;
+    height: 380px;
+    padding: 38px 45px;
+    margin-bottom: 70px;
+    border: 1px solid #a64987; }
+    .layout2 .inner-box2 ul li h3 {
+      margin-bottom: 35px;
+      font-size: 1.6rem; }
+    .layout2 .inner-box2 ul li .thumb {
+      width: 100%;
+      height: 220px; }
+      .layout2 .inner-box2 ul li .thumb img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+
+/*料金表*/
+.price .inner-box2 h2 {
+  margin-bottom: 35px; }
+.price .inner-box2 .price-list dl {
+  border-bottom: 1px solid #ccc;
+  margin-top: 18px;
+  padding-bottom: 7px;
+  letter-spacing: 1px;
+  font-size: 1.07rem; }
+  .price .inner-box2 .price-list dl dt {
+    padding-left: 1em; }
+  .price .inner-box2 .price-list dl dd {
+    padding-right: 1em; }
+
+@media (max-width: 767px) {
+  /*施術紹介*/
+  .ope-intro .inner {
+    flex-flow: column; }
+    .ope-intro .inner .text {
+      width: 80%;
+      margin: auto; }
+      .ope-intro .inner .text h2 {
+        margin-top: 30px;
+        margin-bottom: 22px;
+        text-align: center; }
+
+  /*形成外科治療特徴エリア記載*/
+  .layout2 .inner-box2 h2 {
+    margin-bottom: 45px;
+    font-size: 1.8rem; }
+  .layout2 .inner-box2 ul {
+    flex-wrap: wrap; }
+    .layout2 .inner-box2 ul li {
+      width: 49.2%;
+      height: 200px;
+      padding: 18px 20px;
+      margin-bottom: 20px;
+      border: 1px solid #a64987; }
+      .layout2 .inner-box2 ul li h3 {
+        margin-bottom: 15px;
+        font-size: .9rem;
+        white-space: nowrap; }
+      .layout2 .inner-box2 ul li .thumb {
+        width: 100%;
+        height: 122px; }
+        .layout2 .inner-box2 ul li .thumb img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; } }
 .doctor-intro {
   background-color: #f6eeee;
   padding: 60px 0 0; }
