@@ -268,7 +268,6 @@ body.page {
 .page-head {
   padding-top: 130px; }
   .page-head h1 {
-    width: 175px;
     margin: 0 auto 15px; }
 
 /* GNAVI*/
@@ -362,7 +361,9 @@ body.page {
 .f-ryu {
   font-family: a-otf-ryumin-pr6n, serif;
   font-weight: 300;
-  font-style: normal; }
+  font-style: normal;
+  font-size: 2.1rem;
+  letter-spacing: 2px; }
 
 .bg-cp {
   background-color: #f6eeee;
