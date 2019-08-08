@@ -1729,6 +1729,7 @@ footer.pages {
       height: 70px;
       line-height: 70px;
       font-size: 1.2rem; } }
+/*施術紹介*/
 .ope-intro .inner .text {
   width: 700px; }
   .ope-intro .inner .text h2 {
@@ -1758,6 +1759,29 @@ footer.pages {
         width: 100%;
         height: 100%;
         object-fit: cover; }
+
+/*美容点滴特徴エリア記載*/
+.features.layout2 .inner-box2 ul li {
+  position: relative;
+  height: 455px; }
+  .features.layout2 .inner-box2 ul li .points {
+    position: absolute;
+    font-size: 2.4rem;
+    font-style: italic;
+    color: rgba(166, 73, 135, 0.5);
+    background-color: #fff;
+    padding: 5px 12px;
+    left: 25px;
+    top: -39px;
+    letter-spacing: 1px; }
+  .features.layout2 .inner-box2 ul li h3 {
+    font-size: 1.84rem;
+    margin-bottom: 25px;
+    white-space: nowrap; }
+  .features.layout2 .inner-box2 ul li .thumb {
+    margin-bottom: 25px; }
+  .features.layout2 .inner-box2 ul li p {
+    font-size: 1.07rem; }
 
 /*料金表*/
 .price .inner-box2 h2 {

@@ -1,3 +1,6 @@
+/*施術紹介*/
+
+
 .ope-intro {
     .inner {
         .text {
@@ -60,6 +63,48 @@
     
     
 }
+
+
+
+/*美容点滴特徴エリア記載*/
+
+.features.layout2 {
+    .inner-box2 {
+        ul {
+            li {
+                position: relative;
+                height: 455px;
+                
+                .points {
+                    position: absolute;
+                    font-size: 2.4rem;
+                    font-style: italic;
+                    color: rgba(166,73,135,.50);
+                    background-color: #fff;
+                    padding: 5px 12px;
+                    left: 25px;
+                    top: -39px;
+                    letter-spacing: 1px;
+                }
+                
+                h3 {
+                    font-size: 1.84rem;
+                    margin-bottom: 25px;
+                    white-space: nowrap;
+                }
+                
+                .thumb {
+                    margin-bottom: 25px;
+                }
+                
+                p {
+                    font-size: 1.07rem;
+                }
+            }
+        }
+    }
+}
+
 
 
 /*料金表*/
