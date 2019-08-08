@@ -5,7 +5,7 @@ Template Name: 採用情報-確認
 ?>
 <?php get_header()?>
 <div class="page-head">
-  <h1 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/contact/h1_conf_text.png" alt="確認画面"></h1>
+  <h1 class="tc f-ryu">確認画面</h1>
   </div>
 
 

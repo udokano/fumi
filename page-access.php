@@ -5,7 +5,7 @@ Template Name: アクセス
 ?>
 <?php get_header()?>
 <div class="page-head">
-  <h1 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/access/h1_txt.png" alt="アクセス"></h1>
+  <h1 class="tc f-ryu">アクセス</h1>
   <?php echo breadcrumb_func(); ?> </div>
 <section class="access-info bg-cp">
   <div class="inner">

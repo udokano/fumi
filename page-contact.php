@@ -5,11 +5,11 @@ Template Name: お問い合わせ
 ?>
 <?php get_header()?>
 <div class="page-head">
-  <h1 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/contact/h1_text.png" alt="お問合せ"></h1>
+  <h1 class="tc f-ryu">お問合せ</h1>
   <?php echo breadcrumb_func(); ?> </div>
 <section class="contact-tel">
   <div class="inner">
-    <h2><img src="<?php echo get_template_directory_uri(); ?>/img/contact/tel_subtxt.png" alt="お電話でのお問い合わせ"></h2>
+    <h2 class="tc f-ryu">お電話でのお問い合わせ</h2>
     <p class="tel tc cp"><a href="#" class="cp" style="background: none; padding: 0;">0120-000-0000</a></p>
       <?php if ( wp_is_mobile() ) : ?>
     <p class="tc gosic">受付時間 : 10:00 ~ 20:00<br>

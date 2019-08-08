@@ -5,7 +5,7 @@ Template Name: 採用情報-サンクス
 ?>
 <?php get_header()?>
 <div class="page-head">
-  <h1 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/contact/h1_thanks_text.png" alt="送信完了"></h1>
+  <h1 class="tc f-ryu">送信完了</h1>
 </div>
 
 

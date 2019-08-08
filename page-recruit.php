@@ -5,7 +5,7 @@ Template Name: 採用情報
 ?>
 <?php get_header()?>
 <div class="page-head">
-  <h1 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/recruit/h1_text.png" alt="ドクター紹介"></h1>
+  <h1 class="tc f-ryu">ドクター紹介</h1>
   <?php echo breadcrumb_func(); ?> </div>
 <section class="recruit-intro bg-p">
   <div class="inner flex al-cent">
