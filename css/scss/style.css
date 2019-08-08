@@ -391,6 +391,10 @@ body.page {
   background-color: #f6eeee;
   padding: 50px 0; }
 
+.bg-grade {
+  background: #020024;
+  background: linear-gradient(143deg, #020024 0%, #f9f4f4 0%, rgba(255, 255, 255, 0) 100%); }
+
 .cp {
   color: #a64987; }
 
@@ -1853,6 +1857,8 @@ footer.pages {
       margin-bottom: 25px;
       white-space: nowrap;
       height: 2.8rem; }
+    .features.layout2 .inner-box2 ul li h3.line1 {
+      line-height: 2.8rem; }
     .features.layout2 .inner-box2 ul li .thumb {
       margin-bottom: 12px;
       height: 110px; }
