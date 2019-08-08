@@ -31,7 +31,7 @@ Template Name: 美容点滴
 <section class="features layout2">
   <div class="inner-box2">
       
-      <h2 class="cp gosic tc ls1">美肌治療(メディカルエステ)の特徴</h2>
+      <h2 class="cp gosic tc ls1">美容点滴の特徴</h2>
       
       
       
