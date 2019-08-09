@@ -149,6 +149,7 @@ Template Name: 鼻の糸
         </div>
         <div class="swiper-button-prev prev2"></div>
         <div class="swiper-button-next next2"></div>
+          
       </div>
     </div>
     <!--left slides END--> 

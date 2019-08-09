@@ -2018,46 +2018,40 @@ footer.pages {
         text-align: center; }
 
   /*たるみ・しわ・小顔・鼻の糸特徴記載*/
-  .features.layout1 .inner-box2 {
-    position: static;
-    padding: 80px 0 0; }
-    .features.layout1 .inner-box2 h2 {
-      position: static;
-      top: 0;
-      left: 116px;
-      font-size: 1.54rem;
-      padding: 10px 0;
-      border-top: 1px solid #a64987;
-      border-bottom: 1px solid #a64987; }
-    .features.layout1 .inner-box2 .box {
-      position: static;
-      margin-bottom: 35px;
-      /*偶数行は左右反転*/ }
-      .features.layout1 .inner-box2 .box .desc {
-        padding: 20px;
-        width: 62%;
-        height: auto;
-        background-color: #f6eeee !important;
-        position: relative;
-        margin-top: -30px; }
-        .features.layout1 .inner-box2 .box .desc h3 {
-          margin-bottom: 15px; }
-        .features.layout1 .inner-box2 .box .desc p {
-          margin-bottom: 15px;
-          font-size: .8rem; }
-      .features.layout1 .inner-box2 .box .thumb {
+  .features.layout1 {
+    margin-bottom: 70px; }
+    .features.layout1 .inner-box2 {
+      position: static; }
+      .features.layout1 .inner-box2 h2 {
         position: static;
-        right: 0;
-        top: -80px;
-        width: 100%;
-        height: auto; }
-      .features.layout1 .inner-box2 .box:nth-of-type(even) .desc {
-        padding: 20px; }
-      .features.layout1 .inner-box2 .box:nth-of-type(even) .thumb {
-        width: 100%;
-        position: static; }
-      .features.layout1 .inner-box2 .box:last-of-type {
-        margin-bottom: 0; }
+        font-size: 1.54rem;
+        padding: 10px 0;
+        margin-bottom: 35px; }
+      .features.layout1 .inner-box2 .box {
+        position: static;
+        margin-bottom: 35px;
+        /*偶数行は左右反転*/ }
+        .features.layout1 .inner-box2 .box .desc {
+          padding: 20px;
+          width: 62%;
+          height: auto;
+          background-color: #f6eeee !important;
+          position: relative;
+          margin-top: -30px; }
+          .features.layout1 .inner-box2 .box .desc h3 {
+            margin-bottom: 15px; }
+          .features.layout1 .inner-box2 .box .desc p {
+            margin-bottom: 15px;
+            font-size: .8rem; }
+        .features.layout1 .inner-box2 .box .thumb {
+          position: static;
+          width: 100%;
+          height: auto; }
+        .features.layout1 .inner-box2 .box:nth-of-type(even) .desc {
+          padding: 20px; }
+        .features.layout1 .inner-box2 .box:nth-of-type(even) .thumb {
+          width: 100%;
+          position: static; }
 
   /*形成外科治療特徴エリア記載*/
   .layout2 .inner-box2 h2 {
