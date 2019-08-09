@@ -146,10 +146,22 @@ Template Name: 鼻の糸
             <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/coming.jpg" alt="準備中"></div>
             <p class="tc mt20">準備中</p>
           </div>
+            <div class="gosic swiper-slide">
+            <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/coming.jpg" alt="準備中"></div>
+            <p class="tc mt20">準備中</p>
+          </div>
+            <div class="gosic swiper-slide">
+            <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/coming.jpg" alt="準備中"></div>
+            <p class="tc mt20">準備中</p>
+          </div>
+            <div class="gosic swiper-slide">
+            <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/coming.jpg" alt="準備中"></div>
+            <p class="tc mt20">準備中</p>
+          </div>
         </div>
         <div class="swiper-button-prev prev2"></div>
         <div class="swiper-button-next next2"></div>
-          
+          <div class="swiper-pagination"></div>
       </div>
     </div>
     <!--left slides END--> 

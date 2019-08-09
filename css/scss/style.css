@@ -537,6 +537,9 @@ body.page {
 .swiper4 .next2 {
   right: -65px; }
 
+@media (min-width: 768px) {
+  .swiper4 .swiper-pagination {
+    display: none; } }
 @media (max-width: 767px) {
   .swiper4 .prev2, .swiper4 .next2 {
     display: none !important; } }
@@ -1782,7 +1785,7 @@ footer.pages {
     border-bottom: 1px solid #a64987; }
   .features.layout1 .inner-box2 .box {
     position: relative;
-    margin-bottom: 78px;
+    margin-bottom: 120px;
     /*偶数行は左右反転*/ }
     .features.layout1 .inner-box2 .box .desc {
       padding: 45px;

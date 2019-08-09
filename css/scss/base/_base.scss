@@ -813,6 +813,14 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
     right: -65px;
 }
 
+@media (min-width: 768px) {
+    .swiper4 .swiper-pagination {
+    display: none;
+}
+
+}
+
+
 @media (max-width: 767px) {
     
     .swiper4 .prev2,.swiper4 .next2 {
