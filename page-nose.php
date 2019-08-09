@@ -59,7 +59,7 @@ Template Name: 鼻の糸
 </section>
 <section class="ope-kind">
 <div class="wrap bg-cg2">
-  <div class="inner">
+  <div class="inner-box2">
     <div class="box flex">
       <div class="desc">
         <h3 class="ls1">Gメッシュ</h3>
@@ -70,7 +70,7 @@ Template Name: 鼻の糸
   </div>
 </div>
 <div class="wrap">
-<div class="inner">
+<div class="inner-box2">
   <div class="box flex">
     <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/nose/thumb03.jpg" alt="サムネイル"> </div>
     <div class="desc">
@@ -81,141 +81,77 @@ Template Name: 鼻の糸
   </div>
 </div>
 </section>
-    
-    
 <section class="case">
-  
-    <div class="inner">
-    
-         <h2 class="tc">症例</h2>
-        
-        <div class="case-wrap flex">
-        
-              <div class="case-box flex">
-                  
-                  
-                  <div class="box">
-                      <div class="thumb">
-                          <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/befor.jpg" alt="">
-                      
-                      </div>
-                      
-                      <p class="gosic tc">施術前</p>
-                  
-                  </div>
-                  
-                  <div class="box">
-                      <div class="thumb">
-                          <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/after.jpg" alt="">
-                      
-                      </div>
-                      
-                      <p class="gosic tc">施術◯回後</p>
-                  
-                  </div>
-        
-        
-              </div>
-            
-              <div class="case-box flex">
-                  
-                  
-                  <div class="box">
-                      <div class="thumb">
-                          <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/befor.jpg" alt="">
-                      
-                      </div>
-                      
-                      <p class="gosic tc">施術前</p>
-                  
-                  </div>
-                  
-                  <div class="box">
-                      <div class="thumb">
-                          <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/after.jpg" alt="">
-                      
-                      </div>
-                      
-                      <p class="gosic tc">施術◯回後</p>
-                  
-                  </div>
-        
-        
-              </div>
-            
-              <div class="case-box flex">
-                  
-                  
-                  <div class="box">
-                      <div class="thumb">
-                          <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/befor.jpg" alt="">
-                      
-                      </div>
-                      
-                      <p class="gosic tc">施術前</p>
-                  
-                  </div>
-                  
-                  <div class="box">
-                      <div class="thumb">
-                          <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/after.jpg" alt="">
-                      
-                      </div>
-                      
-                      <p class="gosic tc">施術◯回後</p>
-                  
-                  </div>
-        
-        
-              </div>
-            
-              <div class="case-box flex">
-                  
-                  
-                  <div class="box">
-                      <div class="thumb">
-                          <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/befor.jpg" alt="">
-                      
-                      </div>
-                      
-                      <p class="gosic tc">施術前</p>
-                  
-                  </div>
-                  
-                  <div class="box">
-                      <div class="thumb">
-                          <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/after.jpg" alt="">
-                      
-                      </div>
-                      
-                      <p class="gosic tc">施術◯回後</p>
-                  
-                  </div>
-        
-        
-              </div>
-        
+  <div class="inner">
+    <h2 class="tc">症例</h2>
+    <div class="case-wrap flex">
+      <div class="case-box flex">
+        <div class="box">
+          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/befor.jpg" alt=""> </div>
+          <p class="gosic tc">施術前</p>
         </div>
-        
-        
-        
-        <div class="note box-size gosic">
-        
-            <p>リスク副作用</p>
-            <p>・体質により稀にメイクで隠せる程度の内出血が出る場合があります。</p>        
+        <div class="box">
+          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/after.jpg" alt=""> </div>
+          <p class="gosic tc">施術◯回後</p>
         </div>
-    
-    
-    
+      </div>
+      <div class="case-box flex">
+        <div class="box">
+          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/befor.jpg" alt=""> </div>
+          <p class="gosic tc">施術前</p>
+        </div>
+        <div class="box">
+          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/after.jpg" alt=""> </div>
+          <p class="gosic tc">施術◯回後</p>
+        </div>
+      </div>
+      <div class="case-box flex">
+        <div class="box">
+          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/befor.jpg" alt=""> </div>
+          <p class="gosic tc">施術前</p>
+        </div>
+        <div class="box">
+          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/after.jpg" alt=""> </div>
+          <p class="gosic tc">施術◯回後</p>
+        </div>
+      </div>
+      <div class="case-box flex">
+        <div class="box">
+          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/befor.jpg" alt=""> </div>
+          <p class="gosic tc">施術前</p>
+        </div>
+        <div class="box">
+          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/after.jpg" alt=""> </div>
+          <p class="gosic tc">施術◯回後</p>
+        </div>
+      </div>
     </div>
+    <div class="note box-size gosic">
+      <p>リスク副作用</p>
+      <p>・体質により稀にメイクで隠せる程度の内出血が出る場合があります。</p>
+    </div>
+  </div>
+</section>
+<section class="bg-cg2 kuchikomi">
+  <div class="inner-box2">
+    <div class="kuchikomi-slide slide-area">
+      <h2 class="tc gd gosic ls2">施術の感想</h2>
+      <div class="swiper-container slide-p2 swiper4">
+        <div class="swiper-wrapper"> 
+          <!-- Slides -->
+          <div class="gosic swiper-slide">
+            <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/coming.jpg" alt="準備中"></div>
+            <p class="tc mt20">準備中</p>
+          </div>
+        </div>
+        <div class="swiper-button-prev prev2"></div>
+        <div class="swiper-button-next next2"></div>
+      </div>
+    </div>
+    <!--left slides END--> 
     
-    
-    
-    
-    
-    
-</section>    
-    
+  </div>
+</section>
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">料金表</h2>
@@ -242,5 +178,57 @@ Template Name: 鼻の糸
       </dl>
     </div>
   </div>
+</section>
+<section class="flow">
+  <div class="inner">
+    <h2 class="tc ls1">施術の流れ</h2>
+    <ul>
+      <li class="box-size flex">
+        <div class="left">
+          <div class="top">
+            <div class="step points f-ryu cw">STEP 01</div>
+            <h3 class="f-bold">ご予約</h3>
+          </div>
+          <p class="gosic ls1">お電話・WEBの予約フォームにて、ご予約をよろしくお願い致します。来院前にご不明点があれば、お気軽にご相談ください。</p>
+        </div>
+        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow01.jpg" alt="ご予約"></div>
+      </li>
+         <li class="box-size flex">
+        <div class="left">
+          <div class="top">
+            <div class="step points f-ryu cw">STEP 02</div>
+            <h3 class="f-bold">診察、カウンセリング</h3>
+          </div>
+          <p class="gosic ls1">施術前に、患者様の悩みをお伺いします。お身体の状態を診て、治療計画を決めていきます。注意点、リスクについても詳しく説明いたしますので、ご不明な点や不安なことがあれば遠慮せずにご質問ください。</p>
+        </div>
+        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow02.jpg" alt="診察、カウンセリング"></div>
+      </li>
+         <li class="box-size flex">
+        <div class="left">
+          <div class="top">
+            <div class="step points f-ryu cw">STEP 03</div>
+            <h3 class="f-bold">施術開始</h3>
+          </div>
+          <p class="gosic ls1">痛みを極力に抑え、安全第一に責任を持って施術いたします。施術は全て有資格者が行うので、ご安心くださいませ。</p>
+        </div>
+        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_2.jpg" alt="施術開始"></div>
+      </li>
+         <li class="box-size flex">
+        <div class="left">
+          <div class="top">
+            <div class="step points f-ryu cw">STEP 04</div>
+            <h3 class="f-bold">施術終了・お会計</h3>
+          </div>
+          <p class="gosic ls1">治療が終了したら、お会計をして、
+そのままお帰りいただけます。</p>
+        </div>
+        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow04.jpg" alt="施術終了・お会計"></div>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="ope-faq">
+    
+    
 </section>
 <?php get_footer();?>

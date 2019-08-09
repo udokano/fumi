@@ -791,6 +791,30 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
 }
 
 
+/*施術の感想スライド設定*/
+
+.kuchikomi-slide {
+    position: relative;
+}
+
+.slide-p2.swiper4 .swiper-slide {
+    height: 388px;
+}
+
+.swiper4 .prev2,.swiper4 .next2 {
+    top: 50%;
+}
+
+.swiper4 .prev2 {
+    left: -65px;
+}
+
+.swiper4 .next2 {
+    right: -65px;
+}
+
+
+
 
 /*ループ内テキストオーバーフロー設定基本*/
 

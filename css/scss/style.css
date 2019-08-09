@@ -521,6 +521,22 @@ body.page {
 
   .swiper-pagination-bullet.swiper-pagination-bullet-active {
     background-color: #a64987; } }
+/*施術の感想スライド設定*/
+.kuchikomi-slide {
+  position: relative; }
+
+.slide-p2.swiper4 .swiper-slide {
+  height: 388px; }
+
+.swiper4 .prev2, .swiper4 .next2 {
+  top: 50%; }
+
+.swiper4 .prev2 {
+  left: -65px; }
+
+.swiper4 .next2 {
+  right: -65px; }
+
 /*ループ内テキストオーバーフロー設定基本*/
 .text-over {
   max-height: 150px;
@@ -1743,6 +1759,13 @@ footer.pages {
     line-height: 1.77; }
 
 /*たるみ・しわ・小顔・鼻の糸特徴記載*/
+.points {
+  font-size: .88rem;
+  background-color: #c775ac;
+  padding: 6px 10px;
+  margin-bottom: 15px;
+  display: inline-block; }
+
 .features.layout1 .inner-box2 {
   position: relative;
   padding: 80px 0; }
@@ -1763,12 +1786,6 @@ footer.pages {
       padding-right: 120px;
       width: 480px;
       height: 400px; }
-      .features.layout1 .inner-box2 .box .desc .points {
-        font-size: .88rem;
-        background-color: #c775ac;
-        padding: 6px 10px;
-        margin-bottom: 15px;
-        display: inline-block; }
       .features.layout1 .inner-box2 .box .desc h3 {
         margin-bottom: 15px; }
       .features.layout1 .inner-box2 .box .desc p {
@@ -1840,15 +1857,16 @@ footer.pages {
 .bg-cg2 {
   background-color: #fbfaf7; }
 
-.ope-kind .wrap .inner .box {
-  padding: 60px 0; }
-  .ope-kind .wrap .inner .box .desc {
+/*施術の種類*/
+.ope-kind .wrap .inner-box2 .box {
+  padding: 80px 0; }
+  .ope-kind .wrap .inner-box2 .box .desc {
     width: 57%; }
-    .ope-kind .wrap .inner .box .desc h3 {
+    .ope-kind .wrap .inner-box2 .box .desc h3 {
       margin-bottom: 25px; }
-  .ope-kind .wrap .inner .box .thumb {
+  .ope-kind .wrap .inner-box2 .box .thumb {
     width: 34%; }
-    .ope-kind .wrap .inner .box .thumb img {
+    .ope-kind .wrap .inner-box2 .box .thumb img {
       width: 100%;
       height: auto; }
 
@@ -1879,6 +1897,12 @@ footer.pages {
   font-size: .92rem;
   background-color: #f9f9f9; }
 
+/*施術の感想（口コミ）*/
+.kuchikomi {
+  padding: 60px 0; }
+  .kuchikomi .inner-box2 h2 {
+    margin-bottom: 40px; }
+
 /*料金表*/
 .price .inner-box2 h2 {
   margin-bottom: 35px; }
@@ -1892,6 +1916,44 @@ footer.pages {
     padding-left: 1em; }
   .price .inner-box2 .price-list dl dd {
     padding-right: 1em; }
+
+/*施術の流れ*/
+.flow .inner h2 {
+  margin-bottom: 40px; }
+.flow .inner ul li {
+  padding: 35px;
+  border: 1px solid #a64987;
+  background-color: #fbfbfb;
+  margin-bottom: 95px;
+  position: relative; }
+  .flow .inner ul li::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -70px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 45.9px 26.5px 0 26.5px;
+    border-color: #f0e6c8 transparent transparent transparent; }
+  .flow .inner ul li:nth-of-type(4)::after {
+    content: "";
+    border: none; }
+  .flow .inner ul li .left {
+    width: 57%; }
+    .flow .inner ul li .left .top {
+      vertical-align: middle;
+      margin-bottom: 22px; }
+      .flow .inner ul li .left .top .step {
+        display: inline-block; }
+      .flow .inner ul li .left .top h3 {
+        display: inline-block;
+        font-size: 1.2rem;
+        line-height: 1.0;
+        margin-left: 1.4em; }
+    .flow .inner ul li .left p {
+      font-size: 0.97rem; }
 
 @media (max-width: 767px) {
   /*施術紹介*/

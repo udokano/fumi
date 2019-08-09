@@ -19,6 +19,14 @@
 
 /*たるみ・しわ・小顔・鼻の糸特徴記載*/
 
+ .points {
+                    font-size: .88rem;
+                    background-color: #c775ac;
+                    padding: 6px 10px;
+                    margin-bottom: 15px;
+                    display: inline-block;
+                }
+
 
 .features.layout1 {
     .inner-box2 {
@@ -44,13 +52,7 @@
                 padding-right: 120px;
                 width: 480px;
                 height: 400px;
-                .points {
-                    font-size: .88rem;
-                    background-color: #c775ac;
-                    padding: 6px 10px;
-                    margin-bottom: 15px;
-                    display: inline-block;
-                }
+               
                 
                 
                 h3 {
@@ -201,13 +203,15 @@
 
 }
 
+/*施術の種類*/
+
 
 .ope-kind {
     .wrap {
         
-         .inner {
+         .inner-box2 {
         .box {
-            padding: 60px 0;
+            padding: 80px 0;
             .desc {
                 width: 57%;
                 h3 {
@@ -282,6 +286,20 @@
 }
 
 
+/*施術の感想（口コミ）*/
+
+.kuchikomi {
+    padding: 60px 0;
+    .inner-box2 {
+        h2 {
+            margin-bottom: 40px;
+        }
+    }
+}
+
+
+
+
 /*料金表*/
 
 
@@ -310,6 +328,69 @@
     }
 }
 
+
+/*施術の流れ*/
+
+.flow {
+    .inner {
+        h2 {
+            margin-bottom: 40px;
+        }
+        
+        ul {
+            li {
+                padding: 35px;
+                border: 1px solid $cp;
+                background-color: #fbfbfb;
+               margin-bottom: 95px;
+                position: relative;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 50%;
+                    bottom: -70px;
+                    @include trx;
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                   border-width: 45.9px 26.5px 0 26.5px;
+                    border-color: #f0e6c8 transparent transparent transparent;
+                }
+                
+                &:nth-of-type(4)::after {
+                    content: "";
+                    border: none;
+                }
+                
+                .left {
+                    width: 57%;
+                      .top {
+                    vertical-align: middle;
+                          margin-bottom: 22px;
+                    .step {
+                        display: inline-block;
+                    }
+                    
+                    h3 {
+                        display: inline-block;
+                        font-size: 1.2rem;
+                        line-height: 1.0;
+                        margin-left: 1.4em;
+                    }
+                }
+                    
+                    p {
+                        font-size: 0.97rem;
+                    }
+                    
+                    
+                }
+                
+              
+            }
+        }
+    }
+}
 
 
 @media (max-width: 767px) {

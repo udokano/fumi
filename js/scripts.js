@@ -53,6 +53,8 @@ $(this).stop().addClass('fade-in');
     
 //スライダー
     
+    //バナー
+    
 var mySwiper = new Swiper ('.swiper1', {
   loop: true,
   initialSlide: 1,
@@ -73,6 +75,8 @@ var mySwiper = new Swiper ('.swiper1', {
 })
 
 
+//よくある質問
+
 var mySwiper2 = new Swiper ('.swiper2', {
   loop: true,
   initialSlide: 1,
@@ -91,6 +95,8 @@ pagination: '.swiper-pagination',
   }
 
 });
+    
+    //症例
 
     var mySwiper3 = new Swiper ('.swiper3', {
   loop: true,
@@ -112,6 +118,31 @@ paginationClickable: true,
   }
 
 });
+    
+    
+    //施術の感想
+    
+   var mySwiper3 = new Swiper ('.swiper4', {
+  loop: true,
+  initialSlide: 1,
+  slidesPerView: 3,
+spaceBetween: 25,
+pagination: '.swiper-pagination',
+paginationClickable: true,
+paginationClickable: true,
+     nextButton: '.next2',
+     prevButton: '.prev2',
+   
+        breakpoints: {
+    767: {
+      slidesPerView: 1,
+      spaceBetween: 10
+    }
+  }
+
+});
+
+    
 
 
 
