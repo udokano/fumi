@@ -2418,7 +2418,7 @@ footer.pages .pages-footer-box .left .tel {
 }
 .features.layout1 .inner-box2 .box {
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 78px;
   /*偶数行は左右反転*/
 }
 .features.layout1 .inner-box2 .box .desc {
@@ -2523,6 +2523,9 @@ footer.pages .pages-footer-box .left .tel {
 }
 
 /*施術の種類*/
+.ope-kind h2 {
+  margin-bottom: 45px;
+}
 .ope-kind .wrap .inner-box2 .box {
   padding: 80px 0;
 }

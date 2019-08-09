@@ -58,6 +58,9 @@ Template Name: 鼻の糸
   </div>
 </section>
 <section class="ope-kind">
+    
+    <h2 class="tc">糸の種類</h2>
+    
 <div class="wrap bg-cg2">
   <div class="inner-box2">
     <div class="box flex">
@@ -193,7 +196,7 @@ Template Name: 鼻の糸
         </div>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow01.jpg" alt="ご予約"></div>
       </li>
-         <li class="box-size flex">
+      <li class="box-size flex">
         <div class="left">
           <div class="top">
             <div class="step points f-ryu cw">STEP 02</div>
@@ -203,7 +206,7 @@ Template Name: 鼻の糸
         </div>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow02.jpg" alt="診察、カウンセリング"></div>
       </li>
-         <li class="box-size flex">
+      <li class="box-size flex">
         <div class="left">
           <div class="top">
             <div class="step points f-ryu cw">STEP 03</div>
@@ -213,14 +216,14 @@ Template Name: 鼻の糸
         </div>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_2.jpg" alt="施術開始"></div>
       </li>
-         <li class="box-size flex">
+      <li class="box-size flex">
         <div class="left">
           <div class="top">
             <div class="step points f-ryu cw">STEP 04</div>
             <h3 class="f-bold">施術終了・お会計</h3>
           </div>
           <p class="gosic ls1">治療が終了したら、お会計をして、
-そのままお帰りいただけます。</p>
+            そのままお帰りいただけます。</p>
         </div>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow04.jpg" alt="施術終了・お会計"></div>
       </li>
@@ -228,42 +231,37 @@ Template Name: 鼻の糸
   </div>
 </section>
 <section class="ope-faq">
-    <div class="inner">
-        
-        <h2 class="tc ls1">よくある質問</h2>
+  <div class="inner">
+    <h2 class="tc ls1">よくある質問</h2>
+    <?php
+    $args = array(
+      'post_type' => 'faq',
+      'tax_query' => array(
+        array(
+          'taxonomy' => 'faq_kind',
+          'field' => 'slug',
+          'terms' => array( 'nose' )
+        )
+      ),
+      'orderby' => 'date',
+      'order' => 'DESC',
+    );
+    $the_query = new WP_Query( $args );
+    while ( $the_query->have_posts() ): $the_query->the_post();
+    ?>
     
-        <?php
-$args = array(
-'post_type' => 'faq',
-'tax_query' => array (
-                array (
-                  'taxonomy' => 'faq_kind',
-                  'field'    => 'slug',
-                  'terms'    => array('nose')
-                )
-               ),
-'orderby' => 'date',
-'order' => 'DESC',
-);
-$the_query = new WP_Query( $args );
-while ( $the_query->have_posts() ) : $the_query->the_post();
-?>
- 
-<!--ここにループの中の記述 -->
-        
-        <dl class="box-size">
-        
-            <dt><span class="q">Q</span><span class="gosic"><?php the_title(); ?></span></dt>
-            
-            <dd><span class="a">A</span><span class="gosic"><?php remove_filter('the_content', 'wpautop'); ?><?php the_content(); ?></span></dd>
-        
-        
-        </dl>
- 
-<?php endwhile; wp_reset_postdata(); ?>
+    <!--ここにループの中の記述 -->
     
-    
-    </div>
-    
+    <dl class="box-size">
+      <dt><span class="q">Q</span><span class="gosic">
+        <?php the_title(); ?>
+        </span></dt>
+      <dd><span class="a">A</span><span class="gosic">
+        <?php remove_filter('the_content', 'wpautop'); ?>
+        <?php the_content(); ?>
+        </span></dd>
+    </dl>
+    <?php endwhile; wp_reset_postdata(); ?>
+  </div>
 </section>
 <?php get_footer();?>

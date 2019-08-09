@@ -1779,7 +1779,7 @@ footer.pages {
     border-bottom: 1px solid #a64987; }
   .features.layout1 .inner-box2 .box {
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 78px;
     /*偶数行は左右反転*/ }
     .features.layout1 .inner-box2 .box .desc {
       padding: 45px;
@@ -1861,6 +1861,8 @@ footer.pages {
   background-color: #fbfaf7; }
 
 /*施術の種類*/
+.ope-kind h2 {
+  margin-bottom: 45px; }
 .ope-kind .wrap .inner-box2 .box {
   padding: 80px 0; }
   .ope-kind .wrap .inner-box2 .box .desc {
