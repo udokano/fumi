@@ -33,12 +33,11 @@ Template Name: ドクター紹介
     <div class="right box-size">
       <h3 class="cw">所属</h3>
       <ul>
-        <li>帝京大学医学部　卒業</li>
-        <li>帝京大学病院形成外科　入局</li>
-        <li>市立旭川病院皮膚科　入局</li>
-        <li>トキコクリニック　淀屋橋院長　就任</li>
-        <li>トキコクリニック　梅田院長　就任</li>
-        <li>fumi beauty clinic　院長　就任</li>
+        <li>ジュピダームビスタ認定医</li>
+        <li>ボトックスビスタ認定医</li>
+        <li>日本形成外科学会</li>
+        <li>日本抗加齢学会</li>
+        <li>日本美容皮膚科学会</li>
       </ul>
     </div>
   </div>
