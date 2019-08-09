@@ -10,10 +10,10 @@ Template Name: ドクター紹介
 <section class="doctor-intro">
   <div class="inner">
     <div class="text box-size">
-      <h2><img src="<?php echo get_template_directory_uri(); ?>/img/doctor/doctor_name.png" alt="fumi beauty clinic　院長 先山 史"></h2>
+      <h2 class="f-ryu"><span class="sm">fumi beauty clinic  院長</span>先山 史</h2>
       <div class="thumb sp"><img src="<?php echo get_template_directory_uri(); ?>/img/doctor/doctor_img.png" alt="院長 先山 史"></div>
-      <p class="ls1"> 私は医師になってから10年間を形成外科医として、その後の5年間を美容皮膚科医として勤務してまいりました。その中で「より自分らしく美しく年齢を重ねていくこと」の意義や素晴らしさに出会い、そのお手伝いをしていくことを一生の仕事にしたいと強く思うようになり、fumi beauty clinicを開院することとなりました。全ての患者さまの「beautiful aging」を目指して、私自身が受けたい！続けたい！と思う治療のみをご提案いたします。皆様がより自分らしく美しく年齢を重ね輝き続けるためのお手伝いができたら、これ以上嬉しいことはありません。 </p>
-      <div class="blog gosic"><a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank" class="cw">ブログ</a>http://blog.livedoor.jp/dr_sakiyama</div>
+      <p class="ls1 f-ryu"> 私は医師になってから10年間を形成外科医として、その後の5年間を美容皮膚科医として勤務してまいりました。その中で「より自分らしく美しく年齢を重ねていくこと」の意義や素晴らしさに出会い、そのお手伝いをしていくことを一生の仕事にしたいと強く思うようになり、fumi beauty clinicを開院することとなりました。全ての患者さまの「beautiful aging」を目指して、私自身が受けたい！続けたい！と思う治療のみをご提案いたします。皆様がより自分らしく美しく年齢を重ね輝き続けるためのお手伝いができたら、これ以上嬉しいことはありません。 </p>
+      <div class="blog gosic"><a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank" class="cw">ブログ</a><a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank" class="link-txt">http://blog.livedoor.jp/dr_sakiyama</a></div>
     </div>
   </div>
 </section>
