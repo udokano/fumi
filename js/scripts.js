@@ -136,7 +136,7 @@ paginationClickable: true,
         breakpoints: {
     767: {
       slidesPerView: 1,
-      spaceBetween: 10
+      spaceBetween: 35
     }
   }
 

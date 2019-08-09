@@ -813,7 +813,14 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
     right: -65px;
 }
 
+@media (max-width: 767px) {
+    
+    .swiper4 .prev2,.swiper4 .next2 {
+   display: none!important;
+}
 
+    
+}
 
 
 /*ループ内テキストオーバーフロー設定基本*/

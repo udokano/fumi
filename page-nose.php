@@ -22,38 +22,38 @@ Template Name: 鼻の糸
   <div class="inner-box2">
     <h2 class="cp gosic tc ls1">鼻の糸の特徴</h2>
     <div class="box">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/nose/point01.jpg" alt="ポイントエリアサムネイル"></div>
       <div class="desc box-size bg-grade">
         <div class="points f-ryu cw">Point.1</div>
         <h3 class="gd ls1">鼻先を<br>
           切らずに整える</h3>
         <p class="gosic">メスを使わずに、鼻先を整えることが可能なので、お手軽に受けられる整形施術です。</p>
       </div>
-      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/nose/point01.jpg" alt="ポイントエリアサムネイル"></div>
     </div>
     <div class="box cf">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/nose/point02.jpg" alt="ポイントエリアサムネイル"></div>
       <div class="desc box-size bg-grade">
         <div class="points f-ryu cw">Point.2</div>
         <h3 class="gd ls1">短時間の施術</h3>
         <p class="gosic">施術時間が約15分〜30分なので、お忙しい方でも、スキマ時間で施術を受けること可能です。</p>
       </div>
-      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/nose/point02.jpg" alt="ポイントエリアサムネイル"></div>
     </div>
     <div class="box">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/nose/point03.jpg" alt="ポイントエリアサムネイル"></div>
       <div class="desc box-size bg-grade">
         <div class="points f-ryu cw">Point.3</div>
         <h3 class="gd ls1">団子鼻解消</h3>
         <p class="gosic">気になる団子鼻を解消して、シャープで美しい鼻先に近づけられます。</p>
       </div>
-      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/nose/point03.jpg" alt="ポイントエリアサムネイル"></div>
     </div>
     <div class="box cf">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/nose/point04.jpg" alt="ポイントエリアサムネイル"></div>
       <div class="desc box-size bg-grade">
         <div class="points f-ryu cw">Point.4</div>
         <h3 class="gd ls1">ダウンタイムが<br>
           ほとんどない</h3>
         <p class="gosic">メスを使わないため、腫れやリスクがほとんどなく、すぐに普段の日常生活に戻れます。</p>
       </div>
-      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/nose/point04.jpg" alt="ポイントエリアサムネイル"></div>
     </div>
   </div>
 </section>
@@ -192,9 +192,11 @@ Template Name: 鼻の糸
             <div class="step points f-ryu cw">STEP 01</div>
             <h3 class="f-bold">ご予約</h3>
           </div>
+                    <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow01.jpg" alt="ご予約"></div>
+
           <p class="gosic ls1">お電話・WEBの予約フォームにて、ご予約をよろしくお願い致します。来院前にご不明点があれば、お気軽にご相談ください。</p>
         </div>
-        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow01.jpg" alt="ご予約"></div>
+        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow01.jpg" alt="ご予約"></div>
       </li>
       <li class="box-size flex">
         <div class="left">
@@ -202,9 +204,11 @@ Template Name: 鼻の糸
             <div class="step points f-ryu cw">STEP 02</div>
             <h3 class="f-bold">診察、カウンセリング</h3>
           </div>
+                    <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow02.jpg" alt="診察、カウンセリング"></div>
+
           <p class="gosic ls1">施術前に、患者様の悩みをお伺いします。お身体の状態を診て、治療計画を決めていきます。注意点、リスクについても詳しく説明いたしますので、ご不明な点や不安なことがあれば遠慮せずにご質問ください。</p>
         </div>
-        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow02.jpg" alt="診察、カウンセリング"></div>
+        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow02.jpg" alt="診察、カウンセリング"></div>
       </li>
       <li class="box-size flex">
         <div class="left">
@@ -212,9 +216,11 @@ Template Name: 鼻の糸
             <div class="step points f-ryu cw">STEP 03</div>
             <h3 class="f-bold">施術開始</h3>
           </div>
+                    <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_2.jpg" alt="施術開始"></div>
+
           <p class="gosic ls1">痛みを極力に抑え、安全第一に責任を持って施術いたします。施術は全て有資格者が行うので、ご安心くださいませ。</p>
         </div>
-        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_2.jpg" alt="施術開始"></div>
+        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_2.jpg" alt="施術開始"></div>
       </li>
       <li class="box-size flex">
         <div class="left">
@@ -222,10 +228,12 @@ Template Name: 鼻の糸
             <div class="step points f-ryu cw">STEP 04</div>
             <h3 class="f-bold">施術終了・お会計</h3>
           </div>
+                    <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow04.jpg" alt="施術終了・お会計"></div>
+
           <p class="gosic ls1">治療が終了したら、お会計をして、
             そのままお帰りいただけます。</p>
         </div>
-        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow04.jpg" alt="施術終了・お会計"></div>
+        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow04.jpg" alt="施術終了・お会計"></div>
       </li>
     </ul>
   </div>

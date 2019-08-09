@@ -537,6 +537,9 @@ body.page {
 .swiper4 .next2 {
   right: -65px; }
 
+@media (max-width: 767px) {
+  .swiper4 .prev2, .swiper4 .next2 {
+    display: none !important; } }
 /*ループ内テキストオーバーフロー設定基本*/
 .text-over {
   max-height: 150px;
@@ -1957,6 +1960,8 @@ footer.pages {
         font-size: 1.2rem;
         line-height: 1.0;
         margin-left: 1.4em; }
+    .flow .inner ul li .left .thumb {
+      display: none; }
     .flow .inner ul li .left p {
       font-size: 0.97rem; }
 
@@ -2012,6 +2017,48 @@ footer.pages {
         margin-bottom: 22px;
         text-align: center; }
 
+  /*たるみ・しわ・小顔・鼻の糸特徴記載*/
+  .features.layout1 .inner-box2 {
+    position: static;
+    padding: 80px 0 0; }
+    .features.layout1 .inner-box2 h2 {
+      position: static;
+      top: 0;
+      left: 116px;
+      font-size: 1.54rem;
+      padding: 10px 0;
+      border-top: 1px solid #a64987;
+      border-bottom: 1px solid #a64987; }
+    .features.layout1 .inner-box2 .box {
+      position: static;
+      margin-bottom: 35px;
+      /*偶数行は左右反転*/ }
+      .features.layout1 .inner-box2 .box .desc {
+        padding: 20px;
+        width: 62%;
+        height: auto;
+        background-color: #f6eeee !important;
+        position: relative;
+        margin-top: -30px; }
+        .features.layout1 .inner-box2 .box .desc h3 {
+          margin-bottom: 15px; }
+        .features.layout1 .inner-box2 .box .desc p {
+          margin-bottom: 15px;
+          font-size: .8rem; }
+      .features.layout1 .inner-box2 .box .thumb {
+        position: static;
+        right: 0;
+        top: -80px;
+        width: 100%;
+        height: auto; }
+      .features.layout1 .inner-box2 .box:nth-of-type(even) .desc {
+        padding: 20px; }
+      .features.layout1 .inner-box2 .box:nth-of-type(even) .thumb {
+        width: 100%;
+        position: static; }
+      .features.layout1 .inner-box2 .box:last-of-type {
+        margin-bottom: 0; }
+
   /*形成外科治療特徴エリア記載*/
   .layout2 .inner-box2 h2 {
     margin-bottom: 45px;
@@ -2060,7 +2107,88 @@ footer.pages {
       margin-bottom: 12px;
       height: 110px; }
     .features.layout2 .inner-box2 ul li p {
-      font-size: .8rem; } }
+      font-size: .8rem; }
+
+  /*施術の種類*/
+  .ope-kind h2 {
+    margin-bottom: 45px; }
+  .ope-kind .wrap .inner-box2 .box {
+    flex-flow: column;
+    padding: 80px 0; }
+    .ope-kind .wrap .inner-box2 .box .desc, .ope-kind .wrap .inner-box2 .box .thumb {
+      width: 90%;
+      margin: auto; }
+    .ope-kind .wrap .inner-box2 .box .thumb {
+      margin-bottom: 25px; }
+  .ope-kind .wrap.bg-cg2 .inner-box2 .box {
+    flex-flow: column-reverse; }
+
+  /*症例*/
+  .case .inner h2 {
+    margin-bottom: 50px; }
+  .case .inner .case-wrap {
+    flex-wrap: wrap; }
+    .case .inner .case-wrap .case-box {
+      margin-bottom: 55px; }
+      .case .inner .case-wrap .case-box .box .thumb img {
+        height: auto; }
+      .case .inner .case-wrap .case-box .box:nth-of-type(1) {
+        margin-right: 50px;
+        position: relative; }
+        .case .inner .case-wrap .case-box .box:nth-of-type(1)::after {
+          content: "";
+          position: absolute;
+          top: 42%;
+          right: -35px;
+          border-style: solid;
+          border-width: 12px 0 12px 19.3px;
+          border-color: transparent transparent transparent #a64987; }
+  .case .inner .note {
+    width: 80%;
+    margin: auto;
+    padding: 28px;
+    font-size: .92rem;
+    background-color: #f9f9f9; }
+
+  /*施術の流れ*/
+  .flow .inner h2 {
+    margin-bottom: 40px; }
+  .flow .inner ul li {
+    padding: 35px;
+    margin-bottom: 95px;
+    position: relative; }
+    .flow .inner ul li::after {
+      border-width: 26.0px 15px 0 15px; }
+    .flow .inner ul li .left {
+      width: 100%; }
+      .flow .inner ul li .left .top {
+        margin-bottom: 15px; }
+        .flow .inner ul li .left .top h3 {
+          font-size: 1.2rem; }
+      .flow .inner ul li .left .thumb {
+        display: block;
+        margin-bottom: 20px; }
+      .flow .inner ul li .left p {
+        font-size: 0.97rem; }
+
+  /*よくある質問*/
+  .ope-faq .inner h2 {
+    margin-bottom: 45px; }
+  .ope-faq .inner dl {
+    padding: 45px 30px; }
+    .ope-faq .inner dl dt span, .ope-faq .inner dl dd span {
+      padding-left: 60px; }
+    .ope-faq .inner dl dt {
+      margin-bottom: 45px; }
+      .ope-faq .inner dl dt .q {
+        font-size: 1.5rem;
+        margin-right: 50px; }
+        .ope-faq .inner dl dt .q::after {
+          width: 45px;
+          height: 45px; }
+    .ope-faq .inner dl dd .a {
+      font-size: 1.5rem;
+      margin-right: 50px; } }
 .doctor-intro {
   background-color: #f6eeee;
   padding: 60px 0 0; }
