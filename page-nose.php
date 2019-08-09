@@ -228,7 +228,42 @@ Template Name: 鼻の糸
   </div>
 </section>
 <section class="ope-faq">
+    <div class="inner">
+        
+        <h2 class="tc ls1">よくある質問</h2>
     
+        <?php
+$args = array(
+'post_type' => 'faq',
+'tax_query' => array (
+                array (
+                  'taxonomy' => 'faq_kind',
+                  'field'    => 'slug',
+                  'terms'    => array('nose')
+                )
+               ),
+'orderby' => 'date',
+'order' => 'DESC',
+);
+$the_query = new WP_Query( $args );
+while ( $the_query->have_posts() ) : $the_query->the_post();
+?>
+ 
+<!--ここにループの中の記述 -->
+        
+        <dl class="box-size">
+        
+            <dt><span class="q">Q</span><span class="gosic"><?php the_title(); ?></span></dt>
+            
+            <dd><span class="a">A</span><span class="gosic"><?php remove_filter('the_content', 'wpautop'); ?><?php the_content(); ?></span></dd>
+        
+        
+        </dl>
+ 
+<?php endwhile; wp_reset_postdata(); ?>
+    
+    
+    </div>
     
 </section>
 <?php get_footer();?>

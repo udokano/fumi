@@ -2645,6 +2645,58 @@ footer.pages .pages-footer-box .left .tel {
   font-size: 0.97rem;
 }
 
+/*よくある質問*/
+.ope-faq .inner h2 {
+  margin-bottom: 45px;
+}
+.ope-faq .inner dl {
+  border-top: 1px dotted #ccc;
+  padding: 45px 60px;
+}
+.ope-faq .inner dl dt, .ope-faq .inner dl dd {
+  display: table;
+}
+.ope-faq .inner dl dt span, .ope-faq .inner dl dd span {
+  display: table-cell;
+  padding-left: 60px;
+}
+.ope-faq .inner dl dt .q, .ope-faq .inner dl dt .a, .ope-faq .inner dl dd .q, .ope-faq .inner dl dd .a {
+  padding-left: 0;
+}
+.ope-faq .inner dl dt {
+  margin-bottom: 45px;
+}
+.ope-faq .inner dl dt span {
+  vertical-align: middle;
+}
+.ope-faq .inner dl dt .q {
+  color: #fff;
+  font-size: 1.5rem;
+  position: relative;
+  margin-right: 50px;
+  font-style: italic;
+}
+.ope-faq .inner dl dt .q::after {
+  content: "";
+  background-color: #9d8440;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
+  z-index: -1;
+}
+.ope-faq .inner dl dd span {
+  vertical-align: top;
+}
+.ope-faq .inner dl dd .a {
+  font-size: 1.5rem;
+  margin-right: 50px;
+}
+
 @media (max-width: 767px) {
   /*施術紹介*/
   .ope-intro .inner {

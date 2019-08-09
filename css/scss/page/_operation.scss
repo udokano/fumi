@@ -393,6 +393,72 @@
 }
 
 
+/*よくある質問*/
+
+.ope-faq {
+    .inner {
+        h2 {
+            margin-bottom: 45px;
+        }
+        
+        dl {
+            border-top: 1px dotted #ccc;
+            padding: 45px 60px;
+            
+            dt,dd {
+                display: table;
+                span {
+                    display: table-cell;
+                    padding-left: 60px;
+                }
+                
+                .q,.a {
+                    padding-left: 0;
+                }
+            }
+            
+            dt {
+                margin-bottom: 45px;
+                span {
+                    vertical-align: middle;
+                }
+                
+                .q {
+                    color: #fff;
+                    font-size: 1.5rem;
+                    position: relative;
+                    margin-right: 50px;
+                    font-style: italic;
+                    &::after {
+                        content: "";
+                        background-color: $cg;
+                        display: inline-block;
+                        width: 45px;
+                        height: 45px;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%) rotate(45deg);
+                        z-index: -1;
+                    }
+                }
+            }
+            
+            dd {
+                
+                span {
+                    vertical-align: top;
+                }
+                .a {
+                     font-size: 1.5rem;
+                    margin-right: 50px;
+                }
+            }
+            
+        }
+    }
+}
+
 @media (max-width: 767px) {
     
 
