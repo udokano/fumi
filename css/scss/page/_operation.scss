@@ -31,7 +31,7 @@
 .features.layout1 {
     .inner-box2 {
         position: relative;
-    padding: 80px 0;
+    padding: 80px 0 0;
         h2 {
             position: absolute;
             top: 0;
@@ -77,7 +77,7 @@
             }
             
             
-            
+            /*偶数行は左右反転*/
             &:nth-of-type(even){
 
                     .desc {
@@ -91,9 +91,12 @@
                   .thumb {
                 left: 0;
                 top: -80px;
-            }
+               }
             }
             
+            &:last-of-type {
+                margin-bottom: 0;
+            }
            
         }
         

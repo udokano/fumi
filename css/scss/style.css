@@ -1768,7 +1768,7 @@ footer.pages {
 
 .features.layout1 .inner-box2 {
   position: relative;
-  padding: 80px 0; }
+  padding: 80px 0 0; }
   .features.layout1 .inner-box2 h2 {
     position: absolute;
     top: 0;
@@ -1779,7 +1779,8 @@ footer.pages {
     border-bottom: 1px solid #a64987; }
   .features.layout1 .inner-box2 .box {
     position: relative;
-    margin-bottom: 100px; }
+    margin-bottom: 100px;
+    /*偶数行は左右反転*/ }
     .features.layout1 .inner-box2 .box .desc {
       padding: 45px;
       padding-top: 90px;
@@ -1805,6 +1806,8 @@ footer.pages {
     .features.layout1 .inner-box2 .box:nth-of-type(even) .thumb {
       left: 0;
       top: -80px; }
+    .features.layout1 .inner-box2 .box:last-of-type {
+      margin-bottom: 0; }
 
 /*形成外科治療特徴エリア記載*/
 .layout2 .inner-box2 h2 {
