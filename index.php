@@ -128,7 +128,7 @@
       <div class="text">
         <h2 class="cp tc">CONCEPT <span class="sm">ご挨拶</span></h2>
         <div class="band cp tc ls2">beautiful aging</div>
-        <p class="cach gd tc">美しく年齢を重ね<br>
+        <p class="cach gd tc f-ryu">美しく年齢を重ね<br>
           輝き続けるために</p>
         <div class="btn-wrap"> <a href="<?php echo home_url( '/' ); ?>doctor" class="btn bg-cg">院長紹介</a> <a href="<?php echo home_url( '/' ); ?>concept" class="btn">当院について</a> </div>
         <p class="doctor-name cp tc"><span class="sm">fumi beauty clinic院長</span><br>
