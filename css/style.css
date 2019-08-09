@@ -1242,11 +1242,6 @@ footer.pages .pages-footer-box .left .tel {
   background-image: url("../img/top/bg4.jpg");
 }
 
-@media (max-width: 767px) {
-  #bg2 {
-    background-image: url("../img/top/bg02_sp.png");
-  }
-}
 .concept {
   height: 800px;
   position: relative;
@@ -1540,11 +1535,12 @@ footer.pages .pages-footer-box .left .tel {
 .menu .munu-link li.box-size a {
   display: block;
   height: 100%;
-  background-color: rgba(166, 73, 135, 0.65);
+  background-color: rgba(255, 255, 255, 0.4);
   padding: 18px;
 }
 .menu .munu-link li.box-size a h3 {
-  font-size: 1.25rem;
+  color: #454545;
+  font-size: 1.44rem;
   margin-bottom: 0.8rem;
 }
 .menu .munu-link li.box-size a h3 .sm {
@@ -1565,11 +1561,11 @@ footer.pages .pages-footer-box .left .tel {
   overflow: hidden;
 }
 .menu .munu-link li.box-size a ul li {
-  color: #fff;
+  color: #454545;
   float: left;
   display: inline-block;
   width: 50%;
-  font-size: .8rem;
+  font-size: .87rem;
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
   margin-bottom: 8px;
 }
@@ -1623,7 +1619,6 @@ footer.pages .pages-footer-box .left .tel {
     overflow: hidden;
   }
   .menu .munu-link li.box-size a ul li {
-    color: #fff;
     float: left;
     display: inline-block;
     width: 100%;
@@ -1717,7 +1712,7 @@ footer.pages .pages-footer-box .left .tel {
   }
   .doctor .inner .text .btn-wrap .btn {
     margin: 0px 8px 0;
-    width: 140px;
+    width: 127px;
     height: 50px;
     line-height: 50px;
   }

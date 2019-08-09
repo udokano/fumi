@@ -17,14 +17,6 @@
     background-image: url("../img/top/bg4.jpg");
 }
 
-@media (max-width: 767px) {
-    
-    #bg2 {
-        background-image: url("../img/top/bg02_sp.png");
-    }
-    
-}
-
 
 .concept {
     height: 800px;
@@ -340,11 +332,12 @@
                 display: block;
            
                 height: 100%;
-            background-color: $bg-p;
+            background-color: $bg-w;
             padding: 18px;
                 
              h3 {
-                    font-size: 1.25rem;
+                 color: #454545;
+                    font-size: 1.44rem;
                  margin-bottom: 0.8rem;
                  .sm {
                      display: inline;
@@ -367,11 +360,11 @@
                 ul {
                    overflow: hidden;
                     li {
-                        color: #fff;
+                        color: #454545;
                         float: left;
                         display: inline-block;
                         width: 50%;
-                        font-size: .8rem;
+                        font-size: .87rem;
                         font-family: $gosic;
                         margin-bottom: 8px;
                        
@@ -436,7 +429,6 @@
                   ul {
                    overflow: hidden;
                     li {
-                        color: #fff;
                         float: left;
                         display: inline-block;
                         width: 100%;
@@ -558,7 +550,7 @@
              .btn-wrap {
                  .btn {
                 margin: 0px 8px 0;
-                     width: 140px;
+                     width: 127px;
                      height: 50px;
                      line-height: 50px;
             }

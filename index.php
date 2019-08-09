@@ -239,10 +239,10 @@
     </div>
   </section>
   <section class="menu area-bgs" id="bg3">
-    <h2 class="cw tc">MENU</h2>
+    <h2 class="tc cp">MENU</h2>
     <ul class="munu-link flex">
       <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>concept">
-        <h3 class="cw tc">たるみ治療</h3>
+        <h3 class="tc">たるみ治療</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb05.jpg" alt="サムネイル"></div>
         <ul>
           <li>・ヒアルロン酸</li>
@@ -250,7 +250,7 @@
         </ul>
         </a> </li>
       <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>">
-        <h3 class="cw tc">しわ治療 </h3>
+        <h3 class="tc">しわ治療 </h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb06.jpg" alt="サムネイル"></div>
         <ul>
           <li>・ヒアルロン酸</li>
@@ -259,7 +259,7 @@
         </ul>
         </a> </li>
       <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>">
-        <h3 class="cw tc">小顔治療 </h3>
+        <h3 class="tc">小顔治療 </h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb07.jpg" alt="サムネイル"></div>
         <ul>
           <li>・脂肪溶解注射</li>
@@ -268,7 +268,7 @@
         </ul>
         </a> </li>
       <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>" target="_blank">
-        <h3 class="cw tc">鼻 <span class="sm">(隆鼻、鼻筋をつくる)</span></h3>
+        <h3 class="tc">鼻 <span class="sm">(隆鼻、鼻筋をつくる)</span></h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb08.jpg" alt="サムネイル"></div>
         <ul>
           <li>・Gメッシュ</li>
@@ -277,7 +277,7 @@
         </a> </li>
         
          <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>" target="_blank">
-        <h3 class="cw tc">形成外科治療</h3>
+        <h3 class="tc">形成外科治療</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb09.jpg" alt="サムネイル"></div>
         <ul class="col">
           <li>・色素性母斑<span class="sm">(黒子、ホクロ)</span></li>
