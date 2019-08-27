@@ -241,7 +241,7 @@
   <section class="menu area-bgs" id="bg3">
     <h2 class="tc cp">MENU</h2>
     <ul class="munu-link flex">
-      <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>concept">
+      <li class="box-size hg-row"> <a href="<?php echo home_url( '/' ); ?>concept">
         <h3 class="tc">たるみ治療</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb05.jpg" alt="サムネイル"></div>
         <ul>
@@ -249,7 +249,7 @@
           <li>・スレッドリフト</li>
         </ul>
         </a> </li>
-      <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>">
+      <li class="box-size hg-row"> <a href="<?php echo home_url( '/' ); ?>">
         <h3 class="tc">しわ治療 </h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb06.jpg" alt="サムネイル"></div>
         <ul>
@@ -258,7 +258,7 @@
               <li>・美容内科、美容点滴</li>
         </ul>
         </a> </li>
-      <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>">
+      <li class="box-size hg-row"> <a href="<?php echo home_url( '/' ); ?>">
         <h3 class="tc">小顔治療 </h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb07.jpg" alt="サムネイル"></div>
         <ul>

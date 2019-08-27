@@ -324,7 +324,12 @@
         margin: auto;
         flex-wrap: wrap;
         display: flex;
-        li.box-size {
+        
+        li.hg-row {
+            height: 370px;
+        }
+        
+        .box-size {
             width: 31.7%;
                 margin-bottom: 5%;
            height: 420px;
@@ -403,6 +408,8 @@
         max-width: none;
         width: 96%;
         flex-wrap: wrap;
+        
+        
         li.box-size {
             width: 49.2%;
             margin-bottom: 60px;

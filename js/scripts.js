@@ -98,7 +98,7 @@ pagination: '.swiper-pagination',
     
     //症例
 
-    var mySwiper3 = new Swiper ('.swiper3', {
+    var mySwiper4 = new Swiper ('.swiper3', {
   loop: true,
   initialSlide: 1,
   slidesPerView: 1,
@@ -122,7 +122,7 @@ paginationClickable: true,
     
     //施術の感想
     
-   var mySwiper3 = new Swiper ('.swiper4', {
+   var mySwiper5 = new Swiper ('.swiper4', {
   loop: true,
   initialSlide: 1,
   slidesPerView: 3,
@@ -143,6 +143,27 @@ paginationClickable: true,
 });
 
     
+       //LPヒアルロン酸
+    
+   var mySwiper5 = new Swiper ('.swiper5', {
+  loop: true,
+  initialSlide: 1,
+  slidesPerView: 3,
+spaceBetween: 25,
+pagination: '.swiper-pagination',
+paginationClickable: true,
+paginationClickable: true,
+     nextButton: '.next2',
+     prevButton: '.prev2',
+   
+        breakpoints: {
+    767: {
+      slidesPerView: 1,
+      spaceBetween: 35
+    }
+  }
+
+});
 
 
 
