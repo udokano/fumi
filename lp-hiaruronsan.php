@@ -39,7 +39,7 @@ Template Name: ランディングページヒアルロン酸
  <header class="lp-header">
   <div class="header-inner flex al-cent">
     <div class="logo tc"><a href="<?php echo home_url( '/' ); ?>"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo.png" alt="FMUI BEAUTY CLINIC"></a></div>
-    <div class="lp-cv-btn flex"> <a class="" href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/header_btn01.png" alt="来院予約"></a> <a class="btn2" href="<?php echo home_url( '/' ); ?>contact" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/header_btn02.png" alt="お問合わせ"></a> </div>
+    <div class="lp-cv-btn flex"> <a class="" href="https://fumibeauty.reserve.ne.jp/sp/index.php?" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/header_btn01.png" alt="来院予約"></a> <a class="btn2" href="<?php echo home_url( '/' ); ?>contact" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/header_btn02.png" alt="お問合わせ"></a> </div>
   </div>
 </header>
 <div class="lp-fv cf">
@@ -93,8 +93,8 @@ Template Name: ランディングページヒアルロン酸
       <p class="sm tc cw time">受付時間<br>
         10:00～18:00 </p>
     </div>
-    <div class="lp-cv-btn flex"> <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約
-"></a> <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn02.png" alt="お問合わせ
+    <div class="lp-cv-btn flex"> <a href="https://fumibeauty.reserve.ne.jp/sp/index.php?" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約
+"></a> <a href="<?php echo home_url( '/' ); ?>contact" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn02.png" alt="お問合わせ
 "></a> </div>
   </div>
 </div>
@@ -105,23 +105,23 @@ Template Name: ランディングページヒアルロン酸
   <ul class="descs">
     <li class="box-size flex">
       <div class="desc">
-        <h3 class="flex"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/num1.png" alt="1"> <span class="cp">ヒアルロン酸の減少</span> </h3>
-        <p class="gd gosic ls1">加齢によるヒアルロン酸の減少が原因で、十分な水分を保持できず、真皮の構造がスカスカになり、表皮を支えられなくなることで、シワやたるみが発生します。</p>
+        <h3 class="flex"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/num1.png" alt="1"> <span class="cp">骨格の変化</span> </h3>
+        <p class="gd gosic ls1">加齢に伴い骨の損失と後退が進み、シワの原因となったりお顔バランスが悪くなる原因となります。</p>
       </div>
       <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area5_thumb01.png" alt="骨格縮小によるシワの発生"> </div>
     </li>
     <li class="box-size flex">
       <div class="desc">
-        <h3 class="flex"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/num2.png" alt="1" class="num23"> <span class="cp">骨格の変化</span> </h3>
-        <p class="gd gosic ls1">シワは頭蓋骨の老化も原因と言えます。加齢が骨の再生と破壊のバランスに影響を与え、骨の損失・後退が進み、それに伴って顔の骨格が小さくなるのです。そうなると物理的に皮膚が余るという状態に陥ります。</p>
+        <h3 class="flex"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/num2.png" alt="1" class="num23"> <span class="cp">靭帯の変化</span> </h3>
+        <p class="gd gosic ls1">お顔の皮膚には靭帯があり、真皮と骨をつないで皮膚を支えています。
+加齢に伴って顔の靭帯が衰えて垂れ下がると、顔の皮膚や脂肪も下垂し、しわやたるみなどの原因となります。</p>
       </div>
       <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area5_thumb02.png" alt="靭帯老化によるシワの発生"> </div>
     </li>
     <li class="box-size flex">
       <div class="desc">
-        <h3 class="flex"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/num3.png" alt="1" class="num23"> <span class="cp">靭帯の変化</span> </h3>
-        <p class="gd gosic ls1">お顔の皮膚には靭帯があり、真皮と骨をつないで皮膚を支えています。
-          加齢に伴って顔の靭帯が衰えて垂れ下がると、顔の皮膚や脂肪も下垂し、しわやたるみなどの原因となります。</p>
+        <h3 class="flex"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/num3.png" alt="1" class="num23"> <span class="cp">皮下脂肪の変化</span> </h3>
+        <p class="gd gosic ls1">皮下脂肪は靭帯や筋肉とのバランスで下垂したり減少したりして、しわやたるみの原因となります。</p>
       </div>
       <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area5_thumb03.png" alt="皮下脂肪の変化によるシワの発生"> </div>
     </li>
@@ -139,9 +139,8 @@ Template Name: ランディングページヒアルロン酸
       <h2 class="cp tc ls2">ヒアルロン酸<span class="gd">注入で</span></h2>
       <div class="box flex">
         <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area6_thumb.png" alt="しわ・たるみの改善"> </div>
-        <div class="desc cp"> もちろん気になる部位のみの注入も可能ですが、いくら目が大きくなったり、鼻が高かったり、ほうれい線が全くなかったとしても、お顔のバランスが悪ければ綺麗には見えません。
-          綺麗にみえるにはバランスがとても大切です。
-          当院では、不自然さを解消し、さらに美しくするため、お顔全体をバランスを見ながら注入治療を行っています。 </div>
+        <div class="desc cp">もちろん気になる部位のみへの注入も可能ですが、当院ではお顔全体のバランスを見ながらより美しく見えるバランス(黄金バランス)へと導きます。
+たるみの解消、輪郭の改善、自然な若返りができる注入方法です。</div>
       </div>
     </div>
   </section>
@@ -160,13 +159,12 @@ Template Name: ランディングページヒアルロン酸
           </li>
           <li class="gosic box-size">
             <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_thumb02.png" alt="こめかみやゴルゴ部分、アゴなどのボリュームロス"> </div>
-            <p class="gd ls1">髪の生え際から尾毛外側部、尾毛外側部から尾翼基部、尾翼基部から顎先までは１：１：１が綺麗にみえるバランスです。
-              長さだけではなく、ボリューム感も重要です。理想的です。 </p>
+            <p class="gd ls1">こめかみや頬などの凹みを改善することでお顔が自然にリフトアップし、輪郭も改善します。</p>
           </li>
           <li class="gosic box-size">
             <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_thumb03.png" alt="輪  郭"> </div>
             <p class="gd ls1">お顔の輪郭はとても大切です。
-              オーバルシェイプ（卵型）やハートシェイプが理想的です。 </p>
+              オーバルシェイプ（卵型）やハートシェイプが理想的です。</p>
           </li>
           <li class="gosic box-size">
             <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_thumb04.png" alt="Eライン"> </div>
@@ -174,24 +172,24 @@ Template Name: ランディングページヒアルロン酸
           </li>
           <li class="gosic box-size">
             <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_thumb05.png" alt="左右対称になるように"> </div>
-            <p class="gd ls1">より左右対称に近い方が美しく見えます。 </p>
+            <p class="gd ls1">より左右対称に近い方が美しく見えます。</p>
           </li>
           <li class="gosic box-size">
             <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_thumb06.png" alt="パーツのバランス"> </div>
-            <p class="gd ls1">目の幅・目頭から目頭の距離、鼻下から下口唇・下口唇から顎の距離なども重要です。v </p>
+            <p class="gd ls1">目の幅・目頭から目頭の距離、鼻下から下口唇・下口唇から顎の距離なども重要です。</p>
           </li>
         </ul>
-        <a href="#" class="ancor-btn"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_btn.png" alt="お顔の左右対称について"></a> </div>
+        <a href="http://livedoor.blogimg.jp/dr_sakiyama/imgs/2/c/2c46f17e.jpg" class="ancor-btn" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_btn.png" alt="お顔の左右対称について"></a> </div>
       <div class="box">
-        <h3 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_cach03.png" alt=""></h3>
+        <h3 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_cach03.png" alt="もちろん気になる部位のみの注入治療も行っておりますので、お気軽にご相談ください。"></h3>
           
           <?php if ( wp_is_mobile() ) : ?>
-  <div class="img tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/sp/area7_thumbs.png" alt=""></div><?php else: ?>
-  <div class="img tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_thumbs.png" alt=""></div><?php endif; ?>
+  <div class="img tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/sp/area7_thumbs.png" alt="thumb"></div><?php else: ?>
+  <div class="img tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_thumbs.png" alt="thumb"></div><?php endif; ?>
 
       
       </div>
-      <h3 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_cach04.png" alt=""></h3>
+      <h3 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_cach04.png" alt="治療のポイント"></h3>
       <p class="tc ls1 gd mb20">ヒアルロン酸注入治療ではこれらのバランスを見ながらよりその方に合った<br>
         理想のバランス（黄金バランス）に整えていくように注入します。<br>
         たるみ 、 ボリュームロス、 輪郭、これらがトータルで改善し、老化に対して根本から<br>
@@ -203,7 +201,9 @@ Template Name: ランディングページヒアルロン酸
   <section class="area8 area-bgs" id="bg4">
     <div class="lp-inner">
       <div class="box">
-        <h2><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area8_cach.png" alt=""></h2>
+        <h2><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area8_cach.png" alt="お一人お一人の悩みに寄り添い、
+確かな技術とセンスでその方に合った
+自然な美しさをご提案いたします。"></h2>
         <p class="gosic mb25">私たちは丁寧なカウンセリングを心がけており、<br>
           患者様のご要望やお悩みに寄り添い、<br>
           その方に合った治療法をご提案いたします。<br>
@@ -220,7 +220,7 @@ Template Name: ランディングページヒアルロン酸
   <section class="area9">
     <div class="lp-inner">
       <div class="box box-size">
-        <h2><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area9_h2.png" alt=""></h2>
+        <h2><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area9_h2.png" alt="より根本解決に近い注入治療をご提供"></h2>
         <p class="cach tc cp">しわやたるみは、単純にゆるんだ溝を<br>
           ヒアルロン酸で埋めればいいという事ではありません。</p>
         <div class="desc-box flex">
@@ -231,7 +231,7 @@ Template Name: ランディングページヒアルロン酸
             ボリュームロスの程度など<span class="cp">トータルで判断</span>し、<br>
             <span class="cp">ナチュラルな美しさを追及</span>できる注入量を<br>
             ご提案する事が大事だと考えています。 </div>
-          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area9_thumb.jpg" alt=""> </div>
+          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area9_thumb.jpg" alt="サムネイル"> </div>
         </div>
       </div>
     </div>
@@ -305,13 +305,13 @@ Template Name: ランディングページヒアルロン酸
               <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_sample.jpg" alt=""> </div>
               <p class="gd tc">施術０回後</p>
             </div>
-            <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_arrow.png" alt=""></div>
+            <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_arrow.png" alt=">"></div>
           </div>
           <div class="comment cp gosic box-size"> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト </div>
         </div>
         <div class="note box-size">
-          <h4 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/note.png" alt=""></h4>
+          <h4 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/note.png" alt="注意事項"></h4>
           <p class="gosic tc pc">個人差がありますが、注入後、内出血が生じることがあります。<br>
             内出血によってアザができた場合は1～2週間程度で消滅します。<br>
             軽い腫れや軽度の疼痛が出る方もいますが、多くの場合翌日には治ります。</p>
@@ -323,7 +323,7 @@ Template Name: ランディングページヒアルロン酸
   <section class="infu">
     <div class="lp-inner">
       <h2 class="gd tc">注入可能部位</h2>
-      <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/infu_img.png" alt=""> </div>
+      <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/infu_img.png" alt="注入可能部位"> </div>
     </div>
   </section>
   <section class="price">
@@ -341,32 +341,32 @@ Template Name: ランディングページヒアルロン酸
           <tr>
             <td>目の下</td>
             <td>0cc～0cc</td>
-            <td>000～000円</td>
+            <td>お問い合わせください</td>
           </tr>
           <tr>
             <td>鼻</td>
             <td>0cc～0cc</td>
-            <td>000～000円</td>
+            <td>お問い合わせください</td>
           </tr>
           <tr>
             <td>頬</td>
             <td>0cc～0cc</td>
-            <td>000～000円</td>
+            <td>お問い合わせください</td>
           </tr>
           <tr>
             <td>ほうれい線</td>
             <td>0cc～0cc</td>
-            <td>000～000円</td>
+            <td>お問い合わせください</td>
           </tr>
           <tr>
             <td>唇</td>
             <td>0cc～0cc</td>
-            <td>000～000円</td>
+            <td>お問い合わせください</td>
           </tr>
           <tr>
             <td>顎</td>
             <td>0cc～0cc</td>
-            <td>000～000円</td>
+            <td>お問い合わせください</td>
           </tr>
         </tbody>
       </table>
@@ -381,7 +381,7 @@ Template Name: ランディングページヒアルロン酸
         <p class="sm tc cw time">受付時間<br>
           10:00～18:00 </p>
       </div>
-      <div class="lp-cv-btn flex"> <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt=""></a> <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn02.png" alt=""></a> </div>
+      <div class="lp-cv-btn flex"> <a href="https://fumibeauty.reserve.ne.jp/sp/index.php?" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約"></a> <a href="<?php echo home_url( '/' ); ?>contact" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn02.png" alt="お問い合わせ"></a> </div>
     </div>
   </div>
   <section class="flow">
@@ -394,9 +394,9 @@ Template Name: ランディングページヒアルロン酸
             <p class="gosic cp ls1"> お電話・予約システムにてご予約をよろしくお願いいたします。
               来院前のご不明な点があれば、お気軽にご相談下さいませ。 </p>
           </div>
-          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step1_thumb.png" alt=""></div>
-          <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step1.png" alt=""></div>
-          <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step_arw.png" alt=""></div>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step1_thumb.png" alt="予約"></div>
+          <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step1.png" alt="1"></div>
+          <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step_arw.png" alt=">"></div>
         </li>
         <li class="box-size flex">
           <div class="text">
@@ -404,9 +404,9 @@ Template Name: ランディングページヒアルロン酸
             <p class="gosic cp ls1"> ご予約された、日時でのご来院をお願いいたします。
               カウンセリングでお客様のお悩みをお聞かせ下さいませ。 </p>
           </div>
-          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step2_thumb.png" alt=""></div>
-          <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step2.png" alt=""></div>
-          <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step_arw.png" alt=""></div>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step2_thumb.png" alt="ご来院"></div>
+          <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step2.png" alt="2"></div>
+          <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step_arw.png" alt=">"></div>
         </li>
         <li class="box-size flex">
           <div class="text">
@@ -414,9 +414,9 @@ Template Name: ランディングページヒアルロン酸
             <p class="gosic cp ls1"> 経験豊富な医師が診察致します。
               治療について些細なことでもご納得のいくまでご相談下さい。 </p>
           </div>
-          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step3_thumb.png" alt=""></div>
-          <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step3.png" alt=""></div>
-          <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step_arw.png" alt=""></div>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step3_thumb.png" alt="診察・カウンセリング"></div>
+          <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step3.png" alt="3"></div>
+          <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step_arw.png" alt=">"></div>
         </li>
         <li class="box-size flex mb0">
           <div class="text">
@@ -424,8 +424,8 @@ Template Name: ランディングページヒアルロン酸
             <p class="gosic cp ls1"> 痛みを極力に抑え、安全第一に責任を持って施術いたします。
               施術は全て有資格者が行いますのでご安心下さいませ。 </p>
           </div>
-          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step4_thumb.png" alt=""></div>
-          <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step4.png" alt=""></div>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step4_thumb.png" alt="施術"></div>
+          <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step4.png" alt="4"></div>
         </li>
       </ul>
     </div>

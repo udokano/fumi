@@ -241,7 +241,7 @@
   <section class="menu area-bgs" id="bg3">
     <h2 class="tc cp">MENU</h2>
     <ul class="munu-link flex">
-      <li class="box-size hg-row"> <a href="<?php echo home_url( '/' ); ?>concept">
+      <li class="box-size hg-row"> <a href="<?php echo home_url( '/' ); ?>tarumi">
         <h3 class="tc">たるみ治療</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb05.jpg" alt="サムネイル"></div>
         <ul>
@@ -249,7 +249,7 @@
           <li>・スレッドリフト</li>
         </ul>
         </a> </li>
-      <li class="box-size hg-row"> <a href="<?php echo home_url( '/' ); ?>">
+      <li class="box-size hg-row"> <a href="<?php echo home_url( '/' ); ?>siwa">
         <h3 class="tc">しわ治療 </h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb06.jpg" alt="サムネイル"></div>
         <ul>
@@ -258,7 +258,7 @@
               <li>・美容内科、美容点滴</li>
         </ul>
         </a> </li>
-      <li class="box-size hg-row"> <a href="<?php echo home_url( '/' ); ?>">
+      <li class="box-size hg-row"> <a href="<?php echo home_url( '/' ); ?>kogao">
         <h3 class="tc">小顔治療 </h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb07.jpg" alt="サムネイル"></div>
         <ul>
@@ -267,7 +267,7 @@
           <li>・ボトックスリフト</li>
         </ul>
         </a> </li>
-      <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>" target="_blank">
+      <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>nose-lift">
         <h3 class="tc">鼻 <span class="sm">(隆鼻、鼻筋をつくる)</span></h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb08.jpg" alt="サムネイル"></div>
         <ul>
@@ -276,7 +276,7 @@
         </ul>
         </a> </li>
         
-         <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>" target="_blank">
+         <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>keiseigeka">
         <h3 class="tc">形成外科治療</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb09.jpg" alt="サムネイル"></div>
         <ul class="col">
@@ -286,7 +286,7 @@
         </ul>
         </a> </li>
         
-         <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>" target="_blank">
+         <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>medikaru">
         <h3 class="cw tc">美肌治療</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb10.jpg" alt="サムネイル"></div>
         <ul>

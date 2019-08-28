@@ -103,13 +103,15 @@ section {
   .area3 .lp-inner .img {
     position: absolute;
     top: 0;
-    right: 30px;
+    right: 0px;
     width: 380px; }
   .area3 .lp-inner h2 {
-    width: 32%;
+    width: 58%;
     margin: 0 auto 65px; }
   .area3 .lp-inner .thumbs {
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    z-index: 400;
+    position: relative; }
     .area3 .lp-inner .thumbs li {
       width: 48%;
       margin-bottom: 45px; }
@@ -261,7 +263,7 @@ section {
     .area3 .lp-inner .img {
       display: none; }
     .area3 .lp-inner h2 {
-      width: 60%;
+      width: 80%;
       margin: 0 auto 65px; }
     .area3 .lp-inner .thumbs {
       width: 96%;
@@ -305,7 +307,8 @@ section {
             width: 45px; }
           .area5 .lp-inner .descs li .desc h3 span {
             display: inline-block;
-            margin-left: 12px; }
+            margin-left: 12px;
+            font-size: 1.9rem; }
       .area5 .lp-inner .descs li .thumb {
         width: 100%; }
 
@@ -639,31 +642,33 @@ section {
 .lp-doctor {
   background: url("../img/lp1/doctor_bg.png") no-repeat 100% 100%/100%;
   padding: 60px 0 0; }
-  .lp-doctor .lp-inner .box .desc {
-    padding-top: 120px;
-    width: 58%; }
-    .lp-doctor .lp-inner .box .desc h2 {
-      font-size: 2.2rem;
-      margin-bottom: 45px; }
-      .lp-doctor .lp-inner .box .desc h2 span {
-        font-size: 1.3rem; }
-    .lp-doctor .lp-inner .box .desc dl {
-      justify-content: flex-start;
-      margin-bottom: 30px; }
-      .lp-doctor .lp-inner .box .desc dl dt {
-        border-right: 1px solid #9d8440;
-        padding-right: 20px;
-        width: 34px; }
-      .lp-doctor .lp-inner .box .desc dl dd {
-        padding-left: 20px;
-        margin-bottom: 8px;
-        line-height: 1.78;
-        display: block;
-        width: 450px; }
-        .lp-doctor .lp-inner .box .desc dl dd span {
-          margin-right: 1em; }
-  .lp-doctor .lp-inner .box .thumb {
-    width: 34%; }
+  .lp-doctor .lp-inner .box {
+    align-items: flex-end; }
+    .lp-doctor .lp-inner .box .desc {
+      padding-top: 120px;
+      width: 58%; }
+      .lp-doctor .lp-inner .box .desc h2 {
+        font-size: 2.2rem;
+        margin-bottom: 45px; }
+        .lp-doctor .lp-inner .box .desc h2 span {
+          font-size: 1.3rem; }
+      .lp-doctor .lp-inner .box .desc dl {
+        justify-content: flex-start;
+        margin-bottom: 30px; }
+        .lp-doctor .lp-inner .box .desc dl dt {
+          border-right: 1px solid #9d8440;
+          padding-right: 20px;
+          width: 34px; }
+        .lp-doctor .lp-inner .box .desc dl dd {
+          padding-left: 20px;
+          margin-bottom: 8px;
+          line-height: 1.78;
+          display: block;
+          width: 450px; }
+          .lp-doctor .lp-inner .box .desc dl dd span {
+            margin-right: 1em; }
+    .lp-doctor .lp-inner .box .thumb {
+      width: 34%; }
 
 @media (max-width: 767px) {
   .lp-doctor {

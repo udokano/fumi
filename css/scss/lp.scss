@@ -57,10 +57,7 @@
             margin: 0 auto 60px;
         }
         
-        
-        .img {
-            
-        }
+      
     }
         
         
@@ -176,17 +173,19 @@ section {
         .img {
             position: absolute;
             top: 0;
-            right: 30px;
+            right: 0px;
             width: 380px;
         }
         
         h2 {
-            width: 32%;
+            width: 58%;
             margin: 0 auto 65px;
         }
         
         .thumbs {
             flex-wrap: wrap;
+            z-index: 400;
+            position: relative;
             li {
                 width: 48%;
                 margin-bottom: 45px;
@@ -455,7 +454,7 @@ section {
         }
         
         h2 {
-            width: 60%;
+            width: 80%;
             margin: 0 auto 65px;
         }
         
@@ -513,10 +512,11 @@ section {
                     h3 {
                     padding-bottom: 20px;
                         margin-bottom: 30px;
+                       
                     img {
                         display: inline-block;
                        width: 30px;
-                    
+                        
                     }
                         
                         .num23 {
@@ -526,6 +526,7 @@ section {
                     span {
                         display: inline-block;
                         margin-left: 12px;
+                        font-size: 1.9rem;
                     }
                 }
                     
@@ -1123,6 +1124,7 @@ section {
     padding: 60px 0 0;
     .lp-inner {
         .box {
+            align-items: flex-end;
             .desc {
                 padding-top: 120px;
                 width: 58%;
