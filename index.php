@@ -35,7 +35,7 @@
           <li><a href="<?php echo home_url( '/' ); ?>recruit">採用情報</a></li>
         </ul>
       </nav>
-      <div class="top-cv-btn"> <a class="bg-rs cv-btns" href="#" target="_blank"><span>来院予約</span></a> <a class="bg-ct cv-btns" href="<?php echo home_url( '/' ); ?>contact"><span>お問合わせ</span></a> </div>
+      <div class="top-cv-btn"> <a class="bg-rs cv-btns" href="https://fumibeauty.reserve.ne.jp/" target="_blank"><span>来院予約</span></a> <a class="bg-ct cv-btns" href="<?php echo home_url( '/' ); ?>contact"><span>お問合わせ</span></a> </div>
     </div>
   </header>
   <?php if ( wp_is_mobile() ) : ?>
@@ -189,8 +189,8 @@
   </section>--> 
   <!--CONCEPT END-->
   
-  <section class="infusion cp cf in-view mb0" id="bg2">
-    <div class="inner bg-areas">
+  <section class="infusion cp cf in-view mb0 bg-areas" id="bg2">
+    <div class="inner-box">
       <div class="top flex">
         <div class="text tc cp box-size">
           <h3>注入治療</h3>
@@ -307,7 +307,7 @@
             <?php
             $args = array(
               'post_type' => 'faq',
-              'posts_per_page' => -1,
+              'posts_per_page' => 4,
               'orderby' => 'rand',
               'order' => 'DESC',
             );
@@ -349,7 +349,7 @@
             <?php
             $args = array(
               'post_type' => 'symptom',
-              'posts_per_page' => -1,
+              'posts_per_page' => 4,
               'orderby' => 'rand',
               'order' => 'DESC',
             );
@@ -382,6 +382,33 @@
     </div>
   </section>
   <!--SLIDES END-->
+    
+    
+    <section class="sns">
+    
+        <div class="inner flex">
+            
+            
+          <div class="bnr">
+              <a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/common/blog_bnr.jpg" alt="blog_bnr">
+            </a>
+          </div>
+          <div class="bnr"><a href="https://line.me/R/ti/p/%40304ngjfp" target="_blank">
+                <?php if ( wp_is_mobile() ) : ?>
+<img src="<?php echo get_template_directory_uri(); ?>/img/common/line_bnr_sp.jpg" alt="line_bnr">
+<?php else: ?>
+<img src="<?php echo get_template_directory_uri(); ?>/img/common/line_bnr_pc.jpg" alt="line_bnr">
+<?php endif; ?></a>
+
+            
+          </div>
+      
+       </div>
+        
+    
+    
+    </section>
   
   <section class="map">
     <div class="inner" id="map"></div>
@@ -397,7 +424,7 @@
           <li><a href="<?php echo home_url( '/' ); ?>access">アクセス</a></li>
           <li><a href="<?php echo home_url( '/' ); ?>doctor">ドクター紹介</a></li>
           <li><a href="<?php echo home_url( '/' ); ?>recruit">採用情報</a></li>
-          <li><a href="<?php echo home_url( '/' ); ?>" target="_blank">来院予約</a></li>
+          <li><a href="https://fumibeauty.reserve.ne.jp/" target="_blank">来院予約</a></li>
           <li><a href="<?php echo home_url( '/' ); ?>contact">お問合わせ</a></li>
         </ul>
       </nav>
@@ -412,7 +439,7 @@
       <li><a href="<?php echo home_url( '/' ); ?>">施術・料金</a></li>
       <li><a href="<?php echo home_url( '/' ); ?>access">アクセス</a></li>
       <li><a href="<?php echo home_url( '/' ); ?>doctor">ドクター紹介</a></li>
-      <li><a href="<?php echo home_url( '/' ); ?>" target="_blank">来院予約</a></li>
+      <li><a href="https://fumibeauty.reserve.ne.jp/" target="_blank">来院予約</a></li>
       <li class="mb0"><a href="<?php echo home_url( '/' ); ?>contact">お問合わせ</a></li>
       <p class="menu-close"></p>
     </ul>
@@ -423,7 +450,7 @@
   <div class="fix-bottom">
     <ul class="flex gosic al-cent">
       <li class="box-size"><span href="#" class="cw menu-open">メニュー</span></li>
-      <li class="box-size"><a href="<?php echo home_url( '/' ); ?>" class="cw" target="_blank">予約</a></li>
+      <li class="box-size"><a href="https://fumibeauty.reserve.ne.jp/" class="cw" target="_blank">予約</a></li>
       <li class="box-size"><a href="<?php echo home_url( '/' ); ?>" class="cw">TEL</a></li>
     </ul>
   </div>

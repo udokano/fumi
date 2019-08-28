@@ -107,7 +107,6 @@
 
 .infusion {
     padding-top: 60px;
-    max-width: 1380px;
     margin: 0 auto;
     h2 {
         width: 10%;
@@ -116,8 +115,7 @@
        display: inline-block;
     }
     
-    .inner {
-       width: 100%;
+    .inner-box {
         position: relative;
       
         .top {
@@ -218,7 +216,7 @@
         font-size: 1.87rem;
     }
     
-    .inner {
+    .inner-box {
         width: 100%;
         max-width: none;
         min-width: 100%;
@@ -746,6 +744,33 @@
     }
   }
 }
+
+
+.sns {
+    .inner {
+        .bnr {
+            width: 40.5%;
+            margin: 0 4.0%;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .sns {
+        margin-top: 60px;
+    .inner {
+        display: block;
+        .bnr {
+            width: 96%;
+            margin: 0 auto 4%;
+            
+        }
+    }
+}
+    
+}
+
     .map {
         .inner {
             width: 100%;

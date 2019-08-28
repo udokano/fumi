@@ -349,6 +349,9 @@ body.page {
 .ls2 {
   letter-spacing: 2px; }
 
+.fw600 {
+  font-weight: 600; }
+
 @media (min-width: 768px) {
   .inner-box {
     width: 93%;
@@ -974,30 +977,28 @@ footer.pages {
         padding-left: 0px; } }
 .infusion {
   padding-top: 60px;
-  max-width: 1380px;
   margin: 0 auto; }
   .infusion h2 {
     width: 10%;
     font-size: 2.3rem;
     letter-spacing: 3px;
     display: inline-block; }
-  .infusion .inner {
-    width: 100%;
+  .infusion .inner-box {
     position: relative; }
-    .infusion .inner .top {
+    .infusion .inner-box .top {
       position: relative;
       margin-bottom: 45px; }
-      .infusion .inner .top .text {
+      .infusion .inner-box .top .text {
         width: 43%;
         padding-left: 8%; }
-        .infusion .inner .top .text p {
+        .infusion .inner-box .top .text p {
           line-height: 1.7;
           margin: 30px 0 20px; }
-      .infusion .inner .top .thumb {
+      .infusion .inner-box .top .thumb {
         width: 650px;
         margin-top: -60px;
         margin-right: 0px; }
-    .infusion .inner .bottom .box {
+    .infusion .inner-box .bottom .box {
       width: 620px;
       height: 400px;
       background-repeat: no-repeat,no-repeat;
@@ -1007,32 +1008,32 @@ footer.pages {
       position: relative;
       bottom: 0px;
       left: 0px; }
-      .infusion .inner .bottom .box .box-inner {
+      .infusion .inner-box .bottom .box .box-inner {
         position: relative;
         height: 100%; }
-        .infusion .inner .bottom .box .box-inner .txt {
+        .infusion .inner-box .bottom .box .box-inner .txt {
           padding: 25px 18px 50px;
           position: absolute;
           width: 50%;
           background-color: rgba(255, 255, 255, 0.78); }
-          .infusion .inner .bottom .box .box-inner .txt h3 {
+          .infusion .inner-box .bottom .box .box-inner .txt h3 {
             margin-bottom: 10px;
             text-align: center;
             font-size: 1.4rem; }
-          .infusion .inner .bottom .box .box-inner .txt p {
+          .infusion .inner-box .bottom .box .box-inner .txt p {
             font-size: .8rem; }
-        .infusion .inner .bottom .box .box-inner .txt1 {
+        .infusion .inner-box .bottom .box .box-inner .txt1 {
           left: 0;
           bottom: 0; }
-        .infusion .inner .bottom .box .box-inner .txt2 {
+        .infusion .inner-box .bottom .box .box-inner .txt2 {
           right: 0;
           top: 0; }
-    .infusion .inner .bottom .text {
+    .infusion .inner-box .bottom .text {
       float: right;
       padding-top: 50px;
       padding-right: 6%;
       width: 43%; }
-      .infusion .inner .bottom .text p {
+      .infusion .inner-box .bottom .text p {
         margin: 30px 0 20px;
         line-height: 1.7;
         margin-bottom: 35px; }
@@ -1051,64 +1052,64 @@ footer.pages {
       margin-bottom: 35px; }
     .infusion h3 {
       font-size: 1.87rem; }
-    .infusion .inner {
+    .infusion .inner-box {
       width: 100%;
       max-width: none;
       min-width: 100%;
       position: relative; }
-      .infusion .inner .top {
+      .infusion .inner-box .top {
         position: relative;
         flex-flow: column; }
-        .infusion .inner .top .text {
+        .infusion .inner-box .top .text {
           width: 80%;
           margin: 0 auto;
           padding-left: 0;
           padding-bottom: 45px; }
-          .infusion .inner .top .text p {
+          .infusion .inner-box .top .text p {
             line-height: 1.7;
             margin: 20px 0; }
-        .infusion .inner .top .thumb {
+        .infusion .inner-box .top .thumb {
           width: 100%;
           margin: auto; }
-      .infusion .inner .bottom {
+      .infusion .inner-box .bottom {
         flex-flow: column-reverse; }
-        .infusion .inner .bottom .box {
+        .infusion .inner-box .bottom .box {
           width: 100%;
           margin: auto;
           height: 400px;
           background: none;
           position: static; }
-          .infusion .inner .bottom .box .box-inner {
+          .infusion .inner-box .bottom .box .box-inner {
             position: relative;
             height: 100%; }
-            .infusion .inner .bottom .box .box-inner .inner-lr {
+            .infusion .inner-box .bottom .box .box-inner .inner-lr {
               width: 50%;
               height: 100%;
               background-repeat: no-repeat;
               background-position: 50% 50%;
               background-size: cover; }
-            .infusion .inner .bottom .box .box-inner .inner-left {
+            .infusion .inner-box .bottom .box .box-inner .inner-left {
               background-image: url("../img/top/thumb03.jpg"); }
-            .infusion .inner .bottom .box .box-inner .inner-right {
+            .infusion .inner-box .bottom .box .box-inner .inner-right {
               background-image: url("../img/top/thumb04.jpg"); }
-            .infusion .inner .bottom .box .box-inner .txt {
+            .infusion .inner-box .bottom .box .box-inner .txt {
               padding: 25px 18px 50px;
               position: absolute;
               width: 50%; }
-              .infusion .inner .bottom .box .box-inner .txt h3 {
+              .infusion .inner-box .bottom .box .box-inner .txt h3 {
                 margin-bottom: 10px;
                 text-align: center;
                 font-size: 1.4rem; }
-              .infusion .inner .bottom .box .box-inner .txt p {
+              .infusion .inner-box .bottom .box .box-inner .txt p {
                 font-size: .8rem; }
-        .infusion .inner .bottom .text {
+        .infusion .inner-box .bottom .text {
           float: none;
           padding-top: 0;
           padding-right: 0%;
           width: 80%;
           margin: 0 auto;
           padding-bottom: 45px; }
-          .infusion .inner .bottom .text p {
+          .infusion .inner-box .bottom .text p {
             margin: 20px 0;
             line-height: 1.7;
             margin-bottom: 35px; } }
@@ -1370,6 +1371,18 @@ footer.pages {
           font-size: .7rem;
           overflow: hidden;
           max-height: 160px; } }
+.sns .inner .bnr {
+  width: 40.5%;
+  margin: 0 4.0%; }
+
+@media (max-width: 767px) {
+  .sns {
+    margin-top: 60px; }
+    .sns .inner {
+      display: block; }
+      .sns .inner .bnr {
+        width: 96%;
+        margin: 0 auto 4%; } }
 .map .inner {
   width: 100%;
   height: 480px; }
@@ -1668,6 +1681,55 @@ footer.pages {
       line-height: 70px;
       font-size: 1.2rem; } }
 /*施術紹介*/
+.ope-top-desc {
+  margin-bottom: 80px; }
+  .ope-top-desc p {
+    line-height: 1.9;
+    letter-spacing: 1px;
+    margin-bottom: 45px; }
+  .ope-top-desc .ancor-box {
+    text-align: center; }
+    .ope-top-desc .ancor-box a {
+      position: relative;
+      color: #454545;
+      border: 1px solid #454545;
+      width: 200px;
+      display: inline-block;
+      margin: 0 12px;
+      padding: 10px 0 25px;
+      transition: .3s ease-in; }
+      .ope-top-desc .ancor-box a::after {
+        content: "";
+        position: absolute;
+        bottom: 8px;
+        left: 50%;
+        width: 12px;
+        height: 12px;
+        border-right: 1px solid #454545;
+        border-top: 1px solid #454545;
+        transform: translateX(-50%) rotate(135deg);
+        transition: .3s ease-in; }
+      .ope-top-desc .ancor-box a:hover {
+        border-color: #fff;
+        background-color: #454545;
+        color: #fff;
+        opacity: 1; }
+        .ope-top-desc .ancor-box a:hover::after {
+          border-color: #fff;
+          opacity: 1; }
+
+@media (max-width: 767px) {
+  .ope-top-desc {
+    width: 96%;
+    margin: 0 auto 60px; }
+    .ope-top-desc p {
+      margin-bottom: 45px; }
+    .ope-top-desc .ancor-box {
+      text-align: center; }
+      .ope-top-desc .ancor-box a {
+        width: 40%;
+        margin: 0 12px 25px;
+        padding: 10px 0 25px; } }
 .ope-intro .inner .text {
   width: 700px; }
   .ope-intro .inner .text h2 {
@@ -1689,7 +1751,7 @@ footer.pages {
   .features.layout1 .inner-box2 h2 {
     position: absolute;
     top: 0;
-    left: 116px;
+    left: 5%;
     font-size: 1.54rem;
     padding: 10px 0;
     border-top: 1px solid #a64987;
@@ -1777,6 +1839,14 @@ footer.pages {
 .bg-cg2 {
   background-color: #fbfaf7; }
 
+/*注入部位*/
+.infu-point {
+  padding: 80px 0;
+  background-color: #f8f8f8; }
+  .infu-point .inner .img {
+    width: 65%;
+    margin: 40px auto; }
+
 /*施術の種類*/
 .ope-kind h2 {
   margin-bottom: 45px; }
@@ -1828,16 +1898,26 @@ footer.pages {
 /*料金表*/
 .price .inner-box2 h2 {
   margin-bottom: 35px; }
-.price .inner-box2 .price-list dl {
-  border-bottom: 1px solid #ccc;
-  margin-top: 18px;
-  padding-bottom: 7px;
-  letter-spacing: 1px;
-  font-size: 1.07rem; }
-  .price .inner-box2 .price-list dl dt {
-    padding-left: 1em; }
-  .price .inner-box2 .price-list dl dd {
-    padding-right: 1em; }
+.price .inner-box2 .p-desc {
+  width: 70%;
+  margin: auto;
+  line-height: 1.90; }
+.price .inner-box2 .price-list {
+  margin-bottom: 70px; }
+  .price .inner-box2 .price-list h3 {
+    font-size: 1.2rem;
+    text-align: left; }
+  .price .inner-box2 .price-list dl {
+    border-bottom: 1px solid #ccc;
+    margin-top: 18px;
+    padding-bottom: 18px;
+    letter-spacing: 1px;
+    font-size: 1.07rem;
+    align-items: center; }
+    .price .inner-box2 .price-list dl dt {
+      padding-left: 1em; }
+    .price .inner-box2 .price-list dl dd {
+      padding-right: 1em; }
 
 /*施術の流れ*/
 .flow .inner h2 {
@@ -2017,6 +2097,13 @@ footer.pages {
     .features.layout2 .inner-box2 ul li p {
       font-size: .8rem; }
 
+  /*注入部位*/
+  .infu-point {
+    padding: 40px 0; }
+    .infu-point .inner .img {
+      width: 84%;
+      margin: 40px auto; }
+
   /*施術の種類*/
   .ope-kind h2 {
     margin-bottom: 45px; }
@@ -2057,6 +2144,12 @@ footer.pages {
     padding: 28px;
     font-size: .92rem;
     background-color: #f9f9f9; }
+
+  /*price*/
+  .price .inner-box2 .p-desc {
+    width: 88%; }
+  .price .inner-box2 .price-list dl {
+    font-size: .9rem; }
 
   /*施術の流れ*/
   .flow .inner h2 {

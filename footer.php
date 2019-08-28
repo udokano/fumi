@@ -51,7 +51,7 @@
       <li><a href="<?php echo home_url( '/' ); ?>">施術・料金</a></li>
       <li><a href="<?php echo home_url( '/' ); ?>access">アクセス</a></li>
       <li><a href="<?php echo home_url( '/' ); ?>doctor">ドクター紹介</a></li>
-      <li><a href="<?php echo home_url( '/' ); ?>" target="_blank">来院予約</a></li>
+      <li><a href="https://fumibeauty.reserve.ne.jp/" target="_blank">来院予約</a></li>
       <li class="mb0"><a href="<?php echo home_url( '/' ); ?>contact">お問合わせ</a></li>
             
 
@@ -69,7 +69,7 @@
   <div class="fix-bottom">
     <ul class="flex gosic al-cent">
       <li class="box-size"><span href="#" class="cw menu-open">メニュー</span></li>
-      <li class="box-size"><a href="<?php echo home_url( '/' ); ?>" class="cw" target="_blank">予約</a></li>
+      <li class="box-size"><a href="https://fumibeauty.reserve.ne.jp/" class="cw" target="_blank">予約</a></li>
       <li class="box-size"><a href="<?php echo home_url( '/' ); ?>" class="cw">TEL</a></li>
     </ul>
   </div>

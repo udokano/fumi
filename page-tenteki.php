@@ -95,29 +95,36 @@ Template Name: 美容点滴
         <div class="price-list gosic">
         
             <dl class="flex">
-                <dt>内容</dt>
+                <dt>美容点滴・美容注射</dt>
                 <dd class="f-bold">税別</dd>
             </dl>
             
              <dl class="flex">
-                <dt>内容入ります</dt>
-                <dd>¥00,000</dd>
+                <dt>疲労回復注射</dt>
+                <dd>¥3,000</dd>
             </dl>
             
              <dl class="flex">
-                <dt>内容入ります</dt>
-                <dd>¥00,000</dd>
+                <dt>疲労回復点滴(マイヤーズカクテル)</dt>
+                <dd>¥6,000</dd>
             </dl>
             
             
              <dl class="flex">
-                <dt>内容入ります</dt>
-                <dd>¥00,000</dd>
+                <dt>白玉点滴(グルタチオン)</dt>
+                <dd>¥8,000</dd>
             </dl>
             
              <dl class="flex">
-                <dt>内容入ります</dt>
-                <dd>¥00,000</dd>
+                <dt>高濃度ビタミンC点滴</dt>
+                <dd>25gまで¥12,000<br>
+50gまで¥15,000</dd>
+            </dl>
+            
+            <dl class="flex">
+                <dt>プラセンタ注射</dt>
+                <dd>1本  ¥1,500<br>
+2本目以降  ¥1,000</dd>
             </dl>
         
         </div>

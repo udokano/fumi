@@ -1,6 +1,79 @@
 /*施術紹介*/
 
 
+.ope-top-desc {
+    margin-bottom: 80px;
+    p {
+        line-height: 1.9;
+     letter-spacing: 1px;
+        margin-bottom: 45px;
+    }
+    
+    .ancor-box {
+       text-align: center;
+        a {
+            position: relative;
+            color: #454545;
+            border: 1px solid #454545;
+            width: 200px;
+            display: inline-block;
+            margin: 0 12px;
+            padding: 10px 0 25px;
+            transition: .3s ease-in;
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 8px;
+                left: 50%;
+                width: 12px;
+                height: 12px;
+                border-right: 1px solid #454545;
+                 border-top: 1px solid #454545;
+                transform: translateX(-50%) rotate(135deg);
+                            transition: .3s ease-in;
+
+            }
+            
+            &:hover {
+                border-color: #fff;
+                background-color: #454545;
+                color: #fff;
+                opacity: 1;
+                &::after {
+                    border-color: #fff;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    
+    
+    .ope-top-desc {
+    width: 96%;
+        margin: 0 auto 60px;
+    p {
+        margin-bottom: 45px;
+    }
+    
+    .ancor-box {
+       text-align: center;
+        a {
+           
+            width: 40%;
+           
+            margin: 0 12px 25px;
+            padding: 10px 0 25px;
+            
+        }
+    }
+}
+    
+    
+}
+
 .ope-intro {
     .inner {
         .text {
@@ -35,7 +108,7 @@
         h2 {
             position: absolute;
             top: 0;
-            left: 116px;
+            left: 5%;
             font-size: 1.54rem;
             padding: 10px 0;
             border-top: 1px solid $cp;
@@ -206,6 +279,21 @@
 
 }
 
+
+/*注入部位*/
+
+.infu-point {
+    padding: 80px 0;
+    background-color: #f8f8f8;
+    .inner {
+        .img {
+            width: 65%;
+            margin: 40px auto;
+        }
+    }
+}
+
+
 /*施術の種類*/
 
 
@@ -317,13 +405,25 @@
             margin-bottom: 35px;
         }
         
+        .p-desc {
+            width: 70%;
+            margin: auto;
+            line-height: 1.90;
+        }
+        
         .price-list {
+            margin-bottom: 70px;
+            h3 {
+                font-size: 1.2rem;
+                text-align: left;
+            }
             dl {
                 border-bottom: 1px solid #ccc;
                 margin-top: 18px;
-                padding-bottom: 7px;
+                padding-bottom: 18px;
                 letter-spacing: 1px;
                 font-size: 1.07rem;
+                align-items: center;
                 dt {
                     padding-left: 1em;
                 }
@@ -658,6 +758,18 @@
 }
 
    
+/*注入部位*/
+
+.infu-point {
+    padding: 40px 0;
+    .inner {
+        .img {
+            width: 84%;
+            margin: 40px auto;
+        }
+    }
+}
+
     
 /*施術の種類*/
 
@@ -749,6 +861,22 @@
         
     }
 }
+    
+    
+    /*price*/
+    
+    .price {
+        .inner-box2 {
+            .p-desc {
+                width: 88%;
+            }
+            
+            .price-list {
+                dl {
+                     font-size: .9rem;}
+                }
+            }
+        }
     
     
 
