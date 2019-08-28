@@ -1,4 +1,5 @@
-<?php/*
+<?php
+/*
 Template Name: 小顔治療 
 */
 

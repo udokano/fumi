@@ -1,5 +1,6 @@
-<?php/*
-Template Name: しわ治療 
+<?php
+
+/* Template Name: しわ治療 
 */
 
 ?>

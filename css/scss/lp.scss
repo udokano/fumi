@@ -34,8 +34,7 @@
     position: relative;
     .fv-inner {
         
-        max-width: 1380px;
-        margin: auto;
+     
         
          .box {
         max-width: 700px;
@@ -68,6 +67,56 @@
 }
 
 
+/***ボトックス****/
+
+
+#lp2  {
+    .lp-fv {
+    background: url("../img/lp2/fv_pc.png") no-repeat 50% 50%/cover;
+    height: 1080px;
+    z-index: 300;
+    position: relative;
+    .fv-inner {
+        
+         .box {
+        float: none;
+    padding-top: 210px;
+             padding-right: 0;
+             padding-left: 7%;
+       
+        
+        .cach {
+            width: 76%;
+            margin: auto;
+        }
+        h1 {
+            width: 88%;
+            margin: 0 auto 60px;
+        }
+        
+      
+    }
+        
+        
+        
+    }
+        
+   
+}
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 section {
     margin-bottom: 0;
 }
@@ -76,6 +125,14 @@ section {
 .lp-inner {
     width: 980px;
     margin: auto;
+}
+
+.cp2 {
+    color: #ba3349;
+}
+
+.cp3 {
+    color: #f88fa0;
 }
 
 @media (max-width: 767px) {
@@ -88,61 +145,85 @@ section {
     
 }
 
+
+/*****************
+
+
+背景画像設定
+
+
+*******************/
+
     
-    #lp1 #bg1 {
+
+
+    .lps #bg1 {
     background-image: url("../img/lp1/bg01.jpg");
 }
 
-#lp1 #bg2 {
+.lps #bg2 {
     background-image: url("../img/lp1/bg02.jpg");
 }
 
-#lp1 #bg3 {
+.lps #bg3 {
     background-image: url("../img/lp1/bg03.png");
 }
 
-#lp1 #bg4 {
+.lps #bg4 {
     background-image: url("../img/lp1/bg04.jpg");
 }
 
-#lp1 #bg5 {
+.lps #bg5 {
     background-image: url("../img/lp1/bg05.jpg");
 }
 
-#lp1 #bg6 {
+.lps #bg6 {
     background-image: url("../img/lp1/bg06.jpg");
 }
 
     
     
-  @media (max-width: 767px) {
+@media (max-width: 767px) {
       
         
-
-
-#lp1 #bg3 {
+.lps #bg3 {
     background-image: url("../img/lp1/sp/bg03.png");
 }
 
-#lp1 #bg4 {
+.lps #bg4 {
     background-image: url("../img/lp1/sp/bg04.jpg");
 }
 
-#lp1 #bg5 {
+.lps #bg5 {
     background-image: url("../img/lp1/sp/bg05.jpg");
 }
       
-#lp1 #bg6 {
+.lps #bg6 {
     background-image: url("../img/lp1/sp/bg06.jpg");
 }
 
-
-      
-      
+    
 }  
 
+/*ボトックス*/
 
 
+
+
+#lp2 #bg1 {
+    background-image: url("../img/lp2/bg01.png");
+}
+
+#lp2 #bg4 {
+    background-image: url("../img/lp2/bg04.jpg");
+}
+
+@media (max-width: 767px) {
+    #lp2 #bg4 {
+    background-image: url("../img/lp2/sp/bg04.jpg");
+}
+    
+}
 
 
 .area2 {
@@ -164,6 +245,10 @@ section {
         }
     }
 }
+
+
+
+
 
 .area3 {
       padding: 60px 0;
@@ -1444,4 +1529,144 @@ section {
             width: auto;
         }
     }
+}
+
+
+#lp2 {
+    .lp-cv {
+    background-color: #e26075;
+    .top {
+        background-color: #e57083;
+        padding: 13px 0;
+        h2 {
+            font-size: 1.7rem;
+        }
+    }
+    
+    
+}
+
+}
+
+#lp2 {
+    .area2 {
+    height: 780px;
+    margin-top: -200px;
+    .lp-inner {
+        .box {
+            width: 64%;
+            float: right;
+            h2 {
+                width: 78%;
+                margin: 0 auto 23px;
+            }
+            
+            .img {
+                margin-right: 50px;
+            }
+        }
+    }
+}
+}
+
+
+#lp2 {
+    .area7 {
+        background-color: #f3e9eb;
+        .lp-inner {
+            .box {
+                .cont {
+                    
+                    .desc {
+                        width: 60%;
+                        line-height: 1.8;
+                    }
+                    
+                    .thumb {
+                        width: 37%;
+                    }
+                }
+                
+                .wrap {
+                    li {
+                        width: 45%;
+                        .thumb {
+                            margin-bottom: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    #lp2 {
+    .area7 {
+        .lp-inner {
+            .box {
+                .cont {
+                    flex-flow: column-reverse;
+                    .desc {
+                        width: 90%;
+                        margin: auto;
+                    }
+                    
+                    .thumb {
+                        width: 100%;
+                        margin-bottom: 25px;
+                    }
+                }
+                
+               
+            }
+        }
+    }
+}
+}
+
+#lp2 {
+    .price {
+    padding: 60px 0;
+    .lp-inner {
+        
+        h2 {
+            margin-bottom: 40px;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            
+            
+            thead {
+                tr {
+                    background-color: #f88fa0;
+                    
+                }
+            }
+            
+            tbody {
+                tr {
+                    background-color: #fffbfc;
+                    th,td {
+                        color: #ca455a;
+                    }
+                     &:nth-of-type(even) {
+                    background-color: #fef0f4;
+                }
+                }
+                
+               
+            }
+        }
+    }
+}
+
+
+.flow {
+    background-color: #f3e9eb;
+    
+}
+
 }

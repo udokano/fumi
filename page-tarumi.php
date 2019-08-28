@@ -1,5 +1,6 @@
-<?php/*
-Template Name: たるみ治療 
+<?php
+/*
+Template Name: たるみ治療
 */
 
 ?>
