@@ -124,16 +124,17 @@
   
   <?php endif; ?>
   <section class="doctor mb0 area-bgs" id="bg4">
-    <div class="inner">
+    <div class="inner cf">
       <div class="text">
         <h2 class="cp tc">CONCEPT <span class="sm">ご挨拶</span></h2>
         <div class="band cp tc ls2">beautiful aging</div>
         <p class="cach gd tc f-ryu">美しく年齢を重ね<br>
           輝き続けるために</p>
         <div class="btn-wrap"> <a href="<?php echo home_url( '/' ); ?>doctor" class="btn bg-cg">院長紹介</a> <a href="<?php echo home_url( '/' ); ?>concept" class="btn">当院について</a> </div>
-        <p class="doctor-name cp tc"><span class="sm">fumi beauty clinic院長</span><br>
-          先山 史</p>
+       
       </div>
+         <p class="doctor-name cp tc"><span class="sm">fumi beauty clinic院長</span><br>
+          先山 史</p>
     </div>
   </section>
   <?php if ( wp_is_mobile() ) : ?>
@@ -195,14 +196,13 @@
         <div class="text tc cp box-size">
           <h3>注入治療</h3>
           <span class="sm gd">Infusion therapy</span>
-          <p class="pc gosic tc">カウンセリングで、患者様から、<br>
-            要望・悩みをヒアリングして、<br>
-            多くの製剤や治療法の中から最も適したものを<br>
-            ご提案いたします。</p>
-          <p class="sp gosic tc">カウンセリングで、患者様から、
-            要望・悩みをヒアリングして、
-            多くの製剤や治療法の中から最も適したものを
-            ご提案いたします。</p>
+          <p class="pc gosic tc">当院の主な注入治療部位です。<br>
+ヒアルロン酸やボトックスを「どこに」「どのくらい」<br>
+注入するかで、効果・効能が大きく効果が<br>
+違ってきますが、当院では<br>
+お顔全体のバランスをみて<br>
+自然な若返りができるようご提案しております。</p>
+          <p class="sp gosic tc">当院の主な注入治療部位です。ヒアルロン酸やボトックスを「どこに」「どのくらい」注入するかで、効果・効能が大きく効果が違ってきますが、当院ではお顔全体のバランスをみて自然な若返りができるようご提案しております。</p>
           <a href="<?php echo home_url( '/' ); ?>" class="btn">詳しく見る</a> </div>
         <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/illust01.jpg" alt="イラスト"> </div>
       </div>

@@ -1201,15 +1201,16 @@ footer.pages {
             font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
             margin-bottom: 4px; } }
 .doctor {
-  height: 500px; }
+  height: 540px; }
   .doctor .inner {
-    background: url("../img/top/doctor_thumb.png") no-repeat 90% 100%/300px auto;
-    padding: 60px 0; }
+    background: url("../img/top/doctor_thumb.png") no-repeat 11% 100%/330px auto;
+    position: relative;
+    height: 100%; }
     .doctor .inner .text {
-      width: 45.4%;
-      padding-left: 5%;
-      padding-top: 30px;
-      position: relative; }
+      float: right;
+      width: 56.4%;
+      padding-right: 5%;
+      padding-top: 88px; }
       .doctor .inner .text h2 {
         margin-bottom: 15px; }
       .doctor .inner .text .band {
@@ -1225,20 +1226,20 @@ footer.pages {
         .doctor .inner .text .btn-wrap .btn {
           margin: 0px 13px 0;
           display: inline-block;
-          width: 190px;
-          height: 60px;
-          line-height: 60px; }
-      .doctor .inner .text .doctor-name {
-        position: absolute;
-        bottom: 10px;
-        right: -440px;
-        font-size: 1.6rem;
-        line-height: .78;
-        background: url("../img/top/bg_doctor_name.png") no-repeat 50% 50%/390px;
-        padding: 20%;
-        margin: -20%; }
-        .doctor .inner .text .doctor-name .sm {
-          font-size: .9rem; }
+          width: 240px;
+          height: 68px;
+          line-height: 68px; }
+    .doctor .inner .doctor-name {
+      position: absolute;
+      bottom: 60px;
+      left: 200px;
+      font-size: 1.6rem;
+      line-height: .78;
+      background: url("../img/top/bg_doctor_name.png") no-repeat 50% 50%/390px;
+      padding: 20%;
+      margin: -20%; }
+      .doctor .inner .doctor-name .sm {
+        font-size: .9rem; }
 
 @media (max-width: 767px) {
   .doctor {
@@ -1254,7 +1255,7 @@ footer.pages {
         width: 90%;
         margin: auto;
         padding-left: 0;
-        padding-top: 0px;
+        padding-top: 45px;
         position: static; }
         .doctor .inner .text h2 {
           margin-bottom: 15px; }
@@ -1271,19 +1272,19 @@ footer.pages {
           width: 127px;
           height: 50px;
           line-height: 50px; }
-        .doctor .inner .text .doctor-name {
-          position: absolute;
-          left: 50%;
-          right: auto;
-          transform: translateX(-50%);
-          bottom: 50px;
-          font-size: 1.8rem;
-          line-height: .78;
-          background: url("../img/top/bg_doctor_name.png") no-repeat 50% 50%/180px;
-          padding: 0%;
-          margin: 0%; }
-          .doctor .inner .text .doctor-name .sm {
-            font-size: .9rem; } }
+      .doctor .inner .doctor-name {
+        position: absolute;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        bottom: 50px;
+        font-size: 1.8rem;
+        line-height: .78;
+        background: url("../img/top/bg_doctor_name.png") no-repeat 50% 50%/180px;
+        padding: 0%;
+        margin: 0%; }
+        .doctor .inner .doctor-name .sm {
+          font-size: .9rem; } }
 .slides .inner .slide-area {
   position: relative;
   padding: 0 4%;
