@@ -984,3 +984,129 @@
     
     
 }
+
+
+
+/*製剤一覧ページ*/
+
+
+
+.list-intro {
+    
+    
+    .inner   {
+        .text {
+            width: 78%;
+            margin: auto;
+            h2 {
+                margin-bottom: 35px;
+            }
+            
+            p {
+                line-height: 1.84;
+            }
+        }
+        
+        
+    }
+}
+
+.border-none {
+    border: none!important;
+}
+
+.drug-list {
+            border-bottom: 1px solid #ccc;
+    .inner {
+        padding: 40px 0;
+        h3 {
+            margin-bottom: 60px;
+        }
+        
+        .box {
+            align-items: flex-start;
+            .thumb {
+                width: 37%;
+            }
+            
+            .thumb.btx {
+               width: 30%;
+                margin-left: 3%;
+            }
+            
+            .thumb.cvr {
+                width: 20%;
+                margin-left: 12%;
+            }
+            
+            .text {
+                width: 52%;
+                h4 {
+             background: rgb(65,175,198);
+background: linear-gradient(90deg, rgba(65,175,198,1) 0%, rgba(84,202,65,0.14189425770308128) 100%);
+                    font-size: 1.4rem;
+                    padding: 10px 0;
+                    padding-left: 20px;
+                    margin-bottom: 25px;
+                }
+                
+                p {
+                    line-height: 1.8;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .list-intro {
+    
+    
+    .inner   {
+        .text {
+            width: 90%;
+            margin: auto;
+        }
+        
+        
+    }
+}
+
+
+.drug-list {
+    .inner {
+        padding: 40px 0;
+        h3 {
+            margin-bottom: 40px;
+        }
+        
+        .box {
+            flex-flow: column;
+            .thumb {
+                width: 75%;
+                margin: 0 auto 30px;
+            }
+            
+            .thumb.btx {
+               width: 66%;
+                margin: 0 auto 30px;
+            }
+            
+            .thumb.cvr {
+                 width: 48%;
+                margin: 0 auto 30px;
+            }
+            
+            .text {
+                width: 90%;
+                margin: auto;
+                h4 {
+             
+                }
+            }
+        }
+    }
+}
+    
+}
