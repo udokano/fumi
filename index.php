@@ -47,7 +47,7 @@
           <div class="logos"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_logo.png" alt="FMUI BEAUTY CLINIC">
             <div class="band cp tc ls2">注入＆スレッド治療専門クリニック</div>
           </div>
-          <h1><img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_cach_sp.png" alt="洗練された美容技術で、あなたの美しさを引き出します。"></h1>
+          <h1><img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_cach_sp.png" alt="あなたが持つ本来の美しさに導く"></h1>
         </div>
       </div>
       
@@ -87,7 +87,7 @@
           <div class="logos pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_logo.png" alt="FMUI BEAUTY CLINIC">
             <div class="band cp tc ls2">注入＆スレッド治療専門クリニック</div>
           </div>
-          <h1><img src="<?php echo get_template_directory_uri(); ?>/img/top/fv2_cach.png" alt="洗練された美容技術で、あなたの美しさを引き出します。"></h1>
+          <h1><img src="<?php echo get_template_directory_uri(); ?>/img/top/fv2_cach.png" alt="あなたが持つ本来の美しさに導く"></h1>
         </div>
       </div>
       <!--FV-top-wrap END-->
@@ -186,7 +186,7 @@
 お顔全体のバランスをみて<br>
 自然な若返りができるようご提案しております。</p>
           <p class="sp gosic tc">当院の主な注入治療部位です。ヒアルロン酸やボトックスを「どこに」「どのくらい」注入するかで、効果・効能が大きく効果が違ってきますが、当院ではお顔全体のバランスをみて自然な若返りができるようご提案しております。</p>
-          <a href="<?php echo home_url( '/' ); ?>" class="btn">詳しく見る</a> </div>
+           </div>
         <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/illust01.jpg" alt="イラスト"> </div>
       </div>
       <div class="bottom flex cf">

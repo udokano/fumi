@@ -97,9 +97,7 @@
 
                 }
                     
-                    &:nth-of-type(3n)::after {
-                        border: none;
-                    }
+                   
                     
                     &:last-of-type::after {
                         border: none;
@@ -142,6 +140,21 @@
         }
 }
 
+@media (min-width: 768px) {
+    
+    
+    .info {
+        ul {
+            li {
+                &:nth-of-type(3n)::after {
+                      border: none;
+                }
+            }
+        }
+    } 
+    
+}
+
 
 @media (max-width: 767px) {
     
@@ -178,7 +191,7 @@
         
         .page-map {
             height: 300px;
-            margin-bottom: 50px;
+            margin-bottom: 10px;
         }
         
        .info {
@@ -199,6 +212,7 @@
                     
                     p {
                         font-size: .68rem;
+                        line-height: 1.8;
                     }
                     
                     
