@@ -651,9 +651,8 @@ body.page {
       padding-top: 35px;
       margin-bottom: 5px; }
       .fv .inner-box .fv-top-wrap .top h1 {
-        width: 84%;
-        margin: auto;
-        min-width: 310px; }
+        width: 50%;
+        margin: auto; }
       .fv .inner-box .fv-top-wrap .top .logos {
         width: 41%;
         margin: 0 auto 18px;

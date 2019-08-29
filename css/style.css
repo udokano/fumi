@@ -899,9 +899,8 @@ body.page {
   margin-bottom: 5px;
 }
 .fv .inner-box .fv-top-wrap .top h1 {
-  width: 84%;
+  width: 50%;
   margin: auto;
-  min-width: 310px;
 }
 .fv .inner-box .fv-top-wrap .top .logos {
   width: 41%;
