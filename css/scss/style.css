@@ -1527,8 +1527,6 @@ footer.pages {
           border-style: solid;
           border-width: 10px 0 10px 17.3px;
           border-color: transparent transparent transparent #9d8440; }
-        .access-info .inner .info ul li:nth-of-type(3n)::after {
-          border: none; }
         .access-info .inner .info ul li:last-of-type::after {
           border: none; }
     .access-info .inner .info ul.parking {
@@ -1545,6 +1543,9 @@ footer.pages {
         .access-info .inner .info ul.parking li::after {
           border: none !important; }
 
+@media (min-width: 768px) {
+  .info ul li:nth-of-type(3n)::after {
+    border: none; } }
 @media (max-width: 767px) {
   .access-info .inner {
     width: 94%;
@@ -1568,7 +1569,7 @@ footer.pages {
             width: 28%; }
     .access-info .inner .page-map {
       height: 300px;
-      margin-bottom: 50px; }
+      margin-bottom: 10px; }
     .access-info .inner .info {
       margin-bottom: 50px; }
       .access-info .inner .info ul li {
@@ -1579,7 +1580,8 @@ footer.pages {
         .access-info .inner .info ul li h4 {
           margin-bottom: 7px; }
         .access-info .inner .info ul li p {
-          font-size: .68rem; }
+          font-size: .68rem;
+          line-height: 1.8; }
         .access-info .inner .info ul li:nth-of-type(odd)::after {
           top: 25%;
           right: -22%;

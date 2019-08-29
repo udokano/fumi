@@ -2076,9 +2076,6 @@ footer.pages .pages-footer-box .left .tel {
   border-width: 10px 0 10px 17.3px;
   border-color: transparent transparent transparent #9d8440;
 }
-.access-info .inner .info ul li:nth-of-type(3n)::after {
-  border: none;
-}
 .access-info .inner .info ul li:last-of-type::after {
   border: none;
 }
@@ -2102,6 +2099,11 @@ footer.pages .pages-footer-box .left .tel {
   border: none !important;
 }
 
+@media (min-width: 768px) {
+  .info ul li:nth-of-type(3n)::after {
+    border: none;
+  }
+}
 @media (max-width: 767px) {
   .access-info .inner {
     width: 94%;
@@ -2132,7 +2134,7 @@ footer.pages .pages-footer-box .left .tel {
   }
   .access-info .inner .page-map {
     height: 300px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
   .access-info .inner .info {
     margin-bottom: 50px;
@@ -2149,6 +2151,7 @@ footer.pages .pages-footer-box .left .tel {
   }
   .access-info .inner .info ul li p {
     font-size: .68rem;
+    line-height: 1.8;
   }
   .access-info .inner .info ul li:nth-of-type(odd)::after {
     top: 25%;
