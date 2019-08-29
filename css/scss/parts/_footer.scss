@@ -6,19 +6,19 @@ footer {
     .inner {
         .navi {
             width: 80%;
-            min-width: 1000px;
+            min-width: 700px;
             ul {
                 justify-content: flex-start;
                 li {
                     margin: 0;
-                    margin-right: 5.5%;
+                    margin-right: 3.5%;
                 }
             }
         }
         
         .copy {
             font-size: .7rem;
-            min-width: 300px;
+            width: 300px;
         }
     }
 }
@@ -154,6 +154,16 @@ footer.pages {
         }
         
         .left {
+            font-size: .72rem;
+            .logo-info {
+                margin-bottom: 13px;
+                span {
+                    background-color: $cg;
+                    padding: 2px;
+                    margin-left: 8px;
+                }
+            }
+            
             .tel {
                 display: block;
             }

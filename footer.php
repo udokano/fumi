@@ -5,17 +5,20 @@
     
         <div class="f-logo">
         
-            <img src="<?php echo get_template_directory_uri(); ?>/img/common/footer_logo.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/common/footer_logo.png" alt="ふみビューティークリニック梅田">
         
         </div>
         
         <div class="left">
+            
+            <p class="gosic logo-info">ふみビューティークリニック梅田<span class="cw">美容皮膚科・形成外科</span></p>
         
-            <a href="#" class="tel gd mb20">0120-000-000</a>
+            <a href="#" class="tel gd mb20">06-6372-2323</a>
             
-            <p class="gosic mb20">受付時間　10:00~20:00</p>
+            <p class="gosic mb20">受付時間 平日 10:00~18:00 土 10:00~17:00<br>
+                定休日 木・日・祝</p>
             
-            <p class="gosic">〒000-0000　大阪府大阪市000</p>
+            <p class="gosic">〒530-0012　大阪市北区芝田2丁目8-33 芝田ビル3F</p>
         
         </div>
     
@@ -29,8 +32,8 @@
           <li><a href="<?php echo home_url( '/' ); ?>">施術・料金</a></li>
           <li><a href="<?php echo home_url( '/' ); ?>access">アクセス</a></li>
           <li><a href="<?php echo home_url( '/' ); ?>doctor">ドクター紹介</a></li>
-          <li><a href="<?php echo home_url( '/' ); ?>">採用情報</a></li>
-          <li><a href="#" target="_blank">来院予約</a></li>
+          <li><a href="<?php echo home_url( '/' ); ?>recruit">採用情報</a></li>
+          <li><a href="https://fumibeauty.reserve.ne.jp/" target="_blank">来院予約</a></li>
           <li><a href="<?php echo home_url( '/' ); ?>contact">お問合わせ</a></li>
         </ul>
       </nav>
@@ -48,7 +51,8 @@
       <li><a href="<?php echo home_url( '/' ); ?>">施術・料金</a></li>
       <li><a href="<?php echo home_url( '/' ); ?>access">アクセス</a></li>
       <li><a href="<?php echo home_url( '/' ); ?>doctor">ドクター紹介</a></li>
-      <li><a href="<?php echo home_url( '/' ); ?>" target="_blank">来院予約</a></li>
+          <li><a href="<?php echo home_url( '/' ); ?>recruit">採用情報</a></li>
+      <li><a href="https://fumibeauty.reserve.ne.jp/" target="_blank">来院予約</a></li>
       <li class="mb0"><a href="<?php echo home_url( '/' ); ?>contact">お問合わせ</a></li>
             
 
@@ -66,7 +70,7 @@
   <div class="fix-bottom">
     <ul class="flex gosic al-cent">
       <li class="box-size"><span href="#" class="cw menu-open">メニュー</span></li>
-      <li class="box-size"><a href="<?php echo home_url( '/' ); ?>" class="cw" target="_blank">予約</a></li>
+      <li class="box-size"><a href="https://fumibeauty.reserve.ne.jp/" class="cw" target="_blank">予約</a></li>
       <li class="box-size"><a href="<?php echo home_url( '/' ); ?>" class="cw">TEL</a></li>
     </ul>
   </div>
@@ -79,6 +83,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script> 
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script> 
 <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
+
+  <script>
+  
 <?php wp_footer(); ?>
 </body>
 </html>

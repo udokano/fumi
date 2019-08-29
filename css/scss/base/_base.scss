@@ -176,6 +176,7 @@ body {
 section {
     width: 100%;
     margin-bottom: 60px;
+   
 }
 
 /*矢印　くの字*/
@@ -377,7 +378,6 @@ body.page {
     padding-top: 130px;
     
     h1 {
-        width: 175px;
         margin: 0 auto 15px;
     }
 }
@@ -468,6 +468,41 @@ border-width: 0 15px 23px 15px;
 border-color: transparent transparent rgba(0,0,0,.70) transparent;
 }
 
+
+
+/*サムネイル*/
+
+
+
+
+
+/*円型サムネイル*/
+
+
+.thumb-sq {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 360px;
+    height: 360px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+@media (max-width: 767px) {
+    
+    .thumb-sq {
+        height: 280px;
+        width: 280px;
+    }
+    
+    
+}
+
+
 .tl {
     text-align: left!important;
 }
@@ -492,6 +527,10 @@ border-color: transparent transparent rgba(0,0,0,.70) transparent;
     letter-spacing: 2px;
 }
 
+.fw600 {
+    font-weight: 600;
+}
+
 
 @media (min-width: 768px) {
     
@@ -513,6 +552,11 @@ border-color: transparent transparent rgba(0,0,0,.70) transparent;
         margin: auto;
     }
     
+    .inner-box2 {
+        width: 1000px;
+        margin: auto;
+    }
+    
     
     
 }
@@ -522,7 +566,7 @@ border-color: transparent transparent rgba(0,0,0,.70) transparent;
 @media (max-width: 767px) {
     
     
-    .inner-box {
+    .inner-box,.inner-box2 {
     width: 96%;
      @include box-center;
 }
@@ -546,6 +590,30 @@ border-color: transparent transparent rgba(0,0,0,.70) transparent;
 }
 
 
+.f-ryu {
+    font-family: a-otf-ryumin-pr6n, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.1rem;
+    letter-spacing: 2px;
+}
+
+.f-bold {
+    font-weight: 600;
+}
+
+
+.bg-cp {
+    background-color: $bg-cp;
+    padding: 50px 0;
+}
+
+.bg-grade {
+    background: rgb(2,0,36);
+background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, rgba(255,255,255,0) 100%);
+}
+
+
 .cp {
     color: $cp;
 }
@@ -562,6 +630,13 @@ border-color: transparent transparent rgba(0,0,0,.70) transparent;
 .gd {
     color: $cg;
 }
+
+
+.bg-cg {
+    background-color: $cg!important;
+}
+
+
 
 .gosic {
     font-family: $gosic;
@@ -719,6 +794,45 @@ border-color: transparent transparent rgba(0,0,0,.70) transparent;
     
 }
 
+
+/*施術の感想スライド設定*/
+
+.kuchikomi-slide {
+    position: relative;
+}
+
+.slide-p2.swiper4 .swiper-slide {
+    height: 388px;
+}
+
+.swiper4 .prev2,.swiper4 .next2 {
+    top: 50%;
+}
+
+.swiper4 .prev2 {
+    left: -65px;
+}
+
+.swiper4 .next2 {
+    right: -65px;
+}
+
+@media (min-width: 768px) {
+    .swiper4 .swiper-pagination {
+    display: none;
+}
+
+}
+
+
+@media (max-width: 767px) {
+    
+    .swiper4 .prev2,.swiper4 .next2 {
+   display: none!important;
+}
+
+    
+}
 
 
 /*ループ内テキストオーバーフロー設定基本*/

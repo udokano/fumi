@@ -9,11 +9,20 @@
     .header-inner {
         .logo {
             padding-left: 2%;
-            width: 22%;
+            width: 16%;
             max-width: 260px;
+            p {
+                font-size: .68rem;
+                color: #454545;
+                margin-bottom: 5px;
+            }
+            img {
+                display: block;
+            }
         }
         
         .navi {
+            padding-left: 8%;
             width: 48%;
             ul {
                 justify-content: flex-end;
@@ -30,8 +39,8 @@
 
 .fv {
     padding-top: 91px;
-    background: url("../img/top/fv_pc.jpg") no-repeat 50% 0% /cover;
-    height: 1000px;
+    background: url("../img/top/fv2_pc.jpg") no-repeat 50% 0% /cover;
+    height: 880px;
     position: relative;
     .inner-box {
         
@@ -39,26 +48,31 @@
             width: 94%;
             margin: 0 auto;
             .top {
-            padding-top: 80px;
-            margin-bottom: 140px;
+            padding-top: 35px;
+            margin-bottom: 5px;
             h1 {
-                width: 29%;
+                width: 84%;
+                margin: auto;
                 min-width: 310px;
             }
             
             .logos {
-                width: 31%;
+                width: 41%;
+                margin: 0 auto 18px;
                 min-width: 320px;
+                text-align: center;
                 img {
                     display: block;
-                    margin-bottom: 50px;
+                    width: 77%;
+                    margin: 0px auto;
                 }
                 
                 .band {
                     border: 1px solid $cp;
-                    background-color: $bg-w;
+                    background-color: transparent;
                     padding: 8px 18px;
                     font-size: 1.27rem;
+                    display: inline-block;
                 }
                 
             }
@@ -100,6 +114,7 @@
                     
                     .tel {
                         margin: 0 3.2%;
+                        font-size: 2.2rem;
                     }
                     
                     .time {
@@ -130,8 +145,16 @@
     .header-inner {
         .logo {
             padding-left: 2%;
-            width: 30%;
+            width: 38%;
             min-width: 140px;
+            img {
+                transform: scale(.92);
+                display: block;
+                margin-top: -6px;
+            }
+              p {
+                font-size: .5rem;
+            }
         }
         
      
@@ -144,23 +167,58 @@
     
     .fv {
         padding-top: 61px;
-    background:none;
-    height: auto;
+    background: url("../img/top/fv2_sp.png") no-repeat 50% 0%/cover;
+    height: 820px;
     position: relative;
+        
+        
+        .fv-top-wrap {
+            width: 96%;
+            margin: auto;
+            .top {
+            padding-top: 2.5%;
+            margin-bottom: 5px;
+            h1 {
+                width: 84%;
+                margin: auto;
+                min-width: 310px;
+            }
+            
+            .logos {
+                width: 100%;
+                min-width: 180px;
+                max-width: 380px;
+                margin: auto;
+                text-align: center;
+                img {
+                    display: block;
+                    width: 64%;
+                    margin: 0px auto;
+                }
+                
+                .band {
+                    border: 1px solid $cp;
+                    background-color: transparent;
+                    padding: 8px 18px;
+                    font-size: 1.08rem;
+                    display: inline-block;
+                }
+                
+            }
+        }
+    }
+        
+        
 
     .box-wrap {
         width: 96%;
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 10px;
+        
         margin: auto;
-        height: auto;
-      
+    
             
             .menu-link {
                 width: 100%;
-                margin-bottom: 10px;
+                margin-bottom: 25px;
                 li {
                     width: 48%;
                     a {
@@ -181,8 +239,8 @@
 
                     
                     .txt {
-                        font-size: 1.7rem;
-                        margin-bottom: 5px;
+                        font-size: 1.4rem;
+                        margin-bottom: 2.1%;
                     }
                     
                     .midle {
@@ -190,16 +248,22 @@
                         margin-bottom: 10px;
                         
                         .tel {
-                        width: 70%;
+                        width: 100%;
+                            text-align: center;
+                            margin-bottom: 1.1%;
                             a {
                               background-size: 28px;
-                              font-size: 1.8rem;
-                                padding-left: 35px;
+                              font-size: 2.57rem;
+                                padding-left: 52px;
+                                background-size: 40px;
                             }
                     }
                     
                     .time {
-                        width: 30%;
+                        width: 100%;
+                       font-size: .5rem;
+                        letter-spacing: 0;
+                        text-align: center;
                     }
                         
                         

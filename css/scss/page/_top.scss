@@ -17,10 +17,19 @@
     background-image: url("../img/top/bg4.jpg");
 }
 
+
+
+
 @media (max-width: 767px) {
     
-    #bg2 {
-        background-image: url("../img/top/bg02_sp.png");
+    .banner-arwa {
+        width: 100%;
+        height: 120px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     }
     
 }
@@ -115,7 +124,6 @@
 
 .infusion {
     padding-top: 60px;
-    max-width: 1350px;
     margin: 0 auto;
     h2 {
         width: 10%;
@@ -124,17 +132,15 @@
        display: inline-block;
     }
     
-    .contents {
-        width: 82%;
-        max-width: 1400px;
-        min-width: 1200px;
+    .inner-box {
         position: relative;
-        padding-bottom: 50px;
+      
         .top {
             position: relative;
+            margin-bottom: 45px;
             .text {
                 width: 43%;
-                padding-top: 60px;
+            
                 padding-left: 8%;
                 p {
                     line-height: 1.7;
@@ -159,8 +165,8 @@
                 background-image: url("../img/top/bg_thumb1.jpg"),url("../img/top/bg_thumb2.jpg");
                 background-size: 50%,50%;
                 position: relative;
-                bottom: -110px;
-                left: -50px;
+                bottom: 0px;
+                left: 0px;
                 .box-inner {
                     position: relative;
                     height: 100%;
@@ -168,7 +174,7 @@
                         padding: 25px 18px 50px;
                         position: absolute;
                         width: 50%;
-                        background-color: $bg-w;
+                        background-color: rgba(255,255,255,.78);
                         h3 {
                             margin-bottom: 10px;
                             text-align: center;
@@ -195,7 +201,7 @@
             
             .text {
                 float: right;
-                padding-top: 80px;
+                   padding-top: 50px;
                 padding-right: 6%;
                 width: 43%;
                 p {
@@ -223,7 +229,11 @@
         margin-bottom: 35px;
     }
     
-    .contents {
+    h3 {
+        font-size: 1.87rem;
+    }
+    
+    .inner-box {
         width: 100%;
         max-width: none;
         min-width: 100%;
@@ -232,14 +242,14 @@
             position: relative;
             flex-flow: column;
             .text {
-                width: 92%;
+                width: 80%;
                  @include box-center;
-                padding-top: 45px;
+               
                 padding-left: 0;
                 padding-bottom: 45px;
                 p {
                     line-height: 1.7;
-                    margin: 30px 0 20px;
+                    margin: 20px 0;
                 }
             }
             
@@ -252,7 +262,7 @@
         .bottom {
             flex-flow: column-reverse;
             .box {
-                width: 96%;
+                width: 100%;
                 margin: auto;
                 height: 400px;
                 background: none;
@@ -296,13 +306,13 @@
             
             .text {
                 float: none;
-                padding-top: 45px;
-                padding-right: 6%;
-                width: 92%;
+                padding-top: 0;
+                padding-right: 0%;
+                width:80%;
                  @include box-center;
                 padding-bottom: 45px;
                 p {
-                    margin: 30px 0 20px;
+                    margin: 20px 0 ;
                      line-height: 1.7;
                     margin-bottom: 35px;
                 }
@@ -318,34 +328,82 @@
 
 
 .menu {
-    margin-top: 60px;
+   
     padding: 60px 0;
     h2 {
         margin-bottom: 30px;
     }
     
     .munu-link {
-        max-width: 1350px;
+        max-width: 1380px;
         margin: auto;
-        li {
-            width: 22%;
+        flex-wrap: wrap;
+        display: flex;
+        
+        li.hg-row {
+            height: 370px;
+        }
+        
+        .box-size {
+            width: 31.7%;
+                margin-bottom: 5%;
+           height: 420px;
             a {
                 display: block;
-            
-            background-color: $bg-p;
+           
+                height: 100%;
+            background-color: $bg-w;
             padding: 18px;
+                
+             h3 {
+                 color: #454545;
+                    font-size: 1.44rem;
+                 margin-bottom: 0.8rem;
+                 .sm {
+                     display: inline;
+                     vertical-align: middle;
+                 }
+                }
+                
+                
+                
             .thumb {
                 margin-bottom: 20px;
+                height: 240px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
             }
                 
-                h3 {
-                    font-size: 1.25rem;
+                ul {
+                   overflow: hidden;
+                    li {
+                        color: #454545;
+                        float: left;
+                        display: inline-block;
+                        width: 50%;
+                        font-size: .87rem;
+                        font-family: $gosic;
+                        margin-bottom: 8px;
+                       
+                    }
                 }
-            
-            span {
-                display: block;
-            }
-      
+                
+                
+                  ul.col {
+                    li {
+                        display: block;
+                        width: 100%;
+                        float: none;
+                         .sm {
+                            font-size: .5rem;
+                            opacity: 1;
+                            display: inline;
+                        }
+                    }
+                }
             }
         }
     }
@@ -355,7 +413,7 @@
     
     
 .menu {
-    margin-top: 60px;
+    margin-top: 0px;
     padding: 60px 0;
     h2 {
         margin-bottom: 30px;
@@ -365,15 +423,22 @@
         max-width: none;
         width: 96%;
         flex-wrap: wrap;
-        li {
-            width: 48%;
-            margin-bottom: 18px;
+        
+        
+        li.box-size {
+            width: 49.2%;
+            margin-bottom: 60px;
+            height: 240px;
             a {
-                display: block;
-            
-            padding: 18px;
+             
             .thumb {
-                margin-bottom: 20px;
+                margin-bottom: 10px;
+                height: 90px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
             }
             
                 h3 {
@@ -382,6 +447,22 @@
                         font-size: .6rem;
                     }
                 }
+                
+                  ul {
+                   overflow: hidden;
+                    li {
+                        float: left;
+                        display: inline-block;
+                        width: 100%;
+                        font-size: .7rem;
+                        font-family: $gosic;
+                        margin-bottom: 4px;
+                       
+                       
+                    }
+                }
+                
+              
       
             }
         }
@@ -395,53 +476,129 @@
 
 
 .doctor {
-    padding:  60px 0;
-    height: 420px;
+    height: 540px;
     .inner {
-     
+         background: url("../img/top/doctor_thumb.png") no-repeat 11% 100%/ 330px auto;
+            position: relative;
+        height: 100%;
         .text {
-            width: 45.4%;
-            padding-left: 5%;
-            padding-top: 30px;
+            float: right;
+            width: 56.4%;
+            padding-right: 5%;
+            padding-top: 88px;
             h2 {
                 margin-bottom: 15px;
             }
             
-            .cach {
-                font-size: 1.9rem;
-                margin-bottom: 10px;
+            .band {
+                border: 1px solid $cp;
+                padding: 5px 8px;
+               width: 220px;
+                margin: 0 auto 40px;
             }
             
-            .btn {
-                margin-top: 60px;
+            .cach {
+                font-size: 1.9rem;
+                margin-bottom: 40px;
+            }
+            
+            .btn-wrap {
+                text-align: center;
+                 .btn {
+                margin: 0px 13px 0;
+                display: inline-block;
+                     width: 240px;
+                     height: 68px;
+                     line-height: 68px;
+            }
+                
+                
             }
         }
+        
+         .doctor-name {
+                position: absolute;
+                bottom: 60px;
+                left: 200px;
+                font-size: 1.6rem;
+                line-height: .78;
+                background: url("../img/top/bg_doctor_name.png") no-repeat 50% 50%/390px;
+                padding: 20%;
+                margin: -20%;
+                .sm {
+                    font-size: .9rem;
+                }
+            }
     }
 }
 
 @media (max-width: 767px) {
     
     .doctor {
-    padding:  60px 0;
+    padding: 0;
+        height: 740px;
     .inner {
-     
+         background-position: 50% 100%;
+        background-size: 210px;
+        height: 100%;
+        position: relative;
+        box-sizing: border-box;
         .text {
-            width: 49.47%;
-            padding-left: 5%;
-            padding-top: 30px;
+            width: 90%;
+            margin: auto;
+            padding-left: 0;
+            padding-top: 45px;
+            position: static;
             h2 {
                 margin-bottom: 15px;
             }
             
-            .cach {
-                font-size: 1.3rem;
-                margin-bottom: 10px;
+             .band {
+                border: 1px solid $cp;
+                padding: 5px 8px;
+               width: 180px;
+                margin: 0 auto 40px;
             }
             
-            .btn {
-                margin-top: 60px;
+            
+            .cach {
+                font-size: 2.1rem;
+                margin-bottom: 38px;
             }
+            
+             .btn-wrap {
+                 .btn {
+                margin: 0px 8px 0;
+                     width: 127px;
+                     height: 50px;
+                     line-height: 50px;
+            }
+                
+                
+            }
+            
+               
+            
         }
+        
+        .doctor-name {
+                position: absolute;
+                   left: 50%;
+                   right: auto;
+                   @include trx;
+                   bottom: 50px;
+                font-size: 1.8rem;
+                line-height: .78;
+                background: url("../img/top/bg_doctor_name.png") no-repeat 50% 50%/180px;
+                padding: 0%;
+                margin: 0%;
+                .sm {
+                    font-size: .9rem;
+                }
+            }
+            
+        
+      
     }
 }
     
@@ -603,6 +760,33 @@
     }
   }
 }
+
+
+.sns {
+    .inner {
+        .bnr {
+            width: 40.5%;
+            margin: 0 4.0%;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .sns {
+        margin-top: 60px;
+    .inner {
+        display: block;
+        .bnr {
+            width: 96%;
+            margin: 0 auto 4%;
+            
+        }
+    }
+}
+    
+}
+
     .map {
         .inner {
             width: 100%;

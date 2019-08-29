@@ -1,29 +1,41 @@
 .doctor-intro {
     background-color: #f6eeee;
-    padding: 60px 0 0;
     .inner {
-        background: url("../img/doctor/doctor_img.png") no-repeat 100% 100%/250px;
+            padding: 60px 0 0;
+
+        background: url("../img/doctor/doctor_img.png") no-repeat 100% 100%/340px;
         .text {
-        width: 62%;
+        width: 57%;
             padding-bottom: 80px;
            h2 {
                 width: 34%;
                margin-bottom: 35px;
+                color: #7c7c7c;
+               .sm {
+                   font-size: .9rem;
+               }
            }
            
            p {
-               line-height: 1.84;
+               line-height: 1.8;
                margin-bottom: 35px;
+               font-size: .97rem;
+               color: #7c7c7c;
            }
            
            .blog {
                margin-bottom: 30px;
                a {
                    display: inline-block;
-                   background-color: $cp;
-                   padding: 2px 3px;
+                   background-color: #c086ae;
+                   padding: 4px 6px;
                    margin-right: 1.1rem;
                    font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
+               }
+               
+               .link-txt {
+                   background: none;
+                   color: #7c7c7c;
                }
            }
        } 
@@ -71,8 +83,8 @@
             margin: auto;
             padding-bottom: 80px;
            h2 {
-                width: 62%;
-               margin:0 auto 35px;
+               width: 100%;
+               text-align: center;
            }
             
             .thumb {
