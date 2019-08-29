@@ -1831,27 +1831,30 @@ footer.pages {
       margin-bottom: 0; }
 
 /*形成外科治療特徴エリア記載*/
-.layout2 .inner-box2 h2 {
-  margin-bottom: 45px;
-  font-size: 1.8rem; }
-.layout2 .inner-box2 ul {
-  flex-wrap: wrap; }
-  .layout2 .inner-box2 ul li {
-    width: 46%;
-    height: 380px;
-    padding: 38px 45px;
-    margin-bottom: 70px;
-    border: 1px solid #a64987; }
-    .layout2 .inner-box2 ul li h3 {
-      margin-bottom: 35px;
-      font-size: 1.6rem; }
-    .layout2 .inner-box2 ul li .thumb {
-      width: 100%;
-      height: 220px; }
-      .layout2 .inner-box2 ul li .thumb img {
+.layout2 {
+  background: none !important;
+  padding: 0; }
+  .layout2 .inner-box2 h2 {
+    margin-bottom: 45px;
+    font-size: 1.8rem; }
+  .layout2 .inner-box2 ul {
+    flex-wrap: wrap; }
+    .layout2 .inner-box2 ul li {
+      width: 46%;
+      height: 380px;
+      padding: 38px 45px;
+      margin-bottom: 70px;
+      border: 1px solid #a64987; }
+      .layout2 .inner-box2 ul li h3 {
+        margin-bottom: 35px;
+        font-size: 1.6rem; }
+      .layout2 .inner-box2 ul li .thumb {
         width: 100%;
-        height: 100%;
-        object-fit: cover; }
+        height: 220px; }
+        .layout2 .inner-box2 ul li .thumb img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
 
 /*美容点滴特徴エリア記載*/
 .features.layout2 .inner-box2 h2 {

@@ -2489,6 +2489,10 @@ footer.pages .pages-footer-box .left .tel {
 }
 
 /*形成外科治療特徴エリア記載*/
+.layout2 {
+  background: none !important;
+  padding: 0;
+}
 .layout2 .inner-box2 h2 {
   margin-bottom: 45px;
   font-size: 1.8rem;

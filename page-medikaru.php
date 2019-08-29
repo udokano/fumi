@@ -1,4 +1,5 @@
-<?php/*
+<?php
+/*
 Template Name: メディカルエステ 
 */
 
@@ -99,31 +100,16 @@ Template Name: メディカルエステ
         <div class="price-list gosic">
         
             <dl class="flex">
-                <dt>内容</dt>
+                <dt>&nbsp;</dt>
                 <dd class="f-bold">税別</dd>
             </dl>
             
              <dl class="flex">
-                <dt>内容入ります</dt>
-                <dd>¥00,000</dd>
+                <dt>メディカルエステ</dt>
+                <dd>お問い合わせください</dd>
             </dl>
             
-             <dl class="flex">
-                <dt>内容入ります</dt>
-                <dd>¥00,000</dd>
-            </dl>
-            
-            
-             <dl class="flex">
-                <dt>内容入ります</dt>
-                <dd>¥00,000</dd>
-            </dl>
-            
-             <dl class="flex">
-                <dt>内容入ります</dt>
-                <dd>¥00,000</dd>
-            </dl>
-        
+             
         </div>
         
         

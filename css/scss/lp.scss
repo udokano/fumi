@@ -1188,6 +1188,20 @@ section {
     display: none!important;
 }
 
+#lp2 {
+    .swiper-button-next {
+        background-image: url("../img/common/arrow_03.svg");
+    }
+    
+    .swiper-button-prev  {
+        background-image: url("../img/common/arrow_04.svg");
+    }
+    
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        background-color: #ba3349;
+    }
+}
+
 @media (max-width: 767px) {
     
     .slide-p2.swiper5 .swiper-slide {
