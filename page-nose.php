@@ -1,4 +1,5 @@
-<?php/*
+<?php
+/*
 Template Name: 鼻の糸 
 */
 
@@ -135,13 +136,12 @@ Template Name: 鼻の糸
     </div>
   </div>
 </section>
-<section class="bg-cg2 kuchikomi">
+<!--<section class="bg-cg2 kuchikomi">
   <div class="inner-box2">
     <div class="kuchikomi-slide slide-area">
       <h2 class="tc gd gosic ls2">施術の感想</h2>
       <div class="swiper-container slide-p2 swiper4">
         <div class="swiper-wrapper"> 
-          <!-- Slides -->
           <div class="gosic swiper-slide">
             <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/coming.jpg" alt="準備中"></div>
             <p class="tc mt20">準備中</p>
@@ -164,10 +164,8 @@ Template Name: 鼻の糸
           <div class="swiper-pagination"></div>
       </div>
     </div>
-    <!--left slides END--> 
-    
   </div>
-</section>
+</section>-->
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">料金表</h2>

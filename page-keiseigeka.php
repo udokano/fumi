@@ -88,23 +88,23 @@ Template Name: 形成外科治療
             
              <dl class="flex">
                 <dt>色素性母斑(ホクロ)</dt>
-                <dd>¥00,000</dd>
+                <dd>お問い合わせください</dd>
             </dl>
             
              <dl class="flex">
                 <dt>皮膚良性腫瘍</dt>
-                <dd>¥00,000</dd>
+                <dd>お問い合わせください</dd>
             </dl>
             
             
              <dl class="flex">
                 <dt>肥厚性瘢痕・ケロイド</dt>
-                <dd>¥00,000</dd>
+                <dd>お問い合わせください</dd>
             </dl>
             
              <dl class="flex">
                 <dt>巻き爪・陥入爪</dt>
-                <dd>¥00,000</dd>
+                <dd>お問い合わせください</dd>
             </dl>
         
         </div>
