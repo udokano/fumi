@@ -186,7 +186,7 @@
 お顔全体のバランスをみて<br>
 自然な若返りができるようご提案しております。</p>
           <p class="sp gosic tc">当院の主な注入治療部位です。ヒアルロン酸やボトックスを「どこに」「どのくらい」注入するかで、効果・効能が大きく効果が違ってきますが、当院ではお顔全体のバランスをみて自然な若返りができるようご提案しております。</p>
-          <a href="<?php echo home_url( '/' ); ?>" class="btn">詳しく見る</a> </div>
+           </div>
         <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/illust01.jpg" alt="イラスト"> </div>
       </div>
       <div class="bottom flex cf">
