@@ -191,10 +191,12 @@ Template Name: ランディングページヒアルロン酸
       
       </div>
       <h3 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_cach04.png" alt="治療のポイント"></h3>
-      <p class="tc ls1 gd mb20">ヒアルロン酸注入治療ではこれらのバランスを見ながらよりその方に合った<br>
+      <p class="tc ls1 gd mb20 pc">ヒアルロン酸注入治療ではこれらのバランスを見ながらよりその方に合った<br>
         理想のバランス（黄金バランス）に整えていくように注入します。<br>
         たるみ 、 ボリュームロス、 輪郭、これらがトータルで改善し、老化に対して根本から<br>
         アプローチできる治療です。</p>
+        <p class="tc ls1 gd mb20 sp">ヒアルロン酸注入治療ではこれらのバランスを見ながらよりその方に合った理想のバランス（黄金バランス）に整えていくように注入します。
+            たるみ 、 ボリュームロス、 輪郭、これらがトータルで改善し、老化に対して根本からアプローチできる治療です。</p>
       <p class="tc ls1 gd">溝を埋めるだけの注入治療（ほうれい線のみ注入する、<br>
         目の下のみ注入するといったもの）と違って、仕上がりはとても自然で美しいです。</p>
     </div>
@@ -247,70 +249,33 @@ Template Name: ランディングページヒアルロン酸
       </div>
     </div>
   </section>
+    
+    
+     <?php if( have_rows('pr1',155) ): ?>
+    
+    
+    
   <section class="case area-bgs" id="bg6">
     <div class="lp-inner">
       <h2 class="gd tc">症例写真</h2>
       <div class="case-photos flex">
+                  <?php while ( have_rows('pr1',155) ) : the_row(); ?>
+
         <div class="case-box">
           <div class="ba-box flex">
             <div class="box">
-              <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_sample.jpg" alt=""> </div>
-              <p class="gd tc">施術前</p>
+              <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
+              <p class="gd tc"><?php the_sub_field('befor_title',155); ?></p>
             </div>
             <div class="box">
-              <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_sample.jpg" alt=""> </div>
-              <p class="gd tc">施術０回後</p>
-            </div>
-            <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_arrow.png" alt=""></div>
-          </div>
-          <div class="comment cp gosic box-size"> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト </div>
-        </div>
-        <div class="case-box">
-          <div class="ba-box flex">
-            <div class="box">
-              <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_sample.jpg" alt=""> </div>
-              <p class="gd tc">施術前</p>
-            </div>
-            <div class="box">
-              <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_sample.jpg" alt=""> </div>
-              <p class="gd tc">施術０回後</p>
-            </div>
-            <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_arrow.png" alt=""></div>
-          </div>
-          <div class="comment cp gosic box-size"> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト </div>
-        </div>
-        <div class="case-box">
-          <div class="ba-box flex">
-            <div class="box">
-              <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_sample.jpg" alt=""> </div>
-              <p class="gd tc">施術前</p>
-            </div>
-            <div class="box">
-              <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_sample.jpg" alt=""> </div>
-              <p class="gd tc">施術０回後</p>
-            </div>
-            <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_arrow.png" alt=""></div>
-          </div>
-          <div class="comment cp gosic box-size"> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト </div>
-        </div>
-        <div class="case-box">
-          <div class="ba-box flex">
-            <div class="box">
-              <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_sample.jpg" alt=""> </div>
-              <p class="gd tc">施術前</p>
-            </div>
-            <div class="box">
-              <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_sample.jpg" alt=""> </div>
-              <p class="gd tc">施術０回後</p>
+              <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
+              <p class="gd tc"><?php the_sub_field('after_title',155); ?></p>
             </div>
             <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_arrow.png" alt=">"></div>
           </div>
-          <div class="comment cp gosic box-size"> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト </div>
+          <div class="comment cp gosic box-size"><?php the_sub_field('text',155); ?></div>
         </div>
+        <?php endwhile; ?>
         <div class="note box-size">
           <h4 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/note.png" alt="注意事項"></h4>
           <p class="gosic tc pc">個人差がありますが、注入後、内出血が生じることがあります。<br>
@@ -320,7 +285,8 @@ Template Name: ランディングページヒアルロン酸
         </div>
       </div>
     </div>
-  </section>
+  </section> <?php else: ?>
+  <?php endif; ?>
   <section class="infu">
     <div class="lp-inner">
       <h2 class="gd tc">注入可能部位</h2>
@@ -435,23 +401,39 @@ Template Name: ランディングページヒアルロン酸
     <div class="lp-inner">
       <h2 class="gd tc">よくある質問</h2>
       <div class="swiper-container slide-p2 swiper5 cont">
+          
+       
+          
         <div class="swiper-wrapper gosic"> 
+            
+               <?php
+    $args = array(
+      'post_type' => 'faq',
+      'tax_query' => array(
+        array(
+          'taxonomy' => 'faq_kind',
+          'field' => 'slug',
+          'terms' => array( 'hes' )
+        )
+      ),
+      'orderby' => 'date',
+      'order' => 'DESC',
+    );
+    $the_query = new WP_Query( $args );
+    while ( $the_query->have_posts() ): $the_query->the_post();
+    ?>
+          
           <!-- Slides -->
           
           <div class="qas gd box-size swiper-slide">
-            <p class="qa-txt mb15 cp"><span class="q">Q</span> ヒアルロン酸注射の痛みは
-              どれくらいですか？ </p>
-            <div class="qa-txt text-over gd"><span class="a">A</span> 注射は髪の毛と同じくらいの細さの針を使用するので、我慢できる程度の痛みです。不安な方は、麻酔入りのヒアルロン酸をご用意しております。 </div>
+            <p class="qa-txt mb15 cp"><span class="q">Q</span><?php the_title(); ?></p>
+            <div class="qa-txt text-over gd"><span class="a">A</span><?php remove_filter('the_content', 'wpautop'); ?>
+        <?php the_content(); ?></div>
           </div>
-          <div class="qas gd box-size swiper-slide">
-            <p class="qa-txt mb15 cp"><span class="q">Q</span> 顔のシワ全てに有効ですか？ </p>
-            <div class="qa-txt text-over gd"><span class="a">A</span> 特に鼻の横から口にかけてのホウレイ線（鼻唇溝）や眉間のシワが気になる方におすすめです。また、シワの他にも目の下のへこみが気になる方にも効果的です。 </div>
-          </div>
-          <div class="qas gd box-size swiper-slide">
-            <p class="qa-txt mb15 cp"><span class="q">Q</span> 傷は残りますか？ </p>
-            <div class="qa-txt text-over gd"><span class="a">A</span> 傷跡は残りません。小さな針痕ぐらいの赤みは発生しますが、ほとんどが施術当日に消えます。 </div>
-          </div>
+            <?php endwhile; wp_reset_postdata(); ?>
         </div>
+            
+
         <div class="swiper-button-prev prev2"></div>
         <div class="swiper-button-next next2"></div>
            <div class="swiper-pagination"></div>

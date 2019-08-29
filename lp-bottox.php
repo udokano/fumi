@@ -369,23 +369,33 @@ Template Name: ランディングページボトックス
     <div class="lp-inner">
       <h2 class="gd tc">よくある質問</h2>
       <div class="swiper-container slide-p2 swiper5 cont">
-        <div class="swiper-wrapper gosic"> 
+         <div class="swiper-wrapper gosic"> 
+            
+               <?php
+    $args = array(
+      'post_type' => 'faq',
+      'tax_query' => array(
+        array(
+          'taxonomy' => 'faq_kind',
+          'field' => 'slug',
+          'terms' => array( 'bx' )
+        )
+      ),
+      'orderby' => 'date',
+      'order' => 'DESC',
+    );
+    $the_query = new WP_Query( $args );
+    while ( $the_query->have_posts() ): $the_query->the_post();
+    ?>
+          
           <!-- Slides -->
           
           <div class="qas gd box-size swiper-slide">
-            <p class="qa-txt mb15 cp2"><span class="q">Q</span>ボトックス注射の痛みはどれく
-らいですか？</p>
-            <div class="qa-txt text-over gd"><span class="a">A</span>チクチクする程度で、すぐにおさまります。</div>
+            <p class="qa-txt mb15 cp2"><span class="q">Q</span><?php the_title(); ?></p>
+            <div class="qa-txt text-over gd"><span class="a">A</span><?php remove_filter('the_content', 'wpautop'); ?>
+        <?php the_content(); ?></div>
           </div>
-          <div class="qas gd box-size swiper-slide">
-            <p class="qa-txt mb15 cp2"><span class="q">Q</span>持続期間はどれぐらいですか？</p>
-            <div class="qa-txt text-over gd"><span class="a">A</span>個人差もありますが、3～6ヶ月程度です。</div>
-          </div>
-          <div class="qas gd box-size swiper-slide">
-            <p class="qa-txt mb15 cp2"><span class="q">Q</span>顔全体のシワには効果がありま
-すか？</p>
-            <div class="qa-txt text-over gd"><span class="a">A</span>表情筋によってできたシワに対して有効です。それ以外の要因のシワはヒアルロン酸が最適です。</div>
-          </div>
+            <?php endwhile; wp_reset_postdata(); ?>
         </div>
         <div class="swiper-button-prev prev2"></div>
         <div class="swiper-button-next next2"></div>

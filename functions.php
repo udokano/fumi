@@ -210,6 +210,15 @@ add_action( 'admin_menu', 'add_page_to_admin_menu2' );
 
 
 
+/*メニューに症例写真管理追加*/
+
+
+function add_page_to_admin_menu3() {
+  add_menu_page( '症例写真管理', '症例写真管理', 'edit_posts', 'post.php?post=155&action=edit', '', 'dashicons-format-gallery', 4);
+}
+add_action( 'admin_menu', 'add_page_to_admin_menu3' );
+
+
 /**
  * 子カテチェックで親カテも
  */

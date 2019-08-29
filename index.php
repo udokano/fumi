@@ -4,6 +4,7 @@
 <?php bloginfo( 'name' ); ?>
 </title>
 <meta name="viewport" content="width=device-width">
+<meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
@@ -70,7 +71,7 @@
             <div class="time sm">平日 10:00～18:00  土 10:00～17:00</div>
           </div>
         </div>
-        <div class="bottom flex"> <a href="#" class="cv-btns bg-rs" target="_blank"><span class="bg-icon">来院予約<br>
+        <div class="bottom flex"> <a href="https://fumibeauty.reserve.ne.jp/" class="cv-btns bg-rs" target="_blank"><span class="bg-icon">来院予約<br>
           <span class="sm">RESERVATION</span></span></a> <a href="<?php echo home_url( '/' ); ?>contact" class="cv-btns bg-ct"><span class="bg-icon">お問合わせ<br>
           <span class="sm">CONTACT</span></span></a> </div>
       </div>
@@ -109,7 +110,7 @@
             <div class="time sm"> 平日 10:00～18:00<br>
   土 10:00～17:00</div>
           </div>
-          <div class="bottom flex"> <a href="#" class="cv-btns bg-rs" target="_blank"><span class="bg-icon">来院予約<br>
+          <div class="bottom flex"> <a href="https://fumibeauty.reserve.ne.jp/" class="cv-btns bg-rs" target="_blank"><span class="bg-icon">来院予約<br>
             <span class="sm">RESERVATION</span></span></a> <a href="<?php echo home_url( '/' ); ?>contact" class="cv-btns bg-ct"><span class="bg-icon">お問合わせ<br>
             <span class="sm">CONTACT</span></span></a> </div>
         </div>
@@ -414,6 +415,7 @@
       <li><a href="<?php echo home_url( '/' ); ?>">施術・料金</a></li>
       <li><a href="<?php echo home_url( '/' ); ?>access">アクセス</a></li>
       <li><a href="<?php echo home_url( '/' ); ?>doctor">ドクター紹介</a></li>
+        <li><a href="<?php echo home_url( '/' ); ?>recruit">採用情報</a></li>
       <li><a href="https://fumibeauty.reserve.ne.jp/" target="_blank">来院予約</a></li>
       <li class="mb0"><a href="<?php echo home_url( '/' ); ?>contact">お問合わせ</a></li>
       <p class="menu-close"></p>
