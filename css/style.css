@@ -1213,7 +1213,7 @@ footer.pages .pages-footer-box .left .tel {
 
 @media (max-width: 767px) {
   footer.pages .pages-footer-box {
-    width: 70%;
+    width: 88%;
     margin: 50px auto 60px;
     display: block;
   }
@@ -3257,5 +3257,4 @@ footer.pages .pages-footer-box .left .tel {
     width: 80%;
   }
 }
-
 /*# sourceMappingURL=style.css.map */

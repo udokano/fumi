@@ -6,11 +6,11 @@ Template Name: お問い合わせ
 ?>
 <?php get_header()?>
 <div class="page-head">
-  <h1 class="tc f-ryu">お問合せ</h1>
+  <h1 class="tc f-ryu">お問合わせ</h1>
   <?php echo breadcrumb_func(); ?> </div>
 <section class="contact-tel">
   <div class="inner">
-    <h2 class="tc f-ryu pc">お電話でのお問い合わせ</h2><h2 class="tc f-ryu sp">お電話での<br>お問い合わせ</h2>
+    <h2 class="tc f-ryu pc">お電話でのお問合わせ</h2><h2 class="tc f-ryu sp">お電話での<br>お問合わせ</h2>
     <p class="tel tc cp"><a href="#" class="cp" style="background: none; padding: 0;">06-6372-2323</a></p>
       <?php if ( wp_is_mobile() ) : ?>
     <p class="tc gosic">受付時間 : 10:00 ~ 18:00<br>
