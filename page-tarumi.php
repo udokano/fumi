@@ -164,7 +164,7 @@ Template Name: たるみ治療
         array(
           'taxonomy' => 'faq_kind',
           'field' => 'slug',
-          'terms' => array( 'has' )
+          'terms' => array( 'hes' )
         )
       ),
       'orderby' => 'date',

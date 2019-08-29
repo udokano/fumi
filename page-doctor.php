@@ -1,4 +1,5 @@
-<?php/*
+<?php
+/*
 Template Name: ドクター紹介 
 */
 

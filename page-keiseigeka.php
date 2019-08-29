@@ -1,4 +1,5 @@
-<?php/*
+<?php
+/*
 Template Name: 形成外科治療 
 */
 

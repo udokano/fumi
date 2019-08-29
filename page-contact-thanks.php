@@ -1,4 +1,5 @@
-<?php/*
+<?php
+/*
 Template Name: お問い合わせ-サンクス
 */
 

@@ -461,6 +461,8 @@ Template Name: ランディングページヒアルロン酸
   <section class="lp-doctor">
     <div class="lp-inner">
       <div class="box flex">
+                  <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/doctor.png" alt="先山 史先生"></div>
+
         <div class="desc">
           <h2 class="cp ls2"> <span>fumi beauty clinic 院長</span> 先山 史 </h2>
           <dl class="gosic gd flex">
@@ -482,7 +484,6 @@ Template Name: ランディングページヒアルロン酸
             </div>
           </dl>
         </div>
-        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/doctor.png" alt="先山 史先生"></div>
       </div>
     </div>
   </section>

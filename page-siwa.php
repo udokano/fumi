@@ -332,51 +332,35 @@
   </div>
 </section>
 
+
+          
+          
+          <?php if( have_rows('ope_siwa_hel',155) ): ?>
+
 <section class="case">
   <div class="inner">
     <h2 class="tc">症例</h2>
     <div class="case-wrap flex">
-      <div class="case-box flex">
-        <div class="box">
-          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/befor.jpg" alt=""> </div>
-          <p class="gosic tc">施術前</p>
+    
+        
+        
+
+        <?php while ( have_rows('ope_siwa_hel',155) ) : the_row(); ?>
+            <div class="case-box flex">
+           <div class="box">
+          <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
+          <p class="gosic tc"><?php the_sub_field('befor_txt',155); ?></p>
         </div>
         <div class="box">
-          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/after.jpg" alt=""> </div>
-          <p class="gosic tc">施術◯回後</p>
+          <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
+          <p class="gosic tc"><?php the_sub_field('after_txt',155); ?></p>
         </div>
-      </div>
-      <div class="case-box flex">
-        <div class="box">
-          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/befor.jpg" alt=""> </div>
-          <p class="gosic tc">施術前</p>
-        </div>
-        <div class="box">
-          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/after.jpg" alt=""> </div>
-          <p class="gosic tc">施術◯回後</p>
-        </div>
-      </div>
-      <div class="case-box flex">
-        <div class="box">
-          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/befor.jpg" alt=""> </div>
-          <p class="gosic tc">施術前</p>
-        </div>
-        <div class="box">
-          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/after.jpg" alt=""> </div>
-          <p class="gosic tc">施術◯回後</p>
-        </div>
-      </div>
-      <div class="case-box flex">
-        <div class="box">
-          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/befor.jpg" alt=""> </div>
-          <p class="gosic tc">施術前</p>
-        </div>
-        <div class="box">
-          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/after.jpg" alt=""> </div>
-          <p class="gosic tc">施術◯回後</p>
-        </div>
-      </div>
-    </div>
+          
+          </div>
+          
+        <?php endwhile; ?>
+      
+           </div>
     <div class="note box-size gosic">
       <p>リスク副作用</p>
       <p>・注入直後、赤みが出る場合がございます。＊メイクで隠れる程度の赤みです。</p>
@@ -384,6 +368,13 @@
   </div>
 </section>
 
+        
+  <?php else: ?>
+  <?php endif; ?>
+  
+          
+          
+ 
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">ヒアルロン酸注入料金</h2>
@@ -537,12 +528,42 @@
      
     <div class="price-list gosic">
       <dl class="flex">
-        <dt class="fw600">&nbsp;</dt>
+        <dt class="fw600">種類</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
-        <dt>美容点滴</dt>
-        <dd>お問い合わせください</dd>
+        <dt>疲労回復注射</dt>
+        <dd>¥3,000</dd>
+      </dl>
+        
+        <dl class="flex">
+        <dt>疲労回復点滴(マイヤーズカクテル)</dt>
+        <dd>¥6,000</dd>
+      </dl>
+        
+         <dl class="flex">
+        <dt>白玉点滴(グルタチオン)</dt>
+        <dd>¥8,000</dd>
+      </dl>
+        
+         <dl class="flex">
+        <dt>高濃度ビタミンC点滴   25gまで</dt>
+        <dd>¥12,000</dd>
+      </dl>
+        
+        <dl class="flex">
+        <dt>高濃度ビタミンC点滴   50gまで</dt>
+        <dd>¥15,000</dd>
+      </dl>
+        
+         <dl class="flex">
+        <dt>プラセンタ注射   1本</dt>
+        <dd>¥1,500</dd>
+      </dl>
+        
+         <dl class="flex">
+        <dt>プラセンタ注射   2本目以降</dt>
+        <dd>¥1,000</dd>
       </dl>
       
       

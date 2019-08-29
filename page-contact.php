@@ -1,4 +1,5 @@
-<?php/*
+<?php
+/*
 Template Name: お問い合わせ 
 */
 
@@ -10,12 +11,12 @@ Template Name: お問い合わせ
 <section class="contact-tel">
   <div class="inner">
     <h2 class="tc f-ryu">お電話でのお問い合わせ</h2>
-    <p class="tel tc cp"><a href="#" class="cp" style="background: none; padding: 0;">0120-000-0000</a></p>
+    <p class="tel tc cp"><a href="#" class="cp" style="background: none; padding: 0;">06-6372-2323</a></p>
       <?php if ( wp_is_mobile() ) : ?>
-    <p class="tc gosic">受付時間 : 10:00 ~ 20:00<br>
-休診日 : 木曜日</p>
+    <p class="tc gosic">受付時間 : 10:00 ~ 18:00<br>
+休診日 : 木、日、祝</p>
 <?php else: ?>
-    <p class="tc gosic">受付時間 : 10:00 ~ 20:00　　休診日 : 木曜日</p>
+    <p class="tc gosic">受付時間 : 10:00 ~ 18:00　　休診日 : 木、日、祝</p>
 <?php endif; ?>
 
   </div>

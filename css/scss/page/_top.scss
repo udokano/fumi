@@ -18,6 +18,23 @@
 }
 
 
+
+
+@media (max-width: 767px) {
+    
+    .banner-arwa {
+        width: 100%;
+        height: 120px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    
+}
+
+
 .concept {
     height: 800px;
     position: relative;

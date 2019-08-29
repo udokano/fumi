@@ -983,7 +983,7 @@ section {
             padding-left: 0%;
             li {
                 border-radius: 14px;
-                height:auto;
+                height:400px;
                 margin-bottom: 70px;
             flex-flow: column-reverse;
                 .text {
@@ -999,7 +999,8 @@ section {
                 
                 .thumb {
                     width: 100%;
-                    height: 100%;
+                    height: 270px;
+                    overflow: hidden;
                     img {
                        width: 100%;
                         object-fit: cover;
@@ -1007,7 +1008,7 @@ section {
                 }
                 
                 .num {
-                    left: 0px;
+                    left: -5px;
                     top: -37px;
                     width: 94px;
                 }
@@ -1257,7 +1258,7 @@ section {
     padding: 60px 0 0;
     .lp-inner {
         .box {
-            flex-flow: column-reverse;
+            flex-flow: column;
             .desc {
                 padding-top: 0px;
                 width: 96%;

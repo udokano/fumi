@@ -1,4 +1,5 @@
-<?php/*
+<?php
+/*
 Template Name: 美容点滴 
 */
 

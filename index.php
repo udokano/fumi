@@ -53,13 +53,13 @@
       
     <div class="box-wrap">
       <ul class="menu-link flex">
-        <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>concept"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
-          <p class="cp tc ls1">当院について<br>
-            <span class="gd">ABOUT</span></p>
-          </a> </li>
-        <li class="box-size"> <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02.jpg" alt="サムネイル">
-          <p class="cp tc ls1">オーダーメイド治療<br>
+        <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>siwa"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
+          <p class="cp tc ls1">注入オーダーメイド<br>
             <span class="gd">ORDER MADE</span></p>
+          </a> </li>
+        <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>tarumi#area2"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02.jpg" alt="サムネイル">
+          <p class="cp tc ls1">スレッドリフト<br>
+            <span class="gd">THREAD LIFT</span></p>
           </a> </li>
       </ul>
       <div class="cv-wrap box-size">
@@ -92,11 +92,11 @@
       <!--FV-top-wrap END-->
       <div class="bottom flex">
         <ul class="menu-link flex">
-          <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>concept"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
+          <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>siwa"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
             <p class="cp tc ls1">注入オーダーメイド<br>
               <span class="gd">ORDER MADE</span></p>
             </a> </li>
-          <li class="box-size"> <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02.jpg" alt="サムネイル">
+          <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>tarumi#area2"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02.jpg" alt="サムネイル">
             <p class="cp tc ls1">スレッドリフト<br>
               <span class="gd">THREAD LIFT</span></p>
             </a> </li>
@@ -171,26 +171,8 @@
   <!--banner-area END-->
   <?php endif; ?>
   
-  <!-- <section class="concept area-bgs cf mb0" id="bg1">
-    <h2 class="concept-h2 cw">
-      <div class="inner-text">CONCEPT <span>コンセプト</span></div>
-    </h2>
-    <div class="adout-text cp tc">
-      <div class="inner-text ls1">
-        <p class="tc mb30">大阪府大阪市北区梅田にある美容外科です。</p>
-        <p class="tc mb30 pc">患者様の美しさを引き出して、<br>
-          豊かな人生を送れるサポートをします。 </p>
-        <p class="tc mb30 pc">スタッフ一同、患者様の気持ちに寄り添い、<br>
-          患者様との優良な信頼関係を作りあげるように<br>
-          日々精進しています。 </p>
-        <p class="tc mb30 sp">患者様の美しさを引き出して、豊かな人生を送れるサポートをします。 </p>
-        <p class="tc mb30 sp">スタッフ一同、患者様の気持ちに寄り添い、患者様との優良な信頼関係を作りあげるように日々精進しています。 </p>
-        <a href="<?php echo home_url( '/' ); ?>concept" class="btn">当院について</a> </div>
-    </div>
-  </section>--> 
-  <!--CONCEPT END-->
   
-  <section class="infusion cp cf in-view mb0 bg-areas" id="bg2">
+  <section class="infusion cp cf mb0 bg-areas" id="bg2">
     <div class="inner-box">
       <div class="top flex">
         <div class="text tc cp box-size">
@@ -339,38 +321,28 @@
         </div>
       </div>
       <!--left slides END-->
+        
+         
+          <?php if( have_rows('top',155) ): ?>
       
       <div class="right-slide slide-area">
         <h2 class="cp tc">症例写真</h2>
         <span class="sm tc gd mb30">SYMPTOM</span>
         <div class="swiper-container slide-p2 swiper3 cont">
           <div class="swiper-wrapper"> 
-            <!-- Slides -->
-            <?php
-            $args = array(
-              'post_type' => 'symptom',
-              'posts_per_page' => 4,
-              'orderby' => 'rand',
-              'order' => 'DESC',
-            );
-            $the_query = new WP_Query( $args );
-            while ( $the_query->have_posts() ): $the_query->the_post();
-            ?>
+                <?php while ( have_rows('top',155) ) : the_row(); ?>
             <div class="bas gd box-size swiper-slide">
               <div class="slide-in flex">
-                <div class="thumb"><img src="<?php the_field('s_p'); ?>" alt="サムネイル"></div>
+                <div class="thumb"><img src="<?php the_sub_field('top_p',155); ?>" alt="サムネイル"></div>
                 <div class="text">
-                  <h3 class="">
-                    <?php the_title(); ?>
+                  <h3 class=""><?php the_sub_field('top_title',155); ?>
                   </h3>
                   <div class="ba-txt gosic box-size text-over">
-                    <?php remove_filter('the_content', 'wpautop'); ?>
-                    <?php the_content()?>
+                   <?php the_sub_field('top_txt',155); ?>
                   </div>
                 </div>
               </div>
-            </div>
-            <?php endwhile; wp_reset_postdata(); ?>
+            </div> <?php endwhile; ?>
           </div>
           <div class="swiper-button-prev prev2"></div>
           <div class="swiper-button-next next2"></div>
@@ -378,6 +350,9 @@
         </div>
       </div>
       <!--right slides END--> 
+        
+         <?php else: ?>
+  <?php endif; ?>
       
     </div>
   </section>

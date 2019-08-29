@@ -766,7 +766,7 @@ section {
   }
   .flow .lp-inner .steps li {
     border-radius: 14px;
-    height: auto;
+    height: 400px;
     margin-bottom: 70px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -785,7 +785,8 @@ section {
   }
   .flow .lp-inner .steps li .thumb {
     width: 100%;
-    height: 100%;
+    height: 270px;
+    overflow: hidden;
   }
   .flow .lp-inner .steps li .thumb img {
     width: 100%;
@@ -793,7 +794,7 @@ section {
        object-fit: cover;
   }
   .flow .lp-inner .steps li .num {
-    left: 0px;
+    left: -5px;
     top: -37px;
     width: 94px;
   }
@@ -980,9 +981,9 @@ section {
   }
   .lp-doctor .lp-inner .box {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-flow: column-reverse;
-            flex-flow: column-reverse;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
   }
   .lp-doctor .lp-inner .box .desc {
     padding-top: 0px;

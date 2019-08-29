@@ -561,7 +561,7 @@ section {
       padding-left: 0%; }
       .flow .lp-inner .steps li {
         border-radius: 14px;
-        height: auto;
+        height: 400px;
         margin-bottom: 70px;
         flex-flow: column-reverse; }
         .flow .lp-inner .steps li .text {
@@ -574,12 +574,13 @@ section {
             font-size: 2.1rem; }
         .flow .lp-inner .steps li .thumb {
           width: 100%;
-          height: 100%; }
+          height: 270px;
+          overflow: hidden; }
           .flow .lp-inner .steps li .thumb img {
             width: 100%;
             object-fit: cover; }
         .flow .lp-inner .steps li .num {
-          left: 0px;
+          left: -5px;
           top: -37px;
           width: 94px; }
         .flow .lp-inner .steps li .arw {
@@ -713,7 +714,7 @@ section {
     background: url("../img/lp1/doctor_bg.png") no-repeat 100% 100%/100%;
     padding: 60px 0 0; }
     .lp-doctor .lp-inner .box {
-      flex-flow: column-reverse; }
+      flex-flow: column; }
       .lp-doctor .lp-inner .box .desc {
         padding-top: 0px;
         width: 96%;
