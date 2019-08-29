@@ -217,7 +217,7 @@
             優良な品質の製剤のみを使用しております。
             患者様の幅広い悩みを解決するために、
             多種類の製剤を取り扱っています。</p>
-          <a href="<?php echo home_url( '/' ); ?>" class="btn">詳しく見る</a> </div>
+          <a href="<?php echo home_url( '/' ); ?>list" class="btn">詳しく見る</a> </div>
       </div>
     </div>
   </section>
