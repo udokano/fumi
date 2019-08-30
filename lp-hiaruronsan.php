@@ -92,7 +92,7 @@ Template Name: ランディングページヒアルロン酸
     <h2 class="cw ls1 tc">ご予約・お問合わせはこちらから</h2>
   </div>
   <div class="lp-inner">
-    <div class="top-cont flex al-cent"> <a href="#" class="cw ls2 tel">06-6372-2323</a>
+    <div class="top-cont flex al-cent"> <a href="tel:0663722323" class="cw ls2 tel">06-6372-2323</a>
       <p class="sm tc cw time">受付時間<br>
         10:00～18:00 </p>
     </div>
@@ -172,13 +172,14 @@ Template Name: ランディングページヒアルロン酸
           <li class="gosic box-size">
             <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_thumb05.png" alt="左右対称になるように"> </div>
             <p class="gd ls1">より左右対称に近い方が美しく見えます。</p>
+              <a href="http://livedoor.blogimg.jp/dr_sakiyama/imgs/2/c/2c46f17e.jpg" class="ancor-btn sp-dis" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_btn.png" alt="お顔の左右対称について"></a>
           </li>
           <li class="gosic box-size">
             <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_thumb06.png" alt="パーツのバランス"> </div>
             <p class="gd ls1">目の幅・目頭から目頭の距離、鼻下から下口唇・下口唇から顎の距離なども重要です。</p>
           </li>
         </ul>
-        <a href="http://livedoor.blogimg.jp/dr_sakiyama/imgs/2/c/2c46f17e.jpg" class="ancor-btn" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_btn.png" alt="お顔の左右対称について"></a> </div>
+        <a href="http://livedoor.blogimg.jp/dr_sakiyama/imgs/2/c/2c46f17e.jpg" class="ancor-btn pc-dis" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_btn.png" alt="お顔の左右対称について"></a> </div>
       <div class="box">
         <h3 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_cach03.png" alt="もちろん気になる部位のみの注入治療も行っておりますので、お気軽にご相談ください。"></h3>
           
@@ -212,7 +213,6 @@ Template Name: ランディングページヒアルロン酸
         <p class="gosic"> <span class="fs-midle cp mincho">もちろん部分的なご相談も可能です。</span><br>
           当院は全体のバランスをみてご提案を行う<br>
           トータルフェイシャルトリートメントをおすすめしておりますが、<br>
-          「ほうれい線をなくしたい」「お鼻を高くしたい」等、<br>
           部分的な注入も行っております。<br>
           是非お気軽にご相談も可能ください。 </p>
       </div>
@@ -270,7 +270,7 @@ Template Name: ランディングページヒアルロン酸
             </div>
             <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_arrow.png" alt=">"></div>
           </div>
-          <div class="comment cp gosic box-size"><?php the_sub_field('text',155); ?></div>
+          <?php if( get_sub_field('text',155) ): ?><div class="comment cp gosic box-size"><?php the_sub_field('text',155); ?></div><?php endif; ?>
         </div>
         <?php endwhile; ?>
         <div class="note box-size">
@@ -293,7 +293,7 @@ Template Name: ランディングページヒアルロン酸
   <section class="price">
     <div class="lp-inner">
       <h2 class="gd tc">料金</h2>
-      <table class="gosic">
+  <!--    <table class="gosic">
         <thead>
           <tr>
             <th scope="col">部位</th>
@@ -333,7 +333,91 @@ Template Name: ランディングページヒアルロン酸
             <td>お問い合わせください</td>
           </tr>
         </tbody>
+      </table>-->
+        
+        <table class="pt2 gosic mb35">
+        <thead>
+          <tr>
+              <th scope="col">施術名</th>
+            <th scope="col">目安量</th>
+            <th scope="col">値段(税別)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="5"style="background-color: #eddbe7; vertical-align: middle;" class="left">ボリューマ、ボリフト</td>
+            <td>0.1cc</td>
+            <td class="right">¥10,000</td>
+          </tr>
+            
+            <tr>
+            <td>1本</td>
+            <td class="right">¥100,000</td>
+          </tr>
+            
+            <tr>
+            <td>2本</td>
+            <td class="right">¥180,000</td>
+          </tr>
+            
+             <tr>
+            <td>3本目以降</td>
+            <td class="right">1本あたりプラス¥100,000</td>
+          </tr>
+            
+           
+       
+        </tbody>
       </table>
+        
+        
+        <table class="pt2 gosic mb35">
+        <thead>
+          <tr>
+              <th scope="col">施術名</th>
+            <th scope="col">目安量</th>
+            <th scope="col">値段(税別)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="background-color: #eddbe7; vertical-align: middle;" class="left">ボルベラ</td>
+            <td>0.1cc</td>
+            <td class="right">¥10,000</td>
+          </tr>
+            
+           
+           
+       
+        </tbody>
+      </table>
+        <table class="pt2 gosic mb35">
+        <thead>
+          <tr>
+              <th scope="col">施術名</th>
+            <th scope="col">目安量</th>
+            <th scope="col">値段(税別)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2" style="background-color: #eddbe7; vertical-align: middle;" class="left">ボルベラ</td>
+            <td>0.1cc</td>
+            <td class="right">¥13,000</td>
+          </tr>
+            
+             <tr>
+            <td colspan="2" class="right">＊カニューレを使用する場合は別途＋¥1,250</td>
+          </tr>
+            
+           
+           
+       
+        </tbody>
+      </table>
+        
+        
+        
     </div>
   </section>
   <div class="lp-cv">
@@ -341,7 +425,7 @@ Template Name: ランディングページヒアルロン酸
       <h2 class="cw ls1 tc">ご予約・お問合わせはこちらから</h2>
     </div>
     <div class="lp-inner">
-      <div class="top-cont flex al-cent"> <a href="#" class="cw ls2 tel">06-6372-2323</a>
+      <div class="top-cont flex al-cent"> <a href="tel:0663722323" class="cw ls2 tel">06-6372-2323</a>
         <p class="sm tc cw time">受付時間<br>
           10:00～18:00 </p>
       </div>
@@ -366,7 +450,7 @@ Template Name: ランディングページヒアルロン酸
             <h3 class="cp ls1">ご来院</h3>
             <p class="gosic cp ls1"> ご予約された、日時でのご来院をお願いいたします。カウンセリングでお客様のお悩みをお聞かせ下さいませ。 </p>
           </div>
-          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step2_thumb.png" alt="ご来院"></div>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step3_thumb.png" alt="ご来院"></div>
           <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step2.png" alt="2"></div>
           <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step_arw.png" alt=">"></div>
         </li>
@@ -375,7 +459,7 @@ Template Name: ランディングページヒアルロン酸
             <h3 class="cp ls1">診察・カウンセリング</h3>
             <p class="gosic cp ls1"> 経験豊富な医師が診察致します。治療について些細なことでもご納得のいくまでご相談下さい。 </p>
           </div>
-          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step3_thumb.png" alt="診察・カウンセリング"></div>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step2_thumb.png" alt="診察・カウンセリング"></div>
           <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step3.png" alt="3"></div>
           <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step_arw.png" alt=">"></div>
         </li>

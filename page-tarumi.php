@@ -48,13 +48,13 @@ Template Name: たるみ治療
     </div>
   </div>
 </section>
-          <?php if( have_rows('ope_siwa_hel',155) ): ?>
+          <?php if( have_rows('ope_tarumi_hel',155) ): ?>
 
 <section class="case">
   <div class="inner">
     <h2 class="tc">症例</h2>
     <div class="case-wrap flex">
-       <?php while ( have_rows('tarumi',155) ) : the_row(); ?>
+       <?php while ( have_rows('ope_tarumi_hel',155) ) : the_row(); ?>
             <div class="case-box flex">
            <div class="box">
           <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
@@ -105,7 +105,7 @@ Template Name: たるみ治療
       </dl>
       <dl class="flex">
         <dt>&nbsp;</dt>
-        <dd>3本目以降 1本あたりプラス¥100,000</dd>
+        <dd>3本目以降 1本あたりプラス¥60,000</dd>
       </dl>
     </div>
     <div class="price-list gosic">
@@ -206,50 +206,28 @@ Template Name: たるみ治療
     </div>
   </div>
 </section>
+
+<?php if( have_rows('ope_tarumi_lift',155) ): ?>
+
 <section class="case">
   <div class="inner">
     <h2 class="tc">症例</h2>
     <div class="case-wrap flex">
-      <div class="case-box flex">
-        <div class="box">
-          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/befor.jpg" alt=""> </div>
-          <p class="gosic tc">施術前</p>
+       <?php while ( have_rows('ope_tarumi_lift',155) ) : the_row(); ?>
+            <div class="case-box flex">
+           <div class="box">
+          <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
+          <p class="gosic tc"><?php the_sub_field('befor_txt',155); ?></p>
         </div>
         <div class="box">
-          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/after.jpg" alt=""> </div>
-          <p class="gosic tc">施術◯回後</p>
+          <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
+          <p class="gosic tc"><?php the_sub_field('after_txt',155); ?></p>
         </div>
-      </div>
-      <div class="case-box flex">
-        <div class="box">
-          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/befor.jpg" alt=""> </div>
-          <p class="gosic tc">施術前</p>
-        </div>
-        <div class="box">
-          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/after.jpg" alt=""> </div>
-          <p class="gosic tc">施術◯回後</p>
-        </div>
-      </div>
-      <div class="case-box flex">
-        <div class="box">
-          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/befor.jpg" alt=""> </div>
-          <p class="gosic tc">施術前</p>
-        </div>
-        <div class="box">
-          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/after.jpg" alt=""> </div>
-          <p class="gosic tc">施術◯回後</p>
-        </div>
-      </div>
-      <div class="case-box flex">
-        <div class="box">
-          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/befor.jpg" alt=""> </div>
-          <p class="gosic tc">施術前</p>
-        </div>
-        <div class="box">
-          <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/after.jpg" alt=""> </div>
-          <p class="gosic tc">施術◯回後</p>
-        </div>
-      </div>
+          
+          </div>
+          
+        <?php endwhile; ?>
+      
     </div>
     <div class="note box-size gosic">
       <p>リスク副作用</p>
@@ -257,7 +235,8 @@ Template Name: たるみ治療
         通常数日で落ち着きます。</p>
     </div>
   </div>
-</section>
+</section><?php else: ?>
+  <?php endif; ?>
 <!--<section class="bg-cg2 kuchikomi">
   <div class="inner-box2">
     <div class="kuchikomi-slide slide-area">

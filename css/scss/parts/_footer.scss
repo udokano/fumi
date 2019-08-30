@@ -33,6 +33,8 @@ footer {
             font-size: .6rem;
             min-width: auto;
             text-align: center;
+            width: auto;
+            text-align: center;
         }
     }
 }
@@ -54,25 +56,69 @@ footer {
         z-index: 9999;
         ul {
             width: 88%;
-            padding-top: 12%;
+            padding-top: 3vh;
             margin: auto;
             font-family: $gosic;
             li {
-                margin-bottom: 1.7rem;
+                margin-bottom: 3.4vh;
                 letter-spacing: 1px;
                 a {
                     display: block;
                     color: #fff;
                     text-align: center;
-                    font-size: 1.1rem;
+                    font-size: .98rem;
 
                 }
             }
             
             li.menu-logo {
-                width: 42%;
-                margin: 0 auto 50px;
+                width: 28%;
+                margin: 0 auto 4.2vh;
             }
+            
+            li.parent {
+                a {
+                    position: relative;
+                    &::after {
+                    content: "";
+                    position: absolute;
+                    right: 5px;
+                    top: 50%;
+                    width: 12px;
+                    height: 12px;
+                    border-top: 1px solid #fff;
+                    border-right: 1px solid #fff;
+                    transform: translateY(-50%) rotate(135deg);
+                    transition: .3s ease-in-out;
+                }
+                    
+                   
+                    
+                }
+                
+                 a.ac-open {
+                        
+                        &::after {
+                        transform: rotate(-45deg);
+                        }
+                    }
+                
+                ul.child {
+                    display: none;
+                    padding-top: 2.5vh;
+                    text-align: center;
+                    li {
+                        display: inline-block;
+                        width: 48%;
+                        a {
+                            display: block;
+                            &::after {
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            } 
         }
     }
     
@@ -191,6 +237,11 @@ footer.pages {
             }
         }
     }
+        
+        .copy {
+            width: auto;
+            text-align: center;
+        }
 }
     
     
