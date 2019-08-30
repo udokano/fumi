@@ -663,7 +663,8 @@ body.page {
     transition: all .4s ease; }
     .navi li.navi-parent .nav-child li {
       border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-      text-align: center; }
+      text-align: center;
+      font-size: .9rem; }
       .navi li.navi-parent .nav-child li a {
         color: #fff;
         display: block;
@@ -827,7 +828,7 @@ footer {
         margin-right: 3.5%; }
   footer .inner .copy {
     font-size: .7rem;
-    width: 300px; }
+    width: 410px; }
 
 @media (max-width: 767px) {
   footer {
@@ -976,6 +977,9 @@ footer.pages {
 
 #bg4 {
   background-image: url("../img/top/bg4.jpg"); }
+
+.banner-arwa a {
+  display: block; }
 
 @media (max-width: 767px) {
   .banner-arwa {

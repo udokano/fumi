@@ -66,7 +66,7 @@ Template Name: ランディングページスレッドリフト
   <section class="area3 area-bgs" id="bg2">
     <div class="lp-inner">
       <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area3_img.png" alt="点滴"></div>
-      <h2 class="gd tc ls2">スレットリフトなら</h2>
+      <h2 class="gd tc ls2">スレッドリフトなら</h2>
       <ul class="thumbs flex mb40">
         <li><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/area3_thumb01.jpg" alt="眉間や目尻など
 表情じわの解消"></li>
@@ -75,7 +75,7 @@ Template Name: ランディングページスレッドリフト
         <li><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/area3_thumb03.jpg" alt="しわ・たるみの解消"></li>
         <li><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/area3_thumb04.jpg" alt="汗の抑制"></li>
       </ul>
-      <h2 class="gd tc ls2">鼻スレットなら</h2>
+      <h2 class="gd tc ls2">鼻スレッドなら</h2>
       <ul class="thumbs flex">
         <li><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/area3_thumb01_1.jpg" alt="眉間や目尻など
 表情じわの解消"></li>
@@ -570,7 +570,8 @@ Gコグとの併用の場合1本30000円</td>
   
   <footer class="lp-footer">
     <div class="inner">
-      <p class="copy cp"><small>Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
+      <p class="copy cp"><small>fumi beauty cinic(ふみビューティクリニック梅田)美容皮膚科・形成外科<br>
+Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
     </div>
   </footer>
   <a href="#" class="page-top bounce"><img src="<?php echo get_template_directory_uri(); ?>/img/common/scrool_up.svg" alt="scrool-up"></a> </div>

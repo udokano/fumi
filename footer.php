@@ -37,7 +37,8 @@
           <li><a href="<?php echo home_url( '/' ); ?>contact">お問合わせ</a></li>
         </ul>
       </nav>
-      <p class="copy cp"><small>Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
+      <p class="copy cp"><small>fumi beauty cinic(ふみビューティクリニック梅田)美容皮膚科・形成外科<br>
+Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
     </div>
   </footer>
     
@@ -51,7 +52,7 @@
       <li class="parent"><a href="#" id="ac-txt">施術・料金</a>
             
         <ul class="child" id="ac">
-            <li><a href="<?php echo home_url( '/' ); ?>siwa">しわ治療</a></li><li><a href="<?php echo home_url( '/' ); ?>tarumi">たるみ治療</a></li>
+            <li><a href="<?php echo home_url( '/' ); ?>tarumi">たるみ治療</a></li><li><a href="<?php echo home_url( '/' ); ?>siwa">しわ治療</a></li>
             <li><a href="<?php echo home_url( '/' ); ?>kogao">小顔治療</a></li><li><a href="<?php echo home_url( '/' ); ?>nose-lift">鼻の糸</a></li>
             <li><a href="<?php echo home_url( '/' ); ?>keiseigeka">形成外科治療</a></li><li><a href="<?php echo home_url( '/' ); ?>medikaru">美肌治療</a></li>
         </ul>    

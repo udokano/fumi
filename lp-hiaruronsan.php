@@ -362,7 +362,7 @@ Template Name: ランディングページヒアルロン酸
             
              <tr>
             <td>3本目以降</td>
-            <td class="right">1本あたりプラス¥100,000</td>
+            <td class="right">1本あたりプラス¥60,000</td>
           </tr>
             
            
@@ -603,7 +603,8 @@ Template Name: ランディングページヒアルロン酸
   
   <footer class="lp-footer">
     <div class="inner">
-      <p class="copy cp"><small>Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
+      <p class="copy cp"><small>fumi beauty cinic(ふみビューティクリニック梅田)美容皮膚科・形成外科<br>
+Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
     </div>
   </footer>
   <a href="#" class="page-top bounce"><img src="<?php echo get_template_directory_uri(); ?>/img/common/scrool_up.svg" alt="scrool-up"></a> </div>
