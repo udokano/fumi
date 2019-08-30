@@ -3061,6 +3061,18 @@ footer.pages .pages-footer-box .left .tel {
     background-color: #f9f9f9;
   }
 
+  /*口コミ*/
+  .kuchikomi {
+    padding: 60px 0;
+  }
+  .kuchikomi .inner-box2 {
+    width: 90%;
+    margin: auto;
+  }
+  .kuchikomi .inner-box2 h2 {
+    margin-bottom: 40px;
+  }
+
   /*price*/
   .price .inner-box2 .p-desc {
     width: 88%;
