@@ -14,7 +14,7 @@ Template Name: 採用情報
       <h2 class="ls1">スタッフ募集中</h2>
       <p class="gopsic">美容皮膚科・形成外科のクリニックで私たちと共に、
         患者様に美と笑顔を提供しませんか？</p>
-      <a href="#recruit-info" class="gosic ls1">詳細を見る</a> </div>
+   <!--   <a href="#recruit-info" class="gosic ls1">詳細を見る</a>--> </div>
       
       <div class="thumb">
           <img src="<?php echo get_template_directory_uri(); ?>/img/recruit/thumb01.jpg" alt="サムネイル">
@@ -33,7 +33,7 @@ Template Name: 採用情報
     </dl>
     <dl class="gosic">
       <dt>給与</dt>
-      <dd> <span>①月給00万</span><span>①月給00万</span><span>①月給00万</span><span>①月給00万</span> </dd>
+      <dd> お問い合わせください<!--<span>①月給00万</span><span>①月給00万</span><span>①月給00万</span><span>①月給00万</span> --></dd>
     </dl>
     <dl class="gosic">
       <dt>休日</dt>

@@ -23,9 +23,13 @@
         
         .navi {
             padding-left: 8%;
-            width: 48%;
+            width: 55%;
             ul {
                 justify-content: flex-end;
+                li {
+                    padding: 0 2.7%;
+                    margin: 0;
+                }
             }
         }
         
@@ -34,6 +38,58 @@
         }
     }
 }
+
+
+
+/*******  ナビドロップダウン    ********/
+
+
+
+.navi {
+    
+    li.navi-parent {
+        position: relative;
+        .nav-child  {
+            position: absolute;
+            left: 0;
+            top: 10px;
+            width: 100%;
+            background: $bg-p;
+            visibility: hidden;
+            opacity: 0;
+            z-index: 1;
+            transition: all .4s ease;
+            li {
+                border-bottom: 1px solid rgba(255,255,255,.50);
+                text-align: center;
+                   a {
+                color: #fff;
+                display: block;
+                padding: 10px 4px;
+                       font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+            }
+                
+                
+                
+                
+            }
+         
+        }
+        
+        &:hover .nav-child {
+                   top: 26px;
+                    visibility: visible;
+                    opacity: 1;
+            }
+        }
+    }
+    
+
+
+
+
+
+
 
 
 

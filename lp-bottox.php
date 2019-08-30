@@ -92,7 +92,7 @@ Template Name: ランディングページボトックス
     <h2 class="cw ls1 tc">ご予約・お問合わせはこちらから</h2>
   </div>
   <div class="lp-inner">
-    <div class="top-cont flex al-cent"> <a href="#" class="cw ls2 tel">06-6372-2323</a>
+    <div class="top-cont flex al-cent"> <a href="tel:0663722323" class="cw ls2 tel">06-6372-2323</a>
       <p class="sm tc cw time">受付時間<br>
         10:00～18:00 </p>
     </div>
@@ -167,7 +167,6 @@ Template Name: ランディングページボトックス
         <p class="gosic"> <span class="fs-midle cp mincho">もちろん部分的なご相談も可能です。</span><br>
           当院は全体のバランスをみてご提案を行う<br>
           トータルフェイシャルトリートメントをおすすめしておりますが、<br>
-          「ほうれい線をなくしたい」「お鼻を高くしたい」等、<br>
           部分的な注入も行っております。<br>
           是非お気軽にご相談も可能ください。 </p>
       </div>
@@ -183,70 +182,29 @@ Template Name: ランディングページボトックス
       </div>
     </div>
   </section>
+      <?php if( have_rows('pr2',155) ): ?>
   <section class="case area-bgs" id="bg6">
     <div class="lp-inner">
       <h2 class="gd tc">症例写真</h2>
       <div class="case-photos flex">
+      
+        <?php while ( have_rows('pr2',155) ) : the_row(); ?>
+
         <div class="case-box">
           <div class="ba-box flex">
             <div class="box">
-              <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_sample.jpg" alt=""> </div>
-              <p class="gd tc">施術前</p>
+              <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
+              <p class="gd tc"><?php the_sub_field('befor_title',155); ?></p>
             </div>
             <div class="box">
-              <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_sample.jpg" alt=""> </div>
-              <p class="gd tc">施術０回後</p>
-            </div>
-            <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_arrow.png" alt=""></div>
-          </div>
-          <div class="comment cp gosic box-size"> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト </div>
-        </div>
-        <div class="case-box">
-          <div class="ba-box flex">
-            <div class="box">
-              <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_sample.jpg" alt=""> </div>
-              <p class="gd tc">施術前</p>
-            </div>
-            <div class="box">
-              <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_sample.jpg" alt=""> </div>
-              <p class="gd tc">施術０回後</p>
-            </div>
-            <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_arrow.png" alt=""></div>
-          </div>
-          <div class="comment cp gosic box-size"> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト </div>
-        </div>
-        <div class="case-box">
-          <div class="ba-box flex">
-            <div class="box">
-              <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_sample.jpg" alt=""> </div>
-              <p class="gd tc">施術前</p>
-            </div>
-            <div class="box">
-              <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_sample.jpg" alt=""> </div>
-              <p class="gd tc">施術０回後</p>
-            </div>
-            <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_arrow.png" alt=""></div>
-          </div>
-          <div class="comment cp gosic box-size"> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト </div>
-        </div>
-        <div class="case-box">
-          <div class="ba-box flex">
-            <div class="box">
-              <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_sample.jpg" alt=""> </div>
-              <p class="gd tc">施術前</p>
-            </div>
-            <div class="box">
-              <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_sample.jpg" alt=""> </div>
-              <p class="gd tc">施術０回後</p>
+              <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
+              <p class="gd tc"><?php the_sub_field('after_title',155); ?></p>
             </div>
             <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_arrow.png" alt=">"></div>
           </div>
-          <div class="comment cp gosic box-size"> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト </div>
+          <?php if( get_sub_field('text',155) ): ?><div class="comment cp gosic box-size"><?php the_sub_field('text',155); ?></div><?php endif; ?>
         </div>
+        <?php endwhile; ?>
         <div class="note box-size">
           <h4 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/note.png" alt="注意事項"></h4>
           <p class="gosic tc pc">個人差がありますが、注入後、内出血が生じることがあります。<br>
@@ -256,7 +214,8 @@ Template Name: ランディングページボトックス
         </div>
       </div>
     </div>
-  </section>
+  </section> <?php else: ?>
+  <?php endif; ?>
   <section class="infu">
     <div class="lp-inner">
       <h2 class="gd tc">注入可能部位</h2>
@@ -266,7 +225,7 @@ Template Name: ランディングページボトックス
   <section class="price">
     <div class="lp-inner">
       <h2 class="gd tc">料金</h2>
-      <table class="gosic">
+   <!--   <table class="gosic">
         <thead>
           <tr>
             <th scope="col">部位</th>
@@ -306,7 +265,122 @@ Template Name: ランディングページボトックス
             <td>お問い合わせください</td>
           </tr>
         </tbody>
+      </table>-->
+        
+        
+        <table class="pt2 gosic mb35">
+        <thead>
+          <tr>
+              <th scope="col">注入部位</th>
+            <th scope="col">部位数</th>
+            <th scope="col">値段(税別)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="5"style="background-color: #fef0f4; vertical-align: middle;" class="left">スタンダード部位
+目尻、眉間、額、あご、鼻
+<span class="sm">(1ヶ月以内の追加・調整無料、針代無料、再診料無料)</td>
+            <td>1部位</td>
+            <td class="right">¥25,000</td>
+          </tr>
+            
+            <tr>
+            <td>2部位</td>
+            <td class="right">¥40,000</td>
+          </tr>
+            
+            <tr>
+            <td>3部位</td>
+            <td class="right">¥50,000</td>
+          </tr>
+            
+             <tr>
+            <td>4部位</td>
+            <td class="right">¥60,000</td>
+          </tr>
+            
+             <tr>
+            <td>5部位</td>
+            <td class="right">¥70,000</td>
+          </tr>
+       
+        </tbody>
       </table>
+        
+          
+        <table class="pt2 gosic mb35">
+        <thead>
+          <tr>
+              <th scope="col">施術名</th>
+            <th scope="col">本数</th>
+            <th scope="col">値段(税別)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="3"style="background-color: #fef0f4; vertical-align: middle;" class="left">アディショナル部位
+角、目頭、口唇 、眉下、
+アーモンドアイ</td>
+            <td>スタンダード部位に<br>
+追加１部位</td>
+            <td class="right">¥10,000</td>
+          </tr>
+            
+            <tr>
+            <td>アディショナル部位のみ<br>
+１部位</td>
+            <td class="right">¥20,000</td>
+          </tr>
+            
+          
+        </tbody>
+      </table>
+        
+          
+        <table class="pt2 gosic mb35">
+        <thead>
+          <tr>
+              <th scope="col" colspan="2">施術名</th>
+            <th scope="col">値段(税別)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="2">エラボトックス</td>
+            <td class="right">¥50,000</td>
+          </tr>
+            
+            <tr>
+            <td colspan="2">首(ネフェルティティリフト)</td>
+            <td class="right">¥65,000</td>
+          </tr>
+            
+            <tr>
+            <td colspan="2">マイクロボトックス (額＆眉間)</td>
+            <td class="right">¥50,000</td>
+          </tr>
+            
+             <tr>
+            <td colspan="2">マイクロボトックス (鼻＆鼻横の頬)</td>
+            <td class="right">¥50,000</td>
+          </tr>
+            
+             <tr>
+            <td colspan="2">わき汗</td>
+            <td class="right">¥65,000</td>
+          </tr>
+            
+               <tr>
+            <td colspan="2">ガミースマイル</td>
+            <td class="right">¥30,000</td>
+          </tr>
+       
+        </tbody>
+      </table>
+        
+        
+        
     </div>
   </section>
   <div class="lp-cv">
@@ -314,7 +388,7 @@ Template Name: ランディングページボトックス
       <h2 class="cw ls1 tc">ご予約・お問合わせはこちらから</h2>
     </div>
     <div class="lp-inner">
-      <div class="top-cont flex al-cent"> <a href="#" class="cw ls2 tel">06-6372-2323</a>
+      <div class="top-cont flex al-cent"> <a href="tel:0663722323" class="cw ls2 tel">06-6372-2323</a>
         <p class="sm tc cw time">受付時間<br>
           10:00～18:00 </p>
       </div>
@@ -339,7 +413,7 @@ Template Name: ランディングページボトックス
             <h3 class="cp2 ls1">ご来院</h3>
             <p class="gosic cp2 ls1"> ご予約された、日時でのご来院をお願いいたします。カウンセリングでお客様のお悩みをお聞かせ下さいませ。 </p>
           </div>
-          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step2_thumb.png" alt="ご来院"></div>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step3_thumb.png" alt="ご来院"></div>
           <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/step2.png" alt="2"></div>
           <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step_arw.png" alt=">"></div>
         </li>
@@ -348,7 +422,7 @@ Template Name: ランディングページボトックス
             <h3 class="cp2 ls1">診察・カウンセリング</h3>
             <p class="gosic cp2 ls1"> 経験豊富な医師が診察致します。治療について些細なことでもご納得のいくまでご相談下さい。 </p>
           </div>
-          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step3_thumb.png" alt="診察・カウンセリング"></div>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step2_thumb.png" alt="診察・カウンセリング"></div>
           <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/step3.png" alt="3"></div>
           <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step_arw.png" alt=">"></div>
         </li>

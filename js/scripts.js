@@ -41,7 +41,16 @@ $(function(){
        
    });
            
-           
+//ハンバーガーないアコーディオン
+    
+    
+     $(".parent > #ac-txt").click(function(){
+      $("#ac").slideToggle();
+         $(".parent > a").toggleClass("ac-open");
+     
+       
+   });
+    
 
     
 //スクロールコンテンツ表示
