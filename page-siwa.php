@@ -39,9 +39,7 @@
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/thumb01.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>ボトックス注射</h2>
-      <p class="ls1 gosic">お顔は表情を作るために様々な筋肉で構成され、毎日のお顔の動きによって折り紙の折ジワのように年齢とともに表情じわが刻まれてしまいます。
-目尻の笑いじわ、眉間や鼻のしわ、額の横じわ、あごの梅干しじわなどがボトックスの適応となります。
-ボトックスを打つことで表情が柔らかくなりお顔の印象も優しくなるのも利点です。 </p>
+      <p class="ls1 gosic">お顔は表情を作るために様々な筋肉で構成され、毎日のお顔の動きによって折り紙の折ジワのように年齢とともに表情じわが刻まれてしまいます。目尻の笑いじわ、眉間や鼻のしわ、額の横じわ、あごの梅干しじわなどがボトックスの適応となります。ボトックスを打つことで表情が柔らかくなりお顔の印象も優しくなるのも利点です。 </p>
     </div>
   </div>
 </section>
@@ -123,8 +121,7 @@
     </div>
     <div class="note box-size gosic">
       <p>リスク副作用</p>
-      <p>・ごく稀に、術後は多少の腫れや突っ張り感を感じることもありますが、
-通常数日で落ち着きます。</p>
+      <p>・ごく稀に、術後は多少の腫れや突っ張り感を感じることもありますが、通常数日で落ち着きます。</p>
     </div>
   </div>
 </section>
@@ -162,9 +159,9 @@
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">ボトックス注入料金</h2>
-      <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一 厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。<br>
+      <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。<br>
 ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
-       <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一 厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
+       <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
     <div class="price-list gosic">
         
        
@@ -303,8 +300,7 @@
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/thumb02.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>ヒアルロン酸注入</h2>
-      <p class="ls1 gosic">ほうれい線やマリオネットライン、ゴルゴライン(目の下のくぼみ)などはたるみになるしわといえます。
-ヒアルロン酸でお顔全体をリフトアップさせたり、気になるしわやくぼみを埋めることで、自然な印象でたるみが改善し若々しい仕上がりとなります。 </p>
+      <p class="ls1 gosic">ほうれい線やマリオネットライン、ゴルゴライン(目の下のくぼみ)などはたるみになるしわといえます。ヒアルロン酸でお顔全体をリフトアップさせたり、気になるしわやくぼみを埋めることで、自然な印象でたるみが改善し若々しい仕上がりとなります。 </p>
     </div>
   </div>
 </section>
@@ -473,9 +469,7 @@
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/thumb03.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>美容内科・美容点滴</h2>
-      <p class="ls1 gosic">お肌の乾燥や肌老化によって目周りや口周り、頬などに小じわ・ちりめんじわが出てきます。
-超音波やイオン導入を用いて、お肌を保湿し整えます。
-またお肌の若返りに効果的なピーリングもおすすめしています。 </p>
+      <p class="ls1 gosic">お肌の乾燥や肌老化によって目周りや口周り、頬などに小じわ・ちりめんじわが出てきます。超音波やイオン導入を用いて、お肌を保湿し整えます。またお肌の若返りに効果的なピーリングもおすすめしています。 </p>
     </div>
   </div>
 </section>
@@ -655,8 +649,7 @@
           </div>
                     <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow04.jpg" alt="施術終了・お会計"></div>
 
-          <p class="gosic ls1">治療が終了したら、お会計をして、
-            そのままお帰りいただけます。</p>
+          <p class="gosic ls1">治療が終了したら、お会計をして、そのままお帰りいただけます。</p>
         </div>
         <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow04.jpg" alt="施術終了・お会計"></div>
       </li>

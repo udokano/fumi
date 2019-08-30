@@ -47,7 +47,7 @@
           <div class="logos"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_logo.png" alt="FMUI BEAUTY CLINIC">
             <div class="band cp tc ls2">注入＆スレッド治療専門クリニック</div>
           </div>
-          <h1><img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_cach_sp.png" alt="あなたが持つ本来の美しさに導く"></h1>
+          <h1><img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_cach_sp.png" alt="洗練された美容技術であなたの美しさを引き出します。"></h1>
         </div>
       </div>
       
@@ -87,7 +87,7 @@
           <div class="logos pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_logo.png" alt="FMUI BEAUTY CLINIC">
             <div class="band cp tc ls2">注入＆スレッド治療専門クリニック</div>
           </div>
-          <h1><img src="<?php echo get_template_directory_uri(); ?>/img/top/fv2_cach.png" alt="あなたが持つ本来の美しさに導く"></h1>
+          <h1><img src="<?php echo get_template_directory_uri(); ?>/img/top/fv2_cach.png" alt="洗練された美容技術であなたの美しさを引き出します。"></h1>
         </div>
       </div>
       <!--FV-top-wrap END-->
@@ -217,7 +217,7 @@
             優良な品質の製剤のみを使用しております。
             患者様の幅広い悩みを解決するために、
             多種類の製剤を取り扱っています。</p>
-          <a href="<?php echo home_url( '/' ); ?>" class="btn">詳しく見る</a> </div>
+          <a href="<?php echo home_url( '/' ); ?>list" class="btn">詳しく見る</a> </div>
       </div>
     </div>
   </section>

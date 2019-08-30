@@ -13,9 +13,7 @@ Template Name: 鼻の糸
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/nose/thumb01.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>鼻の糸（隆鼻術）</h2>
-      <p class="ls1 gosic">溶ける医療用糸を使用する、切らない鼻の形成施術です。
-        収糸を使用するので、体内に異物が残らず安全性が高い隆鼻術です。
-        シャープな鼻にしたり、鼻筋をハッキリさせることが可能です。 </p>
+      <p class="ls1 gosic">溶ける医療用糸を使用する、切らない鼻の形成施術です。収糸を使用するので、体内に異物が残らず安全性が高い隆鼻術です。シャープな鼻にしたり、鼻筋をハッキリさせることが可能です。 </p>
     </div>
   </div>
 </section>
@@ -250,8 +248,7 @@ Template Name: 鼻の糸
           </div>
                     <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow04.jpg" alt="施術終了・お会計"></div>
 
-          <p class="gosic ls1">治療が終了したら、お会計をして、
-            そのままお帰りいただけます。</p>
+          <p class="gosic ls1">治療が終了したら、お会計をして、そのままお帰りいただけます。</p>
         </div>
         <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow04.jpg" alt="施術終了・お会計"></div>
       </li>

@@ -22,8 +22,7 @@ Template Name: たるみ治療
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/thumb01.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>ヒアルロン酸注入</h2>
-      <p class="ls1 gosic">ほうれい線やマリオネットライン、ゴルゴライン(目の下のくぼみ)などはたるみになるしわといえます。
-        ヒアルロン酸でお顔全体をリフトアップさせたり、気になるしわやくぼみを埋めることで、自然な印象でたるみが改善し若々しい仕上がりとなります。</p>
+      <p class="ls1 gosic">ほうれい線やマリオネットライン、ゴルゴライン(目の下のくぼみ)などはたるみになるしわといえます。ヒアルロン酸でお顔全体をリフトアップさせたり、気になるしわやくぼみを埋めることで、自然な印象でたるみが改善し若々しい仕上がりとなります。</p>
     </div>
   </div>
 </section>
@@ -442,8 +441,7 @@ Gコグとの併用の場合1本30000円</dd>
             <h3 class="f-bold">施術終了・お会計</h3>
           </div>
           <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow04.jpg" alt="施術終了・お会計"></div>
-          <p class="gosic ls1">治療が終了したら、お会計をして、
-            そのままお帰りいただけます。</p>
+          <p class="gosic ls1">治療が終了したら、お会計をして、そのままお帰りいただけます。</p>
         </div>
         <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow04.jpg" alt="施術終了・お会計"></div>
       </li>

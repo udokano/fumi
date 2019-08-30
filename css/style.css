@@ -899,7 +899,7 @@ body.page {
   margin-bottom: 5px;
 }
 .fv .inner-box .fv-top-wrap .top h1 {
-  width: 50%;
+  width: 78%;
   margin: auto;
 }
 .fv .inner-box .fv-top-wrap .top .logos {
@@ -1213,7 +1213,7 @@ footer.pages .pages-footer-box .left .tel {
 
 @media (max-width: 767px) {
   footer.pages .pages-footer-box {
-    width: 70%;
+    width: 88%;
     margin: 50px auto 60px;
     display: block;
   }
@@ -2062,7 +2062,7 @@ footer.pages .pages-footer-box .left .tel {
 }
 .access-info .inner .info ul li p {
   font-size: .83rem;
-  line-height: 1.3;
+  line-height: 1.7;
 }
 .access-info .inner .info ul li:nth-of-type(even)::after, .access-info .inner .info ul li:nth-of-type(odd)::after {
   content: "";
@@ -2179,8 +2179,9 @@ footer.pages .pages-footer-box .left .tel {
   margin: auto;
 }
 .contact-tel .inner h2 {
-  width: 42%;
+  width: 70%;
   margin: 0 auto 30px;
+  font-size: 1.6rem;
 }
 .contact-tel .inner .tel {
   font-size: 3.4rem;
@@ -3030,6 +3031,98 @@ footer.pages .pages-footer-box .left .tel {
   .ope-faq .inner dl dd .a {
     font-size: 1.5rem;
     margin-right: 50px;
+  }
+}
+/*製剤一覧ページ*/
+.list-intro .inner .text {
+  width: 78%;
+  margin: auto;
+}
+.list-intro .inner .text h2 {
+  margin-bottom: 35px;
+}
+.list-intro .inner .text p {
+  line-height: 1.84;
+}
+
+.border-none {
+  border: none !important;
+}
+
+.drug-list {
+  border-bottom: 1px solid #ccc;
+}
+.drug-list .inner {
+  padding: 40px 0;
+}
+.drug-list .inner h3 {
+  margin-bottom: 60px;
+}
+.drug-list .inner .box {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.drug-list .inner .box .thumb {
+  width: 37%;
+}
+.drug-list .inner .box .thumb.btx {
+  width: 30%;
+  margin-left: 3%;
+}
+.drug-list .inner .box .thumb.cvr {
+  width: 20%;
+  margin-left: 12%;
+}
+.drug-list .inner .box .text {
+  width: 52%;
+}
+.drug-list .inner .box .text h4 {
+  background: #41afc6;
+  background: -webkit-gradient(linear, left top, right top, from(#41afc6), to(rgba(84, 202, 65, 0.1418942577)));
+  background: linear-gradient(90deg, #41afc6 0%, rgba(84, 202, 65, 0.1418942577) 100%);
+  font-size: 1.4rem;
+  padding: 10px 0;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+.drug-list .inner .box .text p {
+  line-height: 1.8;
+}
+
+@media (max-width: 767px) {
+  .list-intro .inner .text {
+    width: 90%;
+    margin: auto;
+  }
+
+  .drug-list .inner {
+    padding: 40px 0;
+  }
+  .drug-list .inner h3 {
+    margin-bottom: 40px;
+  }
+  .drug-list .inner .box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .drug-list .inner .box .thumb {
+    width: 75%;
+    margin: 0 auto 30px;
+  }
+  .drug-list .inner .box .thumb.btx {
+    width: 66%;
+    margin: 0 auto 30px;
+  }
+  .drug-list .inner .box .thumb.cvr {
+    width: 48%;
+    margin: 0 auto 30px;
+  }
+  .drug-list .inner .box .text {
+    width: 90%;
+    margin: auto;
   }
 }
 .doctor-intro {
