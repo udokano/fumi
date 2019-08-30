@@ -20,8 +20,7 @@ Template Name: 小顔治療
     <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/thumb01.png" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>BNLS/脂肪分解注射</h2>
-      <p class="ls1 gosic">主に脂肪が原因の場合に効果的な治療です。
-        脂肪の分解と排出を促進させるお薬を気になる部分に注射します。 </p>
+      <p class="ls1 gosic">主に脂肪が原因の場合に効果的な治療です。脂肪の分解と排出を促進させるお薬を気になる部分に注射します。 </p>
     </div>
   </div>
 </section>
@@ -41,8 +40,7 @@ Template Name: 小顔治療
       <div class="desc box-size bg-grade">
         <div class="points f-ryu cw">Point.2</div>
         <h3 class="gd ls1">即効性がある</h3>
-        <p class="gosic">脂肪吸引とは違い、約1〜2週間ほどで効果を実感できます。
-          ＊個人差があります</p>
+        <p class="gosic">脂肪吸引とは違い、約1〜2週間ほどで効果を実感できます。＊個人差があります</p>
       </div>
     </div>
     <div class="box">
@@ -201,9 +199,7 @@ Template Name: 小顔治療
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/thumb01.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>ボトックスリフト</h2>
-      <p class="ls1 gosic">引き締めを目的としてボトックスを細かく注射する方法です。
-表情じわを改善するボトックスと違い、ボトックスを皮膚のごく表面に浅く細かく注入する事でお顔を引き締めたり引き上げる治療です。
-1週間から10日おきに数回行うとより効果的です。 </p>
+      <p class="ls1 gosic">引き締めを目的としてボトックスを細かく注射する方法です。表情じわを改善するボトックスと違い、ボトックスを皮膚のごく表面に浅く細かく注入する事でお顔を引き締めたり引き上げる治療です。1週間から10日おきに数回行うとより効果的です。 </p>
     </div>
  
 </section>
@@ -215,7 +211,7 @@ Template Name: 小顔治療
       <div class="desc box-size bg-grade">
         <div class="points f-ryu cw">Point.1</div>
         <h3 class="gd ls1">たるみとシワ解消</h3>
-        <p class="gosic">小顔効果だけではなく、自然な表情を保ちながら たるみとシワを和らげることが可能です。</p>
+        <p class="gosic">小顔効果だけではなく、自然な表情を保ちながらたるみとシワを和らげることが可能です。</p>
       </div>
     </div>
     <div class="box cf">
@@ -300,9 +296,9 @@ Template Name: 小顔治療
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">ボトックスリフト料金</h2>
-    <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一 厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。<br>
+    <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。<br>
 ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
-    <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一 厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。
+    <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。
 ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
       
        <div class="price-list gosic">
@@ -359,8 +355,7 @@ Template Name: 小顔治療
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/thumb02.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>エラボトックス</h2>
-      <p class="ls1 gosic">エラがはって見える場合、咬筋と言われる噛む時に使う筋肉が発達している事がほとんどです。
-咬筋にボトックスを注射する事で咬筋が小さくなり小顔効果が高い治療です。 </p>
+      <p class="ls1 gosic">エラがはって見える場合、咬筋と言われる噛む時に使う筋肉が発達している事がほとんどです。咬筋にボトックスを注射する事で咬筋が小さくなり小顔効果が高い治療です。 </p>
     </div>
   </div>
 </section>
@@ -447,11 +442,9 @@ Template Name: 小顔治療
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">エラボトックス料金</h2>
-      <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一 厚生省の承認を取得している
-アラガン社のボトックスビスタを使用しています。<br>
+      <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。<br>
 ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
-    <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一 厚生省の承認を取得している
-アラガン社のボトックスビスタを使用しています。ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
+    <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
     <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">&nbsp;</dt>
@@ -542,8 +535,7 @@ Template Name: 小顔治療
             <h3 class="f-bold">施術終了・お会計</h3>
           </div>
           <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow04.jpg" alt="施術終了・お会計"></div>
-          <p class="gosic ls1">治療が終了したら、お会計をして、
-            そのままお帰りいただけます。</p>
+          <p class="gosic ls1">治療が終了したら、お会計をして、そのままお帰りいただけます。</p>
         </div>
         <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow04.jpg" alt="施術終了・お会計"></div>
       </li>

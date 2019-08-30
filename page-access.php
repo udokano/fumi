@@ -101,7 +101,7 @@ Template Name: アクセス
 <li>
   <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/access/access2_2.jpg" alt="アクセス方法"> </div>
   <h4 class="cp tc">順路❷</h4>
-  <p>しばらく直進して、スクランブル交差点を渡り、さらに直進します。三番街を背にして、左方</p>
+  <p>しばらく直進して、スクランブル交差点を渡り、さらに直進します。</p>
 </li>
 <li>
   <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/access/access2_3.jpg" alt="アクセス方法"> </div>

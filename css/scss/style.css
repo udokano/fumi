@@ -651,7 +651,7 @@ body.page {
       padding-top: 35px;
       margin-bottom: 5px; }
       .fv .inner-box .fv-top-wrap .top h1 {
-        width: 50%;
+        width: 78%;
         margin: auto; }
       .fv .inner-box .fv-top-wrap .top .logos {
         width: 41%;
@@ -1515,7 +1515,7 @@ footer.pages {
           margin-bottom: 7px; }
         .access-info .inner .info ul li p {
           font-size: .83rem;
-          line-height: 1.3; }
+          line-height: 1.7; }
         .access-info .inner .info ul li:nth-of-type(even)::after, .access-info .inner .info ul li:nth-of-type(odd)::after {
           content: "";
           position: absolute;
@@ -1598,8 +1598,9 @@ footer.pages {
     width: 800px;
     margin: auto; }
     .contact-tel .inner h2 {
-      width: 42%;
-      margin: 0 auto 30px; }
+      width: 70%;
+      margin: 0 auto 30px;
+      font-size: 1.6rem; }
     .contact-tel .inner .tel {
       font-size: 3.4rem;
       margin-bottom: 30px; }

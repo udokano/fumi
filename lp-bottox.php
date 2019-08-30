@@ -76,12 +76,14 @@ Template Name: ランディングページボトックス
     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area3_img.png" alt="点滴"></div>
     <h2><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/area3_h2.png" alt="オーダーメイドヒアルロン酸注入治療なら"></h2>
     <ul class="thumbs flex">
-      <li><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/area3_thumb01.jpg" alt="しわ・たるみの解消"></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/area3_thumb02.jpg" alt="お顔全体の
-バランスを改善"></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/area3_thumb03.jpg" alt="あご・輪郭形成"></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/area3_thumb04.jpg" alt="額のボリュームアップ"></li>
-    
+      <li><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/area3_thumb01.jpg" alt="眉間や目尻など
+表情じわの解消"></li>
+      <li><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/area3_thumb02.jpg" alt="エラ張り解消・
+小顔治療"></li>
+      <li><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/area3_thumb03.jpg" alt="しわ・たるみの解消"></li>
+      <li><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/area3_thumb04.jpg" alt="汗の抑制"></li>
+     <li><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/area3_thumb05.jpg" alt="脚やせ"></li>
+      <li><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/area3_thumb06.jpg" alt="肩こり解消"></li>
     </ul>
   </div>
 </section>
@@ -176,9 +178,8 @@ Template Name: ランディングページボトックス
     <div class="lp-inner cf">
       <div class="box">
         <h2 class="cp ls2">安心・安全な治療をご提案いたします。</h2>
-        <p class="gosic">日本の厚生労働省で承認を得ている製剤やFDAの承認を得ている安全性の確立された
-          製剤を特におすすめしています。<br>
-          また なるべくダウンタイムやリスク、副作用のない治療をおすすめします。</p>
+        <p class="gosic">日本の厚生労働省で承認を得ている製剤やFDAの承認を得ている安全性の確立された製剤を特におすすめしています。<br>
+          またなるべくダウンタイムやリスク、副作用のない治療をおすすめします。</p>
       </div>
     </div>
   </section>
@@ -327,8 +328,7 @@ Template Name: ランディングページボトックス
         <li class="box-size flex">
           <div class="text">
             <h3 class="cp2 ls1">予約</h3>
-            <p class="gosic cp2 ls1"> お電話・予約システムにてご予約をよろしくお願いいたします。
-              来院前のご不明な点があれば、お気軽にご相談下さいませ。 </p>
+            <p class="gosic cp2 ls1"> お電話・予約システムにてご予約をよろしくお願いいたします。来院前のご不明な点があれば、お気軽にご相談下さいませ。 </p>
           </div>
           <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step1_thumb.png" alt="予約"></div>
           <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/step1.png" alt="1"></div>
@@ -337,8 +337,7 @@ Template Name: ランディングページボトックス
         <li class="box-size flex">
           <div class="text">
             <h3 class="cp2 ls1">ご来院</h3>
-            <p class="gosic cp2 ls1"> ご予約された、日時でのご来院をお願いいたします。
-              カウンセリングでお客様のお悩みをお聞かせ下さいませ。 </p>
+            <p class="gosic cp2 ls1"> ご予約された、日時でのご来院をお願いいたします。カウンセリングでお客様のお悩みをお聞かせ下さいませ。 </p>
           </div>
           <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step2_thumb.png" alt="ご来院"></div>
           <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/step2.png" alt="2"></div>
@@ -347,8 +346,7 @@ Template Name: ランディングページボトックス
         <li class="box-size flex">
           <div class="text">
             <h3 class="cp2 ls1">診察・カウンセリング</h3>
-            <p class="gosic cp2 ls1"> 経験豊富な医師が診察致します。
-              治療について些細なことでもご納得のいくまでご相談下さい。 </p>
+            <p class="gosic cp2 ls1"> 経験豊富な医師が診察致します。治療について些細なことでもご納得のいくまでご相談下さい。 </p>
           </div>
           <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step3_thumb.png" alt="診察・カウンセリング"></div>
           <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/step3.png" alt="3"></div>
@@ -357,8 +355,7 @@ Template Name: ランディングページボトックス
         <li class="box-size flex mb0">
           <div class="text">
             <h3 class="cp2 ls1">施術</h3>
-            <p class="gosic cp2 ls1"> 痛みを極力に抑え、安全第一に責任を持って施術いたします。
-              施術は全て有資格者が行いますのでご安心下さいませ。 </p>
+            <p class="gosic cp2 ls1"> 痛みを極力に抑え、安全第一に責任を持って施術いたします。施術は全て有資格者が行いますのでご安心下さいませ。 </p>
           </div>
           <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step4_thumb.png" alt="施術"></div>
           <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/step4.png" alt="4"></div>
