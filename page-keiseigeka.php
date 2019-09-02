@@ -40,6 +40,8 @@ Template Name: 形成外科治療
           <h3 class="cp tc">色素性母斑(ホクロ)</h3>
               
               <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/keisei/thumb02.jpg" alt="サムネイル"></div>
+              
+              <p class="gosic">ほくろのサイズや部位から、炭酸ガスレーザー、手術治療のどちらかを選択し、切除します。自費診療となりますが、保険適用可能な場合もございますのでお気軽にご相談下さい。</p>
           
           </li>
           
@@ -54,6 +56,8 @@ Template Name: 形成外科治療
           <h3 class="cp tc">肥厚性瘢痕・ケロイド</h3>
               
               <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/keisei/thumb04.jpg" alt="サムネイル"></div>
+              
+               <p class="gosic">ケロイドの状態により、手術治療、注入治療等のどちらかを選択し、治療します。自費診療となりますが、保険適用可能な場合もございますのでお気軽にご相談下さい。</p>
           
           </li>
           
@@ -61,6 +65,7 @@ Template Name: 形成外科治療
           <h3 class="cp tc">巻き爪・陥入爪</h3>
               
               <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/keisei/thumb05.jpg" alt="サムネイル"></div>
+              <p class="gosic">巻き爪の状態により、ワイヤー治療等から選択し、治療します。自費診療となりますが、保険適用可能な場合もございますのでお気軽にご相談下さい。</p>
           
           </li>
       </ul>

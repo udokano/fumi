@@ -202,7 +202,7 @@
         
         li {
             width: 46%;
-            height: 380px;
+            height: 480px;
             padding: 38px 45px;
             margin-bottom: 70px;
             border: 1px solid $cp;
@@ -214,12 +214,17 @@
             .thumb {
                 width: 100%;
                 height: 220px;
+                margin-bottom: 20px;
                 img {
                     width: 100%;
                     height: 100%;
                     object-fit: cover;
                 }
-            } 
+            }
+            
+            p {
+                line-height: 1.8;
+            }
         }
             
     }
@@ -681,7 +686,7 @@
         
         li {
             width: 49.2%;
-            height: 200px;
+            height: 320px;
             padding: 18px 20px;
             margin-bottom: 20px;
             border: 1px solid $cp;
@@ -694,12 +699,18 @@
             .thumb {
                 width: 100%;
                 height: 122px;
+                margin-bottom: 10px;
                 img {
                     width: 100%;
                     height: 100%;
                     object-fit: cover;
                 }
-            } 
+            }
+            
+            p {
+                line-height: 1.6;
+                font-size: .8rem;
+            }
         }
             
     }
