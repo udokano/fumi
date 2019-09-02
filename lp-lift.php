@@ -355,7 +355,7 @@ Gコグとの併用の場合1本30000円</td>
           <tr class="tb-bgreen">
             <td rowspan="2"style="vertical-align: middle;" class="left t-c-g ">Gコグノーズ</td>
             <td class="t-c-g ">1本目</td>
-            <td class="t-c-g  right">¥40,000~¥45,000</td>
+            <td class="t-c-g  right">¥40,000</td>
           </tr>
             
             <tr class="tb-bgreen2">
@@ -378,7 +378,7 @@ Gコグとの併用の場合1本30000円</td>
           <tr class="tb-bgreen">
             <td rowspan="2"style="vertical-align: middle;" class="left t-c-g ">Gメッシュ</td>
             <td class="t-c-g ">1本目</td>
-            <td class="t-c-g  right">¥40,000~¥45,000</td>
+            <td class="t-c-g  right">¥40,000</td>
           </tr>
             
             <tr class="tb-bgreen2">

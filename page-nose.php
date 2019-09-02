@@ -152,7 +152,7 @@ Template Name: 鼻の糸
       </dl>
       <dl class="flex">
         <dt>1本目</dt>
-        <dd>¥40,000~¥45,000</dd>
+        <dd>¥40,000</dd>
       </dl>
       <dl class="flex">
         <dt>2本目以降</dt>
@@ -168,7 +168,7 @@ Template Name: 鼻の糸
       </dl>
       <dl class="flex">
         <dt>1本目</dt>
-        <dd>¥40,000~¥45,000</dd>
+        <dd>¥40,000</dd>
       </dl>
       <dl class="flex">
         <dt>2本目以降</dt>
