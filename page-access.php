@@ -71,7 +71,7 @@ Template Name: アクセス
     <li>
       <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/access/access1_4.jpg" alt="アクセス方法"> </div>
       <h4 class="cp tc">順路❹</h4>
-      <p>スクランブル交差点を渡ったら、ガソリンスタンドが見えるまで、直進します。</p>
+      <p>スクランブル交差点を渡ったら、ガソリンスタンドが見えるまで直進します。</p>
     </li>
     <li>
       <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/access/access1_5.jpg" alt="アクセス方法"> </div>
@@ -106,28 +106,27 @@ Template Name: アクセス
 <li>
   <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/access/access2_3.jpg" alt="アクセス方法"> </div>
   <h4 class="cp tc">順路❸</h4>
-  <p>スクランブル交差点を渡ったら、ガソリンスタンドが見えるまで、直進します。差点を渡って、その後右方向に進みます。</p>
+  <p>スクランブル交差点を渡ったら、ガソリンスタンドが見えるまで直進します。</p>
 </li>
 <li>
   <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/access/access2_4.jpg" alt="アクセス方法"> </div>
   <h4 class="cp tc">順路❹</h4>
-  <p>しばらく直進して、ガソリンスタンドが見えたら、左方向に進みます。リンスタンドが見えるまで、直進します。</p>
+  <p>しばらく直進して、ガソリンスタンドが見えたら、左方向に進みます。</p>
 </li>
 <li>
   <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/access/access2_5.jpg" alt="アクセス方法"> </div>
   <h4 class="cp tc">順路❺</h4>
-  <p>左方向に進み、料理教室の看板（赤い看板）が見える交差点を右方向に進みます。が見えたら、左方向に進みます。</p>
+  <p>左方向に進み、料理教室の看板（赤い看板）が見えたら、右方向に進みます。</p>
 </li>
 <li>
   <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/access/access2_6.jpg" alt="アクセス方法"> </div>
   <h4 class="cp tc">順路❼</h4>
-  <p>右に進むとすぐに、専門学校とセブンイレブンに挟まれた、芝田ビルの3Fがふみビューティークリニック梅田になります。     
-    左方向に進み、料理教室の看板（赤い看板）が見える交差点を右方向に進みます。</p>
+  <p>右に進むとすぐに、専門学校とセブンイレブンに挟まれた、芝田ビルの3Fがふみビューティークリニック梅田になります。</p>
 </li>
 
 </div>
 <div class="info">
-  <h3 class="tc">お車でお越しの方</h3>
+  <h3 class="tc gosic">お車でお越しの方</h3>
   <p class="tc ls1 gosic pc mb30">当院には専用駐車場がございませんので、周辺の有料駐車場をご利用ください。<br>
     fumi beauty clinicと駐車場との提携は行っておりません。</p>
   <p class="tc ls1 gosic sp mb25">当院には専用駐車場がございませんので、周辺の有料駐車場をご利用ください。fumi beauty clinicと駐車場との提携は行っておりません。</p>
