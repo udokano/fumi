@@ -1293,6 +1293,9 @@ footer.pages .pages-footer-box .left .logo-info span {
 footer.pages .pages-footer-box .left .tel {
   display: block;
 }
+footer.pages .copy {
+  width: 445px;
+}
 
 @media (max-width: 767px) {
   footer.pages .pages-footer-box {
@@ -2277,6 +2280,10 @@ footer.pages .pages-footer-box .left .tel {
 .contact-tel .inner .tel {
   font-size: 3.4rem;
   margin-bottom: 30px;
+}
+
+.error {
+  color: #af0000 !important;
 }
 
 .contact-form .inner {
