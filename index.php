@@ -32,8 +32,8 @@
           <li><a href="<?php echo home_url( '/' ); ?>concept">当院について</a></li>
           <li class="navi-parent"><a href="#">施術・料金</a>
             <ul class="nav-child">
+                                 <li><a href="<?php echo home_url( '/' ); ?>tarumi">たるみ治療</a></li>
               <li><a href="<?php echo home_url( '/' ); ?>siwa">しわ治療</a></li>
-                 <li><a href="<?php echo home_url( '/' ); ?>tarumi">たるみ治療</a></li>
                  <li><a href="<?php echo home_url( '/' ); ?>kogao">小顔治療</a></li>
                  <li><a href="<?php echo home_url( '/' ); ?>nose-lift">鼻の糸</a></li>
                  <li><a href="<?php echo home_url( '/' ); ?>keiseigeka">形成外科治療</a></li>
@@ -346,15 +346,15 @@
           <div class="swiper-wrapper"> 
                 <?php while ( have_rows('top',155) ) : the_row(); ?>
             <div class="bas gd box-size swiper-slide">
-              <div class="slide-in flex">
+              <div class="slide-in "><a href="<?php the_sub_field('link',155); ?>" class="flex">
                 <div class="thumb"><img src="<?php the_sub_field('top_p',155); ?>" alt="サムネイル"></div>
                 <div class="text">
-                  <h3 class=""><?php the_sub_field('top_title',155); ?>
+                  <h3 class="gd"><?php the_sub_field('top_title',155); ?>
                   </h3>
-                  <div class="ba-txt gosic box-size text-over">
+                  <div class="ba-txt gd gosic box-size text-over">
                    <?php the_sub_field('top_txt',155); ?>
                   </div>
-                </div>
+                </div></a>
               </div>
             </div> <?php endwhile; ?>
           </div>
@@ -417,7 +417,8 @@
           <li><a href="<?php echo home_url( '/' ); ?>contact">お問合わせ</a></li>
         </ul>
       </nav>
-      <p class="copy cp"><small>Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
+      <p class="copy cp"><small>fumi beauty cinic(ふみビューティクリニック梅田)美容皮膚科・形成外科<br>
+Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
     </div>
   </footer>
   <?php if ( wp_is_mobile() ) : ?>
@@ -427,7 +428,7 @@
       <li><a href="<?php echo home_url( '/' ); ?>concept">当院について</a></li>
       <li class="parent"><a href="#" id="ac-txt">施術・料金</a>
           <ul class="child" id="ac">
-            <li><a href="<?php echo home_url( '/' ); ?>siwa">しわ治療</a></li><li><a href="<?php echo home_url( '/' ); ?>tarumi">たるみ治療</a></li>
+            <li><a href="<?php echo home_url( '/' ); ?>tarumi">たるみ治療</a></li><li><a href="<?php echo home_url( '/' ); ?>siwa">しわ治療</a></li>
             <li><a href="<?php echo home_url( '/' ); ?>kogao">小顔治療</a></li><li><a href="<?php echo home_url( '/' ); ?>nose-lift">鼻の糸</a></li>
             <li><a href="<?php echo home_url( '/' ); ?>keiseigeka">形成外科治療</a></li><li><a href="<?php echo home_url( '/' ); ?>medikaru">美肌治療</a></li>
         </ul>    

@@ -262,10 +262,10 @@ Template Name: 小顔治療
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
-        <dt>ボトックスリフト</dt>
-        <dd>お問い合わせください</dd>
+        <dt>ボトックスリフト(ネフェルティティリフト)</dt>
+        <dd>¥68,000</dd>
       </dl>
-     
+         
       
     </div>
       
@@ -385,7 +385,7 @@ Template Name: 小顔治療
       </dl>
       <dl class="flex">
         <dt>エラボトックス</dt>
-        <dd>お問い合わせください</dd>
+        <dd>¥49,800</dd>
       </dl>
     </div>
   </div>

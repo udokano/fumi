@@ -312,7 +312,7 @@ Template Name: ランディングページボトックス
         <table class="pt2 gosic mb35">
         <thead>
           <tr>
-              <th scope="col">施術名</th>
+              <th scope="col">注入部位</th>
             <th scope="col">本数</th>
             <th scope="col">値段(税別)</th>
           </tr>
@@ -560,7 +560,8 @@ Template Name: ランディングページボトックス
   
   <footer class="lp-footer">
     <div class="inner">
-      <p class="copy cp"><small>Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
+      <p class="copy cp"><small>fumi beauty cinic(ふみビューティクリニック梅田)美容皮膚科・形成外科<br>
+Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
     </div>
   </footer>
   <a href="#" class="page-top bounce"><img src="<?php echo get_template_directory_uri(); ?>/img/common/scrool_up.svg" alt="scrool-up"></a> </div>

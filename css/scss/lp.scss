@@ -1274,6 +1274,20 @@ table td .sm {
     }
 }
 
+#lp3 {
+    .swiper-button-next {
+        background-image: url("../img/common/arrow_05.svg");
+    }
+    
+    .swiper-button-prev  {
+        background-image: url("../img/common/arrow_06.svg");
+    }
+    
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        background-color: #2b76bc;
+    }
+}
+
 @media (max-width: 767px) {
     
     .slide-p2.swiper5 .swiper-slide {
