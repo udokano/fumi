@@ -195,6 +195,41 @@
       
     </div>
       
+      
+      <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">ボツリヌス・トキシン</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>
+肩こり両側</dt>
+        <dd>¥19,800</dd>
+      </dl>
+      <dl class="flex">
+        <dt>ふくらはぎ両脚（内側・外側）両側</dt>
+        <dd>¥72,600</dd>
+      </dl>
+      
+    </div>
+      
+      <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">ボツリヌス・トキシン  アラガン</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>
+肩こり両側</dt>
+        <dd>¥24,800</dd>
+      </dl>
+      <dl class="flex">
+        <dt>ふくらはぎ両脚（内側・外側）両側</dt>
+        <dd>¥268,000</dd>
+      </dl>
+      
+    </div>
+      
        <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">その他の部位</dt>
@@ -302,6 +337,8 @@
         <p class="gosic">いかにも、ヒアルロンを注入したような不自然なバランスになることはなく、患者様お一人お一人のお顔にあった自然な仕上がりを目指しています。</p>
       </div>
       </div>
+      
+      
    
   </div>
 </section>

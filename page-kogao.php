@@ -130,8 +130,8 @@ Template Name: 小顔治療
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
-        <dt>BNLS</dt>
-        <dd>お問い合わせください</dd>
+        <dt>BNLSneo  1cc</dt>
+        <dd>¥9,800</dd>
       </dl>
       
     </div>
@@ -262,7 +262,7 @@ Template Name: 小顔治療
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
-        <dt>ボトックスリフト(ネフェルティティリフト)</dt>
+        <dt>ボトックスリフト</dt>
         <dd>¥68,000</dd>
       </dl>
          
@@ -385,7 +385,7 @@ Template Name: 小顔治療
       </dl>
       <dl class="flex">
         <dt>エラボトックス</dt>
-        <dd>¥49,800</dd>
+        <dd>¥50,000</dd>
       </dl>
     </div>
   </div>

@@ -312,36 +312,58 @@ Template Name: ランディングページボトックス
         <table class="pt2 gosic mb35">
         <thead>
           <tr>
-              <th scope="col">注入部位</th>
-            <th scope="col">本数</th>
+              <th scope="col">製剤名</th>
+            <th scope="col">部位</th>
             <th scope="col">値段(税別)</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td rowspan="3"style="background-color: #fef0f4; vertical-align: middle;" class="left">アディショナル部位
-角、目頭、口唇 、眉下、
-アーモンドアイ</td>
-            <td>スタンダード部位に<br>
-追加１部位</td>
-            <td class="right">¥10,000</td>
+            <td rowspan="3"style="background-color: #fef0f4; vertical-align: middle;" class="left">ボツリヌス・トキシン注入</td>
+            <td>肩こり両側</td>
+            <td class="right">¥19,800</td>
           </tr>
             
             <tr>
-            <td>アディショナル部位のみ<br>
-１部位</td>
-            <td class="right">¥20,000</td>
+            <td>ふくらはぎ両脚（内側・外側）両側</td>
+            <td class="right">¥72,600</td>
           </tr>
             
           
         </tbody>
       </table>
         
+        
+        <table class="pt2 gosic mb35">
+        <thead>
+          <tr>
+              <th scope="col">製剤名</th>
+            <th scope="col">部位</th>
+            <th scope="col">値段(税別)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="3"style="background-color: #fef0f4; vertical-align: middle;" class="left">ボツリヌス・トキシン注入 アラガン</td>
+            <td>肩こり両側</td>
+            <td class="right">¥24,800</td>
+          </tr>
+            
+            <tr>
+            <td>ふくらはぎ両脚（内側・外側）両側</td>
+            <td class="right">¥268,000</td>
+          </tr>
+            
+          
+        </tbody>
+      </table>
+        
+       
           
         <table class="pt2 gosic mb35">
         <thead>
           <tr>
-              <th scope="col" colspan="2">施術名</th>
+              <th scope="col" colspan="2">製剤名</th>
             <th scope="col">値段(税別)</th>
           </tr>
         </thead>
