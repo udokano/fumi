@@ -11,10 +11,14 @@ Template Name: アクセス
 <section class="access-info bg-cp">
 <div class="inner">
 <div class="cont flex">
-  <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/access/clinic_thumbjpg.jpg" alt=""></div>
+  <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/access/clinic_thumbjpg.jpg" alt="院内写真"></div>
   <div class="text box-size gosic">
     <h2 class="gd">fumi beauty clinic<br>
       <span class="sm"> (ふみビューティクリニック梅田)</span> </h2>
+    <dl class="flex">
+      <dt>診療科目</dt>
+      <dd>美容皮膚科、形成外科、皮膚科</dd>
+    </dl>  
     <dl class="flex">
       <dt>院長</dt>
       <dd>先山 史</dd>
@@ -35,7 +39,7 @@ Template Name: アクセス
       <dt>診療時間</dt>
       <dd>平日 10:00~18:00 土 10:00~17:00</dd>
     </dl>
-    <dl class="flex">
+    <dl class="flex mb0">
       <dt>休診日</dt>
       <dd>木・日・祝</dd>
     </dl>
