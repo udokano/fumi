@@ -819,16 +819,18 @@ body.page {
 footer {
   margin-bottom: 60px; }
   footer .inner .navi {
-    width: 80%;
-    min-width: 700px; }
+    width: 70%;
+    min-width: 400px; }
     footer .inner .navi ul {
       justify-content: flex-start; }
       footer .inner .navi ul li {
         margin: 0;
-        margin-right: 3.5%; }
+        margin-right: 3%; }
+        footer .inner .navi ul li a {
+          font-size: .9rem; }
   footer .inner .copy {
     font-size: .7rem;
-    width: 410px; }
+    width: 520px; }
 
 @media (max-width: 767px) {
   footer {
@@ -935,7 +937,7 @@ footer {
 footer.pages {
   border-top: 1px solid #dddddd; }
   footer.pages .pages-footer-box {
-    width: 520px;
+    width: 540px;
     margin: 50px auto 60px; }
     footer.pages .pages-footer-box .f-logo {
       width: 180px; }
@@ -950,7 +952,7 @@ footer.pages {
       footer.pages .pages-footer-box .left .tel {
         display: block; }
   footer.pages .copy {
-    width: 445px; }
+    width: 510px; }
 
 @media (max-width: 767px) {
   footer.pages .pages-footer-box {
@@ -967,6 +969,14 @@ footer.pages {
   footer.pages .copy {
     width: auto;
     text-align: center; } }
+footer.pages.list-footer {
+  margin-bottom: 20px; }
+  footer.pages.list-footer .copy {
+    margin: auto; }
+
+@media (max-width: 767px) {
+  footer.pages.list-footer {
+    padding-bottom: 0; } }
 /*top Page*/
 #bg1 {
   background-image: url("../img/top/bg01.jpg"); }

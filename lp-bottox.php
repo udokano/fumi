@@ -582,7 +582,7 @@ Template Name: ランディングページボトックス
   
   <footer class="lp-footer">
     <div class="inner">
-      <p class="copy cp"><small>fumi beauty cinic(ふみビューティクリニック梅田)美容皮膚科・形成外科<br>
+      <p class="copy cp"><small>fumi beauty cinic(ふみビューティクリニック梅田)美容皮膚科・形成外科・皮膚科<br>
 Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
     </div>
   </footer>

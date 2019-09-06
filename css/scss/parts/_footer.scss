@@ -5,20 +5,23 @@ footer {
     margin-bottom: 60px;
     .inner {
         .navi {
-            width: 80%;
-            min-width: 700px;
+            width: 70%;
+            min-width: 400px;
             ul {
                 justify-content: flex-start;
                 li {
                     margin: 0;
-                    margin-right: 3.5%;
+                    margin-right: 3%;
+                    a {
+                        font-size: .9rem;
+                    }
                 }
             }
         }
         
         .copy {
             font-size: .7rem;
-            width: 410px;
+            width: 520px;
         }
     }
 }
@@ -193,7 +196,7 @@ footer {
 footer.pages {
     border-top: 1px solid #dddddd;
     .pages-footer-box {
-        width: 520px;
+        width: 540px;
         margin: 50px auto 60px;
         .f-logo {
             width: 180px;
@@ -219,7 +222,7 @@ footer.pages {
     }
     
     .copy {
-            width: 445px;
+            width: 510px;
         }
 }
 
@@ -251,5 +254,29 @@ footer.pages {
 }
     
     
+    
+}
+
+
+
+
+
+
+
+
+
+footer.pages.list-footer {
+    margin-bottom: 20px;
+    .copy {
+        margin: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    footer.pages.list-footer {
+    padding-bottom: 0;
+}
+
     
 }

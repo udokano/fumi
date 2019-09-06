@@ -7,7 +7,7 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?0901">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?0906">
 <script>
   (function(d) {
     var config = {
@@ -417,7 +417,7 @@
           <li><a href="<?php echo home_url( '/' ); ?>contact">お問合わせ</a></li>
         </ul>
       </nav>
-      <p class="copy cp"><small>fumi beauty cinic(ふみビューティクリニック梅田)美容皮膚科・形成外科<br>
+      <p class="copy cp"><small>fumi beauty cinic(ふみビューティクリニック梅田)美容皮膚科・形成外科・皮膚科<br>
 Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
     </div>
   </footer>
@@ -459,7 +459,7 @@ Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script> 
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script> 
-<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?0901"></script> 
+<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?0906"></script> 
 <script>
     function initMap() {
         var latlng = new google.maps.LatLng( 34.707103, 135.495992 );

@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: ランディングページスレッドリフト 
+Template Name: ランディングページスレッドリフト リスティング用
 */
 
 ?>
@@ -15,16 +15,21 @@ Template Name: ランディングページスレッドリフト
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/lp.css">
+    
+    
+    <meta name=”robots” content=”noindex”>
+    
+<!-- Global site tag (gtag.js) - Google Ads: 710940797 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-710940797"></script>
 <script>
-  (function(d) {
-    var config = {
-      kitId: 'yrq5rir',
-      scriptTimeout: 3000,
-      async: true
-    },
-    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-  })(document);
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-710940797');
 </script>
+    
+
 <?php wp_head(); ?>
 </head>
 <body id="lp3" class="lps">
@@ -34,8 +39,8 @@ Template Name: ランディングページスレッドリフト
   <?php else: ?>
   <header class="lp-header">
     <div class="header-inner flex al-cent">
-      <div class="logo tc"><a href="<?php echo home_url( '/' ); ?>"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo.png" alt="FMUI BEAUTY CLINIC"></a></div>
-      <div class="lp-cv-btn flex"> <a class="" href="https://fumibeauty.reserve.ne.jp/sp/index.php?" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/header_btn01.png" alt="来院予約"></a> <a class="btn2" href="<?php echo home_url( '/' ); ?>contact" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/header_btn02.png" alt="お問合わせ"></a> </div>
+      <div class="logo tc"><a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo.png" alt="FMUI BEAUTY CLINIC"></a></div>
+      <div class="lp-cv-btn flex"> <a class="" href="https://fumibeauty.jp/reserve/lp-lift.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/header_btn01.png" alt="来院予約"></a> <a class="btn2" href="<?php echo home_url( '/' ); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/header_btn02.png" alt="お問合わせ"></a> </div>
     </div>
   </header>
   <div class="lp-fv cf">
@@ -89,12 +94,12 @@ Template Name: ランディングページスレッドリフト
       <h2 class="cw ls1 tc">ご予約・お問合わせはこちらから</h2>
     </div>
     <div class="lp-inner">
-      <div class="top-cont flex al-cent"> <a href="tel:0663722323" class="cw ls2 tel">06-6372-2323</a>
+      <div class="top-cont flex al-cent"> <a href="https://fumibeauty.jp/tel/lp-lift.html" class="cw ls2 tel">06-6372-2323</a>
         <p class="sm tc cw time">受付時間<br>
           10:00～18:00 </p>
       </div>
-      <div class="lp-cv-btn flex"> <a href="https://fumibeauty.reserve.ne.jp/sp/index.php?" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約
-"></a> <a href="<?php echo home_url( '/' ); ?>contact" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/cv_btn2.png" alt="お問合わせ
+      <div class="lp-cv-btn flex"> <a href="https://fumibeauty.jp/reserve/lp-lift.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約
+"></a> <a href="<?php echo home_url( '/' ); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/cv_btn2.png" alt="お問合わせ
 "></a> </div>
     </div>
   </div>
@@ -399,11 +404,11 @@ Gコグとの併用の場合1本30000円</td>
       <h2 class="cw ls1 tc">ご予約・お問合わせはこちらから</h2>
     </div>
     <div class="lp-inner">
-      <div class="top-cont flex al-cent"> <a href="tel:0663722323" class="cw ls2 tel">06-6372-2323</a>
+      <div class="top-cont flex al-cent"> <a href="https://fumibeauty.jp/tel/lp-lift.html" class="cw ls2 tel">06-6372-2323</a>
         <p class="sm tc cw time">受付時間<br>
           10:00～18:00 </p>
       </div>
-      <div class="lp-cv-btn flex"> <a href="https://fumibeauty.reserve.ne.jp/sp/index.php?" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約"></a> <a href="<?php echo home_url( '/' ); ?>contact" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/cv_btn2.png" alt="お問い合わせ"></a> </div>
+      <div class="lp-cv-btn flex"> <a href="https://fumibeauty.jp/reserve/lp-lift.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約"></a> <a href="<?php echo home_url( '/' ); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/cv_btn2.png" alt="お問い合わせ"></a> </div>
     </div>
   </div>
   <section class="flow bg-blue">

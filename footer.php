@@ -11,7 +11,7 @@
         
         <div class="left">
             
-            <p class="gosic logo-info">ふみビューティークリニック梅田<span class="cw">美容皮膚科・形成外科</span></p>
+            <p class="gosic logo-info">ふみビューティークリニック梅田<span class="cw">美容皮膚科・形成外科・皮膚科</span></p>
         
             <a href="tel:0663722323" class="tel gd mb20">06-6372-2323</a>
             
@@ -37,7 +37,7 @@
           <li><a href="<?php echo home_url( '/' ); ?>contact">お問合わせ</a></li>
         </ul>
       </nav>
-      <p class="copy cp"><small>fumi beauty cinic(ふみビューティクリニック梅田)美容皮膚科・形成外科<br>
+      <p class="copy cp"><small>fumi beauty cinic(ふみビューティクリニック梅田)美容皮膚科・形成外科・皮膚科<br>
 Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
     </div>
   </footer>
