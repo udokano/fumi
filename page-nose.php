@@ -57,9 +57,7 @@ Template Name: 鼻の糸
   </div>
 </section>
 <section class="ope-kind">
-    
-    <h2 class="tc">糸の種類</h2>
-    
+<h2 class="tc">糸の種類</h2>
 <div class="wrap bg-cg2">
   <div class="inner-box2">
     <div class="box flex">
@@ -84,34 +82,35 @@ Template Name: 鼻の糸
 </div>
 </section>
 <?php if( have_rows('ope_nose',155) ): ?>
-
 <section class="case">
   <div class="inner">
     <h2 class="tc">症例</h2>
     <div class="case-wrap flex">
-       <?php while ( have_rows('ope_nose',155) ) : the_row(); ?>
-            <div class="case-box flex">
-           <div class="box">
+      <?php while ( have_rows('ope_nose',155) ) : the_row(); ?>
+      <div class="case-box flex">
+        <div class="box">
           <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
-          <p class="gosic tc"><?php the_sub_field('befor_txt',155); ?></p>
+          <p class="gosic tc">
+            <?php the_sub_field('befor_txt',155); ?>
+          </p>
         </div>
         <div class="box">
           <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
-          <p class="gosic tc"><?php the_sub_field('after_txt',155); ?></p>
+          <p class="gosic tc">
+            <?php the_sub_field('after_txt',155); ?>
+          </p>
         </div>
-          
-          </div>
-          
-        <?php endwhile; ?>
-    
+      </div>
+      <?php endwhile; ?>
     </div>
     <div class="note box-size gosic">
       <p>リスク副作用</p>
       <p>・体質により稀にメイクで隠せる程度の内出血が出る場合があります。</p>
     </div>
   </div>
-</section><?php else: ?>
-  <?php endif; ?>
+</section>
+<?php else: ?>
+<?php endif; ?>
 <!--<section class="bg-cg2 kuchikomi">
   <div class="inner-box2">
     <div class="kuchikomi-slide slide-area">
@@ -158,10 +157,8 @@ Template Name: 鼻の糸
         <dt>2本目以降</dt>
         <dd>¥30,000</dd>
       </dl>
-      
     </div>
-      
-       <div class="price-list gosic">
+    <div class="price-list gosic">
       <dl class="flex">
         <dt>Gメッシュ</dt>
         <dd class="f-bold">税別</dd>
@@ -174,7 +171,6 @@ Template Name: 鼻の糸
         <dt>2本目以降</dt>
         <dd>¥30,000</dd>
       </dl>
-      
     </div>
   </div>
 </section>
@@ -188,8 +184,7 @@ Template Name: 鼻の糸
             <div class="step points f-ryu cw">STEP 01</div>
             <h3 class="f-bold">ご予約</h3>
           </div>
-                    <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow01.jpg" alt="ご予約"></div>
-
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow01.jpg" alt="ご予約"></div>
           <p class="gosic ls1">お電話・WEBの予約フォームにて、ご予約をよろしくお願い致します。来院前にご不明点があれば、お気軽にご相談ください。</p>
         </div>
         <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow01.jpg" alt="ご予約"></div>
@@ -200,8 +195,7 @@ Template Name: 鼻の糸
             <div class="step points f-ryu cw">STEP 02</div>
             <h3 class="f-bold">診察、カウンセリング</h3>
           </div>
-                    <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow02.jpg" alt="診察、カウンセリング"></div>
-
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow02.jpg" alt="診察、カウンセリング"></div>
           <p class="gosic ls1">施術前に、患者様の悩みをお伺いします。お身体の状態を診て、治療計画を決めていきます。注意点、リスクについても詳しく説明いたしますので、ご不明な点や不安なことがあれば遠慮せずにご質問ください。</p>
         </div>
         <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow02.jpg" alt="診察、カウンセリング"></div>
@@ -210,25 +204,23 @@ Template Name: 鼻の糸
         <div class="left">
           <div class="top">
             <div class="step points f-ryu cw">STEP 03</div>
-            <h3 class="f-bold">施術開始</h3>
+            <h3 class="f-bold">お会計</h3>
           </div>
-                    <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_2.jpg" alt="施術開始"></div>
-
-          <p class="gosic ls1">痛みを極力に抑え、安全第一に責任を持って施術いたします。施術は全て有資格者が行うので、ご安心くださいませ。</p>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow05.jpg" alt="施術開始"></div>
+          <p class="gosic ls1">施術の前にお会計をお願い致します。</p>
         </div>
-        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_2.jpg" alt="施術開始"></div>
+        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow05.jpg" alt="施術開始"></div>
       </li>
       <li class="box-size flex">
         <div class="left">
           <div class="top">
             <div class="step points f-ryu cw">STEP 04</div>
-            <h3 class="f-bold">施術終了・お会計</h3>
+            <h3 class="f-bold">施術開始</h3>
           </div>
-                    <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow04.jpg" alt="施術終了・お会計"></div>
-
-          <p class="gosic ls1">治療が終了したら、お会計をして、そのままお帰りいただけます。</p>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_2.jpg" alt="施術終了・お会計"></div>
+          <p class="gosic ls1">痛みを極力に抑え、安全第一に責任を持って施術いたします。施術は全て有資格者が行うので、ご安心くださいませ。</p>
         </div>
-        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow04.jpg" alt="施術終了・お会計"></div>
+        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_2.jpg" alt="施術終了・お会計"></div>
       </li>
     </ul>
   </div>

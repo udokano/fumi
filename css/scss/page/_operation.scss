@@ -9,7 +9,13 @@
         margin-bottom: 45px;
     }
     
-    .ancor-box {
+   
+}
+
+
+/*アンカー*/
+
+ .ancor-box {
        text-align: center;
         a {
             position: relative;
@@ -46,7 +52,6 @@
             }
         }
     }
-}
 
 @media (max-width: 767px) {
     
@@ -58,7 +63,10 @@
         margin-bottom: 45px;
     }
     
-    .ancor-box {
+   
+}
+    
+     .ancor-box {
        text-align: center;
         a {
            
@@ -69,7 +77,6 @@
             
         }
     }
-}
     
     
 }
@@ -441,6 +448,22 @@
         }
     }
 }
+
+
+
+/*メディカルエステ料金説明*/
+
+
+.desc-box  {
+    margin: 20px 0 45px;
+    padding: 25px 30px;
+    font-size: 1.1rem;
+    background-color: #f8f8f8;
+    p {
+        margin-top: 20px;
+    }
+}
+
 
 
 /*施術の流れ*/

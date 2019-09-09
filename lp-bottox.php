@@ -308,6 +308,29 @@ Template Name: ランディングページボトックス
         </tbody>
       </table>
         
+        <table class="pt2 gosic mb35">
+        <thead>
+          <tr>
+              <th scope="col">注入部位</th>
+            <th scope="col">部位数</th>
+            <th scope="col">値段(税別)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2"style="background-color: #fef0f4; vertical-align: middle;" class="left">アディショナル部位口角、目頭、口唇(口すぼめ時のしわ) 、眉下(ブローリフト)、アーモンドアイ(たれ目)</td>
+            <td>スタンダード部位に追加１部位</td>
+            <td class="right">¥10,000</td>
+          </tr>
+            
+            <tr>
+            <td>アディショナル部位のみ１部位</td>
+            <td class="right">¥20,000</td>
+          </tr>
+            
+            
+        </tbody>
+      </table>
           
         <table class="pt2 gosic mb35">
         <thead>
@@ -321,7 +344,7 @@ Template Name: ランディングページボトックス
           <tr>
             <td rowspan="3"style="background-color: #fef0f4; vertical-align: middle;" class="left">ボツリヌス・トキシン注入</td>
             <td>肩こり両側</td>
-            <td class="right">¥19,800</td>
+            <td class="right">¥34,800</td>
           </tr>
             
             <tr>
@@ -346,13 +369,21 @@ Template Name: ランディングページボトックス
           <tr>
             <td rowspan="3"style="background-color: #fef0f4; vertical-align: middle;" class="left">ボツリヌス・トキシン注入 アラガン</td>
             <td>肩こり両側</td>
-            <td class="right">¥24,800</td>
+            <td class="right">¥74,800</td>
+          </tr>
+            
+             <tr>
+            <td>4回セット</td>
+            <td class="right">1回あたり¥49,800<br>
+<span class="sm">(総額¥199,200)</span></td>
           </tr>
             
             <tr>
             <td>ふくらはぎ両脚（内側・外側）両側</td>
             <td class="right">¥268,000</td>
           </tr>
+            
+           
             
           
         </tbody>

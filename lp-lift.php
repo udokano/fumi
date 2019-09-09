@@ -460,7 +460,7 @@ Gコグとの併用の場合1本30000円</td>
               array(
                 'taxonomy' => 'faq_kind',
                 'field' => 'slug',
-                'terms' => array( 'bx' )
+                'terms' => array( 's_lift','nose' )
               )
             ),
             'orderby' => 'date',

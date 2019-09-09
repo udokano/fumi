@@ -401,22 +401,16 @@ Template Name: ランディングページヒアルロン酸
         </thead>
         <tbody>
           <tr>
-            <td rowspan="2" style="background-color: #eddbe7; vertical-align: middle;" class="left">ボルベラ</td>
+            <td rowspan="2" style="background-color: #eddbe7; vertical-align: middle;" class="left">クレビエルコントア(あご形成)
+</td>
             <td>0.1cc</td>
             <td class="right">¥13,000</td>
           </tr>
             
-             <tr>
-            <td colspan="2" class="right">＊カニューレを使用する場合は別途＋¥1,250</td>
-          </tr>
-            
-           
-           
-       
         </tbody>
       </table>
         
-        
+        <p class="note tc gosic">＊カニューレを使用する場合は別途＋¥1,250(税別)</p>
         
     </div>
   </section>

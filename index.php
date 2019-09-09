@@ -7,7 +7,7 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?0907">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?0910">
 <script>
   (function(d) {
     var config = {
@@ -380,7 +380,7 @@
             
           <div class="bnr">
               <a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/common/blog_bnr.jpg" alt="blog_bnr">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/common/blog_bnr.jpg?0910" alt="blog_bnr">
             </a>
           </div>
           <div class="bnr"><a href="https://line.me/R/ti/p/%40304ngjfp" target="_blank">
@@ -459,7 +459,7 @@ Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script> 
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script> 
-<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?0907"></script> 
+<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?0910"></script> 
 <script>
     function initMap() {
         var latlng = new google.maps.LatLng( 34.707103, 135.495992 );

@@ -1,9 +1,24 @@
 <?php
 /*
-Template Name: ランディングページヒアルロン酸 リスティング用
+Template Name: ランディングページヒアルロン酸 リスティング用2
 */
 
 ?>
+
+<?php
+/*
+Template Name: ユーザーエージェント
+*/
+function ua_smt (){
+$ua = $_SERVER['HTTP_USER_AGENT'];
+$ua_list = array('APIs-Google','Mediapartners-Google','AdsBot-Google-Mobile','AdsBot-Google-Mobile','AdsBot-Google','AdsBot-Google-Mobile','AdsBot-Google-Mobile','AdsBot-Google','Googlebot-Image','Googlebot','Googlebot-News,Googlebot','Googlebot-Video','Googlebot','Googlebot','Mediapartners-Google','AdsBot-Google-Mobile-Apps','FeedFetcher-Google','Google-Read-Aloud');
+foreach ($ua_list as $ua_smt) {
+if (strpos($ua,$ua_smt) !== false){return true;}
+} return false;
+}
+?>
+
+
 <head>
 <meta charset="UTF-8">
 
@@ -52,7 +67,12 @@ Template Name: ランディングページヒアルロン酸 リスティング�
  <header class="lp-header">
   <div class="header-inner flex al-cent">
     <div class="logo tc"><a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo.png" alt="FMUI BEAUTY CLINIC"></a></div>
-    <div class="lp-cv-btn flex"> <a class="" href="https://fumibeauty.jp/reserve/lp-hialrunsann.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/header_btn01.png" alt="来院予約"></a> <a class="btn2" href="<?php echo home_url( '/' ); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/header_btn02.png" alt="お問合わせ"></a> </div>
+    <div class="lp-cv-btn flex"> <!--出力出し分け-->
+<?php if (ua_smt() == true): ?>
+<?php else: ?>
+<a class="" href="https://fumibeauty.jp/reserve/lp-hialrunsann.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/header_btn01.png" alt="来院予約"></a>
+<?php endif; ?>
+<!--//出力出し分け--> <a class="btn2" href="<?php echo home_url( '/' ); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/header_btn02.png" alt="お問合わせ"></a> </div>
   </div>
 </header>
 <div class="lp-fv cf">
@@ -106,8 +126,13 @@ Template Name: ランディングページヒアルロン酸 リスティング�
       <p class="sm tc cw time">受付時間<br>
         10:00～18:00 </p>
     </div>
-    <div class="lp-cv-btn flex"> <a href="https://fumibeauty.jp/reserve/lp-hialrunsann.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約
-"></a> <a href="<?php echo home_url( '/' ); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn02.png" alt="お問合わせ
+    <div class="lp-cv-btn flex"><!--出力出し分け-->
+<?php if (ua_smt() == true): ?>
+<?php else: ?>
+<a href="https://fumibeauty.jp/reserve/lp-hialrunsann.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約
+"></a>
+<?php endif; ?>
+<!--//出力出し分け--> <a href="<?php echo home_url( '/' ); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn02.png" alt="お問合わせ
 "></a> </div>
   </div>
 </div>
@@ -416,11 +441,9 @@ Template Name: ランディングページヒアルロン酸 リスティング�
             <td>0.1cc</td>
             <td class="right">¥13,000</td>
           </tr>
+          
         </tbody>
       </table>
-        
-        
-        <p class="note tc gosic">＊カニューレを使用する場合は別途＋¥1,250(税別)</p>
         
         
         
@@ -435,7 +458,12 @@ Template Name: ランディングページヒアルロン酸 リスティング�
         <p class="sm tc cw time">受付時間<br>
           10:00～18:00 </p>
       </div>
-      <div class="lp-cv-btn flex"> <a href="https://fumibeauty.jp/reserve/lp-hialrunsann.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約"></a> <a href="<?php echo home_url( '/' ); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn02.png" alt="お問い合わせ"></a> </div>
+      <div class="lp-cv-btn flex"><!--出力出し分け-->
+<?php if (ua_smt() == true): ?>
+<?php else: ?>
+<a href="https://fumibeauty.jp/reserve/lp-hialrunsann.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約"></a> 
+<?php endif; ?>
+<!--//出力出し分け--><a href="<?php echo home_url( '/' ); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn02.png" alt="お問い合わせ"></a> </div>
     </div>
   </div>
   <section class="flow">
