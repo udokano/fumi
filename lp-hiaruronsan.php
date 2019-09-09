@@ -457,13 +457,22 @@ Template Name: ランディングページヒアルロン酸
           <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step3.png" alt="3"></div>
           <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step_arw.png" alt=">"></div>
         </li>
+          <li class="box-size flex">
+          <div class="text">
+            <h3 class="cblue ls1">お会計</h3>
+            <p class="gosic cblue ls1">施術の前に、お会計をお願い致します。</p>
+          </div>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step5_thumb.png" alt="診察・カウンセリング"></div>
+          <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step4.png" alt="4"></div>
+          <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step_arw.png" alt=">"></div>
+        </li>
         <li class="box-size flex mb0">
           <div class="text">
             <h3 class="cp ls1">施術</h3>
             <p class="gosic cp ls1"> 痛みを極力に抑え、安全第一に責任を持って施術いたします。施術は全て有資格者が行いますのでご安心下さいませ。 </p>
           </div>
           <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step4_thumb.png" alt="施術"></div>
-          <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step4.png" alt="4"></div>
+          <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step5.png" alt="4"></div>
         </li>
       </ul>
     </div>

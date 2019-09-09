@@ -4,17 +4,19 @@ Template Name: ランディングページスレッドリフト リスティン�
 */
 
 ?>
-
 <?php
 /*
 Template Name: ユーザーエージェント
 */
-function ua_smt (){
-$ua = $_SERVER['HTTP_USER_AGENT'];
-$ua_list = array('APIs-Google','Mediapartners-Google','AdsBot-Google-Mobile','AdsBot-Google-Mobile','AdsBot-Google','AdsBot-Google-Mobile','AdsBot-Google-Mobile','AdsBot-Google','Googlebot-Image','Googlebot','Googlebot-News,Googlebot','Googlebot-Video','Googlebot','Googlebot','Mediapartners-Google','AdsBot-Google-Mobile-Apps','FeedFetcher-Google','Google-Read-Aloud');
-foreach ($ua_list as $ua_smt) {
-if (strpos($ua,$ua_smt) !== false){return true;}
-} return false;
+function ua_smt() {
+  $ua = $_SERVER[ 'HTTP_USER_AGENT' ];
+  $ua_list = array( 'APIs-Google', 'Mediapartners-Google', 'AdsBot-Google-Mobile', 'AdsBot-Google-Mobile', 'AdsBot-Google', 'AdsBot-Google-Mobile', 'AdsBot-Google-Mobile', 'AdsBot-Google', 'Googlebot-Image', 'Googlebot', 'Googlebot-News,Googlebot', 'Googlebot-Video', 'Googlebot', 'Googlebot', 'Mediapartners-Google', 'AdsBot-Google-Mobile-Apps', 'FeedFetcher-Google', 'Google-Read-Aloud' );
+  foreach ( $ua_list as $ua_smt ) {
+    if ( strpos( $ua, $ua_smt ) !== false ) {
+      return true;
+    }
+  }
+  return false;
 }
 ?>
 <head>
@@ -28,12 +30,9 @@ if (strpos($ua,$ua_smt) !== false){return true;}
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/lp.css">
-    
-    
 
-    
-<!-- Global site tag (gtag.js) - Google Ads: 710940797 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-710940797"></script>
+<!-- Global site tag (gtag.js) - Google Ads: 710940797 --> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-710940797"></script> 
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -41,8 +40,6 @@ if (strpos($ua,$ua_smt) !== false){return true;}
 
   gtag('config', 'AW-710940797');
 </script>
-    
-
 <?php wp_head(); ?>
 </head>
 <body id="lp3" class="lps">
@@ -54,11 +51,11 @@ if (strpos($ua,$ua_smt) !== false){return true;}
     <div class="header-inner flex al-cent">
       <div class="logo tc"><a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo.png" alt="FMUI BEAUTY CLINIC"></a></div>
       <div class="lp-cv-btn flex"><!--出力出し分け-->
-<?php if (ua_smt() == true): ?>
-<?php else: ?>
-<a class="" href="https://fumibeauty.jp/reserve/lp-lift.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/header_btn01.png" alt="来院予約"></a>
-<?php endif; ?>
-<!--//出力出し分け--> <a class="btn2" href="<?php echo home_url( '/' ); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/header_btn02.png" alt="お問合わせ"></a> </div>
+        <?php if (ua_smt() == true): ?>
+        <?php else: ?>
+        <a class="" href="https://fumibeauty.jp/reserve/lp-lift.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/header_btn01.png" alt="来院予約"></a>
+        <?php endif; ?>
+        <!--//出力出し分け--> <a class="btn2" href="<?php echo home_url( '/' ); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/header_btn02.png" alt="お問合わせ"></a> </div>
     </div>
   </header>
   <div class="lp-fv cf">
@@ -117,13 +114,13 @@ if (strpos($ua,$ua_smt) !== false){return true;}
           10:00～18:00 </p>
       </div>
       <div class="lp-cv-btn flex"><!--出力出し分け-->
-<?php if (ua_smt() == true): ?>
-<?php else: ?>
-<a href="https://fumibeauty.jp/reserve/lp-lift.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約
+        <?php if (ua_smt() == true): ?>
+        <?php else: ?>
+        <a href="https://fumibeauty.jp/reserve/lp-lift.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約
 "></a>
-<?php endif; ?>
-<!--//出力出し分け-->
- <a href="<?php echo home_url( '/' ); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/cv_btn2.png" alt="お問合わせ
+        <?php endif; ?>
+        <!--//出力出し分け--> 
+        <a href="<?php echo home_url( '/' ); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/cv_btn2.png" alt="お問合わせ
 "></a> </div>
     </div>
   </div>
@@ -134,26 +131,21 @@ if (strpos($ua,$ua_smt) !== false){return true;}
       <div class="box mb40 box-size">
         <h3><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/area7_cach03.png" alt="スレッドリフトによるシワ、たるみの抑制"></h3>
         <div class="cont flex">
-          <div class="desc gosic gd">スレッドリフトは、専用の特殊な糸をたるみが気になる部位に挿入して内側からたるみを引上げます。フェイスラインなどお顔はもちろん、首などでも使用することができ、たるみ改善効果の他、小顔効果もあります。
-<br><br>
-また、ほうれい線やマリオネットラインも目立たなくなります。</div>
+          <div class="desc gosic gd">スレッドリフトは、専用の特殊な糸をたるみが気になる部位に挿入して内側からたるみを引上げます。フェイスラインなどお顔はもちろん、首などでも使用することができ、たるみ改善効果の他、小顔効果もあります。 <br>
+            <br>
+            また、ほうれい線やマリオネットラインも目立たなくなります。</div>
           <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp3/area7_thumb01.png" alt="画像"> </div>
         </div>
       </div>
       <div class="box box-size">
         <h3><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/area7_cach02.png" alt="スレッドリフトでお肌のハリ・弾力をアップ"></h3>
         <div class="img">
-              
-            <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/area7_thumb02.png" alt="画像"></div>
-          
-          
-          </div>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/area7_thumb02.png" alt="画像"></div>
+        </div>
       </div>
     </div>
   </section>
-    
-    
-     <section class="area7 bg-gr">
+  <section class="area7 bg-gr">
     <div class="lp-inner">
       <h2 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/area7_h2.png" alt="当院ではただヒアルロン酸を注入するだけではありませんお顔全体のバランスが整うように"></h2>
       <p class="cach tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/area7_1_cach01.png" alt="より自然に、より美しくトータルフェイシャルトリートメントを行います。"></p>
@@ -161,69 +153,69 @@ if (strpos($ua,$ua_smt) !== false){return true;}
         <h3><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/area7_1_cach02.png" alt="長年気になっていた表情じわたった数分の治療で解消します"></h3>
         <div class="cont flex">
           <div class="desc gosic gd">当院の鼻リフトはGメッシュやGコグノーズを用いて行います。
-だんご鼻・低い鼻・少しスッキリさせたいなどのお悩みの方に適した治療法です。
-メスを使わずに吸収糸を使用して、鼻先の形を整えていきます。
-FDA・CEの承認を得た医療用の素材PCLでつくられた信頼性の高い糸を用いて治療を行っています。</div>
+            だんご鼻・低い鼻・少しスッキリさせたいなどのお悩みの方に適した治療法です。
+            メスを使わずに吸収糸を使用して、鼻先の形を整えていきます。
+            FDA・CEの承認を得た医療用の素材PCLでつくられた信頼性の高い糸を用いて治療を行っています。</div>
           <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp3/area7_1_thumb01.jpg" alt="画像"> </div>
         </div>
       </div>
       <div class="box box-size">
         <h3><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/area7_1_cach03.png" alt="スレッドリフトでお肌のハリ・弾力をアップ"></h3>
         <div class="img">
-              
-            <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/area7_1_thumb04.png" alt="画像"></div>
-          
-          
-          </div>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/area7_1_thumb04.png" alt="画像"></div>
+        </div>
       </div>
     </div>
   </section>
-    
-
   <section class="area10 area-bgs" id="bg5">
     <div class="lp-inner cf">
       <div class="box">
         <h2 class="cp ls2">安心・安全な治療をご提案いたします。</h2>
         <p class="gosic">日本の厚生労働省にあたる機関であるアメリカFDAの認可の承認を得ている安全性の確立された製品を仕様しております。また、糸の素材であるPDOは、韓国の韓国食品医薬品安全庁であるMFDSの認可も得ています。<br>
-人体に優しく、世界でも認められている糸を用いて施術しますので安心して
-ご利用いただけます。</p>
+          人体に優しく、世界でも認められている糸を用いて施術しますので安心して
+          ご利用いただけます。</p>
       </div>
     </div>
   </section>
-    
-         <?php if( have_rows('pr3',155) ): ?>
-
-    
+  <?php if( have_rows('pr3',155) ): ?>
   <section class="case area-bgs" id="bg6">
     <div class="lp-inner">
       <h2 class="gd tc">症例写真</h2>
       <div class="case-photos flex">
         <?php while ( have_rows('pr3',155) ) : the_row(); ?>
-
         <div class="case-box">
           <div class="ba-box flex">
             <div class="box">
               <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
-              <p class="gd tc"><?php the_sub_field('befor_title',155); ?></p>
+              <p class="gd tc">
+                <?php the_sub_field('befor_title',155); ?>
+              </p>
             </div>
             <div class="box">
               <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
-              <p class="gd tc"><?php the_sub_field('after_title',155); ?></p>
+              <p class="gd tc">
+                <?php the_sub_field('after_title',155); ?>
+              </p>
             </div>
             <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_arrow.png" alt=">"></div>
           </div>
-          <?php if( get_sub_field('text',155) ): ?><div class="comment cp gosic box-size"><?php the_sub_field('text',155); ?></div><?php endif; ?>
+          <?php if( get_sub_field('text',155) ): ?>
+          <div class="comment cp gosic box-size">
+            <?php the_sub_field('text',155); ?>
+          </div>
+          <?php endif; ?>
         </div>
         <?php endwhile; ?>
         <div class="note box-size">
           <h4 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/note.png" alt="注意事項"></h4>
           <p class="gosic tc pc">ごく稀に、術後は多少の腫れや突っ張り感を感じることもありますが、<br>
-通常数日で落ち着きます。</p>
+            通常数日で落ち着きます。</p>
           <p class="gosic tc sp">ごく稀に、術後は多少の腫れや突っ張り感を感じることもありますが、通常数日で落ち着きます。</p>
         </div>
       </div>
     </div>
-  </section><?php else: ?>
+  </section>
+  <?php else: ?>
   <?php endif; ?>
   <section class="infu">
     <div class="lp-inner">
@@ -234,7 +226,7 @@ FDA・CEの承認を得た医療用の素材PCLでつくられた信頼性の高
   <section class="price">
     <div class="lp-inner">
       <h2 class="gd tc">料金</h2>
-     <!-- <table class="gosic">
+      <!-- <table class="gosic">
         <thead>
           <tr>
             <th scope="col">施術名</th>
@@ -266,11 +258,11 @@ FDA・CEの承認を得た医療用の素材PCLでつくられた信頼性の高
          
         </tbody>
       </table>-->
-        
-        <table class="pt2 gosic mb35">
+      
+      <table class="pt2 gosic mb35">
         <thead>
           <tr>
-              <th scope="col">施術名</th>
+            <th scope="col">施術名</th>
             <th scope="col">本数</th>
             <th scope="col">値段(税別)</th>
           </tr>
@@ -280,32 +272,29 @@ FDA・CEの承認を得た医療用の素材PCLでつくられた信頼性の高
             <td rowspan="4"style="background-color: #e4f6fd; vertical-align: middle;" class="left">シルエットソフト</td>
             <td class="cent">2本</td>
             <td class="right">¥160,000<br>
-(1本あたり¥80,000)</td>
+              (1本あたり¥80,000)</td>
           </tr>
           <tr>
             <td class="cent">4本</td>
             <td>¥280,000<br>
-(1本あたり¥70,000)</td>
+              (1本あたり¥70,000)</td>
           </tr>
           <tr>
             <td class="cent">6本</td>
             <td>¥360,000<br>
-(1本あたり¥60,000)</td>
+              (1本あたり¥60,000)</td>
           </tr>
           <tr>
             <td class="cent">8本</td>
             <td>¥400,000<br>
-(1本あたり¥50,000)</td>
+              (1本あたり¥50,000)</td>
           </tr>
-         
         </tbody>
       </table>
-        
-        
-        <table class="pt2 gosic mb35">
+      <table class="pt2 gosic mb35">
         <thead>
           <tr>
-              <th scope="col">施術名</th>
+            <th scope="col">施術名</th>
             <th scope="col">本数</th>
             <th scope="col">値段(税別)</th>
           </tr>
@@ -316,14 +305,12 @@ FDA・CEの承認を得た医療用の素材PCLでつくられた信頼性の高
             <td>1本</td>
             <td class="right">¥60,000</td>
           </tr>
-       
         </tbody>
       </table>
-        
-        <table class="pt2 gosic mb35">
+      <table class="pt2 gosic mb35">
         <thead>
           <tr>
-              <th scope="col">施術名</th>
+            <th scope="col">施術名</th>
             <th scope="col">本数</th>
             <th scope="col">値段(税別)</th>
           </tr>
@@ -334,20 +321,17 @@ FDA・CEの承認を得た医療用の素材PCLでつくられた信頼性の高
             <td>1本</td>
             <td class="right">¥40,000</td>
           </tr>
-            
-            <tr>
+          <tr>
             <td>5本目以降</td>
             <td class="right">1本あたり¥30,000<br>
-Gコグとの併用の場合1本30000円</td>
+              Gコグとの併用の場合1本30000円</td>
           </tr>
-       
         </tbody>
       </table>
-        
-        <table class="pt2 gosic mb35">
+      <table class="pt2 gosic mb35">
         <thead>
           <tr>
-              <th scope="col">施術名</th>
+            <th scope="col">施術名</th>
             <th scope="col">本数</th>
             <th scope="col">値段(税別)</th>
           </tr>
@@ -358,24 +342,20 @@ Gコグとの併用の場合1本30000円</td>
             <td>10本</td>
             <td class="right">¥40,000</td>
           </tr>
-            
-            <tr>
+          <tr>
             <td>20本</td>
             <td class="right">¥70,000</td>
           </tr>
-            
-            <tr>
+          <tr>
             <td>30本</td>
             <td class="right">¥90,000</td>
           </tr>
-       
         </tbody>
       </table>
-        
-         <table class="pt2 gosic mb35">
+      <table class="pt2 gosic mb35">
         <thead>
           <tr class="td-bgthead">
-              <th scope="col">施術名</th>
+            <th scope="col">施術名</th>
             <th scope="col">本数</th>
             <th scope="col">値段(税別)</th>
           </tr>
@@ -386,19 +366,16 @@ Gコグとの併用の場合1本30000円</td>
             <td class="t-c-g ">1本目</td>
             <td class="t-c-g  right">¥40,000</td>
           </tr>
-            
-            <tr class="tb-bgreen2">
+          <tr class="tb-bgreen2">
             <td class="t-c-g ">2本目以降</td>
             <td class="t-c-g right">¥30,000</td>
           </tr>
-            
-          
         </tbody>
       </table>
-        <table class="pt2 gosic mb35">
+      <table class="pt2 gosic mb35">
         <thead>
           <tr class="td-bgthead">
-              <th scope="col">施術名</th>
+            <th scope="col">施術名</th>
             <th scope="col">本数</th>
             <th scope="col">値段(税別)</th>
           </tr>
@@ -409,18 +386,12 @@ Gコグとの併用の場合1本30000円</td>
             <td class="t-c-g ">1本目</td>
             <td class="t-c-g  right">¥40,000</td>
           </tr>
-            
-            <tr class="tb-bgreen2">
+          <tr class="tb-bgreen2">
             <td class="t-c-g ">2本目以降</td>
             <td class="t-c-g right">¥30,000</td>
           </tr>
-            
-          
         </tbody>
       </table>
-        
-        
-     
     </div>
   </section>
   <div class="lp-cv">
@@ -432,13 +403,13 @@ Gコグとの併用の場合1本30000円</td>
         <p class="sm tc cw time">受付時間<br>
           10:00～18:00 </p>
       </div>
-      <div class="lp-cv-btn flex">
-      <!--出力出し分け-->
-<?php if (ua_smt() == true): ?>
-<?php else: ?>
-<a href="https://fumibeauty.jp/reserve/lp-lift.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約"></a>
-<?php endif; ?>
-<!--//出力出し分け--> <a href="<?php echo home_url( '/' ); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/cv_btn2.png" alt="お問い合わせ"></a> </div>
+      <div class="lp-cv-btn flex"> 
+        <!--出力出し分け-->
+        <?php if (ua_smt() == true): ?>
+        <?php else: ?>
+        <a href="https://fumibeauty.jp/reserve/lp-lift.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約"></a>
+        <?php endif; ?>
+        <!--//出力出し分け--> <a href="<?php echo home_url( '/' ); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/cv_btn2.png" alt="お問い合わせ"></a> </div>
     </div>
   </div>
   <section class="flow bg-blue">
@@ -472,6 +443,15 @@ Gコグとの併用の場合1本30000円</td>
           <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/step3.png" alt="3"></div>
           <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step_arw.png" alt=">"></div>
         </li>
+          <li class="box-size flex">
+          <div class="text">
+            <h3 class="cblue ls1">お会計</h3>
+            <p class="gosic cblue ls1">施術の前に、お会計をお願い致します。</p>
+          </div>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step5_thumb.png" alt="診察・カウンセリング"></div>
+          <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/step4.png" alt="4"></div>
+          <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step_arw.png" alt=">"></div>
+        </li>
         <li class="box-size flex mb0">
           <div class="text">
             <h3 class="cblue ls1">施術</h3>
@@ -495,7 +475,7 @@ Gコグとの併用の場合1本30000円</td>
               array(
                 'taxonomy' => 'faq_kind',
                 'field' => 'slug',
-                'terms' => array( 's_lift','nose' )
+                'terms' => array( 's_lift', 'nose' )
               )
             ),
             'orderby' => 'date',
@@ -606,7 +586,7 @@ Gコグとの併用の場合1本30000円</td>
   <footer class="lp-footer">
     <div class="inner">
       <p class="copy cp"><small>fumi beauty cinic(ふみビューティクリニック梅田)美容皮膚科・形成外科・皮膚科<br>
-Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
+        Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
     </div>
   </footer>
   <a href="#" class="page-top bounce"><img src="<?php echo get_template_directory_uri(); ?>/img/common/scrool_up.svg" alt="scrool-up"></a> </div>
