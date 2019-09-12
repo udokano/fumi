@@ -458,7 +458,7 @@ function ua_smt() {
             <p class="gosic cblue ls1"> 痛みを極力に抑え、安全第一に責任を持って施術いたします。施術は全て有資格者が行いますのでご安心下さいませ。 </p>
           </div>
           <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step4_thumb.png" alt="施術"></div>
-          <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/step4.png" alt="4"></div>
+          <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/step5.png" alt="4"></div>
         </li>
       </ul>
     </div>

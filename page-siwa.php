@@ -174,7 +174,7 @@
       </dl>
       <dl class="flex">
         <dt> 肩こり両側</dt>
-        <dd>¥19,800</dd>
+        <dd>¥34,800</dd>
       </dl>
       <dl class="flex">
         <dt>ふくらはぎ両脚（内側・外側）両側</dt>
@@ -188,7 +188,11 @@
       </dl>
       <dl class="flex">
         <dt> 肩こり両側</dt>
-        <dd>¥24,800</dd>
+        <dd>¥74,800</dd>
+      </dl>
+      <dl class="flex">
+        <dt>肩こり両側　4回セット</dt>
+        <dd>1回あたり　¥49,800<span class="sm">(総額¥199,200)</span></dd>
       </dl>
       <dl class="flex">
         <dt>ふくらはぎ両脚（内側・外側）両側</dt>

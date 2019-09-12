@@ -251,7 +251,6 @@
         <ul>
           <li>・ヒアルロン酸</li>
           <li>・ボトックス注射</li>
-              <li>・美容内科、美容点滴</li>
         </ul>
         </a> </li>
       <li class="box-size hg-row"> <a href="<?php echo home_url( '/' ); ?>kogao">
@@ -286,6 +285,7 @@
         <h3 class="cw tc">美肌治療</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb10.jpg" alt="サムネイル"></div>
         <ul>
+            <li>・美容点滴</li> <li>・プラセンタ</li>
           <li>・メディカルエステ</li>
         </ul>
         </a> </li>

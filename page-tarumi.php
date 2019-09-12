@@ -19,7 +19,7 @@ Template Name: たるみ治療
 </section>
 <section class="ope-intro bg-cp" id="area1">
   <div class="inner flex al-cent">
-    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/thumb01.jpg" alt="サムネイル"> </div>
+    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/thumb02.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>ヒアルロン酸注入</h2>
       <p class="ls1 gosic">ほうれい線やマリオネットライン、ゴルゴライン(目の下のくぼみ)などはたるみになるしわといえます。ヒアルロン酸でお顔全体をリフトアップさせたり、気になるしわやくぼみを埋めることで、自然な印象でたるみが改善し若々しい仕上がりとなります。</p>
