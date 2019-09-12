@@ -60,33 +60,35 @@ Template Name: 小顔治療
   </div>
 </section>
 <?php if( have_rows('ope_kogao_bnls',155) ): ?>
-
 <section class="case">
   <div class="inner">
     <h2 class="tc">症例</h2>
     <div class="case-wrap flex">
-       <?php while ( have_rows('ope_kogao_bnls',155) ) : the_row(); ?>
-            <div class="case-box flex">
-           <div class="box">
+      <?php while ( have_rows('ope_kogao_bnls',155) ) : the_row(); ?>
+      <div class="case-box flex">
+        <div class="box">
           <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
-          <p class="gosic tc"><?php the_sub_field('befor_txt',155); ?></p>
+          <p class="gosic tc">
+            <?php the_sub_field('befor_txt',155); ?>
+          </p>
         </div>
         <div class="box">
           <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
-          <p class="gosic tc"><?php the_sub_field('after_txt',155); ?></p>
+          <p class="gosic tc">
+            <?php the_sub_field('after_txt',155); ?>
+          </p>
         </div>
-          
-          </div>
-          
-        <?php endwhile; ?>
+      </div>
+      <?php endwhile; ?>
     </div>
     <div class="note box-size gosic">
       <p>リスク副作用</p>
       <p>・個人差がありますが、赤み、浮腫み感、腫れ、内出血などが発生する場合がございます。</p>
     </div>
   </div>
-</section><?php else: ?>
-  <?php endif; ?>
+</section>
+<?php else: ?>
+<?php endif; ?>
 <!--<section class="bg-cg2 kuchikomi">
   <div class="inner-box2">
     <div class="kuchikomi-slide slide-area">
@@ -121,19 +123,15 @@ Template Name: 小顔治療
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">BNLS/脂肪分解注射料金</h2>
-   
-   
-    
     <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">回数</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
-        <dt>BNLS</dt>
-        <dd>お問い合わせください</dd>
+        <dt>BNLSneo  1cc</dt>
+        <dd>¥9,800</dd>
       </dl>
-      
     </div>
   </div>
 </section>
@@ -172,13 +170,12 @@ Template Name: 小顔治療
   </div>
 </section>
 <section class="ope-intro bg-cp" id="area2">
-  <div class="inner flex al-cent">
-    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/thumb01.jpg" alt="サムネイル"> </div>
-    <div class="text box-size">
-      <h2>ボトックスリフト</h2>
-      <p class="ls1 gosic">引き締めを目的としてボトックスを細かく注射する方法です。表情じわを改善するボトックスと違い、ボトックスを皮膚のごく表面に浅く細かく注入する事でお顔を引き締めたり引き上げる治療です。1週間から10日おきに数回行うとより効果的です。 </p>
-    </div>
- 
+<div class="inner flex al-cent">
+<div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/thumb01.jpg" alt="サムネイル"> </div>
+<div class="text box-size">
+  <h2>ボトックスリフト</h2>
+  <p class="ls1 gosic">引き締めを目的としてボトックスを細かく注射する方法です。表情じわを改善するボトックスと違い、ボトックスを皮膚のごく表面に浅く細かく注入する事でお顔を引き締めたり引き上げる治療です。1週間から10日おきに数回行うとより効果的です。 </p>
+</div>
 </section>
 <section class="features layout1">
   <div class="inner-box2">
@@ -199,76 +196,70 @@ Template Name: 小顔治療
         <p class="gosic">ボトックスを注入することで、筋肉の表面繊維だけの働きを弱めて、皮膚の表面を滑らかにします。</p>
       </div>
     </div>
- 
     <div class="box">
       <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/point06.jpg" alt="ポイントエリアサムネイル"></div>
       <div class="desc box-size bg-grade">
         <div class="points f-ryu cw">Point.3</div>
         <h3 class="gd ls1">フェイスラインを<br>
-美しくする</h3>
+          美しくする</h3>
         <p class="gosic">アゴから首に、ほうれいせんの横の肉、眼の下のたるみに対するリフトアップ効果が期待できます。</p>
       </div>
-      </div> </div>
+    </div>
+  </div>
 </section>
-
 <section class="infu-point">
   <div class="inner">
     <h2 class="cp tc goisc ls1">注入部位</h2>
     <div class="img"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/img02.png" alt="注入部位"> </div>
   </div>
 </section>
-
-
 <?php if( have_rows('ope_kogao_btxlift',155) ): ?>
-
 <section class="case">
   <div class="inner">
     <h2 class="tc">症例</h2>
     <div class="case-wrap flex">
-       <?php while ( have_rows('ope_kogao_btxlift',155) ) : the_row(); ?>
-            <div class="case-box flex">
-           <div class="box">
+      <?php while ( have_rows('ope_kogao_btxlift',155) ) : the_row(); ?>
+      <div class="case-box flex">
+        <div class="box">
           <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
-          <p class="gosic tc"><?php the_sub_field('befor_txt',155); ?></p>
+          <p class="gosic tc">
+            <?php the_sub_field('befor_txt',155); ?>
+          </p>
         </div>
         <div class="box">
           <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
-          <p class="gosic tc"><?php the_sub_field('after_txt',155); ?></p>
+          <p class="gosic tc">
+            <?php the_sub_field('after_txt',155); ?>
+          </p>
         </div>
-          
-          </div>
-          
-        <?php endwhile; ?>
-    
+      </div>
+      <?php endwhile; ?>
     </div>
     <div class="note box-size gosic">
       <p>リスク副作用</p>
       <p>・個人差がありますが、腫れなどが発生する場合がございます。</p>
     </div>
   </div>
-</section><?php else: ?>
-  <?php endif; ?>
+</section>
+<?php else: ?>
+<?php endif; ?>
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">ボトックスリフト料金</h2>
     <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。<br>
-ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
+      ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
     <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。
-ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
-      
-       <div class="price-list gosic">
+      ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
+    <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">&nbsp;</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
-        <dt>ボトックスリフト(ネフェルティティリフト)</dt>
+        <dt>ボトックスリフト</dt>
         <dd>¥68,000</dd>
       </dl>
-         
-      
     </div>
-      
   </div>
 </section>
 <section class="ope-faq">
@@ -322,7 +313,7 @@ Template Name: 小顔治療
       <div class="desc box-size bg-grade">
         <div class="points f-ryu cw">Point.1</div>
         <h3 class="gd ls1">エラの張りを<br>
-改善して小顔効果</h3>
+          改善して小顔効果</h3>
         <p class="gosic">エラにボトックスを注入して、咬筋を小さくしてエラ張りを縮小し、小顔効果が得られます。</p>
       </div>
     </div>
@@ -334,7 +325,6 @@ Template Name: 小顔治療
         <p class="gosic">噛み締めで頭痛・肩こり・歯への負担(噛み締め）がある方は、それらの症状も軽減されます。</p>
       </div>
     </div>
-    
   </div>
 </section>
 <section class="infu-point">
@@ -344,39 +334,40 @@ Template Name: 小顔治療
   </div>
 </section>
 <?php if( have_rows('ope_kogao_btxela',155) ): ?>
-
 <section class="case">
   <div class="inner">
     <h2 class="tc">症例</h2>
     <div class="case-wrap flex">
-       <?php while ( have_rows('ope_kogao_btxela',155) ) : the_row(); ?>
-            <div class="case-box flex">
-           <div class="box">
+      <?php while ( have_rows('ope_kogao_btxela',155) ) : the_row(); ?>
+      <div class="case-box flex">
+        <div class="box">
           <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
-          <p class="gosic tc"><?php the_sub_field('befor_txt',155); ?></p>
+          <p class="gosic tc">
+            <?php the_sub_field('befor_txt',155); ?>
+          </p>
         </div>
         <div class="box">
           <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
-          <p class="gosic tc"><?php the_sub_field('after_txt',155); ?></p>
+          <p class="gosic tc">
+            <?php the_sub_field('after_txt',155); ?>
+          </p>
         </div>
-          
-          </div>
-          
-        <?php endwhile; ?>
-    
+      </div>
+      <?php endwhile; ?>
     </div>
     <div class="note box-size gosic">
       <p>リスク副作用</p>
       <p>・個人差がありますが、腫れなどが発生する場合がございます。</p>
     </div>
   </div>
-</section><?php else: ?>
-  <?php endif; ?>
+</section>
+<?php else: ?>
+<?php endif; ?>
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">エラボトックス料金</h2>
-      <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。<br>
-ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
+    <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。<br>
+      ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
     <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
     <div class="price-list gosic">
       <dl class="flex">
@@ -385,7 +376,7 @@ Template Name: 小顔治療
       </dl>
       <dl class="flex">
         <dt>エラボトックス</dt>
-        <dd>¥49,800</dd>
+        <dd>¥50,000</dd>
       </dl>
     </div>
   </div>
@@ -454,23 +445,23 @@ Template Name: 小顔治療
         <div class="left">
           <div class="top">
             <div class="step points f-ryu cw">STEP 03</div>
-            <h3 class="f-bold">施術開始</h3>
+            <h3 class="f-bold">お会計</h3>
           </div>
-          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_1.jpg" alt="施術開始"></div>
-          <p class="gosic ls1">痛みを極力に抑え、安全第一に責任を持って施術いたします。施術は全て有資格者が行うので、ご安心くださいませ。</p>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow05.jpg" alt="お会計"></div>
+          <p class="gosic ls1">施術の前にお会計をお願い致します。</p>
         </div>
-        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_1.jpg" alt="施術開始"></div>
+        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow05.jpg" alt="お会計"></div>
       </li>
       <li class="box-size flex">
         <div class="left">
           <div class="top">
             <div class="step points f-ryu cw">STEP 04</div>
-            <h3 class="f-bold">施術終了・お会計</h3>
+            <h3 class="f-bold">施術開始</h3>
           </div>
-          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow04.jpg" alt="施術終了・お会計"></div>
-          <p class="gosic ls1">治療が終了したら、お会計をして、そのままお帰りいただけます。</p>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_1.jpg" alt="施術終了"></div>
+          <p class="gosic ls1">痛みを極力に抑え、安全第一に責任を持って施術いたします。施術は全て有資格者が行うので、ご安心くださいませ。</p>
         </div>
-        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow04.jpg" alt="施術終了・お会計"></div>
+        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_1.jpg" alt="施術終了"></div>
       </li>
     </ul>
   </div>

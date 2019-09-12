@@ -659,6 +659,10 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
     flex-wrap: wrap;
 }
 
+.ff-row-reverse {
+    flex-flow: row-reverse;
+}
+
 .box-size {
     box-sizing: border-box;
 }

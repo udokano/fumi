@@ -26,27 +26,7 @@
     <div class="header-inner flex al-cent">
       <div class="logo tc"><a href="<?php echo home_url( '/' ); ?>">
           <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo.png" alt="FMUI BEAUTY CLINIC"></a></div>
-      <nav class="navi pc-dis">
-        <ul class="flex">
-          <li><a href="<?php echo home_url( '/' ); ?>concept">当院について</a></li>
-          <li class="navi-parent"><a href="<?php echo home_url( '/' ); ?>">施術・料金</a>
-            <ul class="nav-child">
-                              <li><a href="<?php echo home_url( '/' ); ?>siwa">しわ治療</a></li>
-                 <li><a href="<?php echo home_url( '/' ); ?>tarumi">たるみ治療</a></li>
-                 <li><a href="<?php echo home_url( '/' ); ?>kogao">小顔治療</a></li>
-                 <li><a href="<?php echo home_url( '/' ); ?>nose-lift">鼻の糸</a></li>
-                 <li><a href="<?php echo home_url( '/' ); ?>keiseigeka">形成外科治療</a></li>
-                 <li><a href="<?php echo home_url( '/' ); ?>medikaru">美肌治療</a></li>
-
-              
-              </ul>
-            
-            </li>
-          <li><a href="<?php echo home_url( '/' ); ?>access">アクセス</a></li>
-          <li><a href="<?php echo home_url( '/' ); ?>doctor">ドクター紹介</a></li>
-          <li><a href="<?php echo home_url( '/' ); ?>recruit">採用情報</a></li>
-        </ul>
-      </nav>
-      <div class="top-cv-btn"> <a class="bg-rs cv-btns" href="https://fumibeauty.reserve.ne.jp/" target="_blank"><span>来院予約</span></a> <a class="bg-ct cv-btns" href="<?php echo home_url( '/' ); ?>contact"><span>お問合わせ</span></a> </div>
+      
+      <div class="top-cv-btn"> <a class="bg-rs cv-btns" href="https://fumibeauty.reserve.ne.jp/" target="_blank"><span>来院予約</span></a> <a class="bg-ct cv-btns" href="<?php echo home_url( '/' ); ?>contact-list"><span>お問合わせ</span></a> </div>
     </div>
   </header>

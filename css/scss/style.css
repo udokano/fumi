@@ -430,6 +430,9 @@ body.page {
 .fw {
   flex-wrap: wrap; }
 
+.ff-row-reverse {
+  flex-flow: row-reverse; }
+
 .box-size {
   box-sizing: border-box; }
 
@@ -819,16 +822,18 @@ body.page {
 footer {
   margin-bottom: 60px; }
   footer .inner .navi {
-    width: 80%;
-    min-width: 700px; }
+    width: 70%;
+    min-width: 400px; }
     footer .inner .navi ul {
       justify-content: flex-start; }
       footer .inner .navi ul li {
         margin: 0;
-        margin-right: 3.5%; }
+        margin-right: 3%; }
+        footer .inner .navi ul li a {
+          font-size: .9rem; }
   footer .inner .copy {
     font-size: .7rem;
-    width: 410px; }
+    width: 520px; }
 
 @media (max-width: 767px) {
   footer {
@@ -935,7 +940,7 @@ footer {
 footer.pages {
   border-top: 1px solid #dddddd; }
   footer.pages .pages-footer-box {
-    width: 520px;
+    width: 540px;
     margin: 50px auto 60px; }
     footer.pages .pages-footer-box .f-logo {
       width: 180px; }
@@ -950,7 +955,7 @@ footer.pages {
       footer.pages .pages-footer-box .left .tel {
         display: block; }
   footer.pages .copy {
-    width: 445px; }
+    width: 510px; }
 
 @media (max-width: 767px) {
   footer.pages .pages-footer-box {
@@ -967,6 +972,14 @@ footer.pages {
   footer.pages .copy {
     width: auto;
     text-align: center; } }
+footer.pages.list-footer {
+  margin-bottom: 20px; }
+  footer.pages.list-footer .copy {
+    margin: auto; }
+
+@media (max-width: 767px) {
+  footer.pages.list-footer {
+    padding-bottom: 0; } }
 /*top Page*/
 #bg1 {
   background-image: url("../img/top/bg01.jpg"); }
@@ -1383,7 +1396,8 @@ footer.pages {
     display: block;
     font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif"; }
 .slides .inner .right-slide .slide-in .thumb {
-  width: 38%; }
+  width: 38%;
+  height: 283px; }
   .slides .inner .right-slide .slide-in .thumb img {
     width: 100%;
     height: 100%;
@@ -1556,10 +1570,10 @@ footer.pages {
     width: 48%; }
     .access-info .inner .cont .text h2 {
       margin-top: -7px;
-      margin-bottom: 45px;
+      margin-bottom: 23px;
       font-size: 1.62rem; }
     .access-info .inner .cont .text dl {
-      margin-bottom: 18px;
+      margin-bottom: 16px;
       justify-content: flex-start;
       align-items: flex-start; }
       .access-info .inner .cont .text dl dt {
@@ -1622,7 +1636,7 @@ footer.pages {
     width: 94%;
     margin: auto; }
     .access-info .inner .cont {
-      margin-bottom: 60px;
+      margin-bottom: 0px;
       display: block; }
       .access-info .inner .cont .thumb {
         width: 90%;
@@ -1806,36 +1820,38 @@ footer.pages {
     line-height: 1.9;
     letter-spacing: 1px;
     margin-bottom: 45px; }
-  .ope-top-desc .ancor-box {
-    text-align: center; }
-    .ope-top-desc .ancor-box a {
-      position: relative;
-      color: #454545;
-      border: 1px solid #454545;
-      width: 200px;
-      display: inline-block;
-      margin: 0 12px;
-      padding: 10px 0 25px;
+
+/*アンカー*/
+.ancor-box {
+  text-align: center; }
+  .ancor-box a {
+    position: relative;
+    color: #454545;
+    border: 1px solid #454545;
+    width: 200px;
+    display: inline-block;
+    margin: 0 12px;
+    padding: 10px 0 25px;
+    transition: .3s ease-in; }
+    .ancor-box a::after {
+      content: "";
+      position: absolute;
+      bottom: 8px;
+      left: 50%;
+      width: 12px;
+      height: 12px;
+      border-right: 1px solid #454545;
+      border-top: 1px solid #454545;
+      transform: translateX(-50%) rotate(135deg);
       transition: .3s ease-in; }
-      .ope-top-desc .ancor-box a::after {
-        content: "";
-        position: absolute;
-        bottom: 8px;
-        left: 50%;
-        width: 12px;
-        height: 12px;
-        border-right: 1px solid #454545;
-        border-top: 1px solid #454545;
-        transform: translateX(-50%) rotate(135deg);
-        transition: .3s ease-in; }
-      .ope-top-desc .ancor-box a:hover {
+    .ancor-box a:hover {
+      border-color: #fff;
+      background-color: #454545;
+      color: #fff;
+      opacity: 1; }
+      .ancor-box a:hover::after {
         border-color: #fff;
-        background-color: #454545;
-        color: #fff;
         opacity: 1; }
-        .ope-top-desc .ancor-box a:hover::after {
-          border-color: #fff;
-          opacity: 1; }
 
 @media (max-width: 767px) {
   .ope-top-desc {
@@ -1843,12 +1859,13 @@ footer.pages {
     margin: 0 auto 60px; }
     .ope-top-desc p {
       margin-bottom: 45px; }
-    .ope-top-desc .ancor-box {
-      text-align: center; }
-      .ope-top-desc .ancor-box a {
-        width: 40%;
-        margin: 0 12px 25px;
-        padding: 10px 0 25px; } }
+
+  .ancor-box {
+    text-align: center; }
+    .ancor-box a {
+      width: 40%;
+      margin: 0 12px 25px;
+      padding: 10px 0 25px; } }
 .ope-intro .inner .text {
   width: 700px; }
   .ope-intro .inner .text h2 {
@@ -2043,6 +2060,15 @@ footer.pages {
       padding-left: 1em; }
     .price .inner-box2 .price-list dl dd {
       padding-right: 1em; }
+
+/*メディカルエステ料金説明*/
+.desc-box {
+  margin: 20px 0 45px;
+  padding: 25px 30px;
+  font-size: 1.1rem;
+  background-color: #f8f8f8; }
+  .desc-box p {
+    margin-top: 20px; }
 
 /*施術の流れ*/
 .flow .inner h2 {

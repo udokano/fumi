@@ -19,7 +19,7 @@ Template Name: たるみ治療
 </section>
 <section class="ope-intro bg-cp" id="area1">
   <div class="inner flex al-cent">
-    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/thumb01.jpg" alt="サムネイル"> </div>
+    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/thumb02.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>ヒアルロン酸注入</h2>
       <p class="ls1 gosic">ほうれい線やマリオネットライン、ゴルゴライン(目の下のくぼみ)などはたるみになるしわといえます。ヒアルロン酸でお顔全体をリフトアップさせたり、気になるしわやくぼみを埋めることで、自然な印象でたるみが改善し若々しい仕上がりとなります。</p>
@@ -30,20 +30,29 @@ Template Name: たるみ治療
   <div class="inner-box2">
     <h2 class="cp gosic tc ls1">ヒアルロン酸の特徴</h2>
     <div class="box">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/point04.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.1</div>
+        <h3 class="gd ls1">リフトアップして<br>
+        しわを改善</h3>
+        <p class="gosic">お顔のたるみを直して、リフトアップと同時にしわも改善します。</p>
+      </div>
+    </div>
+    <div class="box cf">
       <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/point04.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.2</div>
+        <h3 class="gd ls1">自然な仕上がり</h3>
+        <p class="gosic">いかにも、ヒアルロンを注入したような不自然なバランスになることはなく、患者様お一人お一人のお顔にあった自然な仕上がりを目指しています。</p>
+      </div>
+    </div>
+      <div class="box">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/point05.jpg" alt="ポイントエリアサムネイル"></div>
       <div class="desc box-size bg-grade">
         <div class="points f-ryu cw">Point.1</div>
         <h3 class="gd ls1">顔全体のバランスを<br>
           整える</h3>
         <p class="gosic">気になる部位にヒアルロン酸を注入して、お顔全体を黄金バランスにより近づくようにします。</p>
-      </div>
-    </div>
-    <div class="box cf">
-      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/point05.jpg" alt="ポイントエリアサムネイル"></div>
-      <div class="desc box-size bg-grade">
-        <div class="points f-ryu cw">Point.2</div>
-        <h3 class="gd ls1">自然な仕上がり</h3>
-        <p class="gosic">いかにも、ヒアルロンを注入したような不自然なバランスになることはなく、患者様お一人お一人のお顔にあった自然な仕上がりを目指しています。</p>
       </div>
     </div>
   </div>
@@ -118,7 +127,7 @@ Template Name: たるみ治療
         <dd>¥10,000</dd>
       </dl>
     </div>
-    <div class="price-list gosic">
+    <div class="price-list gosic mb45">
       <dl class="flex">
         <dt class="fw600">クレビエルコントア(あご形成)</dt>
         <dd class="f-bold">税別</dd>
@@ -127,11 +136,8 @@ Template Name: たるみ治療
         <dt>0.1cc</dt>
         <dd>¥13,000</dd>
       </dl>
-      <dl class="flex">
-        <dt>&nbsp;</dt>
-        <dd>＊カニューレを使用する場合は別途＋¥1,250</dd>
-      </dl>
     </div>
+       <p class="note gosic">＊カニューレを使用する場合は別途＋¥1,250(税別)</p>
   </div>
 </section>
 <section class="ope-faq">
@@ -406,23 +412,23 @@ Gコグとの併用の場合1本30000円</dd>
         <div class="left">
           <div class="top">
             <div class="step points f-ryu cw">STEP 03</div>
-            <h3 class="f-bold">施術開始</h3>
+            <h3 class="f-bold">お会計</h3>
           </div>
-          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_1.jpg" alt="施術開始"></div>
-          <p class="gosic ls1">痛みを極力に抑え、安全第一に責任を持って施術いたします。施術は全て有資格者が行うので、ご安心くださいませ。</p>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow05.jpg" alt="施術開始"></div>
+          <p class="gosic ls1">施術の前にお会計をお願いいたします。</p>
         </div>
-        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_1.jpg" alt="施術開始"></div>
+        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow05.jpg" alt="施術開始"></div>
       </li>
       <li class="box-size flex">
         <div class="left">
           <div class="top">
             <div class="step points f-ryu cw">STEP 04</div>
-            <h3 class="f-bold">施術終了・お会計</h3>
+            <h3 class="f-bold">施術開始</h3>
           </div>
-          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow04.jpg" alt="施術終了・お会計"></div>
-          <p class="gosic ls1">治療が終了したら、お会計をして、そのままお帰りいただけます。</p>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_1.jpg" alt="施術終了・お会計"></div>
+          <p class="gosic ls1">痛みを極力に抑え、安全第一に責任を持って施術いたします。施術は全て有資格者が行うので、ご安心くださいませ。</p>
         </div>
-        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow04.jpg" alt="施術終了・お会計"></div>
+        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_1.jpg" alt="施術終了・お会計"></div>
       </li>
     </ul>
   </div>
