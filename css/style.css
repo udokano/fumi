@@ -1373,6 +1373,42 @@ footer.pages.list-footer .copy {
        object-fit: cover;
   }
 }
+.card .inner .cont {
+  width: 740px;
+  margin: auto;
+  background-color: #f8f8f8;
+  padding: 35px;
+}
+.card .inner .cont h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+.card .inner .cont p {
+  color: #454545;
+  margin-bottom: 32px;
+}
+.card .inner .cont .thumb {
+  width: 74%;
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  .card .inner .cont {
+    width: 96%;
+    padding: 4.7%;
+  }
+  .card .inner .cont h2 {
+    font-size: 1.4rem;
+  }
+  .card .inner .cont p {
+    color: #454545;
+    margin-bottom: 32px;
+  }
+  .card .inner .cont .thumb {
+    width: 90%;
+    margin: auto;
+  }
+}
 .concept {
   height: 800px;
   position: relative;
@@ -2857,6 +2893,10 @@ footer.pages.list-footer .copy {
 .flow .inner ul li .left p {
   font-size: 0.97rem;
 }
+.flow .inner ul li .left .card-img {
+  padding-top: 30px;
+  width: 60%;
+}
 
 /*よくある質問*/
 .ope-faq .inner h2 {
@@ -3161,6 +3201,9 @@ footer.pages.list-footer .copy {
   }
   .flow .inner ul li .left p {
     font-size: 0.97rem;
+  }
+  .flow .inner ul li .left .card-img {
+    width: 100%;
   }
 
   /*よくある質問*/

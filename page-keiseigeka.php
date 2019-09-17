@@ -49,25 +49,51 @@ Template Name: 形成外科治療
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">料金表</h2>
-    <div class="price-list gosic">
+    <div class="price-list gosic mb60">
       <dl class="flex">
-        <dt>内容</dt>
+        <dt class="fw600">ホクロ</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
-        <dt>色素性母斑(ホクロ)</dt>
-        <dd>お問い合わせください</dd>
+        <dt>レーザー治療</dt>
+        <dd>¥6,000〜</dd>
       </dl>
       <dl class="flex">
-        <dt>皮膚良性腫瘍</dt>
-        <dd>お問い合わせください</dd>
+        <dt>&nbsp;</dt>
+        <dd>＊レーザー治療ではなく、切開摘出手術が必要な場合がございます。その場合は保険適応となります。</dd>
+      </dl>
+    </div>
+    <div class="price-list gosic mb60">
+      <dl class="flex">
+        <dt class="fw600">巻き爪</dt>
+        <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
-        <dt>肥厚性瘢痕・ケロイド</dt>
-        <dd>お問い合わせください</dd>
+        <dt>軽度〜中等度  ワイヤー療法</dt>
+        <dd>¥12,000</dd>
       </dl>
       <dl class="flex">
-        <dt>巻き爪・陥入爪</dt>
+        <dt>重度  フェノール法</dt>
+        <dd>保険適応</dd>
+      </dl>
+    </div>
+    <div class="price-list gosic mb60">
+      <dl class="flex">
+        <dt class="fw600">瘢痕、ケロイド</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>瘢痕、ケロイド</dt>
+        <dd>お問い合わせください</dd>
+      </dl>
+    </div>
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">皮膚良性腫瘍(粉瘤など)</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>皮膚良性腫瘍(粉瘤など)</dt>
         <dd>お問い合わせください</dd>
       </dl>
     </div>
