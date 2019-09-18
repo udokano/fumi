@@ -371,32 +371,20 @@
         </a> </div>
     </div>
   </section>
-    
-    <section class="card">
-    
-        <div class="inner">
-        
-            <div class="cont tc box-size gosic ls1">
-                    <?php if ( wp_is_mobile() ) : ?>
- <h2>クレジットカードの<br>
-ご利用について</h2>
-<?php else: ?>
-<h2>クレジットカードのご利用について</h2><?php endif; ?>
-
-                
-                
-                <p>当院では下記のクレジットカードのご利用が可能です。</p>
-                <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/common/card.png" alt="クレジットカード"></div>
-            
-            
-            </div>
-        
-        
-        </div>
-    
-    
-    </section>
-    
+  <section class="card">
+    <div class="inner">
+      <div class="cont tc box-size gosic ls1">
+        <?php if ( wp_is_mobile() ) : ?>
+        <h2>クレジットカードの<br>
+          ご利用について</h2>
+        <?php else: ?>
+        <h2>クレジットカードのご利用について</h2>
+        <?php endif; ?>
+        <p>当院では下記のクレジットカードのご利用が可能です。</p>
+        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/common/card.png?0918" alt="クレジットカード"></div>
+      </div>
+    </div>
+  </section>
   <section class="map">
     <div class="inner" id="map"></div>
   </section>

@@ -445,7 +445,7 @@
           <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow05.jpg" alt="お会計"></div>
           <p class="gosic ls1">施術の前にお会計をお願いいたします。<br>
 当院は、下記のクレジットカードのご利用が可能です。</p>
-            <div class="card-img"><img src="<?php echo get_template_directory_uri(); ?>/img/common/card.png" alt="カード"></div>
+            <div class="card-img"><img src="<?php echo get_template_directory_uri(); ?>/img/common/card.png?0918" alt="カード"></div>
         </div>
         <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow05.jpg" alt="お会計"></div>
       </li>
