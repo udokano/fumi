@@ -41,6 +41,65 @@
 }
 
 
+.card {
+    .inner {
+        .cont {
+            width: 740px;
+            margin: auto;
+            background-color: #f8f8f8;
+            padding: 35px;
+            
+            h2 {
+                font-size: 1.8rem;
+                margin-bottom: 20px;
+            }
+            
+            p {
+                color: #454545;
+                margin-bottom: 32px;
+            }
+            
+            .thumb {
+                width: 74%;
+                margin: auto;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 767px) {
+    
+    
+ .card {
+    .inner {
+        .cont {
+            width: 96%;
+            padding: 4.7%;
+            
+            h2 {
+                font-size: 1.4rem;
+            }
+            
+            p {
+                color: #454545;
+                margin-bottom: 32px;
+            }
+            
+            .thumb {
+                width: 90%;
+                margin: auto;
+            }
+        }
+    }
+}
+   
+    
+    
+    
+    
+}
+
 .concept {
     height: 800px;
     position: relative;

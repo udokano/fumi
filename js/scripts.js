@@ -66,9 +66,8 @@ $(this).stop().addClass('fade-in');
     
 var mySwiper = new Swiper ('.swiper1', {
   loop: true,
-  initialSlide: 1,
+  initialSlide: 0,
   slidesPerView: 1,
-
   paginationClickable: true,
      nextButton: '.swiper-button-next',
      prevButton: '.swiper-button-prev',

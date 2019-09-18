@@ -460,7 +460,9 @@ Template Name: ランディングページヒアルロン酸
           <li class="box-size flex">
           <div class="text">
             <h3 class="cp ls1">お会計</h3>
-            <p class="gosic cp ls1">施術の前に、お会計をお願い致します。</p>
+            <p class="gosic cp ls1">施術の前にお会計をお願いいたします。<br>
+当院は、下記のクレジットカードのご利用が可能です。</p>
+              <div class="card-img"><img src="<?php echo get_template_directory_uri(); ?>/img/common/card.png" alt="カード"></div>
           </div>
           <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step5_thumb.png" alt="診察・カウンセリング"></div>
           <div class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/step4.png" alt="4"></div>

@@ -1011,12 +1011,12 @@ table td .sm {
                 background-color: #fff;
                 border-radius: 14px;
                 position: relative;
-                height: 194px;
+                height: 220px;
                 margin-bottom: 70px;
                 .text {
                     padding: 38px 22px 0;
                     padding-left: 80px;
-                    width: 78%;
+                    width: 67%;
                     h3 {
                         margin-bottom: 12px;
                         font-size: 2.1rem;
@@ -1024,11 +1024,20 @@ table td .sm {
                 }
                 
                 .thumb {
-                    width: 24%;
+                    width: 31%;
                     height: 100%;
+                    border-radius: 0 14px 14px 0;
+                    overflow: hidden;
                     img {
-                       width: auto;
+                       width: 100%;
+                        height: 100%;
+                        object-fit: cover;
                     }
+                }
+                
+                .card-img {
+                    width: 54%;
+                    padding-top: 10px;
                 }
                 
                 .num {
@@ -1085,6 +1094,10 @@ table td .sm {
                         height: 100%;
                         object-fit: cover;
                     }
+                }
+                
+                .card-img {
+                    width: 100%;
                 }
                 
                 .num {

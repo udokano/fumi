@@ -34,7 +34,7 @@ Template Name: たるみ治療
       <div class="desc box-size bg-grade">
         <div class="points f-ryu cw">Point.1</div>
         <h3 class="gd ls1">リフトアップして<br>
-        しわを改善</h3>
+          しわを改善</h3>
         <p class="gosic">お顔のたるみを直して、リフトアップと同時にしわも改善します。</p>
       </div>
     </div>
@@ -46,7 +46,7 @@ Template Name: たるみ治療
         <p class="gosic">いかにも、ヒアルロンを注入したような不自然なバランスになることはなく、患者様お一人お一人のお顔にあった自然な仕上がりを目指しています。</p>
       </div>
     </div>
-      <div class="box">
+    <div class="box">
       <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/point05.jpg" alt="ポイントエリアサムネイル"></div>
       <div class="desc box-size bg-grade">
         <div class="points f-ryu cw">Point.1</div>
@@ -57,27 +57,27 @@ Template Name: たるみ治療
     </div>
   </div>
 </section>
-          <?php if( have_rows('ope_tarumi_hel',155) ): ?>
-
+<?php if( have_rows('ope_tarumi_hel',155) ): ?>
 <section class="case">
   <div class="inner">
     <h2 class="tc">症例</h2>
     <div class="case-wrap flex">
-       <?php while ( have_rows('ope_tarumi_hel',155) ) : the_row(); ?>
-            <div class="case-box flex">
-           <div class="box">
+      <?php while ( have_rows('ope_tarumi_hel',155) ) : the_row(); ?>
+      <div class="case-box flex">
+        <div class="box">
           <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
-          <p class="gosic tc"><?php the_sub_field('befor_txt',155); ?></p>
+          <p class="gosic tc">
+            <?php the_sub_field('befor_txt',155); ?>
+          </p>
         </div>
         <div class="box">
           <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
-          <p class="gosic tc"><?php the_sub_field('after_txt',155); ?></p>
+          <p class="gosic tc">
+            <?php the_sub_field('after_txt',155); ?>
+          </p>
         </div>
-          
-          </div>
-          
-        <?php endwhile; ?>
-     
+      </div>
+      <?php endwhile; ?>
     </div>
     <div class="note box-size gosic">
       <p>リスク副作用</p>
@@ -85,10 +85,8 @@ Template Name: たるみ治療
     </div>
   </div>
 </section>
-
- <?php else: ?>
-  <?php endif; ?>
-  
+<?php else: ?>
+<?php endif; ?>
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">ヒアルロン酸注入料金</h2>
@@ -137,7 +135,7 @@ Template Name: たるみ治療
         <dd>¥13,000</dd>
       </dl>
     </div>
-       <p class="note gosic">＊カニューレを使用する場合は別途＋¥1,250(税別)</p>
+    <p class="note gosic">＊カニューレを使用する場合は別途＋¥1,250(税別)</p>
   </div>
 </section>
 <section class="ope-faq">
@@ -212,28 +210,27 @@ Template Name: たるみ治療
     </div>
   </div>
 </section>
-
 <?php if( have_rows('ope_tarumi_lift',155) ): ?>
-
 <section class="case">
   <div class="inner">
     <h2 class="tc">症例</h2>
     <div class="case-wrap flex">
-       <?php while ( have_rows('ope_tarumi_lift',155) ) : the_row(); ?>
-            <div class="case-box flex">
-           <div class="box">
+      <?php while ( have_rows('ope_tarumi_lift',155) ) : the_row(); ?>
+      <div class="case-box flex">
+        <div class="box">
           <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
-          <p class="gosic tc"><?php the_sub_field('befor_txt',155); ?></p>
+          <p class="gosic tc">
+            <?php the_sub_field('befor_txt',155); ?>
+          </p>
         </div>
         <div class="box">
           <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
-          <p class="gosic tc"><?php the_sub_field('after_txt',155); ?></p>
+          <p class="gosic tc">
+            <?php the_sub_field('after_txt',155); ?>
+          </p>
         </div>
-          
-          </div>
-          
-        <?php endwhile; ?>
-      
+      </div>
+      <?php endwhile; ?>
     </div>
     <div class="note box-size gosic">
       <p>リスク副作用</p>
@@ -241,8 +238,9 @@ Template Name: たるみ治療
         通常数日で落ち着きます。</p>
     </div>
   </div>
-</section><?php else: ?>
-  <?php endif; ?>
+</section>
+<?php else: ?>
+<?php endif; ?>
 <!--<section class="bg-cg2 kuchikomi">
   <div class="inner-box2">
     <div class="kuchikomi-slide slide-area">
@@ -309,8 +307,7 @@ Template Name: たるみ治療
         <dd>¥60,000</dd>
       </dl>
     </div>
-      
-      <div class="price-list gosic">
+    <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">VOVリフト</dt>
         <dd class="f-bold">税別</dd>
@@ -319,14 +316,13 @@ Template Name: たるみ治療
         <dt> 1本</dt>
         <dd>¥40,000</dd>
       </dl>
-          <dl class="flex">
+      <dl class="flex">
         <dt> 5本目以降</dt>
         <dd>1本あたり¥30,000<br>
-Gコグとの併用の場合1本30000円</dd>
+          Gコグとの併用の場合1本30000円</dd>
       </dl>
     </div>
-      
-      <div class="price-list gosic">
+    <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">引き締め系ショートスレッド</dt>
         <dd class="f-bold">税別</dd>
@@ -335,11 +331,11 @@ Gコグとの併用の場合1本30000円</dd>
         <dt> 10本</dt>
         <dd>¥40,000</dd>
       </dl>
-          <dl class="flex">
+      <dl class="flex">
         <dt> 20本</dt>
         <dd>¥70,000</dd>
       </dl>
-          <dl class="flex">
+      <dl class="flex">
         <dt> 30本</dt>
         <dd>¥90,000</dd>
       </dl>
@@ -381,7 +377,6 @@ Gコグとの併用の場合1本30000円</dd>
     <?php endwhile; wp_reset_postdata(); ?>
   </div>
 </section>
-
 <section class="flow">
   <div class="inner">
     <h2 class="tc ls1">施術の流れ</h2>
@@ -415,7 +410,9 @@ Gコグとの併用の場合1本30000円</dd>
             <h3 class="f-bold">お会計</h3>
           </div>
           <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow05.jpg" alt="施術開始"></div>
-          <p class="gosic ls1">施術の前にお会計をお願いいたします。</p>
+          <p class="gosic ls1">施術の前にお会計をお願いいたします。<br>
+            当院は、下記のクレジットカードのご利用が可能です。</p>
+          <div class="card-img"><img src="<?php echo get_template_directory_uri(); ?>/img/common/card.png" alt="カード"></div>
         </div>
         <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow05.jpg" alt="施術開始"></div>
       </li>

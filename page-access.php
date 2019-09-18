@@ -55,7 +55,8 @@ Template Name: アクセス
 
 <p class="map-link"><a href="https://www.google.com/maps/place/%E3%80%92530-0012+%E5%A4%A7%E9%98%AA%E5%BA%9C%E5%A4%A7%E9%98%AA%E5%B8%82%E5%8C%97%E5%8C%BA%E8%8A%9D%E7%94%B0%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%98%E2%88%92%EF%BC%93%EF%BC%93+%E8%8A%9D%E7%94%B0%E3%83%93%E3%83%AB/@34.7071032,135.4959917,17z/data=!4m2!3m1!1s0x6000e68fc13f248b:0xc11dcd33c073a9ec" class="cp gosic" target="_blank">GoogleMAPを開く </a></p>
 <div class="info gosic">
-  <h3 class="tc">阪急梅田駅からのアクセス方法 </h3>
+  <h3 class="tc">阪急梅田駅からのアクセス方法<br>
+    <span class="fw600 gd">徒歩4分</span></h3>
   <ul class="flex gosic">
     <li>
       <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/access/access1_1.jpg" alt="アクセス方法"> </div>
@@ -95,7 +96,8 @@ Template Name: アクセス
   </ul>
 </div>
 <div class="info gosic">
-<h3 class="tc">JR大阪駅・御堂筋線梅田からのアクセス方法</h3>
+<h3 class="tc">JR大阪駅・御堂筋線梅田からのアクセス方法<br>
+<span class="fw600 gd">徒歩6分</span></h3>
 <ul class="flex gosic">
 <li>
   <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/access/access2_1.jpg" alt="アクセス方法"> </div>
