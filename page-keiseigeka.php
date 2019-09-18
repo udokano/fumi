@@ -25,7 +25,7 @@ Template Name: 形成外科治療
         <h3 class="cp tc">色素性母斑(ホクロ)</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/keisei/thumb02.jpg" alt="サムネイル"></div>
         <p class="gosic">ほくろのサイズや部位から、炭酸ガスレーザー、手術治療のどちらかを選択し、治療します。<br>
-          ※保険適用可能な場合もございますのでお気軽にご相談下さい。 </p>
+          ※切開摘出手術が必要な場合がございます。その場合は保険適応となります。</p>
       </li>
       <li class="box-size">
         <h3 class="cp tc">皮膚良性腫瘍</h3>
