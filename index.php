@@ -7,7 +7,7 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?0910">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?0913">
 <script>
   (function(d) {
     var config = {
@@ -26,7 +26,7 @@
     <div class="header-inner flex al-cent">
       <div class="logo tc"><a href="<?php echo home_url( '/' ); ?>"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo.png" alt="FMUI BEAUTY CLINIC"></a></div>
       <nav class="navi pc-dis">
-        <ul class="flex">
+        <ul>
           <li><a href="<?php echo home_url( '/' ); ?>concept">当院について</a></li>
           <li class="navi-parent"><a href="#">施術・料金</a>
             <ul class="nav-child">
