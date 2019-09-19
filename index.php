@@ -146,7 +146,7 @@
   <?php if( have_rows('bnr_sp',28) ): ?>
   <div class="banner-arwa" id="contents1">
     <div class="swiper-container swiper1 cont">
-      <div class="swiper-wrapper">
+      <div class="swiper-wrapper sp-bnr">
         <?php while ( have_rows('bnr_sp',28) ) : the_row(); ?>
         <div class="swiper-slide"><a href="<?php the_sub_field('bnr_sp_link',28); ?>" target="_blank"><img src="<?php the_sub_field('bnr_sp_img',28); ?>" alt="キャンペーンバナー"></a></div>
         <?php endwhile; ?>

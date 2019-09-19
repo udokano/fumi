@@ -593,6 +593,11 @@ body.page {
 }
 
 /*swiper*/
+@media (max-width: 767px) {
+  .swiper-wrapper.sp-bnr {
+    height: 100%;
+  }
+}
 .swiper-wrapper {
   height: auto;
 }

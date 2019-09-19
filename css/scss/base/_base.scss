@@ -690,6 +690,15 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
 
 /*swiper*/
 
+@media (max-width: 767px) {
+    
+    .swiper-wrapper.sp-bnr {
+    height: 100%;
+}
+
+    
+}
+
 .swiper-wrapper {
     height: auto;
 }
