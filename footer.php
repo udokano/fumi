@@ -55,7 +55,7 @@ Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
             <li><a href="<?php echo home_url( '/' ); ?>tarumi">たるみ治療</a></li><li><a href="<?php echo home_url( '/' ); ?>siwa">しわ治療</a></li>
             <li><a href="<?php echo home_url( '/' ); ?>kogao">小顔治療</a></li><li><a href="<?php echo home_url( '/' ); ?>nose-lift">鼻の糸</a></li>
             <li><a href="<?php echo home_url( '/' ); ?>keiseigeka">形成外科治療</a></li><li><a href="<?php echo home_url( '/' ); ?>medikaru">美肌治療</a></li>
-            <li class="mb0"><a href="<?php echo home_url( '/' ); ?>shiosin">初診料・再診料</a></li>
+            <li class="mb0"><a href="<?php echo home_url( '/' ); ?>shoshin">初診料・再診料</a></li>
         </ul>    
             
             
