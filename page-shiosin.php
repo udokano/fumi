@@ -13,11 +13,11 @@ Template Name: 初診料・再診料
 2回目以降の方には1,000円をお支払いいただいてます。</p>
   <ul class="price-box tc">
     <li class="box-size tc">
-      <h2 class="fw600">初診料</h2>
+      <h2 class="">初診料</h2>
       <p class="cp">¥2,000</p>
     </li>
     <li class="box-size tc">
-      <h2 class="fw600">再診料</h2>
+      <h2 class="">再診料</h2>
       <p class="cp">¥1,000</p>
     </li>
   </ul>
