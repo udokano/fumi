@@ -699,6 +699,7 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
     
 }
 
+
 .swiper-wrapper {
     height: auto;
 }
@@ -772,9 +773,7 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
 
     
     .swiper3 .swiper-slide {
-        height: auto;
-        max-height: 260px;
-        min-height: 240px;
+        height: 290px;
     }
 
 .prev2,.next2 {
@@ -849,33 +848,6 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
 }
 
     
-}
-
-
-/*ループ内テキストオーバーフロー設定基本*/
-
-.text-over {
-        max-height: 150px;
-        overflow: hidden;
-        position: relative;
-    &::before,&::after {
-        position: absolute;
-            background-color: #fff;
-
-    }
-    
-    &::before {
-        content: "...";
-  bottom: 0;
-  right: 10px;
-        width: .9rem;
-    }
-    
-    &::after {
-        content: "";
-  height: 100%;
-  width: 100%;
-    }
 }
 
 

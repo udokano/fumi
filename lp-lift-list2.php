@@ -268,21 +268,21 @@ function ua_smt() {
           </tr>
         </thead>
         <tbody>
-          <tr>
+           <tr>
             <td rowspan="4"style="background-color: #e4f6fd; vertical-align: middle;" class="left">シルエットソフト</td>
             <td class="cent">2本</td>
-            <td class="right">¥160,000<br>
-              (1本あたり¥80,000)</td>
+            <td class="right">¥195,000<br>
+              (1本あたり¥97,500)</td>
           </tr>
           <tr>
             <td class="cent">4本</td>
-            <td>¥280,000<br>
-              (1本あたり¥70,000)</td>
+            <td>¥296,000<br>
+              (1本あたり¥74,000)</td>
           </tr>
           <tr>
             <td class="cent">6本</td>
-            <td>¥360,000<br>
-              (1本あたり¥60,000)</td>
+            <td>¥378,000<br>
+              (1本あたり¥63,000)</td>
           </tr>
           <tr>
             <td class="cent">8本</td>
