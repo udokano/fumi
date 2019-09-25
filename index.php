@@ -7,7 +7,7 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?0913">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?0925">
 <script>
   (function(d) {
     var config = {
@@ -324,6 +324,7 @@
         </div>
       </div>
       <!--left slides END-->
+        
       
       <?php if( have_rows('top',155) ): ?>
       <div class="right-slide slide-area">
@@ -332,18 +333,20 @@
         <div class="swiper-container slide-p2 swiper3 cont">
           <div class="swiper-wrapper">
             <?php while ( have_rows('top',155) ) : the_row(); ?>
-            <div class="bas gd box-size swiper-slide">
-              <div class="slide-in "><a href="<?php the_sub_field('link',155); ?>" class="flex">
-                <div class="thumb"><img src="<?php the_sub_field('top_p',155); ?>" alt="サムネイル"></div>
-                <div class="text">
-                  <h3 class="gd">
-                    <?php the_sub_field('top_title',155); ?>
-                  </h3>
-                  <div class="ba-txt gd gosic box-size text-over">
-                    <?php the_sub_field('top_txt',155); ?>
+            <div class="bas gd box-size swiper-slide case-wrap mb0">
+              <div class="slide-in case-box mb0 flex">
+                  <div class="box">
+                        <div class="thumb"><img src="<?php the_sub_field('befor_p',155); ?>" alt="サムネイル"></div>
+                          <p class="ls1 tc"><?php the_sub_field('befor_txt',155); ?></p>
                   </div>
+                  
+                  
+                  <div class="box">
+                        <div class="thumb"><img src="<?php the_sub_field('after_p',155); ?>" alt="サムネイル"></div>
+                          <p class="ls1 tc"><?php the_sub_field('after_txt',155); ?></p>
+                  </div>
+                
                 </div>
-                </a> </div>
             </div>
             <?php endwhile; ?>
           </div>

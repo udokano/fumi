@@ -442,7 +442,23 @@
             margin-bottom: 50px;
         }
         
-        .case-wrap {
+        
+        .note {
+            width: 620px;
+            margin: auto;
+            padding: 28px;
+            font-size: .92rem;
+            background-color: #f9f9f9;
+            
+        }
+        
+        
+    }
+}
+
+
+
+ .case-wrap {
             flex-wrap: wrap;
             .case-box {
                 margin-bottom: 55px;
@@ -467,19 +483,6 @@
                 }
             }
         }
-        
-        .note {
-            width: 620px;
-            margin: auto;
-            padding: 28px;
-            font-size: .92rem;
-            background-color: #f9f9f9;
-            
-        }
-        
-        
-    }
-}
 
 
 /*施術の感想（口コミ）*/

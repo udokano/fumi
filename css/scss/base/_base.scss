@@ -773,7 +773,7 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
 
     
     .swiper3 .swiper-slide {
-        height: 290px;
+        height: auto;
     }
 
 .prev2,.next2 {
@@ -799,6 +799,10 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
 .swiper-container-horizontal .swiper-pagination {
     bottom: -30px;
 }
+    
+    .swiper3.swiper-container-horizontal .swiper-pagination {
+        bottom: -20px;
+    }
 
 .swiper-pagination-bullet {
     border-radius: 0;
