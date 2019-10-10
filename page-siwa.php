@@ -277,6 +277,23 @@
 <section class="features layout1">
   <div class="inner-box2">
     <h2 class="cp gosic tc ls1">ヒアルロン酸の特徴</h2>
+      <div class="box">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/point04.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.1</div>
+        <h3 class="gd ls1">リフトアップして<br>
+          しわを改善</h3>
+        <p class="gosic">お顔のたるみを直して、リフトアップと同時にしわも改善します。</p>
+      </div>
+    </div>
+        <div class="box cf">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/point05.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.2</div>
+        <h3 class="gd ls1">自然な仕上がり</h3>
+        <p class="gosic">いかにも、ヒアルロンを注入したような不自然なバランスになることはなく、患者様お一人お一人のお顔にあった自然な仕上がりを目指しています。</p>
+      </div>
+    </div>
     <div class="box">
       <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/point04.jpg" alt="ポイントエリアサムネイル"></div>
       <div class="desc box-size bg-grade">
@@ -286,14 +303,7 @@
         <p class="gosic">気になる部位にヒアルロン酸を注入して、お顔全体を黄金バランスにより近づくようにします。</p>
       </div>
     </div>
-    <div class="box cf">
-      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/point05.jpg" alt="ポイントエリアサムネイル"></div>
-      <div class="desc box-size bg-grade">
-        <div class="points f-ryu cw">Point.2</div>
-        <h3 class="gd ls1">自然な仕上がり</h3>
-        <p class="gosic">いかにも、ヒアルロンを注入したような不自然なバランスになることはなく、患者様お一人お一人のお顔にあった自然な仕上がりを目指しています。</p>
-      </div>
-    </div>
+  
   </div>
 </section>
 <?php if( have_rows('ope_siwa_hel',155) ): ?>

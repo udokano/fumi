@@ -30,13 +30,13 @@
           <li><a href="<?php echo home_url( '/' ); ?>concept">当院について</a></li>
           <li class="navi-parent"><a href="#">施術・料金</a>
             <ul class="nav-child">
-                <li><a href="<?php echo home_url( '/' ); ?>siwa">しわ治療</a></li>
+              <li><a href="<?php echo home_url( '/' ); ?>siwa">しわ治療</a></li>
               <li><a href="<?php echo home_url( '/' ); ?>tarumi">たるみ治療</a></li>
               <li><a href="<?php echo home_url( '/' ); ?>kogao">小顔治療</a></li>
               <li><a href="<?php echo home_url( '/' ); ?>nose-lift">鼻の糸</a></li>
               <li><a href="<?php echo home_url( '/' ); ?>keiseigeka">形成外科治療</a></li>
               <li><a href="<?php echo home_url( '/' ); ?>medikaru">美肌治療</a></li>
-                 <li><a href="<?php echo home_url( '/' ); ?>shoshin">初診料・再診料</a></li>
+              <li><a href="<?php echo home_url( '/' ); ?>shoshin">初診料・再診料</a></li>
             </ul>
           </li>
           <li><a href="<?php echo home_url( '/' ); ?>access">アクセス</a></li>
@@ -232,6 +232,7 @@
         <ul>
           <li>・ヒアルロン酸</li>
           <li>・スレッドリフト</li>
+          <li>・ボトックスリフト</li>
         </ul>
         </a> </li>
       <li class="box-size hg-row"> <a href="<?php echo home_url( '/' ); ?>siwa">
@@ -248,7 +249,6 @@
         <ul>
           <li>・脂肪溶解注射</li>
           <li>・BNLS</li>
-          <li>・ボトックスリフト</li>
         </ul>
         </a> </li>
       <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>nose-lift">
@@ -324,7 +324,6 @@
         </div>
       </div>
       <!--left slides END-->
-        
       
       <?php if( have_rows('top',155) ): ?>
       <div class="right-slide slide-area">
@@ -335,18 +334,19 @@
             <?php while ( have_rows('top',155) ) : the_row(); ?>
             <div class="bas gd box-size swiper-slide case-wrap mb0">
               <div class="slide-in case-box mb0 flex">
-                  <div class="box">
-                        <div class="thumb"><img src="<?php the_sub_field('befor_p',155); ?>" alt="サムネイル"></div>
-                          <p class="ls1 tc"><?php the_sub_field('befor_txt',155); ?></p>
-                  </div>
-                  
-                  
-                  <div class="box">
-                        <div class="thumb"><img src="<?php the_sub_field('after_p',155); ?>" alt="サムネイル"></div>
-                          <p class="ls1 tc"><?php the_sub_field('after_txt',155); ?></p>
-                  </div>
-                
+                <div class="box">
+                  <div class="thumb"><img src="<?php the_sub_field('befor_p',155); ?>" alt="サムネイル"></div>
+                  <p class="ls1 tc">
+                    <?php the_sub_field('befor_txt',155); ?>
+                  </p>
                 </div>
+                <div class="box">
+                  <div class="thumb"><img src="<?php the_sub_field('after_p',155); ?>" alt="サムネイル"></div>
+                  <p class="ls1 tc">
+                    <?php the_sub_field('after_txt',155); ?>
+                  </p>
+                </div>
+              </div>
             </div>
             <?php endwhile; ?>
           </div>
@@ -366,6 +366,13 @@
   <section class="sns">
     <div class="inner flex">
       <div class="bnr"> <a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/blog_bnr.jpg?0910" alt="blog_bnr"> </a> </div>
+      <div class="bnr"> <a href="https://www.instagram.com/dr_fumi/" target="_blank">
+        <?php if ( wp_is_mobile() ) : ?>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/common/insta_bnr_sp.jpg?09101" alt="insta_bnr">
+        <?php else: ?>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/common/insta_bnr.jpg?09101" alt="insta_bnr">
+        <?php endif; ?>
+        </a> </div>
       <div class="bnr"><a href="https://line.me/R/ti/p/%40304ngjfp" target="_blank">
         <?php if ( wp_is_mobile() ) : ?>
         <img src="<?php echo get_template_directory_uri(); ?>/img/common/line_bnr_sp.jpg" alt="line_bnr">
@@ -424,7 +431,7 @@
           <li><a href="<?php echo home_url( '/' ); ?>nose-lift">鼻の糸</a></li>
           <li><a href="<?php echo home_url( '/' ); ?>keiseigeka">形成外科治療</a></li>
           <li><a href="<?php echo home_url( '/' ); ?>medikaru">美肌治療</a></li>
-            <li class="mb0"><a href="<?php echo home_url( '/' ); ?>shoshin">初診料・再診料</a></li>
+          <li class="mb0"><a href="<?php echo home_url( '/' ); ?>shoshin">初診料・再診料</a></li>
         </ul>
       </li>
       <li><a href="<?php echo home_url( '/' ); ?>access">アクセス</a></li>
