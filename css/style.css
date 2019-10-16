@@ -524,7 +524,23 @@ body.page {
   color: #9d8440;
 }
 
+.gd-i {
+  color: #9d8440 !important;
+}
+
 .bg-cg {
+  background-color: #9d8440 !important;
+}
+
+.bg-g {
+  background-color: #f4f2eb !important;
+}
+
+.bg-g2 {
+  background-color: #FEFCF6 !important;
+}
+
+.bg-gth {
   background-color: #9d8440 !important;
 }
 
@@ -2835,8 +2851,7 @@ footer.pages.list-footer .copy {
 }
 .price .inner-box2 .price-list dl {
   border-bottom: 1px solid #ccc;
-  margin-top: 18px;
-  padding-bottom: 18px;
+  padding: 18px 0;
   letter-spacing: 1px;
   font-size: 1.07rem;
   -webkit-box-align: center;

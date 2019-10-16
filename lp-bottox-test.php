@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: ランディングページボトックス
+Template Name: ランディングページボトックス 料金修正確認用
 */
 
 ?>
@@ -344,7 +344,7 @@ Template Name: ランディングページボトックス
         
       <table class="pt2 gosic mb15">
         <thead>
-          <tr class="bg-gth">
+          <tr>
             <th scope="col">製剤名</th>
             <th scope="col">部位</th>
             <th scope="col">値段(税別)</th>
@@ -352,18 +352,17 @@ Template Name: ランディングページボトックス
         </thead>
         <tbody>
           <tr>
-            <td rowspan="3"style="vertical-align: middle;" class="left bg-g gd-i">ボツリヌス・トキシン注入<br>
-(リジェノックス)</td>
-            <td class="bg-g2 gd-i">肩こり両側</td>
-            <td class="right bg-g2 gd-i">¥34,800</td>
+            <td rowspan="3"style="background-color: #fef0f4; vertical-align: middle;" class="left">ボツリヌス・トキシン注入</td>
+            <td>肩こり両側</td>
+            <td class="right">¥34,800</td>
           </tr>
-          <tr class="bg-g">
-            <td class="gd-i">脚痩せ(ふくらはぎ両脚)</td>
-            <td class="right gd-i">¥72,600</td>
+          <tr>
+            <td>脚痩せ(ふくらはぎ両脚)</td>
+            <td class="right">¥72,600</td>
           </tr>
         </tbody>
       </table>
-       <!-- <p class="note tc">「アラガン社以外の製剤も取り扱っており、お求めやすい価格でご提供しています。」</p>-->
+        <p class="note tc">「アラガン社以外の製剤も取り扱っており、お求めやすい価格でご提供しています。」</p>
      <!-- <table class="pt2 gosic mb35">
         <thead>
           <tr>

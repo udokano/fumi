@@ -247,8 +247,8 @@
         <h3 class="tc">小顔治療 </h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb07.jpg" alt="サムネイル"></div>
         <ul>
-          <li>・脂肪溶解注射</li>
-          <li>・BNLS</li>
+          <li data-url="<?php echo home_url( '/' ); ?>kogao#area1" class="js-link">・BNLS neo</li>
+          <li data-url="<?php echo home_url( '/' ); ?>kogao#area2" class="js-link">・エラボトックス</li>
         </ul>
         </a> </li>
       <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>nose-lift">

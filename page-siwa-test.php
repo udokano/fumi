@@ -1,6 +1,6 @@
 <?php
 
-/* Template Name: しわ治療
+/* Template Name: しわ治療 料金修正確認用
  */
 
 ?>
@@ -120,9 +120,9 @@
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">ボトックス注入料金</h2>
-   <p class="p-desc gosic tc mb60 pc">当院ではボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタと韓国食品医薬品安全庁認可のリジェノックスを使用しています。<br>
+    <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。<br>
       ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
-    <p class="p-desc gosic tc mb60 sp">当院ではボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタと韓国食品医薬品安全庁認可のリジェノックスを使用しています。ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
+    <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
     <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">スタンダード部位<br>
@@ -168,13 +168,13 @@
       </dl>
     </div>
       <div class="price-list gosic">
-      <dl class="flex gd ">
-        <dt class="fw600">その他の部位 (アラガン)</dt>
+      <dl class="flex">
+        <dt class="fw600">その他の部位</dt>
         <dd class="f-bold">税別</dd>
       </dl>
         
       <dl class="flex">
-        <dt>エラボトックス</dt>
+        <dt> エラボトックス</dt>
         <dd>¥50,000</dd>
       </dl>
       <dl class="flex">
@@ -198,7 +198,7 @@
         <dd>¥30,000</dd>
       </dl>
           <dl class="flex">
-        <dt>ボツリヌス・トキシン アラガン  肩こり両側</dt>
+        <dt>ボツリヌス・トキシン  アラガン  肩こり両側</dt>
         <dd>¥74,800</dd>
       </dl>
       <dl class="flex">
@@ -206,13 +206,13 @@
         <dd>1回あたり　¥49,800<span class="sm tc">(総額¥199,200)</span></dd>
       </dl>
       <dl class="flex">
-        <dt>ボツリヌス・トキシン アラガン 脚痩せ(ふくらはぎ両脚)</dt>
+        <dt>ボツリヌス・トキシン  アラガン 脚痩せ(ふくらはぎ両脚)</dt>
         <dd>¥268,000</dd>
       </dl>
     </div>
     <div class="price-list gosic mb20">
-      <dl class="flex cp">
-        <dt class="fw600">ボツリヌス・トキシン (リジェノックス)</dt>
+      <dl class="flex">
+        <dt class="fw600">ボツリヌス・トキシン</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
@@ -224,7 +224,7 @@
         <dd>¥72,600</dd>
       </dl>
     </div>
-      <!--<p class="note tc gd">「アラガン社以外の製剤も取り扱っており、お求めやすい価格でご提供しています。」</p>-->
+      <p class="note tc gd">「アラガン社以外の製剤も取り扱っており、お求めやすい価格でご提供しています。」</p>
    <!-- <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">ボツリヌス・トキシン  アラガン</dt>
