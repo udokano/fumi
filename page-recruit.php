@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: 採用情報 
+Template Name: 採用情報
 */
 
 ?>
@@ -9,19 +9,48 @@ Template Name: 採用情報
   <h1 class="tc f-ryu">採用情報</h1>
   <?php echo breadcrumb_func(); ?> </div>
 <section class="recruit-intro bg-p">
-  <div class="inner flex al-cent">
+  <div class="inner al-cent">
+
+
+  <div class="text box-size">
+
+    <h2 class="tc">“現在、募集しておりません”</h2>
+
+  <p class="tc mb0">
+  当院にご関心をお寄せいただき、誠にありがとうございます。<br class="pc">大変申し訳ありませんが、全ての職種について現在、求人募集は行っておりません。<br class="pc">募集の際は当ページにてご案内いたします。
+  </p>
+
+
+
+  </div>
+
+
+<style>
+
+/****************
+
+
+現在は、募集してにないので非表示
+
+
+******************/
+
+*/
+
+
     <div class="text box-size">
       <h2 class="ls1">スタッフ募集中</h2>
       <p class="gopsic">美容皮膚科・形成外科のクリニックで私たちと共に、
         患者様に美と笑顔を提供しませんか？</p>
-   <!--   <a href="#recruit-info" class="gosic ls1">詳細を見る</a>--> </div>
-      
+          <!--   <a href="#recruit-info" class="gosic ls1">詳細を見る</a>-->
+    </div>
+
       <div class="thumb">
           <img src="<?php echo get_template_directory_uri(); ?>/img/recruit/thumb01.jpg" alt="サムネイル">
-      
+
       </div>
-      
-      
+
+
   </div>
 </section>
 <section class="recruit-info" id="recruit-info">
@@ -39,13 +68,13 @@ Template Name: 採用情報
       <dt>休日</dt>
       <dd>完全週休2日制 </dd>
     </dl>
-      
+
         <dl class="gosic">
       <dt>勤務地</dt>
       <dd><span>〒530-0012</span> <span>大阪市北区芝田2丁目8-33 芝田ビル3F</span></dd>
     </dl>
-      
-      
+
+
       <dl class="gosic">
       <dt>資格</dt>
       <dd><span>①医師免許</span> <span>②看護師</span> </dd>
@@ -62,120 +91,28 @@ Template Name: 採用情報
 
 <section class="contact-form recruit-form">
   <div class="inner">
-      
+
       <h2 class="tc ls1">エントリーフォーム</h2>
-      
-      
+
+
     <p class="text tc">以下のフォームの必要事項をご記入の上<br>
 お申し込みください<br>
 採用担当者より折り返しご連絡いたします。</p>
     <div class="contact-flow"> <img src="<?php echo get_template_directory_uri(); ?>/img/contact/flow.jpg" alt="流れ"> </div>
-  
+
        <?php echo do_shortcode('[mwform_formkey key="72"]'); ?>
-      
-     
-   <!-- <form class="gosic">
-      <dl class="kind">
-        <dt>希望職種<span class="ra">必須</span></dt>
-        <dd>
-          <label>
-            <input type="radio" name="医師" class="check">
-            <span>医師</span></label>
-          <label>
-            <input type="radio" name="看護師" class="check">
-            <span>看護師</span></label>
-          <label>
-            <input type="radio" name="受付" class="check">
-            <span>受付</span></label>
-          <label>
-            <input type="radio" name="カウンセラー" class="check">
-            <span>カウンセラー</span></label>
-        </dd>
-      </dl>
-      <dl class="">
-        <dt>お名前<span class="ra">必須</span></dt>
-        <dd>
-          <input type="text" name="お名前" placeholder="田中　花子">
-        </dd>
-      </dl>
-        
-        
-         <dl class="">
-        <dt>住所<span class="ra">必須</span></dt>
-        <dd>
-          <label><input type="text" name="郵便番号" class="harf" placeholder="000-0000"></label>
-             <label><input type="text" name="都道府県" placeholder="都道府県"></label>
-             <label><input type="text" name="市区町村" placeholder="市区町村"></label>
-             <label><input type="text" name="丁目番地" placeholder="丁目番地"></label>
-            
-            
-            
-        </dd>
-      </dl>
-        
-        
-         <dl class="">
-        <dt>ご年齢<span class="ra">必須</span></dt>
-        <dd>
-          <input type="text" name="ご年齢" class="harf">
-        </dd>
-      </dl>
-        
-        
-      <dl class="">
-        <dt>電話番号<span class="ra">必須</span></dt>
-        <dd>
-          <input type="text" name="電話番号">
-        </dd>
-      </dl>
-      <dl class="">
-        <dt>メールアドレス<span class="ra">必須</span></dt>
-        <dd>
-          <input type="text" name="メールアドレス">
-        </dd>
-      </dl>
-      
-      <dl class="">
-        <dt class="vt">志望理由<span class="ra">必須</span></dt>
-        <dd class="vt">
-          <textarea name="志望理由"></textarea>
-        </dd>
-      </dl>
-        
-        <dl class="">
-        <dt class="vt">職務経歴<span class="ra">必須</span></dt>
-        <dd class="vt">
-          <textarea name="職務経歴"></textarea>
-        </dd>
-      </dl>
-        
-        <dl class="">
-        <dt class="vt">資格</dt>
-        <dd class="vt">
-          <textarea name="資格"></textarea>
-        </dd>
-      </dl>
-        
-        <dl class="">
-        <dt class="vt">質問</dt>
-        <dd class="vt">
-          <textarea name="質問"></textarea>
-        </dd>
-      </dl>
-      <div class="send-wrap">
-        <input type="submit" value="確認画面へ" class="send btn">
-      </div>
-     
-    </form>-->
-      
-      
+
+
         <div class="note tc">※ドメイン指定受信を設定されている方は、<br>
         【@fumibeauty.jp】からの受信をできるよう設定お願いします。</div>
-      
-      
-  </div>
-</section>
 
+
+
+*/
+ </style>
+
+ </div>
+</section>
 
 
 <?php get_footer();?>
