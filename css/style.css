@@ -650,7 +650,7 @@ body.page {
 }
 
 .slide-p2 .swiper-slide {
-  height: 283px;
+  height: 340px;
 }
 
 .prev2, .next2 {
@@ -682,6 +682,10 @@ body.page {
     background-size: 16px;
   }
 
+  .slide-p2 .swiper-slide {
+    height: 63vw;
+  }
+
   .swiper3 .swiper-slide {
     height: auto;
   }
@@ -696,6 +700,10 @@ body.page {
 
   .next2 {
     right: -35px;
+  }
+
+  .swiper3 .prev2, .swiper3 .next2 {
+    top: 63%;
   }
 
   .swiper3 .prev2 {
@@ -1928,6 +1936,9 @@ footer.pages.list-footer .copy {
   font-size: 1.6rem;
   display: block;
   font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
+}
+.slides .inner .right-slide h3 {
+  font-size: 1.18rem;
 }
 .slides .inner .right-slide .slide-in .box {
   width: 45%;
@@ -3490,7 +3501,8 @@ footer.pages.list-footer .copy {
   max-width: 1360px;
 }
 .recruit-intro .inner .text {
-  width: 50%;
+  width: 66%;
+  margin: auto;
   padding: 40px;
   padding-left: 100px;
 }
