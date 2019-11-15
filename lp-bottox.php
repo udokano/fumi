@@ -7,7 +7,7 @@ Template Name: ランディングページボトックス
 <head>
 <meta charset="UTF-8">
 <title>
-<?php bloginfo( 'name' ); ?>
+<?php bloginfo('name'); ?>
 </title>
 <meta name="viewport" content="width=device-width">
 <meta name="format-detection" content="telephone=no">
@@ -29,14 +29,14 @@ Template Name: ランディングページボトックス
 </head>
 <body id="lp2" class="lps">
 <div class="wrapper">
-  <?php if ( wp_is_mobile() ) : ?>
+  <?php if (wp_is_mobile()) : ?>
   <header class="fv-sp"> <h1><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/sp/fv_sp.jpg" alt="ボトックス注入治療で
 ナチュラルな若返りを"></h1> </header>
   <?php else: ?>
   <header class="lp-header">
     <div class="header-inner flex al-cent">
-      <div class="logo tc"><a href="<?php echo home_url( '/' ); ?>"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo.png" alt="FMUI BEAUTY CLINIC"></a></div>
-      <div class="lp-cv-btn flex"> <a class="" href="https://fumibeauty.reserve.ne.jp/sp/index.php?" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/header_btn01.png" alt="来院予約"></a> <a class="btn2" href="<?php echo home_url( '/' ); ?>contact" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/btn02.png" alt="お問合わせ"></a> </div>
+      <div class="logo tc"><a href="<?php echo home_url('/'); ?>"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo.png" alt="FMUI BEAUTY CLINIC"></a></div>
+      <div class="lp-cv-btn flex"> <a class="" href="https://fumibeauty.reserve.ne.jp/sp/index.php?" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/header_btn01.png" alt="来院予約"></a> <a class="btn2" href="<?php echo home_url('/'); ?>contact" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/btn02.png" alt="お問合わせ"></a> </div>
     </div>
   </header>
   <div class="lp-fv cf">
@@ -51,9 +51,9 @@ Template Name: ランディングページボトックス
     </div>
   </div>
   <!--FV END-->
-  
+
   <?php endif; ?>
-  <?php if ( wp_is_mobile() ) : ?>
+  <?php if (wp_is_mobile()) : ?>
   <?php else: ?>
   <section class="area2 area-bgs" id="bg1">
     <div class="lp-inner cf">
@@ -90,7 +90,7 @@ Template Name: ランディングページボトックス
           10:00～18:00 </p>
       </div>
       <div class="lp-cv-btn flex"> <a href="https://fumibeauty.reserve.ne.jp/sp/index.php?" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約
-"></a> <a href="<?php echo home_url( '/' ); ?>contact" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/cv_btn02.png" alt="お問合わせ
+"></a> <a href="<?php echo home_url('/'); ?>contact" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/cv_btn02.png" alt="お問合わせ
 "></a> </div>
     </div>
   </div>
@@ -148,31 +148,31 @@ Template Name: ランディングページボトックス
       </div>
     </div>
   </section>
-  <?php if( have_rows('pr2',155) ): ?>
+  <?php if (have_rows('pr2', 155)): ?>
   <section class="case area-bgs" id="bg6">
     <div class="lp-inner">
       <h2 class="gd tc">症例写真</h2>
       <div class="case-photos flex">
-        <?php while ( have_rows('pr2',155) ) : the_row(); ?>
+        <?php while (have_rows('pr2', 155)) : the_row(); ?>
         <div class="case-box">
           <div class="ba-box flex">
             <div class="box">
-              <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
+              <div class="thumb"> <img src="<?php the_sub_field('befor_p', 155); ?>" alt=""> </div>
               <p class="gd tc">
-                <?php the_sub_field('befor_title',155); ?>
+                <?php the_sub_field('befor_title', 155); ?>
               </p>
             </div>
             <div class="box">
-              <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
+              <div class="thumb"> <img src="<?php the_sub_field('after_p', 155); ?>" alt=""> </div>
               <p class="gd tc">
-                <?php the_sub_field('after_title',155); ?>
+                <?php the_sub_field('after_title', 155); ?>
               </p>
             </div>
             <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_arrow.png" alt=">"></div>
           </div>
-          <?php if( get_sub_field('text',155) ): ?>
+          <?php if (get_sub_field('text', 155)): ?>
           <div class="comment cp gosic box-size">
-            <?php the_sub_field('text',155); ?>
+            <?php the_sub_field('text', 155); ?>
           </div>
           <?php endif; ?>
         </div>
@@ -239,7 +239,7 @@ Template Name: ランディングページボトックス
           </tr>
         </tbody>
       </table>-->
-      
+
       <table class="pt2 gosic mb35">
         <thead>
           <tr>
@@ -295,7 +295,7 @@ Template Name: ランディングページボトックス
           </tr>
         </tbody>
       </table>
-        
+
         <table class="pt2 gosic mb35">
         <thead>
           <tr>
@@ -330,24 +330,24 @@ Template Name: ランディングページボトックス
             <td class="right">¥30,000</td>
           </tr>
              <tr>
-            <td colspan="2">ボツリヌス・トキシン注入 肩こり両側</td>
+            <td colspan="2">肩こり両側</td>
             <td class="right">¥74,800</td>
           </tr>
             <tr>
-            <td colspan="2">ボツリヌス・トキシン注入 肩こり両側 4回セット</td>
+            <td colspan="2">肩こり両側 4回セット</td>
             <td class="right">1回あたり¥49,800<br>
               <span class="sm">¥199,200</span></td>
           </tr>
-          
+
             <tr>
-            <td colspan="2">ボツリヌス・トキシン注入 脚痩せ(ふくらはぎ両脚)</td>
+            <td colspan="2">脚痩せ(ふくらはぎ両脚)</td>
             <td class="right">¥268,000</td>
           </tr>
-          
+
         </tbody>
       </table>
-        
-        
+
+
         <table class="pt2 gosic mb35">
         <thead>
           <tr>
@@ -361,14 +361,14 @@ Template Name: ランディングページボトックス
             <td colspan="2" class="bg-g2 gd-i">肩こり両側</td>
             <td class="right bg-g2 gd-i">¥34,800</td>
           </tr>
-            
+
             <tr>
             <td colspan="2" class="bg-g gd-i">脚痩せ(ふくらはぎ両脚)</td>
             <td class="right bg-g gd-i">¥72,600</td>
           </tr>
         </tbody>
       </table>
-        
+
       <!--<table class="pt2 gosic mb15">
         <thead>
           <tr class="bg-gth">
@@ -416,7 +416,7 @@ Template Name: ランディングページボトックス
           </tr>
         </tbody>
       </table>-->
-      
+
     </div>
   </section>
   <div class="lp-cv">
@@ -428,7 +428,7 @@ Template Name: ランディングページボトックス
         <p class="sm tc cw time">受付時間<br>
           10:00～18:00 </p>
       </div>
-      <div class="lp-cv-btn flex"> <a href="https://fumibeauty.reserve.ne.jp/sp/index.php?" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約"></a> <a href="<?php echo home_url( '/' ); ?>contact" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/cv_btn02.png" alt="お問い合わせ"></a> </div>
+      <div class="lp-cv-btn flex"> <a href="https://fumibeauty.reserve.ne.jp/sp/index.php?" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約"></a> <a href="<?php echo home_url('/'); ?>contact" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/cv_btn02.png" alt="お問い合わせ"></a> </div>
     </div>
   </div>
   <section class="flow">
@@ -502,12 +502,12 @@ Template Name: ランディングページボトックス
             'orderby' => 'date',
             'order' => 'DESC',
           );
-          $the_query = new WP_Query( $args );
-          while ( $the_query->have_posts() ): $the_query->the_post();
+          $the_query = new WP_Query($args);
+          while ($the_query->have_posts()): $the_query->the_post();
           ?>
-          
+
           <!-- Slides -->
-          
+
           <div class="qas gd box-size swiper-slide">
             <p class="qa-txt mb15 cp2"><span class="q">Q</span>
               <?php the_title(); ?>
@@ -603,7 +603,7 @@ Template Name: ランディングページボトックス
     </div>
   </section>
   <!--MAP END-->
-  
+
   <footer class="lp-footer">
     <div class="inner">
       <p class="copy cp"><small>fumi beauty cinic(ふみビューティクリニック梅田)美容皮膚科・形成外科・皮膚科<br>
@@ -611,12 +611,12 @@ Template Name: ランディングページボトックス
     </div>
   </footer>
   <a href="#" class="page-top bounce"><img src="<?php echo get_template_directory_uri(); ?>/img/common/scrool_up.svg" alt="scrool-up"></a> </div>
-<!--WRAPPER END--> 
+<!--WRAPPER END-->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script> 
-<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script> 
-<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
 <script>
     function initMap() {
         var latlng = new google.maps.LatLng( 34.707103, 135.495992 );
@@ -624,12 +624,12 @@ Template Name: ランディングページボトックス
             zoom: 16,
             center: latlng
         });
-			
+
              var marker = new google.maps.Marker({
           position: latlng,
           map: map
         });
-			
+
         /*=========ここから追加=========*/
         var mapStyle = [ {
             "stylers": [ {
@@ -641,7 +641,7 @@ Template Name: ランディングページボトックス
             map.setMapTypeId( 'GrayScaleMap' );
         /*=========ここまで追加=========*/
       }
-</script> 
+</script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBwr6DPo5X5S4CbkcKpSV5atpzNnKAifI&callback=initMap"></script>
 <?php wp_footer(); ?>
 </body>

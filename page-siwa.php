@@ -56,23 +56,23 @@
     </div>
   </div>
 </section>
-<?php if( have_rows('ope_siwa_btx',155) ): ?>
+<?php if (have_rows('ope_siwa_btx', 155)): ?>
 <section class="case">
   <div class="inner">
     <h2 class="tc">症例</h2>
     <div class="case-wrap flex">
-      <?php while ( have_rows('ope_siwa_btx',155) ) : the_row(); ?>
+      <?php while (have_rows('ope_siwa_btx', 155)) : the_row(); ?>
       <div class="case-box flex">
         <div class="box">
-          <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
+          <div class="thumb"> <img src="<?php the_sub_field('befor_p', 155); ?>" alt=""> </div>
           <p class="gosic tc">
-            <?php the_sub_field('befor_txt',155); ?>
+            <?php the_sub_field('befor_txt', 155); ?>
           </p>
         </div>
         <div class="box">
-          <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
+          <div class="thumb"> <img src="<?php the_sub_field('after_p', 155); ?>" alt=""> </div>
           <p class="gosic tc">
-            <?php the_sub_field('after_txt',155); ?>
+            <?php the_sub_field('after_txt', 155); ?>
           </p>
         </div>
       </div>
@@ -91,7 +91,7 @@
     <div class="kuchikomi-slide slide-area">
       <h2 class="tc gd gosic ls2">施術の感想</h2>
       <div class="swiper-container slide-p2 swiper4">
-        <div class="swiper-wrapper"> 
+        <div class="swiper-wrapper">
           <div class="gosic swiper-slide">
             <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/coming.jpg" alt="準備中"></div>
             <p class="tc mt20">準備中</p>
@@ -114,7 +114,7 @@
           <div class="swiper-pagination"></div>
       </div>
     </div>
-    
+
   </div>
 </section>-->
 <section class="price">
@@ -171,7 +171,7 @@
         <dt class="fw600">その他の部位<span class="sm">※アラガン社ボトックスビスタ使用</span></dt>
         <dd class="f-bold">税別</dd>
       </dl>
-        
+
       <dl class="flex">
         <dt>エラボトックス</dt>
         <dd>¥50,000</dd>
@@ -197,27 +197,27 @@
         <dd>¥30,000</dd>
       </dl>
           <dl class="flex">
-        <dt>ボツリヌス・トキシン肩こり両側</dt>
+        <dt>肩こり両側</dt>
         <dd>¥74,800</dd>
       </dl>
       <dl class="flex">
         <dt>肩こり両側4回セット</dt>
         <dd>1回あたり　¥49,800<span class="sm tc">(総額¥199,200)</span></dd>
       </dl>
-       
+
       <dl class="flex">
-        <dt>ボツリヌス・トキシン脚痩せ(ふくらはぎ両脚)</dt>
+        <dt>脚痩せ(ふくらはぎ両脚)</dt>
         <dd>¥268,000</dd>
       </dl>
-        
+
     </div>
-      
+
      <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">ボツリヌス・トキシン <span class="sm">(リジェノックスの場合)</span></dt>
         <dd class="f-bold">税別</dd>
       </dl>
-        
+
       <dl class="flex">
         <dt>肩こり両側</dt>
         <dd>¥34,800</dd>
@@ -227,39 +227,7 @@
         <dd>¥72,600</dd>
       </dl>
     </div>
-  <!--  <div class="price-list gosic mb20">
-      <dl class="flex cp">
-        <dt class="fw600">ボツリヌス・トキシン (リジェノックス)</dt>
-        <dd class="f-bold">税別</dd>
-      </dl>
-      <dl class="flex">
-        <dt> 肩こり両側</dt>
-        <dd>¥34,800</dd>
-      </dl>
-      <dl class="flex">
-        <dt>脚痩せ(ふくらはぎ両脚)</dt>
-        <dd>¥72,600</dd>
-      </dl>
-    </div>-->
-      <!--<p class="note tc gd">「アラガン社以外の製剤も取り扱っており、お求めやすい価格でご提供しています。」</p>-->
-   <!-- <div class="price-list gosic">
-      <dl class="flex">
-        <dt class="fw600">ボツリヌス・トキシン  アラガン</dt>
-        <dd class="f-bold">税別</dd>
-      </dl>
-      <dl class="flex">
-        <dt> 肩こり両側</dt>
-        <dd>¥74,800</dd>
-      </dl>
-      <dl class="flex">
-        <dt>肩こり両側　4回セット</dt>
-        <dd>1回あたり　¥49,800<span class="sm">(総額¥199,200)</span></dd>
-      </dl>
-      <dl class="flex">
-        <dt>脚痩せ(ふくらはぎ両脚)</dt>
-        <dd>¥268,000</dd>
-      </dl>
-    </div>-->
+
   </div>
 </section>
 <section class="ope-faq">
@@ -278,12 +246,12 @@
       'orderby' => 'date',
       'order' => 'DESC',
     );
-    $the_query = new WP_Query( $args );
-    while ( $the_query->have_posts() ): $the_query->the_post();
+    $the_query = new WP_Query($args);
+    while ($the_query->have_posts()): $the_query->the_post();
     ?>
-    
+
     <!--ここにループの中の記述 -->
-    
+
     <dl class="box-size">
       <dt><span class="q">Q</span><span class="gosic">
         <?php the_title(); ?>
@@ -334,26 +302,26 @@
         <p class="gosic">気になる部位にヒアルロン酸を注入して、お顔全体を黄金バランスにより近づくようにします。</p>
       </div>
     </div>
-  
+
   </div>
 </section>
-<?php if( have_rows('ope_siwa_hel',155) ): ?>
+<?php if (have_rows('ope_siwa_hel', 155)): ?>
 <section class="case">
   <div class="inner">
     <h2 class="tc">症例</h2>
     <div class="case-wrap flex">
-      <?php while ( have_rows('ope_siwa_hel',155) ) : the_row(); ?>
+      <?php while (have_rows('ope_siwa_hel', 155)) : the_row(); ?>
       <div class="case-box flex">
         <div class="box">
-          <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
+          <div class="thumb"> <img src="<?php the_sub_field('befor_p', 155); ?>" alt=""> </div>
           <p class="gosic tc">
-            <?php the_sub_field('befor_txt',155); ?>
+            <?php the_sub_field('befor_txt', 155); ?>
           </p>
         </div>
         <div class="box">
-          <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
+          <div class="thumb"> <img src="<?php the_sub_field('after_p', 155); ?>" alt=""> </div>
           <p class="gosic tc">
-            <?php the_sub_field('after_txt',155); ?>
+            <?php the_sub_field('after_txt', 155); ?>
           </p>
         </div>
       </div>
@@ -433,12 +401,12 @@
       'orderby' => 'date',
       'order' => 'DESC',
     );
-    $the_query = new WP_Query( $args );
-    while ( $the_query->have_posts() ): $the_query->the_post();
+    $the_query = new WP_Query($args);
+    while ($the_query->have_posts()): $the_query->the_post();
     ?>
-    
+
     <!--ここにループの中の記述 -->
-    
+
     <dl class="box-size">
       <dt><span class="q">Q</span><span class="gosic">
         <?php the_title(); ?>
