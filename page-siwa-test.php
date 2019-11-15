@@ -1,6 +1,6 @@
 <?php
 
-/* Template Name: しわ治療
+/* Template Name: しわ治療 料金修正確認用
  */
 
 ?>
@@ -166,9 +166,9 @@
         <dd>¥20,000</dd>
       </dl>
     </div>
-     <div class="price-list gosic">
+      <div class="price-list gosic">
       <dl class="flex">
-        <dt class="fw600">その他の部位<span class="sm">※アラガン社ボトックスビスタ使用</span></dt>
+        <dt class="fw600">その他の部位 <span class="sm">※アラガン社ボトックスビスタ使用</span></dt>
         <dd class="f-bold">税別</dd>
       </dl>
         
@@ -214,7 +214,7 @@
       
      <div class="price-list gosic">
       <dl class="flex">
-        <dt class="fw600">ボツリヌス・トキシン <span class="sm">(リジェノックスの場合)</span></dt>
+        <dt class="fw600">ボツリヌス・トキシン<span class="sm">(リジェノックスの場合)</span></dt>
         <dd class="f-bold">税別</dd>
       </dl>
         
@@ -227,6 +227,7 @@
         <dd>¥72,600</dd>
       </dl>
     </div>
+      
   <!--  <div class="price-list gosic mb20">
       <dl class="flex cp">
         <dt class="fw600">ボツリヌス・トキシン (リジェノックス)</dt>

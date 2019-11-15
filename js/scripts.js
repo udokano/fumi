@@ -1,7 +1,14 @@
 // JavaScript Document 
 
 
+$('.js-link').on('click', function(e){
+  //伝播をストップ
+  e.stopPropagation();
+  e.preventDefault();
 
+  //リンクを取得して飛ばす
+  location.href = $(this).attr('data-url');
+})
 
 
 

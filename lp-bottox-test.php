@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: ランディングページボトックス
+Template Name: ランディングページボトックス 料金修正確認用
 */
 
 ?>
@@ -30,8 +30,7 @@ Template Name: ランディングページボトックス
 <body id="lp2" class="lps">
 <div class="wrapper">
   <?php if ( wp_is_mobile() ) : ?>
-  <header class="fv-sp"> <h1><img src="<?php echo get_template_directory_uri(); ?>/img/lp2/sp/fv_sp.jpg" alt="ボトックス注入治療で
-ナチュラルな若返りを"></h1> </header>
+  <header class="fv-sp"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp2/sp/fv_sp.jpg" alt="メイン画像"> </header>
   <?php else: ?>
   <header class="lp-header">
     <div class="header-inner flex al-cent">
@@ -251,8 +250,7 @@ Template Name: ランディングページボトックス
         <tbody>
           <tr>
             <td rowspan="5"style="background-color: #fef0f4; vertical-align: middle;" class="left">スタンダード部位
-              目尻、眉間、額、あご、鼻 <span class="sm">(1ヶ月以内の追加・調整無料、針代無料、再診料無料)<br>
-<span class="sm">※アラガン社ボトックスビスタ使用</span></td>
+              目尻、眉間、額、あご、鼻 <span class="sm">(1ヶ月以内の追加・調整無料、針代無料、再診料無料)</td>
             <td>1部位</td>
             <td class="right">¥25,000</td>
           </tr>
@@ -284,8 +282,7 @@ Template Name: ランディングページボトックス
         </thead>
         <tbody>
           <tr>
-            <td rowspan="2"style="background-color: #fef0f4; vertical-align: middle;" class="left">アディショナル部位口角、目頭、口唇(口すぼめ時のしわ) 、眉下(ブローリフト)、アーモンドアイ(たれ目)<br>
-              <span class="sm">※アラガン社ボトックスビスタ使用</span></td>
+            <td rowspan="2"style="background-color: #fef0f4; vertical-align: middle;" class="left">アディショナル部位口角、目頭、口唇(口すぼめ時のしわ) 、眉下(ブローリフト)、アーモンドアイ(たれ目)</td>
             <td>スタンダード部位に追加１部位</td>
             <td class="right">¥10,000</td>
           </tr>
@@ -299,8 +296,7 @@ Template Name: ランディングページボトックス
         <table class="pt2 gosic mb35">
         <thead>
           <tr>
-            <th scope="col" colspan="2">製剤名<br>
-            <span class="sm">※アラガン社ボトックスビスタ使用</span></th>
+            <th scope="col" colspan="2">製剤名</th>
             <th scope="col">値段(税別)</th>
           </tr>
         </thead>
@@ -314,11 +310,11 @@ Template Name: ランディングページボトックス
             <td class="right">¥65,000</td>
           </tr>
           <tr>
-            <td colspan="2">マイクロボトックス(額＆眉間)</td>
+            <td colspan="2">マイクロボトックス (額＆眉間)</td>
             <td class="right">¥50,000</td>
           </tr>
           <tr>
-            <td colspan="2">マイクロボトックス(鼻＆鼻横の頬)</td>
+            <td colspan="2">マイクロボトックス (鼻＆鼻横の頬)</td>
             <td class="right">¥50,000</td>
           </tr>
           <tr>
@@ -330,48 +326,25 @@ Template Name: ランディングページボトックス
             <td class="right">¥30,000</td>
           </tr>
              <tr>
-            <td colspan="2">ボツリヌス・トキシン注入 肩こり両側</td>
+            <td colspan="2">ボツリヌス・トキシン注入 アラガン 肩こり両側</td>
             <td class="right">¥74,800</td>
           </tr>
             <tr>
-            <td colspan="2">ボツリヌス・トキシン注入 肩こり両側 4回セット</td>
+            <td colspan="2">ボツリヌス・トキシン注入 アラガン 肩こり両側 4回セット</td>
             <td class="right">1回あたり¥49,800<br>
-              <span class="sm">¥199,200</span></td>
+              <span class="sm">(総額¥199,200)</span></td>
           </tr>
-          
             <tr>
-            <td colspan="2">ボツリヌス・トキシン注入 脚痩せ(ふくらはぎ両脚)</td>
+            <td colspan="2">ボツリヌス・トキシン注入 アラガン 脚痩せ(ふくらはぎ両脚)</td>
             <td class="right">¥268,000</td>
           </tr>
-          
         </tbody>
       </table>
         
         
-        <table class="pt2 gosic mb35">
+      <table class="pt2 gosic mb15">
         <thead>
           <tr>
-            <th scope="col" colspan="2" class="bg-gth">ボツリヌス・トキシン<br>
-            <span class="sm">(リジェノックスの場合)</span></th>
-            <th scope="col" class="bg-gth">値段(税別)</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td colspan="2" class="bg-g2 gd-i">肩こり両側</td>
-            <td class="right bg-g2 gd-i">¥34,800</td>
-          </tr>
-            
-            <tr>
-            <td colspan="2" class="bg-g gd-i">脚痩せ(ふくらはぎ両脚)</td>
-            <td class="right bg-g gd-i">¥72,600</td>
-          </tr>
-        </tbody>
-      </table>
-        
-      <!--<table class="pt2 gosic mb15">
-        <thead>
-          <tr class="bg-gth">
             <th scope="col">製剤名</th>
             <th scope="col">部位</th>
             <th scope="col">値段(税別)</th>
@@ -379,18 +352,17 @@ Template Name: ランディングページボトックス
         </thead>
         <tbody>
           <tr>
-            <td rowspan="3"style="vertical-align: middle;" class="left bg-g gd-i">ボツリヌス・トキシン注入<br>
-(リジェノックス)</td>
-            <td class="bg-g2 gd-i">肩こり両側</td>
-            <td class="right bg-g2 gd-i">¥34,800</td>
+            <td rowspan="3"style="background-color: #fef0f4; vertical-align: middle;" class="left">ボツリヌス・トキシン注入</td>
+            <td>肩こり両側</td>
+            <td class="right">¥34,800</td>
           </tr>
-          <tr class="bg-g">
-            <td class="gd-i">脚痩せ(ふくらはぎ両脚)</td>
-            <td class="right gd-i">¥72,600</td>
+          <tr>
+            <td>脚痩せ(ふくらはぎ両脚)</td>
+            <td class="right">¥72,600</td>
           </tr>
         </tbody>
-      </table>-->
-       <!-- <p class="note tc">「アラガン社以外の製剤も取り扱っており、お求めやすい価格でご提供しています。」</p>-->
+      </table>
+        <p class="note tc">「アラガン社以外の製剤も取り扱っており、お求めやすい価格でご提供しています。」</p>
      <!-- <table class="pt2 gosic mb35">
         <thead>
           <tr>

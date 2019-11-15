@@ -7,7 +7,7 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?0913">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?0925">
 <script>
   (function(d) {
     var config = {
@@ -30,13 +30,13 @@
           <li><a href="<?php echo home_url( '/' ); ?>concept">当院について</a></li>
           <li class="navi-parent"><a href="#">施術・料金</a>
             <ul class="nav-child">
-                <li><a href="<?php echo home_url( '/' ); ?>siwa">しわ治療</a></li>
+              <li><a href="<?php echo home_url( '/' ); ?>siwa">しわ治療</a></li>
               <li><a href="<?php echo home_url( '/' ); ?>tarumi">たるみ治療</a></li>
               <li><a href="<?php echo home_url( '/' ); ?>kogao">小顔治療</a></li>
               <li><a href="<?php echo home_url( '/' ); ?>nose-lift">鼻の糸</a></li>
               <li><a href="<?php echo home_url( '/' ); ?>keiseigeka">形成外科治療</a></li>
               <li><a href="<?php echo home_url( '/' ); ?>medikaru">美肌治療</a></li>
-                 <li><a href="<?php echo home_url( '/' ); ?>shoshin">初診料・再診料</a></li>
+              <li><a href="<?php echo home_url( '/' ); ?>shoshin">初診料・再診料</a></li>
             </ul>
           </li>
           <li><a href="<?php echo home_url( '/' ); ?>access">アクセス</a></li>
@@ -146,7 +146,7 @@
   <?php if( have_rows('bnr_sp',28) ): ?>
   <div class="banner-arwa" id="contents1">
     <div class="swiper-container swiper1 cont">
-      <div class="swiper-wrapper">
+      <div class="swiper-wrapper sp-bnr">
         <?php while ( have_rows('bnr_sp',28) ) : the_row(); ?>
         <div class="swiper-slide"><a href="<?php the_sub_field('bnr_sp_link',28); ?>" target="_blank"><img src="<?php the_sub_field('bnr_sp_img',28); ?>" alt="キャンペーンバナー"></a></div>
         <?php endwhile; ?>
@@ -161,7 +161,7 @@
   <?php if( have_rows('bnr_pc',28) ): ?>
   <div class="banner-arwa" id="contents1">
     <div class="swiper-container swiper1 cont">
-      <div class="swiper-wrapper">
+      <div class="swiper-wrapper pc-bnr">
         <?php while ( have_rows('bnr_pc',28) ) : the_row(); ?>
         <div class="swiper-slide"><a href="<?php the_sub_field('bnr_pc_link',28); ?>" target="_blank"><img src="<?php the_sub_field('bnr_pc_img',28); ?>" alt="キャンペーンバナー"></a></div>
         <?php endwhile; ?>
@@ -232,6 +232,7 @@
         <ul>
           <li>・ヒアルロン酸</li>
           <li>・スレッドリフト</li>
+          <li>・ボトックスリフト</li>
         </ul>
         </a> </li>
       <li class="box-size hg-row"> <a href="<?php echo home_url( '/' ); ?>siwa">
@@ -246,9 +247,8 @@
         <h3 class="tc">小顔治療 </h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb07.jpg" alt="サムネイル"></div>
         <ul>
-          <li>・脂肪溶解注射</li>
-          <li>・BNLS</li>
-          <li>・ボトックスリフト</li>
+          <li data-url="<?php echo home_url( '/' ); ?>kogao#area1" class="js-link">・BNLS neo</li>
+          <li data-url="<?php echo home_url( '/' ); ?>kogao#area2" class="js-link">・エラボトックス</li>
         </ul>
         </a> </li>
       <li class="box-size"> <a href="<?php echo home_url( '/' ); ?>nose-lift">
@@ -332,18 +332,21 @@
         <div class="swiper-container slide-p2 swiper3 cont">
           <div class="swiper-wrapper">
             <?php while ( have_rows('top',155) ) : the_row(); ?>
-            <div class="bas gd box-size swiper-slide">
-              <div class="slide-in "><a href="<?php the_sub_field('link',155); ?>" class="flex">
-                <div class="thumb"><img src="<?php the_sub_field('top_p',155); ?>" alt="サムネイル"></div>
-                <div class="text">
-                  <h3 class="gd">
-                    <?php the_sub_field('top_title',155); ?>
-                  </h3>
-                  <div class="ba-txt gd gosic box-size text-over">
-                    <?php the_sub_field('top_txt',155); ?>
-                  </div>
+            <div class="bas gd box-size swiper-slide case-wrap mb0">
+              <div class="slide-in case-box mb0 flex">
+                <div class="box">
+                  <div class="thumb"><img src="<?php the_sub_field('befor_p',155); ?>" alt="サムネイル"></div>
+                  <p class="ls1 tc">
+                    <?php the_sub_field('befor_txt',155); ?>
+                  </p>
                 </div>
-                </a> </div>
+                <div class="box">
+                  <div class="thumb"><img src="<?php the_sub_field('after_p',155); ?>" alt="サムネイル"></div>
+                  <p class="ls1 tc">
+                    <?php the_sub_field('after_txt',155); ?>
+                  </p>
+                </div>
+              </div>
             </div>
             <?php endwhile; ?>
           </div>
@@ -363,6 +366,13 @@
   <section class="sns">
     <div class="inner flex">
       <div class="bnr"> <a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/blog_bnr.jpg?0910" alt="blog_bnr"> </a> </div>
+      <div class="bnr"> <a href="https://www.instagram.com/dr_fumi/" target="_blank">
+        <?php if ( wp_is_mobile() ) : ?>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/common/insta_bnr_sp.jpg?09101" alt="insta_bnr">
+        <?php else: ?>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/common/insta_bnr.jpg?09101" alt="insta_bnr">
+        <?php endif; ?>
+        </a> </div>
       <div class="bnr"><a href="https://line.me/R/ti/p/%40304ngjfp" target="_blank">
         <?php if ( wp_is_mobile() ) : ?>
         <img src="<?php echo get_template_directory_uri(); ?>/img/common/line_bnr_sp.jpg" alt="line_bnr">
@@ -421,7 +431,7 @@
           <li><a href="<?php echo home_url( '/' ); ?>nose-lift">鼻の糸</a></li>
           <li><a href="<?php echo home_url( '/' ); ?>keiseigeka">形成外科治療</a></li>
           <li><a href="<?php echo home_url( '/' ); ?>medikaru">美肌治療</a></li>
-            <li class="mb0"><a href="<?php echo home_url( '/' ); ?>shoshin">初診料・再診料</a></li>
+          <li class="mb0"><a href="<?php echo home_url( '/' ); ?>shoshin">初診料・再診料</a></li>
         </ul>
       </li>
       <li><a href="<?php echo home_url( '/' ); ?>access">アクセス</a></li>

@@ -524,7 +524,23 @@ body.page {
   color: #9d8440;
 }
 
+.gd-i {
+  color: #9d8440 !important;
+}
+
 .bg-cg {
+  background-color: #9d8440 !important;
+}
+
+.bg-g {
+  background-color: #f4f2eb !important;
+}
+
+.bg-g2 {
+  background-color: #FEFCF6 !important;
+}
+
+.bg-gth {
   background-color: #9d8440 !important;
 }
 
@@ -593,6 +609,11 @@ body.page {
 }
 
 /*swiper*/
+@media (max-width: 767px) {
+  .swiper-wrapper.sp-bnr {
+    height: 100%;
+  }
+}
 .swiper-wrapper {
   height: auto;
 }
@@ -663,8 +684,6 @@ body.page {
 
   .swiper3 .swiper-slide {
     height: auto;
-    max-height: 260px;
-    min-height: 240px;
   }
 
   .prev2, .next2 {
@@ -689,6 +708,10 @@ body.page {
 
   .swiper-container-horizontal .swiper-pagination {
     bottom: -30px;
+  }
+
+  .swiper3.swiper-container-horizontal .swiper-pagination {
+    bottom: -20px;
   }
 
   .swiper-pagination-bullet {
@@ -730,28 +753,6 @@ body.page {
     display: none !important;
   }
 }
-/*ループ内テキストオーバーフロー設定基本*/
-.text-over {
-  max-height: 150px;
-  overflow: hidden;
-  position: relative;
-}
-.text-over::before, .text-over::after {
-  position: absolute;
-  background-color: #fff;
-}
-.text-over::before {
-  content: "...";
-  bottom: 0;
-  right: 10px;
-  width: .9rem;
-}
-.text-over::after {
-  content: "";
-  height: 100%;
-  width: 100%;
-}
-
 /*PAGE TOP SCROll*/
 .page-top {
   position: fixed;
@@ -1902,6 +1903,9 @@ footer.pages.list-footer .copy {
     font-size: .9rem;
   }
 }
+.slides {
+  margin-bottom: 80px;
+}
 .slides .inner .slide-area {
   position: relative;
   padding: 0 4%;
@@ -1925,48 +1929,26 @@ footer.pages.list-footer .copy {
   display: block;
   font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
 }
-.slides .inner .right-slide .slide-in .thumb {
-  width: 38%;
-  height: 283px;
+.slides .inner .right-slide .slide-in .box {
+  width: 45%;
 }
-.slides .inner .right-slide .slide-in .thumb img {
+.slides .inner .right-slide .slide-in .box .thumb {
   width: 100%;
-  height: 100%;
+  height: auto;
+}
+.slides .inner .right-slide .slide-in .box .thumb img {
+  width: 100%;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.slides .inner .right-slide .slide-in .text {
-  width: 62%;
-  background-color: #f3e9f0;
-  padding: 32px 20px;
-}
-.slides .inner .right-slide .slide-in .text h3 {
-  margin-bottom: 17px;
+.slides .inner .right-slide .slide-in .box p {
+  margin-top: 10px;
+  color: #454545;
   font-size: 1.2rem;
 }
-.slides .inner .right-slide .slide-in .text .ba-txt {
-  font-size: .9rem;
-  max-height: 185px;
-  overflow: hidden;
-}
-.slides .inner .right-slide .slide-in .text .ba-txt p {
-  font-size: .9rem;
-}
-.slides .inner .right-slide .slide-in .text .text-over {
-  max-height: 185px;
-}
-.slides .inner .right-slide .slide-in .text .text-over::before, .slides .inner .right-slide .slide-in .text .text-over::after {
-  position: absolute;
-  background-color: #f3e9f0;
-}
-.slides .inner .right-slide .slide-in .text .text-over::before {
-  content: "...";
-  bottom: 0;
-  right: 0px;
-  width: .9rem;
-}
-.slides .inner .right-slide .slide-in .text .text-over::after {
-  content: "";
+.slides .inner .right-slide .slide-in .box:nth-of-type(1)::after {
+  right: -39px;
 }
 
 @media (max-width: 767px) {
@@ -1994,36 +1976,31 @@ footer.pages.list-footer .copy {
     display: block;
   }
   .slides .inner .right-slide {
-    width: 85%;
+    width: 88%;
     margin: 0 auto;
   }
-  .slides .inner .right-slide .slide-in .thumb {
-    width: 47%;
+  .slides .inner .right-slide .slide-in.case-box {
+    height: auto;
   }
-  .slides .inner .right-slide .slide-in .thumb img {
+  .slides .inner .right-slide .slide-in.case-box .box .thumb {
     width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    height: auto;
   }
-  .slides .inner .right-slide .slide-in .text {
-    width: 50%;
-    background-color: #f3e9f0;
-    padding: 32px 20px;
+  .slides .inner .right-slide .slide-in.case-box .box .thumb img {
+    width: 100%;
+    height: auto;
   }
-  .slides .inner .right-slide .slide-in .text h3 {
-    font-size: 1.2rem;
-    margin-bottom: 17px;
+  .slides .inner .right-slide .slide-in.case-box .box:nth-of-type(1) {
+    margin-right: 35px;
   }
-  .slides .inner .right-slide .slide-in .text .ba-txt {
-    font-size: .7rem;
-    overflow: hidden;
-    max-height: 160px;
+  .slides .inner .right-slide .slide-in.case-box .box:nth-of-type(1)::after {
+    top: 39%;
+    right: -24px;
+    border-width: 8px 0 8px 12.3px;
   }
 }
 .sns .inner .bnr {
-  width: 40.5%;
-  margin: 0 4.0%;
+  width: 32.5%;
 }
 
 @media (max-width: 767px) {
@@ -2816,21 +2793,29 @@ footer.pages.list-footer .copy {
 .case .inner h2 {
   margin-bottom: 50px;
 }
-.case .inner .case-wrap {
+.case .inner .note {
+  width: 620px;
+  margin: auto;
+  padding: 28px;
+  font-size: .92rem;
+  background-color: #f9f9f9;
+}
+
+.case-wrap {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.case .inner .case-wrap .case-box {
+.case-wrap .case-box {
   margin-bottom: 55px;
 }
-.case .inner .case-wrap .case-box .box .thumb img {
+.case-wrap .case-box .box .thumb img {
   height: auto;
 }
-.case .inner .case-wrap .case-box .box:nth-of-type(1) {
+.case-wrap .case-box .box:nth-of-type(1) {
   margin-right: 50px;
   position: relative;
 }
-.case .inner .case-wrap .case-box .box:nth-of-type(1)::after {
+.case-wrap .case-box .box:nth-of-type(1)::after {
   content: "";
   position: absolute;
   top: 42%;
@@ -2838,13 +2823,6 @@ footer.pages.list-footer .copy {
   border-style: solid;
   border-width: 12px 0 12px 19.3px;
   border-color: transparent transparent transparent #a64987;
-}
-.case .inner .note {
-  width: 620px;
-  margin: auto;
-  padding: 28px;
-  font-size: .92rem;
-  background-color: #f9f9f9;
 }
 
 /*施術の感想（口コミ）*/
@@ -2873,8 +2851,7 @@ footer.pages.list-footer .copy {
 }
 .price .inner-box2 .price-list dl {
   border-bottom: 1px solid #ccc;
-  margin-top: 18px;
-  padding-bottom: 18px;
+  padding: 18px 0;
   letter-spacing: 1px;
   font-size: 1.07rem;
   -webkit-box-align: center;
@@ -3228,6 +3205,17 @@ footer.pages.list-footer .copy {
   }
   .price .inner-box2 .price-list dl {
     font-size: .9rem;
+  }
+  .price .inner-box2 .price-list dl dt {
+    width: 62%;
+  }
+  .price .inner-box2 .price-list dl dd {
+    width: 38%;
+    text-align: right;
+  }
+  .price .inner-box2 .price-list dl dd .sm {
+    display: inline-block;
+    text-align: center;
   }
 
   /*施術の流れ*/
@@ -3605,5 +3593,4 @@ footer.pages.list-footer .copy {
     width: 80%;
   }
 }
-
 /*# sourceMappingURL=style.css.map */

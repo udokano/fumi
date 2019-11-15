@@ -35,9 +35,9 @@ Aging 私たちが目指すもの"></h2>
        <div class="box">
       <div class="text ">
         <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/concept/mission02.png" alt="mission2"></div>
-        <h3 class="ls3 gd">お一人お一人の悩みに寄り添い、確かな技術とセンスでその方に合った自然な美しさをご提案いたします。</h3>
+        <h3 class="ls3 gd">お一人お一人の悩みに寄り添い、確かな技術と<br class="pc">センスでその方に合った自然な美しさをご提案いたします。</h3>
         <div class="txt">
-          <p class="gosic mb30 ls1">私たちは丁寧なカウンセリングを心がけており、患者様のご要望やお悩みに寄り添い、その方に合った治療法をご提案いたします </p>
+          <p class="gosic mb30 ls1">”私たちは丁寧なカウンセリングを心がけており、患者様のご要望やお悩みに寄り添い、その方に合った治療法をご提案いたします。”</p>
           <p class="gosic ls1">またナチュラルで違和感のない仕上がりを重視します。</p>
         </div>
       </div>

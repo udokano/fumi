@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: 小顔治療
+Template Name: 小顔治療確認用
 */
 
 ?>
@@ -176,8 +176,7 @@ Template Name: 小顔治療
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/thumb02.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>エラボトックス</h2>
-      <p class="ls1 gosic">エラがはって見える場合、咬筋と言われる噛む時に使う筋肉が発達している事がほとんどです。咬筋にボトックスを注射する事で咬筋が小さくなり小顔効果が高い治療です。 </p><br>
-        
+      <p class="ls1 gosic">エラがはって見える場合、咬筋と言われる噛む時に使う筋肉が発達している事がほとんどです。咬筋にボトックスを注射する事で咬筋が小さくなり小顔効果が高い治療です。 </p>
     </div>
   </div>
 </section>
@@ -217,13 +216,13 @@ Template Name: 小顔治療
       <?php while ( have_rows('ope_kogao_btxela',155) ) : the_row(); ?>
       <div class="case-box flex">
         <div class="box">
-          <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt="img"> </div>
+          <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
           <p class="gosic tc">
             <?php the_sub_field('befor_txt',155); ?>
           </p>
         </div>
         <div class="box">
-          <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt="img"> </div>
+          <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
           <p class="gosic tc">
             <?php the_sub_field('after_txt',155); ?>
           </p>
@@ -242,9 +241,9 @@ Template Name: 小顔治療
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">エラボトックス料金</h2>
-    <p class="p-desc gosic tc mb20 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。<br>ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
-    <p class="p-desc gosic tc mb20 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
-      <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1215972.html" target="_blank" class="cp tc ls1" style="display: block;">症例写真はこちらから、ご参照ください</a>
+    <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。<br>
+      ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
+    <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
     <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">&nbsp;</dt>

@@ -635,11 +635,26 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
     color: $cg;
 }
 
+.gd-i {
+    color: $cg!important;
+}
 
 .bg-cg {
     background-color: $cg!important;
 }
 
+
+.bg-g {
+    background-color: #f4f2eb!important;
+}
+
+.bg-g2 {
+    background-color: #FEFCF6!important;
+}
+
+.bg-gth {
+    background-color: $cg!important;
+}
 
 
 .gosic {
@@ -689,6 +704,16 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
 
 
 /*swiper*/
+
+@media (max-width: 767px) {
+    
+    .swiper-wrapper.sp-bnr {
+    height: 100%;
+}
+
+    
+}
+
 
 .swiper-wrapper {
     height: auto;
@@ -764,8 +789,6 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
     
     .swiper3 .swiper-slide {
         height: auto;
-        max-height: 260px;
-        min-height: 240px;
     }
 
 .prev2,.next2 {
@@ -791,6 +814,10 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
 .swiper-container-horizontal .swiper-pagination {
     bottom: -30px;
 }
+    
+    .swiper3.swiper-container-horizontal .swiper-pagination {
+        bottom: -20px;
+    }
 
 .swiper-pagination-bullet {
     border-radius: 0;
@@ -840,33 +867,6 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
 }
 
     
-}
-
-
-/*ループ内テキストオーバーフロー設定基本*/
-
-.text-over {
-        max-height: 150px;
-        overflow: hidden;
-        position: relative;
-    &::before,&::after {
-        position: absolute;
-            background-color: #fff;
-
-    }
-    
-    &::before {
-        content: "...";
-  bottom: 0;
-  right: 10px;
-        width: .9rem;
-    }
-    
-    &::after {
-        content: "";
-  height: 100%;
-  width: 100%;
-    }
 }
 
 

@@ -15,7 +15,7 @@ Template Name: たるみ治療
     診察でより適切な治療をご提案させていただきます。</p>
   <p class="tc sp">当院では溶ける糸を用いたリフトアップやヒアルロン酸注入によるリフトアップをおすすめしています。
     お顔のタイプによっておすすめの治療が変わるため、診察でより適切な治療をご提案させていただきます。</p>
-  <div class="ancor-box"> <a href="#area1">ヒアルロン酸</a><a href="#area2">スレッドリフト</a> </div>
+  <div class="ancor-box"> <a href="#area1">ヒアルロン酸</a><a href="#area2">スレッドリフト</a><a href="#area3">ボトックスリフト</a> </div>
 </section>
 <section class="ope-intro bg-cp" id="area1">
   <div class="inner flex al-cent">
@@ -282,15 +282,15 @@ Template Name: たるみ治療
       </dl>
       <dl class="flex">
         <dt> 2本</dt>
-        <dd>¥160,000(1本あたり¥80,000)</dd>
+        <dd>¥195,000(1本あたり¥97,500)</dd>
       </dl>
       <dl class="flex">
         <dt> 4本</dt>
-        <dd>¥280,000(1本あたり¥70,000)</dd>
+        <dd>¥296,000(1本あたり¥74,000)</dd>
       </dl>
       <dl class="flex">
         <dt> 6本</dt>
-        <dd>¥360,000(1本あたり¥60,000)</dd>
+        <dd>¥378,000(1本あたり¥63,000)</dd>
       </dl>
       <dl class="flex">
         <dt> 8本</dt>
@@ -377,6 +377,141 @@ Template Name: たるみ治療
     <?php endwhile; wp_reset_postdata(); ?>
   </div>
 </section>
+
+
+
+<section class="ope-intro bg-cp" id="area3">
+<div class="inner flex al-cent">
+<div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/thumb01.jpg" alt="サムネイル"> </div>
+<div class="text box-size">
+  <h2>ボトックスリフト</h2>
+  <p class="ls1 gosic">引き締めを目的としてボトックスを細かく注射する方法です。表情じわを改善するボトックスと違い、ボトックスを皮膚のごく表面に浅く細かく注入する事でお顔を引き締めたり引き上げる治療です。1週間から10日おきに数回行うとより効果的です。 </p>
+</div>
+</section>
+<section class="features layout1">
+  <div class="inner-box2">
+    <h2 class="cp gosic tc ls1">ボトックスリフトの特徴</h2>
+    <div class="box">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/point04.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.1</div>
+        <h3 class="gd ls1">たるみとシワ解消</h3>
+        <p class="gosic">小顔効果だけではなく、自然な表情を保ちながらたるみとシワを和らげることが可能です。</p>
+      </div>
+    </div>
+    <div class="box cf">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/point05.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.2</div>
+        <h3 class="gd ls1">お肌を滑らかに</h3>
+        <p class="gosic">ボトックスを注入することで、筋肉の表面繊維だけの働きを弱めて、皮膚の表面を滑らかにします。</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/point06.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.3</div>
+        <h3 class="gd ls1">フェイスラインを<br>
+          美しくする</h3>
+        <p class="gosic">アゴから首に、ほうれいせんの横の肉、眼の下のたるみに対するリフトアップ効果が期待できます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="infu-point">
+  <div class="inner">
+    <h2 class="cp tc goisc ls1">注入部位</h2>
+    <div class="img"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/img02.png" alt="注入部位"> </div>
+  </div>
+</section>
+<?php if( have_rows('ope_kogao_btxlift',155) ): ?>
+<section class="case">
+  <div class="inner">
+    <h2 class="tc">症例</h2>
+    <div class="case-wrap flex">
+      <?php while ( have_rows('ope_kogao_btxlift',155) ) : the_row(); ?>
+      <div class="case-box flex">
+        <div class="box">
+          <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
+          <p class="gosic tc">
+            <?php the_sub_field('befor_txt',155); ?>
+          </p>
+        </div>
+        <div class="box">
+          <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
+          <p class="gosic tc">
+            <?php the_sub_field('after_txt',155); ?>
+          </p>
+        </div>
+      </div>
+      <?php endwhile; ?>
+    </div>
+    <div class="note box-size gosic">
+      <p>リスク副作用</p>
+      <p>・個人差がありますが、腫れなどが発生する場合がございます。</p>
+    </div>
+  </div>
+</section>
+<?php else: ?>
+<?php endif; ?>
+<section class="price">
+  <div class="inner-box2">
+    <h2 class="tc ls1">ボトックスリフト料金</h2>
+    <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。<br>ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
+    <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
+ <!--      <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。
+      ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>-->
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">&nbsp;</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>ボトックスリフト</dt>
+        <dd>¥68,000</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+<section class="ope-faq">
+  <div class="inner">
+    <h2 class="tc ls1">よくある質問</h2>
+    <?php
+    $args = array(
+      'post_type' => 'faq',
+      'tax_query' => array(
+        array(
+          'taxonomy' => 'faq_kind',
+          'field' => 'slug',
+          'terms' => array( 'bx_lift' )
+        )
+      ),
+      'orderby' => 'date',
+      'order' => 'DESC',
+    );
+    $the_query = new WP_Query( $args );
+    while ( $the_query->have_posts() ): $the_query->the_post();
+    ?>
+    
+    <!--ここにループの中の記述 -->
+    
+    <dl class="box-size">
+      <dt><span class="q">Q</span><span class="gosic">
+        <?php the_title(); ?>
+        </span></dt>
+      <dd><span class="a">A</span><span class="gosic">
+        <?php remove_filter('the_content', 'wpautop'); ?>
+        <?php the_content(); ?>
+        </span></dd>
+    </dl>
+    <?php endwhile; wp_reset_postdata(); ?>
+  </div>
+</section>
+
+
+
+
+
 <section class="flow">
   <div class="inner">
     <h2 class="tc ls1">施術の流れ</h2>
