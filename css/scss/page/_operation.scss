@@ -1017,7 +1017,20 @@
             
             .price-list {
                 dl {
-                     font-size: .9rem;}
+                     font-size: .9rem;
+                    dt {
+                        width: 62%;
+                    }
+                    
+                    dd {
+                        width: 38%;
+                        text-align: right;
+                        .sm {display: inline-block;
+                            text-align: center;
+                        }
+                    }
+                
+                   }
                 }
             }
         }

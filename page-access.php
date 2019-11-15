@@ -61,7 +61,7 @@ Template Name: アクセス
     <li>
       <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/access/access1_1.jpg" alt="アクセス方法"> </div>
       <h4 class="cp tc">順路❶</h4>
-      <p>中央改札口を出て、エスカレーターで１階に降りて、阪急三番街の地蔵横丁のバスターミナルのある出口を目指します。</p>
+      <p>中央改札口または茶屋町改札口を出て、エスカレーターで１階に降りて、阪急三番街の地蔵横丁のバスターミナルのある出口を目指します。</p>
     </li>
     <li>
       <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/access/access1_2.jpg" alt="アクセス方法"> </div>

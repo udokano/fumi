@@ -120,14 +120,13 @@
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">ボトックス注入料金</h2>
-    <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。<br>
-      ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
-    <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
+   <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。<br>ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
+    <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
     <div class="price-list gosic">
       <dl class="flex">
-        <dt class="fw600">スタンダード部位<br>
-          目尻、眉間、額、あご、鼻(バニーライン)<br>
-          (1ヶ月以内の追加・調整無料、針代無料、再診料無料)</dt>
+        <dt class="fw600">スタンダード部位<br class="pc">
+          目尻、眉間、額、あご、鼻(バニーライン)<br class="pc">
+          (1ヶ月以内の追加・調整無料、針代無料、再診料無料)<span class="sm">※アラガン社ボトックスビスタ使用</span></dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
@@ -153,9 +152,9 @@
     </div>
     <div class="price-list gosic">
       <dl class="flex">
-        <dt class="fw600">アディショナル部位<br>
-          口角、目頭、口唇(口すぼめ時のしわ) 、眉下(ブローリフト)、<br>
-          アーモンドアイ(たれ目)</dt>
+        <dt class="fw600">アディショナル部位<br class="pc">
+          口角、目頭、口唇(口すぼめ時のしわ) 、眉下(ブローリフト)、<br class="pc">
+          アーモンドアイ(たれ目)<span class="sm">※アラガン社ボトックスビスタ使用</span></dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
@@ -169,12 +168,12 @@
     </div>
       <div class="price-list gosic">
       <dl class="flex">
-        <dt class="fw600">その他の部位</dt>
+        <dt class="fw600">その他の部位 <span class="sm">※アラガン社ボトックスビスタ使用</span></dt>
         <dd class="f-bold">税別</dd>
       </dl>
         
       <dl class="flex">
-        <dt> エラボトックス</dt>
+        <dt>エラボトックス</dt>
         <dd>¥50,000</dd>
       </dl>
       <dl class="flex">
@@ -182,11 +181,11 @@
         <dd>¥65,000</dd>
       </dl>
       <dl class="flex">
-        <dt>マイクロボトックス (額＆眉間)</dt>
+        <dt>マイクロボトックス(額＆眉間)</dt>
         <dd>¥50,000</dd>
       </dl>
       <dl class="flex">
-        <dt>マイクロボトックス (鼻＆鼻横の頬)</dt>
+        <dt>マイクロボトックス(鼻＆鼻横の頬)</dt>
         <dd>¥50,000</dd>
       </dl>
       <dl class="flex">
@@ -198,21 +197,40 @@
         <dd>¥30,000</dd>
       </dl>
           <dl class="flex">
-        <dt>ボツリヌス・トキシン  アラガン  肩こり両側</dt>
+        <dt>ボツリヌス・トキシン肩こり両側</dt>
         <dd>¥74,800</dd>
       </dl>
       <dl class="flex">
-        <dt>肩こり両側　4回セット</dt>
+        <dt>肩こり両側4回セット</dt>
         <dd>1回あたり　¥49,800<span class="sm tc">(総額¥199,200)</span></dd>
       </dl>
+       
       <dl class="flex">
-        <dt>ボツリヌス・トキシン  アラガン 脚痩せ(ふくらはぎ両脚)</dt>
+        <dt>ボツリヌス・トキシン脚痩せ(ふくらはぎ両脚)</dt>
         <dd>¥268,000</dd>
       </dl>
+        
     </div>
-    <div class="price-list gosic mb20">
+      
+     <div class="price-list gosic">
       <dl class="flex">
-        <dt class="fw600">ボツリヌス・トキシン</dt>
+        <dt class="fw600">ボツリヌス・トキシン<span class="sm">(リジェノックスの場合)</span></dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+        
+      <dl class="flex">
+        <dt>肩こり両側</dt>
+        <dd>¥34,800</dd>
+      </dl>
+      <dl class="flex">
+        <dt>脚痩せ(ふくらはぎ両脚)</dt>
+        <dd>¥72,600</dd>
+      </dl>
+    </div>
+      
+  <!--  <div class="price-list gosic mb20">
+      <dl class="flex cp">
+        <dt class="fw600">ボツリヌス・トキシン (リジェノックス)</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
@@ -223,8 +241,8 @@
         <dt>脚痩せ(ふくらはぎ両脚)</dt>
         <dd>¥72,600</dd>
       </dl>
-    </div>
-      <p class="note tc gd">「アラガン社以外の製剤も取り扱っており、お求めやすい価格でご提供しています。」</p>
+    </div>-->
+      <!--<p class="note tc gd">「アラガン社以外の製剤も取り扱っており、お求めやすい価格でご提供しています。」</p>-->
    <!-- <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">ボツリヌス・トキシン  アラガン</dt>

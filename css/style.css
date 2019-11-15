@@ -3206,6 +3206,17 @@ footer.pages.list-footer .copy {
   .price .inner-box2 .price-list dl {
     font-size: .9rem;
   }
+  .price .inner-box2 .price-list dl dt {
+    width: 62%;
+  }
+  .price .inner-box2 .price-list dl dd {
+    width: 38%;
+    text-align: right;
+  }
+  .price .inner-box2 .price-list dl dd .sm {
+    display: inline-block;
+    text-align: center;
+  }
 
   /*施術の流れ*/
   .flow .inner h2 {
@@ -3582,5 +3593,4 @@ footer.pages.list-footer .copy {
     width: 80%;
   }
 }
-
 /*# sourceMappingURL=style.css.map */

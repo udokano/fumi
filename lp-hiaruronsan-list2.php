@@ -187,13 +187,13 @@ function ua_smt() {
           <li class="gosic box-size">
             <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_thumb05.png" alt="左右対称になるように"> </div>
             <p class="gd ls1">より左右対称に近い方が美しく見えます。</p>
-            <a href="http://livedoor.blogimg.jp/dr_sakiyama/imgs/2/c/2c46f17e.jpg" class="ancor-btn sp-dis" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_btn.png" alt="お顔の左右対称について"></a> </li>
+         <!--   <a href="http://livedoor.blogimg.jp/dr_sakiyama/imgs/2/c/2c46f17e.jpg" class="ancor-btn sp-dis" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_btn.png" alt="お顔の左右対称について"></a>--> </li>
           <li class="gosic box-size">
             <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_thumb06.png" alt="パーツのバランス"> </div>
             <p class="gd ls1">目の幅・目頭から目頭の距離、鼻下から下口唇・下口唇から顎の距離なども重要です。</p>
           </li>
         </ul>
-        <a href="http://livedoor.blogimg.jp/dr_sakiyama/imgs/2/c/2c46f17e.jpg" class="ancor-btn pc-dis" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_btn.png" alt="お顔の左右対称について"></a> </div>
+        <!--<a href="http://livedoor.blogimg.jp/dr_sakiyama/imgs/2/c/2c46f17e.jpg" class="ancor-btn pc-dis" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_btn.png" alt="お顔の左右対称について"></a> --></div>
       <div class="box">
         <h3 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area7_cach03.png" alt="もちろん気になる部位のみの注入治療も行っておりますので、お気軽にご相談ください。"></h3>
         <?php if ( wp_is_mobile() ) : ?>
