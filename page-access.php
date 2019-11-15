@@ -147,6 +147,11 @@ Template Name: アクセス
       <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/access/parking02.jpg" alt="パーキング"></div>
       <p class="tc"><a href="https://www.google.com/maps/@34.7059569,135.4957383,3a,75y,44.73h,93.05t/data=!3m6!1e1!3m4!1sp_oLjtGxookBlochEzHMzw!2e0!7i16384!8i8192" target="_blank" class="cp">GoogleMAPを開く</a></p>
     </li>
+      <li>
+      <h4 class="gd ls1 tc">Park1st.芝田</h4>
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/access/parking03.jpg" alt="パーキング"></div>
+      <p class="tc"><a href="https://www.google.com/maps/@34.7064615,135.4967948,3a,60y,309.31h,88.6t/data=!3m6!1e1!3m4!1skqmCwoKqXl94RGbX1rJIuQ!2e0!7i16384!8i8192" target="_blank" class="cp">GoogleMAPを開く</a></p>
+    </li>
   </ul>
 </div>
 </div>

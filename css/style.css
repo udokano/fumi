@@ -2213,7 +2213,7 @@ footer.pages.list-footer .copy {
   margin: 0 auto 35px;
 }
 .access-info .inner .info ul.parking li {
-  width: 46%;
+  width: 30%;
 }
 .access-info .inner .info ul.parking li h4 {
   margin-bottom: 15px;
@@ -3593,4 +3593,5 @@ footer.pages.list-footer .copy {
     width: 80%;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
