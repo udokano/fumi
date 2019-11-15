@@ -128,7 +128,7 @@ Template Name: メディカルエステ
         <dd>¥8,000(税別)</dd>
       </dl>
     </div>
-    <div class="desc-box box-size gosic"> 初めてエンビロンのトリートメントを受けられる方向きのエントリーコース。イオン導入を用いて、肌にマイルドにビタミンを補給します。
+    <div class="desc-box box-size gosic"><p class="txt">初めてエンビロンのトリートメントを受けられる方向きのエントリーコース。イオン導入を用いて、肌にマイルドにビタミンを補給します。</p>
       <p class="gd">❶クレンジング  ❷トーニング  ❸クールビタミントリートメント  ❹アフタースキンケア</p>
     </div>
     <div class="price-list gosic">
@@ -136,8 +136,26 @@ Template Name: メディカルエステ
         <dt>エンビロンWビタミンコース</dt>
         <dd>¥12,000(税別)</dd>
       </dl>
-      <div class="desc-box box-size gosic"> 定期的に受けていただきたいエンビロンのビタミン導入定番コース。超音波導入・イオン導入を用いて、ビタミンA・Cをお肌に効果的に補給し、さらにクーリングパックによるイオン導入を用いてお肌にビタミンを行き渡らせます。
+      <div class="desc-box box-size gosic"><p class="txt">定期的に受けていただきたいエンビロンのビタミン導入定番コース。超音波導入・イオン導入を用いて、ビタミンA・Cをお肌に効果的に補給し、さらにクーリングパックによるイオン導入を用いてお肌にビタミンを行き渡らせます。</p>
         <p class="gd">❶クレンジング  ❷トーニング  ❸ソノイオントリートメント  ❹クールビタミントリートメント  ❺アフタースキンケア</p>
+      </div>
+    </div>
+      <div class="price-list gosic">
+      <dl class="flex">
+        <dt>生幹細胞ハリ艶UPコース</dt>
+        <dd>¥30,000(税別)</dd>
+      </dl>
+      <div class="desc-box box-size gosic">
+        <p class="gd">❶クレンジング  ❷トーニングorシリコンオフトリートメント  ❸生幹細胞＋ヒトプラセンタ超音波導入  ❹幹細胞パック導入</p>
+      </div>
+    </div>
+      <div class="price-list gosic">
+      <dl class="flex">
+        <dt>幹細胞パック導入コース</dt>
+        <dd>¥10,000(税別)</dd>
+      </dl>
+      <div class="desc-box box-size gosic">
+        <p class="gd">❶クレンジング  ❷トーニングorシリコンオフトリートメント  ❸幹細胞パック導入</p>
       </div>
     </div>
   </div>

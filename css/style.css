@@ -2868,12 +2868,15 @@ footer.pages.list-footer .copy {
 /*メディカルエステ料金説明*/
 .desc-box {
   margin: 20px 0 45px;
-  padding: 25px 30px;
+  padding: 20px 20px;
   font-size: 1.1rem;
   background-color: #f8f8f8;
 }
-.desc-box p {
-  margin-top: 20px;
+.desc-box p.gd {
+  font-size: 1.04rem;
+}
+.desc-box p.txt {
+  margin-bottom: 20px;
 }
 
 /*施術の流れ*/
