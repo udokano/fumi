@@ -1,51 +1,49 @@
 /* reset & set
 -------------------------------------------------- */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-  margin: 0;
-  padding: 0;
-  vertical-align: baseline;
-  font-family: inherit;
-  font-size: 100%;
-  font-weight: inherit;
-  font-style: inherit;
-  border: 0;
-  outline: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    border: 0;
+    outline: 0;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block;
+    display: block;
 }
 
 li {
-	list-style-type: none;
+    list-style-type: none;
 }
 
-a{
-	text-decoration: none;
-	cursor: pointer;
+a {
+    text-decoration: none;
+    cursor: pointer;
 }
 
-
-a img:hover,a:hover {
-	opacity: 0.8;
+a img:hover, a:hover {
+    opacity: 0.8;
 }
 
 li img {
-	display: block;
+    display: block;
 }
 
 a img {
-	border-style: none;
+    border-style: none;
 }
 
 img {
     vertical-align: bottom;
+
     @include img-fit;
 }
 
-
 //フォームリセット
-
 
 input,
 label,
@@ -53,32 +51,34 @@ select,
 button,
 submit,
 textarea {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  display: inline-block;
-  vertical-align: middle;
-  white-space: normal;
-  background: none;
-  line-height: 1;
-  font: inherit;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+    background: none;
+    line-height: 1;
+    font: inherit;
 }
 
 /* iOSでのデフォルトスタイルをリセット */
 input[type="submit"],
 input[type="button"] {
-  border-radius: 0;
-  -webkit-box-sizing: content-box;
-  -webkit-appearance: button;
-  appearance: button;
-  border: none;
-  box-sizing: border-box;
+    border-radius: 0;
+    -webkit-box-sizing: content-box;
+    -webkit-appearance: button;
+    appearance: button;
+    border: none;
+    box-sizing: border-box;
     background: none;
+
     &::-webkit-search-decoration {
-      display: none;
+        display: none;
     }
+
     &::focus {
-      outline-offset: -2px;
+        outline-offset: -2px;
     }
 }
 
@@ -91,52 +91,49 @@ select {
 input:focus,
 button:focus,
 select:focus,
-textarea:focus{
-  outline: 0;
+textarea:focus {
+    outline: 0;
 }
 
 /* Make webkit render the search input like a normal text field */
 input[type=search] {
-  -webkit-appearance: textfield;
+    -webkit-appearance: textfield;
 }
 
 /* Turn off the recent search for webkit. It adds about 15px padding on the left */
 ::-webkit-search-decoration {
-  display: none;
+    display: none;
 }
 
 /* Turn off scroll bars in IE unless needed */
 textarea {
-  overflow: auto;
+    overflow: auto;
 }
-
-
-
 
 /*クリアフィックス*/
 .cf:after {
-	content: "";
-	display: block;
-	clear: both;
-	height: 0;
-	visibility: hidden;
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
 }
 
-.sp{
-	display: none;
+.sp {
+    display: none;
 }
 
 .sp-dis {
-    display: none!important;
+    display: none !important;
 }
 
-h2,h3,h4 {
-	font-weight: 300;
+h2, h3, h4 {
+    font-weight: 300;
 }
 
 /*トップコンテンツ見出し*/
 
-h2{
+h2 {
     font-size: 2.4rem;
     letter-spacing: 3px;
 }
@@ -147,40 +144,34 @@ h3 {
 }
 
 @media (max-width: 767px) {
-    
-h2{
-    font-size: 2.0rem;
-}
+    h2 {
+        font-size: 2.0rem;
+    }
 
-h3 {
-    font-size: 1.4rem;
-}    
-    
-    
+    h3 {
+        font-size: 1.4rem;
+    }
 }
-
 
 html {
-	font-size: 100%; /*18px*/
+    font-size: 100%; /*18px*/
 }
 
 body {
     line-height: 1.5;
-	color: $cg;
-    font-family:  "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
-
+    color: $cg;
+    font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
 }
 
 .wrappre {
     position: relative;
     width: 100%;
     min-width: 1160px;
-    }
+}
 
 section {
     width: 100%;
     margin-bottom: 60px;
-   
 }
 
 /*矢印　くの字*/
@@ -188,47 +179,42 @@ section {
 .arrow::before {
     content: "";
     position: absolute;
-  right: 25px;
-  top: 50%;
-  width: 15px;
-  height: 15px;
-  border-top: 1px solid #FFF;
-  border-right: 1px solid #fff;
-  transform: rotate(45deg) translateY(-50%);
+    right: 25px;
+    top: 50%;
+    width: 15px;
+    height: 15px;
+    border-top: 1px solid #FFF;
+    border-right: 1px solid #fff;
+    transform: rotate(45deg) translateY(-50%);
 }
 
 .btn {
-  position: relative;
-  display: inline-block;
-  background-color: $cp;
-  height: 70px;
-  line-height: 70px;
-  text-align: center;
-  width: 240px;
-  color: #fff;
- font-size: 14px;
+    position: relative;
+    display: inline-block;
+    background-color: $cp;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    width: 240px;
+    color: #fff;
+    font-size: 14px;
     letter-spacing: 1px;
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
-        
-  &:hover {
-    opacity: .8;
-  }
+
+    &:hover {
+        opacity: .8;
+    }
 }
 
 @media (max-width: 767px) {
-    
-.btn {
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  width: 180px;
- font-size: 14px;
+    .btn {
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        width: 180px;
+        font-size: 14px;
+    }
 }
-    
-    
-    
-}
-
 
 /*CV-BTNS*/
 
@@ -238,14 +224,15 @@ section {
     padding: 23px 0;
     color: #fff;
     text-align: center;
+
     .sm {
         text-align: left;
         display: inline-block;
     }
 }
 
-.cv-btns.bg-rs .bg-icon,.cv-btns.bg-ct .bg-icon {
-   background: no-repeat 15% 50%/ 13%;
+.cv-btns.bg-rs .bg-icon, .cv-btns.bg-ct .bg-icon {
+    background: no-repeat 15% 50%/ 13%;
     display: block;
     letter-spacing: 1px;
     font-size: 1.4rem;
@@ -253,40 +240,40 @@ section {
     padding-left: 34%;
 }
 
- .cv-btns.bg-rs {
+.cv-btns.bg-rs {
     background-color: $cg;
-      .bg-icon{
+
+    .bg-icon {
         background-image: url("../img/common/icon_cal.png");
-
-     }
-}
-
- .cv-btns.bg-ct {
-    background-color: $cp;
-     .bg-icon {
-    background-image: url("../img/common/icon_mail.png");
-
-     }
-}
-
-
- .sm {
-        font-size: .6rem;
-     letter-spacing: 1px;
-    display: block;
-     opacity: .8;
     }
+}
 
+.cv-btns.bg-ct {
+    background-color: $cp;
+
+    .bg-icon {
+        background-image: url("../img/common/icon_mail.png");
+    }
+}
+
+.sm {
+    font-size: .6rem;
+    letter-spacing: 1px;
+    display: block;
+    opacity: .8;
+}
 
 /*HEADER  CV-BTNS*/
 
 .top-cv-btn {
     font-size: 0;
+
     .cv-btns {
         text-align: center;
-            width: 100px;
-            padding: 50px 0 20px;
+        width: 100px;
+        padding: 50px 0 20px;
         display: inline-block;
+
         span {
             font-size: .9rem;
             padding-top: 37px;
@@ -294,13 +281,13 @@ section {
             color: #fff;
         }
     }
-    
+
     .bg-rs {
         span {
             background-image: url("../img/common/icon_cal.png");
         }
     }
-    
+
     .bg-ct {
         span {
             padding-top: 34px;
@@ -309,43 +296,37 @@ section {
     }
 }
 
-
 @media (max-width: 767px) {
-    
-    
     .top-cv-btn {
-    font-size: 0;
-    .cv-btns {
-        text-align: center;
+        font-size: 0;
+
+        .cv-btns {
+            text-align: center;
             width: 66px;
             padding: 35px 0 10px;
-        display: inline-block;
-        span {
-            font-size: .8rem;
-            padding-top: 28px;
-            background: no-repeat 50% 0%/ 16px;
-            color: #fff;
-        }
-    }
-    
-    .bg-rs {
-        span {
-            background-image: url("../img/common/icon_cal.png");
-        }
-    }
-    
-    .bg-ct {
-        span {
-            padding-top: 25px;
-            background-image: url("../img/common/icon_mail.png");
-        }
-    }
-}
+            display: inline-block;
 
-    
-    
-    
-    
+            span {
+                font-size: .8rem;
+                padding-top: 28px;
+                background: no-repeat 50% 0%/ 16px;
+                color: #fff;
+            }
+        }
+
+        .bg-rs {
+            span {
+                background-image: url("../img/common/icon_cal.png");
+            }
+        }
+
+        .bg-ct {
+            span {
+                padding-top: 25px;
+                background-image: url("../img/common/icon_mail.png");
+            }
+        }
+    }
 }
 
 /*下層ページ基本カラー*/
@@ -354,39 +335,37 @@ body.page {
     color: #454545;
 }
 
-
 /*パンくずリスト*/
 
 .path {
     text-align: center;
     margin-bottom: 90px;
+
     li {
         display: inline-block;
         margin: 0 0.5%;
+
         a {
             font-size: .78rem;
             color: $cg;
             font-family: $gosic;
         }
-        
+
         &:nth-of-type(1) a {
             color: #686868;
         }
     }
 }
 
-
 /*下層ページ　トップ*/
 
 .page-head {
     padding-top: 130px;
-    
+
     h1 {
         margin: 0 auto 15px;
     }
 }
-
-
 
 /* GNAVI*/
 
@@ -394,6 +373,7 @@ body.page {
     ul {
         li {
             margin: 0 2.85%;
+
             a {
                 color: $cp;
             }
@@ -401,31 +381,27 @@ body.page {
     }
 }
 
-
 /*MUNU LIST 基本スタイル*/
 
 .menu-link {
     li {
-        
         a {
             background-color: $bg-w;
             display: block;
-                    padding: 22px;
+            padding: 22px;
 
-             img {
-            margin-bottom: 10px;
-        }
-        
-        p {
-           font-size: 1.2rem;
-            span {
-                font-size: .9rem;
+            img {
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 1.2rem;
+
+                span {
+                    font-size: .9rem;
+                }
             }
         }
-            
-            
-        }
-       
     }
 }
 
@@ -435,28 +411,23 @@ body.page {
     font-size: 2.5rem;
     letter-spacing: 2px;
     line-height: 1.0;
-    a {
-            background: url("../img/common/icon_free.svg") no-repeat 2% 50%/ 36px;
-            padding-left: 48px;
 
+    a {
+        background: url("../img/common/icon_free.svg") no-repeat 2% 50% / 36px;
+        padding-left: 48px;
     }
 }
-
 
 @media (max-width: 767px) {
-    
-.tel {
-    font-size: 2.5rem;
-    letter-spacing: 2px;
-    line-height: 1.0;
-    a {
-            padding-left: 20px;
+    .tel {
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+        line-height: 1.0;
 
+        a {
+            padding-left: 20px;
+        }
     }
-}
-    
-    
-    
 }
 
 /*三角形*/
@@ -465,29 +436,23 @@ body.page {
     position: absolute;
     top: 1px;
     left: 30px;
-  width: 0;
-height: 0;
-border-style: solid;
-border-width: 0 15px 23px 15px;
-border-color: transparent transparent rgba(0,0,0,.70) transparent;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 23px 15px;
+    border-color: transparent transparent rgba(0, 0, 0, 0.7) transparent;
 }
-
-
 
 /*サムネイル*/
 
-
-
-
-
 /*円型サムネイル*/
-
 
 .thumb-sq {
     overflow: hidden;
     border-radius: 50%;
     width: 360px;
     height: 360px;
+
     img {
         width: 100%;
         height: 100%;
@@ -495,20 +460,15 @@ border-color: transparent transparent rgba(0,0,0,.70) transparent;
     }
 }
 
-
 @media (max-width: 767px) {
-    
     .thumb-sq {
         height: 280px;
         width: 280px;
     }
-    
-    
 }
 
-
 .tl {
-    text-align: left!important;
+    text-align: left !important;
 }
 
 .tc {
@@ -535,64 +495,49 @@ border-color: transparent transparent rgba(0,0,0,.70) transparent;
     font-weight: 600;
 }
 
-
 @media (min-width: 768px) {
-    
     .inner-box {
-    width: 93%;
-    max-width: 1400px;
-    min-width: 1200px;
-     @include box-center;
-}
+        width: 93%;
+        max-width: 1400px;
+        min-width: 1200px;
 
-.inner {
-    max-width: 1360px;
-    margin: auto;
-}
-    
-    
+        @include box-center;
+    }
+
+    .inner {
+        max-width: 1360px;
+        margin: auto;
+    }
+
     .page .inner {
         width: 1200px;
         margin: auto;
     }
-    
+
     .inner-box2 {
         width: 1000px;
         margin: auto;
     }
-    
-    
-    
 }
-
-
 
 @media (max-width: 767px) {
-    
-    
-    .inner-box,.inner-box2 {
-    width: 96%;
-     @include box-center;
-}
+    .inner-box, .inner-box2 {
+        width: 96%;
 
-.inner {
-    width: 96%;
-    margin: auto;
-}
-    
-    
-    
-    
+        @include box-center;
+    }
+
+    .inner {
+        width: 96%;
+        margin: auto;
+    }
 }
 
 @media (min-width: 768px) {
-    
-.rl {
-    writing-mode: vertical-rl;
+    .rl {
+        writing-mode: vertical-rl;
+    }
 }
-    
-}
-
 
 .f-ryu {
     font-family: a-otf-ryumin-pr6n, serif;
@@ -606,17 +551,15 @@ border-color: transparent transparent rgba(0,0,0,.70) transparent;
     font-weight: 600;
 }
 
-
 .bg-cp {
     background-color: $bg-cp;
     padding: 50px 0;
 }
 
 .bg-grade {
-    background: rgb(2,0,36);
-background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, rgba(255,255,255,0) 100%);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(143deg, rgba(2, 0, 36, 1) 0%, rgba(249, 244, 244, 1) 0%, rgba(255, 255, 255, 0) 100%);
 }
-
 
 .cp {
     color: $cp;
@@ -628,7 +571,6 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
 
 .bg-p {
     background-color: #fff7f4;
-
 }
 
 .gd {
@@ -636,33 +578,31 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
 }
 
 .gd-i {
-    color: $cg!important;
+    color: $cg !important;
 }
 
 .bg-cg {
-    background-color: $cg!important;
+    background-color: $cg !important;
 }
 
-
 .bg-g {
-    background-color: #f4f2eb!important;
+    background-color: #f4f2eb !important;
 }
 
 .bg-g2 {
-    background-color: #FEFCF6!important;
+    background-color: #FEFCF6 !important;
 }
 
 .bg-gth {
-    background-color: $cg!important;
+    background-color: $cg !important;
 }
-
 
 .gosic {
     font-family: $gosic;
 }
 
 .jc-cent {
-    justify-content: center!important;
+    justify-content: center !important;
 }
 
 .flex {
@@ -683,66 +623,59 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
 }
 
 .vt {
-    vertical-align: top!important;
+    vertical-align: top !important;
 }
 
 .al-cent {
-    align-items: center!important;
+    align-items: center !important;
 }
 
 .al-top {
-    align-items: flex-start!important;
+    align-items: flex-start !important;
 }
 
 .al-bottom {
-    align-items: flex-end!important;
+    align-items: flex-end !important;
 }
 
 .ju-st {
-    justify-content: flex-start!important;
+    justify-content: flex-start !important;
 }
-
 
 /*swiper*/
 
 @media (max-width: 767px) {
-    
     .swiper-wrapper.sp-bnr {
-    height: 100%;
+        height: 100%;
+    }
 }
-
-    
-}
-
 
 .swiper-wrapper {
     height: auto;
 }
 
 .swiper-button-prev {
-    background: url("../img/common/arrow_02.svg") no-repeat 50% 50%/20px ;
+    background: url("../img/common/arrow_02.svg") no-repeat 50% 50% / 20px;
 }
 
 .swiper-button-next {
-    background: url("../img/common/arrow_01.svg") no-repeat 50% 50%/20px ;
+    background: url("../img/common/arrow_01.svg") no-repeat 50% 50% / 20px;
 }
-
 
 .area-bgs {
     background: no-repeat 50% 50%/cover;
 }
 
-
-.in-view{
-	opacity: 0;
-	transform: translate(0,60px);
+.in-view {
+    opacity: 0;
+    transform: translate(0, 60px);
     transition: ease 1.5s;
 }
-.fade-in{
-  opacity: 1.0;
-  transform: translate(0,0);
-}
 
+.fade-in {
+    opacity: 1.0;
+    transform: translate(0, 0);
+}
 
 /*qa 症例*/
 
@@ -751,10 +684,10 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
 }
 
 .slide-p2 .swiper-slide {
-    height: 283px;
+    height: 340px;
 }
 
-.prev2,.next2 {
+.prev2, .next2 {
     top: 58%;
 }
 
@@ -779,56 +712,58 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
 }
 
 @media (max-width: 767px) {
-    
-.swiper-button-prev,.swiper-button-next {
-    background-size: 16px;
-}
+    .swiper-button-prev, .swiper-button-next {
+        background-size: 16px;
+    }
 
-    
+    .slide-p2 .swiper-slide {
+        height: 63vw;
+    }
 
-    
     .swiper3 .swiper-slide {
         height: auto;
     }
 
-.prev2,.next2 {
-    top: 58%;
-}
+    .prev2, .next2 {
+        top: 58%;
+    }
 
-.prev2 {
-    left: -35px;
-}
+    .prev2 {
+        left: -35px;
+    }
 
-.next2 {
-    right: -35px;
-}
-    
+    .next2 {
+        right: -35px;
+    }
+
+    .swiper3 .prev2, .swiper3 .next2 {
+        top: 63%;
+    }
+
     .swiper3 .prev2 {
         left: -20px;
     }
-    
+
     .swiper3 .next2 {
         right: -20px;
     }
 
-.swiper-container-horizontal .swiper-pagination {
-    bottom: -30px;
-}
-    
+    .swiper-container-horizontal .swiper-pagination {
+        bottom: -30px;
+    }
+
     .swiper3.swiper-container-horizontal .swiper-pagination {
         bottom: -20px;
     }
 
-.swiper-pagination-bullet {
-    border-radius: 0;
-}
+    .swiper-pagination-bullet {
+        border-radius: 0;
+    }
 
-.swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background-color: $cp;
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        background-color: $cp;
+    }
 }
-    
-}
-
 
 /*施術の感想スライド設定*/
 
@@ -840,7 +775,7 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
     height: 388px;
 }
 
-.swiper4 .prev2,.swiper4 .next2 {
+.swiper4 .prev2, .swiper4 .next2 {
     top: 50%;
 }
 
@@ -854,23 +789,15 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
 
 @media (min-width: 768px) {
     .swiper4 .swiper-pagination {
-    display: none;
+        display: none;
+    }
 }
-
-}
-
 
 @media (max-width: 767px) {
-    
-    .swiper4 .prev2,.swiper4 .next2 {
-   display: none!important;
+    .swiper4 .prev2, .swiper4 .next2 {
+        display: none !important;
+    }
 }
-
-    
-}
-
-
-
 
 /*PAGE TOP SCROll*/
 
@@ -881,56 +808,53 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
     width: 12px;
     z-index: 9000;
     display: none;
-
 }
 
-.bounce{
-  animation: bounce linear 1.6s;
-  animation-iteration-count: infinite;
-  transform-origin: 50% 50%;
+.bounce {
+    animation: bounce linear 1.6s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
 }
 
-@keyframes bounce{
-  0% {
-    transform:  translate(0px,0px)  ;
-  }
-  15% {
-    transform:  translate(0px,-25px)  ;
-  }
-  30% {
-    transform:  translate(0px,0px)  ;
-  }
-  45% {
-    transform:  translate(0px,-15px)  ;
-  }
-  60% {
-    transform:  translate(0px,0px)  ;
-  }
-  75% {
-    transform:  translate(0px,-5px)  ;
-  }
-  100% {
-    transform:  translate(0px,0px)  ;
-  }
-}
+@keyframes bounce {
+    0% {
+        transform: translate(0px, 0px);
+    }
 
+    15% {
+        transform: translate(0px, -25px);
+    }
+
+    30% {
+        transform: translate(0px, 0px);
+    }
+
+    45% {
+        transform: translate(0px, -15px);
+    }
+
+    60% {
+        transform: translate(0px, 0px);
+    }
+
+    75% {
+        transform: translate(0px, -5px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
 
 @media (max-width: 767px) {
-    
     .page-top {
-    bottom: 12%;
-    right: 3.75%;
-    width: 7px;
-
+        bottom: 12%;
+        right: 3.75%;
+        width: 7px;
+    }
 }
 
-    
-}
-
-
-@media only screen and (max-width: 768px){
-
-
+@media only screen and (max-width: 768px) {
     .wrapper {
         position: relative;
         width: 100%;
@@ -940,30 +864,23 @@ background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(249,244,244,1) 0%, r
         font-size: 80%;
     }
 
-	.pc {
-		display: none;
-	}
-
-    .pc-dis {
-        display: none!important;
+    .pc {
+        display: none;
     }
 
-	.sp {
-		display: block;
-	}
-    
-    .sp-dis {
-    display: block!important;
-}
+    .pc-dis {
+        display: none !important;
+    }
 
+    .sp {
+        display: block;
+    }
+
+    .sp-dis {
+        display: block !important;
+    }
 
     section {
         margin-bottom: 30px;
     }
-
-
-    
-
-
-
 }
