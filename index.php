@@ -359,7 +359,11 @@
                     <?php the_sub_field('after_txt', 155); ?>
                   </p>
                 </div>
-              </div>
+
+              </div><!-- slide-in END -->
+               <?php if (get_sub_field('ope_risk', 155)): ?>
+                 <p class="risk tc gosic box-size"><?php the_sub_field('ope_risk', 155);?></p>
+                  <?php endif; ?>
             </div>
             <?php endwhile; ?>
           </div>

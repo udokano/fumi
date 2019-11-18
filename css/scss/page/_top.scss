@@ -740,6 +740,14 @@
                     }
                 }
             }
+
+            .risk {
+                color: #454545;
+                font-size: .9rem;
+                margin-top: 11px;
+                padding: 15px 17px;
+                background-color: #fbfbfb;
+            }
         }
     }
 }
@@ -803,6 +811,10 @@
                             }
                         }
                     }
+                }
+
+                .risk {
+                    font-size: .8rem;
                 }
             }
         }

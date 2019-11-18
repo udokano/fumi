@@ -645,7 +645,7 @@ body.page {
 }
 
 .slide-p2 .swiper-slide {
-  height: 340px;
+  height: 390px;
 }
 
 .prev2, .next2 {
@@ -1970,6 +1970,13 @@ footer.pages.list-footer .copy {
 .slides .inner .right-slide .slide-in .box:nth-of-type(1)::after {
   right: -39px;
 }
+.slides .inner .right-slide .risk {
+  color: #454545;
+  font-size: .9rem;
+  margin-top: 11px;
+  padding: 15px 17px;
+  background-color: #fbfbfb;
+}
 
 @media (max-width: 767px) {
   .slides .inner {
@@ -2017,6 +2024,9 @@ footer.pages.list-footer .copy {
     top: 39%;
     right: -24px;
     border-width: 8px 0 8px 12.3px;
+  }
+  .slides .inner .right-slide .risk {
+    font-size: .8rem;
   }
 }
 .sns h3 {

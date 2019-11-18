@@ -137,11 +137,11 @@ Template Name: ドクターズコスメ・サプリメント
         <dd style="text-align:right;">¥16,000<span class="sm">(1枚当たり¥1,600)</span></dd>
       </dl>
       <dl class="flex">
-        <dt>ソリプロホワイト　30カプセル </dt>
+        <dt><span class="fw600">飲む日焼け止め</span>  ソリプロホワイト　30カプセル </dt>
         <dd>¥5,000</dd>
       </dl>
        <dl class="flex">
-        <dt>Corrｍ(コルム)　30包</dt>
+        <dt><span class="fw600">肌の弾力UP&痩せ体質に導く</span>  Corrｍ(コルム)　30包</dt>
         <dd>¥12,000</dd>
       </dl>
        <dl class="flex">
@@ -149,7 +149,7 @@ Template Name: ドクターズコスメ・サプリメント
         <dd>￥8,000</dd>
       </dl>
        <dl class="flex">
-        <dt>グラッシュビスタ　約2ヵ月分</dt>
+        <dt><span class="fw600">自まつげが驚くほど濃く!長く!!</span>  グラッシュビスタ　約2ヵ月分</dt>
         <dd>¥15,000</dd>
       </dl>
     </div>
