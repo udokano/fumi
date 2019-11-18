@@ -7,7 +7,7 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?0925">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?1118">
 <script>
   (function(d) {
     var config = {
@@ -223,7 +223,7 @@
       </div>
     </div>
   </section>
-  <section class="menu area-bgs" id="bg3">
+  <section class="menu area-bgs mb0" id="bg3">
     <h2 class="tc cp">MENU</h2>
     <ul class="munu-link flex">
       <li class="box-size hg-row"> <a href="<?php echo home_url('/'); ?>tarumi">
@@ -280,6 +280,16 @@
         </a> </li>
     </ul>
   </section>
+
+<div class="cosmetics__bnr">
+  <div class="inner">
+    <div class="bnr">
+    <a href="<?php echo home_url('/');?>cosmetics" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/common/cosmetics_bnr.jpg" alt="ドクターズサプリメントのバナー"></a>
+    </div>
+  </div>
+</div>
+
+
   <section class="slides">
     <div class="inner flex">
       <div class="left-slide slide-area">
@@ -367,8 +377,10 @@
   <!--SLIDES END-->
 
   <section class="sns">
+     <h3 class="tc">Twitterやブログやインスタグラム・ラインオフィシャルアカウントにて<br class="pc">お得な情報を配信しています</h3>
     <div class="inner flex">
       <div class="bnr"> <a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/blog_bnr.jpg?0910" alt="blog_bnr"> </a> </div>
+      <div class="bnr"> <a href="https://twitter.com/@_fumibeauty_" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/twitter_bnr.jpg?0910" alt="twitter_bnr"> </a> </div>
       <div class="bnr"> <a href="https://www.instagram.com/dr_fumi/" target="_blank">
         <?php if (wp_is_mobile()) : ?>
         <img src="<?php echo get_template_directory_uri(); ?>/img/common/insta_bnr_sp.jpg?09101" alt="insta_bnr">

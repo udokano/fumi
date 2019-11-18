@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: 形成外科治療 
+Template Name: 形成外科治療
 */
 
 ?>
@@ -13,7 +13,7 @@ Template Name: 形成外科治療
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/keisei/thumb01.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>形成外科治療</h2>
-      <p class="ls1 gosic"> 形成外科は、手術による治療を必要とする外表上の異常をできる限り外見に気を配りつつ治療する外科です。 </p>
+      <p class="ls1 gosic">形成外科は、手術による治療を必要とする外表上の異常をできる限り外見に気を配りつつ治療する外科です。 </p>
     </div>
   </div>
 </section>
@@ -23,25 +23,22 @@ Template Name: 形成外科治療
     <ul class="flex">
       <li class="box-size">
         <h3 class="cp tc">色素性母斑(ホクロ)</h3>
-        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/keisei/thumb03.jpg" alt="サムネイル"></div>
-        <p class="gosic">ほくろのサイズや部位から、炭酸ガスレーザー、手術治療のどちらかを選択し、治療します。<br>
-          ※切開摘出手術が必要な場合がございます。その場合は保険適応となります。</p>
+        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/keisei/thumb03.jpg?1118" alt="サムネイル"></div>
+        <p class="gosic">ほくろのサイズや部位から、炭酸ガスレーザー、手術治療のどちらかを選択し、治療します。<br>※切開摘出手術が必要な場合がございます。その場合は保険適応となります。</p>
       </li>
       <li class="box-size">
         <h3 class="cp tc">皮膚良性腫瘍</h3>
-        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/keisei/thumb02.jpg" alt="サムネイル"></div>
+        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/keisei/thumb02.jpg?1118" alt="サムネイル"></div>
       </li>
       <li class="box-size">
         <h3 class="cp tc">肥厚性瘢痕・ケロイド</h3>
-        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/keisei/thumb04.jpg" alt="サムネイル"></div>
-        <p class="gosic">ケロイドの状態により、手術治療、注入治療等のどちらかを選択し、治療します。<br>
-          ※保険適用可能な場合もございますのでお気軽にご相談下さい。</p>
+        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/keisei/thumb04.jpg?1118" alt="サムネイル"></div>
+        <p class="gosic">ケロイドの状態により、手術治療、注入治療等のどちらかを選択し、治療します。<br>※保険適用可能な場合もございますのでお気軽にご相談下さい。</p>
       </li>
       <li class="box-size">
         <h3 class="cp tc">巻き爪・陥入爪</h3>
-        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/keisei/thumb05.jpg" alt="サムネイル"></div>
-        <p class="gosic">巻き爪の状態により、ワイヤー治療等から選択し、治療します。<br>
-          ※保険適用可能な場合もございますのでお気軽にご相談下さい。</p>
+        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/keisei/thumb05.jpg?1118" alt="サムネイル"></div>
+        <p class="gosic">巻き爪の状態により、ワイヤー治療等から選択し、治療します。<br>※保険適用可能な場合もございますのでお気軽にご相談下さい。</p>
       </li>
     </ul>
   </div>

@@ -373,11 +373,6 @@ body.page {
 }
 
 @media (max-width: 767px) {
-  .tel {
-    font-size: 2.5rem;
-    letter-spacing: 2px;
-    line-height: 1.0;
-  }
   .tel a {
     padding-left: 20px;
   }
@@ -1911,8 +1906,22 @@ footer.pages.list-footer .copy {
     font-size: .9rem;
   }
 }
+.cosmetics__bnr .inner {
+  margin-bottom: 70px;
+}
+.cosmetics__bnr .inner .bnr {
+  width: 34.7%;
+  margin: 40px auto;
+}
+
+@media (max-width: 767px) {
+  .cosmetics__bnr .inner .bnr {
+    width: 100%;
+    margin: 1.0rem auto 2.2rem;
+  }
+}
 .slides {
-  margin-bottom: 80px;
+  margin-bottom: 140px;
 }
 .slides .inner .slide-area {
   position: relative;
@@ -2010,8 +2019,14 @@ footer.pages.list-footer .copy {
     border-width: 8px 0 8px 12.3px;
   }
 }
+.sns h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1.1rem;
+  color: #454545;
+}
 .sns .inner .bnr {
   width: 32.5%;
+  margin: 0 0.4%;
 }
 
 @media (max-width: 767px) {
@@ -3499,6 +3514,7 @@ footer.pages.list-footer .copy {
 .recruit-intro .inner {
   width: auto;
   max-width: 1360px;
+  padding: 30px 0;
 }
 .recruit-intro .inner .text {
   width: 66%;
@@ -3507,11 +3523,11 @@ footer.pages.list-footer .copy {
   padding-left: 100px;
 }
 .recruit-intro .inner .text h2 {
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 .recruit-intro .inner .text p {
   margin-bottom: 35px;
-  line-height: 1.7;
+  line-height: 1.9;
 }
 .recruit-intro .inner .text a {
   display: inline-block;
