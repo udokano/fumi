@@ -1911,6 +1911,17 @@ footer.pages.list-footer .copy {
     font-size: .9rem;
   }
 }
+.cosmetics__bnr .inner .bnr {
+  width: 34.7%;
+  margin: 40px auto;
+}
+
+@media (max-width: 767px) {
+  .cosmetics__bnr .inner .bnr {
+    width: 100%;
+    margin: 1.0rem auto 2.2rem;
+  }
+}
 .slides {
   margin-bottom: 80px;
 }
@@ -2010,8 +2021,14 @@ footer.pages.list-footer .copy {
     border-width: 8px 0 8px 12.3px;
   }
 }
+.sns h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1.1rem;
+  color: #454545;
+}
 .sns .inner .bnr {
   width: 32.5%;
+  margin: 0 0.4%;
 }
 
 @media (max-width: 767px) {
