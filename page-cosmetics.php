@@ -6,196 +6,147 @@ Template Name: ドクターズコスメ・サプリメント
 ?>
 <?php get_header()?>
 <div class="page-head">
-  <h1 class="tc f-ryu">施術：美肌治療・アンチエイジング</h1>
+  <h1 class="tc f-ryu">ドクターズコスメ・サプリメント</h1>
   <?php echo breadcrumb_func(); ?> </div>
-<div class="ancor-box gosic mb60"> <a href="#area1">美容内科・美容点滴</a><a href="#area2">プラセンタ注射</a><a href="#area3">メディカルエステ</a> </div>
-<section class="features layout2">
-  <div class="inner-box2">
-    <h2 class="cp gosic tc ls1">美肌治療・アンチエイジングの特徴</h2>
-    <ul class="flex">
-      <li class="box-size">
-        <div class="points f-ryu">Point.1</div>
-        <h3 class="gd tc line1">老化予防</h3>
-        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb02.jpg" alt="サムネイル"></div>
-        <p class="gosic">進行する肌老化を抑制し、若々しいお肌を保つことができます</p>
-      </li>
-      <li class="box-size">
-        <div class="points f-ryu">Point.2</div>
-        <h3 class="gd tc line1">美肌効果</h3>
-        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb03.jpg" alt="サムネイル"></div>
-        <p class="gosic">たるみやシワ、シミといった肌トラブルを解消して、滑らかなお肌を保つことができます。</p>
-      </li>
-      <li class="box-size">
-        <div class="points f-ryu">Point.3</div>
-        <h3 class="gd tc line1">メスを入れない</h3>
-        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/point03.jpg?0910" alt="サムネイル"></div>
-        <p class="gosic">進行する肌老化を抑制し、若々しいお肌を保つことができます</p>
-      </li>
-      <li class="box-size">
-        <div class="points f-ryu">Point.4</div>
-        <h3 class="gd tc pc">ダウンタイムがほとんどない</h3>
-        <h3 class="gd tc sp">ダウンタイムが<br>
-          ほとんどない</h3>
-        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb05.jpg" alt="サムネイル"></div>
-        <p class="gosic">進行する肌老化を抑制し、若々しいお肌を保つことができます</p>
-      </li>
-    </ul>
-  </div>
-</section>
+<div class="ancor-box gosic mb60"> <a href="#area1">エンビロン</a><a href="#area2">FAITHラメラボ</a><a href="#area3">幹細胞</a> </div>
 <section class="ope-intro bg-cp" id="area1">
   <div class="inner flex al-cent">
-    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/tenteki/thumb01.jpg" alt="サムネイル"> </div>
+    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/thumb02.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
-      <h2>美容内科・美容点滴</h2>
-      <p class="ls1 gosic">血管を通してダイレクトに点滴の成分を投与し、体の内面から綺麗にすることを目的にする施術です。しわ・くすみの解消や疲労回復など幅広い効果が期待できます。</p>
+      <h2>エンビロンシリーズ</h2>
+      <p class="ls1 gosic">長く定評のあるエンビロンシリーズ！！ビタミンAの美肌効果に着目した化粧品です。肌老化を防ぎ肌本来がもっているコンディションを整え健康的で美しい肌へ。肌の変化、驚き、そして感動を得られるスキンケアです。</p>
     </div>
   </div>
 </section>
 <section class="price">
   <div class="inner-box2">
-    <h2 class="tc ls1">美容内科・美容点滴料金</h2>
+    <h2 class="tc ls1">エンビロン料金</h2>
     <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">種類</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
-        <dt>疲労回復注射</dt>
-        <dd>¥3,000</dd>
+        <dt>モイスチャートーナー　100㎖</dt>
+        <dd>¥5,500</dd>
       </dl>
       <dl class="flex">
-        <dt>疲労回復点滴(マイヤーズカクテル)</dt>
-        <dd>¥6,000</dd>
+        <dt>モイスチャージェル１　25㎖</dt>
+        <dd>¥3,800</dd>
       </dl>
       <dl class="flex">
-        <dt>白玉点滴(グルタチオン)</dt>
-        <dd>¥8,000</dd>
+        <dt>モイスチャージェル２　60㎖</dt>
+        <dd>¥7,500</dd>
       </dl>
       <dl class="flex">
-        <dt>高濃度ビタミンC点滴   25gまで</dt>
-        <dd>¥12,000</dd>
+        <dt>モイスチャークリーム１　25㎖</dt>
+        <dd>¥3,800</dd>
       </dl>
       <dl class="flex">
-        <dt>高濃度ビタミンC点滴   50gまで</dt>
-        <dd>¥15,000</dd>
+        <dt>モイスチャークリーム２　60㎖</dt>
+        <dd>¥7,800</dd>
+      </dl>
+      <dl class="flex">
+        <dt>モイスチャークリーム３　60㎖</dt>
+        <dd>¥8,300</dd>
+      </dl>
+      <dl class="flex">
+        <dt>モイスチャークリーム４　60㎖</dt>
+        <dd>¥8,800</dd>
       </dl>
     </div>
+     <p class="note tc">※メニューにない商品も受注発注が可能です。お気軽にお申し付けください。</p>
   </div>
 </section>
 <section class="ope-intro bg-cp" id="area2">
   <div class="inner flex ff-row-reverse al-cent">
-    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb07.jpg" alt="サムネイル"> </div>
+    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/thumb01.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
-      <h2>プラセンタ注射</h2>
-      <p class="ls1 gosic">プラセンタとは、人の胎盤から抽出したエキスのことです。その成分はタンパク質や酵素、アミノ酸、ミネラル、ビタミンなどの成分が含まれています。プラセンタを注射することで、コラーゲンが活発に再生され美肌効果・若返り効果・血行促進など体の内面から体質改善の効果を発揮いたします。</p>
+      <h2>FAITHラメラボシリーズ</h2>
+      <p class="ls1 gosic">肌結果を約束するFAITHから医療機関専用化粧品登場！！<br class="pc">角質層のラメラ構造に着目した”ラメラ美容法”で潤いに満ちた健やかな美肌へ導きます。</p>
     </div>
   </div>
 </section>
 <section class="price">
   <div class="inner-box2">
-    <h2 class="tc ls1">プラセンタ注射料金</h2>
+    <h2 class="tc ls1">FAITHラメラボ料金</h2>
     <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">種類</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
-        <dt>プラセンタ注射   1本</dt>
-        <dd>¥1,500</dd>
+        <dt>ラメラボジェルクレンズ　180㎖</dt>
+        <dd>¥4,000</dd>
       </dl>
       <dl class="flex">
-        <dt>プラセンタ注射   2本目以降</dt>
-        <dd>¥1,000</dd>
+        <dt>ラメラボクレイウォッシュ　220g</dt>
+        <dd>¥4,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>ラメラボエッセンスセラム　22.5㎖</dt>
+        <dd>¥15,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>ラメラボモイスチャーローション　120㎖</dt>
+        <dd>¥8,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>ラメラボモイスチャージェルライト　30g</dt>
+        <dd>¥12,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>ラメラボモイスチャージェルエンリッチ　30g</dt>
+        <dd>¥12,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>ラメラボサンプロテクターエッセンス　50㎖</dt>
+        <dd>¥4,000</dd>
       </dl>
     </div>
   </div>
 </section>
 <section class="ope-intro bg-cp" id="area3">
   <div class="inner flex al-cent">
-    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb01.jpg" alt="サムネイル"> </div>
+    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/thumb03.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
-      <h2>メディカルエステ</h2>
-      <p class="ls1 gosic">お肌の乾燥や肌老化によって目周りや口周り、頬などに小じわ・ちりめんじわが出てきます。超音波やイオン導入を用いて、お肌を保湿し整えます。またお肌の若返りに効果的なピーリングもおすすめしています。</p>
+      <h2>幹細胞シリーズ</h2>
+      <p class="ls1 gosic">今注目の幹細胞！！<br class="pc">人由来の脂肪細胞から培養したヒト幹細胞です。日本での認可もおりている安心安全な製剤を使用しています。幹細胞パックで目指せプルプル－10歳肌！！</p>
     </div>
   </div>
 </section>
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">料金表</h2>
-    <div class="price-list gosic mb0">
-      <dl class="flex">
-        <dt>エンビロンクールビタミンコース</dt>
-        <dd>¥8,000(税別)</dd>
-      </dl>
-    </div>
-    <div class="desc-box box-size gosic"><p class="txt">初めてエンビロンのトリートメントを受けられる方向きのエントリーコース。イオン導入を用いて、肌にマイルドにビタミンを補給します。</p>
-      <p class="gd">❶クレンジング  ❷トーニング  ❸クールビタミントリートメント  ❹アフタースキンケア</p>
-    </div>
-    <div class="price-list gosic">
-      <dl class="flex">
-        <dt>エンビロンWビタミンコース</dt>
-        <dd>¥12,000(税別)</dd>
-      </dl>
-      <div class="desc-box box-size gosic"><p class="txt">定期的に受けていただきたいエンビロンのビタミン導入定番コース。超音波導入・イオン導入を用いて、ビタミンA・Cをお肌に効果的に補給し、さらにクーリングパックによるイオン導入を用いてお肌にビタミンを行き渡らせます。</p>
-        <p class="gd">❶クレンジング  ❷トーニング  ❸ソノイオントリートメント  ❹クールビタミントリートメント  ❺アフタースキンケア</p>
-      </div>
-    </div>
-      <div class="price-list gosic">
-      <dl class="flex">
-        <dt>生幹細胞ハリ艶UPコース</dt>
-        <dd>¥30,000(税別)</dd>
-      </dl>
-      <div class="desc-box box-size gosic">
-        <p class="gd">❶クレンジング  ❷トーニングorシリコンオフトリートメント  ❸生幹細胞＋ヒトプラセンタ超音波導入  ❹幹細胞パック導入</p>
-      </div>
-    </div>
-      <div class="price-list gosic">
-      <dl class="flex">
-        <dt>幹細胞パック導入コース</dt>
-        <dd>¥10,000(税別)</dd>
-      </dl>
-      <div class="desc-box box-size gosic">
-        <p class="gd">❶クレンジング  ❷トーニングorシリコンオフトリートメント  ❸幹細胞パック導入</p>
-      </div>
-    </div>
-  </div>
   <div class="inner-box2 mb30">
     <div class="price-list gosic">
       <dl class="flex">
-        <dt>オプション</dt>
+        <dt>種類</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
-        <dt>首のソノイオントリートメント</dt>
-        <dd>¥3,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>シリコンオフトリートメント</dt>
+        <dt>ヒト幹細胞パック1枚</dt>
         <dd>¥2,000</dd>
       </dl>
       <dl class="flex">
-        <dt>フェイシャルリンパマッサージ </dt>
-        <dd>¥3,000</dd>
+        <dt>ヒト幹細胞パック5枚セット</dt>
+        <dd>¥9,000(1枚当たり¥1,800)</dd>
       </dl>
       <dl class="flex">
-        <dt>ボディリンパマッサージ  10分 </dt>
-        <dd>¥2,000</dd>
+        <dt>飲む日焼け止め　ソリプロホワイト　30カプセル </dt>
+        <dd>¥5,000</dd>
       </dl>
-    </div>
-  </div>
-  <div class="inner-box2 mb0">
-    <div class="price-list gosic">
-      <dl class="flex">
-        <dt>コラーゲンピーリング(PRX-T33)</dt>
-        <dd class="f-bold">税別</dd>
+       <dl class="flex">
+        <dt>肌の弾力UP&痩せ体質に導く　Corrｍ(コルム)　30包</dt>
+        <dd>¥12,000</dd>
       </dl>
-      <dl class="flex">
-        <dt>顔</dt>
+       <dl class="flex">
+        <dt>アルベックス　30包</dt>
+        <dd>￥8,000</dd>
+      </dl>
+       <dl class="flex">
+        <dt>自まつげが驚くほど濃く!長く!!　グラッシュビスタ　約2ヵ月分</dt>
         <dd>¥15,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>顔+首</dt>
-        <dd>¥23,000</dd>
       </dl>
     </div>
   </div>
