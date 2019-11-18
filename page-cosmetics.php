@@ -130,14 +130,14 @@ Template Name: ドクターズコスメ・サプリメント
       </dl>
       <dl class="flex">
         <dt>ヒト幹細胞パック5枚セット</dt>
-        <dd>¥9,000(1枚当たり¥1,800)</dd>
+        <dd style="text-align:right;">¥9,000<span class="sm">(1枚当たり¥1,800)</span></dd>
       </dl>
       <dl class="flex">
-        <dt>飲む日焼け止め　ソリプロホワイト　30カプセル </dt>
+        <dt>ソリプロホワイト　30カプセル </dt>
         <dd>¥5,000</dd>
       </dl>
        <dl class="flex">
-        <dt>肌の弾力UP&痩せ体質に導く　Corrｍ(コルム)　30包</dt>
+        <dt>Corrｍ(コルム)　30包</dt>
         <dd>¥12,000</dd>
       </dl>
        <dl class="flex">
@@ -145,7 +145,7 @@ Template Name: ドクターズコスメ・サプリメント
         <dd>￥8,000</dd>
       </dl>
        <dl class="flex">
-        <dt>自まつげが驚くほど濃く!長く!!　グラッシュビスタ　約2ヵ月分</dt>
+        <dt>グラッシュビスタ　約2ヵ月分</dt>
         <dd>¥15,000</dd>
       </dl>
     </div>
