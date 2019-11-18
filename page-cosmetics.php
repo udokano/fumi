@@ -14,7 +14,7 @@ Template Name: ドクターズコスメ・サプリメント
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/thumb02.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>エンビロンシリーズ</h2>
-      <p class="ls1 gosic">長く定評のあるエンビロンシリーズ！！ビタミンAの美肌効果に着目した化粧品です。肌老化を防ぎ肌本来がもっているコンディションを整え健康的で美しい肌へ。肌の変化、驚き、そして感動を得られるスキンケアです。</p>
+      <p class="ls1 gosic">長く定評のあるエンビロンシリーズ！！<br class="pc">ビタミンAの美肌効果に着目した化粧品です。肌老化を防ぎ肌本来がもっているコンディションを整え健康的で美しい肌へ。肌の変化、驚き、そして感動を得られるスキンケアです。</p>
     </div>
   </div>
 </section>
@@ -131,6 +131,10 @@ Template Name: ドクターズコスメ・サプリメント
       <dl class="flex">
         <dt>ヒト幹細胞パック5枚セット</dt>
         <dd style="text-align:right;">¥9,000<span class="sm">(1枚当たり¥1,800)</span></dd>
+      </dl>
+      <dl class="flex">
+        <dt>ヒト幹細胞パック10枚セット</dt>
+        <dd style="text-align:right;">¥16,000<span class="sm">(1枚当たり¥1,600)</span></dd>
       </dl>
       <dl class="flex">
         <dt>ソリプロホワイト　30カプセル </dt>

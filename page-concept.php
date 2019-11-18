@@ -13,7 +13,7 @@ Template Name: 医院について
     <div class="left">
       <h2><img src="<?php echo get_template_directory_uri(); ?>/img/concept/beauitfulaging.png" alt="Beautiful
 Aging 私たちが目指すもの"></h2>
-      <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/concept/points.png" alt=""></div>
+      <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/concept/points.png" alt="安心安全の治療、一人一人にあった治療、誠実な治療"></div>
       <p class="tc">ご来院いただいた全ての皆様にマッチした治療を提供し、皆様がより自分らしく美しく年齢を重ね、豊かな人生を送れるようサポートをします。</p>
     </div>
     <div class="right"> <img src="<?php echo get_template_directory_uri(); ?>/img/concept/doctor_thumb.jpg" alt="先生"> </div>
@@ -31,18 +31,18 @@ Aging 私たちが目指すもの"></h2>
         </div>
       </div>
     </div>
-      
+
        <div class="box">
       <div class="text ">
         <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/concept/mission02.png" alt="mission2"></div>
-        <h3 class="ls3 gd">お一人お一人の悩みに寄り添い、確かな技術と<br class="pc">センスでその方に合った自然な美しさをご提案いたします。</h3>
+        <h3 class="ls3 gd">”お一人お一人の悩み”に寄り添い、確かな技術と<br class="pc">センスでその方に合った自然な美しさをご提案いたします。</h3>
         <div class="txt">
-          <p class="gosic mb30 ls1">”私たちは丁寧なカウンセリングを心がけており、患者様のご要望やお悩みに寄り添い、その方に合った治療法をご提案いたします。”</p>
+          <p class="gosic mb30 ls1">私たちは丁寧なカウンセリングを心がけており、患者様のご要望やお悩みに寄り添い、その方に合った治療法をご提案いたします。</p>
           <p class="gosic ls1">またナチュラルで違和感のない仕上がりを重視します。</p>
         </div>
       </div>
     </div>
-      
+
        <div class="box mb0">
       <div class="text ">
         <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/concept/mission03.png" alt="mission3"></div>
@@ -53,13 +53,8 @@ Aging 私たちが目指すもの"></h2>
         </div>
       </div>
     </div>
-      
+
   </div>
-  <!--MISSION1 END--> 
-  
-  <!--MISSION1 END--> 
-  
-  <!--MISSION1 END--> 
-  
+
 </section>
 <?php get_footer();?>
