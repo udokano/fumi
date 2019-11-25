@@ -29,6 +29,7 @@ Template Name: 形成外科治療
       <li class="box-size">
         <h3 class="cp tc">皮膚良性腫瘍</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/keisei/thumb02.jpg?1118" alt="サムネイル"></div>
+        <p class="gosic">粉瘤や軟繊維腫、日光角化症など皮膚のできものを治療します。<br>※切開摘出手術が必要な場合がございます。その場合は保険適応となります。</p>
       </li>
       <li class="box-size">
         <h3 class="cp tc">肥厚性瘢痕・ケロイド</h3>

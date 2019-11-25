@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: メディカルエステ 
+Template Name: メディカルエステ
 */
 
 ?>
@@ -196,6 +196,15 @@ Template Name: メディカルエステ
       <dl class="flex">
         <dt>顔+首</dt>
         <dd>¥23,000</dd>
+      </dl>
+    </div>
+  </div>
+
+  <div class="inner-box2 mb0">
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt>レチノールピール　1回</dt>
+        <dd>¥20,000 (税別)</dd>
       </dl>
     </div>
   </div>
