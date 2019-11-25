@@ -1910,7 +1910,7 @@ footer.pages.list-footer .copy {
   margin-bottom: 70px;
 }
 .cosmetics__bnr .inner .bnr {
-  width: 34.7%;
+  width: 55.4%;
   margin: 40px auto;
 }
 
@@ -2031,12 +2031,18 @@ footer.pages.list-footer .copy {
 }
 .sns h3 {
   font-size: 1.1rem;
-  margin-bottom: 1.1rem;
+  margin-bottom: 1.22rem;
   color: #454545;
 }
+.sns .inner {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1.2%;
+}
 .sns .inner .bnr {
-  width: 32.5%;
-  margin: 0 0.4%;
+  width: 38%;
+  margin: 0 1.2%;
 }
 
 @media (max-width: 767px) {
@@ -2049,6 +2055,39 @@ footer.pages.list-footer .copy {
   .sns .inner .bnr {
     width: 96%;
     margin: 0 auto 4%;
+  }
+}
+.banner-campaign h2 {
+  margin-bottom: 25px;
+}
+.banner-campaign .inner {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.banner-campaign .inner .bnr-cam {
+  width: 33%;
+}
+.banner-campaign .inner .bnr-cam:nth-of-type(2) {
+  margin: 0 0.4%;
+}
+
+@media (max-width: 767px) {
+  .banner-campaign h2 {
+    margin-bottom: 25px;
+  }
+  .banner-campaign .inner {
+    display: block;
+  }
+  .banner-campaign .inner .bnr-cam {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  .banner-campaign .inner .bnr-cam:nth-of-type(2) {
+    margin: 0 0 0.5rem;
+  }
+  .banner-campaign .inner .bnr-cam:last-of-type {
+    margin-bottom: 0;
   }
 }
 .map .inner {
@@ -2901,7 +2940,7 @@ footer.pages.list-footer .copy {
   padding-right: 1em;
 }
 
-/*メディカルエステ料金説明*/
+/*メディカルエステ料金説明・幹細胞コメント*/
 .desc-box {
   margin: 20px 0 45px;
   padding: 20px 20px;
@@ -2913,6 +2952,13 @@ footer.pages.list-footer .copy {
 }
 .desc-box p.txt {
   margin-bottom: 20px;
+}
+
+.desc-box02 p.gd {
+  margin-bottom: 15px;
+}
+.desc-box02 p.txt {
+  margin-bottom: 0;
 }
 
 /*施術の流れ*/

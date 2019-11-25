@@ -658,7 +658,7 @@
         margin-bottom: 70px;
 
         .bnr {
-            width: 34.7%;
+            width: 55.4%;
             margin: 40px auto;
         }
     }
@@ -824,14 +824,17 @@
 .sns {
     h3 {
         font-size: 1.1rem;
-        margin-bottom: 1.1rem;
+        margin-bottom: 1.22rem;
         color: #454545;
     }
 
     .inner {
+        justify-content: center;
+        margin-bottom: 1.2%;
+
         .bnr {
-            width: 32.5%;
-            margin: 0 0.4%;
+            width: 38%;
+            margin: 0 1.2%;
         }
     }
 }
@@ -846,6 +849,49 @@
             .bnr {
                 width: 96%;
                 margin: 0 auto 4%;
+            }
+        }
+    }
+}
+
+.banner-campaign {
+    h2 {
+        margin-bottom: 25px;
+    }
+
+    .inner {
+        justify-content: center;
+
+        .bnr-cam {
+            width: 33%;
+
+            &:nth-of-type(2) {
+                margin: 0 0.4%;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-campaign {
+        h2 {
+            margin-bottom: 25px;
+        }
+
+        .inner {
+            display: block;
+
+            .bnr-cam {
+                width: 100%;
+                margin-bottom: 0.5rem;
+
+                &:nth-of-type(2) {
+                    margin: 0 0 0.5rem;
+                }
+
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
             }
         }
     }

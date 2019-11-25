@@ -284,10 +284,25 @@
 <div class="cosmetics__bnr">
   <div class="inner">
     <div class="bnr">
-    <a href="<?php echo home_url('/');?>cosmetics" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/common/cosmetics_bnr.jpg" alt="ドクターズサプリメントのバナー"></a>
+    <a href="<?php echo home_url('/');?>cosmetics" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/common/cosmetics_bnr02.jpg" alt="ドクターズサプリメントのバナー"></a>
     </div>
   </div>
-</div>
+
+  <?php if (have_rows('bnr_cam', 28)): ?>
+   <div class="banner-campaign">
+    <h2 class="tc">スタッフのオススメ</h2>
+     <div class="inner flex">
+            <?php while (have_rows('bnr_cam', 28)) : the_row(); ?>
+              <div class="bnr-cam">
+                  <a href="<?php the_sub_field('cam_link', 28);?>" target="_blank"><img src="<?php the_sub_field('cam_img', 28);?>" alt="月別キャンペーンバナー"></a>
+              </div>
+            <?php endwhile; ?>
+      </div><!-- inner END -->
+    </div><!-- banner-campaign END -->
+  <?php else: ?>
+  <?php endif; ?>
+
+
 
 
   <section class="slides">
@@ -384,6 +399,15 @@
      <h3 class="tc">Twitterやブログやインスタグラム・ラインオフィシャルアカウントにて<br class="pc">お得な情報を配信しています</h3>
     <div class="inner flex">
       <div class="bnr"> <a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/blog_bnr.jpg?0910" alt="blog_bnr"> </a> </div>
+      <div class="bnr"><a href="https://line.me/R/ti/p/%40304ngjfp" target="_blank">
+        <?php if (wp_is_mobile()) : ?>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/common/line_bnr_sp.jpg" alt="line_bnr">
+        <?php else: ?>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/common/line_bnr_pc.jpg" alt="line_bnr">
+        <?php endif; ?>
+        </a> </div>
+</div><!-- /.inner -->
+        <div class="inner flex">
       <div class="bnr"> <a href="https://twitter.com/@_fumibeauty_" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/twitter_bnr.jpg?0910" alt="twitter_bnr"> </a> </div>
       <div class="bnr"> <a href="https://www.instagram.com/dr_fumi/" target="_blank">
         <?php if (wp_is_mobile()) : ?>
@@ -392,14 +416,8 @@
         <img src="<?php echo get_template_directory_uri(); ?>/img/common/insta_bnr.jpg?09101" alt="insta_bnr">
         <?php endif; ?>
         </a> </div>
-      <div class="bnr"><a href="https://line.me/R/ti/p/%40304ngjfp" target="_blank">
-        <?php if (wp_is_mobile()) : ?>
-        <img src="<?php echo get_template_directory_uri(); ?>/img/common/line_bnr_sp.jpg" alt="line_bnr">
-        <?php else: ?>
-        <img src="<?php echo get_template_directory_uri(); ?>/img/common/line_bnr_pc.jpg" alt="line_bnr">
-        <?php endif; ?>
-        </a> </div>
-    </div>
+
+    </div><!-- ./inner -->
   </section>
   <section class="card">
     <div class="inner">

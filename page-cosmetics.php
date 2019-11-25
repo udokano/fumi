@@ -117,11 +117,21 @@ Template Name: ドクターズコスメ・サプリメント
 </section>
 <section class="price">
   <div class="inner-box2">
+
+    <div class="desc-box desc-box02 box-size gosic">
+        <p class="gd">【生幹細胞ハリ艶UPコース】</p>
+        <p class="txt">純度100％の人由来のフリーズドライ幹細胞をヒトプラセンタを導入直前に調合！超音波で高濃度の幹細胞美容成分をしっかり肌の奥へ浸透させます。さらに高濃度ヒト幹細胞&プラセンタ、ヒアルロン酸の130％蓄水力といわれているプロテオグリカン配合の高密着・高浸透マスクをしながらイオン導入で美容成分をしっかり浸透させます。</p>
+    </div>
+
+     <div class="desc-box desc-box02 box-size gosic">
+        <p class="gd">【幹細胞パック導入コース】</p>
+        <p class="txt">高濃度ヒト幹細胞&プラセンタ、ヒアルロン酸の130％蓄水力といわれているプロテオグリカン配合の高密着・高浸透マスクをしながらイオン導入で美容成分をしっかり浸透させます。</p>
+    </div>
+
     <h2 class="tc ls1">料金表</h2>
-  <div class="inner-box2 mb30">
     <div class="price-list gosic">
       <dl class="flex">
-        <dt>種類</dt>
+        <dt>幹細胞</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
@@ -136,6 +146,36 @@ Template Name: ドクターズコスメ・サプリメント
         <dt>ヒト幹細胞パック10枚セット</dt>
         <dd style="text-align:right;">¥16,000<span class="sm">(1枚当たり¥1,600)</span></dd>
       </dl>
+    </div><!-- price-list END -->
+</div><!-- ./inner-box2 -->
+
+<style>
+  /* 一旦非表示
+<div class="ope-kind  mb35">
+    <div class="wrap bg-cg2">
+      <div class="inner-box2">
+        <div class="box flex">
+            <div class="desc">
+              <h3 class="ls1">アルベックス</h3>
+              <p class="gosic text120 ls1 fw600">美肌と健康は腸活から！</p>
+            </div><!-- ./desc -->
+            <div class="thumb">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/thumb04.jpg" alt="サムネイル">
+            </div><!-- ./thumb -->
+        </div><!-- ./box -->
+      </div><!-- ./inner-box2 -->
+    </div><!-- ./wrap -->
+</div><!-- ./ope-lind -->
+*/
+  </style>
+
+<div class="inner-box2">
+  <!--  <h2 class="tc ls1">料金表</h2> -->
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt>ドクターズサプリメント</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
       <dl class="flex">
         <dt><span class="fw600">飲む日焼け止め</span>  ソリプロホワイト　30カプセル </dt>
         <dd>¥5,000</dd>
@@ -145,14 +185,38 @@ Template Name: ドクターズコスメ・サプリメント
         <dd>¥12,000</dd>
       </dl>
        <dl class="flex">
-        <dt>アルベックス　30包</dt>
+        <dt><span class="fw600">美肌と健康は腸活から！</span>  アルベックス　30包</dt>
         <dd>￥8,000</dd>
       </dl>
+    </div><!-- price-list END -->
+  </div><!-- inner-box2 END -->
+<div class="ope-kind mb35">
+    <div class="wrap bg-cg2">
+      <div class="inner-box2">
+        <div class="box flex">
+            <div class="desc">
+              <h3 class="ls1">グラッシュビスタ</h3>
+              <p class="gosic text120 ls1 fw600">自まつげが驚くほど濃く!長く!!</p>
+            </div><!-- ./desc -->
+            <div class="thumb">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/thumb04.jpg" alt="サムネイル">
+            </div><!-- ./thumb -->
+        </div><!-- ./box -->
+      </div><!-- ./inner-box2 -->
+    </div><!-- ./wrap -->
+</div><!-- ./ope-lind -->
+<div class="inner-box2">
+   <h2 class="tc ls1">料金表</h2>
+  <div class="price-list gosic">
+      <dl class="flex">
+        <dt>まつげ育毛薬</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
        <dl class="flex">
-        <dt><span class="fw600">自まつげが驚くほど濃く!長く!!</span>  グラッシュビスタ　約2ヵ月分</dt>
+        <dt><!-- <span class="fw600">自まつげが驚くほど濃く!長く!!</span>   -->グラッシュビスタ　約2ヵ月分</dt>
         <dd>¥15,000</dd>
       </dl>
-    </div>
-  </div>
+    </div><!-- price-list END -->
+</div><!-- ./inner -->
 </section>
 <?php get_footer();?>
