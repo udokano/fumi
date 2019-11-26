@@ -7,7 +7,7 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?1118">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?1215">
 <script>
   (function(d) {
     var config = {
@@ -408,14 +408,21 @@
         </a> </div>
 </div><!-- /.inner -->
         <div class="inner flex">
-      <div class="bnr"> <a href="https://twitter.com/@_fumibeauty_" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/twitter_bnr.jpg?0910" alt="twitter_bnr"> </a> </div>
-      <div class="bnr"> <a href="https://www.instagram.com/dr_fumi/" target="_blank">
-        <?php if (wp_is_mobile()) : ?>
-        <img src="<?php echo get_template_directory_uri(); ?>/img/common/insta_bnr_sp.jpg?09101" alt="insta_bnr">
-        <?php else: ?>
-        <img src="<?php echo get_template_directory_uri(); ?>/img/common/insta_bnr.jpg?09101" alt="insta_bnr">
-        <?php endif; ?>
-        </a> </div>
+        <div class="bnr">
+          <a href="https://www.instagram.com/dr_fumi/" target="_blank">
+            <?php if (wp_is_mobile()) : ?>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/common/insta_bnr_sp.jpg?09101" alt="insta_bnr">
+            <?php else: ?>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/common/insta_bnr.jpg?09101" alt="insta_bnr">
+            <?php endif; ?>
+          </a>
+          </div>
+          <div class="bnr">
+            <a href="https://twitter.com/@_fumibeauty_" target="_blank">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/common/twitter_bnr.jpg?0910" alt="twitter_bnr">
+            </a>
+          </div>
+        </div>
 
     </div><!-- ./inner -->
   </section>
