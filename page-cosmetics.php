@@ -8,7 +8,13 @@ Template Name: ドクターズコスメ・サプリメント
 <div class="page-head">
   <h1 class="tc f-ryu">ドクターズコスメ・サプリメント</h1>
   <?php echo breadcrumb_func(); ?> </div>
-<div class="ancor-box gosic mb60"> <a href="#area1">エンビロン</a><a href="#area2">FAITHラメラボ</a><a href="#area3">幹細胞</a> </div>
+<div class="ancor-box gosic mb60">
+      <a href="#area1">エンビロン</a>
+      <a href="#area2">FAITHラメラボ</a>
+      <a href="#area3">幹細胞</a>
+        <a href="#area4">ドクターズサプリメント</a>
+          <a href="#area5">まつげ育毛薬</a>
+</div>
 <section class="ope-intro bg-cp" id="area1">
   <div class="inner flex al-cent">
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/thumb02.jpg" alt="サムネイル"> </div>
@@ -117,17 +123,6 @@ Template Name: ドクターズコスメ・サプリメント
 </section>
 <section class="price">
   <div class="inner-box2">
-
-    <div class="desc-box desc-box02 box-size gosic">
-        <p class="gd">【生幹細胞ハリ艶UPコース】</p>
-        <p class="txt">純度100％の人由来のフリーズドライ幹細胞をヒトプラセンタを導入直前に調合！超音波で高濃度の幹細胞美容成分をしっかり肌の奥へ浸透させます。さらに高濃度ヒト幹細胞&プラセンタ、ヒアルロン酸の130％蓄水力といわれているプロテオグリカン配合の高密着・高浸透マスクをしながらイオン導入で美容成分をしっかり浸透させます。</p>
-    </div>
-
-     <div class="desc-box desc-box02 box-size gosic">
-        <p class="gd">【幹細胞パック導入コース】</p>
-        <p class="txt">高濃度ヒト幹細胞&プラセンタ、ヒアルロン酸の130％蓄水力といわれているプロテオグリカン配合の高密着・高浸透マスクをしながらイオン導入で美容成分をしっかり浸透させます。</p>
-    </div>
-
     <h2 class="tc ls1">料金表</h2>
     <div class="price-list gosic">
       <dl class="flex">
@@ -169,28 +164,95 @@ Template Name: ドクターズコスメ・サプリメント
 */
   </style>
 
-<div class="inner-box2">
-  <!--  <h2 class="tc ls1">料金表</h2> -->
+</section>
+
+<section class="ope-intro bg-cp" id="area4">
+  <div class="inner flex ff-row-reverse al-cent">
+    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/thumb09.jpg" alt="サムネイル"> </div>
+    <div class="text box-size">
+      <h2>ドクターズサプリメント</h2>
+      <p class="ls1 gosic">いつまでも若く健康に!!<br class="pc">ドクターズサプリメント(Doctors Supplements )とは、医師が、推奨するサプリメントで不必要な添加物を使用していない、医療機関向けの品質が保証された医療機関専門のサプリメントです。当院では安全品質で、信頼のおけるメーカーによる厳選された、素材で製造されたサプリメントをご紹介しています。
+      </p>
+    </div><!-- ./text -->
+  </div><!-- ./inner -->
+</section>
+<div class="ope-kind kind-p02 mb35">
+  <h2 class="tc">サプリメントの種類</h2>
+    <div class="wrap mb20 bg-cg2">
+      <div class="inner-box2">
+        <div class="box flex">
+            <div class="desc">
+              <h3 class="ls1">ソルプロリュクスホワイト</h3>
+              <p class="gosic text120 ls1 fw600">飲む日焼け止め</p>
+            </div><!-- ./desc -->
+            <div class="thumb">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/thumb06.jpg" alt="サムネイル">
+            </div><!-- ./thumb -->
+        </div><!-- ./box -->
+      </div><!-- ./inner-box2 -->
+    </div><!-- ./wrap -->
+      <div class="wrap">
+      <div class="inner-box2">
+        <div class="box flex tr">
+            <div class="thumb">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/thumb05.jpg" alt="サムネイル">
+            </div><!-- ./thumb -->
+            <div class="desc">
+              <h3 class="ls1">Corrｍ(コルム)</h3>
+              <p class="gosic text120 ls1 fw600">肌の弾力UP&痩せ体質に導く</p>
+            </div><!-- ./desc -->
+        </div><!-- ./box -->
+      </div><!-- ./inner-box2 -->
+    </div><!-- ./wrap -->
+      <div class="wrap mb20 bg-cg2">
+      <div class="inner-box2">
+        <div class="box flex">
+            <div class="desc">
+              <h3 class="ls1">アルベックス</h3>
+              <p class="gosic text120 ls1 fw600">美肌と健康は腸活から！</p>
+            </div><!-- ./desc -->
+            <div class="thumb">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/thumb07.jpg" alt="サムネイル">
+            </div><!-- ./thumb -->
+        </div><!-- ./box -->
+      </div><!-- ./inner-box2 -->
+    </div><!-- ./wrap -->
+</div><!-- ./ope-lind -->
+<section class="price">
+  <div class="inner-box2">
+   <h2 class="tc ls1">料金表</h2>
     <div class="price-list gosic">
       <dl class="flex">
         <dt>ドクターズサプリメント</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
-        <dt><span class="fw600">飲む日焼け止め</span>  ソリプロホワイト　30カプセル </dt>
+        <dt>ソルプロリュクスホワイト　30カプセル </dt>
         <dd>¥5,000</dd>
       </dl>
        <dl class="flex">
-        <dt><span class="fw600">肌の弾力UP&痩せ体質に導く</span>  Corrｍ(コルム)　30包</dt>
+        <dt>Corrｍ(コルム)　30包</dt>
         <dd>¥12,000</dd>
       </dl>
        <dl class="flex">
-        <dt><span class="fw600">美肌と健康は腸活から！</span>  アルベックス　30包</dt>
+        <dt>アルベックス　30包</dt>
         <dd>￥8,000</dd>
       </dl>
     </div><!-- price-list END -->
   </div><!-- inner-box2 END -->
-<div class="ope-kind mb35">
+</section>
+
+<section class="ope-intro bg-cp" id="area5">
+  <div class="inner flex al-cent">
+    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/thumb08.jpg" alt="サムネイル"> </div>
+    <div class="text box-size">
+      <h2>まつげ育毛薬</h2>
+      <p class="ls1 gosic">細く短いまつ毛を長く濃いまつげへ!! <br class="pc">当院では、厚生労働省から認可された医療用まつ毛育毛剤『グラッシュビスタ®』を使用します。※グラッシュビスタは、ラティースとして販売されていた薬剤が、名称新たに生まれ変わった商品です。</p>
+    </div>
+  </div>
+</section>
+<div class="ope-kind kind-p02 mb35">
+  <h2 class="tc">育毛薬の種類</h2>
     <div class="wrap bg-cg2">
       <div class="inner-box2">
         <div class="box flex">
@@ -205,9 +267,10 @@ Template Name: ドクターズコスメ・サプリメント
       </div><!-- ./inner-box2 -->
     </div><!-- ./wrap -->
 </div><!-- ./ope-lind -->
-<div class="inner-box2">
-   <h2 class="tc ls1">料金表</h2>
-  <div class="price-list gosic">
+<section class="price">
+  <div class="inner-box2">
+    <h2 class="tc ls1">料金表</h2>
+   <div class="price-list gosic">
       <dl class="flex">
         <dt>まつげ育毛薬</dt>
         <dd class="f-bold">税別</dd>
@@ -217,6 +280,6 @@ Template Name: ドクターズコスメ・サプリメント
         <dd>¥15,000</dd>
       </dl>
     </div><!-- price-list END -->
-</div><!-- ./inner -->
+  </div><!-- inner-box END -->
 </section>
 <?php get_footer();?>

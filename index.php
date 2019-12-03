@@ -7,7 +7,7 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?1215">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?1217">
 <script>
   (function(d) {
     var config = {
@@ -284,7 +284,7 @@
 <div class="cosmetics__bnr">
   <div class="inner">
     <div class="bnr">
-    <a href="<?php echo home_url('/');?>cosmetics" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/common/cosmetics_bnr02.jpg" alt="ドクターズサプリメントのバナー"></a>
+    <a href="<?php echo home_url('/');?>cosmetics" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/common/cosmetics_bnr02.jpg?1203" alt="ドクターズサプリメントのバナー"></a>
     </div>
   </div>
 
