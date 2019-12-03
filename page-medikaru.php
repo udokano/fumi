@@ -186,7 +186,7 @@ Template Name: メディカルエステ
   <div class="inner-box2 mb0">
     <div class="price-list gosic">
       <dl class="flex">
-        <dt>マッサージピール(コラーゲンピール)(PRX-T33)</dt>
+        <dt>マッサージピール(コラーゲンピール PRX-T33)</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
