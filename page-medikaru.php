@@ -145,7 +145,7 @@ Template Name: メディカルエステ
         <dt>生幹細胞ハリ艶UPコース</dt>
         <dd>¥30,000(税別)</dd>
       </dl>
-      <div class="desc-box box-size gosic">
+      <div class="desc-box box-size gosic"><p class="txt">純度100％のヒト由来の幹細胞とヒトプラセンタを超音波でしっかり肌の奥へ浸透させます。さらに高濃度ヒト幹細胞&プラセンタ、ヒアルロン酸の130％蓄水力といわれているプロテオグリカン配合の高密着・高浸透マスクをしながらイオン導入で美容成分をしっかり浸透させます。</p>
         <p class="gd">❶クレンジング  ❷トーニングorシリコンオフトリートメント  ❸生幹細胞＋ヒトプラセンタ超音波導入  ❹幹細胞パック導入</p>
       </div>
     </div>
@@ -154,7 +154,7 @@ Template Name: メディカルエステ
         <dt>幹細胞パック導入コース</dt>
         <dd>¥10,000(税別)</dd>
       </dl>
-      <div class="desc-box box-size gosic">
+      <div class="desc-box box-size gosic"><p class="txt">高濃度ヒト幹細胞&プラセンタ、ヒアルロン酸の130％蓄水力といわれているプロテオグリカン配合の高密着・高浸透マスクをしながらイオン導入で美容成分をしっかり浸透させます。</p>
         <p class="gd">❶クレンジング  ❷トーニングorシリコンオフトリートメント  ❸幹細胞パック導入</p>
       </div>
     </div>
@@ -186,7 +186,7 @@ Template Name: メディカルエステ
   <div class="inner-box2 mb0">
     <div class="price-list gosic">
       <dl class="flex">
-        <dt>コラーゲンピーリング(PRX-T33)</dt>
+        <dt>マッサージピール(コラーゲンピール)(PRX-T33)</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">

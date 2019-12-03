@@ -374,6 +374,29 @@
     }
 }
 
+/* パターン02 */
+
+.kind-p02 {
+    .wrap {
+        .inner-box2 {
+            .box {
+                padding: 40px 0;
+                align-items: center;
+
+                .desc {
+                    h3 {
+                        margin-bottom: 15px;
+                    }
+                }
+
+                .thumb {
+                    width: 26%;
+                }
+            }
+        }
+    }
+}
+
 /*症例*/
 
 .case {
@@ -858,6 +881,29 @@
             .inner-box2 {
                 .box {
                     flex-flow: column-reverse;
+                }
+            }
+        }
+    }
+
+    .kind-p02 {
+        .wrap {
+            .inner-box2 {
+                .box {
+                    padding: 25px 0;
+
+                    .desc {
+                        text-align: center !important;
+
+                        h3 {
+                            margin-bottom: 15px;
+                        }
+                    }
+
+                    .thumb {
+                        width: 62%;
+                        margin: 0 auto 25px !important;
+                    }
                 }
             }
         }
