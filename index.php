@@ -28,7 +28,7 @@
       <nav class="navi pc-dis">
         <ul>
           <li><a href="<?php echo home_url('/'); ?>concept">当院について</a></li>
-          <li class="navi-parent"><a href="#">施術・料金</a>
+          <li class="navi-parent"><a>施術・料金</a>
             <ul class="nav-child">
               <li><a href="<?php echo home_url('/'); ?>siwa">しわ治療</a></li>
               <li><a href="<?php echo home_url('/'); ?>tarumi">たるみ治療</a></li>
@@ -450,7 +450,7 @@
       <nav class="navi pc-dis">
         <ul class="flex gosic">
           <li><a href="<?php echo home_url('/'); ?>concept">当院について</a></li>
-          <li><a href="<?php echo home_url('/'); ?>">施術・料金</a></li>
+          <li><a href="#bg3">施術・料金</a></li>
           <li><a href="<?php echo home_url('/'); ?>access">アクセス</a></li>
           <li><a href="<?php echo home_url('/'); ?>doctor">ドクター紹介</a></li>
           <li><a href="<?php echo home_url('/'); ?>recruit">採用情報</a></li>
