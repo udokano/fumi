@@ -164,10 +164,9 @@ body {
   font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
 }
 
-.wrappre {
+.wrapper {
   position: relative;
   width: 100%;
-  min-width: 1160px;
 }
 
 section {
@@ -448,7 +447,7 @@ body.page {
   .inner-box {
     width: 93%;
     max-width: 1400px;
-    min-width: 1200px;
+    min-width: 1000px;
     margin: 0 auto;
   }
 
@@ -885,9 +884,12 @@ body.page {
   z-index: 9999;
 }
 .site-header .header-inner .logo {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding-left: 2%;
   width: 16%;
   max-width: 260px;
+  min-width: 140px;
 }
 .site-header .header-inner .logo p {
   font-size: .68rem;
@@ -898,16 +900,34 @@ body.page {
   display: block;
 }
 .site-header .header-inner .navi {
-  padding-left: 8%;
-  width: 55%;
+  width: 52%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .site-header .header-inner .navi ul {
   text-align: right;
 }
 .site-header .header-inner .navi ul li {
-  padding: 0 2.7%;
+  padding: 0 18px;
   margin: 0;
   display: inline-block;
+}
+.site-header .header-inner .navi ul li:first-child {
+  padding-left: 0;
+}
+.site-header .header-inner .navi ul li:last-child {
+  padding-right: 0;
+}
+.site-header .header-inner .top-cv-btn {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 16%;
+}
+.site-header .header-inner .top-cv-btn a {
+  width: 50%;
 }
 
 /*******  ナビドロップダウン    ********/
@@ -928,14 +948,18 @@ body.page {
 }
 .navi li.navi-parent .nav-child li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 0;
+  width: 100%;
   text-align: center;
-  font-size: .9rem;
   display: block;
 }
 .navi li.navi-parent .nav-child li a {
   color: #fff;
   display: block;
   padding: 10px 4px;
+  font-size: .78rem;
+  white-space: nowrap;
+  text-align: center;
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
 }
 .navi li.navi-parent:hover .nav-child {
@@ -1005,10 +1029,11 @@ body.page {
 }
 .fv .inner-box .bottom .cv-wrap .top .tel {
   margin: 0 3.2%;
-  font-size: 2.2rem;
+  font-size: 2.245vw;
 }
 .fv .inner-box .bottom .cv-wrap .top .sm {
-  font-size: .74rem;
+  font-size: 0.8vw;
+  letter-spacing: 0.00001em;
 }
 .fv .scroll-down {
   position: absolute;
@@ -1031,6 +1056,12 @@ body.page {
   }
   .site-header .header-inner .logo p {
     font-size: .5rem;
+  }
+  .site-header .header-inner .top-cv-btn {
+    width: auto;
+  }
+  .site-header .header-inner .top-cv-btn a {
+    width: 66px;
   }
 
   .fv {
@@ -1198,7 +1229,7 @@ footer .inner .copy {
     display: block;
     color: #fff;
     text-align: center;
-    font-size: .98rem;
+    font-size: 3.14vw;
   }
   .hambargar ul li.menu-logo {
     width: 28%;
@@ -3547,22 +3578,23 @@ footer.pages.list-footer .copy {
 
 @media (max-width: 767px) {
   .doctor-intro {
-    padding: 60px 0 0;
+    padding: 40px 0 30px;
   }
   .doctor-intro .inner {
     background: none;
+    padding: 0;
   }
   .doctor-intro .inner .text {
     width: 94%;
     margin: auto;
-    padding-bottom: 80px;
+    padding-bottom: 0px;
   }
   .doctor-intro .inner .text h2 {
     width: 100%;
     text-align: center;
   }
   .doctor-intro .inner .text .thumb {
-    width: 90%;
+    width: 68%;
     margin: 0 auto 35px;
   }
   .doctor-intro .inner .text p {

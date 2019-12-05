@@ -7,7 +7,7 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?1217">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?1220">
 <script>
   (function(d) {
     var config = {
@@ -36,6 +36,7 @@
               <li><a href="<?php echo home_url('/'); ?>nose-lift">鼻の糸</a></li>
               <li><a href="<?php echo home_url('/'); ?>keiseigeka">形成外科治療</a></li>
               <li><a href="<?php echo home_url('/'); ?>medikaru">美肌治療</a></li>
+              <li><a href="<?php echo home_url('/'); ?>cosmetics">ドクターズコスメ</a></li>
               <li><a href="<?php echo home_url('/'); ?>shoshin">初診料・再診料</a></li>
             </ul>
           </li>
@@ -475,6 +476,7 @@
           <li><a href="<?php echo home_url('/'); ?>nose-lift">鼻の糸</a></li>
           <li><a href="<?php echo home_url('/'); ?>keiseigeka">形成外科治療</a></li>
           <li><a href="<?php echo home_url('/'); ?>medikaru">美肌治療</a></li>
+           <li class="mb0"><a href="<?php echo home_url('/'); ?>cosmetics">ドクターズコスメ</a></li>
           <li class="mb0"><a href="<?php echo home_url('/'); ?>shoshin">初診料・再診料</a></li>
         </ul>
       </li>

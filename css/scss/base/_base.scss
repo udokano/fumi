@@ -163,10 +163,11 @@ body {
     font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
 }
 
-.wrappre {
+.wrapper {
     position: relative;
     width: 100%;
-    min-width: 1160px;
+
+    //min-width: 1100px;
 }
 
 section {
@@ -499,7 +500,7 @@ body.page {
     .inner-box {
         width: 93%;
         max-width: 1400px;
-        min-width: 1200px;
+        min-width: 1000px;
 
         @include box-center;
     }

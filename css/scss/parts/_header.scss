@@ -1,56 +1,73 @@
 /*FV TOP PC*/
 
-
 .site-header {
     width: 100%;
     position: fixed;
     background-color: #fff;
     z-index: 9999;
+
     .header-inner {
         .logo {
+            box-sizing: border-box;
             padding-left: 2%;
             width: 16%;
             max-width: 260px;
+            min-width: 140px;
+
             p {
                 font-size: .68rem;
                 color: #454545;
                 margin-bottom: 5px;
             }
+
             img {
                 display: block;
             }
         }
-        
+
         .navi {
-            padding-left: 8%;
-            width: 55%;
+            //padding-left: 8%;
+            width: 52%;
+            box-sizing: border-box;
+
             ul {
                 text-align: right;
+
                 li {
-                    padding: 0 2.7%;
+                    padding: 0 18px;
                     margin: 0;
                     display: inline-block;
+
+                    &:first-child {
+                        padding-left: 0;
+                    }
+
+                    &:last-child {
+                        padding-right: 0;
+                    }
                 }
             }
         }
-        
+
         .top-cv-btn {
-            
+            box-sizing: border-box;
+            display: flex;
+            width: 16%;
+
+            a {
+                width: 50%;
+            }
         }
     }
 }
 
-
-
 /*******  ナビドロップダウン    ********/
 
-
-
 .navi {
-    
     li.navi-parent {
         position: relative;
-        .nav-child  {
+
+        .nav-child {
             position: absolute;
             left: 0;
             top: 10px;
@@ -60,95 +77,84 @@
             opacity: 0;
             z-index: 1;
             transition: all .4s ease;
-            li {
-                border-bottom: 1px solid rgba(255,255,255,.50);
-                text-align: center;
-                font-size: .9rem;
-                            display: block;
 
-                   a {
-                color: #fff;
+            li {
+                border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+                padding: 0;
+                width: 100%;
+                text-align: center;
                 display: block;
-                padding: 10px 4px;
-                font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+
+                a {
+                    color: #fff;
+                    display: block;
+                    padding: 10px 4px;
+                    font-size: .78rem;
+                    white-space: nowrap;
+                    text-align: center;
+                    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+                }
             }
-                
-                
-                
-                
-            }
-         
         }
-        
+
         &:hover .nav-child {
-                   top: 26px;
-                    visibility: visible;
-                    opacity: 1;
-            }
+            top: 26px;
+            visibility: visible;
+            opacity: 1;
         }
     }
-    
-
-
-
-
-
-
-
-
+}
 
 .fv {
     padding-top: 91px;
-    background: url("../img/top/fv2_pc.jpg") no-repeat 50% 0% /cover;
+    background: url("../img/top/fv2_pc.jpg") no-repeat 50% (0% / cover);
     height: 880px;
     position: relative;
+
     .inner-box {
-        
         .fv-top-wrap {
             width: 94%;
             margin: 0 auto;
+
             .top {
-            padding-top: 35px;
-            margin-bottom: 5px;
-            h1 {
-                width: 78%;
-                margin: auto;
-            }
-            
-            .logos {
-                width: 41%;
-                margin: 0 auto 18px;
-                min-width: 320px;
-                text-align: center;
-                img {
-                    display: block;
-                    width: 77%;
-                    margin: 0px auto;
+                padding-top: 35px;
+                margin-bottom: 5px;
+
+                h1 {
+                    width: 78%;
+                    margin: auto;
                 }
-                
-                .band {
-                    border: 1px solid $cp;
-                    background-color: transparent;
-                    padding: 8px 18px;
-                    font-size: 1.27rem;
-                    display: inline-block;
+
+                .logos {
+                    width: 41%;
+                    margin: 0 auto 18px;
+                    min-width: 320px;
+                    text-align: center;
+
+                    img {
+                        display: block;
+                        width: 77%;
+                        margin: 0px auto;
+                    }
+
+                    .band {
+                        border: 1px solid $cp;
+                        background-color: transparent;
+                        padding: 8px 18px;
+                        font-size: 1.27rem;
+                        display: inline-block;
+                    }
                 }
-                
             }
         }
-            
-            
-            
-        }
-        
-        
+
         .bottom {
-            
-            
             .menu-link {
                 width: 49%;
+
                 li {
                     width: 48%;
+
                     a {
                         img {
                             height: 120px;
@@ -157,38 +163,37 @@
                     }
                 }
             }
-            
-            
+
             .cv-wrap {
                 width: 49%;
                 background-color: $bg-w;
                 padding: 20px;
+
                 .top {
                     padding-top: 0;
                     margin-bottom: 30px;
                     justify-content: flex-start;
-                    .left {
 
-                    }
-                    
+                    .left {}
+
                     .tel {
                         margin: 0 3.2%;
-                        font-size: 2.2rem;
+
+                        //font-size: 2.2rem;
+                        font-size: 2.245vw;
                     }
-                    
-                    .time {
-                    }
-                    
+
+                    .time {}
+
                     .sm {
-                        font-size: .74rem;
+                        font-size: 0.8vw;
+                        letter-spacing: 0.00001em;
                     }
-                    
                 }
             }
         }
     }
-    
-    
+
     .scroll-down {
         position: absolute;
         bottom: 4%;
@@ -198,146 +203,143 @@
 }
 
 @media (max-width: 767px) {
-    
-    
     .site-header {
-    .header-inner {
-        .logo {
-            padding-left: 2%;
-            width: 38%;
-            min-width: 140px;
-            img {
-                transform: scale(.92);
-                display: block;
-                margin-top: -6px;
+        .header-inner {
+            .logo {
+                padding-left: 2%;
+                width: 38%;
+                min-width: 140px;
+
+                img {
+                    transform: scale(0.92);
+                    display: block;
+                    margin-top: -6px;
+                }
+
+                p {
+                    font-size: .5rem;
+                }
             }
-              p {
-                font-size: .5rem;
+
+            .top-cv-btn {
+                width: auto;
+
+                a {
+                    width: 66px;
+                }
             }
-        }
-        
-     
-        
-        .top-cv-btn {
-            
         }
     }
-}
-    
+
     .fv {
         padding-top: 61px;
-    background: url("../img/top/fv2_sp.png") no-repeat 50% 0%/cover;
-    height: 820px;
-    position: relative;
-        
-        
+        background: url("../img/top/fv2_sp.png") no-repeat 50% (0% / cover);
+        height: 820px;
+        position: relative;
+
         .fv-top-wrap {
             width: 96%;
             margin: auto;
+
             .top {
-            padding-top: 2.5%;
-            margin-bottom: 5px;
-            h1 {
-                width: 84%;
-                margin: auto;
-                min-width: 310px;
-            }
-            
-            .logos {
-                width: 100%;
-                min-width: 180px;
-                max-width: 380px;
-                margin: auto;
-                text-align: center;
-                img {
-                    display: block;
-                    width: 64%;
-                    margin: 0px auto;
+                padding-top: 2.5%;
+                margin-bottom: 5px;
+
+                h1 {
+                    width: 84%;
+                    margin: auto;
+                    min-width: 310px;
                 }
-                
-                .band {
-                    border: 1px solid $cp;
-                    background-color: transparent;
-                    padding: 8px 18px;
-                    font-size: 1.08rem;
-                    display: inline-block;
+
+                .logos {
+                    width: 100%;
+                    min-width: 180px;
+                    max-width: 380px;
+                    margin: auto;
+                    text-align: center;
+
+                    img {
+                        display: block;
+                        width: 64%;
+                        margin: 0px auto;
+                    }
+
+                    .band {
+                        border: 1px solid $cp;
+                        background-color: transparent;
+                        padding: 8px 18px;
+                        font-size: 1.08rem;
+                        display: inline-block;
+                    }
                 }
-                
             }
         }
-    }
-        
-        
 
-    .box-wrap {
-        width: 96%;
-        
-        margin: auto;
-    
-            
+        .box-wrap {
+            width: 96%;
+            margin: auto;
+
             .menu-link {
                 width: 100%;
                 margin-bottom: 25px;
+
                 li {
                     width: 48%;
+
                     a {
                         p {
                             font-size: .8rem;
                         }
                     }
                 }
-            
-        }
-            
+            }
+
             .cv-wrap {
                 width: 100%;
                 background-color: $bg-w;
                 padding: 20px;
+
                 .top {
                     padding-top: 0;
 
-                    
                     .txt {
                         font-size: 1.4rem;
                         margin-bottom: 2.1%;
                     }
-                    
+
                     .midle {
-                        
                         margin-bottom: 10px;
-                        
+
                         .tel {
-                        width: 100%;
+                            width: 100%;
                             text-align: center;
                             margin-bottom: 1.1%;
+
                             a {
-                              background-size: 28px;
-                              font-size: 2.57rem;
+                                background-size: 28px;
+                                font-size: 2.57rem;
                                 padding-left: 52px;
                                 background-size: 40px;
                             }
+                        }
+
+                        .time {
+                            width: 100%;
+                            font-size: .5rem;
+                            letter-spacing: 0;
+                            text-align: center;
+                        }
                     }
-                    
-                    .time {
-                        width: 100%;
-                       font-size: .5rem;
-                        letter-spacing: 0;
-                        text-align: center;
-                    }
-                        
-                        
-                    }
-                    
-                
-    
                 }
-                
+
                 .bottom {
                     .cv-btns {
                         width: 48%;
                         padding: 20px 0;
+
                         .bg-icon {
                             font-size: .9rem;
+
                             .sm {
                                 font-size: .6rem;
                             }
@@ -345,12 +347,6 @@
                     }
                 }
             }
-        
+        }
     }
-    
-}
-
-    
-    
-    
 }
