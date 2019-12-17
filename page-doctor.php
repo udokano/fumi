@@ -34,7 +34,7 @@ Template Name: ドクター紹介
     <div class="right box-size">
       <h3 class="cw">所属</h3>
       <ul>
-        <li>ジュピダームビスタ認定医</li>
+        <li>ジュビダームビスタ認定医</li>
         <li>ボトックスビスタ認定医</li>
         <li>日本形成外科学会</li>
         <li>日本抗加齢学会</li>
