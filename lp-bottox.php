@@ -26,6 +26,7 @@ Template Name: ランディングページボトックス
   })(document);
 </script>
 <?php wp_head(); ?>
+    
 </head>
 <body id="lp2" class="lps">
 <div class="wrapper">

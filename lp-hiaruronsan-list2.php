@@ -40,6 +40,7 @@ function ua_smt() {
 
   gtag('config', 'AW-710940797');
 </script>
+   
 <?php wp_head(); ?>
 </head>
 <body id="lp1" class="lps">
