@@ -257,6 +257,14 @@ section {
     }
 }
 
+.cv-btns.bg-line {
+    background-color: #59D037;
+
+    .bg-icon {
+        background-image: url("../img/common/icon_line.png");
+    }
+}
+
 .sm {
     font-size: .6rem;
     letter-spacing: 1px;
@@ -278,6 +286,7 @@ section {
         span {
             font-size: .9rem;
             padding-top: 37px;
+            line-height: 1.4;
             background: no-repeat 50% 0%/ 24px;
             color: #fff;
         }
@@ -295,6 +304,14 @@ section {
             background-image: url("../img/common/icon_mail.png");
         }
     }
+
+    .bg-line {
+        span {
+            background-image: url("../img/common/icon_line.png") !important;
+            background-position: 11% 1% !important;
+            font-size: .7rem;
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -304,27 +321,42 @@ section {
         .cv-btns {
             text-align: center;
             width: 66px;
-            padding: 35px 0 10px;
+            height: 66px;
+            padding: 0;
             display: inline-block;
+            box-sizing: border-box;
 
             span {
                 font-size: .8rem;
-                padding-top: 28px;
                 background: no-repeat 50% 0%/ 16px;
                 color: #fff;
+                display: inline-block;
             }
         }
 
         .bg-rs {
             span {
                 background-image: url("../img/common/icon_cal.png");
+                padding-top: 21px;
+                margin-top: 13px;
             }
         }
 
         .bg-ct {
             span {
-                padding-top: 25px;
+                padding-top: 19px;
+                margin-top: 15px;
                 background-image: url("../img/common/icon_mail.png");
+            }
+        }
+
+        .bg-line {
+            span {
+                background-position: 50% 1% !important;
+                padding-top: 21px;
+                margin-top: 9px;
+                font-size: .8rem;
+                line-height: 1.3;
             }
         }
     }
@@ -506,6 +538,11 @@ body.page {
     }
 
     .inner {
+        max-width: 1360px;
+        margin: auto;
+    }
+
+    .inner02 {
         max-width: 1360px;
         margin: auto;
     }

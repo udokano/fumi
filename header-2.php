@@ -7,7 +7,7 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?1227">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?0115">
     <script>
   (function(d) {
     var config = {
@@ -27,6 +27,11 @@
     <div class="header-inner flex al-cent">
       <div class="logo tc"><a href="<?php echo home_url('/'); ?>">
           <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo.png" alt="FMUI BEAUTY CLINIC"></a></div>
-      <div class="top-cv-btn"> <a class="bg-rs cv-btns" href="https://fumibeauty.reserve.ne.jp/" target="_blank"><span>来院予約</span></a> <a class="bg-ct cv-btns" href="<?php echo home_url('/'); ?>contact-list"><span>お問合わせ</span></a> </div>
+         <div class="top-cv-btn">
+          <a class="bg-rs cv-btns" href="https://fumibeauty.reserve.ne.jp/" target="_blank"><span>来院予約</span></a> 
+          <a class="bg-ct cv-btns" href="<?php echo home_url('/'); ?>contact-list"><span>お問合わせ</span></a>
+           <a class="bg-line cv-btns" href="https://line.me/R/ti/p/%40304ngjfp" target="_blank"><span>LINEで<br>
+        簡単予約</span></a> 
+        </div>
     </div>
   </header>

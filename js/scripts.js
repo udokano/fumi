@@ -62,6 +62,31 @@ $(function () {
 
   //スライダー
 
+
+  //トップページFV
+
+  var mySwiperfv = new Swiper('.fv-slide', {
+    loop: true,
+    effect: 'fade',
+    initialSlide: 0,
+    speed: 5000,
+    slidesPerView: 1,
+    paginationClickable: false,
+    disableOnInteraction: false,
+    autoplay: {
+      delay: 10000,
+    },
+    breakpoints: {
+      767: {
+        slidesPerView: 1,
+        spaceBetween: 0,
+
+
+      }
+    }
+
+  })
+
   //バナー
 
   var mySwiper = new Swiper('.swiper1', {
