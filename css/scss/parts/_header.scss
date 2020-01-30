@@ -503,6 +503,7 @@ body#front__re__test {
 
                         a {
                             font-size: 1.237vw;
+                            
                         }
                     }
                 }
@@ -567,9 +568,37 @@ body#front__re__test {
 
     .fv {
         padding-top: 91px;
-        height: 680px;
+        height: 600px;
         position: relative;
         background: none;
+        background-color: #f8f8f8;
+        
+         .fv__items {
+                                padding-top: 35px;
+                                margin-bottom: 5px;
+             position: absolute;
+             left: 50%;
+             top: 17%;
+             transform: translateX(-50%);
+             z-index: 1000;
+
+                             
+
+                                .logos {
+                                    width: 70%;
+                                    margin: 0 auto 18px;
+                                    min-width: 320px;
+                                    text-align: center;
+
+                                    img {
+                                        display: block;
+                                        width: 80%;
+                                        margin: 0px auto;
+                                    }
+
+                                    
+                                }
+                            }
 
         .fv-slide {
             height: 100%;
@@ -580,61 +609,63 @@ body#front__re__test {
                 .fv__slide-wrap {
                     height: 100%;
                     width: 100%;
-                    background: no-repeat 50% (0% / cover);
-
-                    .inner-box {
-                        .fv-top-wrap {
-                            width: 94%;
-                            margin: 0 auto;
-
-                            .top {
-                                padding-top: 35px;
-                                margin-bottom: 5px;
-
-                                h1 {
-                                    width: 78%;
-                                    margin: auto;
-                                    font-size: 1.8rem;
-                                    text-shadow: 0px 0px 11px #ffffff,0px 0px 12px #ffffff,0px 0px 25px #ffffff,1px 0px 33px #ffffff,0px 0px 41px #ffffff,0px 1px 43px #ffffff,0px 0px 50px #ffffff,0px 0px 3px #ffffff,0px 0px 4px #fff;
+                    background: no-repeat 50% 50% /cover;
+                    position: relative;
+                  
+                       
+                            .slide01__texts {
+                                  position: absolute;
+                                   top: 62.5%;
+                                   left: 50%;
+                                   transform: translateX(-50%);
+                                text-align: center;
+                                 h1 {
+                                 margin: auto;;
+                                    width: 100%;
                                 }
-
-                                .logos {
-                                    width: 55%;
-                                    margin: 0 auto 18px;
-                                    min-width: 320px;
-                                    text-align: center;
-
-                                    img {
-                                        display: block;
-                                        width: 50%;
-                                        margin: 0px auto;
-                                    }
-
-                                    .band {
+                                
+                                .band {
                                         border: 1px solid $cp;
                                         background-color: transparent;
                                         padding: 8px 18px;
                                         font-size: 1.27rem;
                                         display: inline-block;
-                                        text-shadow: 0px 0px 11px #ffffff,0px 0px 12px #ffffff,0px 0px 25px #ffffff,1px 0px 33px #ffffff,0px 0px 41px #ffffff,0px 1px 43px #ffffff,0px 0px 50px #ffffff,0px 0px 3px #ffffff,0px 0px 4px #fff;
+                                        //text-shadow: 0px 0px 11px #ffffff,0px 0px 12px #ffffff,0px 0px 25px #ffffff,1px 0px 33px #ffffff,0px 0px 41px #ffffff,0px 1px 43px #ffffff,0px 0px 50px #ffffff,0px 0px 3px #ffffff,0px 0px 4px #fff;
                                     }
-                                }
-                            }
-                        }
+                       
                     }
                 }
             }
-
+/*スライドさせる画像をここで設定*/
+            
+            
+            /*1枚目*/
             .fv__slide-wrap.slide01 {
-                background-image: url(../img/top/fv2_pc.jpg);
+                background-image: url(../img/top/fv2_slide01.jpg);
             }
-
+            /*2枚目*/
             .fv__slide-wrap.slide02 {
-                background-image: url(../img/top/bg01.jpg);
+                background-image: url(../img/top/fv2_slide02.jpg);
             }
-
+            /*3枚目*/
             .fv__slide-wrap.slide03 {
-                background-image: url(../img/top/bg4.jpg);
+                background-image: url(../img/top/fv2_slide03.jpg);
+            }
+            /*4枚目*/
+            .fv__slide-wrap.slide04 {
+                background-image: url(../img/top/fv2_slide04.jpg);
+            }
+            /*5枚目*/
+            .fv__slide-wrap.slide05 {
+                background-image: url(../img/top/fv2_slide05.jpg);
+            }
+            /*6枚目*/
+            .fv__slide-wrap.slide06 {
+                background-image: url(../img/top/fv2_slide06.jpg);
+            }
+             /*7枚目*/
+            .fv__slide-wrap.slide07 {
+                background-image: url(../img/top/fv2_slide07.jpg);
             }
         }
     }
@@ -749,54 +780,83 @@ body#front__re__test {
             padding-top: 61px;
             height: 500px;
             position: relative;
+            .fv__items {
+                top: 10%;
+                width: 90%;
+                .logos{
+                    width: 100%;
+                    img {
+                        max-width: 265px;
+                    }
+                     
+                }
+                   
+            }
+            
+            
+              .fv-slide {
+       
 
-            .fv-slide {
-                .fv-slider-content {
-                    .fv__slide-wrap {
-                        .inner-box {
-                            .fv-top-wrap {
-                                width: 96%;
-                                margin: auto;
+            .fv-slider-content {
+              
 
-                                .top {
-                                    padding-top: 2.5%;
-                                    margin-bottom: 5px;
-
-                                    h1 {
-                                        width: 84%;
-                                        margin: auto;
-                                        min-width: 310px;
-                                    }
-
-                                    .logos {
-                                        width: 100%;
-                                        min-width: 180px;
-                                        max-width: 380px;
-                                        margin: auto;
-                                        text-align: center;
-
-                                        img {
-                                            display: block;
-                                            width: 64%;
-                                            margin: 0px auto;
-                                        }
-
-                                        .band {
-                                            border: 1px solid $cp;
-                                            background-color: transparent;
-                                            padding: 8px 18px;
-                                            margin-bottom: 20px;
-                                            font-size: 1.08rem;
-                                            display: inline-block;
-                                        }
-                                    }
+                .fv__slide-wrap {
+                   
+                       
+                            .slide01__texts {
+                                top: 57%;
+                                width: 100%;
+                                 h1 {
+                                 margin: auto;;
+                                    width: 100%;
                                 }
-                            }
-                        }
+                                
+                                .band {
+                                        border: 1px solid $cp;
+                                        background-color: transparent;
+                                        padding: 8px 18px;
+                                        font-size: 1.27rem;
+                                        display: inline-block;
+                                        
+                                    }
+                       
                     }
                 }
             }
+/*スライドさせる画像をここで設定*/
+            
+            
+            /*1枚目*/
+            .fv__slide-wrap.slide01 {
+                background-image: url(../img/top/fv2_slide01.jpg);
+            }
+            /*2枚目*/
+            .fv__slide-wrap.slide02 {
+                background-image: url(../img/top/fv2_slide02.jpg);
+            }
+            /*3枚目*/
+            .fv__slide-wrap.slide03 {
+                background-image: url(../img/top/fv2_slide03.jpg);
+            }
+            /*4枚目*/
+            .fv__slide-wrap.slide04 {
+                background-image: url(../img/top/fv2_slide04.jpg);
+            }
+            /*5枚目*/
+            .fv__slide-wrap.slide05 {
+                background-image: url(../img/top/fv2_slide05.jpg);
+            }
+            /*6枚目*/
+            .fv__slide-wrap.slide06 {
+                background-image: url(../img/top/fv2_slide06.jpg);
+            }
+             /*7枚目*/
+            .fv__slide-wrap.slide07 {
+                background-image: url(../img/top/fv2_slide07.jpg);
+            }
+        }
 
+           
             .box-wrap {
                 width: 96%;
                 margin: auto;
