@@ -160,7 +160,7 @@ html {
 body {
     line-height: 1.5;
     color: $cg;
-    font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',serif;
 }
 
 .wrapper {
@@ -597,6 +597,26 @@ body.page {
 .bg-grade {
     background: rgb(2, 0, 36);
     background: linear-gradient(143deg, rgba(2, 0, 36, 1) 0%, rgba(249, 244, 244, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.bg__n_rs {
+    background-color: $new_rs;
+}
+
+.bg__n_ct {
+    background-color: $new_ct;
+}
+
+.bg__n_line {
+    background-color: $new_line;
+}
+
+.c_gray {
+    color: $gray;
+}
+
+.c_gray_impo {
+    color: $gray !important;
 }
 
 .cp {

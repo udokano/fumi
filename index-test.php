@@ -12,7 +12,7 @@ Template Name: トップページ改修テスト閲覧用
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?0231">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?03016">
 <script>
   (function(d) {
     var config = {
@@ -29,7 +29,7 @@ Template Name: トップページ改修テスト閲覧用
 <div class="wrapper">
   <header class="site-header front">
     <div class="header-inner flex al-cent">
-      <div class="logo tc"><a href="<?php echo home_url('/'); ?>"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo.png" alt="FMUI BEAUTY CLINIC"></a></div>
+      <div class="logo tc"><a href="<?php echo home_url('/'); ?>"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo_re.png" alt="FMUI BEAUTY CLINIC"></a></div>
       <nav class="navi pc-dis">
         <ul>
           <li><a href="<?php echo home_url('/'); ?>concept">当院について</a></li>
@@ -56,7 +56,7 @@ Template Name: トップページ改修テスト閲覧用
   </header>
   <div class="fv" id="fv-slide">
     <div class="fv__items">
-      <div class="logos"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_logo.png" alt="FMUI BEAUTY CLINIC"> 
+      <div class="logos"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_logo_re.png" alt="FMUI BEAUTY CLINIC"> 
         
         <!--band END--> 
       </div>
@@ -65,25 +65,26 @@ Template Name: トップページ改修テスト閲覧用
     </div>
     <div class="swiper-container fv-slide" >
       <div class="swiper-wrapper fv-slider-content">
-        <div class="fv__slide-wrap swiper-slide slide01">
+          
+        <div class="fv__slide-wrap swiper-slide slide01 swiper-no-swipng">
           <div class="slide01__texts">
             <div class="band cp tc ls2">注入＆スレッド治療専門クリニック</div>
-            <h1> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv2_cach.png" alt="洗練された美容技術であなたの美しさを引き出します。" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_cach_sp.png" alt="洗練された美容技術であなたの美しさを引き出します" class="sp"> </h1>
+            <h1> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv2_cach_re.png" alt="洗練された美容技術であなたの美しさを引き出します。" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_cach_sp_re.png" alt="洗練された美容技術であなたの美しさを引き出します" class="sp"> </h1>
           </div>
         </div>
+         
         <!-- fv__slide-wrap slide01 END -->
-        <div class="fv__slide-wrap swiper-slide slide02"> </div>
+        <div class="fv__slide-wrap swiper-slide slide02 swiper-no-swipng"> </div>
         <!-- fv__slide-wrap slide02 END -->
-        <div class="fv__slide-wrap swiper-slide slide03"> </div>
+        <div class="fv__slide-wrap swiper-slide slide03 swiper-no-swipng"> </div>
         <!-- fv__slide-wrap slide03 END -->
-        <div class="fv__slide-wrap swiper-slide slide04"> </div>
+        <div class="fv__slide-wrap swiper-slide slide04 swiper-no-swipng4"> </div>
         <!-- fv__slide-wrap slide04 END -->
-        <div class="fv__slide-wrap swiper-slide slide05"> </div>
+        <div class="fv__slide-wrap swiper-slide slide05 swiper-no-swipng"> </div>
         <!-- fv__slide-wrap slide05 END -->
-        <div class="fv__slide-wrap swiper-slide slide06"> </div>
+        <div class="fv__slide-wrap swiper-slide slide06 swiper-no-swipng"> </div>
         <!-- fv__slide-wrap slide06 END -->
-        <div class="fv__slide-wrap swiper-slide slide07"> </div>
-        <!-- fv__slide-wrap slide07 END --> 
+       
       </div>
       <!-- swiper-wrapper END--> 
     </div>
@@ -130,7 +131,7 @@ Template Name: トップページ改修テスト閲覧用
         <div class="band cp tc ls2">beautiful aging</div>
         <p class="cach gd tc f-ryu">美しく年齢を重ね<br>
           輝き続けるために</p>
-        <div class="btn-wrap"> <a href="<?php echo home_url('/'); ?>doctor" class="btn bg-cg">院長紹介</a> <a href="<?php echo home_url('/'); ?>concept" class="btn">当院について</a> </div>
+        <div class="btn-wrap"> <a href="<?php echo home_url('/'); ?>doctor" class="btn bg__n_rs c_gray gosic">院長紹介</a> <a href="<?php echo home_url('/'); ?>concept" class="btn bg__n_ct c_gray gosic">当院について</a> </div>
       </div>
       <p class="doctor-name cp tc"><span class="sm">fumi beauty clinic院長</span><br>
         先山 史</p>
@@ -213,7 +214,7 @@ Template Name: トップページ改修テスト閲覧用
             優良な品質の製剤のみを使用しております。
             患者様の幅広い悩みを解決するために、
             多種類の製剤を取り扱っています。</p>
-          <a href="<?php echo home_url('/'); ?>list" class="btn">詳しく見る</a> </div>
+          <a href="<?php echo home_url('/'); ?>list" class="btn bg__n_ct c_gray">詳しく見る</a> </div>
       </div>
     </div>
   </section>
@@ -221,7 +222,7 @@ Template Name: トップページ改修テスト閲覧用
     <h2 class="tc cp">MENU</h2>
     <ul class="munu-link flex">
       <li class="box-size hg-row"> <a href="<?php echo home_url('/'); ?>tarumi">
-        <h3 class="tc">たるみ治療</h3>
+        <h3 class="tc c_gray_impo">たるみ治療</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb05.jpg" alt="サムネイル"></div>
         <ul>
           <li>・ヒアルロン酸</li>
@@ -386,8 +387,7 @@ Template Name: トップページ改修テスト閲覧用
   <!--SLIDES END-->
   
   <section class="sns">
-    <h3 class="tc">Twitterやブログやインスタグラム・ラインオフィシャルアカウントにて<br class="pc">
-      お得な情報を配信しています</h3>
+    <h3 class="tc">Twitterやブログやインスタグラム・ラインオフィシャルアカウントにて<br class="pc">お得な情報を配信しています</h3>
     <div class="inner flex">
       <div class="bnr"> <a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/blog_bnr.jpg?0910" alt="blog_bnr"> </a> </div>
       <div class="bnr"><a href="https://line.me/R/ti/p/%40304ngjfp" target="_blank">
@@ -491,7 +491,7 @@ Template Name: トップページ改修テスト閲覧用
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script> 
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script> 
-<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?0910"></script> 
+<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?03311"></script> 
 <script>
     function initMap() {
         var latlng = new google.maps.LatLng( 34.707103, 135.495992 );

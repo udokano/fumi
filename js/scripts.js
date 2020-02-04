@@ -64,22 +64,16 @@ $(function () {
   var mySwiperfv = new Swiper('.fv-slide', {
     loop: true,
     effect: 'fade',
-    initialSlide: 0,
     speed: 5000,
+    initialSlide: 5,
     slidesPerView: 1,
     paginationClickable: false,
-    disableOnInteraction: false,
+     autoplayDisableOnInteraction: false,
     autoplay: {
       delay: 9000,
+        autoplayDisableOnInteraction: false
     },
-    breakpoints: {
-      767: {
-        slidesPerView: 1,
-        spaceBetween: 0,
-
-
-      }
-    }
+ 
 
   })
 
