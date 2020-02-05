@@ -12,7 +12,7 @@ Template Name: トップページ改修テスト閲覧用
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?03019">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?030282">
 <script>
   (function(d) {
     var config = {
@@ -84,6 +84,8 @@ Template Name: トップページ改修テスト閲覧用
         <!-- fv__slide-wrap slide05 END -->
         <div class="fv__slide-wrap swiper-slide slide06 swiper-no-swipng"> </div>
         <!-- fv__slide-wrap slide06 END -->
+         <div class="fv__slide-wrap swiper-slide slide07 swiper-no-swipng"> </div>
+        <!-- fv__slide-wrap slide07 END -->
 
       </div>
       <!-- swiper-wrapper END-->
@@ -113,8 +115,8 @@ Template Name: トップページ改修テスト閲覧用
           <div class="time sm"> 平日 10:00～18:00<br>
             土 10:00～17:00</div>
         </div>
-        <div class="bottom__btn flex"> <a href="https://fumibeauty.reserve.ne.jp/" class="cv-btns bg-rs" target="_blank"><span class="bg-icon">来院予約<br>
-          <span class="sm">RESERVATION</span></span></a> <a href="<?php echo home_url('/'); ?>contact" class="cv-btns bg-ct bg__n_ct"><span class="bg-icon">お問合わせ<br>
+        <div class="bottom__btn flex"> <a href="https://fumibeauty.reserve.ne.jp/" class="cv-btns bg-rs c_gray" target="_blank"><span class="bg-icon">来院予約<br>
+          <span class="sm">RESERVATION</span></span></a> <a href="<?php echo home_url('/'); ?>contact" class="cv-btns c_gray bg-ct bg__n_ct"><span class="bg-icon">お問合わせ<br>
           <span class="sm">CONTACT</span></span></a> </div>
       </div>
     </div>
@@ -130,7 +132,7 @@ Template Name: トップページ改修テスト閲覧用
         <div class="band cp tc ls2">beautiful aging</div>
         <p class="cach gd tc f-ryu">美しく年齢を重ね<br>
           輝き続けるために</p>
-        <div class="btn-wrap"> <a href="<?php echo home_url('/'); ?>doctor" class="btn bg__n_rs gosic">院長紹介</a> <a href="<?php echo home_url('/'); ?>concept" class="btn bg__n_ct gosic">当院について</a> </div>
+        <div class="btn-wrap"> <a href="<?php echo home_url('/'); ?>doctor" class="btn bg__n_rs c_gray gosic">院長紹介</a> <a href="<?php echo home_url('/'); ?>concept" class="btn bg__n_ct gosic c_gray">当院について</a> </div>
       </div>
       <p class="doctor-name cp tc"><span class="sm">fumi beauty clinic院長</span><br>
         先山 史</p>
@@ -213,7 +215,7 @@ Template Name: トップページ改修テスト閲覧用
             優良な品質の製剤のみを使用しております。
             患者様の幅広い悩みを解決するために、
             多種類の製剤を取り扱っています。</p>
-          <a href="<?php echo home_url('/'); ?>list" class="btn bg__n_ct">詳しく見る</a> </div>
+          <a href="<?php echo home_url('/'); ?>list" class="btn bg__n_ct c_gray">詳しく見る</a> </div>
       </div>
     </div>
   </section>
@@ -490,7 +492,7 @@ Template Name: トップページ改修テスト閲覧用
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?03311"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?033145"></script>
 <script>
     function initMap() {
         var latlng = new google.maps.LatLng( 34.707103, 135.495992 );

@@ -64,8 +64,8 @@ $(function () {
   var mySwiperfv = new Swiper('.fv-slide', {
     loop: true,
     effect: 'fade',
-    speed: 5000,
-    initialSlide: 5,
+    speed: 8000,
+    initialSlide: 0,
     slidesPerView: 1,
     paginationClickable: false,
     autoplayDisableOnInteraction: false,

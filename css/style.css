@@ -538,15 +538,15 @@ body.page {
 }
 
 .bg__n_rs {
-  background-color: #cea442;
+  background-color: #ebd7f5;
 }
 
 .bg__n_ct {
-  background-color: #c492dd !important;
+  background-color: #ddbcee !important;
 }
 
 .bg__n_line {
-  background-color: #b8f2d2;
+  background-color: #cea442;
 }
 
 .bg__cp02 {
@@ -975,7 +975,7 @@ body.page {
   padding-right: 0;
 }
 .site-header .header-inner .navi ul li a {
-  font-size: 1.237vw;
+  font-size: 16px;
 }
 .site-header .header-inner .top-cv-btn {
   -webkit-box-sizing: border-box;
@@ -1237,23 +1237,23 @@ body#front__re__test .top-cv-btn .cv-btns span {
   padding-top: 35px;
   line-height: 1.4;
   background: no-repeat 50% 0%/ 24px;
-  color: #fff;
+  color: #777777;
 }
 body#front__re__test .top-cv-btn .bg-rs {
-  background-color: #cea442;
+  background-color: #ebd7f5;
 }
 body#front__re__test .top-cv-btn .bg-rs span {
-  background-image: url("../img/common/icon_cal.png");
+  background-image: url("../img/common/icon_cal02.png");
 }
 body#front__re__test .top-cv-btn .bg-ct {
-  background-color: #c492dd;
+  background-color: #ddbcee;
 }
 body#front__re__test .top-cv-btn .bg-ct span {
   padding-top: 31px;
-  background-image: url("../img/common/icon_mail.png");
+  background-image: url("../img/common/icon_mail02.png");
 }
 body#front__re__test .top-cv-btn .bg-line {
-  background-color: #b8f2d2;
+  background-color: #cea442;
 }
 body#front__re__test .top-cv-btn .bg-line span {
   background-image: url("../img/common/icon_line02.png") !important;
@@ -1343,7 +1343,6 @@ body#front__re__test .site-header .header-inner .navi ul li:last-child {
   padding-right: 0;
 }
 body#front__re__test .site-header .header-inner .navi ul li a {
-  font-size: 2.8vmin;
   color: #777777;
 }
 body#front__re__test .site-header .header-inner .top-cv-btn {
@@ -1466,18 +1465,21 @@ body#front__re__test .fv .fv-slide .fv__slide-wrap.slide01 {
   background-image: url(../img/top/fv2_pc_re.jpg);
 }
 body#front__re__test .fv .fv-slide .fv__slide-wrap.slide02 {
-  background-image: url(../img/top/fv2_slide02.jpg);
+  background-image: url(../img/top/fv2_slide01.jpg);
 }
 body#front__re__test .fv .fv-slide .fv__slide-wrap.slide03 {
-  background-image: url(../img/top/fv2_slide03.jpg);
+  background-image: url(../img/top/fv2_slide02.jpg);
 }
 body#front__re__test .fv .fv-slide .fv__slide-wrap.slide04 {
-  background-image: url(../img/top/fv2_slide04.jpg);
+  background-image: url(../img/top/fv2_slide03.jpg);
 }
 body#front__re__test .fv .fv-slide .fv__slide-wrap.slide05 {
-  background-image: url(../img/top/fv2_slide05.jpg);
+  background-image: url(../img/top/fv2_slide04.jpg);
 }
 body#front__re__test .fv .fv-slide .fv__slide-wrap.slide06 {
+  background-image: url(../img/top/fv2_slide05.jpg);
+}
+body#front__re__test .fv .fv-slide .fv__slide-wrap.slide07 {
   background-image: url(../img/top/fv2_slide06.jpg);
 }
 
@@ -1508,7 +1510,7 @@ body#front__re__test .fv .fv-slide .fv__slide-wrap.slide06 {
 }
 .top__menu__area .bottom .menu-link li {
   width: 48%;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .top__menu__area .bottom .menu-link li a img {
   height: 120px;
@@ -1518,7 +1520,7 @@ body#front__re__test .fv .fv-slide .fv__slide-wrap.slide06 {
 
 .cv-wrap {
   width: 49%;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 20px;
 }
 .cv-wrap .top {
@@ -1528,33 +1530,33 @@ body#front__re__test .fv .fv-slide .fv__slide-wrap.slide06 {
           justify-content: flex-start;
 }
 .cv-wrap .top .tel {
-  margin: 0 3.2%;
-  font-size: 2.145vmax;
+  margin: 0 .8vw;
+  font-size: 38px;
 }
 .cv-wrap .top .sm {
-  font-size: 0.78vmax;
+  font-size: 0.7rem;
   letter-spacing: 0.00001em;
 }
 .cv-wrap .bottom__btn {
   padding: 0;
 }
 .cv-wrap .bottom__btn .cv-btns {
-  color: #fff;
+  color: #777777;
 }
 .cv-wrap .bottom__btn .cv-btns .sm {
   opacity: .5;
 }
 .cv-wrap .bottom__btn .bg-rs {
-  background-color: #cea442;
+  background-color: #ebd7f5;
 }
 .cv-wrap .bottom__btn .bg-rs .bg-icon {
-  background-image: url("../img/common/icon_cal.png");
+  background-image: url("../img/common/icon_cal02.png");
 }
 .cv-wrap .bottom__btn .bg-ct {
   background-color: #a64987;
 }
 .cv-wrap .bottom__btn .bg-ct .bg-icon {
-  background-image: url("../img/common/icon_mail.png");
+  background-image: url("../img/common/icon_mail02.png");
 }
 
 @media (max-width: 767px) {

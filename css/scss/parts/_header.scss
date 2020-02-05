@@ -47,7 +47,7 @@
                     }
 
                     a {
-                        font-size: 1.237vw;
+                        font-size: 16px;
                     }
                 }
             }
@@ -377,7 +377,9 @@ body#front__re__test {
                 padding-top: 35px;
                 line-height: 1.4;
                 background: no-repeat 50% 0%/ 24px;
-                color: #fff;
+
+                // color: #fff;
+                color: $gray;
             }
         }
 
@@ -385,7 +387,7 @@ body#front__re__test {
             background-color: $new_rs;
 
             span {
-                background-image: url("../img/common/icon_cal.png");
+                background-image: url("../img/common/icon_cal02.png");
             }
         }
 
@@ -394,12 +396,12 @@ body#front__re__test {
 
             span {
                 padding-top: 31px;
-                background-image: url("../img/common/icon_mail.png");
+                background-image: url("../img/common/icon_mail02.png");
             }
         }
 
         .bg-line {
-            background-color: #b8f2d2;
+            background-color: $new_line;
 
             span {
                 background-image: url("../img/common/icon_line02.png") !important;
@@ -507,7 +509,6 @@ body#front__re__test {
                         }
 
                         a {
-                            font-size: 2.8vmin;
                             color: $gray;
                         }
                     }
@@ -627,10 +628,14 @@ body#front__re__test {
 
                         .band {
                             border: 1px solid $gray;
+
+                            //border: 1px solid $cp;
                             background-color: transparent;
                             padding: 8px 18px;
                             font-size: 1.27rem;
                             display: inline-block;
+
+                            //color: $cp;
                             color: $gray;
 
                             //text-shadow: 0px 0px 11px #ffffff,0px 0px 12px #ffffff,0px 0px 25px #ffffff,1px 0px 33px #ffffff,0px 0px 41px #ffffff,0px 1px 43px #ffffff,0px 0px 50px #ffffff,0px 0px 3px #ffffff,0px 0px 4px #fff;
@@ -649,26 +654,30 @@ body#front__re__test {
 
             /*2枚目*/
             .fv__slide-wrap.slide02 {
-                background-image: url(../img/top/fv2_slide02.jpg);
+                background-image: url(../img/top/fv2_slide01.jpg);
             }
 
             /*3枚目*/
             .fv__slide-wrap.slide03 {
-                background-image: url(../img/top/fv2_slide03.jpg);
+                background-image: url(../img/top/fv2_slide02.jpg);
             }
 
             /*4枚目*/
             .fv__slide-wrap.slide04 {
-                background-image: url(../img/top/fv2_slide04.jpg);
+                background-image: url(../img/top/fv2_slide03.jpg);
             }
 
             /*5枚目*/
             .fv__slide-wrap.slide05 {
-                background-image: url(../img/top/fv2_slide05.jpg);
+                background-image: url(../img/top/fv2_slide04.jpg);
             }
 
             /*6枚目*/
             .fv__slide-wrap.slide06 {
+                background-image: url(../img/top/fv2_slide05.jpg);
+            }
+
+            .fv__slide-wrap.slide07 {
                 background-image: url(../img/top/fv2_slide06.jpg);
             }
         }
@@ -704,7 +713,7 @@ body#front__re__test {
 
             li {
                 width: 48%;
-                background-color: rgba(255, 255, 255, 0.8);
+                background-color: rgba(255, 255, 255, 0.5);
 
                 a {
                     img {
@@ -719,7 +728,7 @@ body#front__re__test {
 
 .cv-wrap {
     width: 49%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
 
     .top {
@@ -731,16 +740,16 @@ body#front__re__test {
         .left {}
 
         .tel {
-            margin: 0 3.2%;
+            margin: 0 .8vw;
 
             //font-size: 2.2rem;
-            font-size: 2.145vmax;
+            font-size: 38px;
         }
 
         .time {}
 
         .sm {
-            font-size: 0.78vmax;
+            font-size: 0.7rem;
             letter-spacing: 0.00001em;
         }
     }
@@ -749,7 +758,7 @@ body#front__re__test {
         padding: 0;
 
         .cv-btns {
-            color: #fff;
+            color: $gray;
 
             .sm {
                 opacity: .5;
@@ -760,7 +769,7 @@ body#front__re__test {
             background-color: $new_rs;
 
             .bg-icon {
-                background-image: url("../img/common/icon_cal.png");
+                background-image: url("../img/common/icon_cal02.png");
             }
         }
 
@@ -768,7 +777,7 @@ body#front__re__test {
             background-color: $cp;
 
             .bg-icon {
-                background-image: url("../img/common/icon_mail.png");
+                background-image: url("../img/common/icon_mail02.png");
             }
         }
     }
