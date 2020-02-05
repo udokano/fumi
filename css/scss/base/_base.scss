@@ -600,7 +600,7 @@ body.page {
 }
 
 .bg__n_rs {
-    background-color: $new_rs;
+    background-color: $new_rs !important;
 }
 
 .bg__n_ct {
@@ -611,12 +611,34 @@ body.page {
     background-color: $new_line;
 }
 
+.bg__sub__menu {
+    background-color: #E2D2E9 !important;
+}
+
 .bg__cp02 {
     background-color: $cp;
 }
 
+.bg__gray {
+    background-color: $gray !important;
+}
+
+.bc__gray {
+    border-color: $gray !important;
+}
+
 .c_gray {
-    color: $gray;
+    color: $gray !important;
+}
+
+.c_gray_line {
+    &::after {
+        border-color: $gray !important;
+    }
+}
+
+.c_gray_line02 {
+    border-color: $gray !important;
 }
 
 .c_gray_impo {

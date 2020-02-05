@@ -538,23 +538,43 @@ body.page {
 }
 
 .bg__n_rs {
-  background-color: #ebd7f5;
+  background-color: #E2D2E9 !important;
 }
 
 .bg__n_ct {
-  background-color: #ddbcee !important;
+  background-color: #DBD3E8 !important;
 }
 
 .bg__n_line {
-  background-color: #cea442;
+  background-color: #E8DCD3;
+}
+
+.bg__sub__menu {
+  background-color: #E2D2E9 !important;
 }
 
 .bg__cp02 {
   background-color: #a64987;
 }
 
+.bg__gray {
+  background-color: #777777 !important;
+}
+
+.bc__gray {
+  border-color: #777777 !important;
+}
+
 .c_gray {
-  color: #777777;
+  color: #777777 !important;
+}
+
+.c_gray_line::after {
+  border-color: #777777 !important;
+}
+
+.c_gray_line02 {
+  border-color: #777777 !important;
 }
 
 .c_gray_impo {
@@ -1240,20 +1260,20 @@ body#front__re__test .top-cv-btn .cv-btns span {
   color: #777777;
 }
 body#front__re__test .top-cv-btn .bg-rs {
-  background-color: #ebd7f5;
+  background-color: #E2D2E9;
 }
 body#front__re__test .top-cv-btn .bg-rs span {
   background-image: url("../img/common/icon_cal02.png");
 }
 body#front__re__test .top-cv-btn .bg-ct {
-  background-color: #ddbcee;
+  background-color: #DBD3E8;
 }
 body#front__re__test .top-cv-btn .bg-ct span {
   padding-top: 31px;
   background-image: url("../img/common/icon_mail02.png");
 }
 body#front__re__test .top-cv-btn .bg-line {
-  background-color: #cea442;
+  background-color: #E8DCD3;
 }
 body#front__re__test .top-cv-btn .bg-line span {
   background-image: url("../img/common/icon_line02.png") !important;
@@ -1462,25 +1482,27 @@ body#front__re__test .fv .fv-slide .fv-slider-content .fv__slide-wrap .slide01__
   color: #777777;
 }
 body#front__re__test .fv .fv-slide .fv__slide-wrap.slide01 {
-  background-image: url(../img/top/fv2_pc_re.jpg);
+  background: #f8f4f9;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f8f4f9), to(white));
+  background: linear-gradient(180deg, #f8f4f9 0%, white 100%);
 }
 body#front__re__test .fv .fv-slide .fv__slide-wrap.slide02 {
-  background-image: url(../img/top/fv2_slide01.jpg);
+  background-image: url(../img/top/fv2_slide01.jpg?0206);
 }
 body#front__re__test .fv .fv-slide .fv__slide-wrap.slide03 {
-  background-image: url(../img/top/fv2_slide02.jpg);
+  background-image: url(../img/top/fv2_slide02.jpg?0206);
 }
 body#front__re__test .fv .fv-slide .fv__slide-wrap.slide04 {
-  background-image: url(../img/top/fv2_slide03.jpg);
+  background-image: url(../img/top/fv2_slide03.jpg?0206);
 }
 body#front__re__test .fv .fv-slide .fv__slide-wrap.slide05 {
-  background-image: url(../img/top/fv2_slide04.jpg);
+  background-image: url(../img/top/fv2_slide04.jpg?0206);
 }
 body#front__re__test .fv .fv-slide .fv__slide-wrap.slide06 {
-  background-image: url(../img/top/fv2_slide05.jpg);
+  background-image: url(../img/top/fv2_slide05.jpg?0206);
 }
 body#front__re__test .fv .fv-slide .fv__slide-wrap.slide07 {
-  background-image: url(../img/top/fv2_slide06.jpg);
+  background-image: url(../img/top/fv2_slide06.jpg?0206);
 }
 
 .scroll-down {
@@ -1547,7 +1569,7 @@ body#front__re__test .fv .fv-slide .fv__slide-wrap.slide07 {
   opacity: .5;
 }
 .cv-wrap .bottom__btn .bg-rs {
-  background-color: #ebd7f5;
+  background-color: #E2D2E9;
 }
 .cv-wrap .bottom__btn .bg-rs .bg-icon {
   background-image: url("../img/common/icon_cal02.png");
@@ -1687,6 +1709,23 @@ body#front__re__test .fv .fv-slide .fv__slide-wrap.slide07 {
   }
   .top__menu__area .bottom .cv-wrap .cv-btns span.sm {
     font-size: .7rem;
+  }
+}
+/*
+ハンバーガー周り、フッターメニュー追記
+-----------------------------------*/
+@media (max-width: 767px) {
+  body#front__re__test .fix-bottom ul li span {
+    background-image: url(../img/common/icon_bottom01_re.png);
+  }
+  body#front__re__test .fix-bottom ul li:nth-of-type(2) a {
+    background-image: url(../img/common/icon_bottom02_re.png);
+  }
+  body#front__re__test .fix-bottom ul li:nth-of-type(3) a {
+    background-image: url(../img/common/icon_bottom03_re.png);
+  }
+  body#front__re__test .fix-bottom.open ul li span {
+    background-image: url(../img/common/icon_close_re.svg);
   }
 }
 /*TOP Footer */

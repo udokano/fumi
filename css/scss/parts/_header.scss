@@ -649,36 +649,38 @@ body#front__re__test {
 
             /*1枚目*/
             .fv__slide-wrap.slide01 {
-                background-image: url(../img/top/fv2_pc_re.jpg);
+                //background-image: url(../img/top/fv2_pc_re.jpg?020785);
+                background: rgb(248, 244, 249);
+                background: linear-gradient(180deg, rgba(248, 244, 249, 1) 0%, rgba(255, 255, 255, 1) 100%);
             }
 
             /*2枚目*/
             .fv__slide-wrap.slide02 {
-                background-image: url(../img/top/fv2_slide01.jpg);
+                background-image: url(../img/top/fv2_slide01.jpg?0206);
             }
 
             /*3枚目*/
             .fv__slide-wrap.slide03 {
-                background-image: url(../img/top/fv2_slide02.jpg);
+                background-image: url(../img/top/fv2_slide02.jpg?0206);
             }
 
             /*4枚目*/
             .fv__slide-wrap.slide04 {
-                background-image: url(../img/top/fv2_slide03.jpg);
+                background-image: url(../img/top/fv2_slide03.jpg?0206);
             }
 
             /*5枚目*/
             .fv__slide-wrap.slide05 {
-                background-image: url(../img/top/fv2_slide04.jpg);
+                background-image: url(../img/top/fv2_slide04.jpg?0206);
             }
 
             /*6枚目*/
             .fv__slide-wrap.slide06 {
-                background-image: url(../img/top/fv2_slide05.jpg);
+                background-image: url(../img/top/fv2_slide05.jpg?0206);
             }
 
             .fv__slide-wrap.slide07 {
-                background-image: url(../img/top/fv2_slide06.jpg);
+                background-image: url(../img/top/fv2_slide06.jpg?0206);
             }
         }
     }
@@ -956,6 +958,46 @@ body#front__re__test {
 
                     span.sm {
                         font-size: .7rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*
+ハンバーガー周り、フッターメニュー追記
+-----------------------------------*/
+
+@media (max-width: 767px) {
+    body#front__re__test {
+        .fix-bottom {
+            ul {
+                li {
+                    span {
+                        background-image: url(../img/common/icon_bottom01_re.png);
+                    }
+
+                    &:nth-of-type(2) {
+                        a {
+                            background-image: url(../img/common/icon_bottom02_re.png);
+                        }
+                    }
+
+                    &:nth-of-type(3) {
+                        a {
+                            background-image: url(../img/common/icon_bottom03_re.png);
+                        }
+                    }
+                }
+            }
+        }
+
+        .fix-bottom.open {
+            ul {
+                li {
+                    span {
+                        background-image: url(../img/common/icon_close_re.svg);
                     }
                 }
             }
