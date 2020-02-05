@@ -11,7 +11,7 @@ Template Name: アクセス
 <section class="access-info bg-cp">
 <div class="inner">
 <div class="cont flex">
-  <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/access/clinic_thumbjpg.jpg" alt="院内写真"></div>
+  <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/access/clinic_thumbjpg.jpg?0130" alt="院内写真"></div>
   <div class="text box-size gosic">
     <h2 class="gd">fumi beauty clinic<br>
       <span class="sm"> (ふみビューティクリニック梅田)</span> </h2>

@@ -26,6 +26,7 @@ Template Name: ランディングページヒアルロン酸 リスティング�
   gtag('config', 'AW-710940797');
 </script>
 <?php wp_head(); ?>
+  
 </head>
 <body id="lp1" class="lps">
 <div class="wrapper">

@@ -897,6 +897,51 @@
     }
 }
 
+.banner-campaign {
+    h2 {
+        margin-bottom: 25px;
+    }
+
+    .inner02 {
+        justify-content: center;
+        margin-bottom: 35px;
+
+        .bnr-cam {
+            width: 33%;
+
+            &:nth-of-type(2) {
+                margin: 0 0.4%;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-campaign {
+      
+        h2 {
+            margin-bottom: 25px;
+        }
+
+        .inner02 {
+            display: block;
+
+            .bnr-cam {
+                width: 100%;
+                margin-bottom: 0.5rem;
+
+                &:nth-of-type(2) {
+                    margin: 0 0 0.5rem;
+                }
+
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
 .map {
     .inner {
         width: 100%;

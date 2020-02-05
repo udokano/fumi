@@ -160,13 +160,14 @@ html {
 body {
     line-height: 1.5;
     color: $cg;
-    font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',serif;
 }
 
-.wrappre {
+.wrapper {
     position: relative;
     width: 100%;
-    min-width: 1160px;
+
+    //min-width: 1100px;
 }
 
 section {
@@ -256,6 +257,14 @@ section {
     }
 }
 
+.cv-btns.bg-line {
+    background-color: #59D037;
+
+    .bg-icon {
+        background-image: url("../img/common/icon_line.png");
+    }
+}
+
 .sm {
     font-size: .6rem;
     letter-spacing: 1px;
@@ -277,6 +286,7 @@ section {
         span {
             font-size: .9rem;
             padding-top: 37px;
+            line-height: 1.4;
             background: no-repeat 50% 0%/ 24px;
             color: #fff;
         }
@@ -294,6 +304,14 @@ section {
             background-image: url("../img/common/icon_mail.png");
         }
     }
+
+    .bg-line {
+        span {
+            background-image: url("../img/common/icon_line.png") !important;
+            background-position: 11% 1% !important;
+            font-size: .7rem;
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -303,27 +321,42 @@ section {
         .cv-btns {
             text-align: center;
             width: 66px;
-            padding: 35px 0 10px;
+            height: 66px;
+            padding: 0;
             display: inline-block;
+            box-sizing: border-box;
 
             span {
                 font-size: .8rem;
-                padding-top: 28px;
                 background: no-repeat 50% 0%/ 16px;
                 color: #fff;
+                display: inline-block;
             }
         }
 
         .bg-rs {
             span {
                 background-image: url("../img/common/icon_cal.png");
+                padding-top: 21px;
+                margin-top: 13px;
             }
         }
 
         .bg-ct {
             span {
-                padding-top: 25px;
+                padding-top: 19px;
+                margin-top: 15px;
                 background-image: url("../img/common/icon_mail.png");
+            }
+        }
+
+        .bg-line {
+            span {
+                background-position: 50% 1% !important;
+                padding-top: 21px;
+                margin-top: 9px;
+                font-size: .8rem;
+                line-height: 1.3;
             }
         }
     }
@@ -499,12 +532,17 @@ body.page {
     .inner-box {
         width: 93%;
         max-width: 1400px;
-        min-width: 1200px;
+        min-width: 1000px;
 
         @include box-center;
     }
 
     .inner {
+        max-width: 1360px;
+        margin: auto;
+    }
+
+    .inner02 {
         max-width: 1360px;
         margin: auto;
     }
@@ -559,6 +597,30 @@ body.page {
 .bg-grade {
     background: rgb(2, 0, 36);
     background: linear-gradient(143deg, rgba(2, 0, 36, 1) 0%, rgba(249, 244, 244, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.bg__n_rs {
+    background-color: $new_rs;
+}
+
+.bg__n_ct {
+    background-color: $new_ct !important;
+}
+
+.bg__n_line {
+    background-color: $new_line;
+}
+
+.bg__cp02 {
+    background-color: $cp;
+}
+
+.c_gray {
+    color: $gray;
+}
+
+.c_gray_impo {
+    color: $gray !important;
 }
 
 .cp {
