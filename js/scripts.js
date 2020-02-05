@@ -68,12 +68,12 @@ $(function () {
     initialSlide: 5,
     slidesPerView: 1,
     paginationClickable: false,
-     autoplayDisableOnInteraction: false,
+    autoplayDisableOnInteraction: false,
     autoplay: {
       delay: 9000,
-        autoplayDisableOnInteraction: false
+      autoplayDisableOnInteraction: false
     },
- 
+
 
   })
 

@@ -604,11 +604,15 @@ body.page {
 }
 
 .bg__n_ct {
-    background-color: $new_ct;
+    background-color: $new_ct !important;
 }
 
 .bg__n_line {
     background-color: $new_line;
+}
+
+.bg__cp02 {
+    background-color: $cp;
 }
 
 .c_gray {
