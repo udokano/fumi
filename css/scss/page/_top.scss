@@ -737,6 +737,7 @@
 
                     &:nth-of-type(1)::after {
                         right: -39px;
+                        border-color: transparent transparent transparent $gray02;
                     }
                 }
             }
@@ -918,7 +919,6 @@
 
 @media (max-width: 767px) {
     .banner-campaign {
-      
         h2 {
             margin-bottom: 25px;
         }

@@ -739,11 +739,11 @@ body.page {
 }
 
 .swiper-button-prev {
-    background: url("../img/common/arrow_02.svg") no-repeat 50% 50% / 20px;
+    background: url("../img/common/arrow_02_re.svg?1455") no-repeat 50% 50% / 20px;
 }
 
 .swiper-button-next {
-    background: url("../img/common/arrow_01.svg") no-repeat 50% 50% / 20px;
+    background: url("../img/common/arrow_01_re.svg?015852") no-repeat 50% 50% / 20px;
 }
 
 .area-bgs {
@@ -792,7 +792,8 @@ body.page {
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background-color: $cp;
+    //background-color: $cp;
+    background-color: $gray02;
 }
 
 @media (max-width: 767px) {
@@ -838,14 +839,6 @@ body.page {
 
     .swiper3.swiper-container-horizontal .swiper-pagination {
         bottom: -20px;
-    }
-
-    .swiper-pagination-bullet {
-        border-radius: 0;
-    }
-
-    .swiper-pagination-bullet.swiper-pagination-bullet-active {
-        background-color: $cp;
     }
 }
 

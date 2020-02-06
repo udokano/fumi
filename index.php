@@ -7,7 +7,7 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?0115">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?0201458">
 <script>
   (function(d) {
     var config = {
@@ -24,20 +24,20 @@
 <div class="wrapper">
   <header class="site-header front">
     <div class="header-inner flex al-cent">
-      <div class="logo tc"><a href="<?php echo home_url('/'); ?>"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo.png" alt="FMUI BEAUTY CLINIC"></a></div>
+      <div class="logo tc"><a href="<?php echo home_url('/'); ?>"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo_re.png?02085" alt="FMUI BEAUTY CLINIC"></a></div>
       <nav class="navi pc-dis">
         <ul>
           <li><a href="<?php echo home_url('/'); ?>concept">当院について</a></li>
           <li class="navi-parent"><a>施術・料金</a>
-            <ul class="nav-child">
-              <li><a href="<?php echo home_url('/'); ?>siwa">しわ治療</a></li>
-              <li><a href="<?php echo home_url('/'); ?>tarumi">たるみ治療</a></li>
-              <li><a href="<?php echo home_url('/'); ?>kogao">小顔治療</a></li>
-              <li><a href="<?php echo home_url('/'); ?>nose-lift">鼻の糸</a></li>
-              <li><a href="<?php echo home_url('/'); ?>keiseigeka">形成外科治療</a></li>
-              <li><a href="<?php echo home_url('/'); ?>medikaru">美肌治療</a></li>
-              <li><a href="<?php echo home_url('/'); ?>cosmetics">ドクターズコスメ</a></li>
-              <li><a href="<?php echo home_url('/'); ?>shoshin">初診料・再診料</a></li>
+            <ul class="nav-child bg__sub__menu">
+              <li><a href="<?php echo home_url('/'); ?>siwa" class="c_gray">しわ治療</a></li>
+              <li><a href="<?php echo home_url('/'); ?>tarumi" class="c_gray">たるみ治療</a></li>
+              <li><a href="<?php echo home_url('/'); ?>kogao" class="c_gray">小顔治療</a></li>
+              <li><a href="<?php echo home_url('/'); ?>nose-lift" class="c_gray">鼻の糸</a></li>
+              <li><a href="<?php echo home_url('/'); ?>keiseigeka" class="c_gray">形成外科治療</a></li>
+              <li><a href="<?php echo home_url('/'); ?>medikaru" class="c_gray">美肌治療</a></li>
+              <li><a href="<?php echo home_url('/'); ?>cosmetics" class="c_gray">ドクターズコスメ</a></li>
+              <li><a href="<?php echo home_url('/'); ?>shoshin" class="c_gray">初診料・再診料</a></li>
             </ul>
           </li>
           <li><a href="<?php echo home_url('/'); ?>access">アクセス</a></li>
@@ -45,25 +45,54 @@
           <li><a href="<?php echo home_url('/'); ?>recruit">採用情報</a></li>
         </ul>
       </nav>
-      <div class="top-cv-btn">
-          <a class="bg-rs cv-btns" href="https://fumibeauty.reserve.ne.jp/" target="_blank"><span>来院予約</span></a>
-          <a class="bg-ct cv-btns" href="<?php echo home_url('/'); ?>contact"><span>お問合わせ</span></a>
-          <a class="bg-line cv-btns" href="https://line.me/R/ti/p/%40304ngjfp" target="_blank"><span>LINEで<br>
-        簡単予約</span></a> 
-        </div>
+      <div class="top-cv-btn"> <a class="bg-rs cv-btns" href="https://fumibeauty.reserve.ne.jp/" target="_blank"><span>来院予約</span></a> <a class="bg-ct cv-btns" href="<?php echo home_url('/'); ?>contact"><span>お問合わせ</span></a> <a class="bg-line cv-btns" href="https://line.me/R/ti/p/%40304ngjfp" target="_blank"><span>LINEで<br>
+        簡単予約</span></a> </div>
     </div>
   </header>
-  <?php if (wp_is_mobile()) : ?>
-  <div class="fv">
-    <div class="fv-top-wrap">
-      <div class="top">
-        <div class="logos"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_logo.png" alt="FMUI BEAUTY CLINIC">
-          <div class="band cp tc ls2">注入＆スレッド治療専門クリニック</div>
-        </div>
-        <h1><img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_cach_sp.png" alt="洗練された美容技術であなたの美しさを引き出します。"></h1>
+  <div class="fv" id="fv-slide">
+    <div class="fv__items">
+      <div class="logos"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_logo_re.png?02054" alt="FMUI BEAUTY CLINIC">
+
+
       </div>
+      <!--logos-->
+
     </div>
-    <div class="box-wrap">
+    <div class="swiper-container fv-slide" >
+      <div class="swiper-wrapper fv-slider-content">
+
+        <div class="fv__slide-wrap swiper-slide slide01 swiper-no-swipng"　data-swiper-autoplay="8000">
+          <div class="slide01__texts">
+            <div class="band cp tc ls2">注入＆スレッド治療専門クリニック</div> <!--band END-->
+            <h1> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv2_cach_re.png?0204" alt="洗練された美容技術であなたの美しさを引き出します。" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_cach_sp_re.png?0304" alt="洗練された美容技術であなたの美しさを引き出します" class="sp"> </h1>
+          </div>
+        </div>
+
+        <!-- fv__slide-wrap slide01 END -->
+        <div class="fv__slide-wrap swiper-slide slide02 swiper-no-swipng"> </div>
+        <!-- fv__slide-wrap slide02 END -->
+        <div class="fv__slide-wrap swiper-slide slide03 swiper-no-swipng"> </div>
+        <!-- fv__slide-wrap slide03 END -->
+        <div class="fv__slide-wrap swiper-slide slide04 swiper-no-swipng"> </div>
+        <!-- fv__slide-wrap slide04 END -->
+        <div class="fv__slide-wrap swiper-slide slide05 swiper-no-swipng"> </div>
+        <!-- fv__slide-wrap slide05 END -->
+        <div class="fv__slide-wrap swiper-slide slide06 swiper-no-swipng"> </div>
+        <!-- fv__slide-wrap slide06 END -->
+         <div class="fv__slide-wrap swiper-slide slide07 swiper-no-swipng"> </div>
+        <!-- fv__slide-wrap slide07 END -->
+
+      </div>
+      <!-- swiper-wrapper END-->
+    </div>
+    <!-- swiper-container END-->
+    <a href="#contents1" class="bounce scroll-down"><img src="<?php echo get_template_directory_uri(); ?>/img/common/scrool_down.svg" alt="scroll-down"></a> </div>
+  <!-- fv END-->
+
+  <!--FV END-->
+
+  <div class="top__menu__area">
+    <div class="bottom inner-box flex">
       <ul class="menu-link flex">
         <li class="box-size"> <a href="<?php echo home_url('/'); ?>siwa"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
           <p class="cp tc ls1">注入オーダーメイド<br>
@@ -75,76 +104,32 @@
           </a> </li>
       </ul>
       <div class="cv-wrap box-size">
-        <div class="top cp">
-          <div class="tc txt">お電話によるお問い合わせ</div>
-          <div class="midle al-cent">
-            <div class="tel"><a href="tel:0663722323" class="cp">06-6372-2323</a></div>
-            <div class="time sm">平日 10:00～18:00  土 10:00～17:00</div>
-          </div>
+        <div class="top flex cp al-cent">
+          <div class="left sm">お電話による<br class="pc">お問い合わせ</div>
+          <div class="tel"><a href="tel:0663722323" class="cp">06-6372-2323</a></div>
+          <div class="time sm"> 平日 10:00～18:00<br>
+            土 10:00～17:00</div>
         </div>
-        <div class="bottom flex"> <a href="https://fumibeauty.reserve.ne.jp/" class="cv-btns bg-rs" target="_blank"><span class="bg-icon">来院予約<br>
-          <span class="sm">RESERVATION</span></span></a> <a href="<?php echo home_url('/'); ?>contact" class="cv-btns bg-ct"><span class="bg-icon">お問合わせ<br>
+        <div class="bottom__btn flex"> <a href="https://fumibeauty.reserve.ne.jp/" class="cv-btns bg-rs c_gray" target="_blank"><span class="bg-icon">来院予約<br>
+          <span class="sm">RESERVATION</span></span></a> <a href="<?php echo home_url('/'); ?>contact" class="cv-btns c_gray bg-ct bg__n_ct"><span class="bg-icon">お問合わせ<br>
           <span class="sm">CONTACT</span></span></a> </div>
       </div>
     </div>
+    <!--BOTTOM END-->
+
   </div>
-  <!--FV END-->
-  
-  <?php else: ?>
-  <div class="fv">
-    <div class="inner-box">
-      <div class="fv-top-wrap">
-        <div class="top pc-dis">
-          <div class="logos pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_logo.png" alt="FMUI BEAUTY CLINIC">
-            <div class="band cp tc ls2">注入＆スレッド治療専門クリニック</div>
-          </div>
-          <h1><img src="<?php echo get_template_directory_uri(); ?>/img/top/fv2_cach.png" alt="洗練された美容技術であなたの美しさを引き出します。"></h1>
-        </div>
-      </div>
-      <!--FV-top-wrap END-->
-      <div class="bottom flex">
-        <ul class="menu-link flex">
-          <li class="box-size"> <a href="<?php echo home_url('/'); ?>siwa"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
-            <p class="cp tc ls1">注入オーダーメイド<br>
-              <span class="gd">ORDER MADE</span></p>
-            </a> </li>
-          <li class="box-size"> <a href="<?php echo home_url('/'); ?>tarumi#area2"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02.jpg" alt="サムネイル">
-            <p class="cp tc ls1">スレッドリフト<br>
-              <span class="gd">THREAD LIFT</span></p>
-            </a> </li>
-        </ul>
-        <div class="cv-wrap box-size">
-          <div class="top flex cp al-cent">
-            <div class="left sm">お電話による<br>
-              お問い合わせ</div>
-            <div class="tel"><a href="tel:0663722323" class="cp">06-6372-2323</a></div>
-            <div class="time sm"> 平日 10:00～18:00<br>
-              土 10:00～17:00</div>
-          </div>
-          <div class="bottom flex"> <a href="https://fumibeauty.reserve.ne.jp/" class="cv-btns bg-rs" target="_blank"><span class="bg-icon">来院予約<br>
-            <span class="sm">RESERVATION</span></span></a> <a href="<?php echo home_url('/'); ?>contact" class="cv-btns bg-ct"><span class="bg-icon">お問合わせ<br>
-            <span class="sm">CONTACT</span></span></a> </div>
-        </div>
-      </div>
-      <!--BOTTOM END--> 
-      
-    </div>
-    <!--INNER-BOX END--> 
-    
-    <a href="#contents1" class="bounce scroll-down"><img src="<?php echo get_template_directory_uri(); ?>/img/common/scrool_down.svg" alt="scroll-down"></a> </div>
-  <!--FV END-->
-  
-  <?php endif; ?>
+  <!--top__menu__area END-->
+
   <section class="doctor mb0 area-bgs" id="bg4">
     <div class="inner cf">
       <div class="text">
-        <h2 class="cp tc">CONCEPT <span class="sm">ご挨拶</span></h2>
+        <h2 class="cp tc c_gray">CONCEPT <span class="sm">ご挨拶</span></h2>
         <div class="band cp tc ls2">beautiful aging</div>
-        <p class="cach gd tc f-ryu">美しく年齢を重ね<br>
+        <p class="cach gd c_gray tc f-ryu">美しく年齢を重ね<br>
           輝き続けるために</p>
-        <div class="btn-wrap"> <a href="<?php echo home_url('/'); ?>doctor" class="btn bg-cg">院長紹介</a> <a href="<?php echo home_url('/'); ?>concept" class="btn">当院について</a> </div>
+        <div class="btn-wrap"> <a href="<?php echo home_url('/'); ?>doctor" class="btn bg__n_rs c_gray gosic">院長紹介</a> <a href="<?php echo home_url('/'); ?>concept" class="btn bg__n_ct gosic c_gray">当院について</a> </div>
       </div>
-      <p class="doctor-name cp tc"><span class="sm">fumi beauty clinic院長</span><br>
+      <p class="doctor-name cp c_gray tc"><span class="sm">fumi beauty clinic院長</span><br>
         先山 史</p>
     </div>
   </section>
@@ -178,15 +163,15 @@
   </div>
   <?php else: ?>
   <?php endif; ?>
-  
+
   <!--banner-area END-->
   <?php endif; ?>
   <section class="infusion cp cf mb0 bg-areas" id="bg2">
     <div class="inner-box">
       <div class="top flex">
-        <div class="text tc cp box-size">
+        <div class="text tc cp c_gray box-size">
           <h3>注入治療</h3>
-          <span class="sm gd">Infusion therapy</span>
+          <span class="sm c_gray gd">Infusion therapy</span>
           <p class="pc gosic tc">当院の主な注入治療部位です。<br>
             ヒアルロン酸やボトックスを「どこに」「どのくらい」<br>
             注入するかで、効果・効能が大きく効果が<br>
@@ -214,9 +199,9 @@
             </div>
           </div>
         </div>
-        <div class="text tc cp box-size">
+        <div class="text tc cp c_gray box-size">
           <h3>製剤一覧</h3>
-          <span class="sm gd">FORMULATION</span>
+          <span class="sm gd c_gray">FORMULATION</span>
           <p class="pc gosic tc">当院の厳格な審査を通過した、<br>
             優良な品質の製剤のみを使用しております。<br>
             患者様の幅広い悩みを解決するために、<br>
@@ -225,12 +210,12 @@
             優良な品質の製剤のみを使用しております。
             患者様の幅広い悩みを解決するために、
             多種類の製剤を取り扱っています。</p>
-          <a href="<?php echo home_url('/'); ?>list" class="btn">詳しく見る</a> </div>
+          <a href="<?php echo home_url('/'); ?>list" class="btn bg__n_rs c_gray">詳しく見る</a> </div>
       </div>
     </div>
   </section>
   <section class="menu area-bgs mb0" id="bg3">
-    <h2 class="tc cp">MENU</h2>
+    <h2 class="tc cp c_gray">MENU</h2>
     <ul class="munu-link flex">
       <li class="box-size hg-row"> <a href="<?php echo home_url('/'); ?>tarumi">
         <h3 class="tc">たるみ治療</h3>
@@ -292,13 +277,13 @@
   </div>
   <?php if (have_rows('bnr_cam', 28)): ?>
   <div class="banner-campaign">
-    <h2 class="tc">スタッフのオススメ</h2>
-    <div class="inner flex">
+    <h2 class="tc c_gray">スタッフのオススメ</h2>
+    <div class="inner02 flex">
       <?php while (have_rows('bnr_cam', 28)) : the_row(); ?>
       <div class="bnr-cam"> <a href="<?php the_sub_field('cam_link', 28);?>" target="_blank"><img src="<?php the_sub_field('cam_img', 28);?>" alt="月別キャンペーンバナー"></a> </div>
       <?php endwhile; ?>
     </div>
-    <!-- inner END --> 
+    <!-- inner END -->
   </div>
   <!-- banner-campaign END -->
   <?php else: ?>
@@ -306,12 +291,12 @@
   <section class="slides">
     <div class="inner flex">
       <div class="left-slide slide-area">
-        <h2 class="cp tc">よくある質問</h2>
-        <span class="sm tc gd mb30">Q&A</span>
+        <h2 class="cp tc c_gray">よくある質問</h2>
+        <span class="sm tc gd c_gray mb30">Q&A</span>
         <div class="swiper-container slide-p2 swiper2 cont">
-          <div class="swiper-wrapper gosic"> 
+          <div class="swiper-wrapper gosic">
             <!-- Slides -->
-            
+
             <?php
             $args = array(
               'post_type' => 'faq',
@@ -319,15 +304,15 @@
               'orderby' => 'rand',
               'order' => 'DESC',
             );
-            $the_query = new WP_Query( $args );
-            while ( $the_query->have_posts() ): $the_query->the_post();
+            $the_query = new WP_Query($args);
+            while ($the_query->have_posts()): $the_query->the_post();
             ?>
-            <div class="qas gd box-size swiper-slide">
-              <h3 class="cat cw tc">
+            <div class="qas gd box-size swiper-slide c_gray bc__gray">
+              <h3 class="cat cw tc bg__gray">
                 <?php //所属タクソノミー表示
-                $terms = wp_get_object_terms( $post->ID, 'faq_kind' );
-                foreach ( $terms as $term ) {
-                  echo $term->name;
+                $terms = wp_get_object_terms($post->ID, 'faq_kind');
+                foreach ($terms as $term) {
+                    echo $term->name;
                 }
                 ?>
               </h3>
@@ -347,11 +332,11 @@
         </div>
       </div>
       <!--left slides END-->
-      
+
       <?php if (have_rows('top', 155)): ?>
       <div class="right-slide slide-area">
-        <h2 class="cp tc">症例写真</h2>
-        <span class="sm tc gd mb30">SYMPTOM</span>
+        <h2 class="cp tc c_gray">症例写真</h2>
+        <span class="sm tc gd c_gray mb30">SYMPTOM</span>
         <div class="swiper-container slide-p2 swiper3 cont">
           <div class="swiper-wrapper">
             <?php while (have_rows('top', 155)) : the_row(); ?>
@@ -390,16 +375,15 @@
         </div>
       </div>
       <!--right slides END-->
-      
+
       <?php else: ?>
       <?php endif; ?>
     </div>
   </section>
   <!--SLIDES END-->
-  
+
   <section class="sns">
-    <h3 class="tc">Twitterやブログやインスタグラム・ラインオフィシャルアカウントにて<br class="pc">
-      お得な情報を配信しています</h3>
+    <h3 class="tc">Twitterやブログやインスタグラム・ラインオフィシャルアカウントにて<br class="pc">お得な情報を配信しています</h3>
     <div class="inner flex">
       <div class="bnr"> <a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/blog_bnr.jpg?0910" alt="blog_bnr"> </a> </div>
       <div class="bnr"><a href="https://line.me/R/ti/p/%40304ngjfp" target="_blank">
@@ -422,7 +406,7 @@
       <div class="bnr"> <a href="https://twitter.com/@_fumibeauty_" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/twitter_bnr.jpg?0910" alt="twitter_bnr"> </a> </div>
     </div>
     </div>
-    <!-- ./inner --> 
+    <!-- ./inner -->
   </section>
   <section class="card">
     <div class="inner">
@@ -442,68 +426,68 @@
     <div class="inner" id="map"></div>
   </section>
   <!--MAP END-->
-  
+
   <footer>
     <div class="inner flex">
       <nav class="navi pc-dis">
-        <ul class="flex gosic">
-          <li><a href="<?php echo home_url('/'); ?>concept">当院について</a></li>
-          <li><a href="#bg3">施術・料金</a></li>
-          <li><a href="<?php echo home_url('/'); ?>access">アクセス</a></li>
-          <li><a href="<?php echo home_url('/'); ?>doctor">ドクター紹介</a></li>
-          <li><a href="<?php echo home_url('/'); ?>recruit">採用情報</a></li>
-          <li><a href="https://fumibeauty.reserve.ne.jp/" target="_blank">来院予約</a></li>
-          <li><a href="<?php echo home_url('/'); ?>contact">お問合わせ</a></li>
+        <ul class="flex gosic c_gray">
+          <li><a href="<?php echo home_url('/'); ?>concept" class="c_gray">当院について</a></li>
+          <li><a href="#bg3" class="c_gray">施術・料金</a></li>
+          <li><a href="<?php echo home_url('/'); ?>access" class="c_gray">アクセス</a></li>
+          <li><a href="<?php echo home_url('/'); ?>doctor" class="c_gray">ドクター紹介</a></li>
+          <li><a href="<?php echo home_url('/'); ?>recruit" class="c_gray">採用情報</a></li>
+          <li><a href="https://fumibeauty.reserve.ne.jp/" class="c_gray" target="_blank">来院予約</a></li>
+          <li><a href="<?php echo home_url('/'); ?>contact" class="c_gray">お問合わせ</a></li>
         </ul>
       </nav>
-      <p class="copy cp"><small>fumi beauty cinic(ふみビューティクリニック梅田)美容皮膚科・形成外科・皮膚科<br>
+      <p class="copy cp c_gray"><small>fumi beauty cinic(ふみビューティクリニック梅田)美容皮膚科・形成外科・皮膚科<br>
         Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
     </div>
   </footer>
   <?php if (wp_is_mobile()) : ?>
-  <nav class="hambargar">
+  <nav class="hambargar bg__n_rs">
     <ul>
-      <li class="menu-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/common/menu_logo.png" alt="menu-logo"></li>
-      <li><a href="<?php echo home_url('/'); ?>concept">当院について</a></li>
-      <li class="parent"><a href="#" id="ac-txt">施術・料金</a>
+      <li class="menu-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_logo_re.png?543201" alt="menu-logo"></li>
+      <li><a href="<?php echo home_url('/'); ?>concept" class="c_gray">当院について</a></li>
+      <li class="parent"><a href="#" id="ac-txt" class="c_gray c_gray_line">施術・料金</a>
         <ul class="child" id="ac">
-          <li><a href="<?php echo home_url('/'); ?>tarumi">たるみ治療</a></li>
-          <li><a href="<?php echo home_url('/'); ?>siwa">しわ治療</a></li>
-          <li><a href="<?php echo home_url('/'); ?>kogao">小顔治療</a></li>
-          <li><a href="<?php echo home_url('/'); ?>nose-lift">鼻の糸</a></li>
-          <li><a href="<?php echo home_url('/'); ?>keiseigeka">形成外科治療</a></li>
-          <li><a href="<?php echo home_url('/'); ?>medikaru">美肌治療</a></li>
-          <li class="mb0"><a href="<?php echo home_url('/'); ?>cosmetics">ドクターズコスメ</a></li>
-          <li class="mb0"><a href="<?php echo home_url('/'); ?>shoshin">初診料・再診料</a></li>
+          <li><a href="<?php echo home_url('/'); ?>tarumi" class="c_gray">たるみ治療</a></li>
+          <li><a href="<?php echo home_url('/'); ?>siwa" class="c_gray">しわ治療</a></li>
+          <li><a href="<?php echo home_url('/'); ?>kogao" class="c_gray">小顔治療</a></li>
+          <li><a href="<?php echo home_url('/'); ?>nose-lift" class="c_gray">鼻の糸</a></li>
+          <li><a href="<?php echo home_url('/'); ?>keiseigeka" class="c_gray">形成外科治療</a></li>
+          <li><a href="<?php echo home_url('/'); ?>medikaru" class="c_gray">美肌治療</a></li>
+          <li class="mb0"><a href="<?php echo home_url('/'); ?>cosmetics" class="c_gray">ドクターズコスメ</a></li>
+          <li class="mb0"><a href="<?php echo home_url('/'); ?>shoshin" class="c_gray">初診料・再診料</a></li>
         </ul>
       </li>
-      <li><a href="<?php echo home_url('/'); ?>access">アクセス</a></li>
-      <li><a href="<?php echo home_url('/'); ?>doctor">ドクター紹介</a></li>
-      <li><a href="<?php echo home_url('/'); ?>recruit">採用情報</a></li>
+      <li><a href="<?php echo home_url('/'); ?>access" class="c_gray">アクセス</a></li>
+      <li><a href="<?php echo home_url('/'); ?>doctor" class="c_gray">ドクター紹介</a></li>
+      <li><a href="<?php echo home_url('/'); ?>recruit" class="c_gray">採用情報</a></li>
       <!--  <li><a href="https://fumibeauty.reserve.ne.jp/" target="_blank">来院予約</a></li>-->
-      <li class="mb0"><a href="<?php echo home_url('/'); ?>contact">お問合わせ</a></li>
+      <li class="mb0"><a href="<?php echo home_url('/'); ?>contact" class="c_gray">お問合わせ</a></li>
       <p class="menu-close"></p>
     </ul>
   </nav>
   <?php else: ?>
   <?php endif; ?>
   <?php if (wp_is_mobile()) : ?>
-  <div class="fix-bottom">
+  <div class="fix-bottom bg__n_rs">
     <ul class="flex gosic al-cent">
-      <li class="box-size"><span href="#" class="cw menu-open">メニュー</span></li>
-      <li class="box-size"><a href="https://fumibeauty.reserve.ne.jp/" class="cw" target="_blank">予約</a></li>
-      <li class="box-size"><a href="tel:0663722323" class="cw">TEL</a></li>
+      <li class="box-size"><span href="#" class="cw menu-open c_gray">メニュー</span></li>
+      <li class="box-size c_gray_line02"><a href="https://fumibeauty.reserve.ne.jp/" class="cw c_gray" target="_blank">予約</a></li>
+      <li class="box-size"><a href="tel:0663722323" class="cw c_gray">TEL</a></li>
     </ul>
   </div>
   <?php else: ?>
   <?php endif; ?>
   <a href="#" class="page-top bounce"><img src="<?php echo get_template_directory_uri(); ?>/img/common/scrool_up.svg" alt="scrool-up"></a> </div>
-<!--WRAPPER END--> 
+<!--WRAPPER END-->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script> 
-<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script> 
-<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?0910"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?033145"></script>
 <script>
     function initMap() {
         var latlng = new google.maps.LatLng( 34.707103, 135.495992 );
@@ -528,8 +512,9 @@
             map.setMapTypeId( 'GrayScaleMap' );
         /*=========ここまで追加=========*/
       }
-</script> 
+</script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBwr6DPo5X5S4CbkcKpSV5atpzNnKAifI&callback=initMap"></script>
+
 <?php wp_footer(); ?>
 </body>
 </html>

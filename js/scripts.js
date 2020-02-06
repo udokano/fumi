@@ -69,10 +69,10 @@ $(function () {
       slidesPerView: 1,
       paginationClickable: false,
       autoplayDisableOnInteraction: false,
-      autoplay: {
-        delay: 9000,
-        autoplayDisableOnInteraction: false
-      },
+      /*  autoplay: {
+         delay: 9000,
+         autoplayDisableOnInteraction: false
+       }, */
     })
   });
   //バナー
