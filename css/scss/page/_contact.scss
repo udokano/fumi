@@ -1,254 +1,224 @@
 .contact-tel {
     background-color: #f6eeee;
     padding: 60px 0;
+
     .inner {
         width: 800px;
         margin: auto;
-        
+
         h2 {
             width: 70%;
             margin: 0 auto 30px;
-            font-size: 1.6rem
+            font-size: 1.6rem;
         }
-        
+
         .tel {
             font-size: 3.4rem;
             margin-bottom: 30px;
         }
-        
-      
     }
 }
 
-
 .error {
-    color: #af0000!important;
+    color: #af0000 !important;
 }
 
-
 .contact-form {
-    
     .inner {
         width: 800px;
         margin: auto;
+
         p {
             margin-bottom: 30px;
         }
-        
+
         .contact-flow {
             margin-bottom: 30px;
         }
-        
+
         form {
             margin-bottom: 25px;
             font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+
             dl {
                 display: table;
-                dd,dt {
+
+                dd, dt {
                     padding: 35px 25px;
                     display: table-cell;
                     box-sizing: border-box;
                 }
-                
+
                 dt {
                     background-color: #f5f2ec;
                     border-bottom: 1px solid #fff;
                     width: 260px;
-                    
+
                     .ra {
                         background-color: #af0000;
-            display: inline-block;
-            border-radius: 2px;
-            color: #fff;
-            padding: 2px 3px;
-            margin-left: 0.5rem;
+                        display: inline-block;
+                        border-radius: 2px;
+                        color: #fff;
+                        padding: 2px 3px;
+                        margin-left: 0.5rem;
                         font-size: .65rem;
                     }
-                  
-                    
                 }
-                
+
                 dd {
                     border-bottom: 1px solid #efefef;
                     width: 540px;
-                    
-                    input,textarea {
+
+                    input, textarea {
                         background-color: #fff;
                         border: 1px solid #ccc;
                         width: 100%;
                         padding: 8px 18px;
                     }
-                    
-                      label {
+
+                    label {
                         display: block;
-                          margin-bottom: 18px;
-                          .check {
-                              margin-right: 10px;
-                              width: auto;
-                          }
-                          
+                        margin-bottom: 18px;
+
+                        .check {
+                            margin-right: 10px;
+                            width: auto;
+                        }
                     }
-                    
+
                     textarea {
                         height: 430px;
                         overflow-y: scroll;
                     }
-                    
+
                     .harf {
                         width: 50%;
                     }
-                    
-                     ::placeholder {
-                color: #ccc;
-            }
-                    
+
+                    ::placeholder {
+                        color: #ccc;
+                    }
                 }
             }
         }
-        
+
         dl.kind {
             dd {
                 border-top: 1px solid #efefef;
             }
         }
-        
+
         .send-wrap {
-            
             .btn {
                 cursor: pointer;
-                background-color: $cp;
+
+                //background-color: $cp;
+                background-color: $new_rs;
                 margin: 25px auto;
                 display: block;
                 height: 80px;
                 line-height: 80px;
                 font-size: 1.2rem;
+                color: $gray;
             }
-            
         }
-        
-        
     }
-    
 }
-
 
 @media (max-width: 767px) {
-    
-    
-    
     .contact-tel {
-    padding: 60px 0;
-    .inner {
-        width: 94%;
-        margin: auto;
-        
-        h2 {
-            width: 68%;
-            margin: 0 auto 15px;
+        padding: 60px 0;
+
+        .inner {
+            width: 94%;
+            margin: auto;
+
+            h2 {
+                width: 68%;
+                margin: 0 auto 15px;
+            }
+
+            .tel {
+                font-size: 2.87rem;
+                margin-bottom: 15px;
+            }
+
+            p {
+                line-height: 1.8;
+            }
         }
-        
-        .tel {
-            font-size: 2.87rem;
-            margin-bottom: 15px;
-        }
-        
-        p {
-            line-height: 1.8;
-        }
-      
     }
-}
 
+    .contact-form {
+        .inner {
+            width: 100%;
 
-.contact-form {
-    
-    .inner {
-        width: 100%;
-        p {
-            width: 96%;
-            margin: 0 auto 30px;
-        }
-        
-        .contact-flow {
-            margin-bottom: 30px;
-        }
-        
-        form {
-            margin-bottom: 25px;
-            dl {
-                display: block;
-                font-size: 1.17rem;
-                dd,dt {
+            p {
+                width: 96%;
+                margin: 0 auto 30px;
+            }
+
+            .contact-flow {
+                margin-bottom: 30px;
+            }
+
+            form {
+                margin-bottom: 25px;
+
+                dl {
                     display: block;
-                    padding: 35px 25px;
-                }
-                
-                dt {
-                    width: 100%;
-                    
-                      .ra {
-                        background-color: #af0000;
-                        display: inline-block;
-                        border-radius: 3px;
-                        color: #fff;
-                        padding: 3px 4px;
-                        margin-left: 0.5rem;
-                    }
-                    
-                }
-                
-                dd {
-                    width: 100%;
-                    
-                      label {
+                    font-size: 1.17rem;
+
+                    dd, dt {
                         display: block;
-                          margin-bottom: 18px;
-                          .check {
-                              margin-right: 10px;
-                              width: auto;
-                          }
+                        padding: 35px 25px;
                     }
-                    
-                    textarea {
-                        height: 430px;
+
+                    dt {
+                        width: 100%;
+
+                        .ra {
+                            background-color: #af0000;
+                            display: inline-block;
+                            border-radius: 3px;
+                            color: #fff;
+                            padding: 3px 4px;
+                            margin-left: 0.5rem;
+                        }
+                    }
+
+                    dd {
+                        width: 100%;
+
+                        label {
+                            display: block;
+                            margin-bottom: 18px;
+
+                            .check {
+                                margin-right: 10px;
+                                width: auto;
+                            }
+                        }
+
+                        textarea {
+                            height: 430px;
+                        }
                     }
                 }
             }
-            
-            
-        }
-        
-        dl.kind {
-            dd {
-                border-top: none;
+
+            dl.kind {
+                dd {
+                    border-top: none;
+                }
+            }
+
+            .send-wrap {
+                .btn {
+                    height: 70px;
+                    line-height: 70px;
+                }
             }
         }
-        
-        .send-wrap {
-            
-            .btn {
-                cursor: pointer;
-                background-color: $cp;
-                margin: 25px auto;
-                display: block;
-                height: 70px;
-                line-height: 70px;
-                font-size: 1.2rem;
-            }
-            
-        }
-        
-        
     }
-    
-}
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }

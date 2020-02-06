@@ -17,6 +17,7 @@ footer {
 
                     a {
                         font-size: .9rem;
+                        color: $gray;
                     }
                 }
             }
@@ -25,6 +26,7 @@ footer {
         .copy {
             font-size: .7rem;
             width: 520px;
+            color: $gray;
         }
     }
 }
@@ -56,7 +58,8 @@ footer {
         height: 100%;
 
         // height: calc(100vh - 63px);
-        background-color: $cp;
+        //background-color: $cp;
+        background-color: $new_rs;
         visibility: hidden;
         opacity: 0;
         transition: 0.5s ease-in;
@@ -75,7 +78,9 @@ footer {
 
                 a {
                     display: block;
-                    color: #fff;
+
+                    //color: #fff;
+                    color: $gray;
                     text-align: center;
                     font-size: 3.14vw;
                 }
@@ -97,8 +102,11 @@ footer {
                         top: 50%;
                         width: 12px;
                         height: 12px;
-                        border-top: 1px solid #fff;
-                        border-right: 1px solid #fff;
+
+                        //border-top: 1px solid #fff;
+                        //border-right: 1px solid #fff;
+                        border-top: 1px solid $gray;
+                        border-right: 1px solid $gray;
                         transform: translateY(-50%) rotate(135deg);
                         transition: .3s ease-in-out;
                     }
@@ -138,12 +146,15 @@ footer {
         transform: translate(0, 0);
     }
 
+    /* SP ONLY 固定フッター */
     .fix-bottom {
         position: fixed;
         left: 0;
         bottom: 0;
         width: 100%;
-        background-color: $cp;
+
+        //background-color: $cp;
+        background-color: $new_rs;
         z-index: 9999;
 
         ul {
@@ -157,24 +168,30 @@ footer {
                     padding-left: 22%;
                     font-size: 1.1rem;
                     background: no-repeat 0% 50%/ 13px;
+                    color: $gray;
                 }
 
                 span {
-                    background-image: url("../img/common/icon_bottom01.png");
+                    //background-image: url("../img/common/icon_bottom01.png");
+                    background-image: url("../img/common/icon_bottom01_re.png");
                 }
 
                 &:nth-of-type(2) {
-                    border-left: 1px solid #fff;
-                    border-right: 1px solid #fff;
+                    //border-left: 1px solid #fff;
+                    //border-right: 1px solid #fff;
+                    border-left: 1px solid $gray;
+                    border-right: 1px solid $gray;
 
                     a {
-                        background-image: url("../img/common/icon_bottom02.png");
+                        //background-image: url("../img/common/icon_bottom02.png");
+                        background-image: url("../img/common/icon_bottom02_re.png");
                     }
                 }
 
                 &:nth-of-type(3) {
                     a {
-                        background-image: url("../img/common/icon_bottom03.png");
+                        //background-image: url("../img/common/icon_bottom03.png");
+                        background-image: url("../img/common/icon_bottom03_re.png");
                     }
                 }
             }
@@ -185,7 +202,8 @@ footer {
         ul {
             li {
                 span {
-                    background-image: url("../img/common/icon_close.svg");
+                    //background-image: url("../img/common/icon_close.svg");
+                    background-image: url("../img/common/icon_close_re.svg");
                 }
             }
         }

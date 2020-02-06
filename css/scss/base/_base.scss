@@ -600,7 +600,7 @@ body.page {
 }
 
 .bg__n_rs {
-    background-color: $new_rs;
+    background-color: $new_rs !important;
 }
 
 .bg__n_ct {
@@ -611,12 +611,34 @@ body.page {
     background-color: $new_line;
 }
 
+.bg__sub__menu {
+    background-color: #E2D2E9 !important;
+}
+
 .bg__cp02 {
     background-color: $cp;
 }
 
+.bg__gray {
+    background-color: $gray !important;
+}
+
+.bc__gray {
+    border-color: $gray !important;
+}
+
 .c_gray {
-    color: $gray;
+    color: $gray !important;
+}
+
+.c_gray_line {
+    &::after {
+        border-color: $gray !important;
+    }
+}
+
+.c_gray_line02 {
+    border-color: $gray !important;
 }
 
 .c_gray_impo {
@@ -717,11 +739,11 @@ body.page {
 }
 
 .swiper-button-prev {
-    background: url("../img/common/arrow_02.svg") no-repeat 50% 50% / 20px;
+    background: url("../img/common/arrow_02_re.svg?1455") no-repeat 50% 50% / 20px;
 }
 
 .swiper-button-next {
-    background: url("../img/common/arrow_01.svg") no-repeat 50% 50% / 20px;
+    background: url("../img/common/arrow_01_re.svg?015852") no-repeat 50% 50% / 20px;
 }
 
 .area-bgs {
@@ -770,7 +792,8 @@ body.page {
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background-color: $cp;
+    //background-color: $cp;
+    background-color: $gray02;
 }
 
 @media (max-width: 767px) {
@@ -816,14 +839,6 @@ body.page {
 
     .swiper3.swiper-container-horizontal .swiper-pagination {
         bottom: -20px;
-    }
-
-    .swiper-pagination-bullet {
-        border-radius: 0;
-    }
-
-    .swiper-pagination-bullet.swiper-pagination-bullet-active {
-        background-color: $cp;
     }
 }
 
