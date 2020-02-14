@@ -439,7 +439,9 @@
                     right: -35px;
                     border-style: solid;
                     border-width: 12px 0 12px 19.3px;
-                    border-color: transparent transparent transparent $cp;
+
+                    //border-color: transparent transparent transparent $cp;
+                    border-color: transparent transparent transparent $gray02;
                 }
             }
         }
@@ -554,7 +556,9 @@
                     height: 0;
                     border-style: solid;
                     border-width: 45.9px 26.5px 0 26.5px;
-                    border-color: #f0e6c8 transparent transparent transparent;
+
+                    //border-color: #f0e6c8 transparent transparent transparent;
+                    border-color: $gray03 transparent transparent transparent;
                 }
 
                 &:nth-of-type(4)::after {
@@ -941,7 +945,9 @@
                                 right: -35px;
                                 border-style: solid;
                                 border-width: 12px 0 12px 19.3px;
-                                border-color: transparent transparent transparent $cp;
+
+                                //border-color: transparent transparent transparent $cp;
+                                border-color: transparent transparent transparent $gray02;
                             }
                         }
                     }

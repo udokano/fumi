@@ -60,21 +60,26 @@ $(function () {
 
 
   //トップページFV
-  $(window).on('load', function () {
-    var mySwiperfv = new Swiper('.fv-slide', {
-      loop: true,
-      effect: 'fade',
-      speed: 8000,
-      initialSlide: 0,
-      slidesPerView: 1,
-      paginationClickable: false,
-      autoplayDisableOnInteraction: false,
-      /*  autoplay: {
-         delay: 9000,
-         autoplayDisableOnInteraction: false
-       }, */
-    })
+  $(function () {
+    setTimeout(function () {
+      var mySwiperfv = new Swiper('.fv-slide', {
+        loop: true,
+        effect: 'fade',
+        speed: 6000,
+        initialSlide: 0,
+        slidesPerView: 1,
+        paginationClickable: false,
+        autoplayDisableOnInteraction: false,
+        autoplay: {
+          delay: 7000,
+          autoplayDisableOnInteraction: false
+        },
+      })
+    }, 3500);
   });
+
+
+
   //バナー
 
   var mySwiper = new Swiper('.swiper1', {

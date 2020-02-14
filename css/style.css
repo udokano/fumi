@@ -739,7 +739,7 @@ body.page {
 }
 
 .swiper-container-horizontal .swiper-pagination {
-  bottom: -40px;
+  bottom: -50px;
 }
 
 .swiper-pagination-bullet {
@@ -747,7 +747,7 @@ body.page {
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background-color: #4c4c4c;
+  background-color: #777777;
 }
 
 @media (max-width: 767px) {
@@ -944,6 +944,259 @@ body.page {
   }
 }
 /*
+
+アーカイブページスタイル
+
+*/
+.archive .inner {
+  width: 1000px;
+}
+@media (max-width: 767px) {
+  .archive .inner {
+    width: 92%;
+  }
+}
+.archive .inner .post__list {
+  border: 1px solid #ededed;
+  color: #777777;
+  margin-bottom: 1.8rem;
+  padding: 45px;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+}
+@media (max-width: 767px) {
+  .archive .inner .post__list {
+    padding: 4%;
+  }
+}
+.archive .inner .post__list .thumb {
+  width: 210px;
+  height: 240px;
+}
+.archive .inner .post__list .thumb img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 767px) {
+  .archive .inner .post__list .thumb {
+    width: 32%;
+    height: 32vw;
+  }
+}
+.archive .inner .post__list .post__info {
+  width: 630px;
+}
+@media (max-width: 767px) {
+  .archive .inner .post__list .post__info {
+    width: 64%;
+    margin-left: 4.5%;
+  }
+}
+.archive .inner .post__list .post__info .top__info {
+  margin-bottom: 1.1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (max-width: 767px) {
+  .archive .inner .post__list .post__info .top__info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-bottom: .85rem;
+  }
+}
+.archive .inner .post__list .post__info .top__info .tax {
+  background-color: #E2D2E9;
+  color: #fff;
+  padding: 4px 8px;
+  font-size: .7rem;
+  display: inline-block;
+  margin-right: .25rem;
+  letter-spacing: 0;
+}
+@media (max-width: 767px) {
+  .archive .inner .post__list .post__info .top__info .tax {
+    font-size: .6rem;
+    padding: 2px 4px;
+  }
+}
+.archive .inner .post__list .post__info .top__info .tax:nth-of-type(1) {
+  margin-left: 0;
+}
+.archive .inner .post__list .post__info .top__info .article-date {
+  font-size: .78rem;
+  color: #ccc;
+}
+@media (max-width: 767px) {
+  .archive .inner .post__list .post__info .top__info .article-date {
+    font-size: .64rem;
+    margin-bottom: .22rem;
+  }
+}
+.archive .inner .post__list .post__info h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.1rem;
+  font-weight: 600;
+}
+@media (max-width: 767px) {
+  .archive .inner .post__list .post__info h2 {
+    font-size: 1.01rem;
+    margin-bottom: .58rem;
+    letter-spacing: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+.archive .inner .post__list .post__info .comment {
+  height: 5.5em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+@media (max-width: 767px) {
+  .archive .inner .post__list .post__info .comment {
+    height: 2.8rem;
+    -webkit-line-clamp: 3;
+  }
+}
+.archive .inner .post__list .post__info .comment p {
+  font-size: .98rem;
+}
+@media (max-width: 767px) {
+  .archive .inner .post__list .post__info .comment p {
+    font-size: .7rem;
+    line-height: 1.25;
+  }
+}
+
+/*
+
+ページャーデザイン
+
+*/
+.pagination {
+  text-align: center;
+}
+.pagination ul.page-numbers {
+  display: inline-block;
+  text-align: center;
+}
+.pagination ul.page-numbers li {
+  display: inline-block;
+  padding: 10px 16px;
+  color: #777777;
+  background-color: #E8DCD3;
+  font-weight: 600;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+}
+.pagination ul.page-numbers li a {
+  color: #777777;
+}
+
+/*
+
+記事ペーじスタイル
+
+*/
+body.single {
+  color: #454545;
+}
+
+.page-head.single h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  color: #777777;
+}
+
+.singe__case {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+}
+.singe__case .inner {
+  width: 94%;
+  max-width: 1000px;
+}
+.singe__case .inner h1 {
+  font-size: 1.8rem;
+  color: #686868;
+  margin-bottom: 1.8rem;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ededed;
+  line-height: 0.9;
+  letter-spacing: 0.075em;
+}
+.singe__case .inner .photo__area {
+  margin-bottom: 2.5rem;
+}
+.singe__case .inner .photo__area .case-box {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+.singe__case .inner .photo__area .case-box .case__photo {
+  margin-bottom: 62px;
+}
+.singe__case .inner .photo__area .case-box .case__photo .thumb {
+  width: 100%;
+  margin-bottom: 18px;
+}
+.singe__case .inner .photo__area .case-box .case__photo .text {
+  width: 100%;
+  font-size: 0;
+}
+.singe__case .inner .photo__area .case-box .case__photo .text p {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+  font-size: 1.1rem;
+}
+.singe__case .inner .photo__area .case-box .ba-box .box {
+  width: 44%;
+}
+.singe__case .inner .photo__area .case-box .ba-box .box .thumb {
+  margin-bottom: .8rem;
+}
+.singe__case .inner .photo__area .case-box .ba-box .box p {
+  font-size: 1.2rem;
+}
+.singe__case .inner .photo__area .case-box .ba-box .arw {
+  position: absolute;
+  border-style: solid;
+  border-width: 12px 0 12px 19.3px;
+  border-color: transparent transparent transparent #777777;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+@media (max-width: 767px) {
+  .singe__case .inner .photo__area .case-box .ba-box .arw {
+    border-width: 10px 0 10px 15.3px;
+    top: 42%;
+  }
+}
+.singe__case .inner .text__box {
+  margin-bottom: 2.5rem;
+  background-color: #fbfbfb;
+  padding: 20px;
+}
+.singe__case .inner .text__box dl dt {
+  font-size: 1.2rem;
+  margin-bottom: .7rem;
+  font-weight: 600;
+}
+.singe__case .inner .text__box dl dd {
+  font-size: .88rem;
+}
+
+/*
 トップ修正スタイル
 -------------------------------------*/
 .top-cv-btn {
@@ -961,6 +1214,7 @@ body.page {
   line-height: 1.4;
   background: no-repeat 50% 0%/ 24px;
   color: #777777;
+  font-weight: 600;
 }
 .top-cv-btn .bg-rs {
   background-color: #E2D2E9;
@@ -1183,6 +1437,7 @@ body.page {
   padding: 8px 18px;
   font-size: 1.27rem;
   display: inline-block;
+  font-weight: 600;
   color: #777777;
 }
 .fv .fv-slide .fv__slide-wrap.slide01 {
@@ -1236,10 +1491,9 @@ body.page {
 }
 .top__menu__area .bottom .menu-link li {
   width: 48%;
-  background-color: rgba(255, 255, 255, 0.5);
 }
 .top__menu__area .bottom .menu-link li a img {
-  height: 120px;
+  height: 113px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -1268,6 +1522,10 @@ body.page {
 }
 .cv-wrap .bottom__btn .cv-btns {
   color: #777777;
+}
+.cv-wrap .bottom__btn .cv-btns .bg-icon {
+  line-height: 1.0;
+  font-weight: 600;
 }
 .cv-wrap .bottom__btn .cv-btns .sm {
   opacity: .5;
@@ -1412,9 +1670,11 @@ body.page {
   }
   .top__menu__area .bottom .cv-wrap .cv-btns span {
     font-size: .95rem;
+    line-height: 1.22;
   }
   .top__menu__area .bottom .cv-wrap .cv-btns span.sm {
-    font-size: .7rem;
+    font-size: 8px;
+    letter-spacing: 0;
   }
 }
 /*
@@ -2261,6 +2521,11 @@ footer.pages.list-footer .copy {
   display: block;
   font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
 }
+.slides .inner .right-slide {
+  /*---------
+  ADD 記事一覧
+  ----------------*/
+}
 .slides .inner .right-slide h3 {
   font-size: 1.18rem;
 }
@@ -2284,7 +2549,7 @@ footer.pages.list-footer .copy {
 }
 .slides .inner .right-slide .slide-in .box:nth-of-type(1)::after {
   right: -39px;
-  border-color: transparent transparent transparent #4c4c4c;
+  border-color: transparent transparent transparent #777777;
 }
 .slides .inner .right-slide .risk {
   color: #454545;
@@ -2293,8 +2558,95 @@ footer.pages.list-footer .copy {
   padding: 15px 17px;
   background-color: #fbfbfb;
 }
+.slides .inner .right-slide .slide-in .posts {
+  color: #454545;
+  margin-bottom: .88rem;
+}
+@media (max-width: 767px) {
+  .slides .inner .right-slide .slide-in .posts {
+    margin-bottom: 1.1rem;
+  }
+}
+.slides .inner .right-slide .slide-in .posts .thumb {
+  width: 120px;
+  height: 120px;
+}
+@media (max-width: 767px) {
+  .slides .inner .right-slide .slide-in .posts .thumb {
+    width: 25%;
+    height: 18vw;
+  }
+}
+.slides .inner .right-slide .slide-in .posts .thumb img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.slides .inner .right-slide .slide-in .posts .text {
+  width: 74%;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+}
+@media (max-width: 767px) {
+  .slides .inner .right-slide .slide-in .posts .text {
+    width: 68%;
+  }
+}
+.slides .inner .right-slide .slide-in .posts .text .top__cont {
+  margin-bottom: .8rem;
+}
+@media (max-width: 767px) {
+  .slides .inner .right-slide .slide-in .posts .text .top__cont {
+    margin-bottom: .4rem;
+  }
+}
+.slides .inner .right-slide .slide-in .posts .text .top__cont .article-date, .slides .inner .right-slide .slide-in .posts .text .top__cont .tax {
+  display: inline-block;
+  vertical-align: middle;
+}
+.slides .inner .right-slide .slide-in .posts .text .top__cont .article-date {
+  font-size: .7rem;
+  color: #ccc;
+}
+.slides .inner .right-slide .slide-in .posts .text .top__cont .tax {
+  background-color: #DBD3E8;
+  padding: 4px 6px;
+  font-size: .7rem;
+  line-height: .8;
+  margin-right: .6rem;
+}
+.slides .inner .right-slide .slide-in .posts .text h3 {
+  font-size: 1.1rem;
+}
+@media (max-width: 767px) {
+  .slides .inner .right-slide .slide-in .posts .text h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+.slides .inner .right-slide .slide-in .btn__cont {
+  margin-top: 1.8rem;
+  text-align: center;
+}
+.slides .inner .right-slide .slide-in .btn__cont a {
+  display: inline-block;
+  padding: 16px 44px;
+  border: 1px solid #777777;
+  color: #777777;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+  -webkit-transition: ease-in .3s;
+  transition: ease-in .3s;
+}
+.slides .inner .right-slide .slide-in .btn__cont a:hover {
+  background-color: #777777;
+  color: #fff;
+}
 
 @media (max-width: 767px) {
+  .slides {
+    margin-bottom: 70px;
+  }
   .slides .inner {
     display: block;
   }
@@ -2745,6 +3097,9 @@ footer.pages.list-footer .copy {
   font-size: 3.4rem;
   margin-bottom: 30px;
 }
+.contact-tel .inner .tel a {
+  color: #cc27a3;
+}
 
 .error {
   color: #af0000 !important;
@@ -2779,7 +3134,7 @@ footer.pages.list-footer .copy {
   width: 260px;
 }
 .contact-form .inner form dl dt .ra {
-  background-color: #af0000;
+  background-color: #f7b3fd;
   display: inline-block;
   border-radius: 2px;
   color: #fff;
@@ -2835,6 +3190,7 @@ footer.pages.list-footer .copy {
   height: 80px;
   line-height: 80px;
   font-size: 1.2rem;
+  font-weight: 600;
   color: #777777;
 }
 
@@ -3260,7 +3616,7 @@ footer.pages.list-footer .copy {
   right: -35px;
   border-style: solid;
   border-width: 12px 0 12px 19.3px;
-  border-color: transparent transparent transparent #a64987;
+  border-color: transparent transparent transparent #777777;
 }
 
 /*施術の感想（口コミ）*/
@@ -3346,7 +3702,7 @@ footer.pages.list-footer .copy {
   height: 0;
   border-style: solid;
   border-width: 45.9px 26.5px 0 26.5px;
-  border-color: #f0e6c8 transparent transparent transparent;
+  border-color: #e3e3e3 transparent transparent transparent;
 }
 .flow .inner ul li:nth-of-type(4)::after {
   content: "";
@@ -3639,7 +3995,7 @@ footer.pages.list-footer .copy {
     right: -35px;
     border-style: solid;
     border-width: 12px 0 12px 19.3px;
-    border-color: transparent transparent transparent #a64987;
+    border-color: transparent transparent transparent #777777;
   }
   .case .inner .note {
     width: 80%;

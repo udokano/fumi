@@ -8,7 +8,13 @@ Template Name: メディカルエステ
 <div class="page-head">
   <h1 class="tc f-ryu">施術：美肌治療・アンチエイジング</h1>
   <?php echo breadcrumb_func(); ?> </div>
-<div class="ancor-box gosic mb60"> <a href="#area1">美容内科・美容点滴</a><a href="#area2">プラセンタ注射</a><a href="#area3">メディカルエステ</a> </div>
+<div class="ancor-box gosic mb60">
+<a href="#area4">ダーマペン4</a>
+<a href="#area5">ヴェルヴェットスキン</a>
+<a href="#area1">美容内科・美容点滴</a>
+<a href="#area2">プラセンタ注射</a>
+<a href="#area3">メディカルエステ</a>
+</div>
 <section class="features layout2">
   <div class="inner-box2">
     <h2 class="cp gosic tc ls1">美肌治療・アンチエイジングの特徴</h2>
@@ -42,8 +48,56 @@ Template Name: メディカルエステ
     </ul>
   </div>
 </section>
+<section class="ope-intro bg-cp" id="area4">
+  <div class="inner flex  al-cent">
+    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb08.jpg" alt="サムネイル"> </div>
+    <div class="text box-size">
+      <h2>ダーマペン4</h2>
+      <p class="ls1 gosic">ダーマペン4は米国FDAの認可を受けている医療機器で、16本の針(マイクロニードル)を用いて肌に微細な針穴を形成する医療機器です。優れたドラッグデリバリー効果で、高い効果が得られます。従来のダーマローラーに比べて表皮への負担が少なく、痛みや赤みなどのダウンタイムが大幅に軽減されました。</p>
+    </div>
+  </div>
+</section>
+<section class="price">
+  <div class="inner-box2">
+    <h2 class="tc ls1">ダーマペン4料金</h2>
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">種類</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>ダーマペン4</dt>
+        <dd>お問い合わせください</dd>
+        </dl>
+    </div>
+  </div>
+</section>
+<section class="ope-intro bg-cp" id="area5">
+  <div class="inner flex ff-row-reverse al-cent">
+    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb09.jpg" alt="サムネイル"> </div>
+    <div class="text box-size">
+      <h2>ヴェルヴェットスキン</h2>
+      <p class="ls1 gosic">マッサージピールとダーマペン4を組み合わせた美肌治療です。マッサージピールに含まれる有効成分、TCA（トリクロロ酢酸）・過酸化水素水・コウジ酸をダーマペンによって、真皮層へとしっかり浸透させ、施術後の肌をふかふかで滑らかなヴェルヴェットの様な質感に導くのがこのヴェルヴェットスキンの特徴です。</p>
+    </div>
+  </div>
+</section>
+<section class="price">
+  <div class="inner-box2">
+    <h2 class="tc ls1">ヴェルヴェットスキン料金</h2>
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">種類</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>ヴェルヴェットスキン</dt>
+        <dd>お問い合わせください</dd>
+        </dl>
+    </div>
+  </div>
+</section>
 <section class="ope-intro bg-cp" id="area1">
-  <div class="inner flex al-cent">
+  <div class="inner flex  al-cent">
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/tenteki/thumb01.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>美容内科・美容点滴</h2>

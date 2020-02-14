@@ -7,7 +7,7 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?0207855">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?0216547">
     <script>
   (function(d) {
     var config = {
@@ -44,7 +44,7 @@
             </li>
           <li><a href="<?php echo home_url('/'); ?>access">アクセス</a></li>
           <li><a href="<?php echo home_url('/'); ?>doctor">ドクター紹介</a></li>
-          <li><a href="<?php echo home_url('/'); ?>recruit">採用情報</a></li>
+          <li><a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank">院長ブログ</a></li>
         </ul>
       </nav>
       <div class="top-cv-btn">

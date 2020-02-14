@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: お問い合わせ 
+Template Name: お問い合わせ
 */
 
 ?>
@@ -12,7 +12,7 @@ Template Name: お問い合わせ
   <div class="inner">
     <h2 class="tc f-ryu pc">お電話でのお問合わせ</h2><h2 class="tc f-ryu sp">お電話での<br>お問合わせ</h2>
     <p class="tel tc cp"><a href="tel:0663722323" class="cp" style="background: none; padding: 0;">06-6372-2323</a></p>
-      <?php if ( wp_is_mobile() ) : ?>
+      <?php if (wp_is_mobile()) : ?>
     <p class="tc gosic">受付時間 : 10:00 ~ 18:00<br>
 休診日 : 木、日、祝</p>
 <?php else: ?>
@@ -27,7 +27,7 @@ Template Name: お問い合わせ
       安心して治療・施術を受けていただけるよう、どんな小さな疑問点でも医師がお応えします。
       下記のお問い合わせフォームに必要事項をご入力の上送信願います。
       お電話をご希望の方は上記の電話番号へおかけください。</p>
-    <div class="contact-flow"> <img src="<?php echo get_template_directory_uri(); ?>/img/contact/flow.jpg" alt="流れ"> </div>
+    <div class="contact-flow"> <img src="<?php echo get_template_directory_uri(); ?>/img/contact/flow.jpg?0216" alt="流れ"> </div>
       <?php echo do_shortcode('[mwform_formkey key="38"]'); ?>
        <div class="note tc">※ドメイン指定受信を設定されている方は、<br>
         【@fumibeauty.jp】からの受信をできるよう設定お願いします。</div>
@@ -85,7 +85,7 @@ Template Name: お問い合わせ
       <div class="send-wrap">
         <input type="submit" value="確認画面へ" class="send btn">
       </div>
-     
+
     </form>-->
   </div>
 </section>

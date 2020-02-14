@@ -21,7 +21,7 @@
           <li><a href="<?php echo home_url('/'); ?>#bg3">施術・料金</a></li>
           <li><a href="<?php echo home_url('/'); ?>access">アクセス</a></li>
           <li><a href="<?php echo home_url('/'); ?>doctor">ドクター紹介</a></li>
-          <li><a href="<?php echo home_url('/'); ?>recruit">採用情報</a></li>
+              <li><a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank">院長ブログ</a></li>
           <li><a href="https://fumibeauty.reserve.ne.jp/" target="_blank">来院予約</a></li>
           <li><a href="<?php echo home_url('/'); ?>contact">お問合わせ</a></li>
         </ul>
@@ -51,7 +51,7 @@ Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
             </li>
             <li><a href="<?php echo home_url('/'); ?>access">アクセス</a></li>
             <li><a href="<?php echo home_url('/'); ?>doctor">ドクター紹介</a></li>
-                <li class=""><a href="<?php echo home_url('/'); ?>recruit">採用情報</a></li>
+                   <li><a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank">院長ブログ</a></li>
             <!--<li><a href="https://fumibeauty.reserve.ne.jp/" target="_blank">来院予約</a></li>-->
             <li class="mb0"><a href="<?php echo home_url('/'); ?>contact">お問合わせ</a></li>
         </ul>

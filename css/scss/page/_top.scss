@@ -749,12 +749,109 @@
                 padding: 15px 17px;
                 background-color: #fbfbfb;
             }
+
+            /*---------
+            ADD 記事一覧
+            ----------------*/
+
+            .slide-in {
+                .posts {
+                    color: #454545;
+                    margin-bottom: .88rem;
+
+                    @media (max-width: 767px) {
+                        margin-bottom: 1.1rem;
+                    }
+
+                    .thumb {
+                        width: 120px;
+                        height: 120px;
+
+                        @media (max-width: 767px) {
+                            width: 25%;
+                            height: 18vw;
+                        }
+
+                        img {
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+
+                    .text {
+                        width: 74%;
+                        font-family: $gosic;
+
+                        @media (max-width: 767px) {
+                            width: 68%;
+                        }
+
+                        .top__cont {
+                            margin-bottom: .8rem;
+
+                            @media (max-width: 767px) {
+                                margin-bottom: .4rem;
+                            }
+
+                            .article-date, .tax {
+                                display: inline-block;
+                                vertical-align: middle;
+                            }
+
+                            .article-date {
+                                font-size: .7rem;
+                                color: #ccc;
+                            }
+
+                            .tax {
+                                background-color: $new_ct;
+                                padding: 4px 6px;
+                                font-size: .7rem;
+                                line-height: .8;
+                                margin-right: .6rem;
+                            }
+                        }
+
+                        h3 {
+                            font-size: 1.1rem;
+
+                            @media (max-width: 767px) {
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                            }
+                        }
+                    }
+                }
+
+                .btn__cont {
+                    margin-top: 1.8rem;
+                    text-align: center;
+
+                    a {
+                        display: inline-block;
+                        padding: 16px 44px;
+                        border: 1px solid $gray;
+                        color: $gray;
+                        font-family: $gosic;
+                        transition: ease-in .3s;
+
+                        &:hover {
+                            background-color: $gray;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
         }
     }
 }
 
 @media (max-width: 767px) {
     .slides {
+        margin-bottom: 70px;
+
         .inner {
             display: block;
 

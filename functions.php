@@ -6,6 +6,10 @@
 //サムネイル画像有効
 add_theme_support('post-thumbnails', array( 'post' ));
 
+//サムネイル画像有効
+add_theme_support('post-thumbnails', array( 'case' ));
+
+
 
 
 //投稿サムネイルサイズ指定
@@ -120,8 +124,6 @@ function breadcrumb_func()
                 $str.= '<li>&gt;</li>';
                 $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="4" /></li>';
             } else {
-                $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_category_link($cat -> term_id).'" itemprop="item"><span itemprop="name">'.$cat-> cat_name.'</span></a><meta itemprop="position" content="2" /></li>';
-                $str.= '<li>&gt;</li>';
                 $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="3" /></li>';
             }
         }
