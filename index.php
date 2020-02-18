@@ -9,7 +9,7 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?0218547">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?021585855458">
 <script>
   (function(d) {
     var config = {
@@ -32,18 +32,20 @@
           <li><a href="<?php echo home_url('/'); ?>concept">当院について</a></li>
           <li class="navi-parent"><a>施術・料金</a>
             <ul class="nav-child bg__sub__menu">
+                 <li><a href="<?php echo home_url('/'); ?>tarumi" class="c_gray">たるみ治療</a></li>
               <li><a href="<?php echo home_url('/'); ?>siwa" class="c_gray">しわ治療</a></li>
-              <li><a href="<?php echo home_url('/'); ?>tarumi" class="c_gray">たるみ治療</a></li>
+              <li><a href="<?php echo home_url('/'); ?>medikaru" class="c_gray">美肌治療</a></li>
               <li><a href="<?php echo home_url('/'); ?>kogao" class="c_gray">小顔治療</a></li>
               <li><a href="<?php echo home_url('/'); ?>nose-lift" class="c_gray">鼻の糸</a></li>
               <li><a href="<?php echo home_url('/'); ?>keiseigeka" class="c_gray">形成外科治療</a></li>
-              <li><a href="<?php echo home_url('/'); ?>medikaru" class="c_gray">美肌治療</a></li>
+
               <li><a href="<?php echo home_url('/'); ?>cosmetics" class="c_gray">ドクターズコスメ</a></li>
               <li><a href="<?php echo home_url('/'); ?>shoshin" class="c_gray">初診料・再診料</a></li>
             </ul>
           </li>
           <li><a href="<?php echo home_url('/'); ?>access">アクセス</a></li>
           <li><a href="<?php echo home_url('/'); ?>doctor">ドクター紹介</a></li>
+          <li><a href="<?php echo home_url('/');?>case-list">症例写真</a></li>
           <li><a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank">院長ブログ</a></li>
         </ul>
       </nav>
@@ -94,7 +96,7 @@
     <div class="bottom inner-box flex">
       <ul class="menu-link flex">
         <li class="box-size"> <a href="<?php echo home_url('/'); ?>siwa"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
-          <p class="cp tc ls1">注入オーダーメイド<br>
+          <p class="cp tc ls1">オーダーメイド注入<br>
             <span class="gd">ORDER MADE</span></p>
           </a> </li>
         <li class="box-size"> <a href="<?php echo home_url('/'); ?>tarumi#area2"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02.jpg" alt="サムネイル">
@@ -234,11 +236,21 @@
           <li>・ボトックス注射</li>
         </ul>
         </a> </li>
-      <li class="box-size hg-row"> <a href="<?php echo home_url('/'); ?>kogao">
+        <li class="box-size hg-row"> <a href="<?php echo home_url('/'); ?>medikaru">
+        <h3 class="cw tc">美肌治療</h3>
+        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb10.jpg" alt="サムネイル"></div>
+        <ul>
+          <li class="db">・ダーマペン4/ヴェルヴェットスキン</li>
+          <li>・美容点滴</li>
+          <li>・プラセンタ</li>
+          <li>・メディカルエステ</li>
+        </ul>
+        </a> </li>
+      <li class="box-size "> <a href="<?php echo home_url('/'); ?>kogao">
         <h3 class="tc">小顔治療 </h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb07.jpg" alt="サムネイル"></div>
         <ul>
-          <li data-url="<?php echo home_url('/'); ?>tarumi#area2" class="js-link">・スレッドリフト</li>
+          <li data-url="<?php echo home_url('/'); ?>kogao#area3" class="js-link">・スレッドリフト</li>
           <li data-url="<?php echo home_url('/'); ?>kogao#area1" class="js-link">・BNLS neo</li>
           <li data-url="<?php echo home_url('/'); ?>kogao#area2" class="js-link">・エラボトックス</li>
         </ul>
@@ -261,17 +273,7 @@
           <li>・巻き爪・陥入爪</li>
         </ul>
         </a> </li>
-      <li class="box-size"> <a href="<?php echo home_url('/'); ?>medikaru">
-        <h3 class="cw tc">美肌治療</h3>
-        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb10.jpg" alt="サムネイル"></div>
-        <ul>
-          <li>・ダーマペン4</li>
-          <li>・ヴェルヴェットスキン</li>
-          <li>・美容点滴</li>
-          <li>・プラセンタ</li>
-          <li>・メディカルエステ</li>
-        </ul>
-        </a> </li>
+
     </ul>
   </section>
   <div class="cosmetics__bnr">
@@ -377,10 +379,7 @@
                     break;
                 }
                 ?>
-
                  <time class="article-date" datetime="<?php echo get_the_date('Y-m-d'); ?>"> <?php echo get_the_date(); ?> </time>
-
-
               <!--投稿日を表示-->
 
             </div>
@@ -390,13 +389,18 @@
             <h3>
               <?php the_title(); ?>
             </h3>
+
+            <p class="content__text">
+              <?php the_field('ope_desc');?>
+
+            </p>
           </div>
           <!-- end text -->
           </a>
           <!-- ./posts  -->
 
           <?php endwhile; wp_reset_postdata(); ?>
-          <div class="btn__cont"> <a href="<?php home_url();?>case_list">記事一覧へ</a> </div>
+          <div class="btn__cont"> <a href="<?php echo get_post_type_archive_link(get_post_type());?>">記事一覧へ</a> </div>
 <?php else: ?>
 <p class="tc gray gosic">ただいま準備中です<br>公開まで今しばらくお待ちくださいませ</p>
 
@@ -412,8 +416,7 @@
   <!--SLIDES END-->
 
   <section class="sns">
-    <h3 class="tc">Twitterやブログやインスタグラム・ラインオフィシャルアカウントにて<br class="pc">
-      お得な情報を配信しています</h3>
+    <h3 class="tc">Twitterやブログやインスタグラム・ラインオフィシャルアカウントにて<br class="pc">お得な情報を配信しています</h3>
     <div class="inner flex">
       <div class="bnr"> <a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/blog_bnr.jpg?0216" alt="blog_bnr"> </a> </div>
       <div class="bnr"> <a href="https://line.me/R/ti/p/%40304ngjfp" target="_blank">
@@ -466,6 +469,7 @@
           <li><a href="<?php echo home_url('/'); ?>access" class="c_gray">アクセス</a></li>
           <li><a href="<?php echo home_url('/'); ?>doctor" class="c_gray">ドクター紹介</a></li>
           <li><a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank">院長ブログ</a></li>
+          <li><a href="<?php echo home_url('/');?>case-list" class="c_gray">症例写真</a></li>
           <li><a href="https://fumibeauty.reserve.ne.jp/" class="c_gray" target="_blank">来院予約</a></li>
           <li><a href="<?php echo home_url('/'); ?>contact" class="c_gray">お問合わせ</a></li>
         </ul>
@@ -483,10 +487,10 @@
         <ul class="child" id="ac">
           <li><a href="<?php echo home_url('/'); ?>tarumi" class="c_gray">たるみ治療</a></li>
           <li><a href="<?php echo home_url('/'); ?>siwa" class="c_gray">しわ治療</a></li>
+           <li><a href="<?php echo home_url('/'); ?>medikaru" class="c_gray">美肌治療</a></li>
           <li><a href="<?php echo home_url('/'); ?>kogao" class="c_gray">小顔治療</a></li>
           <li><a href="<?php echo home_url('/'); ?>nose-lift" class="c_gray">鼻の糸</a></li>
           <li><a href="<?php echo home_url('/'); ?>keiseigeka" class="c_gray">形成外科治療</a></li>
-          <li><a href="<?php echo home_url('/'); ?>medikaru" class="c_gray">美肌治療</a></li>
           <li class="mb0"><a href="<?php echo home_url('/'); ?>cosmetics" class="c_gray">ドクターズコスメ</a></li>
           <li class="mb0"><a href="<?php echo home_url('/'); ?>shoshin" class="c_gray">初診料・再診料</a></li>
         </ul>
@@ -494,6 +498,7 @@
       <li><a href="<?php echo home_url('/'); ?>access" class="c_gray">アクセス</a></li>
       <li><a href="<?php echo home_url('/'); ?>doctor" class="c_gray">ドクター紹介</a></li>
       <li><a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank">院長ブログ</a></li>
+       <li><a href="<?php echo home_url('/');?>case-list" class="c_gray">症例写真</a></li>
       <!--  <li><a href="https://fumibeauty.reserve.ne.jp/" target="_blank">来院予約</a></li>-->
       <li class="mb0"><a href="<?php echo home_url('/'); ?>contact" class="c_gray">お問合わせ</a></li>
       <p class="menu-close"></p>

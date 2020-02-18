@@ -26,7 +26,7 @@ Template Name: ランディングページボトックス
   })(document);
 </script>
 <?php wp_head(); ?>
-    
+
 </head>
 <body id="lp2" class="lps">
 <div class="wrapper">
@@ -154,7 +154,10 @@ Template Name: ランディングページボトックス
     <div class="lp-inner">
       <h2 class="gd tc">症例写真</h2>
       <div class="case-photos flex">
-        <?php while (have_rows('pr2', 155)) : the_row(); ?>
+       <?php while (have_rows('pr2', 155)) : the_row(); ?>
+        <!-- サブリピートスタート-->
+        <?php if (have_rows('pr2_sub')): ?>
+        <?php while (have_rows('pr2_sub', 155)) : the_row(); ?>
         <div class="case-box">
           <div class="ba-box flex">
             <div class="box">
@@ -163,20 +166,28 @@ Template Name: ランディングページボトックス
                 <?php the_sub_field('befor_title', 155); ?>
               </p>
             </div>
+            <!---->
+
             <div class="box">
               <div class="thumb"> <img src="<?php the_sub_field('after_p', 155); ?>" alt=""> </div>
               <p class="gd tc">
                 <?php the_sub_field('after_title', 155); ?>
               </p>
             </div>
+            <!---->
             <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_arrow.png" alt=">"></div>
           </div>
-          <?php if (get_sub_field('text', 155)): ?>
-          <div class="comment cp gosic box-size">
-            <?php the_sub_field('text', 155); ?>
-          </div>
-          <?php endif; ?>
+          <!---->
         </div>
+        <!--./ case-box-->
+        <?php endwhile; ?>
+        <?php endif; ?>
+        <!--  サブリピートEND-->
+        <?php if (get_sub_field('text', 155)): ?>
+        <div class="comment cp gosic box-size">
+          <?php the_sub_field('text', 155); ?>
+        </div>
+        <?php endif; ?>
         <?php endwhile; ?>
         <div class="note box-size">
           <h4 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/note.png" alt="注意事項"></h4>

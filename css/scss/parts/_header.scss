@@ -126,7 +126,7 @@
         }
 
         .navi {
-            padding-right: 2.5vw;
+            padding-right: 2.1vw;
             width: 52%;
             box-sizing: border-box;
 
@@ -134,7 +134,7 @@
                 text-align: right;
 
                 li {
-                    padding: 0 1vw;
+                    padding: 0 .85vw;
                     margin: 0;
                     display: inline-block;
 
@@ -149,6 +149,7 @@
                     a {
                         color: $gray;
                         font-weight: 600;
+                        font-size: .94rem;
                     }
                 }
             }

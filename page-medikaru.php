@@ -10,7 +10,6 @@ Template Name: メディカルエステ
   <?php echo breadcrumb_func(); ?> </div>
 <div class="ancor-box gosic mb60">
 <a href="#area4">ダーマペン4</a>
-<a href="#area5">ヴェルヴェットスキン</a>
 <a href="#area1">美容内科・美容点滴</a>
 <a href="#area2">プラセンタ注射</a>
 <a href="#area3">メディカルエステ</a>
@@ -23,7 +22,7 @@ Template Name: メディカルエステ
         <div class="points f-ryu">Point.1</div>
         <h3 class="gd tc line1">老化予防</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb02.jpg" alt="サムネイル"></div>
-        <p class="gosic">進行する肌老化を抑制し、若々しいお肌を保つことができます</p>
+        <p class="gosic">進行する肌老化を抑制し、若々しいお肌を保つことができます。</p>
       </li>
       <li class="box-size">
         <div class="points f-ryu">Point.2</div>
@@ -35,7 +34,7 @@ Template Name: メディカルエステ
         <div class="points f-ryu">Point.3</div>
         <h3 class="gd tc line1">メスを入れない</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/point03.jpg?0910" alt="サムネイル"></div>
-        <p class="gosic">進行する肌老化を抑制し、若々しいお肌を保つことができます</p>
+        <p class="gosic">メスを使わずに美肌効果が得られるので、お気軽に受けられる施術です。</p>
       </li>
       <li class="box-size">
         <div class="points f-ryu">Point.4</div>
@@ -43,7 +42,7 @@ Template Name: メディカルエステ
         <h3 class="gd tc sp">ダウンタイムが<br>
           ほとんどない</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb05.jpg" alt="サムネイル"></div>
-        <p class="gosic">進行する肌老化を抑制し、若々しいお肌を保つことができます</p>
+        <p class="gosic">腫れやリスクがほとんどなく、すぐに普段の日常生活に戻れます。</p>
       </li>
     </ul>
   </div>
@@ -53,49 +52,92 @@ Template Name: メディカルエステ
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb08.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>ダーマペン4</h2>
-      <p class="ls1 gosic">ダーマペン4は米国FDAの認可を受けている医療機器で、16本の針(マイクロニードル)を用いて肌に微細な針穴を形成する医療機器です。優れたドラッグデリバリー効果で、高い効果が得られます。従来のダーマローラーに比べて表皮への負担が少なく、痛みや赤みなどのダウンタイムが大幅に軽減されました。</p>
+      <p class="ls1 gosic">ダーマペン4は米国FDAの認可を受けている医療機器で、16本の針(マイクロニードル)を用いて肌に微細な針穴を形成する医療機器です。優れたドラッグデリバリー効果で、ニキビ跡や毛穴、小ジワといったお悩み改善や肌の衰えを防ぐ効果が得られます。従来のダーマローラーに比べて表皮への負担が少なく、痛みや赤みなどのダウンタイムが大幅に軽減されました。加えて、深度は2.5mm～3.0mmまで調整可能になったことで、従来のダーマペン3に比べてよりいっそう有効成分を浸透させやすくなりました。</p>
     </div>
   </div>
 </section>
+<section class="features layout2">
+  <div class="inner-box2">
+    <h2 class="cp gosic tc ls1">ダーマペン4の特徴</h2>
+    <ul class="flex">
+      <li class="box-size">
+        <div class="points f-ryu">Point.1</div>
+        <h3 class="gd tc line1 pc">肌再生を促進する</h3>
+        <h3 class="gd tc sp">肌再生を<br>促進する</h3>
+        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb12.jpg" alt="サムネイル"></div>
+        <p class="gosic">お肌に極小の穴をつくることで、コラーゲン生成を促します。これがお肌にハリや弾力を蘇らせ、なめらかな毛穴をつくります。</p>
+      </li>
+      <li class="box-size">
+        <div class="points f-ryu">Point.2</div>
+        <h3 class="gd tc line1 pc">細かい部分のケアが可能</h3>
+          <h3 class="gd tc sp">細かい部分の<br>ケアが可能</h3>
+        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb11.jpg" alt="サムネイル"></div>
+        <p class="gosic">ペン型の機器なので、より細かい範囲のケアが可能です。目もとの小ジワやちりめんジワ、小鼻などにもあてやすいことが特徴です。</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="ope-kind velbet">
+<div class="wrap bg-cg2">
+  <div class="inner-box2">
+    <div class="box p40 flex al-cent">
+      <div class="desc">
+        <h2 class="ls1">ヴェルヴェットスキン</h2>
+        <p class="gosic">マッサージピールとダーマペン4を組み合わせた美肌治療です。マッサージピールに含まれる有効成分、TCA（トリクロロ酢酸）・過酸化水素水・コウジ酸をダーマペンによって、真皮層へとしっかり浸透させ、施術後の肌をふかふかで滑らかなヴェルヴェットの様な質感に導くのがこのヴェルヴェットスキンの特徴です。お肌にハリや弾力が欲しい方、若々しいお肌を取り戻したい方におすすめです。</p>
+      </div>
+      <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb10.jpg?4552" alt="サムネイル">  </div>
+    </div>
+  </div>
+</div>
+
+</section>
 <section class="price">
   <div class="inner-box2">
-    <h2 class="tc ls1">ダーマペン4料金</h2>
+    <h2 class="tc ls1">料金表</h2>
     <div class="price-list gosic">
       <dl class="flex">
-        <dt class="fw600">種類</dt>
+        <dt class="fw600">ダーマペン4</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
-        <dt>ダーマペン4</dt>
-        <dd>お問い合わせください</dd>
+        <dt>全顔</dt>
+        <dd>¥30,000</dd>
+        </dl>
+         <dl class="flex">
+        <dt>全顔＋首</dt>
+        <dd>¥45,000</dd>
+        </dl>
+         <dl class="flex">
+        <dt>1部位</dt>
+        <dd>¥16,000</dd>
+        </dl>
+    </div>
+
+      <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">オプション</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>マッサージピール(ヴェルヴェットスキン)</dt>
+        <dd>＋¥15,000</dd>
+        </dl>
+         <dl class="flex">
+        <dt>ブライト(美白) </dt>
+        <dd>＋¥15,000</dd>
+        </dl>
+         <dl class="flex">
+        <dt>ボトックス(毛穴・皮脂抑制)</dt>
+        <dd>＋¥15,000</dd>
+        </dl>
+         <dl class="flex">
+        <dt>トラネキサム酸(肝斑・色素沈着)</dt>
+        <dd>＋¥5,000</dd>
         </dl>
     </div>
   </div>
 </section>
-<section class="ope-intro bg-cp" id="area5">
-  <div class="inner flex ff-row-reverse al-cent">
-    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb09.jpg" alt="サムネイル"> </div>
-    <div class="text box-size">
-      <h2>ヴェルヴェットスキン</h2>
-      <p class="ls1 gosic">マッサージピールとダーマペン4を組み合わせた美肌治療です。マッサージピールに含まれる有効成分、TCA（トリクロロ酢酸）・過酸化水素水・コウジ酸をダーマペンによって、真皮層へとしっかり浸透させ、施術後の肌をふかふかで滑らかなヴェルヴェットの様な質感に導くのがこのヴェルヴェットスキンの特徴です。</p>
-    </div>
-  </div>
-</section>
-<section class="price">
-  <div class="inner-box2">
-    <h2 class="tc ls1">ヴェルヴェットスキン料金</h2>
-    <div class="price-list gosic">
-      <dl class="flex">
-        <dt class="fw600">種類</dt>
-        <dd class="f-bold">税別</dd>
-      </dl>
-      <dl class="flex">
-        <dt>ヴェルヴェットスキン</dt>
-        <dd>お問い合わせください</dd>
-        </dl>
-    </div>
-  </div>
-</section>
+
 <section class="ope-intro bg-cp" id="area1">
   <div class="inner flex  al-cent">
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/tenteki/thumb01.jpg" alt="サムネイル"> </div>

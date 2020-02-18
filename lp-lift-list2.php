@@ -8,21 +8,22 @@ Template Name: ランディングページスレッドリフト リスティン�
 /*
 Template Name: ユーザーエージェント
 */
-function ua_smt() {
-  $ua = $_SERVER[ 'HTTP_USER_AGENT' ];
-  $ua_list = array( 'APIs-Google', 'Mediapartners-Google', 'AdsBot-Google-Mobile', 'AdsBot-Google-Mobile', 'AdsBot-Google', 'AdsBot-Google-Mobile', 'AdsBot-Google-Mobile', 'AdsBot-Google', 'Googlebot-Image', 'Googlebot', 'Googlebot-News,Googlebot', 'Googlebot-Video', 'Googlebot', 'Googlebot', 'Mediapartners-Google', 'AdsBot-Google-Mobile-Apps', 'FeedFetcher-Google', 'Google-Read-Aloud' );
-  foreach ( $ua_list as $ua_smt ) {
-    if ( strpos( $ua, $ua_smt ) !== false ) {
-      return true;
+function ua_smt()
+{
+    $ua = $_SERVER[ 'HTTP_USER_AGENT' ];
+    $ua_list = array( 'APIs-Google', 'Mediapartners-Google', 'AdsBot-Google-Mobile', 'AdsBot-Google-Mobile', 'AdsBot-Google', 'AdsBot-Google-Mobile', 'AdsBot-Google-Mobile', 'AdsBot-Google', 'Googlebot-Image', 'Googlebot', 'Googlebot-News,Googlebot', 'Googlebot-Video', 'Googlebot', 'Googlebot', 'Mediapartners-Google', 'AdsBot-Google-Mobile-Apps', 'FeedFetcher-Google', 'Google-Read-Aloud' );
+    foreach ($ua_list as $ua_smt) {
+        if (strpos($ua, $ua_smt) !== false) {
+            return true;
+        }
     }
-  }
-  return false;
+    return false;
 }
 ?>
 <head>
 <meta charset="UTF-8">
 <title>
-<?php bloginfo( 'name' ); ?>
+<?php bloginfo('name'); ?>
 </title>
 <meta name="viewport" content="width=device-width">
 <meta name="format-detection" content="telephone=no">
@@ -31,8 +32,8 @@ function ua_smt() {
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/lp.css">
 
-<!-- Global site tag (gtag.js) - Google Ads: 710940797 --> 
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-710940797"></script> 
+<!-- Global site tag (gtag.js) - Google Ads: 710940797 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-710940797"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -44,7 +45,7 @@ function ua_smt() {
 </head>
 <body id="lp3" class="lps">
 <div class="wrapper">
-  <?php if ( wp_is_mobile() ) : ?>
+  <?php if (wp_is_mobile()) : ?>
   <header class="fv-sp"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp3/sp/fv_sp.jpg" alt="メイン画像"> </header>
   <?php else: ?>
   <header class="lp-header">
@@ -55,7 +56,7 @@ function ua_smt() {
         <?php else: ?>
         <a class="" href="https://fumibeauty.jp/reserve/lp-lift.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/header_btn01.png" alt="来院予約"></a>
         <?php endif; ?>
-        <!--//出力出し分け--> <a class="btn2" href="<?php echo home_url( '/' ); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/header_btn02.png" alt="お問合わせ"></a> </div>
+        <!--//出力出し分け--> <a class="btn2" href="<?php echo home_url('/'); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/header_btn02.png" alt="お問合わせ"></a> </div>
     </div>
   </header>
   <div class="lp-fv cf">
@@ -70,9 +71,9 @@ function ua_smt() {
     </div>
   </div>
   <!--FV END-->
-  
+
   <?php endif; ?>
-  <?php if ( wp_is_mobile() ) : ?>
+  <?php if (wp_is_mobile()) : ?>
   <?php else: ?>
   <section class="area2 area-bgs" id="bg1">
     <div class="lp-inner cf">
@@ -119,8 +120,8 @@ function ua_smt() {
         <a href="https://fumibeauty.jp/reserve/lp-lift.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約
 "></a>
         <?php endif; ?>
-        <!--//出力出し分け--> 
-        <a href="<?php echo home_url( '/' ); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/cv_btn2.png" alt="お問合わせ
+        <!--//出力出し分け-->
+        <a href="<?php echo home_url('/'); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/cv_btn2.png" alt="お問合わせ
 "></a> </div>
     </div>
   </div>
@@ -177,34 +178,45 @@ function ua_smt() {
       </div>
     </div>
   </section>
-  <?php if( have_rows('pr3',155) ): ?>
+  <?php if (have_rows('pr3', 155)): ?>
   <section class="case area-bgs" id="bg6">
     <div class="lp-inner">
       <h2 class="gd tc">症例写真</h2>
       <div class="case-photos flex">
-        <?php while ( have_rows('pr3',155) ) : the_row(); ?>
+      <?php while (have_rows('pr3', 155)) : the_row(); ?>
+        <!-- サブリピートスタート-->
+        <?php if (have_rows('pr3_sub')): ?>
+        <?php while (have_rows('pr3_sub', 155)) : the_row(); ?>
         <div class="case-box">
           <div class="ba-box flex">
             <div class="box">
-              <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
+              <div class="thumb"> <img src="<?php the_sub_field('befor_p', 155); ?>" alt=""> </div>
               <p class="gd tc">
-                <?php the_sub_field('befor_title',155); ?>
+                <?php the_sub_field('befor_title', 155); ?>
               </p>
             </div>
+            <!---->
+
             <div class="box">
-              <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
+              <div class="thumb"> <img src="<?php the_sub_field('after_p', 155); ?>" alt=""> </div>
               <p class="gd tc">
-                <?php the_sub_field('after_title',155); ?>
+                <?php the_sub_field('after_title', 155); ?>
               </p>
             </div>
+            <!---->
             <div class="arw"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/case_arrow.png" alt=">"></div>
           </div>
-          <?php if( get_sub_field('text',155) ): ?>
-          <div class="comment cp gosic box-size">
-            <?php the_sub_field('text',155); ?>
-          </div>
-          <?php endif; ?>
+          <!---->
         </div>
+        <!--./ case-box-->
+        <?php endwhile; ?>
+        <?php endif; ?>
+        <!--  サブリピートEND-->
+        <?php if (get_sub_field('text', 155)): ?>
+        <div class="comment cp gosic box-size">
+          <?php the_sub_field('text', 155); ?>
+        </div>
+        <?php endif; ?>
         <?php endwhile; ?>
         <div class="note box-size">
           <h4 class="tc"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/note.png" alt="注意事項"></h4>
@@ -255,10 +267,10 @@ function ua_smt() {
             <td>8本</td>
             <td>¥400,000(1本あたり¥50,000)</td>
           </tr>
-         
+
         </tbody>
       </table>-->
-      
+
       <table class="pt2 gosic mb35">
         <thead>
           <tr>
@@ -403,13 +415,13 @@ function ua_smt() {
         <p class="sm tc cw time">受付時間<br>
           10:00～18:00 </p>
       </div>
-      <div class="lp-cv-btn flex"> 
+      <div class="lp-cv-btn flex">
         <!--出力出し分け-->
         <?php if (ua_smt() == true): ?>
         <?php else: ?>
         <a href="https://fumibeauty.jp/reserve/lp-lift.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/cv_btn01.png" alt="来院予約"></a>
         <?php endif; ?>
-        <!--//出力出し分け--> <a href="<?php echo home_url( '/' ); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/cv_btn2.png" alt="お問い合わせ"></a> </div>
+        <!--//出力出し分け--> <a href="<?php echo home_url('/'); ?>contact-list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/lp3/cv_btn2.png" alt="お問い合わせ"></a> </div>
     </div>
   </div>
   <section class="flow bg-blue">
@@ -483,12 +495,12 @@ function ua_smt() {
             'orderby' => 'date',
             'order' => 'DESC',
           );
-          $the_query = new WP_Query( $args );
-          while ( $the_query->have_posts() ): $the_query->the_post();
+          $the_query = new WP_Query($args);
+          while ($the_query->have_posts()): $the_query->the_post();
           ?>
-          
+
           <!-- Slides -->
-          
+
           <div class="qas gd box-size swiper-slide">
             <p class="qa-txt mb15 cblue"><span class="q">Q</span>
               <?php the_title(); ?>
@@ -584,7 +596,7 @@ function ua_smt() {
     </div>
   </section>
   <!--MAP END-->
-  
+
   <footer class="lp-footer">
     <div class="inner">
       <p class="copy cp"><small>fumi beauty cinic(ふみビューティクリニック梅田)美容皮膚科・形成外科・皮膚科<br>
@@ -592,12 +604,12 @@ function ua_smt() {
     </div>
   </footer>
   <a href="#" class="page-top bounce"><img src="<?php echo get_template_directory_uri(); ?>/img/common/scrool_up.svg" alt="scrool-up"></a> </div>
-<!--WRAPPER END--> 
+<!--WRAPPER END-->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script> 
-<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script> 
-<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
 <script>
     function initMap() {
         var latlng = new google.maps.LatLng( 34.707103, 135.495992 );
@@ -605,12 +617,12 @@ function ua_smt() {
             zoom: 16,
             center: latlng
         });
-			
+
              var marker = new google.maps.Marker({
           position: latlng,
           map: map
         });
-			
+
         /*=========ここから追加=========*/
         var mapStyle = [ {
             "stylers": [ {
@@ -622,7 +634,7 @@ function ua_smt() {
             map.setMapTypeId( 'GrayScaleMap' );
         /*=========ここまで追加=========*/
       }
-</script> 
+</script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBwr6DPo5X5S4CbkcKpSV5atpzNnKAifI&callback=initMap"></script>
 <?php wp_footer(); ?>
 </body>

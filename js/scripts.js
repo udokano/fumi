@@ -191,6 +191,32 @@ $(function () {
 
   });
 
+  //現在のタクソノミーが一致し選択肢を選択済み
+
+  $(function () {
+    $('#tax__change option').each(function () {
+
+      //現在ページのURLの末尾を取得
+      var activeUrl = location.href;　// 2階層目
+      //var activeUrl02 = location.href;　// 2階層目
+      console.log(activeUrl);
+      //テスト出力
+
+      //valu(カテゴリースラッグ)取得
+      var href = $(this).val();
+      //テスト出力
+      console.log(href);
+      //  console.log(href);
+      if (href == activeUrl) {
+        // $("#foo option").prop("selected",false);
+        $(this).prop("selected", true);
+        // $("#bar").prop("disabled",false);
+        //$("#foo option").val(href);
+
+      }
+    });
+  });
+
   //スムーススクロール
   var headerHight = 100; //ヘッダの高さ
   $('a[href^=#]').click(function () {

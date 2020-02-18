@@ -1,5 +1,5 @@
 
-<?php get_header()?>
+<?php get_header();?>
 <div class="page-head single">
  <h1 class="f-ryu"><?php the_title(); ?></h1>
   <?php echo breadcrumb_func(); ?>
@@ -7,11 +7,30 @@
 </div>
 
 
+
+
 <section class="singe__case">
 <div class="inner">
 
-	<?php if (have_posts()): while (have_posts()): the_post(); ?>
+<div class="select__content box-size">
+  <h2 class="tc gd gosic">施術の種類</h2>
+ <?php
+  $args = array(
+     'post_type' => array('case'),
+    );
 
+$my_terms = get_terms('faq_kind', $args);
+  echo '<select id="tax__change" onchange="location.href=value;">';
+
+foreach ($my_terms as $term) {
+    echo '<option value="' . get_term_link($term->slug, "faq_kind") . '">' . $term->name . '</option>';
+}
+   echo '</select>';
+
+?>
+  </div><!-- ./ select__content-->
+
+	<?php if (have_posts()): while (have_posts()): the_post(); ?>
 
   <?php if (have_rows('photo')): ?>
   <div class="photo__area">
@@ -49,6 +68,16 @@
   <?php else: ?>
   <?php endif; ?>
 
+   <?php if (get_field('ope_desc')): ?>
+          <div class="risk text__box gosic box-size">
+
+          <dl>
+            <dt>施術内容・説明</dt>
+            <dd><?php the_field('ope_desc');?></dd>
+          </dl>
+          </div>
+  <?php endif; ?>
+
    <?php if (get_field('risk')): ?>
           <div class="risk text__box gosic box-size">
 
@@ -70,6 +99,9 @@
   <?php endif; ?>
 
 <?php endwhile; endif; ?>
+
+
+
 
 
 </div>
