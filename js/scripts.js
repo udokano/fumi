@@ -60,21 +60,26 @@ $(function () {
 
 
   //トップページFV
-  $(window).on('load', function () {
-    var mySwiperfv = new Swiper('.fv-slide', {
-      loop: true,
-      effect: 'fade',
-      speed: 8000,
-      initialSlide: 0,
-      slidesPerView: 1,
-      paginationClickable: false,
-      autoplayDisableOnInteraction: false,
-      /*  autoplay: {
-         delay: 9000,
-         autoplayDisableOnInteraction: false
-       }, */
-    })
+  $(function () {
+    setTimeout(function () {
+      var mySwiperfv = new Swiper('.fv-slide', {
+        loop: true,
+        effect: 'fade',
+        speed: 6000,
+        initialSlide: 0,
+        slidesPerView: 1,
+        paginationClickable: false,
+        autoplayDisableOnInteraction: false,
+        autoplay: {
+          delay: 7000,
+          autoplayDisableOnInteraction: false
+        },
+      })
+    }, 3500);
   });
+
+
+
   //バナー
 
   var mySwiper = new Swiper('.swiper1', {
@@ -184,6 +189,32 @@ $(function () {
       }
     }
 
+  });
+
+  //現在のタクソノミーが一致し選択肢を選択済み
+
+  $(function () {
+    $('#tax__change option').each(function () {
+
+      //現在ページのURLの末尾を取得
+      var activeUrl = location.href;　// 2階層目
+      //var activeUrl02 = location.href;　// 2階層目
+      console.log(activeUrl);
+      //テスト出力
+
+      //valu(カテゴリースラッグ)取得
+      var href = $(this).val();
+      //テスト出力
+      console.log(href);
+      //  console.log(href);
+      if (href == activeUrl) {
+        // $("#foo option").prop("selected",false);
+        $(this).prop("selected", true);
+        // $("#bar").prop("disabled",false);
+        //$("#foo option").val(href);
+
+      }
+    });
   });
 
   //スムーススクロール

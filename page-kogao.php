@@ -13,7 +13,217 @@ Template Name: 小顔治療
     たるみなどかによって治療方法が異なります。<br>
     診察でより適切な治療方法をご提案致します。</p>
   <p class="tc sp">お顔が大きくみえる原因が脂肪なのか、筋肉のはりなのか、たるみなどかによって治療方法が異なります。診察でより適切な治療方法をご提案致します。</p>
-  <div class="ancor-box"> <a href="#area1">BNLS neo</a><a href="#area2">エラボトックス</a> </div>
+  <div class="ancor-box">
+     <a href="#area3">スレッドリフト</a>
+     <a href="#area1">BNLS neo</a>
+  <a href="#area2">エラボトックス</a>
+
+</div>
+</section>
+<section class="ope-intro bg-cp" id="area3">
+  <div class="inner flex al-cent">
+    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/thumb01.jpg" alt="サムネイル"> </div>
+    <div class="text box-size">
+      <h2>スレッドリフト</h2>
+      <p class="ls1 gosic">溶ける糸を用いて気になるたるみを引き上げます。</p>
+    </div>
+  </div>
+</section>
+<section class="features layout1">
+  <div class="inner-box2">
+    <h2 class="cp gosic tc ls1">スレッドリフトの特徴</h2>
+    <div class="box">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/point01.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.1</div>
+        <h3 class="gd ls1">お肌のハリ向上</h3>
+        <p class="gosic">挿入した糸が周囲の組織を活性化させ自身のコラーゲンが増生されることによって、お肌のハリが向上します。</p>
+      </div>
+    </div>
+    <div class="box cf">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/point02.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.2</div>
+        <h3 class="gd ls1">小顔効果</h3>
+        <p class="gosic">コラーゲンの増生による、お肌の引き締め効果で小顔に近づけることが可能です。</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/point03.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.3</div>
+        <h3 class="gd ls1">リフトアップ効果</h3>
+        <p class="gosic">糸の挿入によって、お肌の引き上げ効果（リフティング効果）で、リフトアップが期待できます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+<?php if (have_rows('ope_tarumi_lift', 155)): ?>
+<section class="case">
+  <div class="inner">
+    <h2 class="tc">症例</h2>
+    <div class="case-wrap flex">
+      <?php while (have_rows('ope_tarumi_lift', 155)) : the_row(); ?>
+      <div class="case-box flex">
+        <div class="box">
+          <div class="thumb"> <img src="<?php the_sub_field('befor_p', 155); ?>" alt=""> </div>
+          <p class="gosic tc">
+            <?php the_sub_field('befor_txt', 155); ?>
+          </p>
+        </div>
+        <div class="box">
+          <div class="thumb"> <img src="<?php the_sub_field('after_p', 155); ?>" alt=""> </div>
+          <p class="gosic tc">
+            <?php the_sub_field('after_txt', 155); ?>
+          </p>
+        </div>
+      </div>
+      <?php endwhile; ?>
+    </div>
+    <div class="note box-size gosic">
+      <p>リスク副作用</p>
+      <p>・ごく稀に、術後は多少の腫れや突っ張り感を感じることもありますが、
+        通常数日で落ち着きます。</p>
+    </div>
+  </div>
+</section>
+<?php else: ?>
+<?php endif; ?>
+<!--<section class="bg-cg2 kuchikomi">
+  <div class="inner-box2">
+    <div class="kuchikomi-slide slide-area">
+      <h2 class="tc gd gosic ls2">施術の感想</h2>
+      <div class="swiper-container slide-p2 swiper4">
+        <div class="swiper-wrapper">
+          <div class="gosic swiper-slide">
+            <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/coming.jpg" alt="準備中"></div>
+            <p class="tc mt20">準備中</p>
+          </div>
+            <div class="gosic swiper-slide">
+            <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/coming.jpg" alt="準備中"></div>
+            <p class="tc mt20">準備中</p>
+          </div>
+            <div class="gosic swiper-slide">
+            <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/coming.jpg" alt="準備中"></div>
+            <p class="tc mt20">準備中</p>
+          </div>
+            <div class="gosic swiper-slide">
+            <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/coming.jpg" alt="準備中"></div>
+            <p class="tc mt20">準備中</p>
+          </div>
+        </div>
+        <div class="swiper-button-prev prev2"></div>
+        <div class="swiper-button-next next2"></div>
+          <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+  </div>
+</section>-->
+<section class="price">
+  <div class="inner-box2">
+    <h2 class="tc ls1">スレッドリフト料金</h2>
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">シルエットソフト</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 2本</dt>
+        <dd>¥195,000(1本あたり¥97,500)</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 4本</dt>
+        <dd>¥296,000(1本あたり¥74,000)</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 6本</dt>
+        <dd>¥378,000(1本あたり¥63,000)</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 8本</dt>
+        <dd>¥400,000(1本あたり¥50,000)</dd>
+      </dl>
+    </div>
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">Gコグ</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 1本</dt>
+        <dd>¥60,000</dd>
+      </dl>
+    </div>
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">VOVリフト</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 1本</dt>
+        <dd>¥40,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 5本目以降</dt>
+        <dd>1本あたり¥30,000<br>
+          Gコグとの併用の場合1本30000円</dd>
+      </dl>
+    </div>
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">引き締め系ショートスレッド</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 10本</dt>
+        <dd>¥40,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 20本</dt>
+        <dd>¥70,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 30本</dt>
+        <dd>¥90,000</dd>
+      </dl>
+    </div>
+  </div>
+  </div>
+</section>
+<section class="ope-faq">
+  <div class="inner">
+    <h2 class="tc ls1">よくある質問</h2>
+    <?php
+    $args = array(
+      'post_type' => 'faq',
+      'tax_query' => array(
+        array(
+          'taxonomy' => 'faq_kind',
+          'field' => 'slug',
+          'terms' => array( 's_lift' )
+        )
+      ),
+      'orderby' => 'date',
+      'order' => 'DESC',
+    );
+    $the_query = new WP_Query($args);
+    while ($the_query->have_posts()): $the_query->the_post();
+    ?>
+
+    <!--ここにループの中の記述 -->
+
+    <dl class="box-size">
+      <dt><span class="q">Q</span><span class="gosic">
+        <?php the_title(); ?>
+        </span></dt>
+      <dd><span class="a">A</span><span class="gosic">
+        <?php remove_filter('the_content', 'wpautop'); ?>
+        <?php the_content(); ?>
+        </span></dd>
+    </dl>
+    <?php endwhile; wp_reset_postdata(); ?>
+  </div>
 </section>
 <section class="ope-intro bg-cp" id="area1">
   <div class="inner flex al-cent">
@@ -60,23 +270,23 @@ Template Name: 小顔治療
     <div class="img"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/img01.png" alt="注入部位"> </div>
   </div>
 </section>
-<?php if( have_rows('ope_kogao_bnls',155) ): ?>
+<?php if (have_rows('ope_kogao_bnls', 155)): ?>
 <section class="case">
   <div class="inner">
     <h2 class="tc">症例</h2>
     <div class="case-wrap flex">
-      <?php while ( have_rows('ope_kogao_bnls',155) ) : the_row(); ?>
+      <?php while (have_rows('ope_kogao_bnls', 155)) : the_row(); ?>
       <div class="case-box flex">
         <div class="box">
-          <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
+          <div class="thumb"> <img src="<?php the_sub_field('befor_p', 155); ?>" alt=""> </div>
           <p class="gosic tc">
-            <?php the_sub_field('befor_txt',155); ?>
+            <?php the_sub_field('befor_txt', 155); ?>
           </p>
         </div>
         <div class="box">
-          <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
+          <div class="thumb"> <img src="<?php the_sub_field('after_p', 155); ?>" alt=""> </div>
           <p class="gosic tc">
-            <?php the_sub_field('after_txt',155); ?>
+            <?php the_sub_field('after_txt', 155); ?>
           </p>
         </div>
       </div>
@@ -95,7 +305,7 @@ Template Name: 小顔治療
     <div class="kuchikomi-slide slide-area">
       <h2 class="tc gd gosic ls2">施術の感想</h2>
       <div class="swiper-container slide-p2 swiper4">
-        <div class="swiper-wrapper"> 
+        <div class="swiper-wrapper">
           <div class="gosic swiper-slide">
             <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/coming.jpg" alt="準備中"></div>
             <p class="tc mt20">準備中</p>
@@ -118,7 +328,7 @@ Template Name: 小顔治療
           <div class="swiper-pagination"></div>
       </div>
     </div>
-    
+
   </div>
 </section>-->
 <section class="price">
@@ -152,12 +362,12 @@ Template Name: 小顔治療
       'orderby' => 'date',
       'order' => 'DESC',
     );
-    $the_query = new WP_Query( $args );
-    while ( $the_query->have_posts() ): $the_query->the_post();
+    $the_query = new WP_Query($args);
+    while ($the_query->have_posts()): $the_query->the_post();
     ?>
-    
+
     <!--ここにループの中の記述 -->
-    
+
     <dl class="box-size">
       <dt><span class="q">Q</span><span class="gosic">
         <?php the_title(); ?>
@@ -177,7 +387,7 @@ Template Name: 小顔治療
     <div class="text box-size">
       <h2>エラボトックス</h2>
       <p class="ls1 gosic">エラがはって見える場合、咬筋と言われる噛む時に使う筋肉が発達している事がほとんどです。咬筋にボトックスを注射する事で咬筋が小さくなり小顔効果が高い治療です。 </p><br>
-        
+
     </div>
   </div>
 </section>
@@ -209,23 +419,23 @@ Template Name: 小顔治療
     <div class="img"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/img03.png" alt="注入部位"> </div>
   </div>
 </section>
-<?php if( have_rows('ope_kogao_btxela',155) ): ?>
+<?php if (have_rows('ope_kogao_btxela', 155)): ?>
 <section class="case">
   <div class="inner">
     <h2 class="tc">症例</h2>
     <div class="case-wrap flex">
-      <?php while ( have_rows('ope_kogao_btxela',155) ) : the_row(); ?>
+      <?php while (have_rows('ope_kogao_btxela', 155)) : the_row(); ?>
       <div class="case-box flex">
         <div class="box">
-          <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt="img"> </div>
+          <div class="thumb"> <img src="<?php the_sub_field('befor_p', 155); ?>" alt="img"> </div>
           <p class="gosic tc">
-            <?php the_sub_field('befor_txt',155); ?>
+            <?php the_sub_field('befor_txt', 155); ?>
           </p>
         </div>
         <div class="box">
-          <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt="img"> </div>
+          <div class="thumb"> <img src="<?php the_sub_field('after_p', 155); ?>" alt="img"> </div>
           <p class="gosic tc">
-            <?php the_sub_field('after_txt',155); ?>
+            <?php the_sub_field('after_txt', 155); ?>
           </p>
         </div>
       </div>
@@ -273,12 +483,12 @@ Template Name: 小顔治療
       'orderby' => 'date',
       'order' => 'DESC',
     );
-    $the_query = new WP_Query( $args );
-    while ( $the_query->have_posts() ): $the_query->the_post();
+    $the_query = new WP_Query($args);
+    while ($the_query->have_posts()): $the_query->the_post();
     ?>
-    
+
     <!--ここにループの中の記述 -->
-    
+
     <dl class="box-size">
       <dt><span class="q">Q</span><span class="gosic">
         <?php the_title(); ?>
@@ -291,6 +501,8 @@ Template Name: 小顔治療
     <?php endwhile; wp_reset_postdata(); ?>
   </div>
 </section>
+
+
 <section class="flow">
   <div class="inner">
     <h2 class="tc ls1">施術の流れ</h2>

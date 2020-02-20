@@ -659,7 +659,7 @@ section {
 }
 .case .lp-inner .case-photos .case-box {
   width: 48%;
-  margin-bottom: 35px;
+  margin-bottom: 22px;
 }
 .case .lp-inner .case-photos .case-box .ba-box {
   position: relative;
@@ -690,10 +690,12 @@ section {
           transform: translateX(-50%);
   width: 30px;
 }
-.case .lp-inner .case-photos .case-box .comment {
+.case .lp-inner .case-photos .comment {
   padding: 22px;
   background-color: #f3e9f0;
-  line-height: 1.8;
+  line-height: 1.65;
+  width: 57%;
+  margin: 0 auto 80px;
 }
 .case .lp-inner .note {
   width: 100%;
@@ -874,8 +876,8 @@ table td .sm {
     margin-bottom: 60px;
   }
   .case .lp-inner .case-photos .case-box {
-    width: 96%;
-    margin: 0 auto 35px;
+    width: 100%;
+    margin-bottom: 15px;
   }
   .case .lp-inner .case-photos .case-box .ba-box .box {
     width: 50%;
@@ -896,9 +898,8 @@ table td .sm {
             transform: translate(-50%, -50%);
     width: 25px;
   }
-  .case .lp-inner .case-photos .case-box .comment {
-    padding: 22px;
-    line-height: 1.8;
+  .case .lp-inner .case-photos .comment {
+    width: 100%;
   }
   .case .lp-inner .note {
     width: 100%;
@@ -1550,4 +1551,5 @@ table td .sm {
 .price .lp-inner table.pt2 tr .right {
   width: 50%;
 }
+
 /*# sourceMappingURL=lp.css.map */

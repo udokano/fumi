@@ -1,8 +1,7 @@
 <?php
 /*
-Template Name: 鼻の糸 
+Template Name: 鼻の糸
 */
-
 ?>
 <?php get_header()?>
 <div class="page-head">
@@ -81,23 +80,23 @@ Template Name: 鼻の糸
   </div>
 </div>
 </section>
-<?php if( have_rows('ope_nose',155) ): ?>
+<?php if (have_rows('ope_nose', 155)): ?>
 <section class="case">
   <div class="inner">
     <h2 class="tc">症例</h2>
     <div class="case-wrap flex">
-      <?php while ( have_rows('ope_nose',155) ) : the_row(); ?>
+      <?php while (have_rows('ope_nose', 155)) : the_row(); ?>
       <div class="case-box flex">
         <div class="box">
-          <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
+          <div class="thumb"> <img src="<?php the_sub_field('befor_p', 155); ?>" alt=""> </div>
           <p class="gosic tc">
-            <?php the_sub_field('befor_txt',155); ?>
+            <?php the_sub_field('befor_txt', 155); ?>
           </p>
         </div>
         <div class="box">
-          <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
+          <div class="thumb"> <img src="<?php the_sub_field('after_p', 155); ?>" alt=""> </div>
           <p class="gosic tc">
-            <?php the_sub_field('after_txt',155); ?>
+            <?php the_sub_field('after_txt', 155); ?>
           </p>
         </div>
       </div>
@@ -116,7 +115,7 @@ Template Name: 鼻の糸
     <div class="kuchikomi-slide slide-area">
       <h2 class="tc gd gosic ls2">施術の感想</h2>
       <div class="swiper-container slide-p2 swiper4">
-        <div class="swiper-wrapper"> 
+        <div class="swiper-wrapper">
           <div class="gosic swiper-slide">
             <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/coming.jpg" alt="準備中"></div>
             <p class="tc mt20">準備中</p>
@@ -243,12 +242,12 @@ Template Name: 鼻の糸
       'orderby' => 'date',
       'order' => 'DESC',
     );
-    $the_query = new WP_Query( $args );
-    while ( $the_query->have_posts() ): $the_query->the_post();
+    $the_query = new WP_Query($args);
+    while ($the_query->have_posts()): $the_query->the_post();
     ?>
-    
+
     <!--ここにループの中の記述 -->
-    
+
     <dl class="box-size">
       <dt><span class="q">Q</span><span class="gosic">
         <?php the_title(); ?>

@@ -21,7 +21,8 @@
           <li><a href="<?php echo home_url('/'); ?>#bg3">施術・料金</a></li>
           <li><a href="<?php echo home_url('/'); ?>access">アクセス</a></li>
           <li><a href="<?php echo home_url('/'); ?>doctor">ドクター紹介</a></li>
-          <li><a href="<?php echo home_url('/'); ?>recruit">採用情報</a></li>
+              <li><a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank">院長ブログ</a></li>
+               <li><a href="<?php echo home_url('/');?>case-list" class="c_gray">症例写真</a></li>
           <li><a href="https://fumibeauty.reserve.ne.jp/" target="_blank">来院予約</a></li>
           <li><a href="<?php echo home_url('/'); ?>contact">お問合わせ</a></li>
         </ul>
@@ -39,19 +40,20 @@ Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
             <li><a href="<?php echo home_url('/'); ?>concept">当院について</a></li>
             <li class="parent"><a href="#" id="ac-txt">施術・料金</a>
               <ul class="child" id="ac">
-                  <li><a href="<?php echo home_url('/'); ?>tarumi">たるみ治療</a></li>
-                  <li><a href="<?php echo home_url('/'); ?>siwa">しわ治療</a></li>
-                  <li><a href="<?php echo home_url('/'); ?>kogao">小顔治療</a></li>
-                  <li><a href="<?php echo home_url('/'); ?>nose-lift">鼻の糸</a></li>
-                  <li><a href="<?php echo home_url('/'); ?>keiseigeka">形成外科治療</a></li>
-                  <li><a href="<?php echo home_url('/'); ?>medikaru">美肌治療</a></li>
-                  <li class="mb0"><a href="<?php echo home_url('/'); ?>cosmetics">ドクターズコスメ</a></li>
-                  <li class="mb0"><a href="<?php echo home_url('/'); ?>shoshin">初診料・再診料</a></li>
+                     <li><a href="<?php echo home_url('/'); ?>tarumi" class="c_gray">たるみ治療</a></li>
+          <li><a href="<?php echo home_url('/'); ?>siwa" class="c_gray">しわ治療</a></li>
+           <li><a href="<?php echo home_url('/'); ?>medikaru" class="c_gray">美肌治療</a></li>
+          <li><a href="<?php echo home_url('/'); ?>kogao" class="c_gray">小顔治療</a></li>
+          <li><a href="<?php echo home_url('/'); ?>nose-lift" class="c_gray">鼻の糸</a></li>
+          <li><a href="<?php echo home_url('/'); ?>keiseigeka" class="c_gray">形成外科治療</a></li>
+          <li class="mb0"><a href="<?php echo home_url('/'); ?>cosmetics" class="c_gray">ドクターズコスメ</a></li>
+          <li class="mb0"><a href="<?php echo home_url('/'); ?>shoshin" class="c_gray">初診料・再診料</a></li>
               </ul>
             </li>
             <li><a href="<?php echo home_url('/'); ?>access">アクセス</a></li>
             <li><a href="<?php echo home_url('/'); ?>doctor">ドクター紹介</a></li>
-                <li class=""><a href="<?php echo home_url('/'); ?>recruit">採用情報</a></li>
+                   <li><a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank">院長ブログ</a></li>
+                    <li><a href="<?php echo home_url('/');?>case-list" class="c_gray">症例写真</a></li>
             <!--<li><a href="https://fumibeauty.reserve.ne.jp/" target="_blank">来院予約</a></li>-->
             <li class="mb0"><a href="<?php echo home_url('/'); ?>contact">お問合わせ</a></li>
         </ul>
@@ -77,7 +79,7 @@ Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?0214585"></script>
 
   <script>
 

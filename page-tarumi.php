@@ -49,7 +49,7 @@ Template Name: たるみ治療
     <div class="box">
       <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/point05.jpg" alt="ポイントエリアサムネイル"></div>
       <div class="desc box-size bg-grade">
-        <div class="points f-ryu cw">Point.1</div>
+        <div class="points f-ryu cw">Point.3</div>
         <h3 class="gd ls1">顔全体のバランスを<br>
           整える</h3>
         <p class="gosic">気になる部位にヒアルロン酸を注入して、お顔全体を黄金バランスにより近づくようにします。</p>
@@ -57,23 +57,23 @@ Template Name: たるみ治療
     </div>
   </div>
 </section>
-<?php if( have_rows('ope_tarumi_hel',155) ): ?>
+<?php if (have_rows('ope_tarumi_hel', 155)): ?>
 <section class="case">
   <div class="inner">
     <h2 class="tc">症例</h2>
     <div class="case-wrap flex">
-      <?php while ( have_rows('ope_tarumi_hel',155) ) : the_row(); ?>
+      <?php while (have_rows('ope_tarumi_hel', 155)) : the_row(); ?>
       <div class="case-box flex">
         <div class="box">
-          <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
+          <div class="thumb"> <img src="<?php the_sub_field('befor_p', 155); ?>" alt=""> </div>
           <p class="gosic tc">
-            <?php the_sub_field('befor_txt',155); ?>
+            <?php the_sub_field('befor_txt', 155); ?>
           </p>
         </div>
         <div class="box">
-          <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
+          <div class="thumb"> <img src="<?php the_sub_field('after_p', 155); ?>" alt=""> </div>
           <p class="gosic tc">
-            <?php the_sub_field('after_txt',155); ?>
+            <?php the_sub_field('after_txt', 155); ?>
           </p>
         </div>
       </div>
@@ -154,12 +154,12 @@ Template Name: たるみ治療
       'orderby' => 'date',
       'order' => 'DESC',
     );
-    $the_query = new WP_Query( $args );
-    while ( $the_query->have_posts() ): $the_query->the_post();
+    $the_query = new WP_Query($args);
+    while ($the_query->have_posts()): $the_query->the_post();
     ?>
-    
+
     <!--ここにループの中の記述 -->
-    
+
     <dl class="box-size">
       <dt><span class="q">Q</span><span class="gosic">
         <?php the_title(); ?>
@@ -210,23 +210,23 @@ Template Name: たるみ治療
     </div>
   </div>
 </section>
-<?php if( have_rows('ope_tarumi_lift',155) ): ?>
+<?php if (have_rows('ope_tarumi_lift', 155)): ?>
 <section class="case">
   <div class="inner">
     <h2 class="tc">症例</h2>
     <div class="case-wrap flex">
-      <?php while ( have_rows('ope_tarumi_lift',155) ) : the_row(); ?>
+      <?php while (have_rows('ope_tarumi_lift', 155)) : the_row(); ?>
       <div class="case-box flex">
         <div class="box">
-          <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
+          <div class="thumb"> <img src="<?php the_sub_field('befor_p', 155); ?>" alt=""> </div>
           <p class="gosic tc">
-            <?php the_sub_field('befor_txt',155); ?>
+            <?php the_sub_field('befor_txt', 155); ?>
           </p>
         </div>
         <div class="box">
-          <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
+          <div class="thumb"> <img src="<?php the_sub_field('after_p', 155); ?>" alt=""> </div>
           <p class="gosic tc">
-            <?php the_sub_field('after_txt',155); ?>
+            <?php the_sub_field('after_txt', 155); ?>
           </p>
         </div>
       </div>
@@ -246,7 +246,7 @@ Template Name: たるみ治療
     <div class="kuchikomi-slide slide-area">
       <h2 class="tc gd gosic ls2">施術の感想</h2>
       <div class="swiper-container slide-p2 swiper4">
-        <div class="swiper-wrapper"> 
+        <div class="swiper-wrapper">
           <div class="gosic swiper-slide">
             <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/coming.jpg" alt="準備中"></div>
             <p class="tc mt20">準備中</p>
@@ -269,7 +269,7 @@ Template Name: たるみ治療
           <div class="swiper-pagination"></div>
       </div>
     </div>
-    
+
   </div>
 </section>-->
 <section class="price">
@@ -359,12 +359,12 @@ Template Name: たるみ治療
       'orderby' => 'date',
       'order' => 'DESC',
     );
-    $the_query = new WP_Query( $args );
-    while ( $the_query->have_posts() ): $the_query->the_post();
+    $the_query = new WP_Query($args);
+    while ($the_query->have_posts()): $the_query->the_post();
     ?>
-    
+
     <!--ここにループの中の記述 -->
-    
+
     <dl class="box-size">
       <dt><span class="q">Q</span><span class="gosic">
         <?php the_title(); ?>
@@ -424,23 +424,23 @@ Template Name: たるみ治療
     <div class="img"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/img02.png" alt="注入部位"> </div>
   </div>
 </section>
-<?php if( have_rows('ope_kogao_btxlift',155) ): ?>
+<?php if (have_rows('ope_kogao_btxlift', 155)): ?>
 <section class="case">
   <div class="inner">
     <h2 class="tc">症例</h2>
     <div class="case-wrap flex">
-      <?php while ( have_rows('ope_kogao_btxlift',155) ) : the_row(); ?>
+      <?php while (have_rows('ope_kogao_btxlift', 155)) : the_row(); ?>
       <div class="case-box flex">
         <div class="box">
-          <div class="thumb"> <img src="<?php the_sub_field('befor_p',155); ?>" alt=""> </div>
+          <div class="thumb"> <img src="<?php the_sub_field('befor_p', 155); ?>" alt=""> </div>
           <p class="gosic tc">
-            <?php the_sub_field('befor_txt',155); ?>
+            <?php the_sub_field('befor_txt', 155); ?>
           </p>
         </div>
         <div class="box">
-          <div class="thumb"> <img src="<?php the_sub_field('after_p',155); ?>" alt=""> </div>
+          <div class="thumb"> <img src="<?php the_sub_field('after_p', 155); ?>" alt=""> </div>
           <p class="gosic tc">
-            <?php the_sub_field('after_txt',155); ?>
+            <?php the_sub_field('after_txt', 155); ?>
           </p>
         </div>
       </div>
@@ -489,12 +489,12 @@ Template Name: たるみ治療
       'orderby' => 'date',
       'order' => 'DESC',
     );
-    $the_query = new WP_Query( $args );
-    while ( $the_query->have_posts() ): $the_query->the_post();
+    $the_query = new WP_Query($args);
+    while ($the_query->have_posts()): $the_query->the_post();
     ?>
-    
+
     <!--ここにループの中の記述 -->
-    
+
     <dl class="box-size">
       <dt><span class="q">Q</span><span class="gosic">
         <?php the_title(); ?>

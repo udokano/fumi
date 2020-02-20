@@ -420,9 +420,14 @@
 
     .case-box {
         margin-bottom: 55px;
+        width: 48%;
 
         .box {
+            width: 48%;
+
             .thumb {
+                width: 100%;
+
                 img {
                     height: auto;
                 }
@@ -439,7 +444,9 @@
                     right: -35px;
                     border-style: solid;
                     border-width: 12px 0 12px 19.3px;
-                    border-color: transparent transparent transparent $cp;
+
+                    //border-color: transparent transparent transparent $cp;
+                    border-color: transparent transparent transparent $gray02;
                 }
             }
         }
@@ -554,7 +561,9 @@
                     height: 0;
                     border-style: solid;
                     border-width: 45.9px 26.5px 0 26.5px;
-                    border-color: #f0e6c8 transparent transparent transparent;
+
+                    //border-color: #f0e6c8 transparent transparent transparent;
+                    border-color: $gray03 transparent transparent transparent;
                 }
 
                 &:nth-of-type(4)::after {
@@ -886,6 +895,21 @@
         }
     }
 
+    .velbet {
+        .wrap {
+            .inner-box2 {
+                .box {
+                    .desc {
+                        h2 {
+                            margin: 30px auto;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     .kind-p02 {
         .wrap {
             .inner-box2 {
@@ -909,8 +933,6 @@
         }
     }
 
-    /*症例*/
-
     .case {
         .inner {
             h2 {
@@ -922,6 +944,7 @@
 
                 .case-box {
                     margin-bottom: 55px;
+                    width: 100%;
 
                     .box {
                         .thumb {
@@ -941,7 +964,9 @@
                                 right: -35px;
                                 border-style: solid;
                                 border-width: 12px 0 12px 19.3px;
-                                border-color: transparent transparent transparent $cp;
+
+                                //border-color: transparent transparent transparent $cp;
+                                border-color: transparent transparent transparent $gray02;
                             }
                         }
                     }

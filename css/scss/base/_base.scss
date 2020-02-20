@@ -726,6 +726,15 @@ body.page {
     justify-content: flex-start !important;
 }
 
+.p40 {
+    padding: 40px 0 !important;
+}
+
+.db {
+    display: block !important;
+    width: 100% !important;
+}
+
 /*swiper*/
 
 @media (max-width: 767px) {
@@ -772,7 +781,7 @@ body.page {
 }
 
 .prev2, .next2 {
-    top: 58%;
+    top: 50%;
 }
 
 .prev2 {
@@ -784,7 +793,7 @@ body.page {
 }
 
 .swiper-container-horizontal .swiper-pagination {
-    bottom: -40px;
+    bottom: 50px;
 }
 
 .swiper-pagination-bullet {
@@ -959,5 +968,385 @@ body.page {
 
     section {
         margin-bottom: 30px;
+    }
+}
+
+/*
+
+アーカイブページスタイル
+
+*/
+
+.archive {
+    .inner {
+        @media (max-width: 767px) {
+            width: 92%;
+        }
+
+        .post__list {
+            border: 1px solid #ededed;
+            color: $gray;
+            margin-bottom: 1.8rem;
+            padding: 45px;
+            font-family: $gosic;
+
+            @media (max-width: 767px) {
+                padding: 4%;
+            }
+
+            .thumb {
+                width: 210px;
+                height: 240px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                @media (max-width: 767px) {
+                    width: 32%;
+                    height: 32vw;
+
+                    img {}
+                }
+            }
+
+            .post__info {
+                width: 630px;
+
+                @media (max-width: 767px) {
+                    width: 64%;
+                    margin-left: 4.5%;
+                }
+
+                .top__info {
+                    margin-bottom: 1.1rem;
+                    align-items: center;
+
+                    @media (max-width: 767px) {
+                        flex-flow: column-reverse;
+                        align-items: flex-start;
+                        margin-bottom: .85rem;
+                    }
+
+                    .tax__content {}
+
+                    .tax {
+                        background-color: $new_rs;
+                        color: #fff;
+                        padding: 4px 8px;
+                        font-size: .7rem;
+                        display: inline-block;
+                        margin-right: .25rem;
+                        letter-spacing: 0;
+
+                        @media (max-width: 767px) {
+                            font-size: .6rem;
+                            padding: 2px 4px;
+                        }
+
+                        &:nth-of-type(1) {
+                            margin-left: 0;
+                        }
+                    }
+
+                    .article-date {
+                        font-size: .78rem;
+                        color: #ccc;
+
+                        @media (max-width: 767px) {
+                            font-size: .64rem;
+                            margin-bottom: .22rem;
+                        }
+                    }
+                }
+
+                h2 {
+                    font-size: 1.6rem;
+                    margin-bottom: 1.1rem;
+                    font-weight: 600;
+
+                    @media (max-width: 767px) {
+                        font-size: 1.01rem;
+                        margin-bottom: .58rem;
+                        letter-spacing: 0;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                }
+
+                .comment {
+                    height: 5.5em;
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 4;
+
+                    @media (max-width: 767px) {
+                        height: 2.8rem;
+                        -webkit-line-clamp: 3;
+                    }
+
+                    p {
+                        font-size: .98rem;
+
+                        @media (max-width: 767px) {
+                            font-size: .7rem;
+                            line-height: 1.25;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*
+
+ページャーデザイン
+
+*/
+
+.pagination {
+    text-align: center;
+
+    ul.page-numbers {
+        display: inline-block;
+        text-align: center;
+
+        li {
+            display: inline-block;
+            padding: 10px 16px;
+            color: $gray;
+            background-color: $new_line;
+            font-weight: 600;
+            font-family: $gosic;
+
+            a {
+                color: $gray;
+            }
+        }
+    }
+}
+
+/*
+
+新しいアーカイヴスタイル
+
+*/
+
+.new_archive {
+    .inner {
+        width: 700px;
+
+        @media (max-width: 767px) {
+            width: 90%;
+        }
+
+        .new_archive_list {
+            margin-bottom: 3.5rem;
+
+            h2 {
+                text-align: center;
+                color: $gray;
+                font-size: 1.4rem;
+                background-color: $new_rs;
+                margin-bottom: 2.5rem;
+                padding: .5rem 0;
+                font-family: $gosic;
+
+                @media (max-width: 767px) {
+                    padding: .62rem;
+                    box-sizing: border-box;
+                    letter-spacing: 0;
+                    font-size: 1.15rem;
+                }
+            }
+        }
+    }
+}
+
+/* お悩み選択セレクトボックス */
+
+.select__content {
+    background-color: rgb(249, 241, 234);
+    padding: 1.5rem;
+    margin-bottom: 2.8rem;
+
+    h2 {
+        font-size: 1.1rem;
+        margin-bottom: .88rem;
+    }
+
+    #tax__change {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border: none;
+        outline: none;
+        background: transparent;
+        border: 1px solid #bbb;
+        width: 80%;
+        margin: auto;
+        display: block;
+        height: 58px;
+        box-sizing: border-box;
+        font-size: 1.18rem;
+        padding: 1.1rem;
+        line-height: 1.0;
+        font-family: $gosic;
+        background: #f5f5f5 url(../img/common/select_arw.png) no-repeat 97% 50% / 15px auto;
+
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+    }
+}
+
+.photo__area {
+    margin-bottom: 2.5rem;
+
+    .case-box {
+        position: relative;
+        margin-bottom: 2.5rem;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .case__photo {
+            margin-bottom: 62px;
+
+            @media (min-width: 768px) {
+                width: 700px;
+                margin: 0 auto 62px;
+            }
+
+            .thumb {
+                width: 100%;
+                margin-bottom: 18px;
+            }
+
+            .text {
+                width: 100%;
+                font-size: 0;
+
+                p {
+                    display: inline-block;
+                    width: 50%;
+                    text-align: center;
+                    font-family: $gosic;
+                    font-size: 1.1rem;
+                }
+            }
+        }
+
+        .ba-box {
+            .box {
+                width: 44%;
+
+                .thumb {
+                    margin-bottom: .8rem;
+
+                    img {}
+                }
+
+                p {
+                    font-size: 1.2rem;
+                }
+            }
+
+            .arw {
+                position: absolute;
+                border-style: solid;
+                border-width: 12px 0 12px 19.3px;
+                border-color: transparent transparent transparent #777777;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+
+                @media (max-width: 767px) {
+                    border-width: 10px 0 10px 15.3px;
+                    top: 42%;
+                }
+            }
+        }
+    }
+}
+
+.text__box {
+    margin-bottom: 2.5rem;
+    background-color: #fbfbfb;
+    padding: 20px;
+
+    dl {
+        dt {
+            font-size: 1.2rem;
+            margin-bottom: .7rem;
+            font-weight: 600;
+        }
+
+        dd {
+            font-size: .88rem;
+        }
+    }
+}
+
+.read__single {
+    text-align: center;
+
+    a {
+        display: inline-block;
+        background-color: $gray;
+        color: #fff;
+        text-align: center;
+        width: 72%;
+        max-width: 188px;
+        height: 54px;
+        line-height: 54px;
+        font-family: $gosic;
+    }
+}
+
+/*
+
+記事ペーじスタイル
+
+*/
+
+body.single {
+    color: #454545;
+}
+
+body.archive {
+    color: #454545;
+}
+
+.page-head.single {
+    h1 {
+        text-align: center;
+        font-size: 2.4rem;
+        color: $gray;
+    }
+}
+
+.singe__case {
+    font-family: $gosic;
+
+    .inner {
+        width: 94%;
+        max-width: 700px;
+
+        h1 {
+            font-size: 1.8rem;
+            color: #686868;
+            margin-bottom: 1.8rem;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #ededed;
+            line-height: 0.9;
+            letter-spacing: 0.075em;
+        }
     }
 }

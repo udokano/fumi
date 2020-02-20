@@ -17,8 +17,11 @@
             line-height: 1.4;
             background: no-repeat 50% 0%/ 24px;
 
+            //font-family: $gosic;
+
             // color: #fff;
             color: $gray;
+            font-weight: 600;
         }
     }
 
@@ -123,7 +126,7 @@
         }
 
         .navi {
-            padding-right: 2.5vw;
+            padding-right: 2.1vw;
             width: 52%;
             box-sizing: border-box;
 
@@ -131,7 +134,7 @@
                 text-align: right;
 
                 li {
-                    padding: 0 1vw;
+                    padding: 0 .85vw;
                     margin: 0;
                     display: inline-block;
 
@@ -146,6 +149,7 @@
                     a {
                         color: $gray;
                         font-weight: 600;
+                        font-size: .94rem;
                     }
                 }
             }
@@ -274,6 +278,7 @@
                         padding: 8px 18px;
                         font-size: 1.27rem;
                         display: inline-block;
+                        font-weight: 600;
 
                         //color: $cp;
                         color: $gray;
@@ -354,11 +359,10 @@
 
             li {
                 width: 48%;
-                background-color: rgba(255, 255, 255, 0.5);
 
                 a {
                     img {
-                        height: 120px;
+                        height: 113px;
                         object-fit: cover;
                     }
                 }
@@ -400,6 +404,13 @@
 
         .cv-btns {
             color: $gray;
+
+            .bg-icon {
+                line-height: 1.0;
+
+                //font-family: $gosic;
+                font-weight: 600;
+            }
 
             .sm {
                 opacity: .5;
@@ -593,10 +604,12 @@
 
                     span {
                         font-size: .95rem;
+                        line-height: 1.22;
                     }
 
                     span.sm {
-                        font-size: .7rem;
+                        font-size: 8px;
+                        letter-spacing: 0;
                     }
                 }
             }

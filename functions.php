@@ -6,6 +6,10 @@
 //サムネイル画像有効
 add_theme_support('post-thumbnails', array( 'post' ));
 
+//サムネイル画像有効
+add_theme_support('post-thumbnails', array( 'case' ));
+
+
 
 
 //投稿サムネイルサイズ指定
@@ -14,6 +18,48 @@ add_image_size('thum', 600, 450, true);
 
 
 
+
+//タクソノミー 一覧ページメインループ条件変更
+
+function twpp_change_sort_order($query)
+{
+    if (is_admin() || ! $query->is_main_query()) {
+        return;
+    }
+
+    if ($query->is_tax() || $query->is_post_type_archive('case')) { //タクソノミー一覧ページの時
+$query->set('post_type', 'case'); //症例写真記事の一覧だけを表示
+$query->set('posts_per_page', 4); //表示件数4件まで
+    }
+}
+
+add_action('pre_get_posts', 'twpp_change_sort_order');
+
+
+//GET terms で投稿タイプ縛り
+
+
+function hoge_terms_clauses($clauses, $taxonomy, $args)
+{
+    if (!empty($args['post_type'])) {
+        global $wpdb;
+        $post_types = array();
+        if ($args['post_type']) {
+            foreach ($args['post_type'] as $cpt) {
+                $post_types[] = "'".$cpt."'";
+            }
+        }
+        if (!empty($post_types)) {
+            $clauses['fields'] = 'DISTINCT '.str_replace('tt.*', 'tt.term_taxonomy_id, tt.term_id, tt.taxonomy, tt.description, tt.parent', $clauses['fields']).', COUNT(t.term_id) AS count';
+            $clauses['join'] .= ' INNER JOIN '.$wpdb->term_relationships.' AS r ON r.term_taxonomy_id = tt.term_taxonomy_id INNER JOIN '.$wpdb->posts.' AS p ON p.ID = r.object_id';
+            $clauses['where'] .= ' AND p.post_type IN ('.implode(',', $post_types).')';
+            $clauses['orderby'] = 'GROUP BY t.term_id '.$clauses['orderby'];
+        }
+    }
+//     print_r($clauses);exit;
+    return $clauses;
+}
+add_filter('terms_clauses', 'hoge_terms_clauses', 10, 3);
 
 
 
@@ -72,7 +118,7 @@ function breadcrumb_func()
         $str.= '<a href="'.home_url().'" itemprop="item"><span itemprop="name">'.'HOME'.'</span></a><meta itemprop="position" content="1" /></li>';
         $str.= '<li>&gt;</li>';
         if (is_post_type_archive()) {
-            $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><span itemprop="name">'.esc_html(get_post_type_object(get_post_type())->label).'</span><meta itemprop="position" content="2" /></li>';
+            $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><span itemprop="name"><a href="#" itemprop="item">'.esc_html(get_post_type_object(get_post_type())->label).'</span></a><meta itemprop="position" content="2" /></li>';
         } elseif (is_tax()) {
             $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_post_type_archive_link(get_post_type()).'" itemprop="item"><span itemprop="name">'.esc_html(get_post_type_object(get_post_type())->label).'</span></a><meta itemprop="position" content="2" /></li>';
             $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">><a href="#" itemprop="item"><span itemprop="name">'.single_term_title('', false).'</span></a><meta itemprop="position" content="3" /></li>';
@@ -92,7 +138,7 @@ function breadcrumb_func()
                 $ancestors = array_reverse(get_post_ancestors($post->ID));
                 foreach ($ancestors as $ancestor) {
                     $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'. get_permalink($ancestor).'" itemprop="item"><span itemprop="name">'.get_the_title($ancestor).'</span></a><meta itemprop="position" content="2" /></li>';
-                    $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="3" /></li>';
+                    $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="3" /></li>';
                 }
             } else {
                 $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="2" /></li>';
@@ -107,7 +153,7 @@ function breadcrumb_func()
             } else {
                 $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="2" /></li>';
             }
-        } elseif (is_single()) {
+        } /* elseif (is_single()) {
             $categories = get_the_category($post->ID);
             $cat = $categories[0];
             if ($cat -> parent != 0) {
@@ -124,10 +170,24 @@ function breadcrumb_func()
                 $str.= '<li>&gt;</li>';
                 $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="3" /></li>';
             }
+        } */ elseif (is_single()) {
+            $terms = wp_get_object_terms($post->ID, 'faq_kind');
+            $term_id = $terms[0];
+            if ($cat -> parent != 0) {
+                $ancestors = array_reverse(get_ancestors($term_id -> term_ID, 'faq_kind'));
+                foreach ($ancestors as $ancestor) {
+                    $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_term_link($ancestor).'" itemprop="item"><span itemprop="name">'.get_cat_name($ancestor).'</span></a><meta itemprop="position" content="2" /></li>';
+                    $str.= '<li>&gt;</li>';
+                }
+                $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_term_link($term_id).'" itemprop="item"><span itemprop="name">'.$terms[0]->name.'</span></a><meta itemprop="position" content="3" /></li>';
+                $str.= '<li>&gt;</li>';
+                $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="4" /></li>';
+            } else {
+                $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_term_link($term_id).'" itemprop="item"><span itemprop="name">'.$term_id-> name.'</span></a><meta itemprop="position" content="2" /></li>';
+                $str.= '<li>&gt;</li>';
+                $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="3" /></li>';
+            }
         }
-
-
-
         $str.= '</ul>'."\n";
     }
     return $str;
