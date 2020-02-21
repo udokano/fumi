@@ -16,7 +16,11 @@
     診察によってより適切なしわ治療をご提案させていただきます。</p>
   <p class="tc sp">しわには動的なしわ(お顔の表情によってできる表情じわ)と静的なしわ(ほうれい線やマリオネットラインのようなたるみになるしわや、<br>
     皮膚の乾燥や肌老化による小じわ、ちりめんジワ)があり、しわの種類によって治療方法が異なります。診察によってより適切なしわ治療をご提案させていただきます。</p>
-  <div class="ancor-box"> <a href="#area1">ボトックス注射</a><a href="#area2">ヒアルロン酸</a> </div>
+  <div class="ancor-box">
+     <a href="#area1">ボトックス注射</a>
+  <a href="#area2">ヒアルロン酸</a>
+<a href="#area3">SUNEKOS(スネコス)</a>
+</div>
 </section>
 <section class="ope-intro bg-cp" id="area1">
   <div class="inner flex al-cent">
@@ -417,6 +421,63 @@
         </span></dd>
     </dl>
     <?php endwhile; wp_reset_postdata(); ?>
+  </div>
+</section>
+<section class="ope-intro bg-cp" id="area3">
+  <div class="inner flex  al-cent">
+    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb13.jpg" alt="サムネイル">  </div>
+    <div class="text box-size">
+      <h2>SUNEKOS(スネコス)</h2>
+      <p class="ls1 gosic">SUNEKOS(スネコス)は、イタリアで生まれたヒアルロン酸とアミノ酸の注射治療です。真皮の細胞外マトリックスにアプローチし、自らの肌再生を促す治療です。一般的な施術で使われるヒアルロン酸と異なりSUNEKOSは、架橋されていないのが特徴です。目元口元の小ジワに効果的で、ハリのある肌を目指すことが可能です。</p>
+    </div>
+  </div>
+</section>
+<section class="ope__pr">
+<div class="inner-box2">
+    <div class="ope__pr__box box-size gosic">
+      <div class="pr__top__content flex">
+
+        <div class="thumb">
+<img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/sunecos_img.jpg" alt="スネコス症例写真">
+        </div><!-- ./thumb -->
+
+
+        <div class="pr__point">
+            <h2 class="cp">SUNEKOS(スネコス)の特徴</h2>
+            <ul class="min">
+              <li>しわの改善(目元や口元のちりめんじわ・小じわの改善、ほうれい線などの深いしわの改善)</li>
+              <li>肌つやの改善</li>
+              <li>肌弾力アップ</li>
+              <li>お肌の滑らかさの向上</li>
+              <li>毛穴の改善</li>
+              <li>肌に透明感がでる</li>
+              <li>輪郭がすっきりする</li>
+            </ul>
+        </div><!-- ./pr__point -->
+
+      </div><!-- ./pr__top__content -->
+    </div><!-- ./ope__pr__box -->
+
+    <div class="ope__sub__desc tc box-size gosic">
+      <p>30代以降、しわが気になる方が適応となります。<br class="pc">すでにしわが刻まれていてボトックスのみでは改善しないしわ、目元の小じわやくぼみ感、<br class="pc">口周りのしわ、ボトックスに抵抗がある場合などにおすすめです。</p>
+            <p class="mb5 gd">特に改善したい症状がある場合は、1週間から10日に一度のペースで4回程度の施術がおすすめです。</p><p class="mb0 gd">肌艶や透明感、美肌目的の場合は月に1回程度のペースで数回、または一回のみの治療も可能です。</p>
+
+    </div>
+</div><!-- ./inner -->
+</section>
+<section class="price">
+  <div class="inner-box2">
+    <h2 class="tc ls1">料金表</h2>
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">種類</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>SUNEKOS(スネコス)</dt>
+        <dd>お問い合わせください</dd>
+        </dl>
+    </div>
   </div>
 </section>
 <section class="flow">

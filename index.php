@@ -9,7 +9,7 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?021585855458">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?021595822445">
 <script>
   (function(d) {
     var config = {
@@ -234,16 +234,17 @@
         <ul>
           <li>・ヒアルロン酸</li>
           <li>・ボトックス注射</li>
+          <li>・SUNEKOS(スネコス)</li>
         </ul>
         </a> </li>
         <li class="box-size hg-row"> <a href="<?php echo home_url('/'); ?>medikaru">
         <h3 class="cw tc">美肌治療</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb10.jpg" alt="サムネイル"></div>
-        <ul>
-          <li class="db">・ダーマペン4/ヴェルヴェットスキン</li>
-          <li>・美容点滴</li>
-          <li>・プラセンタ</li>
+        <ul class="col">
+          <li>・SUNEKOS(スネコス)</li>
+          <li>・ダーマペン4/ヴェルヴェットスキン</li>
           <li>・メディカルエステ</li>
+          <li>・美容点滴/プラセンタ</li>
         </ul>
         </a> </li>
       <li class="box-size "> <a href="<?php echo home_url('/'); ?>kogao">

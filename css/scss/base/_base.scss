@@ -400,6 +400,16 @@ body.page {
     }
 }
 
+/* 美肌治療 トップ */
+
+.page-head {
+    h1 {
+        @media (max-width: 767px) {
+            font-size: 1.32rem;
+        }
+    }
+}
+
 /* GNAVI*/
 
 .navi {
@@ -683,6 +693,10 @@ body.page {
 
 .gosic {
     font-family: $gosic;
+}
+
+.min {
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',serif;
 }
 
 .jc-cent {
