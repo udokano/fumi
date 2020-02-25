@@ -120,6 +120,35 @@
     }
 }
 
+/* 美肌治療ページのアンカーリンクスタイル */
+.ancor-box.ms__ancor {
+    a {
+        height: 75px;
+        width: 224px;
+        box-sizing: border-box;
+        vertical-align: top;
+        margin: 1vw .4vw;
+
+        @media (max-width: 767px) {
+            width: 48%;
+            height: 60px;
+        }
+
+        &::after {
+            bottom: 15px;
+
+            @media (max-width: 767px) {
+                bottom: 10px;
+            }
+        }
+    }
+
+    .pen {
+        font-size: .78rem;
+        padding-top: 12px;
+    }
+}
+
 @media (max-width: 767px) {
     .ope-top-desc {
         width: 96%;
@@ -392,6 +421,77 @@
                 .thumb {
                     width: 26%;
                 }
+            }
+        }
+    }
+}
+
+/* 施術説明 SUNECOS */
+
+.ope__pr {
+    .inner-box2 {
+        .ope__pr__box {
+            border: 1px solid $cp;
+            padding: 3.5rem;
+            margin-bottom: 2.5rem;
+
+            //background-color: #fbfbfb;
+
+            @media (max-width: 767px) {
+                padding: 2.1rem 1.4rem;
+            }
+
+            .pr__top__content {
+                .thumb {
+                    width: 48%;
+                }
+
+                .pr__point {
+                    width: 45%;
+
+                    h2 {
+                        font-size: 1.6rem;
+                        margin-bottom: 1.5rem;
+                    }
+
+                    ul {
+                        li {
+                            font-size: 1rem;
+                            padding: .8rem 0;
+                            padding-left: 3.2rem;
+                            background: url(../img/common/checked.svg) no-repeat 0% 50% / 1.4rem auto;
+                        }
+                    }
+                }
+
+                @media (max-width: 767px) {
+                    flex-flow: column-reverse;
+
+                    .thumb, .pr__point {
+                        width: 100%;
+                    }
+
+                    .pr__point {
+                        margin-bottom: 1.5rem;
+
+                        h2 {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+
+        .ope__sub__desc {
+            background-color: #f8f8f8;
+            padding: 2.2rem;
+
+            p {
+                margin-bottom: .9rem;
+            }
+
+            .gd {
+                font-size: 1.18rem;
             }
         }
     }

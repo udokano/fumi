@@ -5,14 +5,16 @@ Template Name: メディカルエステ
 
 ?>
 <?php get_header()?>
-<div class="page-head">
-  <h1 class="tc f-ryu">施術：美肌治療・アンチエイジング</h1>
+<div class="page-head ms__tit">
+  <h1 class="tc f-ryu">美肌治療・アンチエイジング</h1>
   <?php echo breadcrumb_func(); ?> </div>
-<div class="ancor-box gosic mb60">
-<a href="#area4">ダーマペン4</a>
-<a href="#area1">美容内科・美容点滴</a>
-<a href="#area2">プラセンタ注射</a>
+<div class="ancor-box ms__ancor gosic mb60">
+  <a href="#area5">SUNEKOS(スネコス)</a>
+<a href="#area4" class="pen">ダーマペン4/ヴェルヴェットスキン</a>
 <a href="#area3">メディカルエステ</a>
+<a href="#area1">美容点滴/プラセンタ</a>
+
+
 </div>
 <section class="features layout2">
   <div class="inner-box2">
@@ -47,8 +49,64 @@ Template Name: メディカルエステ
     </ul>
   </div>
 </section>
-<section class="ope-intro bg-cp" id="area4">
+<section class="ope-intro bg-cp" id="area5">
   <div class="inner flex  al-cent">
+    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb13.jpg" alt="サムネイル"> </div>
+    <div class="text box-size">
+      <h2>SUNEKOS(スネコス)</h2>
+      <p class="ls1 gosic">SUNEKOS(スネコス)は、イタリアで生まれたヒアルロン酸とアミノ酸の注射治療です。真皮の細胞外マトリックスにアプローチし、自らの肌再生を促す治療です。一般的な施術で使われるヒアルロン酸と異なりSUNEKOSは、架橋されていないのが特徴です。目元口元の小ジワに効果的で、ハリのある肌を目指すことが可能です。</p>
+    </div>
+  </div>
+</section>
+<section class="ope__pr">
+<div class="inner-box2">
+    <div class="ope__pr__box box-size gosic">
+      <div class="pr__top__content flex">
+
+        <div class="thumb">
+<img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/sunecos_img.jpg" alt="スネコス症例写真">
+        </div><!-- ./thumb -->
+
+
+        <div class="pr__point">
+            <h2 class="cp">SUNEKOS(スネコス)の特徴</h2>
+            <ul class="min">
+              <li>しわの改善(目元や口元のちりめんじわ・小じわの改善、ほうれい線などの深いしわの改善)</li>
+              <li>肌つやの改善</li>
+              <li>肌弾力アップ</li>
+              <li>お肌の滑らかさの向上</li>
+              <li>毛穴の改善</li>
+              <li>肌に透明感がでる</li>
+              <li>輪郭がすっきりする</li>
+            </ul>
+        </div><!-- ./pr__point -->
+
+      </div><!-- ./pr__top__content -->
+    </div><!-- ./ope__pr__box -->
+
+    <div class="ope__sub__desc tc box-size gosic">
+      <p>30代以降、しわが気になる方が適応となります。<br class="pc">すでにしわが刻まれていてボトックスのみでは改善しないしわ、目元の小じわやくぼみ感、<br class="pc">口周りのしわ、ボトックスに抵抗がある場合などにおすすめです。</p>
+      <p class="mb5 gd">特に改善したい症状がある場合は、1週間から10日に一度のペースで4回程度の施術がおすすめです。</p><p class="mb0 gd">肌艶や透明感、美肌目的の場合は月に1回程度のペースで数回、または一回のみの治療も可能です。</p>
+    </div>
+</div><!-- ./inner -->
+</section>
+<section class="price">
+  <div class="inner-box2">
+    <h2 class="tc ls1">料金表</h2>
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">種類</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>SUNEKOS(スネコス)</dt>
+        <dd>お問い合わせください</dd>
+        </dl>
+    </div>
+  </div>
+</section>
+<section class="ope-intro  bg-cp" id="area4">
+  <div class="inner flex ff-row-reverse al-cent">
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb08.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>ダーマペン4</h2>
@@ -80,7 +138,7 @@ Template Name: メディカルエステ
 <section class="ope-kind velbet">
 <div class="wrap bg-cg2">
   <div class="inner-box2">
-    <div class="box p40 flex al-cent">
+    <div class="box p40 flex ff-row-reverse al-cent">
       <div class="desc">
         <h2 class="ls1">ヴェルヴェットスキン</h2>
         <p class="gosic">マッサージピールとダーマペン4を組み合わせた美肌治療です。マッサージピールに含まれる有効成分、TCA（トリクロロ酢酸）・過酸化水素水・コウジ酸をダーマペンによって、真皮層へとしっかり浸透させ、施術後の肌をふかふかで滑らかなヴェルヴェットの様な質感に導くのがこのヴェルヴェットスキンの特徴です。お肌にハリや弾力が欲しい方、若々しいお肌を取り戻したい方におすすめです。</p>
@@ -138,76 +196,9 @@ Template Name: メディカルエステ
   </div>
 </section>
 
-<section class="ope-intro bg-cp" id="area1">
-  <div class="inner flex  al-cent">
-    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/tenteki/thumb01.jpg" alt="サムネイル"> </div>
-    <div class="text box-size">
-      <h2>美容内科・美容点滴</h2>
-      <p class="ls1 gosic">血管を通してダイレクトに点滴の成分を投与し、体の内面から綺麗にすることを目的にする施術です。しわ・くすみの解消や疲労回復など幅広い効果が期待できます。</p>
-    </div>
-  </div>
-</section>
-<section class="price">
-  <div class="inner-box2">
-    <h2 class="tc ls1">美容内科・美容点滴料金</h2>
-    <div class="price-list gosic">
-      <dl class="flex">
-        <dt class="fw600">種類</dt>
-        <dd class="f-bold">税別</dd>
-      </dl>
-      <dl class="flex">
-        <dt>疲労回復注射</dt>
-        <dd>¥3,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>疲労回復点滴(マイヤーズカクテル)</dt>
-        <dd>¥6,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>白玉点滴(グルタチオン)</dt>
-        <dd>¥8,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>高濃度ビタミンC点滴   25gまで</dt>
-        <dd>¥12,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>高濃度ビタミンC点滴   50gまで</dt>
-        <dd>¥15,000</dd>
-      </dl>
-    </div>
-  </div>
-</section>
-<section class="ope-intro bg-cp" id="area2">
-  <div class="inner flex ff-row-reverse al-cent">
-    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb07.jpg" alt="サムネイル"> </div>
-    <div class="text box-size">
-      <h2>プラセンタ注射</h2>
-      <p class="ls1 gosic">プラセンタとは、人の胎盤から抽出したエキスのことです。その成分はタンパク質や酵素、アミノ酸、ミネラル、ビタミンなどの成分が含まれています。プラセンタを注射することで、コラーゲンが活発に再生され美肌効果・若返り効果・血行促進など体の内面から体質改善の効果を発揮いたします。</p>
-    </div>
-  </div>
-</section>
-<section class="price">
-  <div class="inner-box2">
-    <h2 class="tc ls1">プラセンタ注射料金</h2>
-    <div class="price-list gosic">
-      <dl class="flex">
-        <dt class="fw600">種類</dt>
-        <dd class="f-bold">税別</dd>
-      </dl>
-      <dl class="flex">
-        <dt>プラセンタ注射   1本</dt>
-        <dd>¥1,500</dd>
-      </dl>
-      <dl class="flex">
-        <dt>プラセンタ注射   2本目以降</dt>
-        <dd>¥1,000</dd>
-      </dl>
-    </div>
-  </div>
-</section>
+
 <section class="ope-intro bg-cp" id="area3">
-  <div class="inner flex al-cent">
+  <div class="inner flex ff-row-reverse al-cent">
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb01.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>メディカルエステ</h2>
@@ -301,6 +292,74 @@ Template Name: メディカルエステ
       <dl class="flex">
         <dt>レチノールピール　1回</dt>
         <dd>¥20,000 (税別)</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+<section class="ope-intro bg-cp" id="area1">
+  <div class="inner flex al-cent">
+    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/tenteki/thumb01.jpg" alt="サムネイル"> </div>
+    <div class="text box-size">
+      <h2>美容内科・美容点滴</h2>
+      <p class="ls1 gosic">血管を通してダイレクトに点滴の成分を投与し、体の内面から綺麗にすることを目的にする施術です。しわ・くすみの解消や疲労回復など幅広い効果が期待できます。</p>
+    </div>
+  </div>
+</section>
+<section class="price">
+  <div class="inner-box2">
+    <h2 class="tc ls1">美容内科・美容点滴料金</h2>
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">種類</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>疲労回復注射</dt>
+        <dd>¥3,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>疲労回復点滴(マイヤーズカクテル)</dt>
+        <dd>¥6,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>白玉点滴(グルタチオン)</dt>
+        <dd>¥8,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>高濃度ビタミンC点滴   25gまで</dt>
+        <dd>¥12,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>高濃度ビタミンC点滴   50gまで</dt>
+        <dd>¥15,000</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+<section class="ope-intro bg-cp" id="area2">
+  <div class="inner flex ff-row-reverse al-cent">
+    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/thumb07.jpg" alt="サムネイル"> </div>
+    <div class="text box-size">
+      <h2>プラセンタ注射</h2>
+      <p class="ls1 gosic">プラセンタとは、人の胎盤から抽出したエキスのことです。その成分はタンパク質や酵素、アミノ酸、ミネラル、ビタミンなどの成分が含まれています。プラセンタを注射することで、コラーゲンが活発に再生され美肌効果・若返り効果・血行促進など体の内面から体質改善の効果を発揮いたします。</p>
+    </div>
+  </div>
+</section>
+<section class="price">
+  <div class="inner-box2">
+    <h2 class="tc ls1">プラセンタ注射料金</h2>
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">種類</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>プラセンタ注射   1本</dt>
+        <dd>¥1,500</dd>
+      </dl>
+      <dl class="flex">
+        <dt>プラセンタ注射   2本目以降</dt>
+        <dd>¥1,000</dd>
       </dl>
     </div>
   </div>

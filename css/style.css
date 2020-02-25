@@ -362,6 +362,13 @@ body.page {
   margin: 0 auto 15px;
 }
 
+/* 美肌治療 トップ */
+@media (max-width: 767px) {
+  .page-head h1 {
+    font-size: 1.32rem;
+  }
+}
+
 /* GNAVI*/
 .navi ul li {
   margin: 0 2.85%;
@@ -619,6 +626,10 @@ body.page {
 
 .gosic {
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+}
+
+.min {
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',serif;
 }
 
 .jc-cent {
@@ -2380,7 +2391,7 @@ footer.pages.list-footer .copy {
   display: flex;
 }
 .menu .munu-link li.hg-row {
-  height: 384px;
+  height: 420px;
 }
 .menu .munu-link .box-size {
   width: 31.7%;
@@ -3358,7 +3369,6 @@ footer.pages.list-footer .copy {
     width: 100%;
   }
   .contact-form .inner form dl dt .ra {
-    background-color: #af0000;
     display: inline-block;
     border-radius: 3px;
     color: #fff;
@@ -3491,6 +3501,34 @@ footer.pages.list-footer .copy {
 .ancor-box a:hover::after {
   border-color: #fff;
   opacity: 1;
+}
+
+/* 美肌治療ページのアンカーリンクスタイル */
+.ancor-box.ms__ancor a {
+  height: 75px;
+  width: 224px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: top;
+  margin: 1vw .4vw;
+}
+@media (max-width: 767px) {
+  .ancor-box.ms__ancor a {
+    width: 48%;
+    height: 60px;
+  }
+}
+.ancor-box.ms__ancor a::after {
+  bottom: 15px;
+}
+@media (max-width: 767px) {
+  .ancor-box.ms__ancor a::after {
+    bottom: 10px;
+  }
+}
+.ancor-box.ms__ancor .pen {
+  font-size: .78rem;
+  padding-top: 12px;
 }
 
 @media (max-width: 767px) {
@@ -3700,6 +3738,61 @@ footer.pages.list-footer .copy {
 }
 .kind-p02 .wrap .inner-box2 .box .thumb {
   width: 26%;
+}
+
+/* 施術説明 SUNECOS */
+.ope__pr .inner-box2 .ope__pr__box {
+  border: 1px solid #a64987;
+  padding: 3.5rem;
+  margin-bottom: 2.5rem;
+}
+@media (max-width: 767px) {
+  .ope__pr .inner-box2 .ope__pr__box {
+    padding: 2.1rem 1.4rem;
+  }
+}
+.ope__pr .inner-box2 .ope__pr__box .pr__top__content .thumb {
+  width: 48%;
+}
+.ope__pr .inner-box2 .ope__pr__box .pr__top__content .pr__point {
+  width: 45%;
+}
+.ope__pr .inner-box2 .ope__pr__box .pr__top__content .pr__point h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+.ope__pr .inner-box2 .ope__pr__box .pr__top__content .pr__point ul li {
+  font-size: 1rem;
+  padding: .8rem 0;
+  padding-left: 3.2rem;
+  background: url(../img/common/checked.svg) no-repeat 0% 50%/1.4rem auto;
+}
+@media (max-width: 767px) {
+  .ope__pr .inner-box2 .ope__pr__box .pr__top__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
+  }
+  .ope__pr .inner-box2 .ope__pr__box .pr__top__content .thumb, .ope__pr .inner-box2 .ope__pr__box .pr__top__content .pr__point {
+    width: 100%;
+  }
+  .ope__pr .inner-box2 .ope__pr__box .pr__top__content .pr__point {
+    margin-bottom: 1.5rem;
+  }
+  .ope__pr .inner-box2 .ope__pr__box .pr__top__content .pr__point h2 {
+    text-align: center;
+  }
+}
+.ope__pr .inner-box2 .ope__sub__desc {
+  background-color: #f8f8f8;
+  padding: 2.2rem;
+}
+.ope__pr .inner-box2 .ope__sub__desc p {
+  margin-bottom: .9rem;
+}
+.ope__pr .inner-box2 .ope__sub__desc .gd {
+  font-size: 1.18rem;
 }
 
 /*症例*/
