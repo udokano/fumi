@@ -6,7 +6,7 @@ Template Name: 形成外科治療
 ?>
 <?php get_header()?>
 <div class="page-head">
-  <h1 class="tc f-ryu">施術：形成外科治療</h1>
+  <h1 class="tc f-ryu">形成外科治療</h1>
   <?php echo breadcrumb_func(); ?> </div>
 <section class="ope-intro bg-cp">
   <div class="inner flex al-cent">

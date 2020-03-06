@@ -95,12 +95,16 @@ Template Name: メディカルエステ
     <h2 class="tc ls1">料金表</h2>
     <div class="price-list gosic">
       <dl class="flex">
-        <dt class="fw600">種類</dt>
+        <dt class="fw600">SUNEKOS(スネコス)</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
-        <dt>SUNEKOS(スネコス)</dt>
-        <dd>お問い合わせください</dd>
+        <dt>1回</dt>
+        <dd>¥50,000</dd>
+        </dl>
+        <dl class="flex">
+        <dt>1回 ※2回目以降1ヶ月以内の場合</dt>
+        <dd>¥45,000</dd>
         </dl>
     </div>
   </div>

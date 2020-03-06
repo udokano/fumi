@@ -437,7 +437,7 @@
         <img src="<?php echo get_template_directory_uri(); ?>/img/common/insta_bnr.jpg?0216" alt="insta_bnr">
         <?php endif; ?>
         </a> </div>
-      <div class="bnr"> <a href="https://twitter.com/@_fumibeauty_" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/twitter_bnr.jpg?0910" alt="twitter_bnr"> </a> </div>
+      <div class="bnr"> <a href="https://twitter.com/@_fumibeauty_" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/twitter_bnr.jpg?03065" alt="twitter_bnr"> </a> </div>
     </div>
 
     <!-- ./inner -->
