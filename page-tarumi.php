@@ -6,7 +6,7 @@ Template Name: たるみ治療
 ?>
 <?php get_header()?>
 <div class="page-head">
-  <h1 class="tc f-ryu">施術：たるみ治療</h1>
+  <h1 class="tc f-ryu">たるみ治療</h1>
   <?php echo breadcrumb_func(); ?> </div>
 <section class="ope-top-desc gosic">
   <p class="tc pc">当院では溶ける糸を用いたリフトアップやヒアルロン酸注入<br>

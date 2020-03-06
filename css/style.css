@@ -362,10 +362,10 @@ body.page {
   margin: 0 auto 15px;
 }
 
-/* 美肌治療 トップ */
+/* 下層ページ　トップ */
 @media (max-width: 767px) {
   .page-head h1 {
-    font-size: 1.32rem;
+    font-size: 1.6rem;
   }
 }
 

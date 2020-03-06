@@ -6,7 +6,7 @@ Template Name: 小顔治療
 ?>
 <?php get_header()?>
 <div class="page-head">
-  <h1 class="tc f-ryu">施術：小顔治療</h1>
+  <h1 class="tc f-ryu">小顔治療</h1>
   <?php echo breadcrumb_func(); ?> </div>
 <section class="ope-top-desc gosic">
   <p class="tc pc">お顔が大きくみえる原因が脂肪なのか、筋肉のはりなのか、<br>

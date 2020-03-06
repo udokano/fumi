@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: アクセス 
+Template Name: アクセス
 */
 
 ?>
@@ -14,11 +14,11 @@ Template Name: アクセス
   <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/access/clinic_thumbjpg.jpg?0130" alt="院内写真"></div>
   <div class="text box-size gosic">
     <h2 class="gd">fumi beauty clinic<br>
-      <span class="sm"> (ふみビューティクリニック梅田)</span> </h2>
+      <span class="sm"> (ふみビューティークリニック梅田)</span> </h2>
     <dl class="flex">
       <dt>診療科目</dt>
       <dd>美容皮膚科、形成外科、皮膚科</dd>
-    </dl>  
+    </dl>
     <dl class="flex">
       <dt>院長</dt>
       <dd>先山 史</dd>
@@ -164,12 +164,12 @@ Template Name: アクセス
             zoom: 16,
             center: latlng
         });
-			
+
              var marker = new google.maps.Marker({
           position: latlng,
           map: map
         });
-			
+
         /*=========ここから追加=========*/
         var mapStyle = [ {
             "stylers": [ {
@@ -181,7 +181,7 @@ Template Name: アクセス
             map.setMapTypeId( 'GrayScaleMap' );
         /*=========ここまで追加=========*/
       }
-</script> 
+</script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBwr6DPo5X5S4CbkcKpSV5atpzNnKAifI&callback=initMap"></script>
 <?php wp_footer(); ?>
 <?php get_footer();?>

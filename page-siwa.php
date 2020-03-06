@@ -6,7 +6,7 @@
 ?>
 <?php get_header()?>
 <div class="page-head">
-  <h1 class="tc f-ryu">施術：しわ治療</h1>
+  <h1 class="tc f-ryu">しわ治療</h1>
   <?php echo breadcrumb_func(); ?> </div>
 <section class="ope-top-desc gosic">
   <p class="tc pc">しわには動的なしわ(お顔の表情によってできる表情じわ)と<br>
@@ -470,12 +470,16 @@
     <h2 class="tc ls1">料金表</h2>
     <div class="price-list gosic">
       <dl class="flex">
-        <dt class="fw600">種類</dt>
+        <dt class="fw600">SUNEKOS(スネコス)</dt>
         <dd class="f-bold">税別</dd>
       </dl>
-      <dl class="flex">
-        <dt>SUNEKOS(スネコス)</dt>
-        <dd>お問い合わせください</dd>
+     <dl class="flex">
+        <dt>1回</dt>
+        <dd>¥50,000</dd>
+        </dl>
+        <dl class="flex">
+        <dt>1回 ※2回目以降1ヶ月以内の場合</dt>
+        <dd>¥45,000</dd>
         </dl>
     </div>
   </div>
