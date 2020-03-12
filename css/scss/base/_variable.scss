@@ -52,6 +52,31 @@ $bg-w: rgba(255, 255, 255, 0.4);
 //BG 透明紫
 $bg-p: rgba(166, 73, 135, 0.65);
 
+/* オーダーメイド治療カラー */
+
+//薄い緑
+
+$order__green: #cdf2de;
+
+//薄い紫
+
+$order__pe: #cdcef2;
+
+//薄いピンク
+
+$order__pink: #f2cbde;
+
+//ヒアルロン酸テキスト
+
+$hel__text: #708e44;
+
+//ボットクス テキスト
+$btx__text: #7578d7;
+
+//スネコスなどのテキストカラー
+
+$other__text: #c973a5;
+
 //PCインナーWIDTH
 
 $w: 1160px;
@@ -70,6 +95,9 @@ $cp2: #fff7f4;
 
 //フォントゴシック
 $gosic: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+
+//フォンと明兆
+$min: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体", serif;
 
 //表見出し
 $tableth: #7da7e1;
