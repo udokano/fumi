@@ -127,6 +127,10 @@ textarea {
     display: none !important;
 }
 
+.dn {
+    display: none !important;
+}
+
 h2, h3, h4 {
     font-weight: 300;
 }
@@ -154,7 +158,7 @@ h3 {
 }
 
 html {
-    font-size: 100%; /*18px*/
+    font-size: 100%; /*16px*/
 }
 
 body {
@@ -372,7 +376,8 @@ body.page {
 
 .path {
     text-align: center;
-    margin-bottom: 90px;
+    margin-bottom: 45px;
+    line-height: 1;
 
     li {
         display: inline-block;
@@ -396,7 +401,8 @@ body.page {
     padding-top: 130px;
 
     h1 {
-        margin: 0 auto 15px;
+        margin: 0 auto 46px;
+        line-height: 1;
     }
 }
 
