@@ -4726,7 +4726,7 @@ footer.pages.list-footer .copy {
 @media (max-width: 767px) {
   .injection__desc__area .injection__desc__rows li .rows__wrapper {
     height: 74vw;
-    min-height: 420px;
+    min-height: 450px;
     padding: 22px 15px;
   }
 }
@@ -4832,8 +4832,12 @@ footer.pages.list-footer .copy {
 }
 .order__injection__ilast .inner {
   position: relative;
-  margin: 0;
-  width: 95.5%;
+}
+@media (max-width: 767px) {
+  .order__injection__ilast .inner {
+    width: 95.5%;
+    margin: 0;
+  }
 }
 .order__injection__ilast .inner .thumb {
   width: 30%;
@@ -5338,6 +5342,7 @@ footer.pages.list-footer .copy {
 @media (max-width: 767px) {
   .order__kogao__ilast__cross .inner .desc__box .right__col dl {
     margin-bottom: 1.8rem;
+    position: relative;
   }
 }
 .order__kogao__ilast__cross .inner .desc__box .right__col dl dt.infusion__desc__tit {
@@ -5346,16 +5351,25 @@ footer.pages.list-footer .copy {
 }
 @media (max-width: 767px) {
   .order__kogao__ilast__cross .inner .desc__box .right__col dl dt.infusion__desc__tit {
-    width: 60.8%;
-    padding: 1.22rem 5.9vw;
+    width: 68%;
+    padding: 1.22rem 3.9vw;
+    margin-bottom: 6.78vw;
   }
   .order__kogao__ilast__cross .inner .desc__box .right__col dl dt.infusion__desc__tit i {
     margin-right: 1.2rem;
     width: 16%;
   }
   .order__kogao__ilast__cross .inner .desc__box .right__col dl dt.infusion__desc__tit em {
-    font-size: 3.88vw;
+    font-size: 3.68vw;
   }
+  .order__kogao__ilast__cross .inner .desc__box .right__col dl dt.infusion__desc__tit em.btx__lift {
+    font-size: 3.5vw;
+  }
+}
+.order__kogao__ilast__cross .inner .desc__box .right__col dl dt.infusion__desc__tit .thumb {
+  position: absolute;
+  width: 26%;
+  right: 0;
 }
 .order__kogao__ilast__cross .inner .desc__box .right__col dl dd {
   font-size: 1.1875rem;

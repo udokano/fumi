@@ -26,7 +26,7 @@
 </section>
 <section class="order__made__ilast__center">
   <div class="inner">
-    <div class="ilast_center"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center.jpg" alt="主なシワの種類" class="pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center_sp.jpg?0313" alt="主なシワの種類" class="sp-dis">
+    <div class="ilast_center"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center.jpg?0325" alt="主なシワの種類" class="pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center_sp.jpg?0315" alt="主なシワの種類" class="sp-dis">
       <h2>主なしわの種類</h2>
     </div>
     <!--./ilast_center-->
@@ -53,8 +53,8 @@
       </li>
       <li class="row__02">
         <h3>
-          <div class="row__center"><em>表情じわ</em> <span>額の横じわ・眉間の縦ジワ・目尻のしわ<br>
-            あごの梅干しジワ・首の縦ジワ等</span> </div>
+          <div class="row__center"><em>表情じわ</em> <span>額のしわ・目尻のしわ・眉間のしわ<br>
+            唇のたてじわ・首の縦筋・あごの梅干しじわ等</span> </div>
         </h3>
         <div class="rows__wrapper">
           <dl>
@@ -72,7 +72,7 @@
           <dl>
             <dt>SUNEKOS・ダーマペン4<br>
               マイクロボトックス注射</dt>
-            <dd>小じわやちりめんジワは角層の水分量の低下・物理的な摩擦によるダメージ・活性酸素等が原因で起こります。当院では小じわの状態・部位に合わせて最適な治療を提案します。小じわが改善するだけではなく毛穴が小さくなったりお肌に艶がでたり等の美肌効果も期待できます。<br>しわの状態やお悩みに合わせてSUNEKOS・ダーマペン４・マイクロボトックスなどによる治療をご提案します。</dd>
+            <dd>小じわやちりめんジワは角層の水分量の低下・物理的な摩擦によるダメージ・紫外線や活性酸素等が原因で起こります。当院では小じわの状態・部位に合わせて最適な治療を提案します。小じわが改善するだけではなく毛穴が小さくなったりお肌に艶がでたり等の美肌効果も期待できます。<br>しわの状態やお悩みに合わせてSUNEKOS・ダーマペン４・マイクロボトックスなどによる治療をご提案します。</dd>
           </dl>
         </div>
       </li>
@@ -108,7 +108,7 @@
 </section>
 <section class="order__case__banner">
   <div class="inner">
-    <div class="case__banner"> <a href="<?php echo home_url("/");?>case-list"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/case__banner.jpg" alt="症例写真にご協力頂いた患者様のビフォーアフターはこちらから" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/case__banner_sp.jpg" alt="症例写真にご協力頂いた患者様のビフォーアフターはこちらから" class="sp"></a> </div>
+    <div class="case__banner"> <a href="<?php echo home_url("/");?>case-list"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/case__banner.jpg" alt="症例写真にご協力頂いた患者様のビフォーアフターはこちらから" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/case__banner_sp.jpg?0315" alt="症例写真にご協力頂いた患者様のビフォーアフターはこちらから" class="sp"></a> </div>
   </div>
 </section>
 <section class="ope-top-desc  top-desc-p02 bg__p02 top-desc-p03" id="area2">
@@ -249,11 +249,11 @@
       <!-- ./thumb -->
       <div class="right__col">
         <dl>
-          <dt class="flex al-cent bg__blue infusion__desc__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_blue.png" alt="注射"></i><em>エラボトックス</em></dt>
+          <dt class="flex al-cent bg__blue infusion__desc__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_blue.png" alt="注射"></i><em>エラボトックス</em><div class="thumb sp"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast01.jpg" alt="イラスト"> </dt>
           <dd class="gosic">エラがはって見える場合、咬筋と言われる噛む時に使う筋肉が発達している事がほとんどです。咬筋にボトックスを注射する事で咬筋が小さくなり小顔効果が得られる治療です。<br class="pc">
             また小顔効果以外にも、噛みしめることで起こる頭痛・肩こり・歯への負担などの症状の軽減が期待できる治療です。</dd>
         </dl>
-        <div class="thumb sp"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast01.jpg" alt="イラスト"></div>
+
         <div class="case__btn__wrap">
               <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1215972.html?p=2" target="_blank" class="case__btn">症例写真はこちら</a>
         </div>
@@ -266,10 +266,12 @@
       <!-- ./thumb -->
       <div class="right__col">
         <dl>
-          <dt class="flex al-cent bg__blue infusion__desc__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_blue.png" alt="注射"></i><em>ボトックスリフト</em></dt>
+          <dt class="flex al-cent bg__blue infusion__desc__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_blue.png" alt="注射"></i><em class="btx__lift">ボトックスリフト</em>
+           <div class="thumb sp"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast02.jpg" alt="イラスト"></div>
+           </dt>
           <dd class="gosic">引き締めを目的としてボトックスを細かく注射する方法です。表情ジワを改善するボトックスと違い、ボトックスを皮膚のごく表面に浅く細かく注入する事でお顔を引き締めたり引き上げる効果があります。</dd>
         </dl>
-        <div class="thumb sp"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast02.jpg" alt="イラスト"></div>
+
         <div class="case__btn__wrap bottom__up">
           <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1166181.html" target="_blank" class="case__btn">症例写真はこちら</a>
         </div>
@@ -278,15 +280,16 @@
     </div>
     <!-- ./desc__box -->
     <div class="desc__box flex">
-      <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast03.jpg" alt="イラスト"></div>
+      <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast03.jpg?0316" alt="イラスト"></div>
       <!-- ./thumb -->
       <div class="right__col">
         <dl>
-          <dt class="flex al-cent bg__green infusion__desc__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_green.png" alt="注射"></i><em>リフトアップの<br>
-            ヒアルロン酸</em></dt>
+          <dt class="flex al-cent bg__green infusion__desc__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_green.png" alt="注射"></i><em>リフトアップの<br>ヒアルロン酸</em>
+           <div class="thumb sp"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast03.jpg?0316" alt="イラスト"></div>
+           </dt>
           <dd class="gosic">こめかみなどのボリュームロス部分や、頬骨・下顎骨などの靭帯付着部にヒアルロン酸を注入することでお顔のリフトアップを行います。単純に窪みを埋めていく方法とは違い、根本からの若返りができ違和感のない仕上がりとなります。</dd>
         </dl>
-        <div class="thumb sp"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast03.jpg" alt="イラスト"></div>
+
         <div class="case__btn__wrap bottom__up">
             <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1166123.html" target="_blank" class="case__btn">症例写真はこちら</a>
         </div>

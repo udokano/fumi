@@ -1656,7 +1656,7 @@
 
                 @media (max-width: 767px) {
                     height: 74vw;
-                    min-height: 420px;
+                    min-height: 450px;
                     padding: 22px 15px;
                 }
             }
@@ -1791,8 +1791,11 @@
 
     .inner {
         position: relative;
-        margin: 0;
-        width: 95.5%;
+
+        @media (max-width: 767px) {
+            width: 95.5%;
+            margin: 0;
+        }
 
         .thumb {
             width: 30%;
@@ -2319,6 +2322,7 @@
                 dl {
                     @media (max-width: 767px) {
                         margin-bottom: 1.8rem;
+                        position: relative;
                     }
 
                     dt.infusion__desc__tit {
@@ -2326,8 +2330,9 @@
                         margin-bottom: 1.78rem;
 
                         @media (max-width: 767px) {
-                            width: 60.8%;
-                            padding: 1.22rem 5.9vw;
+                            width: 68%;
+                            padding: 1.22rem 3.9vw;
+                            margin-bottom: 6.78vw;
 
                             i {
                                 margin-right: 1.2rem;
@@ -2335,8 +2340,21 @@
                             }
 
                             em {
-                                font-size: 3.88vw;
+                                font-size: 3.68vw;
                             }
+
+                            em.btx__lift {
+                                font-size: 3.5vw;
+                            }
+                        }
+
+                        .thumb {
+                            position: absolute;
+                            width: 26%;
+                            right: 0;
+
+                            //top: -1.88rem;
+                       
                         }
                     }
 
