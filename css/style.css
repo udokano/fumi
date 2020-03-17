@@ -4422,6 +4422,9 @@ footer.pages.list-footer .copy {
 オーダーメイド治療スタイル
 
 -----------------------------------------*/
+.page-template-page-order_made .inner {
+  width: 1050px;
+}
 @media (max-width: 767px) {
   .page-template-page-order_made .inner {
     width: 92%;
@@ -4436,6 +4439,9 @@ footer.pages.list-footer .copy {
 }
 
 /* 見出し */
+.page-head .order__tit {
+  font-weight: 600;
+}
 @media (max-width: 767px) {
   .page-head .order__tit {
     margin-bottom: 15px;
@@ -4470,12 +4476,13 @@ footer.pages.list-footer .copy {
 }
 .ancor-box.order a {
   font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体", serif;
-  border-color: #bababa;
+  border-color: #a0a0a0;
   border-radius: 7px;
-  color: #6b6b6b;
+  color: #4a4a4a;
   height: 102px;
   width: 238px;
   padding: 0;
+  font-weight: 600;
 }
 @media (max-width: 767px) {
   .ancor-box.order a {
@@ -4529,7 +4536,7 @@ footer.pages.list-footer .copy {
   }
 }
 .ancor-box.order a:hover {
-  background-color: #bababa;
+  background-color: #4a4a4a;
 }
 .ancor-box.order a:hover span {
   color: #fff;
@@ -4553,6 +4560,7 @@ footer.pages.list-footer .copy {
   padding: 3.3333333333333rem 0;
   font-size: 2.2222222222222rem;
   letter-spacing: 0.05em;
+  font-weight: 600;
 }
 @media (max-width: 767px) {
   .order__made__tit h2 {
@@ -4578,7 +4586,7 @@ footer.pages.list-footer .copy {
 }
 .order__made__ilast__center .ilast_center img {
   display: block;
-  width: 92%;
+  width: 78%;
   margin: 5.7222222222222rem auto 0;
   position: relative;
   overflow: hidden;
@@ -4629,6 +4637,9 @@ footer.pages.list-footer .copy {
 }
 .injection__desc__area .injection__desc__rows {
   font-size: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 @media (max-width: 767px) {
   .injection__desc__area .injection__desc__rows {
@@ -4636,7 +4647,7 @@ footer.pages.list-footer .copy {
   }
 }
 .injection__desc__area .injection__desc__rows li {
-  width: 32.55555%;
+  width: 33%;
 }
 @media (max-width: 767px) {
   .injection__desc__area .injection__desc__rows li {
@@ -4715,7 +4726,7 @@ footer.pages.list-footer .copy {
 .injection__desc__area .injection__desc__rows li .rows__wrapper {
   padding: 1.3333333333333rem 0.77777777777778rem;
   border-radius: 9px;
-  height: 479px;
+  height: 490px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: relative;
@@ -4731,7 +4742,7 @@ footer.pages.list-footer .copy {
 .injection__desc__area .injection__desc__rows li dl {
   background-color: #fff;
   border-radius: 9px;
-  padding: 1.7rem 36px;
+  padding: 1.7rem 12px;
   height: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -4739,7 +4750,7 @@ footer.pages.list-footer .copy {
 .injection__desc__area .injection__desc__rows li dl dt {
   text-align: center;
   /*  font-size: 1.8333333333333rem; */
-  font-size: 25px;
+  font-size: 22px;
   margin-bottom: 1.3777777777778rem;
   line-height: 1;
   letter-spacing: 0.025em;
@@ -4776,6 +4787,11 @@ footer.pages.list-footer .copy {
 .injection__desc__area .injection__desc__rows li.row__01 dl dt {
   color: #708e44;
 }
+@media (min-width: 768px) {
+  .injection__desc__area .injection__desc__rows li.row__02 {
+    margin: 0 .8rem;
+  }
+}
 .injection__desc__area .injection__desc__rows li.row__02 h3 {
   background-color: #cdcef2;
 }
@@ -4803,7 +4819,7 @@ footer.pages.list-footer .copy {
   background-color: #f2cbde;
 }
 .injection__desc__area .injection__desc__rows li.row__03 dl {
-  padding: 0.77777777777778rem 1.6111111111111rem;
+  padding: 0.77777777777778rem 18px;
 }
 .injection__desc__area .injection__desc__rows li.row__03 dl dt {
   color: #c973a5;
@@ -4862,8 +4878,8 @@ footer.pages.list-footer .copy {
   }
 }
 .order__injection__ilast .inner .desc__right .anchor__marks {
-  width: 82.8%;
-  margin-left: 15%;
+  width: 84.8%;
+  margin-left: 14%;
   margin-top: 1.2rem;
 }
 @media (max-width: 767px) {
@@ -4995,6 +5011,7 @@ footer.pages.list-footer .copy {
 }
 .top-desc-p02.ope-top-desc h2 {
   margin-bottom: .8rem;
+  font-weight: 600;
 }
 .top-desc-p02.ope-top-desc p {
   margin-bottom: 0;
@@ -5010,6 +5027,7 @@ footer.pages.list-footer .copy {
 }
 .top-desc-p02.ope-top-desc.top-desc-p03 h2 {
   margin-bottom: .8rem;
+  font-weight: 600;
 }
 .top-desc-p02.ope-top-desc.top-desc-p03 p {
   margin-bottom: 0;
@@ -5052,6 +5070,7 @@ footer.pages.list-footer .copy {
   margin: 2.7511111111111rem 0 0;
   letter-spacing: 0.05em;
   text-align: center;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
 }
 .case__btn::after {
   content: "";
@@ -5111,7 +5130,7 @@ footer.pages.list-footer .copy {
 
 .infusion__desc__tit {
   margin-bottom: 1.2rem;
-  padding: 12px 1.8rem;
+  padding: 12px 1.4rem;
   padding-right: 15px;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
@@ -5122,11 +5141,13 @@ footer.pages.list-footer .copy {
 .infusion__desc__tit i {
   display: block;
   width: 27px;
-  margin-right: 1.2rem;
+  margin-right: .9rem;
 }
 .infusion__desc__tit em {
   font-size: 1.0625rem;
   line-height: 1.15;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+  font-weight: 600;
 }
 @media (max-width: 767px) {
   .infusion__desc__tit {
@@ -5172,7 +5193,7 @@ footer.pages.list-footer .copy {
   }
 }
 .order__ope__ilast__col02 .inner .desc__box .col__left {
-  width: 28%;
+  width: 30%;
   position: relative;
 }
 @media (max-width: 767px) {
@@ -5188,7 +5209,7 @@ footer.pages.list-footer .copy {
   border-bottom: 1px solid #6a6a6a;
   letter-spacing: 0.025em;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #6a6a6a;
   margin-bottom: 60px;
 }
@@ -5224,7 +5245,7 @@ footer.pages.list-footer .copy {
   }
 }
 .order__ope__ilast__col02 .inner .desc__box .col__right {
-  width: 68%;
+  width: 66%;
 }
 .order__ope__ilast__col02 .inner .desc__box .col__right dl {
   margin-bottom: 1.3rem;
@@ -5235,7 +5256,7 @@ footer.pages.list-footer .copy {
   }
 }
 .order__ope__ilast__col02 .inner .desc__box .col__right dl dt {
-  width: 29.7%;
+  width: 36%;
   margin-bottom: 1.4444444444444rem;
 }
 @media (max-width: 767px) {
@@ -5246,8 +5267,9 @@ footer.pages.list-footer .copy {
 }
 .order__ope__ilast__col02 .inner .desc__box .col__right dl dd {
   line-height: 1.78;
-  letter-spacing: .1em;
-  font-size: 1.0475rem;
+  letter-spacing: .05em;
+  font-size: .97875rem;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
 }
 @media (max-width: 767px) {
   .order__ope__ilast__col02 .inner .desc__box .col__right dl dd {
@@ -5369,8 +5391,17 @@ footer.pages.list-footer .copy {
   width: 26%;
   right: 0;
 }
+@media (max-width: 767px) {
+  .order__kogao__ilast__cross .inner .desc__box .right__col dl dt.ela__btx__tit {
+    width: 54%;
+    margin-bottom: 3.8rem;
+  }
+  .order__kogao__ilast__cross .inner .desc__box .right__col dl dt.ela__btx__tit .thumb {
+    width: 38%;
+  }
+}
 .order__kogao__ilast__cross .inner .desc__box .right__col dl dd {
-  font-size: 1.1875rem;
+  font-size: .97875rem;
   line-height: 1.59;
   letter-spacing: 0.05em;
   color: #6b6b6b;

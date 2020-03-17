@@ -26,7 +26,7 @@
 </section>
 <section class="order__made__ilast__center">
   <div class="inner">
-    <div class="ilast_center"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center.jpg?0325" alt="主なシワの種類" class="pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center_sp.jpg?03188" alt="主なシワの種類" class="sp-dis">
+    <div class="ilast_center"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center.jpg?0325" alt="主なシワの種類" class="pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center_sp.jpg?0318888" alt="主なシワの種類" class="sp-dis">
       <h2>主なしわの種類</h2>
     </div>
     <!--./ilast_center-->
@@ -83,7 +83,7 @@
   <div class="inner">
     <div class="thumb pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc__thumb.jpg" alt="いらすと"> </div>
     <div class="desc__right">
-      <div class="ilast__sub__desc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01.png?0315" alt="イラスト" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01_sp02.png?0318" alt="イラスト" class="sp"> </div>
+      <div class="ilast__sub__desc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01.png?0315" alt="イラスト" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01_sp02.png?031888888" alt="イラスト" class="sp"> </div>
       <ul class="anchor__marks flex">
         <?php home_url("/");?>
         <li class="green"><a href="<?php home_url("/");?>tarumi#area1"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_green.png" alt="注入イラスト"></i>
@@ -249,7 +249,7 @@
       <!-- ./thumb -->
       <div class="right__col">
         <dl>
-          <dt class="flex al-cent bg__blue infusion__desc__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_blue.png" alt="注射"></i><em>エラボトックス</em><div class="thumb sp"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast01.jpg" alt="イラスト"> </dt>
+          <dt class="flex al-cent bg__blue infusion__desc__tit ela__btx__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_blue.png" alt="注射"></i><em>エラボトックス</em><div class="thumb sp"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast01.jpg" alt="イラスト"> </dt>
           <dd class="gosic">エラがはって見える場合、咬筋と言われる噛む時に使う筋肉が発達している事がほとんどです。咬筋にボトックスを注射する事で咬筋が小さくなり小顔効果が得られる治療です。<br class="pc">
             また小顔効果以外にも、噛みしめることで起こる頭痛・肩こり・歯への負担などの症状の軽減が期待できる治療です。</dd>
         </dl>

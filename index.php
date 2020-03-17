@@ -95,7 +95,7 @@
   <div class="top__menu__area">
     <div class="bottom inner-box flex">
       <ul class="menu-link flex">
-        <li class="box-size"> <a href="<?php echo home_url('/'); ?>siwa"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
+        <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
           <p class="cp tc ls1">オーダーメイド注入<br>
             <span class="gd">ORDER MADE</span></p>
           </a> </li>
