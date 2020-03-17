@@ -1504,8 +1504,8 @@
     margin-bottom: 0;
 
     @media (max-width: 767px) {
-        padding: 9.599999976vw 0 10.93333331vw;
-        margin-bottom: 4.25rem;
+        padding: 9.599999976vw 0 1.93333331vw;
+        margin-bottom: 3.95rem;
     }
 
     .ilast_center {
@@ -1521,7 +1521,8 @@
             @media (max-width: 767px) {
                 margin: 0;
                 width: 100%;
-                transform: scale(1.08);
+
+                //transform: scale(1.08);
             }
         }
 
@@ -1817,7 +1818,7 @@
 
             .ilast__sub__desc {
                 @media (max-width: 767px) {
-                    width: 76.55%;
+                    width: 76.85%;
                     position: absolute;
                     left: 0;
                     top: 0;
@@ -1828,14 +1829,14 @@
             }
 
             .anchor__marks {
-                width: 81%;
-                margin-left: 16%;
+                width: 82.8%;
+                margin-left: 15%;
                 margin-top: 1.2rem;
 
                 @media (max-width: 767px) {
                     width: 23%;
                     padding-left: 77%;
-                    flex-flow: column;
+                    flex-flow: column-reverse;
                     margin: 0;
                     justify-content: center;
                 }

@@ -4569,8 +4569,8 @@ footer.pages.list-footer .copy {
 }
 @media (max-width: 767px) {
   .order__made__ilast__center {
-    padding: 9.599999976vw 0 10.93333331vw;
-    margin-bottom: 4.25rem;
+    padding: 9.599999976vw 0 1.93333331vw;
+    margin-bottom: 3.95rem;
   }
 }
 .order__made__ilast__center .ilast_center {
@@ -4587,8 +4587,6 @@ footer.pages.list-footer .copy {
   .order__made__ilast__center .ilast_center img {
     margin: 0;
     width: 100%;
-    -webkit-transform: scale(1.08);
-            transform: scale(1.08);
   }
 }
 .order__made__ilast__center .ilast_center h2 {
@@ -4856,7 +4854,7 @@ footer.pages.list-footer .copy {
 }
 @media (max-width: 767px) {
   .order__injection__ilast .inner .desc__right .ilast__sub__desc {
-    width: 76.55%;
+    width: 76.85%;
     position: absolute;
     left: 0;
     top: 0;
@@ -4864,8 +4862,8 @@ footer.pages.list-footer .copy {
   }
 }
 .order__injection__ilast .inner .desc__right .anchor__marks {
-  width: 81%;
-  margin-left: 16%;
+  width: 82.8%;
+  margin-left: 15%;
   margin-top: 1.2rem;
 }
 @media (max-width: 767px) {
@@ -4873,9 +4871,9 @@ footer.pages.list-footer .copy {
     width: 23%;
     padding-left: 77%;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
     margin: 0;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
