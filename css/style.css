@@ -2281,6 +2281,39 @@ footer.pages.list-footer .copy {
   margin-bottom: 35px;
 }
 
+/* 注入治療のエリア修正スタイル */
+.infusion.infusion__repair {
+  padding: 60px 0;
+}
+.infusion.infusion__repair .inner-box .top {
+  margin-bottom: 0;
+  padding: 0 15%;
+}
+.infusion.infusion__repair .inner-box .top .text {
+  position: relative;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+.infusion.infusion__repair .inner-box .top .text h3 {
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.infusion.infusion__repair .inner-box .top .text p {
+  margin: 30px 0 40px;
+}
+.infusion.infusion__repair .inner-box .top .text .btn {
+  margin: 0 auto;
+}
+
 @media (max-width: 767px) {
   .infusion {
     padding-top: 60px;
@@ -2380,6 +2413,23 @@ footer.pages.list-footer .copy {
     margin: 20px 0;
     line-height: 1.7;
     margin-bottom: 35px;
+  }
+
+  /* 注入治療のエリア修正スタイル スマホ */
+  .infusion.infusion__repair .inner-box .top {
+    padding: 0;
+  }
+  .infusion.infusion__repair .inner-box .top .text {
+    margin-bottom: 3.5rem;
+  }
+  .infusion.infusion__repair .inner-box .top .text p {
+    margin: 30px 0 40px;
+  }
+  .infusion.infusion__repair .inner-box .top .text .btn {
+    width: 240px;
+  }
+  .infusion.infusion__repair .inner-box .top .text:last-of-type {
+    margin-bottom: 0;
   }
 }
 .menu {
@@ -3287,7 +3337,9 @@ footer.pages.list-footer .copy {
   background-color: #fff;
   border: 1px solid #ccc;
   width: 100%;
-  padding: 8px 18px;
+  padding: 8px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .contact-form .inner form dl dd label {
   display: block;
@@ -4433,6 +4485,11 @@ footer.pages.list-footer .copy {
 .page-template-page-order_made footer {
   border: none;
 }
+@media (min-width: 768px) {
+  .page-template-page-order_made footer .inner {
+    width: 1200px;
+  }
+}
 
 .bg__p02 {
   background-color: #f9f4f4;
@@ -4553,6 +4610,53 @@ footer.pages.list-footer .copy {
   padding-bottom: 9px;
 }
 
+/* 当院のこだわり */
+.commitment {
+  padding: 3.2rem 0;
+  margin-bottom: 0;
+  background-color: #fbfbfb;
+}
+.commitment h2 {
+  font-size: 2.222222222222rem;
+  margin-bottom: 3.75rem;
+}
+@media (max-width: 767px) {
+  .commitment h2 {
+    font-size: 1.478rem;
+    margin-bottom: 2.15rem;
+  }
+}
+.commitment .commitment__list__wrap {
+  text-align: center;
+  font-size: 0;
+}
+.commitment .commitment__list__wrap .commitment__list {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1.38888888rem 1.8888888rem;
+  margin: 0 1rem 2rem;
+  width: 42.444444%;
+  text-align: left;
+  font-size: 1.18rem;
+  letter-spacing: 0.075em;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+  background-color: #fff;
+  border: 1px solid #c6aabc;
+  border-radius: 6px;
+}
+.commitment .commitment__list__wrap .commitment__list span {
+  padding: 1.1rem 0;
+  padding-left: 2.7rem;
+  background: url(../img/common/checked.svg) no-repeat 0% 50%/auto 50%;
+}
+@media (max-width: 767px) {
+  .commitment .commitment__list__wrap .commitment__list {
+    width: 100%;
+    margin: .45rem auto;
+  }
+}
+
 .order__made__tit {
   margin-bottom: 0;
 }
@@ -4640,6 +4744,7 @@ footer.pages.list-footer .copy {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  /* 一番右のやつは余白などのレイアウトが若干違うので調整 */
 }
 @media (max-width: 767px) {
   .injection__desc__area .injection__desc__rows {
@@ -4700,7 +4805,7 @@ footer.pages.list-footer .copy {
   }
 }
 .injection__desc__area .injection__desc__rows li h3 span {
-  font-size: 0.88722222222222rem;
+  font-size: .88722222222222rem;
   line-height: 1.38;
   display: block;
   letter-spacing: 0.025em;
@@ -4724,9 +4829,9 @@ footer.pages.list-footer .copy {
   border-color: #007bff transparent transparent transparent;
 }
 .injection__desc__area .injection__desc__rows li .rows__wrapper {
-  padding: 1.3333333333333rem 0.77777777777778rem;
+  padding: 1.8333333333333rem 0.77777777777778rem 1.3333333333333rem;
   border-radius: 9px;
-  height: 490px;
+  height: 510px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: relative;
@@ -4734,32 +4839,38 @@ footer.pages.list-footer .copy {
 }
 @media (max-width: 767px) {
   .injection__desc__area .injection__desc__rows li .rows__wrapper {
-    height: 74vw;
-    min-height: 450px;
+    height: 76vw;
+    min-height: 480px;
     padding: 22px 15px;
   }
 }
 .injection__desc__area .injection__desc__rows li dl {
   background-color: #fff;
   border-radius: 9px;
-  padding: 1.7rem 12px;
+  padding: 2.8rem 12px 1.9rem;
   height: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  text-align: center;
 }
 .injection__desc__area .injection__desc__rows li dl dt {
   text-align: center;
   /*  font-size: 1.8333333333333rem; */
   font-size: 22px;
-  margin-bottom: 1.3777777777778rem;
+  margin-bottom: 2.8777777777778rem;
   line-height: 1;
   letter-spacing: 0.025em;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  display: inline-block;
+  padding-bottom: 6px;
 }
 .injection__desc__area .injection__desc__rows li dl dd {
   line-height: 1.75;
   letter-spacing: 0;
   font-size: 16px;
   word-break: break-all;
+  text-align: left;
 }
 @media (max-width: 767px) {
   .injection__desc__area .injection__desc__rows li dl dd {
@@ -4768,11 +4879,11 @@ footer.pages.list-footer .copy {
 }
 @media (max-width: 767px) {
   .injection__desc__area .injection__desc__rows li dl {
-    padding: 30px 34px;
+    padding: 42px 34px;
   }
   .injection__desc__area .injection__desc__rows li dl dt {
     font-size: 24px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
   }
 }
 .injection__desc__area .injection__desc__rows li.row__01 h3 {
@@ -4786,6 +4897,7 @@ footer.pages.list-footer .copy {
 }
 .injection__desc__area .injection__desc__rows li.row__01 dl dt {
   color: #708e44;
+  border-bottom-color: #708e44;
 }
 @media (min-width: 768px) {
   .injection__desc__area .injection__desc__rows li.row__02 {
@@ -4803,6 +4915,7 @@ footer.pages.list-footer .copy {
 }
 .injection__desc__area .injection__desc__rows li.row__02 dl dt {
   color: #7578d7;
+  border-bottom-color: #7578d7;
 }
 .injection__desc__area .injection__desc__rows li.row__03 .row__center {
   top: 45%;
@@ -4819,19 +4932,28 @@ footer.pages.list-footer .copy {
   background-color: #f2cbde;
 }
 .injection__desc__area .injection__desc__rows li.row__03 dl {
-  padding: 0.77777777777778rem 18px;
+  padding: 1.87777777777778rem 18px;
 }
 .injection__desc__area .injection__desc__rows li.row__03 dl dt {
   color: #c973a5;
-  margin-bottom: 9px;
+  margin-bottom: 15px;
   line-height: 1.04;
+  border-bottom: none;
+}
+.injection__desc__area .injection__desc__rows li.row__03 dl dt span {
+  display: block;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #c973a5;
+}
+.injection__desc__area .injection__desc__rows li.row__03 dl dt .top__tit {
+  margin-bottom: 10px;
 }
 @media (max-width: 767px) {
   .injection__desc__area .injection__desc__rows li.row__03 dl {
-    padding: 1.47777777777778rem 1.6111111111111rem;
+    padding: 2.87777777777778rem 1.6111111111111rem;
   }
   .injection__desc__area .injection__desc__rows li.row__03 dl dt {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     font-size: 5.4vw;
   }
 }
@@ -4879,13 +5001,13 @@ footer.pages.list-footer .copy {
 }
 .order__injection__ilast .inner .desc__right .anchor__marks {
   width: 84.8%;
-  margin-left: 14%;
+  margin-left: 13%;
   margin-top: 1.2rem;
 }
 @media (max-width: 767px) {
   .order__injection__ilast .inner .desc__right .anchor__marks {
     width: 23%;
-    padding-left: 77%;
+    padding-left: 76.455%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-flow: column-reverse;
@@ -4916,35 +5038,41 @@ footer.pages.list-footer .copy {
   text-align: center;
   position: relative;
   padding: 1.1rem 0;
+  height: 100%;
 }
 @media (max-width: 767px) {
   .order__injection__ilast .inner .desc__right .anchor__marks li a {
     padding: 1.1rem 0 0;
-    height: 100%;
   }
 }
 .order__injection__ilast .inner .desc__right .anchor__marks li a i {
   display: block;
-  width: 30%;
+  width: 26%;
   margin: 0 auto .7rem;
 }
 @media (max-width: 767px) {
   .order__injection__ilast .inner .desc__right .anchor__marks li a i {
     width: 26%;
-    margin-bottom: 5px;
+    margin-bottom: 1.8vw;
   }
 }
 .order__injection__ilast .inner .desc__right .anchor__marks li a p {
   color: #5c5c5c;
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
-  font-size: .8rem;
+  font-size: .982rem;
   line-height: 1.15;
+  font-weight: 600;
+}
+@media (max-width: 767px) {
+  .order__injection__ilast .inner .desc__right .anchor__marks li a p {
+    font-size: 2.566666666666665vw;
+  }
 }
 .order__injection__ilast .inner .desc__right .anchor__marks li a::after {
   content: "";
   position: absolute;
   left: 50%;
-  bottom: -5px;
+  bottom: 45px;
   height: 9px;
   width: 9px;
   border-bottom: 1px solid #5c5c5c;
@@ -4954,20 +5082,22 @@ footer.pages.list-footer .copy {
 }
 @media (max-width: 767px) {
   .order__injection__ilast .inner .desc__right .anchor__marks li a::after {
-    bottom: 23px;
-    height: 7px;
-    width: 7px;
+    bottom: 20px;
+    height: 1.4444vw;
+    width: 1.4444vw;
     -webkit-transform: translateX(-50%) rotate(-45deg);
             transform: translateX(-50%) rotate(-45deg);
     left: 49%;
   }
 }
-.order__injection__ilast .inner .desc__right .anchor__marks li.last a::after {
-  bottom: 5px;
+@media (min-width: 768px) {
+  .order__injection__ilast .inner .desc__right .anchor__marks li.last a p {
+    font-size: .9rem;
+  }
 }
 @media (max-width: 767px) {
-  .order__injection__ilast .inner .desc__right .anchor__marks li.last a::after {
-    bottom: 19px;
+  .order__injection__ilast .inner .desc__right .anchor__marks li.last a p {
+    font-size: 2.31225066666666666665vw;
   }
 }
 .order__injection__ilast .inner .desc__right .anchor__marks li.green {
@@ -5423,7 +5553,7 @@ footer.pages.list-footer .copy {
 .conversion__area .inner h2::after {
   content: "";
   position: absolute;
-  width: 310px;
+  width: 135px;
   height: 1px;
   left: 50%;
   bottom: 0;

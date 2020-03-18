@@ -21,12 +21,27 @@
     <a href="#area3"><span class="row__center">小顔治療<br>
     リフトアップ</span></a> </div>
 </section>
+<section class="commitment">
+<div class="inner">
+<h2 class="tc gd fw600">当院の注入治療へのこだわり</h2>
+<ul class="commitment__list__wrap">
+  <li class="commitment__list"><span>丁寧なカウンセリング</span></li>
+<li class="commitment__list"><span>安心な製剤と安全な注入方法</span></li>
+  <li class="commitment__list"><span>高いデザイン力と技術力</span></li>
+    <li class="commitment__list"><span>明確な料金設定</span></li>
+  <li class="commitment__list"><span>なるべく痛みのない施術</span></li>
+</ul>
+
+</div>
+<!-- ./inner -->
+</section>
+
 <section class="order__made__tit bg__p02" id="area1">
   <h2 class="tc">アンチエイジング・シワ治療</h2>
 </section>
 <section class="order__made__ilast__center">
   <div class="inner">
-    <div class="ilast_center"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center.jpg?0325" alt="主なシワの種類" class="pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center_sp.jpg?0318888" alt="主なシワの種類" class="sp-dis">
+    <div class="ilast_center"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center.jpg?0325" alt="主なシワの種類" class="pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center_sp.jpg?0312546528" alt="主なシワの種類" class="sp-dis">
       <h2>主なしわの種類</h2>
     </div>
     <!--./ilast_center-->
@@ -70,8 +85,7 @@
         </h3>
         <div class="rows__wrapper">
           <dl>
-            <dt>SUNEKOS・ダーマペン4<br>
-              マイクロボトックス注射</dt>
+            <dt><span class="top__tit">SUNEKOS・ダーマペン4</span><span>マイクロボトックス注射</span></dt>
             <dd>小じわやちりめんジワは角層の水分量の低下・物理的な摩擦によるダメージ・紫外線や活性酸素等が原因で起こります。当院では小じわの状態・部位に合わせて最適な治療を提案します。小じわが改善するだけではなく毛穴が小さくなったりお肌に艶がでたり等の美肌効果も期待できます。<br>しわの状態やお悩みに合わせてSUNEKOS・ダーマペン４・マイクロボトックスなどによる治療をご提案します。</dd>
           </dl>
         </div>
@@ -83,32 +97,38 @@
   <div class="inner">
     <div class="thumb pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc__thumb.jpg" alt="いらすと"> </div>
     <div class="desc__right">
-      <div class="ilast__sub__desc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01.png?0315" alt="イラスト" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01_sp02.png?031888888" alt="イラスト" class="sp"> </div>
+      <div class="ilast__sub__desc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01.png?0318012354" alt="イラスト" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01_sp02.png?20203018" alt="イラスト" class="sp"> </div>
       <ul class="anchor__marks flex">
         <?php home_url("/");?>
-        <li class="green"><a href="<?php home_url("/");?>tarumi#area1"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_green.png" alt="注入イラスト"></i>
+        <li class="green"><a href="<?php echo home_url("/");?>tarumi#area1"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_green.png" alt="注入イラスト"></i>
           <p>ヒアルロン酸</p>
           </a></li>
-        <li class="blue"><a href="<?php home_url("/");?>siwa#area1"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_blue.png" alt="注入イラスト"></i>
+
+
+        <li class="blue"><a href="<?php echo home_url("/");?>siwa#area1"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_blue.png" alt="注入イラスト"></i>
           <p>ボトックス注射</p>
           </a></li>
-        <li class="pink"><a href="<?php home_url("/");?>siwa#area3"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_pink.png" alt="注入イラスト"></i>
+
+        <li class="pink"><a href="<?php echo home_url("/");?>siwa#area3"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_pink.png" alt="注入イラスト"></i>
           <p>SUNEKOS</p>
           </a></li>
-        <li class="pink"><a href="<?php home_url("/");?>medikaru#area4"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_pink.png" alt="注入イラスト"></i>
+
+        <li class="pink"><a href="<?php echo home_url("/");?>medikaru#area4"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_pink.png" alt="注入イラスト"></i>
           <p>ダーマペン4</p>
           </a></li>
-        <li class="pink last"><a href="<?php home_url("/");?>siwa#area1"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_pink.png" alt="注入イラスト"></i>
+
+        <li class="pink last"><a href="<?php echo home_url("/");?>siwa#area1"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_pink.png" alt="注入イラスト"></i>
           <p>マイクロ<br>
             ボトックス</p>
           </a></li>
+
       </ul>
     </div>
   </div>
 </section>
 <section class="order__case__banner">
   <div class="inner">
-    <div class="case__banner"> <a href="<?php echo home_url("/");?>case-list"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/case__banner.jpg" alt="症例写真にご協力頂いた患者様のビフォーアフターはこちらから" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/case__banner_sp.jpg?0315" alt="症例写真にご協力頂いた患者様のビフォーアフターはこちらから" class="sp"></a> </div>
+    <div class="case__banner"> <a href="<?php echo home_url("/");?>case-list"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/case__banner.jpg?0318" alt="症例写真にご協力頂いた患者様のビフォーアフターはこちらから" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/case__banner_sp.jpg?0318" alt="症例写真にご協力頂いた患者様のビフォーアフターはこちらから" class="sp"></a> </div>
   </div>
 </section>
 <section class="ope-top-desc  top-desc-p02 bg__p02 top-desc-p03" id="area2">
@@ -228,7 +248,7 @@
       <div class="col__right">
         <dl>
           <dt class="flex al-cent bg__green infusion__desc__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_green.png" alt="注射"></i><em>頬のヒアルロン酸</em></dt>
-          <dd>ヒアルロン酸で頬部分に膨らみを作る事で可愛らしい雰囲気や若々しい印象を作ります。</dd>
+          <dd>ヒアルロン酸で頬部分に膨らみを作る事で可愛らしい雰囲気や若々しい印象を作ります。頬の位置があがることでほうれい線の改善効果、小顔効果も期待できます</dd>
         </dl>
         <div class="thumb dn"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast05.jpg" alt="イラスト"> </div>
         <a href="http://blog.livedoor.jp/dr_sakiyama/archives/1073769462.html" target="_blank" class="case__btn">症例写真はこちら</a> </div>
