@@ -2287,7 +2287,7 @@ footer.pages.list-footer .copy {
 }
 .infusion.infusion__repair .inner-box .top {
   margin-bottom: 0;
-  padding: 0 15%;
+  padding: 0 9.2451%;
 }
 .infusion.infusion__repair .inner-box .top .text {
   position: relative;
@@ -2296,12 +2296,17 @@ footer.pages.list-footer .copy {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+}
+@media (min-width: 768px) {
+  .infusion.infusion__repair .inner-box .top .text {
+    width: 50%;
+  }
 }
 .infusion.infusion__repair .inner-box .top .text h3 {
   line-height: 1;

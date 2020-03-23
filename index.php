@@ -9,7 +9,7 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?021595822445">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?<?php echo filemtime(get_stylesheet_directory() . '/css/style.css'); ?>">
 <script>
   (function(d) {
     var config = {
@@ -99,7 +99,7 @@
           <p class="cp tc ls1">オーダーメイド注入<br>
             <span class="gd">ORDER MADE</span></p>
           </a> </li>
-        <li class="box-size"> <a href="<?php echo home_url('/'); ?>tarumi#area2"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02.jpg" alt="サムネイル">
+        <li class="box-size"> <a href="<?php echo home_url('/'); ?>pr3" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02.jpg" alt="サムネイル">
           <p class="cp tc ls1">スレッドリフト<br>
             <span class="gd">THREAD LIFT</span></p>
           </a> </li>
@@ -168,24 +168,26 @@
 
   <!--banner-area END-->
   <?php endif; ?>
-  <section class="infusion cp cf mb0 bg-areas" id="bg2">
+<section class="infusion infusion__repair cp cf mb0 bg-areas" id="bg2">
     <div class="inner-box">
       <div class="top flex">
-        <div class="text tc cp c_gray box-size">
-          <h3>注入治療</h3>
-          <span class="sm c_gray gd">Infusion therapy</span>
-          <p class="pc gosic tc">当院の主な注入治療部位です。<br>
-            ヒアルロン酸やボトックスを「どこに」「どのくらい」<br>
-            注入するかで、効果・効能が大きく効果が<br>
-            違ってきますが、当院では<br>
-            お顔全体のバランスをみて<br>
-            自然な若返りができるようご提案しております。</p>
-          <p class="sp gosic tc">当院の主な注入治療部位です。ヒアルロン酸やボトックスを「どこに」「どのくらい」注入するかで、効果・効能が大きく効果が違ってきますが、当院ではお顔全体のバランスをみて自然な若返りができるようご提案しております。</p>
+        <div class="text text__left tc cp c_gray box-size">
+          <div class="tit__box"><h3>注入治療</h3><span class="sm c_gray gd">Infusion therapy</span></div>
+          <p class="gosic tc">ヒアルロン酸やボトックスを「どこに」「どのくらい」<br class="pc">注入するかで、大きく効果が違ってきますが、<br class="pc">当院ではお顔全体のバランスをみて<br class="pc">自然な若返りができるようご提案しております。</p>
+          <a href="<?php echo home_url('/'); ?>pr1" class="btn fw600 bg__n_rs c_gray" target="_blank">当院のヒアルロン酸注入</a>
         </div>
-        <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/illust01.jpg" alt="イラスト"> </div>
+
+         <div class="text text__right tc cp c_gray box-size">
+           <div class="tit__box"><h3>製剤一覧</h3><span class="sm gd c_gray">FORMULATION</span></div>
+          <p class="gosic tc">当院では、日本の厚生労働省の認可の製剤を中心に、<br class="pc">優良な品質の製剤のみを使用しております。<br class="pc">注入部位やお客様の肌の状態に合わせて使用する<br class="pc">製剤の種類を使い分けています。
+</p>
+
+          <a href="<?php echo home_url('/'); ?>list" class="btn fw600 bg__n_rs c_gray">詳しく見る</a> </div>
+      </div>
+       <!--  <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/illust01.jpg" alt="イラスト"> </div> -->
       </div>
       <div class="bottom flex cf">
-        <div class="box bg-areas" id="bg-thumb">
+       <!--  <div class="box bg-areas" id="bg-thumb">
           <div class="box-inner flex gd">
             <div class="inner-lr inner-left">
               <div class="txt txt1 box-size">
@@ -200,8 +202,8 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="text tc cp c_gray box-size">
+        </div> -->
+       <!--  <div class="text tc cp c_gray box-size">
           <h3>製剤一覧</h3>
           <span class="sm gd c_gray">FORMULATION</span>
           <p class="pc gosic tc">当院の厳格な審査を通過した、<br>
@@ -213,7 +215,7 @@
             患者様の幅広い悩みを解決するために、
             多種類の製剤を取り扱っています。</p>
           <a href="<?php echo home_url('/'); ?>list" class="btn fw600 bg__n_rs c_gray">詳しく見る</a> </div>
-      </div>
+      </div> -->
     </div>
   </section>
   <section class="menu area-bgs mb0" id="bg3">

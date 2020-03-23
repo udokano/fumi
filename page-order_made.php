@@ -41,7 +41,7 @@
 </section>
 <section class="order__made__ilast__center">
   <div class="inner">
-    <div class="ilast_center"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center.jpg?0325" alt="主なシワの種類" class="pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center_sp.jpg?0312546528" alt="主なシワの種類" class="sp-dis">
+    <div class="ilast_center"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center.jpg?0254855522" alt="主なシワの種類" class="pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center_sp.jpg?0312145521145222455" alt="主なシワの種類" class="sp-dis">
       <h2>主なしわの種類</h2>
     </div>
     <!--./ilast_center-->

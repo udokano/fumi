@@ -179,7 +179,7 @@ Template Name: トップページ改修テスト閲覧用
         <div class="text text__left tc cp c_gray box-size">
           <div class="tit__box"><h3>注入治療</h3><span class="sm c_gray gd">Infusion therapy</span></div>
           <p class="gosic tc">ヒアルロン酸やボトックスを「どこに」「どのくらい」<br class="pc">注入するかで、効果・効能が大きく効果が<br class="pc">違ってきますが、当院では<br class="pc">お顔全体のバランスをみて<br class="pc">自然な若返りができるようご提案しております。</p>
-          <a href="<?php echo home_url('/'); ?>siwa#area2" class="btn fw600 bg__n_rs c_gray">当院のヒアルロン酸注入</a>
+          <a href="<?php echo home_url('/'); ?>pr1" class="btn fw600 bg__n_rs c_gray" target="_blank">当院のヒアルロン酸注入</a>
         </div>
 
          <div class="text text__right tc cp c_gray box-size">

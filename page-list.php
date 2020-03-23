@@ -5,6 +5,7 @@ Template Name: 製剤一覧
 
 ?>
 <?php get_header()?>
+
 <div class="page-head">
   <h1 class="tc f-ryu"><?php the_title(); ?></h1>
   <?php echo breadcrumb_func(); ?> </div>
@@ -20,3 +21,8 @@ Template Name: 製剤一覧
 <?php endif; ?>
 
 <?php get_footer();?>
+
+<!-- <script>
+$("img").addClass("skip-lazy");
+  </script>
+ -->
