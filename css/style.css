@@ -4617,13 +4617,14 @@ footer.pages.list-footer .copy {
 
 /* 当院のこだわり */
 .commitment {
-  padding: 3.2rem 0;
+  padding: 3.8rem 0;
   margin-bottom: 0;
   background-color: #fbfbfb;
 }
 .commitment h2 {
   font-size: 2.222222222222rem;
   margin-bottom: 3.75rem;
+  color: #333;
 }
 @media (max-width: 767px) {
   .commitment h2 {
@@ -4631,34 +4632,81 @@ footer.pages.list-footer .copy {
     margin-bottom: 2.15rem;
   }
 }
-.commitment .commitment__list__wrap {
-  text-align: center;
-  font-size: 0;
+@media (max-width: 767px) {
+  .commitment .commit__anchor__area {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
-.commitment .commitment__list__wrap .commitment__list {
-  display: inline-block;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 1.38888888rem 1.8888888rem;
-  margin: 0 1rem 2rem;
-  width: 42.444444%;
-  text-align: left;
-  font-size: 1.18rem;
-  letter-spacing: 0.075em;
-  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
-  background-color: #fff;
-  border: 1px solid #c6aabc;
-  border-radius: 6px;
-}
-.commitment .commitment__list__wrap .commitment__list span {
-  padding: 1.1rem 0;
-  padding-left: 2.7rem;
-  background: url(../img/common/checked.svg) no-repeat 0% 50%/auto 50%;
+.commitment .commit__anchor__area .commit__anchor__link {
+  width: 19%;
 }
 @media (max-width: 767px) {
-  .commitment .commitment__list__wrap .commitment__list {
-    width: 100%;
-    margin: .45rem auto;
+  .commitment .commit__anchor__area .commit__anchor__link {
+    width: 31.5%;
+    margin: 0 .9% .78rem;
+  }
+}
+.commitment .commit__anchor__area .commit__anchor__link a {
+  position: relative;
+  display: block;
+  height: 100%;
+}
+.commitment .commit__anchor__area .commit__anchor__link a p {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+}
+.commitment .commit__anchor__area .commit__anchor__link a .num {
+  position: absolute;
+  top: 35px;
+  width: 20px;
+  margin: auto;
+}
+@media (max-width: 767px) {
+  .commitment .commit__anchor__area .commit__anchor__link a .num {
+    top: 12%;
+    width: 15%;
+  }
+}
+.commitment .commit__anchor__area .commit__anchor__link a .anchor__tit {
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.56;
+}
+@media (max-width: 767px) {
+  .commitment .commit__anchor__area .commit__anchor__link a .anchor__tit {
+    font-size: 10px;
+    line-height: 1.34;
+    letter-spacing: 0;
+    top: 55%;
+  }
+}
+.commitment .commit__anchor__area .commit__anchor__link a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  width: 20px;
+  height: 20px;
+  border-bottom: 1px solid #a3a3a3;
+  border-right: 1px solid #a3a3a3;
+  -webkit-transform: translateX(-50%) rotate(45deg);
+          transform: translateX(-50%) rotate(45deg);
+}
+@media (max-width: 767px) {
+  .commitment .commit__anchor__area .commit__anchor__link a::after {
+    bottom: 10px;
+    width: 16px;
+    height: 16px;
   }
 }
 
@@ -4695,7 +4743,7 @@ footer.pages.list-footer .copy {
 }
 .order__made__ilast__center .ilast_center img {
   display: block;
-  width: 78%;
+  width: 67%;
   margin: 5.7222222222222rem auto 0;
   position: relative;
   overflow: hidden;
@@ -4750,6 +4798,12 @@ footer.pages.list-footer .copy {
       -ms-flex-pack: center;
           justify-content: center;
   /* 一番右のやつは余白などのレイアウトが若干違うので調整 */
+}
+@media (min-width: 787px) {
+  .injection__desc__area .injection__desc__rows {
+    width: 90%;
+    margin: auto;
+  }
 }
 @media (max-width: 767px) {
   .injection__desc__area .injection__desc__rows {
@@ -4810,7 +4864,7 @@ footer.pages.list-footer .copy {
   }
 }
 .injection__desc__area .injection__desc__rows li h3 span {
-  font-size: .88722222222222rem;
+  font-size: .78722222222222rem;
   line-height: 1.38;
   display: block;
   letter-spacing: 0.025em;
@@ -4834,9 +4888,9 @@ footer.pages.list-footer .copy {
   border-color: #007bff transparent transparent transparent;
 }
 .injection__desc__area .injection__desc__rows li .rows__wrapper {
-  padding: 1.8333333333333rem 0.77777777777778rem 1.3333333333333rem;
+  padding: 1.8333333333333rem 0.47777777777778rem 1.3333333333333rem;
   border-radius: 9px;
-  height: 510px;
+  height: 500px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: relative;
@@ -4852,7 +4906,7 @@ footer.pages.list-footer .copy {
 .injection__desc__area .injection__desc__rows li dl {
   background-color: #fff;
   border-radius: 9px;
-  padding: 2.8rem 12px 1.9rem;
+  padding: 2.8rem 10px 1.9rem;
   height: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -4871,11 +4925,12 @@ footer.pages.list-footer .copy {
   padding-bottom: 6px;
 }
 .injection__desc__area .injection__desc__rows li dl dd {
-  line-height: 1.75;
+  line-height: 1.67;
   letter-spacing: 0;
   font-size: 16px;
   word-break: break-all;
   text-align: left;
+  text-align: justify;
 }
 @media (max-width: 767px) {
   .injection__desc__area .injection__desc__rows li dl dd {
@@ -4906,7 +4961,7 @@ footer.pages.list-footer .copy {
 }
 @media (min-width: 768px) {
   .injection__desc__area .injection__desc__rows li.row__02 {
-    margin: 0 .8rem;
+    margin: 0 .5rem;
   }
 }
 .injection__desc__area .injection__desc__rows li.row__02 h3 {
@@ -4937,13 +4992,14 @@ footer.pages.list-footer .copy {
   background-color: #f2cbde;
 }
 .injection__desc__area .injection__desc__rows li.row__03 dl {
-  padding: 1.87777777777778rem 18px;
+  padding: 1.87777777777778rem 10px;
 }
 .injection__desc__area .injection__desc__rows li.row__03 dl dt {
   color: #c973a5;
-  margin-bottom: 15px;
+  margin-bottom: 24px;
   line-height: 1.04;
   border-bottom: none;
+  font-size: 18px;
 }
 .injection__desc__area .injection__desc__rows li.row__03 dl dt span {
   display: block;
@@ -4973,6 +5029,11 @@ footer.pages.list-footer .copy {
 }
 .order__injection__ilast .inner {
   position: relative;
+}
+@media (min-width: 768px) {
+  .order__injection__ilast .inner {
+    width: 940px;
+  }
 }
 @media (max-width: 767px) {
   .order__injection__ilast .inner {
@@ -5005,8 +5066,8 @@ footer.pages.list-footer .copy {
   }
 }
 .order__injection__ilast .inner .desc__right .anchor__marks {
-  width: 84.8%;
-  margin-left: 13%;
+  width: 85.5%;
+  margin-left: 12.5%;
   margin-top: 1.2rem;
 }
 @media (max-width: 767px) {
@@ -5024,8 +5085,8 @@ footer.pages.list-footer .copy {
   }
 }
 .order__injection__ilast .inner .desc__right .anchor__marks li {
-  width: 123px;
-  height: 123px;
+  width: 113px;
+  height: 113px;
   overflow: hidden;
   border-radius: 50%;
 }
@@ -5064,7 +5125,7 @@ footer.pages.list-footer .copy {
 .order__injection__ilast .inner .desc__right .anchor__marks li a p {
   color: #5c5c5c;
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
-  font-size: .982rem;
+  font-size: .912rem;
   line-height: 1.15;
   font-weight: 600;
 }
@@ -5542,6 +5603,77 @@ footer.pages.list-footer .copy {
   color: #6b6b6b;
 }
 
+.commit__desc__area {
+  padding-top: 8.375rem;
+}
+@media (max-width: 767px) {
+  .commit__desc__area {
+    padding-top: 4.175rem;
+  }
+}
+.commit__desc__area .inner .commit__desc__lists {
+  overflow: hidden;
+}
+.commit__desc__area .inner .commit__desc__lists .commit__list {
+  padding: 5rem 5.25rem;
+  margin-bottom: 1.875rem;
+}
+@media (max-width: 767px) {
+  .commit__desc__area .inner .commit__desc__lists .commit__list {
+    padding: 2.75rem 2.2rem;
+  }
+}
+.commit__desc__area .inner .commit__desc__lists .commit__list .list__content {
+  width: 75%;
+}
+@media (max-width: 767px) {
+  .commit__desc__area .inner .commit__desc__lists .commit__list .list__content {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .commit__desc__area .inner .commit__desc__lists .commit__list:nth-of-type(even) .list__content {
+    margin-left: 40%;
+    width: 65%;
+  }
+}
+.commit__desc__area .inner .commit__desc__lists .commit__list .points {
+  background-color: #c775ac;
+  display: inline-block;
+  padding: 5px 20px;
+  margin-bottom: 1.75rem;
+  font-size: 1.3125rem;
+}
+.commit__desc__area .inner .commit__desc__lists .commit__list h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0;
+}
+@media (max-width: 767px) {
+  .commit__desc__area .inner .commit__desc__lists .commit__list h3 {
+    font-size: 1.7rem;
+  }
+}
+.commit__desc__area .inner .commit__desc__lists .commit__list .commit__text {
+  font-size: 1.25rem;
+  text-align: justify;
+}
+.commit__desc__area .inner .point01 {
+  background-image: url(../img/operation/order_made/commit_bg01.jpg);
+}
+.commit__desc__area .inner .point02 {
+  background-image: url(../img/operation/order_made/commit_bg02.jpg);
+}
+.commit__desc__area .inner .point03 {
+  background-image: url(../img/operation/order_made/commit_bg03.jpg);
+}
+.commit__desc__area .inner .point04 {
+  background-image: url(../img/operation/order_made/commit_bg04.jpg);
+}
+.commit__desc__area .inner .point05 {
+  background-image: url(../img/operation/order_made/commit_bg05.jpg);
+}
+
 .conversion__area {
   background: url(../img/operation/order_made/cv_bg.jpg) no-repeat 50% 50%/cover;
   padding: 4.3125rem 0 3.937rem;
@@ -5558,7 +5690,7 @@ footer.pages.list-footer .copy {
 .conversion__area .inner h2::after {
   content: "";
   position: absolute;
-  width: 135px;
+  width: 45px;
   height: 1px;
   left: 50%;
   bottom: 0;
@@ -5717,13 +5849,103 @@ footer.pages.list-footer .copy {
   color: #7c7c7c;
 }
 
+/* 先生の紹介文周りも修正 */
+.doctor-intro.doctor__intro__repair {
+  background-color: #f6eeee;
+}
+.doctor-intro.doctor__intro__repair .inner {
+  padding: 60px 0 0;
+  background: none;
+  color: #7c7c7c;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+@media (max-width: 767px) {
+  .doctor-intro.doctor__intro__repair .inner {
+    padding: 0;
+  }
+}
+.doctor-intro.doctor__intro__repair .inner .text {
+  width: 68%;
+  padding-bottom: 60px;
+}
+@media (max-width: 767px) {
+  .doctor-intro.doctor__intro__repair .inner .text {
+    width: 94%;
+    padding-bottom: 0;
+  }
+}
+.doctor-intro.doctor__intro__repair .inner .text h2 {
+  margin-bottom: 35px;
+  color: #7c7c7c;
+  width: auto;
+  font-weight: 800;
+}
+.doctor-intro.doctor__intro__repair .inner .text h2 .sm {
+  font-size: .9rem;
+}
+.doctor-intro.doctor__intro__repair .inner .text p {
+  line-height: 1.8;
+  margin-bottom: 35px;
+  font-size: .97rem;
+  color: #7c7c7c;
+  text-align: justify;
+}
+@media (max-width: 767px) {
+  .doctor-intro.doctor__intro__repair .inner .text p {
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .doctor-intro.doctor__intro__repair .inner .text .blog__name__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
+  }
+}
+.doctor-intro.doctor__intro__repair .inner .text .blog__name__container .blog {
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  .doctor-intro.doctor__intro__repair .inner .text .blog__name__container .blog {
+    text-align: center;
+  }
+}
+.doctor-intro.doctor__intro__repair .inner .text .blog__name__container .blog a {
+  display: inline-block;
+  background-color: #c086ae;
+  padding: 4px 6px;
+  margin-right: 1.1rem;
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体", serif;
+}
+.doctor-intro.doctor__intro__repair .inner .text .blog__name__container .blog .link-txt {
+  background: none;
+  color: #7c7c7c;
+}
+@media (max-width: 767px) {
+  .doctor-intro.doctor__intro__repair .inner .text .blog__name__container .doctor__name {
+    margin-bottom: 1.35rem;
+  }
+}
+@media (max-width: 767px) {
+  .doctor-intro.doctor__intro__repair .inner .text .blog__name__container .doctor__name 　h3 {
+    font-size: 1.88rem;
+  }
+}
+.doctor-intro.doctor__intro__repair .inner .thumb {
+  width: 22%;
+}
+
 .doctor-carrer div {
   width: 47%;
+  /* 追加文 */
 }
 .doctor-carrer div h3 {
   background-color: #d7ccb0;
 }
-.doctor-carrer div h3, .doctor-carrer div ul li {
+.doctor-carrer div h3, .doctor-carrer div ul li, .doctor-carrer div .introduction__text {
   padding: 14px 24px;
 }
 .doctor-carrer div ul li {
@@ -5735,6 +5957,58 @@ footer.pages.list-footer .copy {
 }
 .doctor-carrer div ul li:nth-of-type(even) {
   background-color: #f4f4f4;
+}
+.doctor-carrer div .introduction__text {
+  width: 100%;
+  background-color: #f4f4f4;
+}
+.doctor-carrer div .introduction__text p {
+  line-height: 1.65;
+  text-align: justify;
+  margin-bottom: .9rem;
+}
+
+/* 先生の経歴の部分改修 */
+.doctor-carrer.career__repair .career__contents {
+  width: 68%;
+  margin-bottom: 2.2rem;
+  /* 追加文 */
+}
+@media (max-width: 767px) {
+  .doctor-carrer.career__repair .career__contents {
+    width: 96%;
+    margin: auto;
+  }
+}
+.doctor-carrer.career__repair .career__contents h3 {
+  background-color: #d7ccb0;
+}
+.doctor-carrer.career__repair .career__contents h3, .doctor-carrer.career__repair .career__contents ul li, .doctor-carrer.career__repair .career__contents .introduction__text {
+  padding: 14px 24px;
+}
+.doctor-carrer.career__repair .career__contents ul li {
+  font-size: 1.17rem;
+}
+.doctor-carrer.career__repair .career__contents ul li span {
+  display: inline-block;
+  padding-right: 1.1rem;
+}
+.doctor-carrer.career__repair .career__contents ul li:nth-of-type(even) {
+  background-color: #f4f4f4;
+}
+.doctor-carrer.career__repair .career__contents .introduction__text {
+  width: 100%;
+  background-color: #f4f4f4;
+}
+.doctor-carrer.career__repair .career__contents .introduction__text p {
+  line-height: 1.65;
+  text-align: justify;
+  margin-bottom: .9rem;
+}
+@media (max-width: 767px) {
+  .doctor-carrer.career__repair .career__contents .introduction__text p {
+    font-size: 2.5285vw;
+  }
 }
 
 @media (max-width: 767px) {

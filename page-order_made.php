@@ -23,14 +23,45 @@
 </section>
 <section class="commitment">
 <div class="inner">
-<h2 class="tc gd fw600">当院の注入治療へのこだわり</h2>
-<ul class="commitment__list__wrap">
-  <li class="commitment__list"><span>丁寧なカウンセリング</span></li>
-<li class="commitment__list"><span>安心な製剤と安全な注入方法</span></li>
-  <li class="commitment__list"><span>高いデザイン力と技術力</span></li>
-    <li class="commitment__list"><span>明確な料金設定</span></li>
-  <li class="commitment__list"><span>なるべく痛みのない施術</span></li>
-</ul>
+<h2 class="tc f-ryu">当院の注入治療へのこだわり</h2>
+
+<ol class="commit__anchor__area flex">
+  <li class="commit__anchor__link box-size">
+    <a href="#commit01">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_img01.png" alt="アンカーリンクマーク">
+      <p class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_num01.png" alt="1"></p>
+      <p class="anchor__tit cw">カウンセリングへの<br>こだわり</p>
+    </a>
+  </li>
+  <li class="commit__anchor__link box-size">
+    <a href="#commit02">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_img02.png" alt="アンカーリンクマーク">
+      <p class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_num02.png" alt="1"></p>
+      <p class="anchor__tit cw">製剤と注入方法への<br>こだわり</p>
+    </a>
+  </li>
+  <li class="commit__anchor__link box-size">
+    <a href="#commit03">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_img03.png" alt="アンカーリンクマーク">
+      <p class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_num03.png" alt="1"></p>
+      <p class="anchor__tit cw">注入技術とデザイン力<br>へのこだわり</p>
+    </a>
+  </li>
+  <li class="commit__anchor__link box-size">
+    <a href="#commit04">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_img04.png" alt="アンカーリンクマーク">
+      <p class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_num04.png" alt="1"></p>
+      <p class="anchor__tit cw">痛くない治療への<br>こだわり</p>
+    </a>
+  </li>
+  <li class="commit__anchor__link box-size">
+    <a href="#commit05">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_img05.png" alt="アンカーリンクマーク">
+      <p class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_num05.png" alt="1"></p>
+      <p class="anchor__tit cw">明確な料金<br>設定</p>
+    </a>
+  </li>
+</ol>
 
 </div>
 <!-- ./inner -->
@@ -41,7 +72,7 @@
 </section>
 <section class="order__made__ilast__center">
   <div class="inner">
-    <div class="ilast_center"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center.jpg?0254855522" alt="主なシワの種類" class="pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center_sp.jpg?0312145521145222455" alt="主なシワの種類" class="sp-dis">
+    <div class="ilast_center"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center.jpg?032556666" alt="主なシワの種類" class="pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center_sp.jpg?2325562211" alt="主なシワの種類" class="sp-dis">
       <h2>主なしわの種類</h2>
     </div>
     <!--./ilast_center-->
@@ -97,7 +128,7 @@
   <div class="inner">
     <div class="thumb pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc__thumb.jpg" alt="いらすと"> </div>
     <div class="desc__right">
-      <div class="ilast__sub__desc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01.png?0318012354" alt="イラスト" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01_sp02.png?20203018" alt="イラスト" class="sp"> </div>
+      <div class="ilast__sub__desc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01.png?0324256855" alt="イラスト" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01_sp02.png?2020032415" alt="イラスト" class="sp"> </div>
       <ul class="anchor__marks flex">
         <?php home_url("/");?>
         <li class="green"><a href="<?php echo home_url("/");?>tarumi#area1"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_green.png" alt="注入イラスト"></i>
@@ -321,6 +352,72 @@
   <!-- ./inner-box -->
 
 </section>
+<section class="order__made__tit bg__p02">
+  <h2 class="tc">当院のこだわり</h2>
+</section>
+<section class="commit__desc__area">
+
+<div class="inner">
+
+<ul class="commit__desc__lists">
+  <li class="commit__list area-bgs point01" id="commit01">
+    <div class="list__content">
+        <p class="points cw f-ryu">Ponit.1</p>
+        <h3 class="gd">カウンセリングへのこだわり</h3>
+        <p class="commit__text">
+          お一人お一人のお悩みや、こうなりたいというご希望をじっくりと伺い丁寧にカウンセリングを行います。<br class="pc">またリスクや副作用についてもしっかりと説明しております。
+        </p>
+        </div>
+  </li>
+
+  <li class="commit__list area-bgs point02" id="commit02">
+     <div class="list__content">
+        <p class="points cw f-ryu">Point.2</p>
+        <h3 class="gd">製剤と注入方法へのこだわり</h3>
+        <p class="commit__text">
+          当院では厚生労働省の承認を得た製剤を中心に、安全性の確<br class="pc">立された製剤を取り扱っております。また認定医の院長が、<br class="pc">効果的かつ安全性の高い部位に注入していますので安心して<br class="pc">受けて頂けます。
+        </p>
+        </div>
+  </li>
+
+  <li class="commit__list area-bgs point03" id="commit03">
+     <div class="list__content">
+        <p class="points cw f-ryu">Point.3</p>
+        <h3 class="gd">注入技術とデザイン力への<br class="sp">こだわり</h3>
+        <p class="commit__text">
+          全ての注入技術を認定医である院長が行います。<br class="pc">顔のトータルバランスを整えるように、またその方の美しさを<br class="pc">引き出すような注入を心がけております。 </p>
+        </div>
+  </li>
+
+  <li class="commit__list area-bgs point04" id="commit04">
+     <div class="list__content">
+        <p class="points cw f-ryu">Point.4</p>
+        <h3 class="gd">痛くない治療へのこだわり</h3>
+        <p class="commit__text">
+          麻酔クリームや冷却、特殊な細い糸や針先が丸く柔らかい<br class="pc">カニューレを使用し、なるべく痛みがなく受けて頂けるよう<br class="pc">に配慮しております。
+        </p>
+</div>
+  </li>
+
+  <li class="commit__list area-bgs point05" id="commit05">
+     <div class="list__content">
+        <p class="points cw f-ryu">Point.5</p>
+        <h3 class="gd">明確な料金設定</h3>
+        <p class="commit__text">
+          先会計システムを取り入れています。施術前に料金についてし<br class="pc">っかりと説明を行っておりますので、不明瞭な追加料金等は一<br class="pc">切ございません。
+        </p>
+</div>
+  </li>
+</ul>
+
+
+
+</div>
+
+</section>
+
+
+
 <section class="conversion__area">
   <div class="inner">
     <h2 class="tc gd f-ryu">来院予約・お問合せはこちらから</h2>
