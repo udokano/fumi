@@ -128,7 +128,7 @@
   <div class="inner">
     <div class="thumb pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc__thumb.jpg" alt="いらすと"> </div>
     <div class="desc__right">
-      <div class="ilast__sub__desc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01.png?0324256855" alt="イラスト" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01_sp02.png?2020032415" alt="イラスト" class="sp"> </div>
+      <div class="ilast__sub__desc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01.png?0326014522" alt="イラスト" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01_sp02.png?202003262456" alt="イラスト" class="sp"> </div>
       <ul class="anchor__marks flex">
         <?php home_url("/");?>
         <li class="green"><a href="<?php echo home_url("/");?>tarumi#area1"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_green.png" alt="注入イラスト"></i>
@@ -344,6 +344,27 @@
         <div class="case__btn__wrap bottom__up">
             <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1166123.html" target="_blank" class="case__btn">症例写真はこちら</a>
         </div>
+      </div>
+
+    </div>
+    <!-- ./desc__box -->
+
+    <!-- ./right__col -->
+       <div class="desc__box flex">
+      <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast04.jpg?0316" alt="イラスト"></div>
+      <!-- ./thumb -->
+      <div class="right__col">
+        <dl>
+          <dt class="flex al-cent bg__brown infusion__desc__tit ela__btx__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_brown.png" alt="注射"></i><em>BNLS neo 注射
+<br>(脂肪溶解注射)</em>
+           <div class="thumb sp"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast04.jpg?0316" alt="イラスト"></div>
+           </dt>
+          <dd class="gosic">脂肪の気になる部分にBNLSneoを注入します。<br class="pc">脂肪細胞を溶かし、抹消血流やリンパの流れを改善し、脂肪細胞だけでなく老廃物の排出も促します。BNLSneo注射は植物由来の成分を主成分としているので従来のように筋肉痛のような痛みや腫れかゆみ等の副作用がほとんどありません。<br class="pc">1～2週間の間隔で4・5回の治療がおすすめです。</dd>
+        </dl>
+
+        <!-- <div class="case__btn__wrap bottom__up">
+            <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1166123.html" target="_blank" class="case__btn">症例写真はこちら</a>
+        </div> -->
       </div>
       <!-- ./right__col -->
     </div>

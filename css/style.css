@@ -5251,6 +5251,10 @@ footer.pages.list-footer .copy {
   background-color: #f2cbde;
 }
 
+.bg__brown {
+  background-color: #e8dcd3;
+}
+
 .case__btn {
   border: 1px solid #bababa;
   border-radius: 7px;
@@ -5852,6 +5856,7 @@ footer.pages.list-footer .copy {
 /* 先生の紹介文周りも修正 */
 .doctor-intro.doctor__intro__repair {
   background-color: #f6eeee;
+  margin-bottom: 0;
 }
 .doctor-intro.doctor__intro__repair .inner {
   padding: 60px 0 0;
@@ -5885,6 +5890,12 @@ footer.pages.list-footer .copy {
 .doctor-intro.doctor__intro__repair .inner .text h2 .sm {
   font-size: .9rem;
 }
+@media (max-width: 767px) {
+  .doctor-intro.doctor__intro__repair .inner .text h2 {
+    font-size: 1.82rem;
+    text-align: left;
+  }
+}
 .doctor-intro.doctor__intro__repair .inner .text p {
   line-height: 1.8;
   margin-bottom: 35px;
@@ -5895,6 +5906,7 @@ footer.pages.list-footer .copy {
 @media (max-width: 767px) {
   .doctor-intro.doctor__intro__repair .inner .text p {
     margin-bottom: 25px;
+    font-size: 3.78285vw;
   }
 }
 @media (max-width: 767px) {
@@ -5925,17 +5937,107 @@ footer.pages.list-footer .copy {
   color: #7c7c7c;
 }
 @media (max-width: 767px) {
-  .doctor-intro.doctor__intro__repair .inner .text .blog__name__container .doctor__name {
+  .doctor-intro.doctor__intro__repair .inner .text .blog__name__container div.doctor__name__as {
     margin-bottom: 1.35rem;
-  }
-}
-@media (max-width: 767px) {
-  .doctor-intro.doctor__intro__repair .inner .text .blog__name__container .doctor__name 　h3 {
-    font-size: 1.88rem;
   }
 }
 .doctor-intro.doctor__intro__repair .inner .thumb {
   width: 22%;
+}
+
+.doctor-intro.doctor__intro__repair02 {
+  background-color: #f6eeee;
+  margin-bottom: 0;
+}
+.doctor-intro.doctor__intro__repair02 .doctor__message__tit {
+  margin-bottom: 35px;
+  color: #7c7c7c;
+  width: auto;
+  padding: 12px 8px;
+  font-weight: 800;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #b0b0b0;
+  display: inline-block;
+  font-size: 2.2rem;
+  margin-left: 3.7rem;
+  margin-bottom: 3.5rem;
+}
+.doctor-intro.doctor__intro__repair02 .doctor__message__tit .sm {
+  font-size: .9rem;
+}
+@media (max-width: 767px) {
+  .doctor-intro.doctor__intro__repair02 .doctor__message__tit {
+    font-size: 1.82rem;
+    text-align: left;
+    margin-left: 4%;
+  }
+}
+.doctor-intro.doctor__intro__repair02 .inner {
+  padding: 60px 0 0;
+  background: none;
+  color: #7c7c7c;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+@media (max-width: 767px) {
+  .doctor-intro.doctor__intro__repair02 .inner {
+    padding: 0;
+  }
+}
+.doctor-intro.doctor__intro__repair02 .inner .text {
+  width: 63%;
+  padding-bottom: 60px;
+}
+@media (max-width: 767px) {
+  .doctor-intro.doctor__intro__repair02 .inner .text {
+    width: 94%;
+    padding-bottom: 0;
+  }
+}
+.doctor-intro.doctor__intro__repair02 .inner .text p {
+  line-height: 1.95;
+  margin-bottom: 35px;
+  font-size: 1.2rem;
+  color: #7c7c7c;
+  text-align: justify;
+}
+@media (max-width: 767px) {
+  .doctor-intro.doctor__intro__repair02 .inner .text p {
+    margin-bottom: 25px;
+    font-size: 3.78285vw;
+  }
+}
+.doctor-intro.doctor__intro__repair02 .inner .text .blog__name__container {
+  float: right;
+}
+@media (max-width: 767px) {
+  .doctor-intro.doctor__intro__repair02 .inner .text .blog__name__container {
+    float: none;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .doctor-intro.doctor__intro__repair02 .inner .text .blog__name__container div.doctor__name__as {
+    margin-bottom: 1.35rem;
+  }
+}
+.doctor-intro.doctor__intro__repair02 .inner .text .blog__name__container div.doctor__name__as .doctor__name__tit__as#doctor__name {
+  font-size: 3.1rem;
+}
+.doctor-intro.doctor__intro__repair02 .inner .text .blog__name__container div.doctor__name__as .doctor__name__tit__as#doctor__name .sm {
+  font-size: 1.3rem;
+}
+.doctor-intro.doctor__intro__repair02 .inner .thumb {
+  width: 28%;
+}
+
+.doctor__name__tit__as#doctor__name {
+  font-size: 1.8rem;
+}
+.doctor__name__tit__as#doctor__name .sm {
+  font-size: .98rem;
 }
 
 .doctor-carrer div {
@@ -5969,22 +6071,40 @@ footer.pages.list-footer .copy {
 }
 
 /* 先生の経歴の部分改修 */
+.doctor-carrer.career__repair {
+  background-color: #f6eeee;
+  color: #7c7c7c;
+  padding: 60px 0;
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  .doctor-carrer.career__repair {
+    padding: 30px 0;
+  }
+}
 .doctor-carrer.career__repair .career__contents {
-  width: 68%;
+  width: 69%;
   margin-bottom: 2.2rem;
   /* 追加文 */
 }
 @media (max-width: 767px) {
   .doctor-carrer.career__repair .career__contents {
     width: 96%;
-    margin: auto;
+    margin: 0 auto !important;
   }
 }
 .doctor-carrer.career__repair .career__contents h3 {
-  background-color: #d7ccb0;
+  background: none;
+  color: #7c7c7c;
+  font-weight: 800;
+}
+@media (max-width: 767px) {
+  .doctor-carrer.career__repair .career__contents h3 {
+    font-size: 1.82rem;
+  }
 }
 .doctor-carrer.career__repair .career__contents h3, .doctor-carrer.career__repair .career__contents ul li, .doctor-carrer.career__repair .career__contents .introduction__text {
-  padding: 14px 24px;
+  padding: 14px 0;
 }
 .doctor-carrer.career__repair .career__contents ul li {
   font-size: 1.17rem;
@@ -5998,16 +6118,100 @@ footer.pages.list-footer .copy {
 }
 .doctor-carrer.career__repair .career__contents .introduction__text {
   width: 100%;
-  background-color: #f4f4f4;
+  background-color: transparent;
 }
 .doctor-carrer.career__repair .career__contents .introduction__text p {
   line-height: 1.65;
   text-align: justify;
   margin-bottom: .9rem;
+  font-size: .97rem;
+  line-height: 1.8;
 }
 @media (max-width: 767px) {
   .doctor-carrer.career__repair .career__contents .introduction__text p {
-    font-size: 2.5285vw;
+    font-size: 3.78285vw;
+  }
+}
+.doctor-carrer.career__repair .career__contents .introduction__text p .text-small {
+  font-size: .84rem;
+}
+@media (max-width: 767px) {
+  .doctor-carrer.career__repair .career__contents .introduction__text p .text-small {
+    font-size: 3.08285vw;
+  }
+}
+
+.doctor-carrer.career__repair02 {
+  background-color: #f6eeee;
+  color: #7c7c7c;
+  padding: 60px 0;
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  .doctor-carrer.career__repair02 {
+    padding: 30px 0;
+  }
+}
+.doctor-carrer.career__repair02 .career__contents {
+  width: 69%;
+  margin-bottom: 2.2rem;
+  /* 追加文 */
+}
+@media (max-width: 767px) {
+  .doctor-carrer.career__repair02 .career__contents {
+    width: 96%;
+    margin: 0 auto !important;
+  }
+}
+.doctor-carrer.career__repair02 .career__contents h3 {
+  background: none;
+  color: #7c7c7c;
+  padding: 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #b0b0b0;
+  font-weight: 800;
+  display: inline-block;
+}
+@media (max-width: 767px) {
+  .doctor-carrer.career__repair02 .career__contents h3 {
+    font-size: 1.82rem;
+  }
+}
+.doctor-carrer.career__repair02 .career__contents ul li, .doctor-carrer.career__repair02 .career__contents .introduction__text {
+  padding: 14px 0;
+}
+.doctor-carrer.career__repair02 .career__contents ul li {
+  font-size: 1.17rem;
+}
+.doctor-carrer.career__repair02 .career__contents ul li span {
+  display: inline-block;
+  padding-right: 1.1rem;
+}
+.doctor-carrer.career__repair02 .career__contents ul li:nth-of-type(even) {
+  background-color: #f4f4f4;
+}
+.doctor-carrer.career__repair02 .career__contents .introduction__text {
+  width: 100%;
+  background-color: transparent;
+}
+.doctor-carrer.career__repair02 .career__contents .introduction__text p {
+  line-height: 1.65;
+  text-align: justify;
+  margin-bottom: .9rem;
+  font-size: .97rem;
+  line-height: 1.8;
+}
+@media (max-width: 767px) {
+  .doctor-carrer.career__repair02 .career__contents .introduction__text p {
+    font-size: 3.78285vw;
+  }
+}
+.doctor-carrer.career__repair02 .career__contents .introduction__text p .text-small {
+  font-size: .84rem;
+}
+@media (max-width: 767px) {
+  .doctor-carrer.career__repair02 .career__contents .introduction__text p .text-small {
+    font-size: 3.08285vw;
   }
 }
 
