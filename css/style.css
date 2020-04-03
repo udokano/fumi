@@ -5558,6 +5558,9 @@ footer.pages.list-footer .copy {
   .order__kogao__ilast__cross .inner .desc__box .right__col .bottom__up {
     bottom: 78px;
   }
+  .order__kogao__ilast__cross .inner .desc__box .right__col .bottom__down {
+    bottom: -40px;
+  }
 }
 @media (max-width: 767px) {
   .order__kogao__ilast__cross .inner .desc__box .right__col dl {
@@ -5948,29 +5951,35 @@ footer.pages.list-footer .copy {
 .doctor-intro.doctor__intro__repair02 {
   background-color: #f6eeee;
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 .doctor-intro.doctor__intro__repair02 .doctor__message__tit {
   margin-bottom: 35px;
   color: #7c7c7c;
   width: auto;
-  padding: 12px 8px;
+  padding: 0 0 12px;
   font-weight: 800;
-  border-top: 1px solid;
   border-bottom: 1px solid;
   border-color: #b0b0b0;
-  display: inline-block;
-  font-size: 2.2rem;
-  margin-left: 3.7rem;
+  font-size: 1.8rem;
+  margin-left: 0;
   margin-bottom: 3.5rem;
+  line-height: 1;
+  text-align: center;
 }
 .doctor-intro.doctor__intro__repair02 .doctor__message__tit .sm {
   font-size: .9rem;
 }
+@media (min-width: 768px) {
+  .doctor-intro.doctor__intro__repair02 .doctor__message__tit span {
+    padding-right: 526px;
+  }
+}
 @media (max-width: 767px) {
   .doctor-intro.doctor__intro__repair02 .doctor__message__tit {
     font-size: 1.82rem;
-    text-align: left;
-    margin-left: 4%;
+    width: 94%;
+    margin: 0 auto 2.5rem;
   }
 }
 .doctor-intro.doctor__intro__repair02 .inner {
@@ -5986,20 +5995,27 @@ footer.pages.list-footer .copy {
     padding: 0;
   }
 }
+.doctor-intro.doctor__intro__repair02 .inner .contents__wrap {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
 .doctor-intro.doctor__intro__repair02 .inner .text {
-  width: 63%;
-  padding-bottom: 60px;
+  width: 59%;
+  margin-left: 4%;
+  padding-bottom: 0px;
 }
 @media (max-width: 767px) {
   .doctor-intro.doctor__intro__repair02 .inner .text {
     width: 94%;
+    margin-left: auto;
     padding-bottom: 0;
   }
 }
 .doctor-intro.doctor__intro__repair02 .inner .text p {
-  line-height: 1.95;
-  margin-bottom: 35px;
-  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 33px;
+  font-size: .97rem;
   color: #7c7c7c;
   text-align: justify;
 }
@@ -6020,17 +6036,30 @@ footer.pages.list-footer .copy {
 }
 @media (max-width: 767px) {
   .doctor-intro.doctor__intro__repair02 .inner .text .blog__name__container div.doctor__name__as {
-    margin-bottom: 1.35rem;
+    margin-bottom: 0rem;
   }
 }
 .doctor-intro.doctor__intro__repair02 .inner .text .blog__name__container div.doctor__name__as .doctor__name__tit__as#doctor__name {
-  font-size: 3.1rem;
+  font-size: 1.4rem;
 }
 .doctor-intro.doctor__intro__repair02 .inner .text .blog__name__container div.doctor__name__as .doctor__name__tit__as#doctor__name .sm {
-  font-size: 1.3rem;
+  font-size: .98rem;
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: 4px;
+  margin-right: 1.0rem;
+}
+@media (max-width: 767px) {
+  .doctor-intro.doctor__intro__repair02 .inner .text .blog__name__container div.doctor__name__as .doctor__name__tit__as#doctor__name {
+    font-size: 6.2vw;
+  }
+  .doctor-intro.doctor__intro__repair02 .inner .text .blog__name__container div.doctor__name__as .doctor__name__tit__as#doctor__name .sm {
+    font-size: 4.0vw;
+    padding-bottom: 5px;
+  }
 }
 .doctor-intro.doctor__intro__repair02 .inner .thumb {
-  width: 28%;
+  width: 16.5%;
 }
 
 .doctor__name__tit__as#doctor__name {
@@ -6153,8 +6182,8 @@ footer.pages.list-footer .copy {
   }
 }
 .doctor-carrer.career__repair02 .career__contents {
-  width: 69%;
-  margin-bottom: 2.2rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
   /* 追加文 */
 }
 @media (max-width: 767px) {
@@ -6170,7 +6199,12 @@ footer.pages.list-footer .copy {
   padding-bottom: 5px;
   border-bottom: 1px solid #b0b0b0;
   font-weight: 800;
-  display: inline-block;
+  font-size: 1.8rem;
+}
+@media (min-width: 768px) {
+  .doctor-carrer.career__repair02 .career__contents h3 span {
+    padding-left: 249px;
+  }
 }
 @media (max-width: 767px) {
   .doctor-carrer.career__repair02 .career__contents h3 {
@@ -6179,6 +6213,12 @@ footer.pages.list-footer .copy {
 }
 .doctor-carrer.career__repair02 .career__contents ul li, .doctor-carrer.career__repair02 .career__contents .introduction__text {
   padding: 14px 0;
+  width: 71%;
+}
+@media (min-width: 768px) {
+  .doctor-carrer.career__repair02 .career__contents ul li, .doctor-carrer.career__repair02 .career__contents .introduction__text {
+    padding-left: 249px;
+  }
 }
 .doctor-carrer.career__repair02 .career__contents ul li {
   font-size: 1.17rem;
@@ -6191,8 +6231,13 @@ footer.pages.list-footer .copy {
   background-color: #f4f4f4;
 }
 .doctor-carrer.career__repair02 .career__contents .introduction__text {
-  width: 100%;
+  width: 77%;
   background-color: transparent;
+}
+@media (max-width: 767px) {
+  .doctor-carrer.career__repair02 .career__contents .introduction__text {
+    width: 100%;
+  }
 }
 .doctor-carrer.career__repair02 .career__contents .introduction__text p {
   line-height: 1.65;

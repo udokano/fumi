@@ -362,9 +362,9 @@
           <dd class="gosic">脂肪の気になる部分にBNLSneoを注入します。<br class="pc">脂肪細胞を溶かし、抹消血流やリンパの流れを改善し、脂肪細胞だけでなく老廃物の排出も促します。BNLSneo注射は植物由来の成分を主成分としているので従来のように筋肉痛のような痛みや腫れかゆみ等の副作用がほとんどありません。<br class="pc">1～2週間の間隔で4・5回の治療がおすすめです。</dd>
         </dl>
 
-        <!-- <div class="case__btn__wrap bottom__up">
+        <div class="case__btn__wrap bottom__down">
             <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1166123.html" target="_blank" class="case__btn">症例写真はこちら</a>
-        </div> -->
+        </div>
       </div>
       <!-- ./right__col -->
     </div>

@@ -143,29 +143,38 @@
 .doctor-intro.doctor__intro__repair02 {
     background-color: #f6eeee;
     margin-bottom: 0;
+    padding-bottom: 0;
 
     .doctor__message__tit {
         margin-bottom: 35px;
         color: #7c7c7c;
         width: auto;
-        padding: 12px 8px;
+        padding: 0 0 12px;
         font-weight: 800;
-        border-top: 1px solid;
+
+        //border-top: 1px solid;
         border-bottom: 1px solid;
         border-color: #b0b0b0;
-        display: inline-block;
-        font-size: 2.2rem;
-        margin-left: 3.7rem;
+        font-size: 1.8rem;
+        margin-left: 0;
         margin-bottom: 3.5rem;
+        line-height: 1;
+        text-align: center;
 
         .sm {
             font-size: .9rem;
         }
 
+        span {
+            @media (min-width: 768px) {
+                padding-right: 526px;
+            }
+        }
+
         @media (max-width: 767px) {
             font-size: 1.82rem;
-            text-align: left;
-            margin-left: 4%;
+            width: 94%;
+            margin: 0 auto 2.5rem;
         }
     }
 
@@ -179,19 +188,25 @@
             padding: 0;
         }
 
+        .contents__wrap {
+            justify-content: flex-start;
+        }
+
         .text {
-            width: 63%;
-            padding-bottom: 60px;
+            width: 59%;
+            margin-left: 4%;
+            padding-bottom: 0px;
 
             @media (max-width: 767px) {
                 width: 94%;
+                margin-left: auto;
                 padding-bottom: 0;
             }
 
             p {
-                line-height: 1.95;
-                margin-bottom: 35px;
-                font-size: 1.2rem;
+                line-height: 1.8;
+                margin-bottom: 33px;
+                font-size: .97rem;
                 color: #7c7c7c;
                 text-align: justify;
 
@@ -211,14 +226,27 @@
 
                 div.doctor__name__as {
                     @media (max-width: 767px) {
-                        margin-bottom: 1.35rem;
+                        margin-bottom: 0rem;
                     }
 
                     .doctor__name__tit__as#doctor__name {
-                        font-size: 3.1rem;
+                        font-size: 1.4rem;
 
                         .sm {
-                            font-size: 1.3rem;
+                            font-size: .98rem;
+                            display: inline-block;
+                            vertical-align: middle;
+                            padding-bottom: 4px;
+                            margin-right: 1.0rem;
+                        }
+
+                        @media (max-width: 767px) {
+                            font-size: 6.2vw;
+
+                            .sm {
+                                font-size: 4.0vw;
+                                padding-bottom: 5px;
+                            }
                         }
                     }
                 }
@@ -226,7 +254,7 @@
         }
 
         .thumb {
-            width: 28%;
+            width: 16.5%;
         }
     }
 }
@@ -371,8 +399,8 @@
     }
 
     .career__contents {
-        width: 69%;
-        margin-bottom: 2.2rem;
+        margin-bottom: 1.5rem;
+        width: 100%;
 
         @media (max-width: 767px) {
             width: 96%;
@@ -386,7 +414,13 @@
             padding-bottom: 5px;
             border-bottom: 1px solid #b0b0b0;
             font-weight: 800;
-            display: inline-block;
+            font-size: 1.8rem;
+
+            span {
+                @media (min-width: 768px) {
+                    padding-left: 249px;
+                }
+            }
 
             @media (max-width: 767px) {
                 font-size: 1.82rem;
@@ -395,6 +429,11 @@
 
         ul li, .introduction__text {
             padding: 14px 0;
+            width: 71%;
+
+            @media (min-width: 768px) {
+                padding-left: 249px;
+            }
         }
 
         ul {
@@ -415,8 +454,12 @@
         /* 追加文 */
 
         .introduction__text {
-            width: 100%;
+            width: 77%;
             background-color: transparent;
+
+            @media (max-width: 767px) {
+                width: 100%;
+            }
 
             p {
                 line-height: 1.65;
