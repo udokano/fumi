@@ -2572,17 +2572,17 @@
                     }
                 }
 
-                &:nth-of-type(even) {
-                    .list__content {
-                        @media (min-width: 768px) {
-                            margin-left: 40%;
-                            width: 65%;
-                        }
-                    }
-                }
+                /*  &:nth-of-type(even) {
+                     .list__content {
+                         @media (min-width: 768px) {
+                             margin-left: 40%;
+                             width: 65%;
+                         }
+                     }
+                 } */
 
                 .points {
-                    background-color: #c775ac;
+                    background-color: #ca94ae;
                     display: inline-block;
                     padding: 5px 20px;
                     margin-bottom: 1.75rem;
@@ -2593,6 +2593,8 @@
                     font-size: 2.5rem;
                     margin-bottom: 1.5rem;
                     letter-spacing: 0;
+                    color: #777;
+                    font-weight: 600;
 
                     @media (max-width: 767px) {
                         font-size: 1.7rem;
@@ -2600,8 +2602,15 @@
                 }
 
                 .commit__text {
-                    font-size: 1.25rem;
+                    font-size: 1.37rem;
+                    letter-spacing: 0.075em;
+                    line-height: 1.62;
                     text-align: justify;
+
+                    @media (max-width: 767px) {
+                        font-size: 1.2rem;
+                        letter-spacing: 0;
+                    }
                 }
             }
         }
@@ -2611,7 +2620,7 @@
         }
 
         .point02 {
-            background-image: url(../img/operation/order_made/commit_bg02.jpg);
+            background-image: url(../img/operation/order_made/commit_bg02.jpg?0415);
         }
 
         .point03 {
@@ -2619,7 +2628,7 @@
         }
 
         .point04 {
-            background-image: url(../img/operation/order_made/commit_bg04.jpg);
+            background-image: url(../img/operation/order_made/commit_bg04.jpg?0415);
         }
 
         .point05 {
@@ -2642,15 +2651,20 @@
             line-height: 1;
             margin-bottom: 1.375rem;
 
-            &::after {
-                content: "";
-                position: absolute;
-                width: 45px;
-                height: 1px;
-                left: 50%;
-                bottom: 0;
-                transform: translateX(-50%);
-                background-color: $cg;
+            span {
+                position: relative;
+                display: inline-block;
+                padding-bottom: 9px;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 1px;
+                    left: 0px;
+                    bottom: 0;
+                    background-color: $cg;
+                }
             }
         }
 

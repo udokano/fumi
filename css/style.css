@@ -5624,6 +5624,14 @@ footer.pages.list-footer .copy {
 .commit__desc__area .inner .commit__desc__lists .commit__list {
   padding: 5rem 5.25rem;
   margin-bottom: 1.875rem;
+  /*  &:nth-of-type(even) {
+       .list__content {
+           @media (min-width: 768px) {
+               margin-left: 40%;
+               width: 65%;
+           }
+       }
+   } */
 }
 @media (max-width: 767px) {
   .commit__desc__area .inner .commit__desc__lists .commit__list {
@@ -5638,14 +5646,8 @@ footer.pages.list-footer .copy {
     width: 100%;
   }
 }
-@media (min-width: 768px) {
-  .commit__desc__area .inner .commit__desc__lists .commit__list:nth-of-type(even) .list__content {
-    margin-left: 40%;
-    width: 65%;
-  }
-}
 .commit__desc__area .inner .commit__desc__lists .commit__list .points {
-  background-color: #c775ac;
+  background-color: #ca94ae;
   display: inline-block;
   padding: 5px 20px;
   margin-bottom: 1.75rem;
@@ -5655,6 +5657,8 @@ footer.pages.list-footer .copy {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
   letter-spacing: 0;
+  color: #777;
+  font-weight: 600;
 }
 @media (max-width: 767px) {
   .commit__desc__area .inner .commit__desc__lists .commit__list h3 {
@@ -5662,20 +5666,28 @@ footer.pages.list-footer .copy {
   }
 }
 .commit__desc__area .inner .commit__desc__lists .commit__list .commit__text {
-  font-size: 1.25rem;
+  font-size: 1.37rem;
+  letter-spacing: 0.075em;
+  line-height: 1.62;
   text-align: justify;
+}
+@media (max-width: 767px) {
+  .commit__desc__area .inner .commit__desc__lists .commit__list .commit__text {
+    font-size: 1.2rem;
+    letter-spacing: 0;
+  }
 }
 .commit__desc__area .inner .point01 {
   background-image: url(../img/operation/order_made/commit_bg01.jpg);
 }
 .commit__desc__area .inner .point02 {
-  background-image: url(../img/operation/order_made/commit_bg02.jpg);
+  background-image: url(../img/operation/order_made/commit_bg02.jpg?0415);
 }
 .commit__desc__area .inner .point03 {
   background-image: url(../img/operation/order_made/commit_bg03.jpg);
 }
 .commit__desc__area .inner .point04 {
-  background-image: url(../img/operation/order_made/commit_bg04.jpg);
+  background-image: url(../img/operation/order_made/commit_bg04.jpg?0415);
 }
 .commit__desc__area .inner .point05 {
   background-image: url(../img/operation/order_made/commit_bg05.jpg);
@@ -5694,15 +5706,18 @@ footer.pages.list-footer .copy {
   line-height: 1;
   margin-bottom: 1.375rem;
 }
-.conversion__area .inner h2::after {
+.conversion__area .inner h2 span {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 9px;
+}
+.conversion__area .inner h2 span::after {
   content: "";
   position: absolute;
-  width: 45px;
+  width: 100%;
   height: 1px;
-  left: 50%;
+  left: 0px;
   bottom: 0;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
   background-color: #9d8440;
 }
 .conversion__area .inner .cv-btn {
@@ -5957,23 +5972,19 @@ footer.pages.list-footer .copy {
   margin-bottom: 35px;
   color: #7c7c7c;
   width: auto;
-  padding: 0 0 12px;
+  padding: 15px 0;
   font-weight: 800;
-  border-bottom: 1px solid;
   border-color: #b0b0b0;
   font-size: 1.8rem;
   margin-left: 0;
   margin-bottom: 3.5rem;
   line-height: 1;
   text-align: center;
+  background-color: #faf5f5;
+  text-align: center;
 }
 .doctor-intro.doctor__intro__repair02 .doctor__message__tit .sm {
   font-size: .9rem;
-}
-@media (min-width: 768px) {
-  .doctor-intro.doctor__intro__repair02 .doctor__message__tit span {
-    padding-right: 526px;
-  }
 }
 @media (max-width: 767px) {
   .doctor-intro.doctor__intro__repair02 .doctor__message__tit {
@@ -6000,8 +6011,13 @@ footer.pages.list-footer .copy {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
+@media (min-width: 768px) {
+  .doctor-intro.doctor__intro__repair02 .inner .contents__wrap {
+    padding-left: 15%;
+  }
+}
 .doctor-intro.doctor__intro__repair02 .inner .text {
-  width: 59%;
+  width: 70%;
   margin-left: 4%;
   padding-bottom: 0px;
 }
@@ -6034,6 +6050,12 @@ footer.pages.list-footer .copy {
     text-align: center;
   }
 }
+@media (min-width: 768px) {
+  .doctor-intro.doctor__intro__repair02 .inner .text .blog__name__container div.doctor__name__as {
+    padding-right: 5%;
+    white-space: nowrap;
+  }
+}
 @media (max-width: 767px) {
   .doctor-intro.doctor__intro__repair02 .inner .text .blog__name__container div.doctor__name__as {
     margin-bottom: 0rem;
@@ -6052,6 +6074,8 @@ footer.pages.list-footer .copy {
 @media (max-width: 767px) {
   .doctor-intro.doctor__intro__repair02 .inner .text .blog__name__container div.doctor__name__as .doctor__name__tit__as#doctor__name {
     font-size: 6.2vw;
+    text-align: right;
+    padding-right: 10%;
   }
   .doctor-intro.doctor__intro__repair02 .inner .text .blog__name__container div.doctor__name__as .doctor__name__tit__as#doctor__name .sm {
     font-size: 4.0vw;
@@ -6059,7 +6083,7 @@ footer.pages.list-footer .copy {
   }
 }
 .doctor-intro.doctor__intro__repair02 .inner .thumb {
-  width: 16.5%;
+  width: 17.9%;
 }
 
 .doctor__name__tit__as#doctor__name {
@@ -6186,6 +6210,11 @@ footer.pages.list-footer .copy {
   width: 100%;
   /* 追加文 */
 }
+@media (min-width: 768px) {
+  .doctor-carrer.career__repair02 .career__contents {
+    padding-left: 247px;
+  }
+}
 @media (max-width: 767px) {
   .doctor-carrer.career__repair02 .career__contents {
     width: 96%;
@@ -6197,14 +6226,22 @@ footer.pages.list-footer .copy {
   color: #7c7c7c;
   padding: 0;
   padding-bottom: 5px;
-  border-bottom: 1px solid #b0b0b0;
   font-weight: 800;
   font-size: 1.8rem;
 }
-@media (min-width: 768px) {
-  .doctor-carrer.career__repair02 .career__contents h3 span {
-    padding-left: 249px;
-  }
+.doctor-carrer.career__repair02 .career__contents h3 span {
+  position: relative;
+  display: inline-block;
+}
+.doctor-carrer.career__repair02 .career__contents h3 span::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #7c7c7c;
+  display: inline-block;
 }
 @media (max-width: 767px) {
   .doctor-carrer.career__repair02 .career__contents h3 {
@@ -6214,11 +6251,6 @@ footer.pages.list-footer .copy {
 .doctor-carrer.career__repair02 .career__contents ul li, .doctor-carrer.career__repair02 .career__contents .introduction__text {
   padding: 14px 0;
   width: 71%;
-}
-@media (min-width: 768px) {
-  .doctor-carrer.career__repair02 .career__contents ul li, .doctor-carrer.career__repair02 .career__contents .introduction__text {
-    padding-left: 249px;
-  }
 }
 .doctor-carrer.career__repair02 .career__contents ul li {
   font-size: 1.17rem;

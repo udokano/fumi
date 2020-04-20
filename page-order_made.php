@@ -362,9 +362,9 @@
           <dd class="gosic">脂肪の気になる部分にBNLSneoを注入します。<br class="pc">脂肪細胞を溶かし、抹消血流やリンパの流れを改善し、脂肪細胞だけでなく老廃物の排出も促します。BNLSneo注射は植物由来の成分を主成分としているので従来のように筋肉痛のような痛みや腫れかゆみ等の副作用がほとんどありません。<br class="pc">1～2週間の間隔で4・5回の治療がおすすめです。</dd>
         </dl>
 
-        <div class="case__btn__wrap bottom__down">
+       <!--  <div class="case__btn__wrap bottom__down">
             <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1166123.html" target="_blank" class="case__btn">症例写真はこちら</a>
-        </div>
+        </div> -->
       </div>
       <!-- ./right__col -->
     </div>
@@ -384,7 +384,7 @@
   <li class="commit__list area-bgs point01" id="commit01">
     <div class="list__content">
         <p class="points cw f-ryu">Ponit.1</p>
-        <h3 class="gd">カウンセリングへのこだわり</h3>
+        <h3>カウンセリングへのこだわり</h3>
         <p class="commit__text">
           お一人お一人のお悩みや、こうなりたいというご希望をじっくりと伺い丁寧にカウンセリングを行います。<br class="pc">またリスクや副作用についてもしっかりと説明しております。
         </p>
@@ -394,7 +394,7 @@
   <li class="commit__list area-bgs point02" id="commit02">
      <div class="list__content">
         <p class="points cw f-ryu">Point.2</p>
-        <h3 class="gd">製剤と注入方法へのこだわり</h3>
+        <h3>製剤と注入方法へのこだわり</h3>
         <p class="commit__text">
           当院では厚生労働省の承認を得た製剤を中心に、安全性の確<br class="pc">立された製剤を取り扱っております。また認定医の院長が、<br class="pc">効果的かつ安全性の高い部位に注入していますので安心して<br class="pc">受けて頂けます。
         </p>
@@ -404,7 +404,7 @@
   <li class="commit__list area-bgs point03" id="commit03">
      <div class="list__content">
         <p class="points cw f-ryu">Point.3</p>
-        <h3 class="gd">注入技術とデザイン力への<br class="sp">こだわり</h3>
+        <h3>注入技術とデザイン力への<br class="sp">こだわり</h3>
         <p class="commit__text">
           全ての注入技術を認定医である院長が行います。<br class="pc">顔のトータルバランスを整えるように、またその方の美しさを<br class="pc">引き出すような注入を心がけております。 </p>
         </div>
@@ -413,7 +413,7 @@
   <li class="commit__list area-bgs point04" id="commit04">
      <div class="list__content">
         <p class="points cw f-ryu">Point.4</p>
-        <h3 class="gd">痛くない治療へのこだわり</h3>
+        <h3>痛くない治療へのこだわり</h3>
         <p class="commit__text">
           麻酔クリームや冷却、特殊な細い糸や針先が丸く柔らかい<br class="pc">カニューレを使用し、なるべく痛みがなく受けて頂けるよう<br class="pc">に配慮しております。
         </p>
@@ -423,7 +423,7 @@
   <li class="commit__list area-bgs point05" id="commit05">
      <div class="list__content">
         <p class="points cw f-ryu">Point.5</p>
-        <h3 class="gd">明確な料金設定</h3>
+        <h3>明確な料金設定</h3>
         <p class="commit__text">
           先会計システムを取り入れています。施術前に料金についてし<br class="pc">っかりと説明を行っておりますので、不明瞭な追加料金等は一<br class="pc">切ございません。
         </p>
@@ -441,7 +441,7 @@
 
 <section class="conversion__area">
   <div class="inner">
-    <h2 class="tc gd f-ryu">来院予約・お問合せはこちらから</h2>
+    <h2 class="tc gd f-ryu"><span>来院予約・お問合せはこちらから</span></h2>
     <ul class="cv-btn f-ryu">
       <li class="bg__n_rs"> <a href="https://fumibeauty.reserve.ne.jp/" target="_blank"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_cal02.png" alt="カレンダー"></i><span>来院予約</span> </a> </li>
       <li class="bg__n_ct"> <a href="<?php home_url("/");?>contact"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_mail02.png" alt="カレンダー"></i><span>お問合せ</span> </a> </li>
