@@ -40,14 +40,14 @@ Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
             <li><a href="<?php echo home_url('/'); ?>concept">当院について</a></li>
             <li class="parent"><a href="#" id="ac-txt">施術・料金</a>
               <ul class="child" id="ac">
-                     <li><a href="<?php echo home_url('/'); ?>tarumi" class="c_gray">たるみ治療</a></li>
-          <li><a href="<?php echo home_url('/'); ?>siwa" class="c_gray">しわ治療</a></li>
-           <li><a href="<?php echo home_url('/'); ?>medikaru" class="c_gray">美肌治療</a></li>
-          <li><a href="<?php echo home_url('/'); ?>kogao" class="c_gray">小顔治療</a></li>
-          <li><a href="<?php echo home_url('/'); ?>nose-lift" class="c_gray">鼻の糸</a></li>
-          <li><a href="<?php echo home_url('/'); ?>keiseigeka" class="c_gray">形成外科治療</a></li>
-          <li class="mb0"><a href="<?php echo home_url('/'); ?>cosmetics" class="c_gray">ドクターズコスメ</a></li>
-          <li class="mb0"><a href="<?php echo home_url('/'); ?>shoshin" class="c_gray">初診料・再診料</a></li>
+                      <li><a href="<?php echo home_url('/'); ?>tarumi" class="c_gray">たるみ治療</a></li>
+                      <li><a href="<?php echo home_url('/'); ?>siwa" class="c_gray">しわ治療</a></li>
+                      <li><a href="<?php echo home_url('/'); ?>medikaru" class="c_gray">美肌治療</a></li>
+                      <li><a href="<?php echo home_url('/'); ?>kogao" class="c_gray">小顔治療</a></li>
+                      <li><a href="<?php echo home_url('/'); ?>nose-lift" class="c_gray">鼻の糸</a></li>
+                      <li><a href="<?php echo home_url('/'); ?>keiseigeka" class="c_gray">形成外科治療</a></li>
+                      <li class="mb0"><a href="<?php echo home_url('/'); ?>cosmetics" class="c_gray">ドクターズコスメ</a></li>
+                      <li class="mb0"><a href="<?php echo home_url('/'); ?>shoshin" class="c_gray">初診料・再診料</a></li>
               </ul>
             </li>
             <li><a href="<?php echo home_url('/'); ?>access">アクセス</a></li>

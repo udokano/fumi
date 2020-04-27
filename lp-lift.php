@@ -13,8 +13,8 @@ Template Name: ランディングページスレッドリフト
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/lp.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?<?php echo filemtime(get_stylesheet_directory() . '/css/style.css'); ?>">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/lp.css?<?php echo filemtime(get_stylesheet_directory() . '/css/lp.css'); ?>">
 <script>
   (function(d) {
     var config = {
@@ -255,7 +255,7 @@ Template Name: ランディングページスレッドリフト
         </thead>
         <tbody>
            <tr>
-            <td rowspan="4"style="background-color: #e4f6fd; vertical-align: middle;" class="left">シルエットソフト</td>
+            <td rowspan="4"style="background-color: #e4f6fd; vertical-align: middle;" class="left">シルエットソフト(3Dリフト)</td>
             <td class="cent">2本</td>
             <td class="right">¥195,000<br>
               (1本あたり¥97,500)</td>
@@ -287,7 +287,7 @@ Template Name: ランディングページスレッドリフト
         </thead>
         <tbody>
           <tr>
-            <td rowspan="4"style="background-color: #e4f6fd; vertical-align: middle;" class="left">Gコグ</td>
+            <td rowspan="4"style="background-color: #e4f6fd; vertical-align: middle;" class="left">Gコグリフト</td>
             <td>1本</td>
             <td class="right">¥60,000</td>
           </tr>
@@ -303,14 +303,14 @@ Template Name: ランディングページスレッドリフト
         </thead>
         <tbody>
           <tr>
-            <td rowspan="2"style="background-color: #e4f6fd; vertical-align: middle;" class="left">VOVリフト</td>
+            <td rowspan="2"style="background-color: #e4f6fd; vertical-align: middle;" class="left">VOVリフトプレミアム</td>
             <td>1本</td>
             <td class="right">¥40,000</td>
           </tr>
           <tr>
             <td>5本目以降</td>
             <td class="right">1本あたり¥30,000<br>
-              Gコグとの併用の場合1本30000円</td>
+              Gコグリフトとの併用の場合1本30000円</td>
           </tr>
         </tbody>
       </table>
@@ -324,17 +324,57 @@ Template Name: ランディングページスレッドリフト
         </thead>
         <tbody>
           <tr>
-            <td rowspan="3"style="background-color: #e4f6fd; vertical-align: middle;" class="left">引き締め系ショートスレッド</td>
+            <td rowspan="2"style="background-color: #e4f6fd; vertical-align: middle;" class="left">セルフロック</td>
+            <td>1本</td>
+            <td class="right">¥20,000</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="pt2 gosic mb35">
+        <thead>
+          <tr>
+            <th scope="col">施術名</th>
+            <th scope="col">本数</th>
+            <th scope="col">値段(税別)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="4"style="background-color: #e4f6fd; vertical-align: middle;" class="left">ショッピングリフト<br class="pc">(ビューティーエナジー)</td>
+            <td>20本</td>
+            <td class="right">¥66,000</td>
+          </tr>
+          <tr>
+            <td>40本</td>
+            <td class="right">¥102,000</td>
+          </tr>
+          <tr>
+            <td>60本</td>
+            <td class="right">¥138,000</td>
+          </tr>
+          <tr>
+            <td>80本</td>
+            <td class="right">¥174,000</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="pt2 gosic mb35">
+        <thead>
+          <tr>
+            <th scope="col">施術名</th>
+            <th scope="col">本数</th>
+            <th scope="col">値段(税別)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="3"style="background-color: #e4f6fd; vertical-align: middle;" class="left">スレッドアイリフト(Gグロス)</td>
             <td>10本</td>
-            <td class="right">¥40,000</td>
+            <td class="right">¥47,000</td>
           </tr>
           <tr>
             <td>20本</td>
-            <td class="right">¥70,000</td>
-          </tr>
-          <tr>
-            <td>30本</td>
-            <td class="right">¥90,000</td>
+            <td class="right">¥69,000</td>
           </tr>
         </tbody>
       </table>
@@ -470,10 +510,10 @@ Template Name: ランディングページスレッドリフト
           <!-- Slides -->
 
           <div class="qas gd box-size swiper-slide">
-            <p class="qa-txt mb15 cblue"><span class="q">Q</span>
+            <p class="qa-txt qa-tit mb15 cblue"><span class="q">Q</span>
               <?php the_title(); ?>
             </p>
-            <div class="qa-txt text-over gd"><span class="a">A</span>
+            <div class="qa-txt qa-answer text-over gd"><span class="a">A</span>
               <?php remove_filter('the_content', 'wpautop'); ?>
               <?php the_content(); ?>
             </div>
@@ -491,16 +531,16 @@ Template Name: ランディングページスレッドリフト
       <div class="box flex">
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/doctor.png" alt="先山 史先生"></div>
         <div class="desc">
-          <h2 class="cp3 ls2"> <span>fumi beauty clinic 院長</span> 先山 史 </h2>
+          <h2 class="cp3 ls2"> <span>ふみビューティークリニック梅田 院長</span> 先山 史 </h2>
           <dl class="gosic gd flex">
             <dt>経歴</dt>
             <div>
-              <dd><span class="year">2003年</span>帝京大学医学部　卒業</dd>
-              <dd><span class="year">2003年</span>帝京大学病院形成外科　入局</dd>
-              <dd><span class="year">2011年</span>市立旭川病院皮膚科　入局</dd>
-              <dd><span class="year">2015年</span>トキコクリニク　淀屋橋院長　就任</dd>
-              <dd><span class="year">2016年</span>トキコクリニク　梅田院長　就任</dd>
-              <dd><span class="year">2019年</span>fumi beauty clinic　院長　就任</dd>
+              <dd><span class="year">2003年</span><span class="text">帝京大学医学部　卒業</span></dd>
+              <dd><span class="year">2003年</span><span class="text">帝京大学病院形成外科　入局</span></dd>
+              <dd><span class="year">2011年</span><span class="text">市立旭川病院皮膚科　入局</span></dd>
+              <dd><span class="year">2015年</span><span class="text">トキコクリニック　淀屋橋院長　就任</span></dd>
+              <dd><span class="year">2016年</span><span class="text">トキコクリニック　梅田院長　就任</span></dd>
+              <dd><span class="year">2019年</span><span class="text">ふみビューティークリニック梅田　<br class="sp">院長　就任</span></dd>
             </div>
           </dl>
           <dl class="gosic gd flex">

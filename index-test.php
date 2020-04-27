@@ -3,6 +3,8 @@
 Template Name: トップページ改修テスト閲覧用
 */
 ?>
+<!DOCTYPE html>
+<html>
 <head>
 <meta charset="UTF-8">
 <title>
@@ -12,7 +14,7 @@ Template Name: トップページ改修テスト閲覧用
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?030295">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?02159525412">
 <script>
   (function(d) {
     var config = {
@@ -25,7 +27,7 @@ Template Name: トップページ改修テスト閲覧用
 </script>
 <?php wp_head(); ?>
 </head>
-<body <?php body_class(); ?> id="front__re__test">
+<body <?php body_class(); ?> id="top">
 <div class="wrapper">
   <header class="site-header front">
     <div class="header-inner flex al-cent">
@@ -35,19 +37,21 @@ Template Name: トップページ改修テスト閲覧用
           <li><a href="<?php echo home_url('/'); ?>concept">当院について</a></li>
           <li class="navi-parent"><a>施術・料金</a>
             <ul class="nav-child bg__sub__menu">
+                 <li><a href="<?php echo home_url('/'); ?>tarumi" class="c_gray">たるみ治療</a></li>
               <li><a href="<?php echo home_url('/'); ?>siwa" class="c_gray">しわ治療</a></li>
-              <li><a href="<?php echo home_url('/'); ?>tarumi" class="c_gray">たるみ治療</a></li>
+              <li><a href="<?php echo home_url('/'); ?>medikaru" class="c_gray">美肌治療</a></li>
               <li><a href="<?php echo home_url('/'); ?>kogao" class="c_gray">小顔治療</a></li>
               <li><a href="<?php echo home_url('/'); ?>nose-lift" class="c_gray">鼻の糸</a></li>
               <li><a href="<?php echo home_url('/'); ?>keiseigeka" class="c_gray">形成外科治療</a></li>
-              <li><a href="<?php echo home_url('/'); ?>medikaru" class="c_gray">美肌治療</a></li>
+
               <li><a href="<?php echo home_url('/'); ?>cosmetics" class="c_gray">ドクターズコスメ</a></li>
               <li><a href="<?php echo home_url('/'); ?>shoshin" class="c_gray">初診料・再診料</a></li>
             </ul>
           </li>
           <li><a href="<?php echo home_url('/'); ?>access">アクセス</a></li>
           <li><a href="<?php echo home_url('/'); ?>doctor">ドクター紹介</a></li>
-          <li><a href="<?php echo home_url('/'); ?>recruit">採用情報</a></li>
+          <li><a href="<?php echo home_url('/');?>case-list">症例写真</a></li>
+          <li><a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank">院長ブログ</a></li>
         </ul>
       </nav>
       <div class="top-cv-btn"> <a class="bg-rs cv-btns" href="https://fumibeauty.reserve.ne.jp/" target="_blank"><span>来院予約</span></a> <a class="bg-ct cv-btns" href="<?php echo home_url('/'); ?>contact"><span>お問合わせ</span></a> <a class="bg-line cv-btns" href="https://line.me/R/ti/p/%40304ngjfp" target="_blank"><span>LINEで<br>
@@ -56,19 +60,16 @@ Template Name: トップページ改修テスト閲覧用
   </header>
   <div class="fv" id="fv-slide">
     <div class="fv__items">
-      <div class="logos"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_logo_re.png?02054" alt="FMUI BEAUTY CLINIC">
-
-        <!--band END-->
-      </div>
+      <div class="logos"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_logo_re.png?02054" alt="FMUI BEAUTY CLINIC"> </div>
       <!--logos-->
 
     </div>
     <div class="swiper-container fv-slide" >
       <div class="swiper-wrapper fv-slider-content">
-
-        <div class="fv__slide-wrap swiper-slide slide01 swiper-no-swipng"　data-swiper-autoplay="8000">
+        <div class="fv__slide-wrap swiper-slide slide01 swiper-no-swipng">
           <div class="slide01__texts">
             <div class="band cp tc ls2">注入＆スレッド治療専門クリニック</div>
+            <!--band END-->
             <h1> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv2_cach_re.png?0204" alt="洗練された美容技術であなたの美しさを引き出します。" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_cach_sp_re.png?0304" alt="洗練された美容技術であなたの美しさを引き出します" class="sp"> </h1>
           </div>
         </div>
@@ -84,7 +85,7 @@ Template Name: トップページ改修テスト閲覧用
         <!-- fv__slide-wrap slide05 END -->
         <div class="fv__slide-wrap swiper-slide slide06 swiper-no-swipng"> </div>
         <!-- fv__slide-wrap slide06 END -->
-         <div class="fv__slide-wrap swiper-slide slide07 swiper-no-swipng"> </div>
+        <div class="fv__slide-wrap swiper-slide slide07 swiper-no-swipng"> </div>
         <!-- fv__slide-wrap slide07 END -->
 
       </div>
@@ -99,18 +100,19 @@ Template Name: トップページ改修テスト閲覧用
   <div class="top__menu__area">
     <div class="bottom inner-box flex">
       <ul class="menu-link flex">
-        <li class="box-size"> <a href="<?php echo home_url('/'); ?>siwa"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
-          <p class="cp tc ls1">注入オーダーメイド<br>
+        <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
+          <p class="cp tc ls1">オーダーメイド注入<br>
             <span class="gd">ORDER MADE</span></p>
           </a> </li>
-        <li class="box-size"> <a href="<?php echo home_url('/'); ?>tarumi#area2"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02.jpg" alt="サムネイル">
+        <li class="box-size"> <a href="<?php echo home_url('/'); ?>pr3" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02.jpg" alt="サムネイル">
           <p class="cp tc ls1">スレッドリフト<br>
             <span class="gd">THREAD LIFT</span></p>
           </a> </li>
       </ul>
       <div class="cv-wrap box-size">
         <div class="top flex cp al-cent">
-          <div class="left sm">お電話による<br class="pc">お問い合わせ</div>
+          <div class="left sm">お電話による<br class="pc">
+            お問い合わせ</div>
           <div class="tel"><a href="tel:0663722323" class="cp">06-6372-2323</a></div>
           <div class="time sm"> 平日 10:00～18:00<br>
             土 10:00～17:00</div>
@@ -132,7 +134,7 @@ Template Name: トップページ改修テスト閲覧用
         <div class="band cp tc ls2">beautiful aging</div>
         <p class="cach gd c_gray tc f-ryu">美しく年齢を重ね<br>
           輝き続けるために</p>
-        <div class="btn-wrap"> <a href="<?php echo home_url('/'); ?>doctor" class="btn bg__n_rs c_gray gosic">院長紹介</a> <a href="<?php echo home_url('/'); ?>concept" class="btn bg__n_ct gosic c_gray">当院について</a> </div>
+        <div class="btn-wrap"> <a href="<?php echo home_url('/'); ?>doctor" class="btn fw600 bg__n_rs c_gray gosic">院長紹介</a> <a href="<?php echo home_url('/'); ?>concept" class="btn fw600 bg__n_ct gosic c_gray">当院について</a> </div>
       </div>
       <p class="doctor-name cp c_gray tc"><span class="sm">fumi beauty clinic院長</span><br>
         先山 史</p>
@@ -171,24 +173,25 @@ Template Name: トップページ改修テスト閲覧用
 
   <!--banner-area END-->
   <?php endif; ?>
-  <section class="infusion cp cf mb0 bg-areas" id="bg2">
+  <section class="infusion infusion__repair cp cf mb0 bg-areas" id="bg2">
     <div class="inner-box">
       <div class="top flex">
-        <div class="text tc cp c_gray box-size">
-          <h3>注入治療</h3>
-          <span class="sm c_gray gd">Infusion therapy</span>
-          <p class="pc gosic tc">当院の主な注入治療部位です。<br>
-            ヒアルロン酸やボトックスを「どこに」「どのくらい」<br>
-            注入するかで、効果・効能が大きく効果が<br>
-            違ってきますが、当院では<br>
-            お顔全体のバランスをみて<br>
-            自然な若返りができるようご提案しております。</p>
-          <p class="sp gosic tc">当院の主な注入治療部位です。ヒアルロン酸やボトックスを「どこに」「どのくらい」注入するかで、効果・効能が大きく効果が違ってきますが、当院ではお顔全体のバランスをみて自然な若返りができるようご提案しております。</p>
+        <div class="text text__left tc cp c_gray box-size">
+          <div class="tit__box"><h3>注入治療</h3><span class="sm c_gray gd">Infusion therapy</span></div>
+          <p class="gosic tc">ヒアルロン酸やボトックスを「どこに」「どのくらい」<br class="pc">注入するかで、効果・効能が大きく効果が<br class="pc">違ってきますが、当院では<br class="pc">お顔全体のバランスをみて<br class="pc">自然な若返りができるようご提案しております。</p>
+          <a href="<?php echo home_url('/'); ?>pr1" class="btn fw600 bg__n_rs c_gray" target="_blank">当院のヒアルロン酸注入</a>
         </div>
-        <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/illust01.jpg" alt="イラスト"> </div>
+
+         <div class="text text__right tc cp c_gray box-size">
+           <div class="tit__box"><h3>製剤一覧</h3><span class="sm gd c_gray">FORMULATION</span></div>
+          <p class="gosic tc">当院の厳格な審査を通過した、<br class="pc">優良な品質の製剤のみを使用しております。<br class="pc">患者様の幅広い悩みを解決するために、<br class="pc"> 多種類の製剤を取り扱っています。</p>
+
+          <a href="<?php echo home_url('/'); ?>list" class="btn fw600 bg__n_rs c_gray">詳しく見る</a> </div>
+      </div>
+       <!--  <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/illust01.jpg" alt="イラスト"> </div> -->
       </div>
       <div class="bottom flex cf">
-        <div class="box bg-areas" id="bg-thumb">
+       <!--  <div class="box bg-areas" id="bg-thumb">
           <div class="box-inner flex gd">
             <div class="inner-lr inner-left">
               <div class="txt txt1 box-size">
@@ -203,8 +206,8 @@ Template Name: トップページ改修テスト閲覧用
               </div>
             </div>
           </div>
-        </div>
-        <div class="text tc cp c_gray box-size">
+        </div> -->
+       <!--  <div class="text tc cp c_gray box-size">
           <h3>製剤一覧</h3>
           <span class="sm gd c_gray">FORMULATION</span>
           <p class="pc gosic tc">当院の厳格な審査を通過した、<br>
@@ -215,8 +218,8 @@ Template Name: トップページ改修テスト閲覧用
             優良な品質の製剤のみを使用しております。
             患者様の幅広い悩みを解決するために、
             多種類の製剤を取り扱っています。</p>
-          <a href="<?php echo home_url('/'); ?>list" class="btn bg__n_rs c_gray">詳しく見る</a> </div>
-      </div>
+          <a href="<?php echo home_url('/'); ?>list" class="btn fw600 bg__n_rs c_gray">詳しく見る</a> </div>
+      </div> -->
     </div>
   </section>
   <section class="menu area-bgs mb0" id="bg3">
@@ -237,12 +240,24 @@ Template Name: トップページ改修テスト閲覧用
         <ul>
           <li>・ヒアルロン酸</li>
           <li>・ボトックス注射</li>
+          <li>・SUNEKOS(スネコス)</li>
         </ul>
         </a> </li>
-      <li class="box-size hg-row"> <a href="<?php echo home_url('/'); ?>kogao">
+        <li class="box-size hg-row"> <a href="<?php echo home_url('/'); ?>medikaru">
+        <h3 class="cw tc">美肌治療</h3>
+        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb10.jpg" alt="サムネイル"></div>
+        <ul class="col">
+          <li>・SUNEKOS(スネコス)</li>
+          <li>・ダーマペン4/ヴェルヴェットスキン</li>
+          <li>・メディカルエステ</li>
+          <li>・美容点滴/プラセンタ</li>
+        </ul>
+        </a> </li>
+      <li class="box-size "> <a href="<?php echo home_url('/'); ?>kogao">
         <h3 class="tc">小顔治療 </h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb07.jpg" alt="サムネイル"></div>
         <ul>
+          <li data-url="<?php echo home_url('/'); ?>kogao#area3" class="js-link">・スレッドリフト</li>
           <li data-url="<?php echo home_url('/'); ?>kogao#area1" class="js-link">・BNLS neo</li>
           <li data-url="<?php echo home_url('/'); ?>kogao#area2" class="js-link">・エラボトックス</li>
         </ul>
@@ -265,20 +280,13 @@ Template Name: トップページ改修テスト閲覧用
           <li>・巻き爪・陥入爪</li>
         </ul>
         </a> </li>
-      <li class="box-size"> <a href="<?php echo home_url('/'); ?>medikaru">
-        <h3 class="cw tc">美肌治療</h3>
-        <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb10.jpg" alt="サムネイル"></div>
-        <ul>
-          <li>・美容点滴</li>
-          <li>・プラセンタ</li>
-          <li>・メディカルエステ</li>
-        </ul>
-        </a> </li>
+
     </ul>
   </section>
   <div class="cosmetics__bnr">
-  <div class="inner">
-    <div class="bnr"> <a href="<?php echo home_url('/');?>cosmetics" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/common/cosmetics_bnr02.jpg?1203" alt="ドクターズサプリメントのバナー"></a> </div>
+    <div class="inner">
+      <div class="bnr"> <a href="<?php echo home_url('/');?>cosmetics" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/common/cosmetics_bnr02.jpg?1203" alt="ドクターズサプリメントのバナー"></a> </div>
+    </div>
   </div>
   <?php if (have_rows('bnr_cam', 28)): ?>
   <div class="banner-campaign">
@@ -338,51 +346,78 @@ Template Name: トップページ改修テスト閲覧用
       </div>
       <!--left slides END-->
 
-      <?php if (have_rows('top', 155)): ?>
       <div class="right-slide slide-area">
         <h2 class="cp tc c_gray">症例写真</h2>
         <span class="sm tc gd c_gray mb30">SYMPTOM</span>
-        <div class="swiper-container slide-p2 swiper3 cont">
-          <div class="swiper-wrapper">
-            <?php while (have_rows('top', 155)) : the_row(); ?>
-            <div class="bas gd box-size swiper-slide case-wrap mb0">
-              <?php if (get_sub_field('ope_tit', 155)): ?>
-              <h3 class="tc gd mb15 gosic">
-                <?php the_sub_field('ope_tit', 155);?>
-              </h3>
-              <?php endif; ?>
-              <div class="slide-in case-box mb0 flex">
-                <div class="box">
-                  <div class="thumb"><img src="<?php the_sub_field('befor_p', 155); ?>" alt="サムネイル"></div>
-                  <p class="ls1 tc">
-                    <?php the_sub_field('befor_txt', 155); ?>
-                  </p>
-                </div>
-                <div class="box">
-                  <div class="thumb"><img src="<?php the_sub_field('after_p', 155); ?>" alt="サムネイル"></div>
-                  <p class="ls1 tc">
-                    <?php the_sub_field('after_txt', 155); ?>
-                  </p>
-                </div>
-              </div>
-              <!-- slide-in END -->
-              <?php if (get_sub_field('ope_risk', 155)): ?>
-              <p class="risk tc gosic box-size">
-                <?php the_sub_field('ope_risk', 155);?>
-              </p>
-              <?php endif; ?>
-            </div>
-            <?php endwhile; ?>
+        <div class="slide-in">
+          <?php
+          $args = array(
+            'post_type' => 'case',
+            'posts_per_page' => 3,
+            'orderby' => 'date',
+            'order' => 'DESC',
+          );
+          $the_query = new WP_Query($args);
+         if ($the_query->have_posts()) :
+  while ($the_query->have_posts()) : $the_query->the_post();
+          ?>
+
+          <!--ここにループの中の記述 -->
+
+          <!--記事へのリンクを出力-->
+          <a href="<?php the_permalink(); ?>" class="flex posts">
+          <div class="thumb">
+            <!--サムネイル(アイキャッチ)画像を出力-->
+            <?php
+            if (has_post_thumbnail()) {
+                the_post_thumbnail('medium');
+            }
+            ?>
           </div>
-          <div class="swiper-button-prev prev2"></div>
-          <div class="swiper-button-next next2"></div>
-          <div class="swiper-pagination"></div>
+          <div class="text">
+            <div class="top__cont">
+
+                <?php //所属タクソノミー表示
+                $terms = wp_get_object_terms($post->ID, 'faq_kind');
+                foreach ($terms as $term) {
+                    echo "<div class='tax'>";
+                    echo $term->name;
+                    echo "</div>";
+                    break;
+                }
+                ?>
+                 <time class="article-date" datetime="<?php echo get_the_date('Y-m-d'); ?>"> <?php echo get_the_date(); ?> </time>
+              <!--投稿日を表示-->
+
+            </div>
+            <!-- ./top__cont -->
+
+            <!--投稿のタイトルを出力-->
+            <h3>
+              <?php the_title(); ?>
+            </h3>
+
+            <p class="content__text">
+              <?php the_field('ope_desc');?>
+
+            </p>
+          </div>
+          <!-- end text -->
+          </a>
+          <!-- ./posts  -->
+
+          <?php endwhile; wp_reset_postdata(); ?>
+          <div class="btn__cont"> <a href="<?php echo get_post_type_archive_link(get_post_type());?>">記事一覧へ</a> </div>
+<?php else: ?>
+<p class="tc gray gosic">ただいま準備中です<br>公開まで今しばらくお待ちくださいませ</p>
+
+          <?php endif;?>
         </div>
+        <!-- ./slide-in -->
+
       </div>
       <!--right slides END-->
 
-      <?php else: ?>
-      <?php endif; ?>
     </div>
   </section>
   <!--SLIDES END-->
@@ -390,12 +425,12 @@ Template Name: トップページ改修テスト閲覧用
   <section class="sns">
     <h3 class="tc">Twitterやブログやインスタグラム・ラインオフィシャルアカウントにて<br class="pc">お得な情報を配信しています</h3>
     <div class="inner flex">
-      <div class="bnr"> <a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/blog_bnr.jpg?0910" alt="blog_bnr"> </a> </div>
-      <div class="bnr"><a href="https://line.me/R/ti/p/%40304ngjfp" target="_blank">
+      <div class="bnr"> <a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/blog_bnr.jpg?0310" alt="blog_bnr"> </a> </div>
+      <div class="bnr"> <a href="https://line.me/R/ti/p/%40304ngjfp" target="_blank">
         <?php if (wp_is_mobile()) : ?>
-        <img src="<?php echo get_template_directory_uri(); ?>/img/common/line_bnr_sp.jpg" alt="line_bnr">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/common/line_bnr_sp.jpg?0310" alt="line_bnr">
         <?php else: ?>
-        <img src="<?php echo get_template_directory_uri(); ?>/img/common/line_bnr_pc.jpg" alt="line_bnr">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/common/line_bnr_pc.jpg?0310" alt="line_bnr">
         <?php endif; ?>
         </a> </div>
     </div>
@@ -403,14 +438,14 @@ Template Name: トップページ改修テスト閲覧用
     <div class="inner flex">
       <div class="bnr"> <a href="https://www.instagram.com/dr_fumi/" target="_blank">
         <?php if (wp_is_mobile()) : ?>
-        <img src="<?php echo get_template_directory_uri(); ?>/img/common/insta_bnr_sp.jpg?09101" alt="insta_bnr">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/common/insta_bnr_sp.jpg?0310" alt="insta_bnr">
         <?php else: ?>
-        <img src="<?php echo get_template_directory_uri(); ?>/img/common/insta_bnr.jpg?09101" alt="insta_bnr">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/common/insta_bnr.jpg?0310" alt="insta_bnr">
         <?php endif; ?>
         </a> </div>
-      <div class="bnr"> <a href="https://twitter.com/@_fumibeauty_" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/twitter_bnr.jpg?0910" alt="twitter_bnr"> </a> </div>
+      <div class="bnr"> <a href="https://twitter.com/@_fumibeauty_" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/twitter_bnr.jpg?0310" alt="twitter_bnr"> </a> </div>
     </div>
-    </div>
+
     <!-- ./inner -->
   </section>
   <section class="card">
@@ -440,7 +475,8 @@ Template Name: トップページ改修テスト閲覧用
           <li><a href="#bg3" class="c_gray">施術・料金</a></li>
           <li><a href="<?php echo home_url('/'); ?>access" class="c_gray">アクセス</a></li>
           <li><a href="<?php echo home_url('/'); ?>doctor" class="c_gray">ドクター紹介</a></li>
-          <li><a href="<?php echo home_url('/'); ?>recruit" class="c_gray">採用情報</a></li>
+          <li><a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank">院長ブログ</a></li>
+          <li><a href="<?php echo home_url('/');?>case-list" class="c_gray">症例写真</a></li>
           <li><a href="https://fumibeauty.reserve.ne.jp/" class="c_gray" target="_blank">来院予約</a></li>
           <li><a href="<?php echo home_url('/'); ?>contact" class="c_gray">お問合わせ</a></li>
         </ul>
@@ -452,23 +488,24 @@ Template Name: トップページ改修テスト閲覧用
   <?php if (wp_is_mobile()) : ?>
   <nav class="hambargar bg__n_rs">
     <ul>
-      <li class="menu-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/common/menu_logo_re.png?5432" alt="menu-logo"></li>
+      <li class="menu-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_logo_re.png?543201" alt="menu-logo"></li>
       <li><a href="<?php echo home_url('/'); ?>concept" class="c_gray">当院について</a></li>
       <li class="parent"><a href="#" id="ac-txt" class="c_gray c_gray_line">施術・料金</a>
         <ul class="child" id="ac">
           <li><a href="<?php echo home_url('/'); ?>tarumi" class="c_gray">たるみ治療</a></li>
           <li><a href="<?php echo home_url('/'); ?>siwa" class="c_gray">しわ治療</a></li>
+           <li><a href="<?php echo home_url('/'); ?>medikaru" class="c_gray">美肌治療</a></li>
           <li><a href="<?php echo home_url('/'); ?>kogao" class="c_gray">小顔治療</a></li>
           <li><a href="<?php echo home_url('/'); ?>nose-lift" class="c_gray">鼻の糸</a></li>
           <li><a href="<?php echo home_url('/'); ?>keiseigeka" class="c_gray">形成外科治療</a></li>
-          <li><a href="<?php echo home_url('/'); ?>medikaru" class="c_gray">美肌治療</a></li>
           <li class="mb0"><a href="<?php echo home_url('/'); ?>cosmetics" class="c_gray">ドクターズコスメ</a></li>
           <li class="mb0"><a href="<?php echo home_url('/'); ?>shoshin" class="c_gray">初診料・再診料</a></li>
         </ul>
       </li>
       <li><a href="<?php echo home_url('/'); ?>access" class="c_gray">アクセス</a></li>
       <li><a href="<?php echo home_url('/'); ?>doctor" class="c_gray">ドクター紹介</a></li>
-      <li><a href="<?php echo home_url('/'); ?>recruit" class="c_gray">採用情報</a></li>
+      <li><a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank">院長ブログ</a></li>
+       <li><a href="<?php echo home_url('/');?>case-list" class="c_gray">症例写真</a></li>
       <!--  <li><a href="https://fumibeauty.reserve.ne.jp/" target="_blank">来院予約</a></li>-->
       <li class="mb0"><a href="<?php echo home_url('/'); ?>contact" class="c_gray">お問合わせ</a></li>
       <p class="menu-close"></p>
@@ -492,7 +529,7 @@ Template Name: トップページ改修テスト閲覧用
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?033145"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?0216"></script>
 <script>
     function initMap() {
         var latlng = new google.maps.LatLng( 34.707103, 135.495992 );
@@ -519,10 +556,10 @@ Template Name: トップページ改修テスト閲覧用
       }
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBwr6DPo5X5S4CbkcKpSV5atpzNnKAifI&callback=initMap"></script>
-<script>
-    $("body").removeClass("page");
-
-    </script>
 <?php wp_footer(); ?>
+<script>
+$("body").removeClass("page");
+</script>
 </body>
 </html>
+

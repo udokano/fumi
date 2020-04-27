@@ -6,33 +6,83 @@
 ?>
 <?php get_header()?>
 <div class="page-head">
-  <h1 class="tc f-ryu">オーダーメイド注入</h1>
+  <h1 class="tc f-ryu order__tit">オーダーメイド注入</h1>
   <?php echo breadcrumb_func(); ?> </div>
-<section class="ope-top-desc gosic">
-  <p class="tc">年齢と共に生じる様々な変化には個人差があります。<br class="pc">
-    理想とする美しさも人によって違います。<br class="pc">
-    当院ではお一人お一人に合わせた最適な注入治療をご提案し、<br class="pc">
+<section class="ope-top-desc order-made-top-desc gosic">
+  <p class="tc">年齢と共に生じる様々な変化には個人差があります。<br>
+    理想とする美しさも人によって違います。<br>
+    当院ではお一人お一人に合わせた最適な注入治療をご提案し、<br>
     自然で違和感のない美しい仕上がりを大切にしています。</p>
   <div class="ancor-box order"> <a href="#area1"><span class="row__center">アンチエイジング<br>
-    しわ治療</span></a> <a href="#area2"><span class="row__center">パーツ治療<br>
+    しわ治療</span></a>
+    <a href="#area2" class="center"><span class="row__center"><p class="col__center">パーツ治療</p>
     <span>唇・額・あご<br>
-    涙袋・ドールチークなど</span></span></a> <a href="#area3"><span class="row__center">小顔治療<br>
+    涙袋・ドールチークなど</span></span></a>
+    <a href="#area3" class="sp-m-center"><span class="row__center">小顔治療<br>
     リフトアップ</span></a> </div>
 </section>
-<section class="order__made__tit bg__p02" id="area1">
-  <h2 class="tc">アンチエイジング・シワ治療</h2>
+<section class="commitment">
+<div class="inner">
+<h2 class="tc f-ryu">当院の注入治療へのこだわり</h2>
+
+<ol class="commit__anchor__area flex">
+  <li class="commit__anchor__link box-size">
+    <a href="#commit01">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_img01.png" alt="アンカーリンクマーク">
+      <p class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_num01.png" alt="1"></p>
+      <p class="anchor__tit cw">カウンセリングへの<br>こだわり</p>
+    </a>
+  </li>
+  <li class="commit__anchor__link box-size">
+    <a href="#commit02">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_img02.png" alt="アンカーリンクマーク">
+      <p class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_num02.png" alt="1"></p>
+      <p class="anchor__tit cw">製剤と注入方法への<br>こだわり</p>
+    </a>
+  </li>
+  <li class="commit__anchor__link box-size">
+    <a href="#commit03">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_img03.png" alt="アンカーリンクマーク">
+      <p class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_num03.png" alt="1"></p>
+      <p class="anchor__tit cw">注入技術とデザイン力<br>へのこだわり</p>
+    </a>
+  </li>
+  <li class="commit__anchor__link box-size">
+    <a href="#commit04">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_img04.png" alt="アンカーリンクマーク">
+      <p class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_num04.png" alt="1"></p>
+      <p class="anchor__tit cw">痛くない治療への<br>こだわり</p>
+    </a>
+  </li>
+  <li class="commit__anchor__link box-size">
+    <a href="#commit05">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_img05.png" alt="アンカーリンクマーク">
+      <p class="num"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/commit_anchor_num05.png" alt="1"></p>
+      <p class="anchor__tit cw">明確な料金<br>設定</p>
+    </a>
+  </li>
+</ol>
+
+</div>
+<!-- ./inner -->
+</section>
+
+<section class="ope-top-desc bg__p02 top-desc-p02 top-desc-p03" id="area1">
+  <h2 class="tc">アンチエイジング・しわ治療</h2>
+  <p class="tc">シワの種類に合わせた<br class="sp">ヒアルロン酸やボトックス等の注入治療で、<br class="sp">自然な若返りができます。<br>お顔のバランスが整いますので、<br class="sp">自然で美しい仕上がりとなります。</p>
 </section>
 <section class="order__made__ilast__center">
-  <div class="inner-box">
-    <div class="ilast_center"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center.jpg" alt="主なシワの種類" class="pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center_sp.jpg" alt="主なシワの種類" class="sp-dis">
+  <div class="inner">
+    <div class="ilast_center"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center.jpg?032556666" alt="主なシワの種類" class="pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_center_sp.jpg?2325562211" alt="主なシワの種類" class="sp-dis">
       <h2>主なしわの種類</h2>
     </div>
-    <!--./ilast_center--> 
+    <!--./ilast_center-->
   </div>
-  <!--./inner-box--> 
+  <!--./inner-box-->
 </section>
 <section class="injection__desc__area">
-  <div class="inner-box">
+  <div class="bg"></div>
+  <div class="inner">
     <ul class="flex injection__desc__rows f-ryu">
       <li class="row__01">
         <h3>
@@ -50,8 +100,8 @@
       </li>
       <li class="row__02">
         <h3>
-          <div class="row__center"><em>表情じわ</em> <span>額の横じわ・眉間の縦ジワ・目尻のしわ<br>
-            あごの梅干しジワ・首の縦ジワ等</span> </div>
+          <div class="row__center"><em>表情じわ</em> <span>額のしわ・目尻のしわ・眉間のしわ<br>
+            唇のたてじわ・首の縦筋・あごの梅干しじわ等</span> </div>
         </h3>
         <div class="rows__wrapper">
           <dl>
@@ -67,10 +117,8 @@
         </h3>
         <div class="rows__wrapper">
           <dl>
-            <dt>SUNEKOS・ダーマペン4<br>
-              マイクロボトックス注射</dt>
-            <dd>小じわやちりめんジワは角層の水分量の低下・物理的な摩擦によるダメージ・活性酸素等が原因で起こります。当院では小じわの状態・部位に合わせて最適な治療を提案します。小じわが改善するだけではなく毛穴が小さくなったりお肌に艶がでたり等の美肌効果も期待できます。<br class="pc">
-              しわの状態やお悩みに合わせてSUNEKOS・ダーマペン４・マイクロボトックスなどによる治療をご提案します。</dd>
+            <dt><span class="top__tit">SUNEKOS・ダーマペン4</span><span>マイクロボトックス注射</span></dt>
+            <dd>小じわやちりめんジワは角層の水分量の低下・物理的な摩擦によるダメージ・紫外線や活性酸素等が原因で起こります。当院では小じわの状態・部位に合わせて最適な治療を提案します。小じわが改善するだけではなく毛穴が小さくなったりお肌に艶がでたり等の美肌効果も期待できます。<br>しわの状態やお悩みに合わせてSUNEKOS・ダーマペン４・マイクロボトックスなどによる治療をご提案します。</dd>
           </dl>
         </div>
       </li>
@@ -78,51 +126,57 @@
   </div>
 </section>
 <section class="order__injection__ilast">
-  <div class="inner-box">
+  <div class="inner">
     <div class="thumb pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc__thumb.jpg" alt="いらすと"> </div>
     <div class="desc__right">
-      <div class="ilast__sub__desc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01.png" alt="イラスト" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01_sp.png" alt="イラスト" class="sp"> </div>
+      <div class="ilast__sub__desc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01.png?0326014522" alt="イラスト" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01_sp02.png?202003262456" alt="イラスト" class="sp"> </div>
       <ul class="anchor__marks flex">
         <?php home_url("/");?>
-        <li class="green"><a href="<?php home_url("/");?>tarumi#area1"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_green.png" alt="注入イラスト"></i>
+        <li class="green"><a href="<?php echo home_url("/");?>tarumi#area1"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_green.png" alt="注入イラスト"></i>
           <p>ヒアルロン酸</p>
           </a></li>
-        <li class="blue"><a href="<?php home_url("/");?>siwa#area1"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_blue.png" alt="注入イラスト"></i>
+
+
+        <li class="blue"><a href="<?php echo home_url("/");?>siwa#area1"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_blue.png" alt="注入イラスト"></i>
           <p>ボトックス注射</p>
           </a></li>
-        <li class="pink"><a href="<?php home_url("/");?>siwa#area3"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_pink.png" alt="注入イラスト"></i>
+
+        <li class="pink"><a href="<?php echo home_url("/");?>siwa#area3"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_pink.png" alt="注入イラスト"></i>
           <p>SUNEKOS</p>
           </a></li>
-        <li class="pink"><a href="<?php home_url("/");?>medikaru#area4"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_pink.png" alt="注入イラスト"></i>
+
+        <li class="pink"><a href="<?php echo home_url("/");?>medikaru#area4"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_pink.png" alt="注入イラスト"></i>
           <p>ダーマペン4</p>
           </a></li>
-        <li class="pink last"><a href="<?php home_url("/");?>siwa#area1"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_pink.png" alt="注入イラスト"></i>
+
+        <li class="pink last"><a href="<?php echo home_url("/");?>siwa#area1"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_pink.png" alt="注入イラスト"></i>
           <p>マイクロ<br>
             ボトックス</p>
           </a></li>
+
       </ul>
     </div>
   </div>
 </section>
 <section class="order__case__banner">
-  <div class="inner-box">
-    <div class="case__banner"> <a href="<?php echo home_url("/");?>case-list"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/case__banner.jpg" alt="症例写真にご協力頂いた患者様のビフォーアフターはこちらから" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/case__banner_sp.jpg" alt="症例写真にご協力頂いた患者様のビフォーアフターはこちらから" class="sp"></a> </div>
+  <div class="inner">
+    <div class="case__banner"> <a href="<?php echo home_url("/");?>case-list"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/case__banner.jpg?0318" alt="症例写真にご協力頂いた患者様のビフォーアフターはこちらから" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/case__banner_sp.jpg?0318" alt="症例写真にご協力頂いた患者様のビフォーアフターはこちらから" class="sp"></a> </div>
   </div>
 </section>
-<section class="ope-top-desc  top-desc-p02 bg__p02" id="area2">
+<section class="ope-top-desc  top-desc-p02 bg__p02 top-desc-p03" id="area2">
   <h2 class="tc">パーツ治療</h2>
-  <p class="tc">パーツ治療もヒアルロン酸とボトックスを組み合わせる事での<br class="pc">
-    相乗効果を期待できる場合があります。<br class="pc">
-    お顔のパーツはお顔の印象に深く関わっています。<br class="pc">
-    当院ではカウンセリングでしっかりとお客様のご希望をお伺いし、<br class="pc">
+  <p class="tc">パーツ治療もヒアルロン酸とボトックスを組み合わせる事での<br>
+    相乗効果を期待できる場合があります。<br>
+    お顔のパーツはお顔の印象に深く関わっています。<br>
+    当院ではカウンセリングでしっかりとお客様のご希望をお伺いし、<br>
     美しく自然な仕上がりになる方法を提案します。</p>
 </section>
 <section class="order__ope__ilast__col02">
-  <div class="inner-box">
+  <div class="inner">
     <div class="desc__box flex">
       <div class="col__left gosic">
         <h2>リップ・口周り</h2>
-        <div class="thumb pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast01.jpg" alt="イラスト"> </div>
+        <div class="thumb height__center"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast01.jpg" alt="イラスト"> </div>
       </div>
       <!--./col__left-->
       <div class="col__right">
@@ -136,17 +190,17 @@
           <dd>口角を下げる筋肉が強い場合、マリオネット部分のくぼみ感が強く出る事が多くあります。また不機嫌な印象になることもあります。口角を下げる筋肉(口角下制筋)にボトックスを注射して筋肉をリラックスさせる事で、キュッと上がった魅力的な口元を作ったり、マリオネット部分のくぼみ感の改善効果が期待できます。</dd>
         </dl>
         <dl>
-          <dt class="flex al-cent bg__blue infusion__desc__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_blue.png" alt="注射"></i><em>唇のヒアルロン酸</em></dt>
+          <dt class="flex al-cent bg__blue infusion__desc__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_blue.png" alt="注射"></i><em>唇のボトックス</em></dt>
           <dd>口をすぼめたときに上口唇に細かな縦じわができると、老けて見える原因となってしまいます。またその事が続く事で、口をすぼめてない時にもしわができてしまいます。ボトックスを注射する事でしわが改善され若々しい唇を作ります。</dd>
         </dl>
-        <div class="thumb sp-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast01.jpg" alt="イラスト"> </div>
+        <div class="thumb dn"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast01.jpg" alt="イラスト"> </div>
         <a href="http://blog.livedoor.jp/dr_sakiyama/archives/1075853179.html" target="_blank" class="case__btn">症例写真はこちら</a> </div>
     </div>
     <!--./col__right-->
     <div class="desc__box flex">
       <div class="col__left gosic">
         <h2>額</h2>
-        <div class="thumb pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast02.jpg" alt="イラスト"> </div>
+        <div class="thumb "> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast02.jpg" alt="イラスト"> </div>
       </div>
       <!--./col__left-->
       <div class="col__right">
@@ -158,16 +212,19 @@
           <dt class="flex al-cent bg__blue infusion__desc__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_blue.png" alt="注射"></i><em>額のボトックス</em></dt>
           <dd>無意識に額にしわを寄せる癖がある方の場合、額のボトックス治療がおすすめです。放置するほどにしわが深くなるため、早めの治療がおすすめです。</dd>
         </dl>
-        <div class="thumb sp-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast02.jpg" alt="イラスト"> </div>
+        <div class="thumb dn"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast02.jpg" alt="イラスト"> </div>
         <a href="http://blog.livedoor.jp/dr_sakiyama/archives/1077054763.html" target="_blank" class="case__btn">症例写真はこちら</a> </div>
-      <!--./col__right--> 
+      <!--./col__right-->
     </div>
     <!--./desc__box-->
-    
+
     <div class="desc__box flex">
       <div class="col__left gosic">
         <h2>あご</h2>
-        <div class="thumb pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast03.jpg" alt="イラスト"> </div>
+        <div class="thumb">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast03.jpg" alt="イラスト" class="pc-dis">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast03_sp.jpg" alt="イラスト" class="sp-dis">
+       </div>
       </div>
       <!--./col__left-->
       <div class="col__right">
@@ -179,16 +236,20 @@
           <dt class="flex al-cent bg__blue infusion__desc__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_blue.png" alt="注射"></i><em>あごのボトックス</em></dt>
           <dd>無意識にあごに力が入る方の場合は、まずボトックスをしたほうが綺麗な仕上がりになる場合もあります。あごの筋肉にボトックスを注入することで、力が入っていた筋肉が緩み、あごのラインがすっと綺麗に見えます。またヒアルロン酸を併用する場合も、ヒアルロン酸注入による仕上がりがより美しくなる事があります。</dd>
         </dl>
-        <div class="thumb sp-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast03.jpg" alt="イラスト"> </div>
-        <a href="http://blog.livedoor.jp/dr_sakiyama/archives/1075939077.html" target="_blank" class="case__btn">症例写真はこちら</a> </div>
-      <!--./col__right--> 
+        <div class="thumb dn"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast03.jpg" alt="イラスト"> </div>
+            <div class="case__btn__col2">
+               <a href="http://blog.livedoor.jp/dr_sakiyama/archives/1065492225.html" target="_blank" class="case__btn btn__left"><span class="height__center">あごのヒアルロン酸の<br>症例写真はこちら</span></a>
+                <a href="http://blog.livedoor.jp/dr_sakiyama/archives/1075939077.html" target="_blank" class="case__btn"><span class="height__center">あごのボトックスの<br>症例写真はこちら</span></a>
+            </div>
+        </div>
+      <!--./col__right-->
     </div>
     <!--./desc__box-->
-    
+
     <div class="desc__box flex">
       <div class="col__left gosic">
         <h2>涙袋・アーモンドアイ</h2>
-        <div class="thumb pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast04.jpg" alt="イラスト"> </div>
+        <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast04.jpg" alt="イラスト"> </div>
       </div>
       <!--./col__left-->
       <div class="col__right">
@@ -201,48 +262,55 @@
             ボトックス</em></dt>
           <dd>目じり際にボトックスを注射する事で目元の印象が優しくなります。垂れ目の雰囲気にしたい方にお勧めの施術です。</dd>
         </dl>
-        <div class="thumb sp-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast04.jpg" alt="イラスト"> </div>
-        <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1166127.html" target="_blank" class="case__btn">症例写真はこちら</a> </div>
-      <!--./col__right--> 
+        <div class="thumb dn"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast04.jpg" alt="イラスト"> </div>
+          <div class="case__btn__col2">
+               <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1166127.html" target="_blank" class="case__btn btn__left"><span class="height__center">涙袋の<br>症例写真はこちら</span></a>
+                <a href="http://blog.livedoor.jp/dr_sakiyama/archives/1071959596.html" target="_blank" class="case__btn"><span class="height__center">アーモンドアイの<br>症例写真はこちら</span></a>
+            </div>
+         </div>
+      <!--./col__right-->
     </div>
     <!--./desc__box-->
     <div class="desc__box flex">
       <div class="col__left gosic">
         <h2>頬</h2>
-        <div class="thumb pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast05.jpg" alt="イラスト"> </div>
+        <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast05.jpg" alt="イラスト"> </div>
       </div>
       <!--./col__left-->
       <div class="col__right">
         <dl>
           <dt class="flex al-cent bg__green infusion__desc__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_green.png" alt="注射"></i><em>頬のヒアルロン酸</em></dt>
-          <dd>ヒアルロン酸で頬部分に膨らみを作る事で可愛らしい雰囲気や若々しい印象を作ります。</dd>
+          <dd>ヒアルロン酸で頬部分に膨らみを作る事で可愛らしい雰囲気や若々しい印象を作ります。頬の位置があがることでほうれい線の改善効果、小顔効果も期待できます</dd>
         </dl>
-        <div class="thumb sp-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast05.jpg" alt="イラスト"> </div>
+        <div class="thumb dn"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast05.jpg" alt="イラスト"> </div>
         <a href="http://blog.livedoor.jp/dr_sakiyama/archives/1073769462.html" target="_blank" class="case__btn">症例写真はこちら</a> </div>
-      <!--./col__right--> 
+      <!--./col__right-->
     </div>
-    <!--./desc__box--> 
-    
+    <!--./desc__box-->
+
   </div>
-  <!--./inner-box--> 
+  <!--./inner-box-->
 </section>
 <section class="order__made__tit bg__p02" id="area3">
-  <h2 class="tc">小顔治療・リフトアップ</h2>
+  <h2 class="tc">小顔・リフトアップ治療</h2>
 </section>
 <section class="order__kogao__ilast__cross">
-  <div class="inner-box">
+  <div class="inner">
     <div class="desc__box flex">
       <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast01.jpg" alt="イラスト"></div>
       <!-- ./thumb -->
       <div class="right__col">
         <dl>
-          <dt class="flex al-cent bg__blue infusion__desc__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_blue.png" alt="注射"></i><em>エラボトックス</em></dt>
+          <dt class="flex al-cent bg__blue infusion__desc__tit ela__btx__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_blue.png" alt="注射"></i><em>エラボトックス</em><div class="thumb sp"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast01.jpg" alt="イラスト"> </dt>
           <dd class="gosic">エラがはって見える場合、咬筋と言われる噛む時に使う筋肉が発達している事がほとんどです。咬筋にボトックスを注射する事で咬筋が小さくなり小顔効果が得られる治療です。<br class="pc">
             また小顔効果以外にも、噛みしめることで起こる頭痛・肩こり・歯への負担などの症状の軽減が期待できる治療です。</dd>
         </dl>
-        <div class="thumb sp"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast01.jpg" alt="イラスト"></div>
-        <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1215972.html?p=2" target="_blank" class="case__btn">症例写真はこちら</a> </div>
-      <!-- ./right__col --> 
+
+        <div class="case__btn__wrap">
+              <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1215972.html?p=2" target="_blank" class="case__btn">症例写真はこちら</a>
+        </div>
+       </div>
+      <!-- ./right__col -->
     </div>
     <!-- ./desc__box -->
     <div class="desc__box flex">
@@ -250,42 +318,138 @@
       <!-- ./thumb -->
       <div class="right__col">
         <dl>
-          <dt class="flex al-cent bg__blue infusion__desc__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_blue.png" alt="注射"></i><em>ボトックスリフト</em></dt>
+          <dt class="flex al-cent bg__blue infusion__desc__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_blue.png" alt="注射"></i><em class="btx__lift">ボトックスリフト</em>
+           <div class="thumb sp"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast02.jpg" alt="イラスト"></div>
+           </dt>
           <dd class="gosic">引き締めを目的としてボトックスを細かく注射する方法です。表情ジワを改善するボトックスと違い、ボトックスを皮膚のごく表面に浅く細かく注入する事でお顔を引き締めたり引き上げる効果があります。</dd>
         </dl>
-        <div class="thumb sp"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast02.jpg" alt="イラスト"></div>
-        <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1166181.html" target="_blank" class="case__btn">症例写真はこちら</a> </div>
-      <!-- ./right__col --> 
+
+        <div class="case__btn__wrap bottom__up">
+          <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1166181.html" target="_blank" class="case__btn">症例写真はこちら</a>
+        </div>
+      </div>
+      <!-- ./right__col -->
     </div>
     <!-- ./desc__box -->
     <div class="desc__box flex">
-      <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast03.jpg" alt="イラスト"></div>
+      <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast03.jpg?0316" alt="イラスト"></div>
       <!-- ./thumb -->
       <div class="right__col">
         <dl>
-          <dt class="flex al-cent bg__green infusion__desc__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_green.png" alt="注射"></i><em>リフトアップの<br>
-            ヒアルロン酸</em></dt>
+          <dt class="flex al-cent bg__green infusion__desc__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_green.png" alt="注射"></i><em>リフトアップの<br>ヒアルロン酸</em>
+           <div class="thumb sp"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast03.jpg?0316" alt="イラスト"></div>
+           </dt>
           <dd class="gosic">こめかみなどのボリュームロス部分や、頬骨・下顎骨などの靭帯付着部にヒアルロン酸を注入することでお顔のリフトアップを行います。単純に窪みを埋めていく方法とは違い、根本からの若返りができ違和感のない仕上がりとなります。</dd>
         </dl>
-        <div class="thumb sp"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast03.jpg" alt="イラスト"></div>
-        <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1166123.html" target="_blank" class="case__btn">症例写真はこちら</a> </div>
-      <!-- ./right__col --> 
+
+        <div class="case__btn__wrap bottom__up">
+            <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1166123.html" target="_blank" class="case__btn">症例写真はこちら</a>
+        </div>
+      </div>
+
     </div>
-    <!-- ./desc__box --> 
+    <!-- ./desc__box -->
+
+    <!-- ./right__col -->
+       <div class="desc__box flex">
+      <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast04.jpg?0316" alt="イラスト"></div>
+      <!-- ./thumb -->
+      <div class="right__col">
+        <dl>
+          <dt class="flex al-cent bg__brown infusion__desc__tit ela__btx__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_brown.png?0421" alt="注射"></i><em>BNLSneo注射
+<br>(脂肪溶解注射)</em>
+           <div class="thumb sp"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast04.jpg?0316" alt="イラスト"></div>
+           </dt>
+          <dd class="gosic">脂肪の気になる部分にBNLSneoを注入します。<br class="pc">脂肪細胞を溶かし、抹消血流やリンパの流れを改善し、脂肪細胞だけでなく老廃物の排出も促します。BNLSneo注射は植物由来の成分を主成分としているので従来のように筋肉痛のような痛みや腫れかゆみ等の副作用がほとんどありません。<br class="pc">1～2週間の間隔で4・5回の治療がおすすめです。</dd>
+        </dl>
+
+       <!--  <div class="case__btn__wrap bottom__down">
+            <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1166123.html" target="_blank" class="case__btn">症例写真はこちら</a>
+        </div> -->
+      </div>
+      <!-- ./right__col -->
+    </div>
+    <!-- ./desc__box -->
   </div>
-  <!-- ./inner-box --> 
-  
+  <!-- ./inner-box -->
+
 </section>
+<section class="order__made__tit bg__p02">
+  <h2 class="tc">当院のこだわり</h2>
+</section>
+<section class="commit__desc__area">
+
+<div class="inner">
+
+<ul class="commit__desc__lists">
+  <li class="commit__list area-bgs point01" id="commit01">
+    <div class="list__content">
+        <p class="points cw f-ryu">Ponit.1</p>
+        <h3>カウンセリングへのこだわり</h3>
+        <p class="commit__text">
+          お一人お一人のお悩みや、<br class="pc">こうなりたいというご希望をじっくりと伺い<br class="pc">丁寧にカウンセリングを行います。<br class="pc">またリスクや副作用についてもしっかりと説明しております。
+        </p>
+        </div>
+  </li>
+
+  <li class="commit__list area-bgs point02" id="commit02">
+     <div class="list__content">
+        <p class="points cw f-ryu">Point.2</p>
+        <h3>製剤と注入方法へのこだわり</h3>
+        <p class="commit__text">
+          当院では厚生労働省の承認を得た製剤を中心に、<br class="pc">安全性の確立された製剤を取り扱っております。<br class="pc">また認定医の院長が、効果的かつ安全性の高い部位に注入していますので安心して受けて頂けます。
+        </p>
+        </div>
+  </li>
+
+  <li class="commit__list area-bgs point03" id="commit03">
+     <div class="list__content">
+        <p class="points cw f-ryu">Point.3</p>
+        <h3>注入技術とデザイン力への<br class="sp">こだわり</h3>
+        <p class="commit__text">
+          全ての注入治療を認定医である院長が行います。<br class="pc">顔のトータルバランスを整えるように、<br class="pc">またその方の美しさを引き出すような注入を心がけております。
+        </p>
+     </div>
+  </li>
+
+  <li class="commit__list area-bgs point04" id="commit04">
+     <div class="list__content">
+        <p class="points cw f-ryu">Point.4</p>
+        <h3>痛くない治療へのこだわり</h3>
+        <p class="commit__text">
+          麻酔クリームや冷却、<br class="pc">特殊な細い糸や針先が丸く柔らかいカニューレを使用し、<br class="pc">なるべく痛みがなく受けて頂けるように配慮しております。
+        </p>
+     </div>
+  </li>
+
+  <li class="commit__list area-bgs point05" id="commit05">
+     <div class="list__content">
+        <p class="points cw f-ryu">Point.5</p>
+        <h3>明確な料金設定</h3>
+        <p class="commit__text">
+          先会計システムを取り入れています。<br class="pc">施術前に料金についてしっかりと説明を行っておりますので、<br class="pc">不明瞭な追加料金等は一切ございません。
+        </p>
+     </div>
+  </li>
+</ul>
+
+
+
+</div>
+
+</section>
+
+
+
 <section class="conversion__area">
-  <div class="inner-box">
-    <h2 class="tc gd">来院予約・お問合せはこちらから</h2>
-    <ul class="cv-btn">
+  <div class="inner">
+    <h2 class="tc gd f-ryu"><span>来院予約・お問合せはこちらから</span></h2>
+    <ul class="cv-btn f-ryu">
       <li class="bg__n_rs"> <a href="https://fumibeauty.reserve.ne.jp/" target="_blank"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_cal02.png" alt="カレンダー"></i><span>来院予約</span> </a> </li>
       <li class="bg__n_ct"> <a href="<?php home_url("/");?>contact"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_mail02.png" alt="カレンダー"></i><span>お問合せ</span> </a> </li>
-      <li class="bg__n_line"> <a href="https://line.me/R/ti/p/%40304ngjfp" target="_blank"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_line02.png" alt="カレンダー"></i><span>LINEで<br class="sp">
-        簡単予約</span> </a> </li>
+      <li class="bg__n_line"> <a href="https://line.me/R/ti/p/%40304ngjfp" target="_blank"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_line02.png" alt="カレンダー"></i><span>LINEで<br class="sp">簡単予約</span> </a> </li>
     </ul>
   </div>
-  <!-- ./inner-box --> 
+  <!-- ./inner-box -->
 </section>
 <?php get_footer();?>

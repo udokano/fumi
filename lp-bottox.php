@@ -13,8 +13,8 @@ Template Name: ランディングページボトックス
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/lp.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?<?php echo filemtime(get_stylesheet_directory() . '/css/style.css'); ?>">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/lp.css?<?php echo filemtime(get_stylesheet_directory() . '/css/lp.css'); ?>">
 <script>
   (function(d) {
     var config = {
@@ -521,10 +521,10 @@ Template Name: ランディングページボトックス
           <!-- Slides -->
 
           <div class="qas gd box-size swiper-slide">
-            <p class="qa-txt mb15 cp2"><span class="q">Q</span>
+            <p class="qa-txt qa-tit mb15 cp2"><span class="q">Q</span>
               <?php the_title(); ?>
             </p>
-            <div class="qa-txt text-over gd"><span class="a">A</span>
+            <div class="qa-txt qa-answer text-over gd"><span class="a">A</span>
               <?php remove_filter('the_content', 'wpautop'); ?>
               <?php the_content(); ?>
             </div>
@@ -542,16 +542,16 @@ Template Name: ランディングページボトックス
       <div class="box flex">
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/doctor.png" alt="先山 史先生"></div>
         <div class="desc">
-          <h2 class="cp3 ls2"> <span>fumi beauty clinic 院長</span> 先山 史 </h2>
+          <h2 class="cp3 ls2"> <span>ふみビューティークリニック梅田 院長</span> 先山 史 </h2>
           <dl class="gosic gd flex">
             <dt>経歴</dt>
             <div>
-              <dd><span class="year">2003年</span>帝京大学医学部　卒業</dd>
-              <dd><span class="year">2003年</span>帝京大学病院形成外科　入局</dd>
-              <dd><span class="year">2011年</span>市立旭川病院皮膚科　入局</dd>
-              <dd><span class="year">2015年</span>トキコクリニク　淀屋橋院長　就任</dd>
-              <dd><span class="year">2016年</span>トキコクリニク　梅田院長　就任</dd>
-              <dd><span class="year">2019年</span>fumi beauty clinic　院長　就任</dd>
+              <dd><span class="year">2003年</span><span class="text">帝京大学医学部　卒業</span></dd>
+              <dd><span class="year">2003年</span><span class="text">帝京大学病院形成外科　入局</span></dd>
+              <dd><span class="year">2011年</span><span class="text">市立旭川病院皮膚科　入局</span></dd>
+              <dd><span class="year">2015年</span><span class="text">トキコクリニック　淀屋橋院長　就任</span></dd>
+              <dd><span class="year">2016年</span><span class="text">トキコクリニック　梅田院長　就任</span></dd>
+              <dd><span class="year">2019年</span><span class="text">ふみビューティークリニック梅田　<br class="sp">院長　就任</span></dd>
             </div>
           </dl>
           <dl class="gosic gd flex">

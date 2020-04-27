@@ -95,6 +95,7 @@ $(function () {
         spaceBetween: 0,
         pagination: '.swiper-pagination',
 
+
       }
     }
 

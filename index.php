@@ -9,7 +9,7 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?021595822445">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?<?php echo filemtime(get_stylesheet_directory() . '/css/style.css'); ?>">
 <script>
   (function(d) {
     var config = {
@@ -95,20 +95,21 @@
   <div class="top__menu__area">
     <div class="bottom inner-box flex">
       <ul class="menu-link flex">
-        <li class="box-size"> <a href="<?php echo home_url('/'); ?>siwa"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
-          <p class="cp tc ls1">オーダーメイド注入<br>
+        <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
+          <p class="tc">オーダーメイド注入<br>
             <span class="gd">ORDER MADE</span></p>
           </a> </li>
-        <li class="box-size"> <a href="<?php echo home_url('/'); ?>tarumi#area2"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02.jpg" alt="サムネイル">
-          <p class="cp tc ls1">スレッドリフト<br>
-            <span class="gd">THREAD LIFT</span></p>
+        <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made_thread_lift" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02.jpg" alt="サムネイル">
+          <p class="od__thread__lift tc">オーダーメイド<br class="sp">スレッドリフト<br>
+         <span class="gd od__thread__lift_sub">THREAD LIFT</span></p>
+
           </a> </li>
       </ul>
       <div class="cv-wrap box-size">
-        <div class="top flex cp al-cent">
+        <div class="top flex al-cent">
           <div class="left sm">お電話による<br class="pc">
             お問い合わせ</div>
-          <div class="tel"><a href="tel:0663722323" class="cp">06-6372-2323</a></div>
+          <div class="tel"><a href="tel:0663722323" class="">06-6372-2323</a></div>
           <div class="time sm"> 平日 10:00～18:00<br>
             土 10:00～17:00</div>
         </div>
@@ -131,7 +132,7 @@
           輝き続けるために</p>
         <div class="btn-wrap"> <a href="<?php echo home_url('/'); ?>doctor" class="btn fw600 bg__n_rs c_gray gosic">院長紹介</a> <a href="<?php echo home_url('/'); ?>concept" class="btn fw600 bg__n_ct gosic c_gray">当院について</a> </div>
       </div>
-      <p class="doctor-name cp c_gray tc"><span class="sm">fumi beauty clinic院長</span><br>
+      <p class="doctor-name cp c_gray tc"><span class="sm">ふみビューティークリニック梅田院長</span><br>
         先山 史</p>
     </div>
   </section>
@@ -168,24 +169,26 @@
 
   <!--banner-area END-->
   <?php endif; ?>
-  <section class="infusion cp cf mb0 bg-areas" id="bg2">
+<section class="infusion infusion__repair cp cf mb0 bg-areas" id="bg2">
     <div class="inner-box">
       <div class="top flex">
-        <div class="text tc cp c_gray box-size">
-          <h3>注入治療</h3>
-          <span class="sm c_gray gd">Infusion therapy</span>
-          <p class="pc gosic tc">当院の主な注入治療部位です。<br>
-            ヒアルロン酸やボトックスを「どこに」「どのくらい」<br>
-            注入するかで、効果・効能が大きく効果が<br>
-            違ってきますが、当院では<br>
-            お顔全体のバランスをみて<br>
-            自然な若返りができるようご提案しております。</p>
-          <p class="sp gosic tc">当院の主な注入治療部位です。ヒアルロン酸やボトックスを「どこに」「どのくらい」注入するかで、効果・効能が大きく効果が違ってきますが、当院ではお顔全体のバランスをみて自然な若返りができるようご提案しております。</p>
+        <div class="text text__left tc cp c_gray box-size">
+          <div class="tit__box"><h3>注入治療</h3><span class="sm c_gray gd">Infusion therapy</span></div>
+          <p class="gosic tc">ヒアルロン酸やボトックスを「どこに」「どのくらい」<br class="pc">注入するかで、大きく効果が違ってきますが、<br class="pc">当院ではお顔全体のバランスをみて<br class="pc">自然な若返りができるようご提案しております。</p>
+          <a href="<?php echo home_url('/'); ?>pr1" class="btn fw600 bg__n_rs c_gray" target="_blank">当院のヒアルロン酸注入</a>
         </div>
-        <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/illust01.jpg" alt="イラスト"> </div>
+
+         <div class="text text__right tc cp c_gray box-size">
+           <div class="tit__box"><h3>製剤一覧</h3><span class="sm gd c_gray">FORMULATION</span></div>
+          <p class="gosic tc">当院では、日本の厚生労働省の認可の製剤を中心に、<br class="pc">優良な品質の製剤のみを使用しております。<br class="pc">注入部位やお客様の肌の状態に合わせて使用する<br class="pc">製剤の種類を使い分けています。
+</p>
+
+          <a href="<?php echo home_url('/'); ?>list" class="btn fw600 bg__n_rs c_gray">詳しく見る</a> </div>
+      </div>
+       <!--  <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/illust01.jpg" alt="イラスト"> </div> -->
       </div>
       <div class="bottom flex cf">
-        <div class="box bg-areas" id="bg-thumb">
+       <!--  <div class="box bg-areas" id="bg-thumb">
           <div class="box-inner flex gd">
             <div class="inner-lr inner-left">
               <div class="txt txt1 box-size">
@@ -200,8 +203,8 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="text tc cp c_gray box-size">
+        </div> -->
+       <!--  <div class="text tc cp c_gray box-size">
           <h3>製剤一覧</h3>
           <span class="sm gd c_gray">FORMULATION</span>
           <p class="pc gosic tc">当院の厳格な審査を通過した、<br>
@@ -213,7 +216,7 @@
             患者様の幅広い悩みを解決するために、
             多種類の製剤を取り扱っています。</p>
           <a href="<?php echo home_url('/'); ?>list" class="btn fw600 bg__n_rs c_gray">詳しく見る</a> </div>
-      </div>
+      </div> -->
     </div>
   </section>
   <section class="menu area-bgs mb0" id="bg3">
@@ -295,6 +298,35 @@
   <!-- banner-campaign END -->
   <?php else: ?>
   <?php endif; ?>
+
+<article class="media">
+  <div class="inner">
+  <ul class="media__list flex">
+      <li class="media__article">
+        <div class="media__thumb">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/top/article_thumb01.jpg" alt="サムネイル">
+        </div>
+        <h3 class="media__ttl">
+          仕事を楽しむためのwebマガジン"Bplus"掲載
+        </h3>
+        <a href="https://www.business-plus.net/interview/1911/k5216.html" class="media__link" target="_blank">詳しく見る</a>
+      </li>
+      <li class="media__article">
+        <div class="media__thumb">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/top/article_thumb02.jpg" alt="サムネイル">
+        </div>
+        <h3 class="media__ttl media__ttl--line01">
+          VOCE6月号掲載
+        </h3>
+        <a href="http://blog.livedoor.jp/dr_sakiyama/archives/1077336482.html" class="media__link" target="_blank">詳しく見る</a>
+      </li>
+    </ul>
+  </div>
+<!-- ./inner-box -->
+</article>
+<!-- ./media -->
+
+
   <section class="slides">
     <div class="inner flex">
       <div class="left-slide slide-area">
@@ -323,10 +355,10 @@
                 }
                 ?>
               </h3>
-              <p class="qa-txt pb0"><span class="q">Q</span>
+              <p class="qa-txt qa-tit pb0"><span class="q">Q</span>
                 <?php the_title(); ?>
               </p>
-              <div class="qa-txt text-over"><span class="a">A</span>
+              <div class="qa-txt qa-answer text-over pb0"><span class="a">A</span>
                 <?php remove_filter('the_content', 'wpautop'); ?>
                 <?php the_content()?>
               </div>

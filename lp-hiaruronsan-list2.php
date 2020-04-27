@@ -29,8 +29,8 @@ function ua_smt()
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/lp.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?<?php echo filemtime(get_stylesheet_directory() . '/css/style.css'); ?>">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/lp.css?<?php echo filemtime(get_stylesheet_directory() . '/css/lp.css'); ?>">
 
 <!-- Global site tag (gtag.js) - Google Ads: 710940797 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-710940797"></script>
@@ -211,8 +211,7 @@ function ua_smt()
         アプローチできる治療です。</p>
       <p class="tc ls1 gd mb20 sp">ヒアルロン酸注入治療ではこれらのバランスを見ながらよりその方に合った理想のバランス（黄金バランス）に整えていくように注入します。
         たるみ 、 ボリュームロス、 輪郭、これらがトータルで改善し、老化に対して根本からアプローチできる治療です。</p>
-      <p class="tc ls1 gd">溝を埋めるだけの注入治療（ほうれい線のみ注入する、<br>
-        目の下のみ注入するといったもの）と違って、仕上がりはとても自然で美しいです。</p>
+      <p class="tc ls1 gd">溝を埋めるだけの注入治療（ほうれい線のみ注入する、<br class="pc">目の下のみ注入するといったもの）と違って、仕上がりはとても自然で美しいです。</p>
     </div>
   </section>
   <section class="area8 area-bgs" id="bg4">
@@ -221,15 +220,9 @@ function ua_smt()
         <h2><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area8_cach.png" alt="お一人お一人の悩みに寄り添い、
 確かな技術とセンスでその方に合った
 自然な美しさをご提案いたします。"></h2>
-        <p class="gosic mb25">私たちは丁寧なカウンセリングを心がけており、<br>
-          患者様のご要望やお悩みに寄り添い、<br>
-          その方に合った治療法をご提案いたします。<br>
-          またナチュラルで違和感のない仕上がりを重視します。</p>
-        <p class="gosic"> <span class="fs-midle cp mincho">もちろん部分的なご相談も可能です。</span><br>
-          当院は全体のバランスをみてご提案を行う<br>
-          トータルフェイシャルトリートメントをおすすめしておりますが、<br>
-          部分的な注入も行っております。<br>
-          是非お気軽にご相談も可能ください。 </p>
+        <p class="gosic mb25">私たちは丁寧なカウンセリングを心がけており、<br class="pc">患者様のご要望やお悩みに寄り添い、<br class="pc">
+          その方に合った治療法をご提案いたします。<br class="pc">またナチュラルで違和感のない仕上がりを重視します。</p>
+        <p class="gosic"> <span class="fs-midle cp mincho">もちろん部分的なご相談も可能です。</span><br class="pc">当院は全体のバランスをみてご提案を行う<br class="pc">トータルフェイシャルトリートメントをおすすめしておりますが、<br class="pc">部分的な注入も行っております。<br class="pc">是非お気軽にご相談も可能ください。 </p>
       </div>
     </div>
   </section>
@@ -237,16 +230,10 @@ function ua_smt()
     <div class="lp-inner">
       <div class="box box-size">
         <h2><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area9_h2.png" alt="より根本解決に近い注入治療をご提供"></h2>
-        <p class="cach tc cp">しわやたるみは、単純にゆるんだ溝を<br>
-          ヒアルロン酸で埋めればいいという事ではありません。</p>
+        <p class="cach tc cp">しわやたるみは、単純にゆるんだ溝を<br class="pc">ヒアルロン酸で埋めればいいという事ではありません。</p>
         <div class="desc-box flex">
-          <div class="desc gosic"> お顔の下垂が原因で法令線ができる場合など、<br>
-            法令線だけ埋めても全体的に見ると<br>
-            <span class="cp">不自然な仕上がり</span>になってしまう事もあります。<br>
-            しわに沿って注入する事も出来ますが、下垂の程度、<br>
-            ボリュームロスの程度など<span class="cp">トータルで判断</span>し、<br>
-            <span class="cp">ナチュラルな美しさを追及</span>できる注入量を<br>
-            ご提案する事が大事だと考えています。 </div>
+          <div class="desc gosic"> お顔の下垂が原因で法令線ができる場合など、<br class="pc">法令線だけ埋めても全体的に見ると<br class="pc">
+            <span class="cp">不自然な仕上がり</span>になってしまう事もあります。<br class="pc">しわに沿って注入する事も出来ますが、下垂の程度、<br class="pc">ボリュームロスの程度など<span class="cp">トータルで判断</span>し、<br class="pc"><span class="cp">ナチュラルな美しさを追及</span>できる注入量を<br class="pc">ご提案する事が大事だと考えています。 </div>
           <div class="thumb"> <img src="<?php echo get_template_directory_uri(); ?>/img/lp1/area9_thumb.jpg" alt="サムネイル"> </div>
         </div>
       </div>
@@ -365,7 +352,7 @@ function ua_smt()
         </tbody>
       </table>-->
 
-      <table class="pt2 gosic mb35">
+   <table class="pt2 gosic mb35">
         <thead>
           <tr>
             <th scope="col">施術名</th>
@@ -375,20 +362,20 @@ function ua_smt()
         </thead>
         <tbody>
           <tr>
-            <td rowspan="5"style="background-color: #eddbe7; vertical-align: middle;" class="left">ボリューマ、ボリフト</td>
+            <td rowspan="4"style="background-color: #eddbe7; vertical-align: middle;" class="left">ボリューマ、<br class="sp">ボリフト</td>
             <td>0.1cc</td>
             <td class="right">¥10,000</td>
           </tr>
           <tr>
             <td>1本</td>
-            <td class="right">¥100,000</td>
+            <td class="right">¥80,000</td>
           </tr>
-          <tr>
+         <!--  <tr>
             <td>2本</td>
             <td class="right">¥180,000</td>
-          </tr>
+          </tr> -->
           <tr>
-            <td>3本目以降</td>
+            <td>4本目以降</td>
             <td class="right">1本あたりプラス¥60,000</td>
           </tr>
         </tbody>
@@ -522,10 +509,10 @@ function ua_smt()
           <!-- Slides -->
 
           <div class="qas gd box-size swiper-slide">
-            <p class="qa-txt mb15 cp"><span class="q">Q</span>
+            <p class="qa-txt qa-tit mb15 cp"><span class="q">Q</span>
               <?php the_title(); ?>
             </p>
-            <div class="qa-txt text-over gd"><span class="a">A</span>
+            <div class="qa-txt qa-answer text-over gd"><span class="a">A</span>
               <?php remove_filter('the_content', 'wpautop'); ?>
               <?php the_content(); ?>
             </div>
@@ -543,16 +530,16 @@ function ua_smt()
       <div class="box flex">
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/lp1/doctor.png" alt="先山 史先生"></div>
         <div class="desc">
-          <h2 class="cp ls2"> <span>fumi beauty clinic 院長</span> 先山 史 </h2>
+          <h2 class="cp ls2"> <span>ふみビューティークリニック梅田 院長</span> 先山 史 </h2>
           <dl class="gosic gd flex">
             <dt>経歴</dt>
             <div>
-              <dd><span class="year">2003年</span>帝京大学医学部　卒業</dd>
-              <dd><span class="year">2003年</span>帝京大学病院形成外科　入局</dd>
-              <dd><span class="year">2011年</span>市立旭川病院皮膚科　入局</dd>
-              <dd><span class="year">2015年</span>トキコクリニク　淀屋橋院長　就任</dd>
-              <dd><span class="year">2016年</span>トキコクリニク　梅田院長　就任</dd>
-              <dd><span class="year">2019年</span>fumi beauty clinic　院長　就任</dd>
+              <dd><span class="year">2003年</span><span class="text">帝京大学医学部　卒業</span></dd>
+              <dd><span class="year">2003年</span><span class="text">帝京大学病院形成外科　入局</span></dd>
+              <dd><span class="year">2011年</span><span class="text">市立旭川病院皮膚科　入局</span></dd>
+              <dd><span class="year">2015年</span><span class="text">トキコクリニック　淀屋橋院長　就任</span></dd>
+              <dd><span class="year">2016年</span><span class="text">トキコクリニック　梅田院長　就任</span></dd>
+              <dd><span class="year">2019年</span><span class="text">ふみビューティークリニック梅田　<br class="sp">院長　就任</span></dd>
             </div>
           </dl>
           <dl class="gosic gd flex">

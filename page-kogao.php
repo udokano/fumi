@@ -125,7 +125,7 @@ Template Name: 小顔治療
     <h2 class="tc ls1">スレッドリフト料金</h2>
     <div class="price-list gosic">
       <dl class="flex">
-        <dt class="fw600">シルエットソフト</dt>
+        <dt class="fw600">シルエットソフト(3Dリフト)</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
@@ -145,9 +145,10 @@ Template Name: 小顔治療
         <dd>¥400,000(1本あたり¥50,000)</dd>
       </dl>
     </div>
+    <!-- ./price-list -->
     <div class="price-list gosic">
       <dl class="flex">
-        <dt class="fw600">Gコグ</dt>
+        <dt class="fw600">Gコグリフト</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
@@ -155,9 +156,10 @@ Template Name: 小顔治療
         <dd>¥60,000</dd>
       </dl>
     </div>
+    <!-- ./price-list -->
     <div class="price-list gosic">
       <dl class="flex">
-        <dt class="fw600">VOVリフト</dt>
+        <dt class="fw600">VOVリフトプレミアム</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
@@ -167,27 +169,59 @@ Template Name: 小顔治療
       <dl class="flex">
         <dt> 5本目以降</dt>
         <dd>1本あたり¥30,000<br>
-          Gコグとの併用の場合1本30000円</dd>
+          Gコグリフトとの併用の場合1本30000円</dd>
       </dl>
     </div>
+    <!-- ./price-list -->
+     <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">セルフロック</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 1本</dt>
+        <dd>¥20,000</dd>
+      </dl>
+    </div>
+    <!-- ./price-list -->
     <div class="price-list gosic">
       <dl class="flex">
-        <dt class="fw600">引き締め系ショートスレッド</dt>
+        <dt class="fw600">ショッピングリフト<br class="sp">(ビューティーエナジー)</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 20本</dt>
+        <dd>¥66,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 40本</dt>
+        <dd>¥102,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 60本</dt>
+        <dd>¥138,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 80本</dt>
+        <dd>¥174,000</dd>
+      </dl>
+    </div>
+    <!-- ./price-list -->
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">スレッドアイリフト(Gグロス)</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
         <dt> 10本</dt>
-        <dd>¥40,000</dd>
+        <dd>¥47,000</dd>
       </dl>
       <dl class="flex">
         <dt> 20本</dt>
-        <dd>¥70,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt> 30本</dt>
-        <dd>¥90,000</dd>
+        <dd>¥69,000</dd>
       </dl>
     </div>
+    <!-- ./price-list -->
   </div>
   </div>
 </section>
