@@ -26,7 +26,7 @@
 <div class="wrapper">
 <header class="site-header front">
   <div class="header-inner flex al-cent">
-    <div class="logo tc"><a href="<?php echo home_url('/'); ?>"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo_re.png?<?php echo filemtime(get_template_directory() . '/img/common/logo_re.png');?>" alt="FMUI BEAUTY CLINIC"></a></div>
+    <div class="logo tc"><a href="<?php echo home_url('/'); ?>"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo_re.png?<?php echo filemtime(get_template_directory() . '/img/common/logo_re.png');?>" alt="FUMI BEAUTY CLINIC"></a></div>
     <nav class="navi pc-dis">
       <ul>
         <li><a href="<?php echo home_url('/'); ?>concept">当院について</a></li>

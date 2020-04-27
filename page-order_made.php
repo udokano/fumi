@@ -18,7 +18,7 @@
     <a href="#area2" class="center"><span class="row__center"><p class="col__center">パーツ治療</p>
     <span>唇・額・あご<br>
     涙袋・ドールチークなど</span></span></a>
-    <a href="#area3"><span class="row__center">小顔治療<br>
+    <a href="#area3" class="sp-m-center"><span class="row__center">小顔治療<br>
     リフトアップ</span></a> </div>
 </section>
 <section class="commitment">
@@ -67,8 +67,9 @@
 <!-- ./inner -->
 </section>
 
-<section class="order__made__tit bg__p02" id="area1">
-  <h2 class="tc">アンチエイジング・シワ治療</h2>
+<section class="ope-top-desc bg__p02 top-desc-p02 top-desc-p03" id="area1">
+  <h2 class="tc">アンチエイジング・しわ治療</h2>
+  <p class="tc">シワの種類に合わせた<br class="sp">ヒアルロン酸やボトックス等の注入治療で、<br class="sp">自然な若返りができます。<br>お顔のバランスが整いますので、<br class="sp">自然で美しい仕上がりとなります。</p>
 </section>
 <section class="order__made__ilast__center">
   <div class="inner">
@@ -291,7 +292,7 @@
   <!--./inner-box-->
 </section>
 <section class="order__made__tit bg__p02" id="area3">
-  <h2 class="tc">小顔治療・リフトアップ</h2>
+  <h2 class="tc">小顔・リフトアップ治療</h2>
 </section>
 <section class="order__kogao__ilast__cross">
   <div class="inner">
@@ -355,7 +356,7 @@
       <!-- ./thumb -->
       <div class="right__col">
         <dl>
-          <dt class="flex al-cent bg__brown infusion__desc__tit ela__btx__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_brown.png" alt="注射"></i><em>BNLS neo 注射
+          <dt class="flex al-cent bg__brown infusion__desc__tit ela__btx__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_brown.png?0421" alt="注射"></i><em>BNLSneo注射
 <br>(脂肪溶解注射)</em>
            <div class="thumb sp"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast04.jpg?0316" alt="イラスト"></div>
            </dt>
@@ -386,7 +387,7 @@
         <p class="points cw f-ryu">Ponit.1</p>
         <h3>カウンセリングへのこだわり</h3>
         <p class="commit__text">
-          お一人お一人のお悩みや、こうなりたいというご希望をじっくりと伺い丁寧にカウンセリングを行います。<br class="pc">またリスクや副作用についてもしっかりと説明しております。
+          お一人お一人のお悩みや、<br class="pc">こうなりたいというご希望をじっくりと伺い<br class="pc">丁寧にカウンセリングを行います。<br class="pc">またリスクや副作用についてもしっかりと説明しております。
         </p>
         </div>
   </li>
@@ -396,7 +397,7 @@
         <p class="points cw f-ryu">Point.2</p>
         <h3>製剤と注入方法へのこだわり</h3>
         <p class="commit__text">
-          当院では厚生労働省の承認を得た製剤を中心に、安全性の確<br class="pc">立された製剤を取り扱っております。また認定医の院長が、<br class="pc">効果的かつ安全性の高い部位に注入していますので安心して<br class="pc">受けて頂けます。
+          当院では厚生労働省の承認を得た製剤を中心に、<br class="pc">安全性の確立された製剤を取り扱っております。<br class="pc">また認定医の院長が、効果的かつ安全性の高い部位に注入していますので安心して受けて頂けます。
         </p>
         </div>
   </li>
@@ -406,8 +407,9 @@
         <p class="points cw f-ryu">Point.3</p>
         <h3>注入技術とデザイン力への<br class="sp">こだわり</h3>
         <p class="commit__text">
-          全ての注入技術を認定医である院長が行います。<br class="pc">顔のトータルバランスを整えるように、またその方の美しさを<br class="pc">引き出すような注入を心がけております。 </p>
-        </div>
+          全ての注入治療を認定医である院長が行います。<br class="pc">顔のトータルバランスを整えるように、<br class="pc">またその方の美しさを引き出すような注入を心がけております。
+        </p>
+     </div>
   </li>
 
   <li class="commit__list area-bgs point04" id="commit04">
@@ -415,9 +417,9 @@
         <p class="points cw f-ryu">Point.4</p>
         <h3>痛くない治療へのこだわり</h3>
         <p class="commit__text">
-          麻酔クリームや冷却、特殊な細い糸や針先が丸く柔らかい<br class="pc">カニューレを使用し、なるべく痛みがなく受けて頂けるよう<br class="pc">に配慮しております。
+          麻酔クリームや冷却、<br class="pc">特殊な細い糸や針先が丸く柔らかいカニューレを使用し、<br class="pc">なるべく痛みがなく受けて頂けるように配慮しております。
         </p>
-</div>
+     </div>
   </li>
 
   <li class="commit__list area-bgs point05" id="commit05">
@@ -425,9 +427,9 @@
         <p class="points cw f-ryu">Point.5</p>
         <h3>明確な料金設定</h3>
         <p class="commit__text">
-          先会計システムを取り入れています。施術前に料金についてし<br class="pc">っかりと説明を行っておりますので、不明瞭な追加料金等は一<br class="pc">切ございません。
+          先会計システムを取り入れています。<br class="pc">施術前に料金についてしっかりと説明を行っておりますので、<br class="pc">不明瞭な追加料金等は一切ございません。
         </p>
-</div>
+     </div>
   </li>
 </ul>
 

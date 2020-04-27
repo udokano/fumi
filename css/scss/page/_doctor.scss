@@ -194,12 +194,12 @@
             justify-content: flex-start;
 
             @media (min-width: 768px) {
-                padding-left: 15%;
+                padding-left: 10%;
             }
         }
 
         .text {
-            width: 70%;
+            width: 73%;
             margin-left: 4%;
             padding-bottom: 0px;
 
@@ -212,7 +212,7 @@
             p {
                 line-height: 1.8;
                 margin-bottom: 33px;
-                font-size: .97rem;
+                font-size: 1.05rem;
                 color: #7c7c7c;
                 text-align: justify;
 
@@ -267,7 +267,7 @@
         }
 
         .thumb {
-            width: 17.9%;
+            width: 20.9%;
         }
     }
 }
@@ -497,7 +497,7 @@
                 line-height: 1.65;
                 text-align: justify;
                 margin-bottom: .9rem;
-                font-size: .97rem;
+                font-size: 1.05rem;
                 line-height: 1.8;
 
                 @media (max-width: 767px) {

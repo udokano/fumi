@@ -505,7 +505,20 @@ body.page {
     width: 1200px;
     margin: auto;
   }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .page .inner.inner__list {
+    width: 1000px;
+  }
+}
 
+@media (min-width: 768px) and (min-width: 768px) {
+  .page .inner.inner__about {
+    width: 1000px;
+  }
+}
+
+@media (min-width: 768px) {
   .inner-box2 {
     width: 1000px;
     margin: auto;
@@ -609,6 +622,12 @@ body.page {
 
 .gd {
   color: #9d8440;
+}
+
+@media (max-width: 767px) {
+  .sp-m-center {
+    margin: auto !important;
+  }
 }
 
 .gd-i {
@@ -754,7 +773,7 @@ body.page {
 }
 
 .prev2, .next2 {
-  top: 50%;
+  top: 56%;
 }
 
 .prev2 {
@@ -783,7 +802,7 @@ body.page {
   }
 
   .slide-p2 .swiper-slide {
-    height: 63vw;
+    height: auto;
   }
 
   .swiper3 .swiper-slide {
@@ -2595,7 +2614,7 @@ footer.pages.list-footer .copy {
 .doctor .inner .doctor-name {
   position: absolute;
   bottom: 60px;
-  left: 200px;
+  left: 160px;
   font-size: 1.6rem;
   line-height: .78;
   background: url("../img/top/bg_doctor_name.png") no-repeat 50% 50%/390px;
@@ -2649,6 +2668,7 @@ footer.pages.list-footer .copy {
     position: absolute;
     left: 50%;
     right: auto;
+    width: 100%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     bottom: 50px;
@@ -2691,10 +2711,21 @@ footer.pages.list-footer .copy {
   background-color: #9d8440;
   font-size: 1.2rem;
 }
+.slides .inner .left-slide .qas .qa-tit {
+  height: 80px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.slides .inner .left-slide .qas .qa-answer {
+  height: 250px;
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+}
 .slides .inner .left-slide .qas .qa-txt {
-  padding: 10px 8px;
+  padding: 10px 8px 0;
   font-size: .9rem;
-  max-height: 150px;
   overflow: hidden;
 }
 .slides .inner .left-slide .qas span {
@@ -2851,12 +2882,24 @@ footer.pages.list-footer .copy {
   }
   .slides .inner .left-slide .qas {
     border: 1px solid #9d8440;
+    margin-left: 0 !important;
+    height: 322px;
   }
   .slides .inner .left-slide .qas h3 {
     font-size: 1.2rem;
   }
+  .slides .inner .left-slide .qas .qa-tit {
+    height: 74px;
+    -webkit-line-clamp: 3;
+  }
+  .slides .inner .left-slide .qas .qa-answer {
+    line-height: 1.82;
+    -webkit-line-clamp: 9;
+    height: auto;
+    overflow: inherit;
+  }
   .slides .inner .left-slide .qas .qa-txt {
-    padding: 10px 8px;
+    padding: 10px 8px !important;
   }
   .slides .inner .left-slide .qas span {
     font-size: 1.6rem;
@@ -3031,7 +3074,7 @@ footer.pages.list-footer .copy {
   margin: 60px auto;
 }
 .mission-area .inner .box {
-  width: 30%;
+  width: 31%;
 }
 .mission-area .inner .box .text .img {
   width: 100px;
@@ -3042,6 +3085,7 @@ footer.pages.list-footer .copy {
 }
 .mission-area .inner .box .text h3 {
   margin-bottom: 50px;
+  font-size: 1.62rem;
 }
 
 @media (max-width: 767px) {
@@ -3092,6 +3136,7 @@ footer.pages.list-footer .copy {
   }
   .mission-area .inner .box .text h3 {
     margin-bottom: 38px;
+    font-size: 1.4rem;
   }
 }
 .access-info .page-map {
@@ -4607,8 +4652,10 @@ footer.pages.list-footer .copy {
   border-color: #fff;
 }
 @media (max-width: 767px) {
-  .ancor-box.order a:last-of-type {
-    margin: auto;
+  .ancor-box.order a:last-of-type, .ancor-box.order a:nth-of-type(3) {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
   }
 }
 .ancor-box.order .center .row__center {
@@ -5252,7 +5299,7 @@ footer.pages.list-footer .copy {
 }
 
 .bg__brown {
-  background-color: #e8dcd3;
+  background-color: #fcd072;
 }
 
 .case__btn {
@@ -5354,7 +5401,7 @@ footer.pages.list-footer .copy {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     padding: 1.22rem 10.9vw;
-    padding-right: 3.2vw;
+    padding-right: 4.2vw;
   }
   .infusion__desc__tit i {
     margin-right: 4.2vw;
@@ -5398,9 +5445,9 @@ footer.pages.list-footer .copy {
 }
 @media (max-width: 767px) {
   .order__ope__ilast__col02 .inner .desc__box .col__left {
-    width: 72%;
-    margin: 0 0 2.5rem;
-    padding-right: 28%;
+    width: 64%;
+    margin: 2.8rem 0 4.5rem;
+    padding-right: 36%;
   }
 }
 .order__ope__ilast__col02 .inner .desc__box .col__left h2 {
@@ -5426,7 +5473,7 @@ footer.pages.list-footer .copy {
     top: 50%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
-    width: 27%;
+    width: 38%;
     margin: 0;
   }
 }
@@ -5505,7 +5552,7 @@ footer.pages.list-footer .copy {
     -webkit-box-direction: reverse;
         -ms-flex-flow: column-reverse;
             flex-flow: column-reverse;
-    padding: 1.5rem 0;
+    padding: 2.7rem 0;
   }
 }
 .order__kogao__ilast__cross .inner .desc__box:first-of-type {
@@ -5574,9 +5621,9 @@ footer.pages.list-footer .copy {
 }
 @media (max-width: 767px) {
   .order__kogao__ilast__cross .inner .desc__box .right__col dl dt.infusion__desc__tit {
-    width: 68%;
+    width: 54%;
     padding: 1.22rem 3.9vw;
-    margin-bottom: 6.78vw;
+    margin-bottom: 4.4rem;
   }
   .order__kogao__ilast__cross .inner .desc__box .right__col dl dt.infusion__desc__tit i {
     margin-right: 1.2rem;
@@ -5591,7 +5638,7 @@ footer.pages.list-footer .copy {
 }
 .order__kogao__ilast__cross .inner .desc__box .right__col dl dt.infusion__desc__tit .thumb {
   position: absolute;
-  width: 26%;
+  width: 38%;
   right: 0;
 }
 @media (max-width: 767px) {
@@ -5624,6 +5671,9 @@ footer.pages.list-footer .copy {
 .commit__desc__area .inner .commit__desc__lists .commit__list {
   padding: 5rem 5.25rem;
   margin-bottom: 1.875rem;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   /*  &:nth-of-type(even) {
        .list__content {
            @media (min-width: 768px) {
@@ -5633,13 +5683,32 @@ footer.pages.list-footer .copy {
        }
    } */
 }
+@media (min-width: 768px) {
+  .commit__desc__area .inner .commit__desc__lists .commit__list {
+    height: 450px;
+  }
+}
+.commit__desc__area .inner .commit__desc__lists .commit__list::before {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 68%;
+  height: 100%;
+  background: white;
+  background: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.84)));
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.84) 100%);
+}
 @media (max-width: 767px) {
   .commit__desc__area .inner .commit__desc__lists .commit__list {
     padding: 2.75rem 2.2rem;
   }
 }
 .commit__desc__area .inner .commit__desc__lists .commit__list .list__content {
-  width: 75%;
+  width: 78%;
+  position: relative;
+  z-index: 500;
 }
 @media (max-width: 767px) {
   .commit__desc__area .inner .commit__desc__lists .commit__list .list__content {
@@ -5647,7 +5716,7 @@ footer.pages.list-footer .copy {
   }
 }
 .commit__desc__area .inner .commit__desc__lists .commit__list .points {
-  background-color: #ca94ae;
+  background-color: #f79ec8;
   display: inline-block;
   padding: 5px 20px;
   margin-bottom: 1.75rem;
@@ -5670,6 +5739,7 @@ footer.pages.list-footer .copy {
   letter-spacing: 0.075em;
   line-height: 1.62;
   text-align: justify;
+  color: #333;
 }
 @media (max-width: 767px) {
   .commit__desc__area .inner .commit__desc__lists .commit__list .commit__text {
@@ -5726,12 +5796,8 @@ footer.pages.list-footer .copy {
 }
 @media (max-width: 767px) {
   .conversion__area .inner .cv-btn {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
   }
 }
 .conversion__area .inner .cv-btn li {
@@ -5748,6 +5814,8 @@ footer.pages.list-footer .copy {
     line-height: 1.2;
     vertical-align: top;
     width: 32%;
+    max-width: 136px;
+    max-height: 118px;
   }
 }
 .conversion__area .inner .cv-btn li a {
@@ -5804,7 +5872,7 @@ footer.pages.list-footer .copy {
 }
 @media (max-width: 767px) {
   .conversion__area .inner .cv-btn li:nth-of-type(2) {
-    margin: 0;
+    margin: 0 .94vw;
   }
 }
 .conversion__area .inner .cv-btn li:nth-of-type(2) a i {
@@ -5829,6 +5897,674 @@ footer.pages.list-footer .copy {
 }
 .conversion__area .inner .cv-btn li:nth-of-type(3) a span {
   line-height: 1.22;
+}
+
+/* オーダーメイドスレッドリフト */
+/* こんな方へおすすめ */
+.recommended {
+  margin: 4.9473684210526rem 0;
+}
+@media (max-width: 767px) {
+  .recommended {
+    margin: 3.8473684210526rem 0;
+  }
+}
+@media (min-width: 768px) {
+  .recommended .inner {
+    width: 1210px;
+  }
+}
+.recommended__box {
+  border: 1px solid #efefef;
+  padding-top: 1.2842105263158rem;
+  padding-right: 48px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 376px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@media (max-width: 767px) {
+  .recommended__box {
+    height: auto;
+    padding: 4.8% 4.8% 8.7%;
+  }
+}
+.recommended__thumb {
+  width: 373px;
+}
+.recommended__list {
+  width: 745px;
+  padding-top: 20px;
+  margin-left: 33px;
+}
+@media (max-width: 767px) {
+  .recommended__list {
+    padding: 0;
+    margin: 0;
+  }
+}
+.recommended__list__item {
+  font-size: 20px;
+  border-bottom: 1px dashed #000;
+  letter-spacing: 0.05em;
+  padding-bottom: 4px;
+  padding-left: 50px;
+  padding-top: 4px;
+  background: url(../img/operation/order_made_thread_lift/recommended_bg_icon.png) no-repeat 12px 50%/25px 22px;
+  margin-bottom: 10px;
+}
+.recommended__list__item:last-of-type {
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  .recommended__list__item {
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+    background-position: 3.8% 49%;
+  }
+}
+
+.quality {
+  margin: 5.6842105263158rem 0 6.3684210526316rem;
+}
+@media (max-width: 767px) {
+  .quality__list {
+    display: block;
+  }
+}
+.quality__list__item {
+  width: 20.4%;
+}
+@media (max-width: 767px) {
+  .quality__list__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    margin-bottom: 7.8vw;
+  }
+  .quality__list__item:nth-of-type(even) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: row-reverse;
+            flex-flow: row-reverse;
+  }
+}
+@media (min-width: 768px) {
+  .quality__list__item--center {
+    width: 35%;
+    margin: 0 4.25%;
+  }
+}
+.quality__list__sq {
+  width: 248px;
+  height: 248px;
+  background-color: #f0fff8;
+  border: 1px solid #94d0c8;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto 25px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .quality__list__sq {
+    width: 38%;
+    height: 38vw;
+    margin: 0;
+  }
+}
+.quality__list__sq__tit {
+  position: absolute;
+  font-size: 20px;
+  line-height: 1.25;
+  display: inline-block;
+  width: 92%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+@media (max-width: 767px) {
+  .quality__list__sq__tit {
+    font-size: 3.7vw;
+    width: 100%;
+  }
+}
+.quality__list__text {
+  font-size: 14px;
+  line-height: 1.86;
+}
+@media (max-width: 767px) {
+  .quality__list__text {
+    font-size: 3.18vw;
+    width: 59.5%;
+  }
+}
+@media (min-width: 768px) {
+  .quality__list__top {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 6.2631578947368rem;
+  }
+}
+@media (min-width: 768px) {
+  .quality__list__top__item {
+    width: 22.1%;
+  }
+}
+@media (max-width: 767px) {
+  .quality__list__bottom__item:nth-of-type(odd) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: row-reverse;
+            flex-flow: row-reverse;
+  }
+  .quality__list__bottom__item:nth-of-type(even) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+  }
+}
+
+/* 糸の種類アンカーエリア */
+.lift_type .lift_type__anchor {
+  margin: 4.8947368421053rem 0 4.0526315789474rem;
+}
+@media (max-width: 767px) {
+  .lift_type .lift_type__anchor {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 4.8947368421rem 0;
+  }
+}
+.lift_type .lift_type__anchor__item {
+  width: 15.79%;
+}
+@media (max-width: 767px) {
+  .lift_type .lift_type__anchor__item {
+    width: 48%;
+    margin-bottom: 9.8vw;
+  }
+}
+@media (max-width: 767px) {
+  .lift_type .lift_type__anchor__item:nth-of-type(5), .lift_type .lift_type__anchor__item:nth-of-type(6) {
+    margin-bottom: 0;
+  }
+}
+.lift_type .lift_type__anchor__link {
+  display: block;
+}
+
+/* 糸の施術内容説明 */
+.bg__deep {
+  background-color: #f0f9fe;
+}
+
+.bg__deep__tit {
+  background-color: #b3e4ff;
+}
+
+.bg__shallow {
+  background-color: #fffee4;
+}
+
+.bg__shallow__tit {
+  background-color: #fff3b3;
+}
+
+.bg__shallow__cach {
+  background-color: #d8a345 !important;
+}
+
+.lift_desc__tit {
+  font-size: 29px;
+  color: #666;
+  padding: 18px 0;
+  padding-left: 72px;
+  text-align: left;
+  letter-spacing: 0;
+}
+@media (max-width: 767px) {
+  .lift_desc__tit {
+    font-size: 18px;
+    padding: 11px 0 10px;
+    text-align: center;
+  }
+}
+.lift_desc__box {
+  padding: 51px 47px;
+  padding-right: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+@media (max-width: 767px) {
+  .lift_desc__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    padding: 8% 4%;
+  }
+}
+.lift_desc__box__left {
+  width: 33.92%;
+}
+@media (max-width: 767px) {
+  .lift_desc__box__left {
+    width: 100%;
+    margin-bottom: 2.1rem;
+  }
+}
+.lift_desc__box__center {
+  width: 28.12%;
+  margin-left: 37px;
+  margin-right: 25px;
+}
+@media (max-width: 767px) {
+  .lift_desc__box__center {
+    width: 100%;
+    margin: 0 0 2.88rem;
+  }
+}
+.lift_desc__box__right {
+  width: 39.79%;
+}
+@media (max-width: 767px) {
+  .lift_desc__box__right {
+    width: 100%;
+  }
+}
+.lift_desc__box__cach {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  background-color: #4d92b8;
+  border-radius: 17px;
+  line-height: 1;
+  padding: 6px 0;
+  margin-bottom: 12px;
+}
+.lift_desc__box__cach--right {
+  width: 89%;
+  padding: 6px 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+@media (max-width: 767px) {
+  .lift_desc__box__cach {
+    width: 100%;
+    margin-bottom: 1.48rem;
+    border-radius: 34px;
+    font-size: 16px;
+    padding: 10px 0;
+  }
+}
+.lift_desc__box .lift_desc__box__list__item {
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+  padding-left: 1em;
+  text-indent: -1em;
+}
+.lift_desc__box .lift_desc__box__list__item:last-of-type {
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  .lift_desc__box .lift_desc__box__list__item {
+    font-size: 14px;
+  }
+}
+.lift_desc .lift_desc__point__img {
+  width: 109px;
+}
+@media (max-width: 767px) {
+  .lift_desc .lift_desc__point__img {
+    width: 32%;
+  }
+}
+
+/* レフト */
+.lift_desc__box__left__text {
+  font-size: 15px;
+  line-height: 1;
+  background-color: #fff;
+  border: 1px solid #73cdff;
+  border-radius: 15px;
+  text-align: center;
+  padding: 1.3157894736842rem 0;
+  margin-bottom: 21px;
+}
+.lift_desc__box__left__text--shallow__border {
+  border-color: #efe29d;
+}
+@media (max-width: 767px) {
+  .lift_desc__box__left__text {
+    border-radius: 7px;
+    padding: 1.74rem 1.2vw;
+    font-size: 13px;
+  }
+}
+
+/* ライト */
+.lift_desc__box__right__ilust {
+  width: 180px;
+  margin: 0 auto 17px;
+}
+@media (max-width: 767px) {
+  .lift_desc__box__right__ilust {
+    width: 210px;
+    margin-bottom: 22px;
+  }
+}
+
+/* 糸施術説明 */
+.lift_ope .lift_ope__tit {
+  letter-spacing: 0.05em;
+  font-size: 25px;
+  line-height: 1;
+  padding: 28px 0;
+  margin-bottom: 2.8947368421053rem;
+  text-align: center;
+  color: #666;
+}
+@media (max-width: 767px) {
+  .lift_ope .lift_ope__tit {
+    font-size: 16px;
+  }
+}
+
+.lift_ope__box {
+  margin-bottom: 3.6842105263158rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@media (max-width: 767px) {
+  .lift_ope__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    margin-bottom: 0;
+  }
+}
+.lift_ope__box__left {
+  width: 52.5%;
+}
+@media (min-width: 768px) {
+  .lift_ope__box__left--shallow {
+    width: 48%;
+  }
+}
+@media (max-width: 767px) {
+  .lift_ope__box__left {
+    width: 100%;
+    margin-bottom: 1.35rem;
+  }
+}
+.lift_ope__box__right {
+  width: 43.96%;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.lift_ope__box__right--shallow {
+  width: 49%;
+}
+@media (max-width: 767px) {
+  .lift_ope__box__right {
+    width: 100%;
+  }
+  .lift_ope__box__right--shallow {
+    width: 100%;
+  }
+}
+.lift_ope__box__right__text {
+  font-size: 16px;
+  line-height: 1.56;
+  margin-bottom: 22px;
+  color: #6b6b6b;
+  letter-spacing: 0.05em;
+}
+.lift_ope__box__right__list {
+  border: 1px solid #dbdbdb;
+  padding: 20px 0;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  color: #9d8440;
+  margin-bottom: 18px;
+}
+@media (max-width: 767px) {
+  .lift_ope__box__right__list {
+    margin-bottom: 0;
+    padding: 5.5% 5%;
+  }
+}
+.lift_ope__box__right__list--ib {
+  padding-left: 0;
+}
+@media (min-width: 768px) {
+  .lift_ope__box__right__list--ib {
+    width: 78%;
+  }
+}
+@media (max-width: 767px) {
+  .lift_ope__box__right__list--ib {
+    padding: 5.5% 16%;
+  }
+}
+@media (min-width: 768px) {
+  .lift_ope__box__right__list--ib .lift_ope__box__right__item {
+    padding-left: 51px;
+  }
+}
+@media (min-width: 768px) {
+  .lift_ope__box__right__list--ib .lift_ope__box__right__item--pl {
+    padding-left: 82px;
+  }
+}
+@media (min-width: 768px) {
+  .lift_ope__box__right__list--ib02 {
+    width: 88%;
+  }
+}
+@media (min-width: 768px) {
+  .lift_ope__box__right__list--ib02 .lift_ope__box__right__item {
+    padding-left: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .lift_ope__box__right__list--sp__ib {
+    padding: 5.5% 10%;
+  }
+}
+.lift_ope__box__right__item {
+  padding-left: 98px;
+  margin-bottom: 1px;
+}
+.lift_ope__box__right__item:last-of-type {
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  .lift_ope__box__right__item {
+    padding-left: 1em;
+    font-size: 14px;
+    text-indent: -1em;
+  }
+}
+
+.case__btn__wrap__lift .case__btn {
+  margin-top: 0;
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体", serif;
+  font-size: 15px;
+  height: 55px;
+  line-height: 55px;
+  width: 192px;
+}
+@media (max-width: 767px) {
+  .case__btn__wrap__lift .case__btn {
+    margin: 2.4rem auto;
+    border-radius: 4px;
+    width: 225px;
+    height: 59px;
+    line-height: 59px;
+  }
+}
+
+.recommended_thumb {
+  margin: 5.1052631578947rem 0 5.6315789473684rem;
+}
+.recommended_thumb__list {
+  text-align: center;
+  width: 92%;
+  margin: auto;
+}
+.recommended_thumb__list__item {
+  width: 294px;
+  display: inline-block;
+}
+@media (max-width: 767px) {
+  .recommended_thumb__list__item {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .recommended_thumb__list__item:nth-child(2) {
+    margin: 0 91px;
+  }
+}
+
+/* スレッドリスト施術の流れ */
+.thread_flow {
+  background-color: #f9f9f9;
+  margin-bottom: 0;
+  padding: 8.5263157894737rem 0;
+}
+.thread_flow__arrow {
+  width: 89px;
+  margin: 2rem auto 2.1578947368421rem;
+}
+@media (max-width: 767px) {
+  .thread_flow__arrow {
+    width: 32px;
+    margin: 1.24rem auto 2.2rem;
+  }
+}
+@media (max-width: 767px) {
+  .thread_flow {
+    padding: 5.5263157894737rem 0;
+  }
+}
+
+.thread_flow__contents {
+  position: relative;
+  height: 240px;
+}
+@media (max-width: 767px) {
+  .thread_flow__contents {
+    height: 45vw;
+  }
+}
+.thread_flow__contents__left {
+  width: 64.5%;
+  border-radius: 34px 0 0 34px;
+  height: 100%;
+  background-color: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 3.1947368421053rem;
+}
+@media (max-width: 767px) {
+  .thread_flow__contents__left {
+    border-radius: 17px 0 0 17px;
+    width: 62%;
+    padding: 0 3.74vw;
+  }
+}
+.thread_flow__contents__thumb {
+  position: absolute;
+  width: 375px;
+  right: 0;
+  top: 0;
+  border-radius: 0 34px 34px 0;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .thread_flow__contents__thumb {
+    width: 30%;
+    height: 100%;
+    border-radius: 0 17px 17px 0;
+  }
+  .thread_flow__contents__thumb img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+.thread_flow__contents__step {
+  color: #b19d6c;
+  font-size: 2.9636842105263rem;
+  position: absolute;
+  top: -37px;
+  left: 30px;
+}
+@media (max-width: 767px) {
+  .thread_flow__contents__step {
+    left: 50%;
+    top: -30px;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+.thread_flow__contents__tit {
+  color: #c775ac;
+  font-size: 1.9421052631579rem;
+  margin-bottom: 18px;
+  letter-spacing: 0;
+}
+@media (min-width: 768px) {
+  .thread_flow__contents__tit {
+    line-height: 1;
+  }
+}
+.thread_flow__contents__text {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+@media (max-width: 767px) {
+  .thread_flow__contents__text {
+    font-size: 12px;
+  }
 }
 
 .doctor-intro {
@@ -6013,11 +6749,11 @@ footer.pages.list-footer .copy {
 }
 @media (min-width: 768px) {
   .doctor-intro.doctor__intro__repair02 .inner .contents__wrap {
-    padding-left: 15%;
+    padding-left: 10%;
   }
 }
 .doctor-intro.doctor__intro__repair02 .inner .text {
-  width: 70%;
+  width: 73%;
   margin-left: 4%;
   padding-bottom: 0px;
 }
@@ -6031,7 +6767,7 @@ footer.pages.list-footer .copy {
 .doctor-intro.doctor__intro__repair02 .inner .text p {
   line-height: 1.8;
   margin-bottom: 33px;
-  font-size: .97rem;
+  font-size: 1.05rem;
   color: #7c7c7c;
   text-align: justify;
 }
@@ -6083,7 +6819,7 @@ footer.pages.list-footer .copy {
   }
 }
 .doctor-intro.doctor__intro__repair02 .inner .thumb {
-  width: 17.9%;
+  width: 20.9%;
 }
 
 .doctor__name__tit__as#doctor__name {
@@ -6275,7 +7011,7 @@ footer.pages.list-footer .copy {
   line-height: 1.65;
   text-align: justify;
   margin-bottom: .9rem;
-  font-size: .97rem;
+  font-size: 1.05rem;
   line-height: 1.8;
 }
 @media (max-width: 767px) {

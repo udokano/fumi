@@ -356,15 +356,15 @@
   </dl>
   <dl class="flex">
     <dt>1本</dt>
-    <dd>¥100,000</dd>
+    <dd>¥80,000</dd>
   </dl>
-  <dl class="flex">
+ <!--  <dl class="flex">
     <dt>2本</dt>
     <dd>¥180,000</dd>
-  </dl>
+  </dl> -->
   <dl class="flex">
     <dt>&nbsp;</dt>
-    <dd>3本目以降 1本あたりプラス¥60,000</dd>
+    <dd>4本目以降 1本あたりプラス¥60,000</dd>
   </dl>
 </div>
 <div class="price-list gosic">

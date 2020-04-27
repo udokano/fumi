@@ -568,6 +568,18 @@ body.page {
         margin: auto;
     }
 
+    .page .inner.inner__list {
+        @media (min-width: 768px) {
+            width: 1000px;
+        }
+    }
+
+    .page .inner.inner__about {
+        @media (min-width: 768px) {
+            width: 1000px;
+        }
+    }
+
     .inner-box2 {
         width: 1000px;
         margin: auto;
@@ -675,6 +687,12 @@ body.page {
 
 .gd {
     color: $cg;
+}
+
+.sp-m-center {
+    @media (max-width: 767px) {
+        margin: auto !important;
+    }
 }
 
 .gd-i {
@@ -801,7 +819,7 @@ body.page {
 }
 
 .prev2, .next2 {
-    top: 50%;
+    top: 56%;
 }
 
 .prev2 {
@@ -831,7 +849,8 @@ body.page {
     }
 
     .slide-p2 .swiper-slide {
-        height: 63vw;
+        //height: 361px;
+        height: auto;
     }
 
     .swiper3 .swiper-slide {

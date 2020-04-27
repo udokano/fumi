@@ -95,11 +95,11 @@
   <div class="top__menu__area">
     <div class="bottom inner-box flex">
       <ul class="menu-link flex">
-        <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
+        <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
           <p class="cp tc ls1">オーダーメイド注入<br>
             <span class="gd">ORDER MADE</span></p>
           </a> </li>
-        <li class="box-size"> <a href="<?php echo home_url('/'); ?>pr3" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02.jpg" alt="サムネイル">
+        <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made_thread_lift" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02.jpg" alt="サムネイル">
           <p class="cp tc ls1">スレッドリフト<br>
             <span class="gd">THREAD LIFT</span></p>
           </a> </li>
@@ -131,7 +131,7 @@
           輝き続けるために</p>
         <div class="btn-wrap"> <a href="<?php echo home_url('/'); ?>doctor" class="btn fw600 bg__n_rs c_gray gosic">院長紹介</a> <a href="<?php echo home_url('/'); ?>concept" class="btn fw600 bg__n_ct gosic c_gray">当院について</a> </div>
       </div>
-      <p class="doctor-name cp c_gray tc"><span class="sm">fumi beauty clinic院長</span><br>
+      <p class="doctor-name cp c_gray tc"><span class="sm">ふみビューティークリニック梅田院長</span><br>
         先山 史</p>
     </div>
   </section>
@@ -325,10 +325,10 @@
                 }
                 ?>
               </h3>
-              <p class="qa-txt pb0"><span class="q">Q</span>
+              <p class="qa-txt qa-tit pb0"><span class="q">Q</span>
                 <?php the_title(); ?>
               </p>
-              <div class="qa-txt text-over"><span class="a">A</span>
+              <div class="qa-txt qa-answer text-over pb0"><span class="a">A</span>
                 <?php remove_filter('the_content', 'wpautop'); ?>
                 <?php the_content()?>
               </div>

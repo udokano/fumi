@@ -1167,6 +1167,8 @@ table td .sm {
     }
 }
 
+/*スライド設定*/
+
 .lp-qa {
     margin: 60px 0;
 
@@ -1181,25 +1183,46 @@ table td .sm {
             border: 1px solid #9d8440;
             padding: 25px;
 
+            .qa-tit {
+                height: 110px;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+
+            .qa-answer {
+                height: 280px;
+                display: -webkit-box;
+                -webkit-line-clamp: 14;
+                -webkit-box-orient: vertical;
+
+                //height: 380px;
+           
+            }
+
             .qa-txt {
                 span {
                     display: block;
                     font-size: 1.7rem;
                     font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
                 }
+
+                overflow: hidden;
             }
 
             .text-over {
-                max-height: 180px;
+                //max-height: 180px;
+           
             }
         }
     }
 }
 
-/*スライド設定*/
-
 .slide-p2.swiper5 .swiper-slide {
-    height: 320px;
+    //height: 540px;
+
+    height: auto;
 }
 
 .slide-p2.swiper5 .prev2 {
@@ -1244,7 +1267,7 @@ table td .sm {
 
 @media (max-width: 767px) {
     .slide-p2.swiper5 .swiper-slide {
-        height: auto;
+        height: 390px;
     }
 
     .slide-p2.swiper5 .prev2 {
@@ -1266,6 +1289,21 @@ table td .sm {
             position: relative;
             width: 70%;
             margin: auto;
+
+            .qas {
+                .qa-txt {
+                    height: auto;
+                }
+
+                .qa-tit {
+                    height: 90px;
+                }
+
+                .qa-answer {
+                    height: 240px;
+                    -webkit-line-clamp: 11;
+                }
+            }
         }
     }
 }
@@ -1308,8 +1346,9 @@ table td .sm {
                         display: block;
                         width: 450px;
 
-                        span {
+                        span.year {
                             margin-right: 1em;
+                            width: 22%;
                         }
                     }
                 }
@@ -1350,20 +1389,44 @@ table td .sm {
                     dl {
                         justify-content: flex-start;
                         margin-bottom: 30px;
+                        font-size: 3.0vw;
 
                         dt {
                             border-right: 1px solid #9d8440;
                             padding-right: 20px;
-                            width: 30px;
+                            width: 50px;
+                            white-space: nowrap;
+                            box-sizing: border-box;
+                        }
+
+                        div {
+                            width: 85%;
                         }
 
                         dd {
                             padding-left: 20px;
-                            display: block;
-                            width: 260px;
+                            box-sizing: border-box;
+                            margin-right: 0;
+                            display: flex;
+
+                            //width: 260px;
+                            width: 100%;
 
                             span {
                                 margin-right: 1em;
+                            }
+
+                            span {
+                                box-sizing: border-box;
+                            }
+
+                            .text {
+                                margin-right: 0;
+                                width: 80%;
+                            }
+
+                            span.year {
+                                width: 20%;
                             }
                         }
                     }
@@ -1819,8 +1882,12 @@ table td .sm {
             .box {
                 width: 67%;
 
+                @media (min-width: 768px) {
+                    padding-top: 14%;
+                }
+
                 h2 {
-                    font-size: 2.2rem;
+                    font-size: 2.0rem;
                 }
 
                 p {
