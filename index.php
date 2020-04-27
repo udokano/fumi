@@ -96,19 +96,20 @@
     <div class="bottom inner-box flex">
       <ul class="menu-link flex">
         <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
-          <p class="cp tc ls1">オーダーメイド注入<br>
+          <p class="tc">オーダーメイド注入<br>
             <span class="gd">ORDER MADE</span></p>
           </a> </li>
         <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made_thread_lift" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02.jpg" alt="サムネイル">
-          <p class="cp tc ls1">スレッドリフト<br>
-            <span class="gd">THREAD LIFT</span></p>
+          <p class="od__thread__lift tc">オーダーメイド<br class="sp">スレッドリフト<br>
+         <span class="gd od__thread__lift_sub">THREAD LIFT</span></p>
+
           </a> </li>
       </ul>
       <div class="cv-wrap box-size">
-        <div class="top flex cp al-cent">
+        <div class="top flex al-cent">
           <div class="left sm">お電話による<br class="pc">
             お問い合わせ</div>
-          <div class="tel"><a href="tel:0663722323" class="cp">06-6372-2323</a></div>
+          <div class="tel"><a href="tel:0663722323" class="">06-6372-2323</a></div>
           <div class="time sm"> 平日 10:00～18:00<br>
             土 10:00～17:00</div>
         </div>
@@ -297,6 +298,35 @@
   <!-- banner-campaign END -->
   <?php else: ?>
   <?php endif; ?>
+
+<article class="media">
+  <div class="inner">
+  <ul class="media__list flex">
+      <li class="media__article">
+        <div class="media__thumb">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/top/article_thumb01.jpg" alt="サムネイル">
+        </div>
+        <h3 class="media__ttl">
+          仕事を楽しむためのwebマガジン"Bplus"掲載
+        </h3>
+        <a href="https://www.business-plus.net/interview/1911/k5216.html" class="media__link" target="_blank">詳しく見る</a>
+      </li>
+      <li class="media__article">
+        <div class="media__thumb">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/top/article_thumb02.jpg" alt="サムネイル">
+        </div>
+        <h3 class="media__ttl media__ttl--line01">
+          VOCE6月号掲載
+        </h3>
+        <a href="http://blog.livedoor.jp/dr_sakiyama/archives/1077336482.html" class="media__link" target="_blank">詳しく見る</a>
+      </li>
+    </ul>
+  </div>
+<!-- ./inner-box -->
+</article>
+<!-- ./media -->
+
+
   <section class="slides">
     <div class="inner flex">
       <div class="left-slide slide-area">

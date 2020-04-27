@@ -345,7 +345,7 @@
 }
 
 .top__menu__area {
-    background: url("../img/top/bg05.jpg") no-repeat 50% (50% / cover);
+    background: url("../img/top/bg05222.jpg") no-repeat 50% (50% / cover);
 
     .cv-wrap, .menu-link {
         height: 223px;
@@ -359,6 +359,7 @@
 
             li {
                 width: 48%;
+                height: 223px;
 
                 a {
                     img {
@@ -366,6 +367,17 @@
                         object-fit: cover;
                     }
                 }
+
+               /*  .od__thread__lift {
+                    font-size: .98rem;
+                    margin: .8rem 0 .5rem;
+                }
+
+                .od__thread__lift_sub {
+                    text-align: center;
+                    display: block;
+                    font-size: .88rem;
+                } */
             }
         }
     }
@@ -378,6 +390,7 @@
 
     .top {
         padding: 10px 0 20px;
+        color: #7f7f7f;
 
         //margin-bottom: 30px;
         justify-content: flex-start;
@@ -389,12 +402,25 @@
 
             //font-size: 2.2rem;
             font-size: 38px;
+
+            a {
+                color: #7f7f7f;
+            }
         }
 
         .time {}
 
         .sm {
             font-size: 0.7rem;
+
+            @media (min-width: 1000px) {
+                font-size: .9vw;
+            }
+
+            @media (min-width: 1580px) {
+                font-size: .98rem;
+            }
+
             letter-spacing: 0.00001em;
         }
     }
@@ -544,9 +570,11 @@
                 padding: 20px 0;
 
                 li {
+                    height: 150px;
+
                     a {
                         img {
-                            height: auto;
+                            height: 65px;
                         }
 
                         p {
@@ -556,6 +584,19 @@
                             span {
                                 font-size: .8rem;
                             }
+                        }
+
+                        .od__thread__lift {
+                            font-size: .98rem;
+                            margin: .8rem 0 .5rem;
+                            line-height: 1.08;
+                        }
+
+                        .od__thread__lift_sub {
+                            font-size: .7rem;
+                            line-height: 1.08;
+                            margin-top: .4rem;
+                            display: block;
                         }
                     }
                 }

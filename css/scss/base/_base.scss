@@ -434,8 +434,10 @@ body.page {
 
 .menu-link {
     li {
+        background-color: $bg-w;
+        border: 1px solid #abe2db;
+
         a {
-            background-color: $bg-w;
             display: block;
             padding: 22px;
 
@@ -444,11 +446,15 @@ body.page {
             }
 
             p {
-                font-size: 1.2rem;
+                font-size: 1.04rem;
+                color: #7f7f7f;
+                font-weight: bold;
+            }
 
-                span {
-                    font-size: .9rem;
-                }
+            span {
+                font-size: .9rem;
+                color: #abe2db;
+                letter-spacing: 0.000001em;
             }
         }
     }
@@ -462,7 +468,7 @@ body.page {
     line-height: 1.0;
 
     a {
-        background: url("../img/common/icon_free.svg") no-repeat 2% 50% / 36px;
+        background: url("../img/common/icon_free25.svg") no-repeat 2% 50% / 36px;
         padding-left: 48px;
     }
 }
@@ -548,7 +554,7 @@ body.page {
     .inner-box {
         width: 93%;
         max-width: 1400px;
-        min-width: 1000px;
+        min-width: 1200px;
 
         @include box-center;
     }
