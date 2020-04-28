@@ -1193,7 +1193,8 @@
         width: 28%;
         display: flex;
         flex-flow: column;
-        justify-content: space-between;
+
+        /* justify-content: space-between; */
 
         @media (max-width: 767px) {
             width: 48.8%;
@@ -1224,6 +1225,15 @@
             line-height: 1.14;
             margin: 1.95rem 0;
             font-size: 1.08rem;
+        }
+
+        &--line01 {
+            margin: 1.9rem 0;
+            font-size: 1.21rem;
+
+            @media (max-width: 767px) {
+                margin: 2.01rem 0;
+            }
         }
     }
 

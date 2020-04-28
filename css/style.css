@@ -3113,9 +3113,7 @@ footer.pages.list-footer .copy {
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  /* justify-content: space-between; */
 }
 @media (max-width: 767px) {
   .media__article {
@@ -3147,6 +3145,15 @@ footer.pages.list-footer .copy {
     line-height: 1.14;
     margin: 1.95rem 0;
     font-size: 1.08rem;
+  }
+}
+.media__ttl--line01 {
+  margin: 1.9rem 0;
+  font-size: 1.21rem;
+}
+@media (max-width: 767px) {
+  .media__ttl--line01 {
+    margin: 2.01rem 0;
   }
 }
 .media__link {

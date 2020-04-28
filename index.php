@@ -318,7 +318,7 @@
         <h3 class="media__ttl media__ttl--line01">
           VOCE6月号掲載
         </h3>
-        <a href="http://blog.livedoor.jp/dr_sakiyama/archives/1077336482.html" class="media__link" target="_blank">詳しく見る</a>
+        <!-- <a href="http://blog.livedoor.jp/dr_sakiyama/archives/1077336482.html" class="media__link" target="_blank">詳しく見る</a> -->
       </li>
     </ul>
   </div>
