@@ -230,7 +230,7 @@ footer.pages {
                 margin-bottom: 13px;
 
                 span {
-                    background-color: $cg;
+                    background-color: #c9be86;
                     padding: 2px;
                     margin-left: 8px;
                 }
@@ -238,6 +238,10 @@ footer.pages {
 
             .tel {
                 display: block;
+                font-weight: 600;
+                color: #777;
+                padding-left: 50px;
+                background: url(../img/common/icon_free25.svg) no-repeat 0% 50% / 40px auto;
             }
         }
     }
@@ -263,7 +267,7 @@ footer.pages {
                 text-align: center;
 
                 .tel {
-                    display: block;
+                    display: inline-block;
                 }
             }
         }

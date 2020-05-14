@@ -278,7 +278,7 @@ section {
 
 /*HEADER  CV-BTNS*/
 
-.top-cv-btn {
+/* .top-cv-btn {
     font-size: 0;
 
     .cv-btns {
@@ -316,9 +316,9 @@ section {
             font-size: .7rem;
         }
     }
-}
+} */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .top-cv-btn {
         font-size: 0;
 
@@ -365,7 +365,7 @@ section {
         }
     }
 }
-
+ */
 /*下層ページ基本カラー*/
 
 body.page {
@@ -619,6 +619,10 @@ body.page {
     letter-spacing: 2px;
 }
 
+.f-meiryo {
+    font-family: 'メイリオ', Meiryo,'Meiryo UI','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+}
+
 .f-bold {
     font-weight: 600;
 }
@@ -665,6 +669,10 @@ body.page {
     color: $gray !important;
 }
 
+.c_gray02 {
+    color: #666 !important;
+}
+
 .c_gray_line {
     &::after {
         border-color: $gray !important;
@@ -677,6 +685,10 @@ body.page {
 
 .c_gray_impo {
     color: $gray !important;
+}
+
+.c__l_green {
+    color: #abe2db;
 }
 
 .cp {
@@ -777,6 +789,16 @@ body.page {
 .db {
     display: block !important;
     width: 100% !important;
+}
+
+.native__mt {
+    margin-top: -160px;
+    padding-top: 160px;
+
+    @media (max-width: 767px) {
+        margin-top: -136px;
+        padding-top: 136px;
+    }
 }
 
 /*swiper*/

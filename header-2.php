@@ -27,11 +27,20 @@
     <div class="header-inner flex al-cent">
       <div class="logo tc"><a href="<?php echo home_url('/'); ?>">
           <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo_re.png" alt="FMUI BEAUTY CLINIC"></a></div>
-         <div class="top-cv-btn">
-          <a class="bg-rs cv-btns" href="https://fumibeauty.reserve.ne.jp/" target="_blank"><span>来院予約</span></a>
-          <a class="bg-ct cv-btns" href="<?php echo home_url('/'); ?>contact-list"><span>お問合わせ</span></a>
-           <a class="bg-line cv-btns" href="https://line.me/R/ti/p/%40304ngjfp" target="_blank"><span>LINEで<br>
-        簡単予約</span></a>
+          <div class="top-cv-btn">
+              <a class="bg-rs cv-btns" href="https://fumibeauty.reserve.ne.jp/" target="_blank">
+                  <i class="cv-btns__icon  cv-btns__icon--online"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_online.png" alt="オンライン予約"></i>
+                  <span class="cv-btns__text">オンライン<br class="sp">予約</span>
+              </a>
+              <a class="bg-ct cv-btns" href="<?php echo home_url('/'); ?>contact">
+                  <i class="cv-btns__icon cv-btns__icon--mail"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_mail03.png" alt="お問合わせ"></i>
+                  <span class="cv-btns__text">お問合わせ</span>
+              </a>
+              <a class="bg-line cv-btns" href="https://line.me/R/ti/p/%40304ngjfp" target="_blank">
+                  <i class="cv-btns__icon cv-btns__icon--line"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_line03.png" alt="LINEで簡単予約"></i>
+                  <span class="cv-btns__text">LINEで<br>簡単予約</span>
+              </a>
         </div>
+    <!-- ./top-cv-btn -->
     </div>
   </header>

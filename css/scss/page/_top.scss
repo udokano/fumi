@@ -306,6 +306,10 @@
                     margin-bottom: 10px;
                 }
 
+                .sm {
+                    font-size: .88rem;
+                }
+
                 p {
                     margin: 30px 0 40px;
                 }
@@ -449,6 +453,11 @@
 
                     p {
                         margin: 30px 0 40px;
+                    }
+
+                    span {
+                        font-size: .78rem;
+                        font-weight: 600;
                     }
 
                     .btn {
@@ -604,33 +613,29 @@
 }
 
 .doctor {
-    height: 540px;
+    height: 520px;
 
     .inner {
-        background: url("../img/top/doctor_thumb.png") no-repeat 11% 100% / 330px auto;
+        background: url("../img/top/doctor_thumb.png") no-repeat 11% 100% / 320px auto;
         position: relative;
         height: 100%;
 
         .text {
             float: right;
             width: 56.4%;
-            padding-right: 5%;
-            padding-top: 88px;
+            padding-right: 3.9%;
+            padding-top: 140px;
 
-            h2 {
-                margin-bottom: 15px;
-            }
-
-            .band {
-                border: 1px solid $cp;
-                padding: 5px 8px;
-                width: 220px;
-                margin: 0 auto 40px;
+            .aging {
+                @media (min-width: 768px) {
+                    width: 480px;
+                    margin: 0 auto 32px;
+                }
             }
 
             .cach {
-                font-size: 1.9rem;
-                margin-bottom: 40px;
+                font-size: 30px;
+                margin-bottom: 44px;
             }
 
             .btn-wrap {
@@ -639,25 +644,28 @@
                 .btn {
                     margin: 0px 13px 0;
                     display: inline-block;
-                    width: 240px;
-                    height: 68px;
-                    line-height: 68px;
+                    width: 242px;
+                    height: 70px;
+                    line-height: 70px;
+                    font-size: 20px;
+                    font-family: $min;
                 }
             }
         }
 
         .doctor-name {
             position: absolute;
-            bottom: 60px;
-            left: 160px;
-            font-size: 1.6rem;
-            line-height: .78;
-            background: url("../img/top/bg_doctor_name.png") no-repeat 50% 50% / 390px;
-            padding: 20%;
-            margin: -20%;
+            bottom: 33px;
+            left: 150px;
+            font-size: 26px;
+            line-height: .65;
+
+            /*   background: url("../img/top/bg_doctor_name.png") no-repeat 50% 50% / 390px;
+              padding: 20%;
+              margin: -20%; */
 
             .sm {
-                font-size: .9rem;
+                font-size: 14px;
             }
         }
     }
@@ -666,7 +674,7 @@
 @media (max-width: 767px) {
     .doctor {
         padding: 0;
-        height: 740px;
+        height: auto;
 
         .inner {
             background-position: 50% 100%;
@@ -679,31 +687,31 @@
                 width: 90%;
                 margin: auto;
                 padding-left: 0;
-                padding-top: 45px;
+                padding-right: 0;
+                padding-top: 65px;
+                padding-bottom: 370px;
                 position: static;
+                float: none;
 
-                h2 {
-                    margin-bottom: 15px;
-                }
-
-                .band {
-                    border: 1px solid $cp;
-                    padding: 5px 8px;
-                    width: 180px;
-                    margin: 0 auto 40px;
+                .aging {
+                    margin-bottom: 35px;
                 }
 
                 .cach {
-                    font-size: 2.1rem;
-                    margin-bottom: 38px;
+                    font-size: 4.8vw;
+                    margin-bottom: 45px;
                 }
 
                 .btn-wrap {
+                    display: flex;
+                    justify-content: space-between;
+
                     .btn {
-                        margin: 0px 8px 0;
-                        width: 127px;
-                        height: 50px;
-                        line-height: 50px;
+                        margin: 0;
+                        width: 47.5%;
+                        height: 57px;
+                        font-size: 14px;
+                        line-height: 57px;
                     }
                 }
             }
@@ -716,7 +724,7 @@
 
                 @include trx;
 
-                bottom: 50px;
+                bottom: 28px;
                 font-size: 1.8rem;
                 line-height: .78;
                 background: url("../img/top/bg_doctor_name.png") no-repeat 50% 50% / 180px;
@@ -1222,9 +1230,9 @@
         margin: 1.2rem 0;
 
         @media (max-width: 767px) {
-            line-height: 1.14;
-            margin: 1.95rem 0;
-            font-size: 1.08rem;
+            line-height: 1.38;
+            margin: 1.2rem 0;
+            font-size: 3.2vw;
         }
 
         &--line01 {
@@ -1232,7 +1240,7 @@
             font-size: 1.21rem;
 
             @media (max-width: 767px) {
-                margin: 2.01rem 0;
+                margin: 1.7rem 0;
             }
         }
     }
@@ -1250,9 +1258,9 @@
         transition: ease-in .2s;
 
         @media (max-width: 767px) {
-            width: 98%;
-            height: 41px;
-            line-height: 41px;
+            width: 80%;
+            height: 37px;
+            line-height: 37px;
         }
 
         &:hover {

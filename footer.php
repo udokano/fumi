@@ -6,7 +6,7 @@
 
         <div class="left">
             <p class="gosic logo-info">ふみビューティークリニック梅田<span class="cw">美容皮膚科・形成外科・皮膚科</span></p>
-            <a href="tel:0663722323" class="tel gd mb20">06-6372-2323</a>
+            <a href="tel:0663722323" class="tel mb20">06-6372-2323</a>
             <p class="gosic mb20">受付時間 平日 10:00~18:00 土 10:00~17:00<br>
                 定休日 木・日・祝</p>
             <p class="gosic">〒530-0012　大阪市北区芝田2丁目8-33 芝田ビル3F</p>
