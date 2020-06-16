@@ -5,6 +5,7 @@ $('.js-link').on('click', function (e) {
   e.stopPropagation();
   e.preventDefault();
   location.href = $(this).attr('data-url');
+  //window.open($(this).attr('data-url'), '_blank');
 })
 
 

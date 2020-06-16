@@ -26,31 +26,44 @@
 <div class="wrapper">
   <header class="site-header front">
     <div class="header-inner flex al-cent">
-      <div class="logo tc"><a href="<?php echo home_url('/'); ?>"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo_re.png?02085" alt="FMUI BEAUTY CLINIC"></a></div>
-      <nav class="navi pc-dis">
-        <ul>
-          <li><a href="<?php echo home_url('/'); ?>concept">当院について</a></li>
-          <li class="navi-parent"><a>施術・料金</a>
-            <ul class="nav-child bg__sub__menu">
-                 <li><a href="<?php echo home_url('/'); ?>tarumi" class="c_gray">たるみ治療</a></li>
-              <li><a href="<?php echo home_url('/'); ?>siwa" class="c_gray">しわ治療</a></li>
-              <li><a href="<?php echo home_url('/'); ?>medikaru" class="c_gray">美肌治療</a></li>
-              <li><a href="<?php echo home_url('/'); ?>kogao" class="c_gray">小顔治療</a></li>
-              <li><a href="<?php echo home_url('/'); ?>nose-lift" class="c_gray">鼻の糸</a></li>
-              <li><a href="<?php echo home_url('/'); ?>keiseigeka" class="c_gray">形成外科治療</a></li>
+          <div class="logo tc"><a href="<?php echo home_url('/'); ?>"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo_re.png?02085" alt="FMUI BEAUTY CLINIC"></a></div>
+          <nav class="navi pc-dis">
+            <ul>
+              <li><a href="<?php echo home_url('/'); ?>concept">当院について</a></li>
+              <li class="navi-parent"><a>施術・料金</a>
+                <ul class="nav-child bg__sub__menu">
+                    <li><a href="<?php echo home_url('/'); ?>tarumi" class="c_gray">たるみ治療</a></li>
+                  <li><a href="<?php echo home_url('/'); ?>siwa" class="c_gray">しわ治療</a></li>
+                  <li><a href="<?php echo home_url('/'); ?>medikaru" class="c_gray">美肌治療</a></li>
+                  <li><a href="<?php echo home_url('/'); ?>kogao" class="c_gray">小顔治療</a></li>
+                  <li><a href="<?php echo home_url('/'); ?>nose-lift" class="c_gray">鼻の糸</a></li>
+                  <li><a href="<?php echo home_url('/'); ?>keiseigeka" class="c_gray">形成外科治療</a></li>
 
-              <li><a href="<?php echo home_url('/'); ?>cosmetics" class="c_gray">ドクターズコスメ</a></li>
-              <li><a href="<?php echo home_url('/'); ?>shoshin" class="c_gray">初診料・再診料</a></li>
+                  <li><a href="<?php echo home_url('/'); ?>cosmetics" class="c_gray">ドクターズコスメ</a></li>
+                  <li><a href="<?php echo home_url('/'); ?>shoshin" class="c_gray">初診料・再診料</a></li>
+                </ul>
+              </li>
+              <li><a href="<?php echo home_url('/'); ?>access">アクセス</a></li>
+              <li><a href="<?php echo home_url('/'); ?>doctor">ドクター紹介</a></li>
+              <li><a href="<?php echo home_url('/');?>case-list">症例写真</a></li>
+              <li><a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank">院長ブログ</a></li>
             </ul>
-          </li>
-          <li><a href="<?php echo home_url('/'); ?>access">アクセス</a></li>
-          <li><a href="<?php echo home_url('/'); ?>doctor">ドクター紹介</a></li>
-          <li><a href="<?php echo home_url('/');?>case-list">症例写真</a></li>
-          <li><a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank">院長ブログ</a></li>
-        </ul>
-      </nav>
-      <div class="top-cv-btn"> <a class="bg-rs cv-btns" href="https://fumibeauty.reserve.ne.jp/" target="_blank"><span>来院予約</span></a> <a class="bg-ct cv-btns" href="<?php echo home_url('/'); ?>contact"><span>お問合わせ</span></a> <a class="bg-line cv-btns" href="https://line.me/R/ti/p/%40304ngjfp" target="_blank"><span>LINEで<br>
-        簡単予約</span></a> </div>
+          </nav>
+          <div class="top-cv-btn">
+              <a class="bg-rs cv-btns" href="https://fumibeauty.reserve.ne.jp/" target="_blank">
+                  <i class="cv-btns__icon  cv-btns__icon--online"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_online.png" alt="オンライン予約"></i>
+                  <span class="cv-btns__text">オンライン<br class="sp">予約</span>
+              </a>
+              <a class="bg-ct cv-btns" href="<?php echo home_url('/'); ?>contact">
+                  <i class="cv-btns__icon cv-btns__icon--mail"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_mail03.png" alt="お問合わせ"></i>
+                  <span class="cv-btns__text">お問合わせ</span>
+              </a>
+              <a class="bg-line cv-btns" href="https://line.me/R/ti/p/%40304ngjfp" target="_blank">
+                  <i class="cv-btns__icon cv-btns__icon--line"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_line03.png" alt="LINEで簡単予約"></i>
+                  <span class="cv-btns__text">LINEで<br>簡単予約</span>
+              </a>
+        </div>
+        <!-- ./top-cv-btn -->
     </div>
   </header>
   <div class="fv" id="fv-slide">
@@ -97,7 +110,7 @@
       <ul class="menu-link flex">
         <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
           <p class="tc">オーダーメイド注入<br>
-            <span class="gd">ORDER MADE</span></p>
+            <span class="gd">INJECTION</span></p>
           </a> </li>
         <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made_thread_lift" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02.jpg" alt="サムネイル">
           <p class="od__thread__lift tc">オーダーメイド<br class="sp">スレッドリフト<br>
@@ -123,13 +136,12 @@
   </div>
   <!--top__menu__area END-->
 
-  <section class="doctor mb0 area-bgs" id="bg4">
+  <section class="doctor box-size mb0 area-bgs" id="bg4">
     <div class="inner cf">
       <div class="text">
-        <h2 class="cp tc c_gray">CONCEPT <span class="sm">ご挨拶</span></h2>
-        <div class="band cp tc ls2">beautiful aging</div>
-        <p class="cach gd c_gray tc f-ryu">美しく年齢を重ね<br>
-          輝き続けるために</p>
+
+        <h2 class="aging tc"><img src="<?php echo get_template_directory_uri(); ?>/img/top/beautiful_aging.png?0513" alt="beautiful_aging"></h2>
+        <p class="cach gd c_gray tc f-ryu">美しく年齢を重ね輝き続けるために</p>
         <div class="btn-wrap"> <a href="<?php echo home_url('/'); ?>doctor" class="btn fw600 bg__n_rs c_gray gosic">院長紹介</a> <a href="<?php echo home_url('/'); ?>concept" class="btn fw600 bg__n_ct gosic c_gray">当院について</a> </div>
       </div>
       <p class="doctor-name cp c_gray tc"><span class="sm">ふみビューティークリニック梅田院長</span><br>
@@ -173,13 +185,13 @@
     <div class="inner-box">
       <div class="top flex">
         <div class="text text__left tc cp c_gray box-size">
-          <div class="tit__box"><h3>注入治療</h3><span class="sm c_gray gd">Infusion therapy</span></div>
+          <div class="tit__box"><h3>注入治療</h3><span class="sm c__l_green">Cosmetic injections</span></div>
           <p class="gosic tc">ヒアルロン酸やボトックスを「どこに」「どのくらい」<br class="pc">注入するかで、大きく効果が違ってきますが、<br class="pc">当院ではお顔全体のバランスをみて<br class="pc">自然な若返りができるようご提案しております。</p>
           <a href="<?php echo home_url('/'); ?>pr1" class="btn fw600 bg__n_rs c_gray" target="_blank">当院のヒアルロン酸注入</a>
         </div>
 
          <div class="text text__right tc cp c_gray box-size">
-           <div class="tit__box"><h3>製剤一覧</h3><span class="sm gd c_gray">FORMULATION</span></div>
+           <div class="tit__box"><h3>製剤一覧</h3><span class="sm c__l_green">Available products</span></div>
           <p class="gosic tc">当院では、日本の厚生労働省の認可の製剤を中心に、<br class="pc">優良な品質の製剤のみを使用しております。<br class="pc">注入部位やお客様の肌の状態に合わせて使用する<br class="pc">製剤の種類を使い分けています。
 </p>
 
@@ -307,7 +319,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/img/top/article_thumb01.jpg" alt="サムネイル">
         </div>
         <h3 class="media__ttl">
-          仕事を楽しむためのwebマガジン"Bplus"掲載
+          仕事を楽しむためのwebマガジン<br class="pc">"Bplus"掲載
         </h3>
         <a href="https://www.business-plus.net/interview/1911/k5216.html" class="media__link" target="_blank">詳しく見る</a>
       </li>
@@ -318,7 +330,7 @@
         <h3 class="media__ttl media__ttl--line01">
           VOCE6月号掲載
         </h3>
-        <a href="http://blog.livedoor.jp/dr_sakiyama/archives/1077336482.html" class="media__link" target="_blank">詳しく見る</a>
+        <!-- <a href="http://blog.livedoor.jp/dr_sakiyama/archives/1077336482.html" class="media__link" target="_blank">詳しく見る</a> -->
       </li>
     </ul>
   </div>

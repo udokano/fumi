@@ -55,7 +55,7 @@
       <li class="quality__list__item quality__list__top__item">
         <div class="quality__list__sq">
           <span class="quality__list__sq__tit">
-            高いリフトアップ<br class="sp">効果と<br class="pc">持続性
+            高いリフトアップ<br>効果と持続性
           </span>
         </div><!--  ./quality__list__sq -->
         <p class="quality__list__text">
@@ -74,7 +74,7 @@
       <li class="quality__list__item quality__list__top__item">
         <div class="quality__list__sq">
           <span class="quality__list__sq__tit">
-           ダウンタイムが少ない
+           ダウンタイムが<br>少ない
           </span>
         </div><!--  ./quality__list__sq -->
         <p class="quality__list__text">
@@ -96,7 +96,7 @@
        <li class="quality__list__item quality__list__bottom__item">
         <div class="quality__list__sq">
           <span class="quality__list__sq__tit">
-           直後から効果を実感
+           直後から<br class="sp">効果を実感
           </span>
         </div><!--  ./quality__list__sq -->
         <p class="quality__list__text">
@@ -177,24 +177,31 @@
 <div class="lift_desc__box bg__deep flex">
   <div class="lift_desc__box__left">
     <div class="lift_desc__box__left__text">
-      通常6本〜12本程度を使用して施術を行います。
+      6本〜12本程度を使用
     </div>
     <!-- ./lift_desc__box__left__text -->
-    <p class="lift_desc__box__cach">主な効果</p>
+   <!--  <p class="lift_desc__box__cach">主な効果</p> -->
     <ul class="lift_desc__point flex">
-        <li class="lift_desc__point__img">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/deep_lift_point01.png" alt="1~2年持続効果">
+        <li class="lift_desc__point__out bg__deep__cach">
+          <div class="lift_desc__point__inner">
+            <p class="lift_desc__point__text cw">1~2年<br>持続効果</p>
+          </div>
         </li>
-        <!-- ./lift_desc__point__img -->
-        <li class="lift_desc__point__img">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/deep_lift_point02.png" alt="高いリフトアップ効果">
+        <!-- ./lift_desc__point__out -->
+        <li class="lift_desc__point__out bg__deep__cach">
+           <div class="lift_desc__point__inner">
+             <p class="lift_desc__point__text cw">高い<br>リフトアップ<br>効果</p>
+           </div>
         </li>
-        <!-- ./lift_desc__point__img -->
-        <li class="lift_desc__point__img">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/deep_lift_point03.png" alt="コラーゲン増生による美肌">
+        <!-- ./lift_desc__point__out -->
+        <li class="lift_desc__point__out bg__deep__cach">
+           <div class="lift_desc__point__inner">
+             <p class="lift_desc__point__text cw">コラーゲン<br>増生による<br>美肌</p>
+          </div>
         </li>
-        <!-- ./lift_desc__point__img -->
+        <!-- ./lift_desc__point__out -->
     </ul>
+
   </div>
   <!-- ./lift_desc__box -->
   <div class="lift_desc__box__center">
@@ -204,11 +211,11 @@
 <!-- ./lift_desc__box__center__thumb -->
   </div>
   <div class="lift_desc__box__right">
+    <p class="lift_desc__box__cach lift_desc__box__cach--right">糸の働き</p>
     <div class="lift_desc__box__right__ilust">
       <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/deep_lift_illust.png" alt="イラスト">
     </div>
     <!-- ./lift_desc__box__right__ilust -->
-  <p class="lift_desc__box__cach lift_desc__box__cach--right">糸の働き</p>
   <ul class="lift_desc__box__list">
     <li class="lift_desc__box__list__item">・糸の力で引き上げ効果が期待できます。</li>
      <li class="lift_desc__box__list__item">・糸の周囲にコラーゲンが生成され保持力が持続します。</li>
@@ -224,10 +231,10 @@
 
 <section class="lift_ope">
     <div class="inner">
-          <h2 class="lift_ope__tit bg__deep" id="lift_type01">シルエットソフト(3Dリフト)</h2>
+          <h2 class="lift_ope__tit border__deep" id="lift_type01">シルエットソフト(3Dリフト)</h2>
           <div class="lift_ope__box flex">
             <div class="lift_ope__box__left">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/deep_lift_item_thumb01.png" alt="イラスト">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/deep_lift_item_thumb01.png?0513" alt="イラスト">
             </div>
             <!-- ./lift_ope__box__left -->
             <div class="lift_ope__box__right">
@@ -238,59 +245,63 @@
                   <li class="lift_ope__box__right__item">・こけずにふっくら自然なリフトアップが希望の方</li>
                   <li class="lift_ope__box__right__item">・お顔全体をナチュラルに引き上げたい方</li>
                 </ol>
-                <div class="case__btn__wrap case__btn__wrap__lift">
-                  <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1262108.html" target="_blank" class="case__btn">症例写真はこちら</a>
+                <div class="case__btn__wrap case__btn__col2 case__btn__wrap__lift">
+                  <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1262108.html" target="_blank" class="case__btn btn__left">症例写真はこちら</a>
+                     <a href="<?php echo home_url( '/' ); ?>kogao#silhouette_lift__price" class="case__btn">料金はこちら</a>
                </div>
             </div>
 
           </div>
           <!-- ./lift_ope__box -->
-           <h2 class="lift_ope__tit bg__deep" id="lift_type02">Gコグリフト</h2>
+           <h2 class="lift_ope__tit border__deep" id="lift_type02">Gコグリフト</h2>
           <div class="lift_ope__box flex">
             <div class="lift_ope__box__left">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/deep_lift_item_thumb02.png" alt="イラスト">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/deep_lift_item_thumb02.png?0513" alt="イラスト">
             </div>
             <!-- ./lift_ope__box__left -->
             <div class="lift_ope__box__right">
                 <p class="lift_ope__box__right__text">
                鉄条網型の特殊なプレスコグ形状の糸です。<br class="pc">刺上の糸と異なり組織と接する面積が広いため組織をしっかりと固定し保持することが可能でリフティング力のとても強い糸です。<br class="pc">またPCL素材のため柔軟性があり、強いリフティング力を持ちながらも違和感なく自然な仕上がりを可能にしています。<br class="pc">約2年で吸収されます。</p>
-                <ol class="lift_ope__box__right__list lift_ope__box__right__list--ib02">
+                <ol class="lift_ope__box__right__list lift_ope__box__right__list--ib02 lift_ope__box__right__list--ib03">
                   <li class="lift_ope__box__right__item">・フェイスラインを上方向にしっかりと引き上げたい方</li>
                   <li class="lift_ope__box__right__item">・お顔全体、上方向への引き上げがしっかりと欲しい方</li>
                 </ol>
-                <div class="case__btn__wrap case__btn__wrap__lift">
-                  <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1253021.html" target="_blank" class="case__btn">症例写真はこちら</a>
+                <div class="case__btn__wrap case__btn__col2 case__btn__wrap__lift">
+                  <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1253021.html" target="_blank" class="case__btn btn__left">症例写真はこちら</a>
+                   <a href="<?php echo home_url( '/' ); ?>kogao#gcog_lift__price"  class="case__btn">料金はこちら</a>
                </div>
             </div>
 
           </div>
           <!-- ./lift_ope__box -->
-           <h2 class="lift_ope__tit bg__deep" id="lift_type03">VOVリフトプレミアム</h2>
+           <h2 class="lift_ope__tit border__deep" id="lift_type03">VOVリフトプレミアム</h2>
           <div class="lift_ope__box flex">
             <div class="lift_ope__box__left">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/deep_lift_item_thumb03.png" alt="イラスト">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/deep_lift_item_thumb03.png?0513" alt="イラスト">
             </div>
             <!-- ./lift_ope__box__left -->
             <div class="lift_ope__box__right">
                 <p class="lift_ope__box__right__text">
                プレスコグ形状のモルディング加工の糸です。<br class="pc">コグ先端部に丸みを持たせてあるのが特徴で、このことによって挿入時の痛みや引き上げ時の痛みを最大限出にくくしています。<br class="pc">10㎝のロングタイプ糸と、6㎝のショートタイプ糸があり、挿入部位によって使い分けたり、併用いたします。<br class="pc">素材はPCLで2年ほどかけて吸収されます。</p>
-                <ol class="lift_ope__box__right__list lift_ope__box__right__list--ib02">
+                <ol class="lift_ope__box__right__list lift_ope__box__right__list--ib04">
                   <li class="lift_ope__box__right__item">・ほうれい線をこめかみ方向に引き上げたい方</li>
                   <li class="lift_ope__box__right__item">・マリオネット部分をこめかみ方向に引き上げたい方</li>
                   <li class="lift_ope__box__right__item">・目元や額のたるみが気になる方</li>
+                    <li class="lift_ope__box__right__item">・あご裏や首、フェイスラインを引き締めたい方</li>
                 </ol>
-                <div class="case__btn__wrap case__btn__wrap__lift">
-                  <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1253022.html" target="_blank" class="case__btn">症例写真はこちら</a>
+                <div class="case__btn__wrap case__btn__col2 case__btn__wrap__lift">
+                  <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1253022.html" target="_blank" class="case__btn btn__left">症例写真はこちら</a>
+                  <a href="<?php echo home_url( '/' ); ?>kogao#vov_lift__price"  class="case__btn">料金はこちら</a>
                </div>
             </div>
 
           </div>
           <!-- ./lift_ope__box -->
 
-             <h2 class="lift_ope__tit bg__deep" id="lift_type04">セルフロック</h2>
+             <h2 class="lift_ope__tit border__deep" id="lift_type04">セルフロック</h2>
           <div class="lift_ope__box flex">
             <div class="lift_ope__box__left">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/deep_lift_item_thumb04.png" alt="イラスト">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/deep_lift_item_thumb04.png?0513" alt="イラスト">
             </div>
             <!-- ./lift_ope__box__left -->
             <div class="lift_ope__box__right">
@@ -300,8 +311,9 @@
                   <li class="lift_ope__box__right__item">・ほうれい線をこめかみ方向に引き上げたい方</li>
                   <li class="lift_ope__box__right__item">・マリオネット部分をこめかみ方向に引き上げたい方</li>
                 </ol>
-                <div class="case__btn__wrap case__btn__wrap__lift">
-                  <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1137469.html" target="_blank" class="case__btn">症例写真はこちら</a>
+                <div class="case__btn__wrap case__btn__col2 case__btn__wrap__lift">
+                  <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1137469.html" target="_blank" class="case__btn btn__left">症例写真はこちら</a>
+                  <a href="<?php echo home_url( '/' ); ?>kogao#selfu_rock__price" " class="case__btn">料金はこちら</a>
                </div>
             </div>
 
@@ -317,23 +329,29 @@
 <div class="lift_desc__box bg__shallow flex">
   <div class="lift_desc__box__left">
     <div class="lift_desc__box__left__text lift_desc__box__left__text--shallow__border">
-      通常50本程度を使用して施術を行います。
+      通常50本程度を使用
     </div>
     <!-- ./lift_desc__box__left__text -->
-    <p class="lift_desc__box__cach bg__shallow__cach">主な効果</p>
+   <!--  <p class="lift_desc__box__cach bg__shallow__cach">主な効果</p> -->
     <ul class="lift_desc__point flex">
-        <li class="lift_desc__point__img">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/shallow_lift_point01.png" alt="1~2年持続効果">
+        <li class="lift_desc__point__out bg__shallow__cach">
+          <div class="lift_desc__point__inner">
+            <p class="lift_desc__point__text c_gray02">肌の引き締め</p>
+          </div>
         </li>
-        <!-- ./lift_desc__point__img -->
-        <li class="lift_desc__point__img">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/shallow_lift_point02.png" alt="高いリフトアップ効果">
+        <!-- ./lift_desc__point__out -->
+        <li class="lift_desc__point__out bg__shallow__cach">
+           <div class="lift_desc__point__inner">
+             <p class="lift_desc__point__text c_gray02">小じわの<br>軽減</p>
+           </div>
         </li>
-        <!-- ./lift_desc__point__img -->
-        <li class="lift_desc__point__img">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/shallow_lift_point03.png" alt="コラーゲン増生による美肌">
+        <!-- ./lift_desc__point__out -->
+        <li class="lift_desc__point__out bg__shallow__cach">
+           <div class="lift_desc__point__inner">
+             <p class="lift_desc__point__text c_gray02">コラーゲン<br>増生による<br>美肌</p>
+          </div>
         </li>
-        <!-- ./lift_desc__point__img -->
+        <!-- ./lift_desc__point__out -->
     </ul>
   </div>
   <!-- ./lift_desc__box -->
@@ -344,11 +362,12 @@
 <!-- ./lift_desc__box__center__thumb -->
   </div>
   <div class="lift_desc__box__right">
+  <p class="lift_desc__box__cach lift_desc__box__cach--right bg__shallow__cach c_gray02">糸の働き</p>
     <div class="lift_desc__box__right__ilust">
       <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/shallow_lift_illust.png" alt="イラスト">
     </div>
     <!-- ./lift_desc__box__right__ilust -->
-  <p class="lift_desc__box__cach lift_desc__box__cach--right bg__shallow__cach">糸の働き</p>
+
   <ul class="lift_desc__box__list">
     <li class="lift_desc__box__list__item">・皮膚表面の浅い部分に施術を施すためハリと引き締め、美肌効果が期待できます。</li>
      <li class="lift_desc__box__list__item">・麻酔クリームのみで施術が可能です。</li>
@@ -363,10 +382,10 @@
 
 <section class="lift_ope mb0">
     <div class="inner">
-          <h2 class="lift_ope__tit bg__shallow" id="lift_type05">ショッピングリフト（ビューティーエナジー）</h2>
+          <h2 class="lift_ope__tit shallow__border" id="lift_type05">ショッピングリフト（ビューティーエナジー）</h2>
           <div class="lift_ope__box flex">
             <div class="lift_ope__box__left lift_ope__box__left--shallow">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/shallow_lift_item_thumb01.png" alt="イラスト">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/shallow_lift_item_thumb01.png?0513" alt="イラスト">
             </div>
             <!-- ./lift_ope__box__left -->
             <div class="lift_ope__box__right lift_ope__box__right--shallow">
@@ -380,17 +399,18 @@
                   <li class="lift_ope__box__right__item">・ほうれい線の上のもたつきが気になる方</li>
                   <li class="lift_ope__box__right__item">・フェイスラインを引締めたい方</li>
                 </ol>
-                <div class="case__btn__wrap case__btn__wrap__lift">
-                  <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1271997.html" target="_blank" class="case__btn">症例写真はこちら</a>
+                <div class="case__btn__wrap case__btn__col2 case__btn__wrap__lift">
+                  <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1271997.html" target="_blank" class="case__btn btn__left">症例写真はこちら</a>
+                   <a href="<?php echo home_url( '/' ); ?>kogao#shopping_lift__price"  class="case__btn">料金はこちら</a>
                </div>
             </div>
 
           </div>
           <!-- ./lift_ope__box -->
-           <h2 class="lift_ope__tit bg__shallow" id="lift_type06">スレッドアイリフト(Gグロス)</h2>
+           <h2 class="lift_ope__tit shallow__border" id="lift_type06">スレッドアイリフト(Gグロス)</h2>
           <div class="lift_ope__box flex">
             <div class="lift_ope__box__left lift_ope__box__left--shallow">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/shallow_lift_item_thumb02.png" alt="イラスト">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/shallow_lift_item_thumb02.png?0513" alt="イラスト">
             </div>
             <!-- ./lift_ope__box__left -->
             <div class="lift_ope__box__right lift_ope__box__right--shallow">
@@ -402,8 +422,9 @@
                    <li class="lift_ope__box__right__item lift_ope__box__right__item--pl">・目元にハリを出したい方</li>
                   <li class="lift_ope__box__right__item lift_ope__box__right__item--pl">・目元をふっくら若々しくしたい方</li>
                 </ol>
-                <div class="case__btn__wrap case__btn__wrap__lift">
-                  <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1271997.html" target="_blank" class="case__btn">症例写真はこちら</a>
+                <div class="case__btn__wrap case__btn__col2 case__btn__wrap__lift">
+                  <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1271997.html" target="_blank" class="case__btn btn__left">症例写真はこちら</a>
+                   <a href="<?php echo home_url( '/' ); ?>kogao#thread_lift__price"  class="case__btn">料金はこちら</a>
                </div>
             </div>
 
@@ -423,12 +444,26 @@
 <div class="recommended_thumb">
 
 <ul class="recommended_thumb__list">
-  <li class="recommended_thumb__list__item"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/recommended_thumb01.png" alt="スレッドリフト×ヒアルロン酸" class="pc">
-<img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/recommended_thumb01_sp.png" alt="スレッドリフト×ヒアルロン酸" class="sp"></li>
-  <li class="recommended_thumb__list__item"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/recommended_thumb02.png" alt="スレッドリフト×ヒアルロン酸" class="pc">
-<img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/recommended_thumb02_sp.png" alt="スレッドリフト×ヒアルロン酸" class="sp"></li>
-  <li class="recommended_thumb__list__item"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/recommended_thumb03.png" alt="スレッドリフト×ヒアルロン酸" class="pc">
-<img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/recommended_thumb03_sp.png" alt="スレッドリフト×ヒアルロン酸" class="sp"></li>
+  <li class="recommended_thumb__list__item">
+      <a href="<?php echo home_url( '/' ); ?>tarumi#area1">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/recommended_thumb01.png" alt="スレッドリフト×ヒアルロン酸" class="pc">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/recommended_thumb01_sp.png" alt="スレッドリフト×ヒアルロン酸" class="sp">
+      </a>
+  </li>
+
+  <li class="recommended_thumb__list__item">
+  <a href="<?php echo home_url( '/' ); ?>kogao#area1">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/recommended_thumb02.png" alt="スレッドリフト×ヒアルロン酸" class="pc">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/recommended_thumb02_sp.png" alt="スレッドリフト×ヒアルロン酸" class="sp">
+       </a>
+  </li>
+
+  <li class="recommended_thumb__list__item">
+  <a href="<?php echo home_url( '/' ); ?>siwa#area3">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/recommended_thumb03.png" alt="スレッドリフト×ヒアルロン酸" class="pc">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/recommended_thumb03_sp.png" alt="スレッドリフト×ヒアルロン酸" class="sp">
+       </a>
+  </li>
 </ul>
 
 </div>
@@ -450,7 +485,7 @@
   Step1
 </p>
 <div class="thread_flow__contents__thumb">
-<img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/flow_thumb01.jpg" alt="診察">
+<img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/flow_thumb01.jpg?0513" alt="診察">
 </div>
 <!-- ./thread_flow__contents__thumb -->
 <h3 class="thread_flow__contents__tit">診察</h3>
@@ -474,7 +509,7 @@
   Step2
 </p>
 <div class="thread_flow__contents__thumb">
-<img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/flow_thumb02.jpg" alt="診察">
+<img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/flow_thumb02.jpg?0513" alt="診察">
 </div>
 <!-- ./thread_flow__contents__thumb -->
 <h3 class="thread_flow__contents__tit">洗顔</h3>
@@ -499,11 +534,11 @@
   Step3
 </p>
 <div class="thread_flow__contents__thumb">
-<img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/flow_thumb03.jpg" alt="診察">
+<img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/flow_thumb03.jpg?0430" alt="診察">
 </div>
 <!-- ./thread_flow__contents__thumb -->
 <h3 class="thread_flow__contents__tit">撮影</h3>
-<p class="thread_flow__contents__text">施術前の状態を３Dカメラで撮影します。</p>
+<p class="thread_flow__contents__text">施術前の状態を特殊な3Dカメラを用いて撮影をします。</p>
 </div>
 <!-- ./thread_flow__contents__left -->
 
@@ -523,7 +558,7 @@
   Step4
 </p>
 <div class="thread_flow__contents__thumb">
-<img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/flow_thumb04.jpg" alt="診察">
+<img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/flow_thumb04.jpg?0513" alt="診察">
 </div>
 <!-- ./thread_flow__contents__thumb -->
 <h3 class="thread_flow__contents__tit">デザイン</h3>
@@ -547,7 +582,7 @@
   Step5
 </p>
 <div class="thread_flow__contents__thumb">
-<img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/flow_thumb05.jpg" alt="診察">
+<img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/flow_thumb05.jpg?0513" alt="診察">
 </div>
 <!-- ./thread_flow__contents__thumb -->
 <h3 class="thread_flow__contents__tit">麻酔</h3>
@@ -574,7 +609,7 @@
   Step6
 </p>
 <div class="thread_flow__contents__thumb">
-<img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/flow_thumb06.jpg" alt="診察">
+<img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/flow_thumb06.jpg?0513" alt="診察">
 </div>
 <!-- ./thread_flow__contents__thumb -->
 <h3 class="thread_flow__contents__tit">施術</h3>
@@ -622,11 +657,11 @@
   Step8
 </p>
 <div class="thread_flow__contents__thumb">
-<img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/flow_thumb08.jpg" alt="診察">
+<img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/flow_thumb08.jpg?0430" alt="診察">
 </div>
 <!-- ./thread_flow__contents__thumb -->
 <h3 class="thread_flow__contents__tit">撮影</h3>
-<p class="thread_flow__contents__text">施術後の状態を３Dカメラで撮影します。</p>
+<p class="thread_flow__contents__text">施術後の状態を再度3Dカメラを用いて撮影します。<br class="pc">施術前の状態との比較して見ていただくことも可能です。</p>
 </div>
 <!-- ./thread_flow__contents__left -->
 
@@ -664,13 +699,28 @@
 
 </section>
 
-<section class="conversion__area">
+<section class="conversion__area conversion__area--bg__none">
   <div class="inner">
     <h2 class="tc gd f-ryu"><span>来院予約・お問合せはこちらから</span></h2>
     <ul class="cv-btn f-ryu">
-      <li class="bg__n_rs"> <a href="https://fumibeauty.reserve.ne.jp/" target="_blank"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_cal02.png" alt="カレンダー"></i><span>来院予約</span> </a> </li>
-      <li class="bg__n_ct"> <a href="<?php echo home_url("/");?>contact"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_mail02.png" alt="カレンダー"></i><span>お問合せ</span> </a> </li>
-      <li class="bg__n_line"> <a href="https://line.me/R/ti/p/%40304ngjfp" target="_blank"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_line02.png" alt="カレンダー"></i><span>LINEで<br class="sp">簡単予約</span> </a> </li>
+      <li class="bg__n_rs">
+          <a href="https://fumibeauty.reserve.ne.jp/" target="_blank">
+            <i><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_online.png" alt="オンライン予約"></i>
+            <span>オンライン<br class="sp">予約</span>
+          </a>
+      </li>
+      <li class="bg__n_ct">
+          <a href="<?php home_url("/");?>contact">
+            <i><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_mail04.png" alt="お問合せ"></i>
+            <span>お問合せ</span>
+          </a>
+       </li>
+      <li class="bg__n_line">
+         <a href="https://line.me/R/ti/p/%40304ngjfp" target="_blank">
+          <i><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_line04.png" alt="LINEで簡単予約"></i>
+          <span>LINEで<br class="sp">簡単予約</span>
+         </a>
+      </li>
     </ul>
   </div>
   <!-- ./inner-box -->

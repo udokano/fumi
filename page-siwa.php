@@ -121,7 +121,7 @@
 
   </div>
 </section>-->
-<section class="price">
+<section class="price native__mt" id="btx__price">
   <div class="inner-box2">
     <h2 class="tc ls1">ボトックス注入料金</h2>
    <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。<br>ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>

@@ -123,7 +123,7 @@ Template Name: 小顔治療
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">スレッドリフト料金</h2>
-    <div class="price-list gosic">
+    <div class="price-list gosic native__mt" id="silhouette_lift__price">
       <dl class="flex">
         <dt class="fw600">シルエットソフト(3Dリフト)</dt>
         <dd class="f-bold">税別</dd>
@@ -146,7 +146,7 @@ Template Name: 小顔治療
       </dl>
     </div>
     <!-- ./price-list -->
-    <div class="price-list gosic">
+    <div class="price-list gosic native__mt" id="gcog_lift__price">
       <dl class="flex">
         <dt class="fw600">Gコグリフト</dt>
         <dd class="f-bold">税別</dd>
@@ -157,7 +157,7 @@ Template Name: 小顔治療
       </dl>
     </div>
     <!-- ./price-list -->
-    <div class="price-list gosic">
+    <div class="price-list gosic native__mt" id="vov_lift__price">
       <dl class="flex">
         <dt class="fw600">VOVリフトプレミアム</dt>
         <dd class="f-bold">税別</dd>
@@ -173,7 +173,7 @@ Template Name: 小顔治療
       </dl>
     </div>
     <!-- ./price-list -->
-     <div class="price-list gosic">
+     <div class="price-list gosic native__mt" id="selfu_rock__price">
       <dl class="flex">
         <dt class="fw600">セルフロック</dt>
         <dd class="f-bold">税別</dd>
@@ -184,7 +184,7 @@ Template Name: 小顔治療
       </dl>
     </div>
     <!-- ./price-list -->
-    <div class="price-list gosic">
+    <div class="price-list gosic native__mt" id="shopping_lift__price">
       <dl class="flex">
         <dt class="fw600">ショッピングリフト<br class="sp">(ビューティーエナジー)</dt>
         <dd class="f-bold">税別</dd>
@@ -207,7 +207,7 @@ Template Name: 小顔治療
       </dl>
     </div>
     <!-- ./price-list -->
-    <div class="price-list gosic">
+    <div class="price-list gosic native__mt" id="thread_lift__price">
       <dl class="flex">
         <dt class="fw600">スレッドアイリフト(Gグロス)</dt>
         <dd class="f-bold">税別</dd>
@@ -365,7 +365,7 @@ Template Name: 小顔治療
 
   </div>
 </section>-->
-<section class="price">
+<section class="price native__mt" id="bnls__price">
   <div class="inner-box2">
     <h2 class="tc ls1">BNLS neo/脂肪分解注射料金</h2>
     <div class="price-list gosic">
@@ -483,7 +483,7 @@ Template Name: 小顔治療
 </section>
 <?php else: ?>
 <?php endif; ?>
-<section class="price">
+<section class="price native__mt" id="ela_btx__price">
   <div class="inner-box2">
     <h2 class="tc ls1">エラボトックス料金</h2>
     <p class="p-desc gosic tc mb20 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。<br>ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>

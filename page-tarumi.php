@@ -87,7 +87,7 @@ Template Name: たるみ治療
 </section>
 <?php else: ?>
 <?php endif; ?>
-<section class="price">
+<section class="price native__mt" id="hel__price">
   <div class="inner-box2">
     <h2 class="tc ls1">ヒアルロン酸注入料金</h2>
     <p class="p-desc gosic tc mb60 pc">当院では厚生省の承認を取得したジュビダームボリューマ、ジュビダームボリフト、ジュビダームボルベラを特におすすめしています。<br>
@@ -488,7 +488,7 @@ Template Name: たるみ治療
 </section>
 <?php else: ?>
 <?php endif; ?>
-<section class="price">
+<section class="price native__mt" id="btx_lift__price">
   <div class="inner-box2">
     <h2 class="tc ls1">ボトックスリフト料金</h2>
     <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。<br>ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
