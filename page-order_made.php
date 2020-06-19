@@ -142,7 +142,17 @@
   <div class="inner">
     <div class="thumb pc-dis"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc__thumb.jpg" alt="いらすと"> </div>
     <div class="desc__right">
-      <div class="ilast__sub__desc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01.png?0326014522" alt="イラスト" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01_sp02.png?202003262456" alt="イラスト" class="sp"> </div>
+      <div class="ilast__sub__desc">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01.png?0326014522" alt="イラスト" class="pc">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ilast_desc01_sp02.png?202003262456" alt="イラスト" class="sp">
+
+
+      <a href="<?php echo home_url( '/' ); ?>list#youkai" class="youkai-img pc-dis" target="_blank">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/youkai_img.png" alt="お顔の脂肪が気になる方" class="pc">
+      </a>
+
+      </div>
+      <!-- ./"ilast__sub__desc -->
       <ul class="anchor__marks flex">
         <?php home_url("/");?>
         <li class="green"><a href="<?php echo home_url("/");?>tarumi#area1"> <i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_green.png" alt="注入イラスト"></i>
@@ -166,10 +176,12 @@
           <p>マイクロ<br>
             ボトックス</p>
           </a></li>
-
       </ul>
     </div>
   </div>
+  <a href="<?php echo home_url( '/' ); ?>list#youkai" class="youkai-img sp-dis" target="_blank">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/youkai_img_sp.png" alt="お顔の脂肪が気になる方" class="sp">
+      </a>
 </section>
 <section class="order__case__banner">
   <div class="inner">
@@ -376,11 +388,20 @@
 <br>(脂肪溶解注射)</em>
            <div class="thumb sp"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast04.jpg?0511" alt="イラスト"></div>
            </dt>
-          <dd class="gosic">脂肪の気になる部分にBNLSneoを注入します。<br class="pc">脂肪細胞を溶かし、抹消血流やリンパの流れを改善し、脂肪細胞だけでなく老廃物の排出も促します。BNLSneo注射は植物由来の成分を主成分としているので従来のように筋肉痛のような痛みや腫れかゆみ等の副作用がほとんどありません。<br class="pc">1～2週間の間隔で4・5回の治療がおすすめです。</dd>
+           <div class="bnls-btn">
+             <a href="<?php echo home_url( '/' ); ?>list#link-injection01" class="case__btn bnls-btn__link" target="_blank">BNLSneo</a>
+              <a href="<?php echo home_url( '/' ); ?>list#link-injection02" class="case__btn bnls-btn__link" target="_blank">カベルライン</a>
+               <a href="<?php echo home_url( '/' ); ?>list#link-injection03" class="case__btn bnls-btn__link" target="_blank">チンセラプラス</a>
+           </div>
+           <!-- ./bnls-btn -->
+          <dd class="gosic">脂肪の気になる部分に脂肪溶解注射を注入します。<br class="pc">脂肪細胞を溶かし、末梢血液やリンパの流れを改善し、脂肪細胞だけでなく老廃物の排出も促します。<br>
+          		特徴の異なる3種類の脂肪溶解注射をご用意しています。<br>
+          <!--BNLSneo注射は植物由来の成分を主成分としているので従来のように筋肉痛のような痛みや腫れかゆみ等の副作用がほとんどありません。<br class="pc">1～2週間の間隔で4・5回の治療がおすすめです。--></dd>
         </dl>
 
-        <div class="case__btn__wrap bottom__down">
+        <div class="case__btn__col2 bottom__up">
            <!--  <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1166123.html" target="_blank" class="case__btn">症例写真はこちら</a> -->
+             <a href="<?php echo home_url( '/' ); ?>list#youkai" target="_blank" class="case__btn btn__left">製剤一覧へ</a>
               <a href="<?php echo home_url( '/' ); ?>kogao#bnls__price"  class="case__btn">料金はこちら</a>
         </div>
       </div>

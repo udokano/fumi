@@ -32,6 +32,7 @@
               <li><a href="<?php echo home_url('/'); ?>concept">当院について</a></li>
               <li class="navi-parent"><a>施術・料金</a>
                 <ul class="nav-child bg__sub__menu">
+                    <li class="nav-price"><a href="<?php echo home_url('/'); ?>price">料金一覧</a></li>
                     <li><a href="<?php echo home_url('/'); ?>tarumi" class="c_gray">たるみ治療</a></li>
                   <li><a href="<?php echo home_url('/'); ?>siwa" class="c_gray">しわ治療</a></li>
                   <li><a href="<?php echo home_url('/'); ?>medikaru" class="c_gray">美肌治療</a></li>
@@ -265,10 +266,10 @@
       <li class="box-size "> <a href="<?php echo home_url('/'); ?>kogao">
         <h3 class="tc">小顔治療 </h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb07.jpg" alt="サムネイル"></div>
-        <ul>
+        <ul class="col">
           <li data-url="<?php echo home_url('/'); ?>kogao#area3" class="js-link">・スレッドリフト</li>
-          <li data-url="<?php echo home_url('/'); ?>kogao#area1" class="js-link">・BNLS neo</li>
           <li data-url="<?php echo home_url('/'); ?>kogao#area2" class="js-link">・エラボトックス</li>
+          <li data-url="<?php echo home_url('/'); ?>kogao#area1" class="js-link">・脂肪溶解注射/BNLSneo、カベルライン(カベリン)、<br>チンセラプラス</li>
         </ul>
         </a> </li>
       <li class="box-size"> <a href="<?php echo home_url('/'); ?>nose-lift">
@@ -299,7 +300,8 @@
   </div>
   <?php if (have_rows('bnr_cam', 28)): ?>
   <div class="banner-campaign">
-    <h2 class="tc c_gray">スタッフのオススメ</h2>
+    <h2 class="tc c_gray">当院からのお知らせ<br>
+    <span class="c__l_green md">information</span></h2>
     <div class="inner02 flex">
       <?php while (have_rows('bnr_cam', 28)) : the_row(); ?>
       <div class="bnr-cam"> <a href="<?php the_sub_field('cam_link', 28);?>" target="_blank"><img src="<?php the_sub_field('cam_img', 28);?>" alt="月別キャンペーンバナー"></a> </div>
@@ -311,39 +313,11 @@
   <?php else: ?>
   <?php endif; ?>
 
-<article class="media">
-  <div class="inner">
-  <ul class="media__list flex">
-      <li class="media__article">
-        <div class="media__thumb">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/top/article_thumb01.jpg" alt="サムネイル">
-        </div>
-        <h3 class="media__ttl">
-          仕事を楽しむためのwebマガジン<br class="pc">"Bplus"掲載
-        </h3>
-        <a href="https://www.business-plus.net/interview/1911/k5216.html" class="media__link" target="_blank">詳しく見る</a>
-      </li>
-      <li class="media__article">
-        <div class="media__thumb">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/top/article_thumb02.jpg" alt="サムネイル">
-        </div>
-        <h3 class="media__ttl media__ttl--line01">
-          VOCE6月号掲載
-        </h3>
-        <!-- <a href="http://blog.livedoor.jp/dr_sakiyama/archives/1077336482.html" class="media__link" target="_blank">詳しく見る</a> -->
-      </li>
-    </ul>
-  </div>
-<!-- ./inner-box -->
-</article>
-<!-- ./media -->
-
-
   <section class="slides">
     <div class="inner flex">
       <div class="left-slide slide-area">
         <h2 class="cp tc c_gray">よくある質問</h2>
-        <span class="sm tc gd c_gray mb30">Q&A</span>
+        <p class="md tc c__l_green mb30 ">question</p>
         <div class="swiper-container slide-p2 swiper2 cont">
           <div class="swiper-wrapper gosic">
             <!-- Slides -->
@@ -386,7 +360,7 @@
 
       <div class="right-slide slide-area">
         <h2 class="cp tc c_gray">症例写真</h2>
-        <span class="sm tc gd c_gray mb30">SYMPTOM</span>
+        <p class="md tc c__l_green mb30">symptom</p>
         <div class="slide-in">
           <?php
           $args = array(
@@ -483,9 +457,39 @@
         </a> </div>
       <div class="bnr"> <a href="https://twitter.com/@_fumibeauty_" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/twitter_bnr.jpg?0310" alt="twitter_bnr"> </a> </div>
     </div>
-
     <!-- ./inner -->
   </section>
+
+
+<article class="media">
+  <div class="inner">
+  <h2 class="media__l-tit">メディア掲載</h2>
+  <ul class="media__list flex">
+      <li class="media__article">
+        <div class="media__thumb">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/top/article_thumb01.jpg" alt="サムネイル">
+        </div>
+        <h3 class="media__ttl">
+          仕事を楽しむためのwebマガジン<br class="pc">"Bplus"掲載
+        </h3>
+        <a href="https://www.business-plus.net/interview/1911/k5216.html" class="media__link" target="_blank">詳しく見る</a>
+      </li>
+      <li class="media__article">
+        <div class="media__thumb">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/top/article_thumb02.jpg" alt="サムネイル">
+        </div>
+        <h3 class="media__ttl media__ttl--line01">
+          VOCE6月号掲載
+        </h3>
+        <!-- <a href="http://blog.livedoor.jp/dr_sakiyama/archives/1077336482.html" class="media__link" target="_blank">詳しく見る</a> -->
+      </li>
+    </ul>
+  </div>
+<!-- ./inner-box -->
+</article>
+<!-- ./media -->
+
+
   <section class="card">
     <div class="inner">
       <div class="cont tc box-size gosic ls1">
@@ -530,6 +534,7 @@
       <li><a href="<?php echo home_url('/'); ?>concept" class="c_gray">当院について</a></li>
       <li class="parent"><a href="#" id="ac-txt" class="c_gray c_gray_line">施術・料金</a>
         <ul class="child" id="ac">
+          <li class="child__price"><a href="<?php echo home_url('/'); ?>price" class="c_gray">料金一覧</a></li>
           <li><a href="<?php echo home_url('/'); ?>tarumi" class="c_gray">たるみ治療</a></li>
           <li><a href="<?php echo home_url('/'); ?>siwa" class="c_gray">しわ治療</a></li>
            <li><a href="<?php echo home_url('/'); ?>medikaru" class="c_gray">美肌治療</a></li>
@@ -567,7 +572,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?0216"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?0618aaassdd"></script>
 <script>
     function initMap() {
         var latlng = new google.maps.LatLng( 34.707103, 135.495992 );

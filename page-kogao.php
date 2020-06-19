@@ -15,7 +15,7 @@ Template Name: 小顔治療
   <p class="tc sp">お顔が大きくみえる原因が脂肪なのか、筋肉のはりなのか、たるみなどかによって治療方法が異なります。診察でより適切な治療方法をご提案致します。</p>
   <div class="ancor-box">
      <a href="#area3">スレッドリフト</a>
-     <a href="#area1">BNLS neo</a>
+     <a href="#area1">脂肪溶解注射</a>
   <a href="#area2">エラボトックス</a>
 
 </div>
@@ -123,7 +123,7 @@ Template Name: 小顔治療
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">スレッドリフト料金</h2>
-    <div class="price-list gosic native__mt" id="silhouette_lift__price">
+    <div class="price-list gosic " id="silhouette_lift__price">
       <dl class="flex">
         <dt class="fw600">シルエットソフト(3Dリフト)</dt>
         <dd class="f-bold">税別</dd>
@@ -146,7 +146,7 @@ Template Name: 小顔治療
       </dl>
     </div>
     <!-- ./price-list -->
-    <div class="price-list gosic native__mt" id="gcog_lift__price">
+    <div class="price-list gosic " id="gcog_lift__price">
       <dl class="flex">
         <dt class="fw600">Gコグリフト</dt>
         <dd class="f-bold">税別</dd>
@@ -157,7 +157,7 @@ Template Name: 小顔治療
       </dl>
     </div>
     <!-- ./price-list -->
-    <div class="price-list gosic native__mt" id="vov_lift__price">
+    <div class="price-list gosic " id="vov_lift__price">
       <dl class="flex">
         <dt class="fw600">VOVリフトプレミアム</dt>
         <dd class="f-bold">税別</dd>
@@ -173,7 +173,7 @@ Template Name: 小顔治療
       </dl>
     </div>
     <!-- ./price-list -->
-     <div class="price-list gosic native__mt" id="selfu_rock__price">
+     <div class="price-list gosic " id="selfu_rock__price">
       <dl class="flex">
         <dt class="fw600">セルフロック</dt>
         <dd class="f-bold">税別</dd>
@@ -184,7 +184,7 @@ Template Name: 小顔治療
       </dl>
     </div>
     <!-- ./price-list -->
-    <div class="price-list gosic native__mt" id="shopping_lift__price">
+    <div class="price-list gosic " id="shopping_lift__price">
       <dl class="flex">
         <dt class="fw600">ショッピングリフト<br class="sp">(ビューティーエナジー)</dt>
         <dd class="f-bold">税別</dd>
@@ -207,7 +207,7 @@ Template Name: 小顔治療
       </dl>
     </div>
     <!-- ./price-list -->
-    <div class="price-list gosic native__mt" id="thread_lift__price">
+    <div class="price-list gosic " id="thread_lift__price">
       <dl class="flex">
         <dt class="fw600">スレッドアイリフト(Gグロス)</dt>
         <dd class="f-bold">税別</dd>
@@ -262,16 +262,30 @@ Template Name: 小顔治療
 <section class="ope-intro bg-cp" id="area1">
   <div class="inner flex al-cent">
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/thumb03.jpg" alt="サムネイル"> </div>
-    <div class="text box-size">
-      <h2>BNLS neo/脂肪分解注射</h2>
-      <p class="ls1 gosic">主に脂肪が原因の場合に効果的な治療です。脂肪の分解と排出を促進させるお薬を気になる部分に注射します。
-          従来のBNLS注射と異なり、「デオキシコール酸」が追加されたことで、脂肪を溶かす効果が向上しています。 </p>
+    <div class="text text-wide box-size">
+      <h2 class="ttl--small">脂肪溶解注射/BNLSneo、カベルライン(カベリン)、チンセラプラス</h2>
+      <div class="bnls-btn bnls-btn--p02">
+             <a href="<?php echo home_url( '/' ); ?>list#link-injection01" class="case__btn bnls-btn__link bnls-btn__link--p02" target="_blank">BNLSneo</a>
+              <a href="<?php echo home_url( '/' ); ?>list#link-injection02" class="case__btn bnls-btn__link bnls-btn__link--p02" target="_blank">カベルライン</a>
+               <a href="<?php echo home_url( '/' ); ?>list#link-injection03" class="case__btn bnls-btn__link bnls-btn__link--p02" target="_blank">チンセラプラス</a>
+           </div>
+           <!-- ./bnls-btn -->
+      <p class="ls1 gosic mb25">脂肪の分解と排出を促進させるお薬を気になる部分に注射します。<br>
+当院ではその方のお顔の状態や来院ペースに合わせBNLSneo、カベルライン(カベリン)、チンセラプラスの3種類の脂肪溶解注射を扱っております。
+</p>
+
+ <div class="case__btn__col2">
+             <a href="<?php echo home_url( '/' ); ?>list#youkai" class="case__btn btn__left">製剤一覧へ</a>
+              <a href="#bnls__price" class="case__btn">料金はこちら</a>
+           </div>
+           <!-- ./bnls-btn -->
+
     </div>
   </div>
 </section>
 <section class="features layout1">
   <div class="inner-box2">
-    <h2 class="cp gosic tc ls1">BNLS neoの特徴</h2>
+    <h2 class="cp gosic tc ls1">脂肪溶解注射の特徴</h2>
     <div class="box">
       <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/point01.jpg" alt="ポイントエリアサムネイル"></div>
       <div class="desc box-size bg-grade">
@@ -301,7 +315,7 @@ Template Name: 小顔治療
 <section class="infu-point">
   <div class="inner">
     <h2 class="cp tc goisc ls1">注入部位</h2>
-    <div class="img"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/img01.png" alt="注入部位"> </div>
+    <div class="img img-wide"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/img01.png" alt="注入部位"> </div>
   </div>
 </section>
 <?php if (have_rows('ope_kogao_bnls', 155)): ?>
@@ -365,22 +379,57 @@ Template Name: 小顔治療
 
   </div>
 </section>-->
-<section class="price native__mt" id="bnls__price">
+<section class="price " id="bnls__price">
   <div class="inner-box2">
-    <h2 class="tc ls1">BNLS neo/脂肪分解注射料金</h2>
-    <div class="price-list gosic">
+    <h2 class="tc ls1">脂肪分解注射料金</h2>
+    <div class="price-list gosic" id="bnls-p">
       <dl class="flex">
-        <dt class="fw600">回数</dt>
+        <dt class="fw600">BNLS neo</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
-        <dt>BNLS neo  1cc</dt>
-        <dd>¥9,800</dd>
+        <dt> 1cc（4ccまで）</dt>
+        <dd>¥9,000</dd>
+      </dl>
+       <dl class="flex">
+        <dt>1cc（5cc以上）</dt>
+        <dd>¥6,000</dd>
       </dl>
     </div>
+    <!-- ./price-list -->
+     <div class="price-list gosic" id="gabel-p">
+      <dl class="flex">
+        <dt class="fw600">カベルライン(カベリン)</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>1cc（4ccまで）</dt>
+        <dd>¥10,500</dd>
+      </dl>
+       <dl class="flex">
+        <dt>1cc（5cc以上）</dt>
+        <dd>¥7,000</dd>
+      </dl>
+    </div>
+    <!-- ./price-list -->
+     <div class="price-list gosic" id="tinela-p">
+      <dl class="flex">
+        <dt class="fw600">チンセラプラス</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>1cc（4ccまで）</dt>
+        <dd>¥15,000</dd>
+      </dl>
+       <dl class="flex">
+        <dt>1cc（5cc以上）</dt>
+        <dd>¥10,000</dd>
+      </dl>
+    </div>
+    <!-- ./price-list -->
   </div>
 </section>
-<section class="ope-faq">
+<!--<section class="ope-faq">
   <div class="inner">
     <h2 class="tc ls1">よくある質問</h2>
     <?php
@@ -413,7 +462,7 @@ Template Name: 小顔治療
     </dl>
     <?php endwhile; wp_reset_postdata(); ?>
   </div>
-</section>
+</section>-->
 
 <section class="ope-intro bg-cp" id="area2">
   <div class="inner flex al-cent">
@@ -483,7 +532,7 @@ Template Name: 小顔治療
 </section>
 <?php else: ?>
 <?php endif; ?>
-<section class="price native__mt" id="ela_btx__price">
+<section class="price " id="ela_btx__price">
   <div class="inner-box2">
     <h2 class="tc ls1">エラボトックス料金</h2>
     <p class="p-desc gosic tc mb20 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。<br>ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>

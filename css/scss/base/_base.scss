@@ -276,6 +276,14 @@ section {
     opacity: .8;
 }
 
+.md {
+    font-size: 1.1rem;
+
+    @media (max-width: 767px) {
+        font-size: .92rem;
+    }
+}
+
 /*HEADER  CV-BTNS*/
 
 /* .top-cv-btn {
@@ -792,12 +800,12 @@ body.page {
 }
 
 .native__mt {
-    margin-top: -160px;
-    padding-top: 160px;
+    margin-top: -160px !important;
+    padding-top: 160px !important;
 
     @media (max-width: 767px) {
-        margin-top: -136px;
-        padding-top: 136px;
+        margin-top: -136px !important;
+        padding-top: 136px !important;
     }
 }
 

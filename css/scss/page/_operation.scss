@@ -179,6 +179,10 @@
                 margin-bottom: 30px;
             }
 
+            .ttl--small {
+                font-size: 1.6rem;
+            }
+
             p {
                 line-height: 1.77;
             }
@@ -792,6 +796,14 @@
                     margin-bottom: 22px;
                     text-align: center;
                 }
+
+                .ttl--small {
+                    font-size: 1.2rem;
+                }
+            }
+
+            .text-wide {
+                width: 96%;
             }
         }
     }
@@ -957,6 +969,10 @@
             .img {
                 width: 84%;
                 margin: 40px auto;
+            }
+
+            .img-wide {
+                width: 100%;
             }
         }
     }

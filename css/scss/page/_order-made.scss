@@ -654,6 +654,7 @@
 
             @media (max-width: 767px) {
                 position: static;
+                padding-bottom: 2.7rem;
 
                 //display: flex;
                 //justify-content: space-between;
@@ -661,6 +662,8 @@
             }
 
             .ilast__sub__desc {
+                position: relative;
+
                 @media (max-width: 767px) {
                     width: 76.85%;
                     position: absolute;
@@ -795,6 +798,21 @@
                 }
             }
         }
+    }
+}
+
+.youkai-img {
+    @media (min-width: 768px) {
+        width: 170px;
+        top: -94px;
+        right: 158px;
+        position: absolute;
+    }
+
+    @media (max-width: 767px) {
+        display: block;
+        width: 72%;
+        margin: 1.2rem auto;
     }
 }
 
@@ -1548,6 +1566,97 @@
     }
 }
 
+.bnls-btn {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+
+    &::after {
+        content: "";
+        display: block;
+        width: 31.9%;
+    }
+
+    &__link {
+        width: 180px;
+        height: 57px;
+        line-height: 57px;
+
+        //background-color: #e6c2a6;
+        background-color: #fcd072;
+        border: 1px solid #fcd072;
+        border-radius: 0;
+        margin-top: 0;
+        color: #454545;
+        font-weight: 600;
+        margin-left: 0;
+        margin-right: 0;
+
+        @media (max-width: 767px) {
+            width: 30%;
+            height: 41px;
+            line-height: 41px;
+            font-size: 2.8vw;
+        }
+
+        &::after {
+            border-color: #fcd072;
+            display: none !important;
+
+            @media (max-width: 767px) {
+                width: 5px;
+                height: 5px;
+                right: 4px;
+            }
+        }
+
+        &:hover {
+            background-color: #fff;
+            color: #fcd072;
+        }
+
+        &--p02 {
+            //background-color: transparent;
+            //border-color: #686868;
+            //color: #686868;
+            background-color: #fcd072;
+            color: #777;
+            border: 1px solid #fcd072;
+            width: 29%;
+            margin-top: 0;
+            color: #686868;
+
+            @media (max-width: 767px) {
+                width: 30%;
+                margin: 1.5rem 0 0;
+            }
+
+            &::after {
+                //border-color: #686868;
+                display: none !important;
+
+                @media (max-width: 767px) {
+                    right: 6px;
+                }
+            }
+
+            &:hover {
+                //background-color: #686868;
+                //color: #fff;
+
+                opacity: 1;
+
+                &::after {}
+            }
+        }
+
+        &--p03 {
+            border-radius: 3px;
+        }
+    }
+}
+
 /* オーダーメイドスレッドリフト */
 
 /* こんな方へおすすめ */
@@ -2201,6 +2310,11 @@
 
             @media (max-width: 767px) {
                 width: 100%;
+                margin-bottom: 1.8rem;
+
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
             }
 
             &:nth-child(2) {
@@ -2208,6 +2322,16 @@
                     margin: 0 91px;
                 }
             }
+
+            a {
+                display: block;
+                margin-bottom: 1.18rem;
+            }
+        }
+
+        &__desc {
+            text-align: left;
+            font-family: メイリオ, Meiryo, "Meiryo UI", ヒラギノ角ゴシック, "Hiragino Sans", sans-serif;
         }
     }
 }

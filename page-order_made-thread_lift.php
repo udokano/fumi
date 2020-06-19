@@ -18,7 +18,9 @@
       組み合わせが<br>
       おすすめの治療</span>
     </a>
-    <a href="#area4"><span class="row__center">スレッド治療の流れ</span></a> </div>
+    <a href="#area4"><span class="row__center">スレッド治療の流れ</span></a>
+</div>
+  <!-- ./anchor-box -->
 </section>
 
 <section class="order__made__tit bg__p02" id="area1">
@@ -449,6 +451,10 @@
         <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/recommended_thumb01.png" alt="スレッドリフト×ヒアルロン酸" class="pc">
         <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/recommended_thumb01_sp.png" alt="スレッドリフト×ヒアルロン酸" class="sp">
       </a>
+
+      <p class="recommended_thumb__list__desc">
+        たるみだけではなく、お顔にかげやコケ感がある方、また左右差がある方にはヒアルロン酸を併用することで左右差が整いボリュームロスも改善されより若々しく美しい仕上がりになります。
+      </p>
   </li>
 
   <li class="recommended_thumb__list__item">
@@ -456,6 +462,10 @@
       <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/recommended_thumb02.png" alt="スレッドリフト×ヒアルロン酸" class="pc">
       <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/recommended_thumb02_sp.png" alt="スレッドリフト×ヒアルロン酸" class="sp">
        </a>
+
+        <p class="recommended_thumb__list__desc">
+        お顔に脂肪のもたつきが多い場合はBNLSneo・カベルライン等の脂肪溶解注射で重さを減らしてからスレッドリフトで引き上げることで、よりリフトアップ効果と持続力が高まります。
+      </p>
   </li>
 
   <li class="recommended_thumb__list__item">
@@ -463,6 +473,10 @@
       <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/recommended_thumb03.png" alt="スレッドリフト×ヒアルロン酸" class="pc">
       <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/recommended_thumb03_sp.png" alt="スレッドリフト×ヒアルロン酸" class="sp">
        </a>
+
+        <p class="recommended_thumb__list__desc">
+        目元の小じわやちりめんジワにはスレッドアイリフトにスネコスの併用、頬などの細かい小じわにはショッピングリフトやシルエットソフトとスネコスを併用することでより効果が高まります。
+      </p>
   </li>
 </ul>
 

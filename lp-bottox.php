@@ -333,19 +333,19 @@ Template Name: ランディングページボトックス
             <td colspan="2">マイクロボトックス(鼻＆鼻横の頬)</td>
             <td class="right">¥50,000</td>
           </tr>
-          <tr>
+          <!-- <tr>
             <td colspan="2">わき汗</td>
             <td class="right">¥65,000</td>
-          </tr>
+          </tr> -->
           <tr>
             <td colspan="2">ガミースマイル</td>
             <td class="right">¥30,000</td>
           </tr>
-             <tr>
+           <!--   <tr>
             <td colspan="2">肩こり両側</td>
             <td class="right">¥74,800</td>
-          </tr>
-            <tr>
+          </tr> -->
+           <!--  <tr>
             <td colspan="2">肩こり両側 4回セット</td>
             <td class="right">1回あたり¥49,800<br>
               <span class="sm">¥199,200</span></td>
@@ -354,7 +354,7 @@ Template Name: ランディングページボトックス
             <tr>
             <td colspan="2">脚痩せ(ふくらはぎ両脚)</td>
             <td class="right">¥268,000</td>
-          </tr>
+          </tr> -->
 
         </tbody>
       </table>
@@ -363,20 +363,90 @@ Template Name: ランディングページボトックス
         <table class="pt2 gosic mb35">
         <thead>
           <tr>
-            <th scope="col" colspan="2" class="bg-gth">ボツリヌス・トキシン<br>
-            <span class="sm">(リジェノックスの場合)</span></th>
+            <th scope="col" colspan="2" class="bg-gth">制汗ボトックス<br>
+          <!--   <span class="sm">(リジェノックスの場合)</span> --></th>
             <th scope="col" class="bg-gth">値段(税別)</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td colspan="2" class="bg-g2 gd-i">肩こり両側</td>
-            <td class="right bg-g2 gd-i">¥34,800</td>
+            <td colspan="2" class="bg-g2 gd-i">わき汗</td>
+            <td class="right bg-g2 gd-i">¥65,000</td>
           </tr>
 
             <tr>
-            <td colspan="2" class="bg-g gd-i">脚痩せ(ふくらはぎ両脚)</td>
-            <td class="right bg-g gd-i">¥72,600</td>
+            <td colspan="2" class="bg-g gd-i">手あせ（両手）</td>
+            <td class="right bg-g gd-i">¥68,000</td>
+          </tr>
+            <tr>
+            <td colspan="2" class="bg-g2 gd-i">足うら汗（両足）</td>
+            <td class="right bg-g2 gd-i">¥88,000</td>
+          </tr>
+            <tr>
+            <td colspan="2" class="bg-g gd-i">額の汗</td>
+            <td class="right bg-g gd-i">¥48,000</td>
+          </tr>
+            <tr>
+            <td colspan="2" class="bg-g2 gd-i">頭の汗</td>
+            <td class="right bg-g2 gd-i">¥68,000</td>
+          </tr>
+        </tbody>
+      </table>
+
+       <table class="pt2 gosic mb35">
+        <thead>
+          <tr>
+            <th scope="col" colspan="2" class="bg-gth">ボディボトックス<br>
+            <span class="sm">アラガン社 ボトックスビスタ</span></th>
+            <th scope="col" class="bg-gth">値段(税別)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="2" class="bg-g2 gd-i">肩こり</td>
+            <td class="right bg-g2 gd-i">¥64,800</td>
+          </tr>
+
+            <tr>
+            <td colspan="2" class="bg-g gd-i">脚痩せ(ふくらはぎ) 小</td>
+            <td class="right bg-g gd-i">¥128,000</td>
+          </tr>
+            <tr>
+            <td colspan="2" class="bg-g2 gd-i">脚痩せ(ふくらはぎ) 大</td>
+            <td class="right bg-g2 gd-i">¥190,000</td>
+          </tr>
+            <tr>
+            <td colspan="2" class="bg-g gd-i">二の腕</td>
+            <td class="right bg-g gd-i">¥72,000</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="pt2 gosic mb35">
+        <thead>
+          <tr>
+            <th scope="col" colspan="2" class="bg-gth">ボディボトックス<br>
+            <span class="sm">リジェノックス</span></th>
+            <th scope="col" class="bg-gth">値段(税別)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="2" class="bg-g2 gd-i">肩こり</td>
+            <td class="right bg-g2 gd-i">¥48,600</td>
+          </tr>
+
+            <tr>
+            <td colspan="2" class="bg-g gd-i">脚痩せ(ふくらはぎ) 小</td>
+            <td class="right bg-g gd-i">¥96,000</td>
+          </tr>
+            <tr>
+            <td colspan="2" class="bg-g2 gd-i">脚痩せ(ふくらはぎ) 大</td>
+            <td class="right bg-g2 gd-i">¥142,500</td>
+          </tr>
+            <tr>
+            <td colspan="2" class="bg-g gd-i">二の腕</td>
+            <td class="right bg-g gd-i">¥54,000</td>
           </tr>
         </tbody>
       </table>

@@ -40,6 +40,7 @@ Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
             <li><a href="<?php echo home_url('/'); ?>concept">当院について</a></li>
             <li class="parent"><a href="#" id="ac-txt">施術・料金</a>
               <ul class="child" id="ac">
+                  <li class="child__price"><a href="<?php echo home_url('/'); ?>price" class="c_gray">料金一覧</a></li>
                       <li><a href="<?php echo home_url('/'); ?>tarumi" class="c_gray">たるみ治療</a></li>
                       <li><a href="<?php echo home_url('/'); ?>siwa" class="c_gray">しわ治療</a></li>
                       <li><a href="<?php echo home_url('/'); ?>medikaru" class="c_gray">美肌治療</a></li>
@@ -79,7 +80,7 @@ Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?0214585"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?6128aaaacddff"></script>
 
   <script>
 

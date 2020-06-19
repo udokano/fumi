@@ -32,6 +32,7 @@
         <li><a href="<?php echo home_url('/'); ?>concept">当院について</a></li>
         <li class="navi-parent"><a>施術・料金</a>
           <ul class="nav-child">
+            <li class="nav-price"><a href="<?php echo home_url('/'); ?>price">料金一覧</a></li>
               <li><a href="<?php echo home_url('/'); ?>tarumi">たるみ治療</a></li>
             <li><a href="<?php echo home_url('/'); ?>siwa">しわ治療</a></li>
               <li><a href="<?php echo home_url('/'); ?>medikaru">美肌治療</a></li>
