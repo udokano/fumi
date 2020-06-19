@@ -242,8 +242,8 @@ function remove_menus()
     if (!current_user_can('administrator')) { //管理者ではない場合
 
 
-    remove_menu_page('index.php');                  // ダッシュボード
-    //remove_menu_page('edit.php');                   // 投稿
+        remove_menu_page('index.php');                  // ダッシュボード
+    remove_menu_page('edit.php');                   // 投稿
     remove_menu_page('upload.php');                 // メディア
     //remove_menu_page('edit.php?post_type=page');    // 固定ページ
     remove_menu_page('edit-comments.php');          // コメント
@@ -252,8 +252,6 @@ function remove_menus()
     remove_menu_page('users.php');                  // ユーザー
     remove_menu_page('tools.php');                  // ツール
     remove_menu_page('options-general.php');        // 設定
-    remove_menu_page('edit.php?post_type=case');  // お問い合わせ（mw-wp-form）
-    remove_menu_page('edit.php?post_type=faq');  // お問い合わせ（mw-wp-form）
     remove_menu_page('edit.php?post_type=mw-wp-form');  // お問い合わせ（mw-wp-form）
     //remove_menu_page( 'profile.php' );  // プロフィール
     }
@@ -263,34 +261,34 @@ add_action('admin_menu', 'remove_menus');
 
 /*メニューにバナー管理追加*/
 
-/* function add_page_to_admin_menu()
+function add_page_to_admin_menu()
 {
     add_menu_page('バナー管理', 'バナー管理', 'edit_posts', 'post.php?post=28&action=edit', '', 'dashicons-format-gallery
 ', 3);
 }
-add_action('admin_menu', 'add_page_to_admin_menu'); */
+add_action('admin_menu', 'add_page_to_admin_menu');
 
 
 /*メニューにお問い合わせデータ追加*/
 
 
-/* function add_page_to_admin_menu2()
+function add_page_to_admin_menu2()
 {
     add_menu_page('お問合せデータ', 'お問合せデータ', 'edit_posts', 'edit.php?post_type=mw-wp-form&page=mw-wp-form-save-data', '', 'dashicons-admin-comments', 4);
 }
-add_action('admin_menu', 'add_page_to_admin_menu2'); */
+add_action('admin_menu', 'add_page_to_admin_menu2');
 
 
 
 /*メニューに症例写真管理追加*/
 
 
-/* function add_page_to_admin_menu3()
+function add_page_to_admin_menu3()
 {
     add_menu_page('症例写真管理', '症例写真管理', 'edit_posts', 'post.php?post=155&action=edit', '', 'dashicons-format-gallery', 4);
 }
 add_action('admin_menu', 'add_page_to_admin_menu3');
- */
+
 
 /**
  * 子カテチェックで親カテも

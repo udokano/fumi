@@ -1,5 +1,5 @@
 
-<?php get_header();?>
+<?php get_header()?>
 <div class="page-head single">
  <h1 class="f-ryu"><?php the_title(); ?></h1>
   <?php echo breadcrumb_func(); ?>

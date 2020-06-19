@@ -123,7 +123,7 @@
 </section>-->
 <section class="price native__mt" id="btx__price">
   <div class="inner-box2">
-    <h2 class="tc ls1">ボトックス注入料金</h2>
+    <h2 class="tc ls1">ボトックス（顔）注入料金</h2>
    <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。<br>ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
     <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
     <div class="price-list gosic">
@@ -200,7 +200,7 @@
         <dt>ガミースマイル</dt>
         <dd>¥30,000</dd>
       </dl>
-          <dl class="flex">
+       <!--    <dl class="flex">
         <dt>肩こり両側</dt>
         <dd>¥74,800</dd>
       </dl>
@@ -212,11 +212,11 @@
       <dl class="flex">
         <dt>脚痩せ(ふくらはぎ両脚)</dt>
         <dd>¥268,000</dd>
-      </dl>
+      </dl> -->
 
     </div>
 
-     <div class="price-list gosic">
+     <!-- <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">ボツリヌス・トキシン <span class="sm">(リジェノックスの場合)</span></dt>
         <dd class="f-bold">税別</dd>
@@ -230,7 +230,88 @@
         <dt>脚痩せ(ふくらはぎ両脚)</dt>
         <dd>¥72,600</dd>
       </dl>
+    </div> -->
+
+    <h2 class="tc ls1">ボトックス（身体）注入料金</h2>
+
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">制汗ボトックス</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+
+      <dl class="flex">
+        <dt>わき汗</dt>
+        <dd>¥65,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>手あせ（両手）</dt>
+        <dd>¥68,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>足うら汗（両足）</dt>
+        <dd>¥88,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>額の汗</dt>
+        <dd>¥48,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>頭の汗</dt>
+        <dd>¥68,000</dd>
+      </dl>
     </div>
+    <!-- ./price-list -->
+
+     <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">ボディボトックス<span class="sm">(アラガン社 ボトックスビスタの場合)</span></dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+
+      <dl class="flex">
+        <dt>肩こり</dt>
+        <dd>¥64,800</dd>
+      </dl>
+      <dl class="flex">
+        <dt>脚痩せ(ふくらはぎ) 小</dt>
+        <dd>¥128,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>脚痩せ(ふくらはぎ) 大</dt>
+        <dd>¥190,000</dd>
+      </dl>
+       <dl class="flex">
+        <dt>二の腕</dt>
+        <dd>¥72,000</dd>
+      </dl>
+    </div>
+      <!-- ./price-list -->
+
+     <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">ボディボトックス<span class="sm">(リジェノックスの場合)</span></dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+
+        <dl class="flex">
+        <dt>肩こり</dt>
+        <dd>¥48,600</dd>
+      </dl>
+      <dl class="flex">
+        <dt>脚痩せ(ふくらはぎ) 小</dt>
+        <dd>¥96,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>脚痩せ(ふくらはぎ) 大</dt>
+        <dd>¥142,500</dd>
+      </dl>
+       <dl class="flex">
+        <dt>二の腕</dt>
+        <dd>¥54,000</dd>
+      </dl>
+    </div>
+      <!-- ./price-list -->
 
   </div>
 </section>

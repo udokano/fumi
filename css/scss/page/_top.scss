@@ -534,6 +534,9 @@
                         font-size: .87rem;
                         font-family: $gosic;
                         margin-bottom: 8px;
+                        padding-left: 1em;
+                        text-indent: -1em;
+                        box-sizing: border-box;
                     }
                 }
 
@@ -575,6 +578,8 @@
                 height: 240px;
 
                 a {
+                    //padding: 14px;
+
                     .thumb {
                         margin-bottom: 10px;
                         height: 90px;
@@ -1081,7 +1086,8 @@
 
 .banner-campaign {
     h2 {
-        margin-bottom: 25px;
+        margin-bottom: 37px;
+        line-height: 1;
     }
 
     .inner {
@@ -1186,6 +1192,12 @@
 .media {
     margin-bottom: 0;
     padding: 5.47rem 0;
+
+    &__l-tit {
+        text-align: center;
+        color: $gray;
+        margin-bottom: 1.5rem;
+    }
 
     &__list {
         text-align: center;

@@ -5,7 +5,6 @@ $('.js-link').on('click', function (e) {
   e.stopPropagation();
   e.preventDefault();
   location.href = $(this).attr('data-url');
-  //window.open($(this).attr('data-url'), '_blank');
 })
 
 
@@ -28,6 +27,7 @@ $(function () {
   $(".menu-open").click(function () {
     $(".hambargar").toggleClass("open");
     $(".fix-bottom").toggleClass("open");
+    $("body").toggleClass("ov-hidden");
     var txt = $(".menu-open").text();
     var menutxt = "メニュー"
     if (menutxt == txt) {
@@ -95,7 +95,6 @@ $(function () {
         slidesPerView: 1,
         spaceBetween: 0,
         pagination: '.swiper-pagination',
-
 
       }
     }
@@ -220,7 +219,28 @@ $(function () {
   });
 
   //スムーススクロール
-  var headerHight = 100; //ヘッダの高さ
+
+  /* ページ外からのアンカーでもヘッダー分ずらす */
+
+  var headerHight = $('.site-header').outerHeight();; //ヘッダの高さ
+  var urlHash = location.hash;
+  if (urlHash) {
+    $('body,html').stop().scrollTop(0);
+    /* setTimeout(function () {
+      var target = $(urlHash);
+      var position = target.offset().top - headerHight;
+      $('body,html').stop().animate({ scrollTop: position }, 500);
+    }, 100); */
+
+    $(window).on('load', function () {
+
+      var target = $(urlHash);
+      var position = target.offset().top - headerHight;
+      $('body,html').stop().animate({ scrollTop: position }, 500);
+
+    });
+
+  }
   $('a[href^=#]').click(function () {
     var href = $(this).attr("href");
     var target = $(href == "#" || href == "" ? 'html' : href);

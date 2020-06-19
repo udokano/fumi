@@ -1,0 +1,322 @@
+/* 各施術の背景色 */
+
+//ヒアルロン酸
+$bg_hel: #feefef;
+
+//ボトックス
+$bg_btx: #fedcf9;
+
+/* アンカーエリア */
+
+.sq-anchor {
+    display: flex;
+    justify-content: center;
+    max-width: 690px;
+    flex-wrap: wrap;
+    width: 96%;
+    margin: 0 auto 2.58rem;
+
+    /*  @media (max-width: 767px) {
+         justify-content: space-between;
+     } */
+
+    &__link {
+        width: 133px;
+        height: 133px;
+        border-radius: 50%;
+        border: 1px solid #686868;
+        position: relative;
+        margin: 0 .78rem;
+        display: block;
+        transition: ease-out .32s;
+
+        @media (max-width: 767px) {
+            width: 29.2%;
+            height: 29.2vw;
+            margin: 0 1.6vw 2.34vw;
+            border-color: #969696;
+
+            &:last-of-type {
+                margin-right: auto;
+            }
+        }
+
+        &::after {
+            position: absolute;
+            content: "";
+            left: 50%;
+            bottom: 10px;
+            transform: translateX(-50%) rotate(45deg);
+            width: 10px;
+            height: 10px;
+            border-right: 1px solid #cdcdcd;
+            border-bottom: 1px solid #cdcdcd;
+        }
+
+        &:hover {
+            background-color: #686868;
+
+            &::after {
+                border-color: #fff;
+            }
+
+            .sq-anchor__text {
+                color: #ffffff;
+            }
+        }
+    }
+
+    &__text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: .9rem;
+        width: 100%;
+        text-align: center;
+        color: #666;
+
+        @media (max-width: 767px) {
+            font-size: 3.5vw;
+        }
+
+        &--small {
+            @media (max-width: 767px) {
+                font-size: 3.0vw;
+            }
+        }
+    }
+}
+
+/* 施術名 */
+
+.price-ope-ttl {
+    font-size: 1.8rem;
+    margin-top: 3.2rem;
+    border: 1px solid;
+    padding: .98rem 0;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 3.4rem;
+
+    &--hel {
+        border-color: #fcb7b7;
+    }
+
+    &--btx {
+        border-color: #be7bda;
+    }
+
+    &--md {
+        border-color: #bbcff5;
+    }
+
+    &--sapuli {
+        border-color: #7ff0b2;
+    }
+}
+
+/* 導入文 */
+
+.price-intro {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+
+    //background-color: #fef2f6;
+    padding: 2.98rem 0;
+
+    @media (max-width: 767px) {
+        font-size: 2.98vw;
+        font-feature-settings: 'palt' 1;
+    }
+}
+
+.price-intro02 {
+    padding: 2.5rem 0;
+    background-color: #fbfbfb;
+    margin-bottom: 3.78rem;
+}
+
+.price-table-ttl {
+    text-align: center;
+    font-size: 1.55rem;
+    margin-bottom: 1.78rem;
+
+    &__sub {
+        display: block;
+        text-align: center;
+        font-size: .88rem;
+    }
+}
+
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+
+    &__tr {}
+
+    &__th, &__td {
+        padding: 1.24rem 0;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 1.12rem;
+        color: #454545;
+        border: 1px solid #fff;
+
+        @media (max-width: 767px) {
+            font-size: 2.9vw;
+            padding: 1.28rem .55rem;
+        }
+    }
+
+    &__th {
+        width: 41%;
+        border: 1px solid #dbdbdb;
+        border-right: none !important;
+
+        @media (max-width: 767px) {
+            width: 50%;
+        }
+    }
+
+    &__td {
+        width: 59%;
+        border: 1px solid #dbdbdb;
+        border-left: none;
+
+        @media (max-width: 767px) {
+            width: 50%;
+            font-size: 3.8vw;
+            font-weight: 600;
+        }
+
+        &--col02 {
+            border-left: 1px solid #dbdbdb;
+        }
+    }
+
+    &__note {
+        display: block;
+        font-size: .8rem;
+    }
+
+    //各施術の背景色
+
+    /* ヒアルロン酸 */
+
+    &--hel {
+        tr {
+            th {
+                background-color: $bg_hel;
+
+                //border-top: 1px solid $bg_hel;
+           
+            }
+        }
+    }
+
+    /* ボトックス */
+    &--btx {
+        tr {
+            th {
+                background-color: $bg_btx;
+            }
+        }
+    }
+
+    /* スレッドリフト */
+
+    &--lift {
+        tr {
+            th {
+                background-color: #fcf7dd;
+            }
+        }
+    }
+
+    &--md {
+        tr {
+            th {
+                background-color: #d3e3ff;
+            }
+        }
+    }
+
+    &--tenteki {
+        tr {
+            th {
+                background-color: #f2e2f9;
+            }
+        }
+    }
+
+    &--sapuli {
+        tr {
+            th {
+                background-color: #e2f9ed;
+            }
+        }
+    }
+
+    &--sosume {
+        tr {
+            th {
+                background-color: #e2f9ed;
+            }
+        }
+    }
+
+    &--keisei {
+        tr {
+            th {
+                background-color: #ffebd2;
+            }
+        }
+    }
+
+    /* ３列バージョン */
+
+    &--row03 {
+        &__th, &__td {
+            width: 33.3333333333%;
+        }
+
+        &__th {
+            @media (max-width: 767px) {
+                width: 20%;
+            }
+        }
+
+        &__td {
+            font-feature-settings: 'palt' 1;
+        }
+
+        &__thead {}
+
+        &__head-th {
+            background-color: #edc6ff !important;
+            color: #fff;
+            border: 1px solid #dbdbdb;
+            padding: 1.24rem 0;
+            font-size: 1.2rem;
+            font-weight: 600;
+            vertical-align: middle;
+
+            @media (max-width: 767px) {
+                font-size: 1.0rem;
+                padding: 1.3rem .5rem;
+            }
+        }
+    }
+}
+
+.price-sub-desc {
+    background-color: #f3f8ff;
+    padding: 1.2rem 1.5rem;
+
+    &__text {
+        font-size: 1rem;
+        color: #3886e4;
+    }
+}
