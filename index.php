@@ -566,7 +566,7 @@
   </div>
   <?php else: ?>
   <?php endif; ?>
-  <a href="#" class="page-top bounce"><img src="<?php echo get_template_directory_uri(); ?>/img/common/scrool_up.svg" alt="scrool-up"></a> </div>
+  <a href="#" class="page-top bounce"><img src="<?php echo get_template_directory_uri(); ?>/img/common/scrool_up.svg?0615" alt="scrool-up"></a> </div>
 <!--WRAPPER END-->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

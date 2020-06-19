@@ -811,7 +811,7 @@
 
     @media (max-width: 767px) {
         display: block;
-        width: 72%;
+        width: 58%;
         margin: 1.2rem auto;
     }
 }
@@ -1620,12 +1620,12 @@
             //background-color: transparent;
             //border-color: #686868;
             //color: #686868;
-            background-color: #fcd072;
+            background-color: #bababa;
             color: #777;
-            border: 1px solid #fcd072;
+            border: 1px solid #bababa;
             width: 29%;
             margin-top: 0;
-            color: #686868;
+            color: #fff;
 
             @media (max-width: 767px) {
                 width: 30%;
@@ -1646,6 +1646,7 @@
                 //color: #fff;
 
                 opacity: 1;
+                color: #686868;
 
                 &::after {}
             }

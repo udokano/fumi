@@ -180,7 +180,7 @@
     </div>
   </div>
   <a href="<?php echo home_url( '/' ); ?>list#youkai" class="youkai-img sp-dis" target="_blank">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/youkai_img_sp.png" alt="お顔の脂肪が気になる方" class="sp">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/youkai_img_sp.png?0452145" alt="お顔の脂肪が気になる方" class="sp">
       </a>
 </section>
 <section class="order__case__banner">

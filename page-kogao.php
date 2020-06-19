@@ -261,9 +261,12 @@ Template Name: 小顔治療
 </section>
 <section class="ope-intro bg-cp" id="area1">
   <div class="inner flex al-cent">
-    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/thumb03.jpg" alt="サムネイル"> </div>
+    <div class="thumb-sq">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/thumb03-01.jpg?012544522" alt="サムネイル">
+    </div>
+    <!-- ./thumb-sq -->
     <div class="text text-wide box-size">
-      <h2 class="ttl--small">脂肪溶解注射/BNLSneo、カベルライン(カベリン)、チンセラプラス</h2>
+      <h2>脂肪溶解注射/<span class="ttl--small">BNLSneo、<br class="sp">カベルライン(カベリン)、チンセラプラス</span></h2>
       <div class="bnls-btn bnls-btn--p02">
              <a href="<?php echo home_url( '/' ); ?>list#link-injection01" class="case__btn bnls-btn__link bnls-btn__link--p02" target="_blank">BNLSneo</a>
               <a href="<?php echo home_url( '/' ); ?>list#link-injection02" class="case__btn bnls-btn__link bnls-btn__link--p02" target="_blank">カベルライン</a>
