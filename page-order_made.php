@@ -384,13 +384,13 @@
       <!-- ./thumb -->
       <div class="right__col">
         <dl>
-          <dt class="flex al-cent bg__brown infusion__desc__tit ela__btx__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_brown.png?0421" alt="注射"></i><em>BNLSneo注射
-<br>(脂肪溶解注射)</em>
+          <dt class="flex al-cent bg__brown infusion__desc__tit ela__btx__tit"><i><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/injection_brown.png?0421" alt="注射"></i><em>脂肪溶解注射</em>
            <div class="thumb sp"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/kogao_ilast04.jpg?0511" alt="イラスト"></div>
            </dt>
            <div class="bnls-btn">
              <a href="<?php echo home_url( '/' ); ?>list#link-injection01" class="case__btn bnls-btn__link" target="_blank">BNLSneo</a>
-              <a href="<?php echo home_url( '/' ); ?>list#link-injection02" class="case__btn bnls-btn__link" target="_blank">カベルライン</a>
+              <a href="<?php echo home_url( '/' ); ?>list#link-injection02" class="case__btn bnls-btn__link bnls-btn__link--lhauto" target="_blank">
+              <span class="bnls-btn__link--text-cent">デオリポ<br>(カベルライン)</span></a>
                <a href="<?php echo home_url( '/' ); ?>list#link-injection03" class="case__btn bnls-btn__link" target="_blank">チンセラプラス</a>
            </div>
            <!-- ./bnls-btn -->

@@ -23,10 +23,9 @@ $my_terms = get_terms('faq_kind', $args);
   echo '<select id="tax__change" onchange="location.href=value;">';
 
 foreach ($my_terms as $term) {
-    echo '<option value="' . get_term_link($term->slug, "faq_kind") . '">' . $term->name . '</option>';
+    echo '<option value="' . get_term_link($term->slug, "faq_kind") .'?cat=' .$term->slug . '">' . $term->name . '</option>';
 }
    echo '</select>';
-
 ?>
   </div><!-- ./ select__content-->
 

@@ -266,15 +266,15 @@ Template Name: 小顔治療
     </div>
     <!-- ./thumb-sq -->
     <div class="text text-wide box-size">
-      <h2>脂肪溶解注射/<span class="ttl--small">BNLSneo、<br class="sp">カベルライン(カベリン)、チンセラプラス</span></h2>
+      <h2>脂肪溶解注射/<span class="ttl--small">BNLSneo、<br class="sp">デオリポ(カベルライン)、チンセラプラス</span></h2>
       <div class="bnls-btn bnls-btn--p02">
              <a href="<?php echo home_url( '/' ); ?>list#link-injection01" class="case__btn bnls-btn__link bnls-btn__link--p02" target="_blank">BNLSneo</a>
-              <a href="<?php echo home_url( '/' ); ?>list#link-injection02" class="case__btn bnls-btn__link bnls-btn__link--p02" target="_blank">カベルライン</a>
+              <a href="<?php echo home_url( '/' ); ?>list#link-injection02" class="case__btn bnls-btn__link bnls-btn__link--lhauto bnls-btn__link--p02" target="_blank"><span class="bnls-btn__link--text-cent">デオリポ<br>(カベルライン)</span></a>
                <a href="<?php echo home_url( '/' ); ?>list#link-injection03" class="case__btn bnls-btn__link bnls-btn__link--p02" target="_blank">チンセラプラス</a>
            </div>
            <!-- ./bnls-btn -->
       <p class="ls1 gosic mb25">脂肪の分解と排出を促進させるお薬を気になる部分に注射します。<br>
-当院ではその方のお顔の状態や来院ペースに合わせBNLSneo、カベルライン(カベリン)、チンセラプラスの3種類の脂肪溶解注射を扱っております。
+当院ではその方のお顔の状態や来院ペースに合わせBNLSneo、デオリポ(カベルライン)、チンセラプラスの3種類の脂肪溶解注射を扱っております。
 </p>
 
  <div class="case__btn__col2">
@@ -402,7 +402,7 @@ Template Name: 小顔治療
     <!-- ./price-list -->
      <div class="price-list gosic" id="gabel-p">
       <dl class="flex">
-        <dt class="fw600">カベルライン(カベリン)</dt>
+        <dt class="fw600">デオリポ(カベルライン)</dt>
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">

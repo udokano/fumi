@@ -269,7 +269,7 @@
         <ul class="col">
           <li data-url="<?php echo home_url('/'); ?>kogao#area3" class="js-link">・スレッドリフト</li>
           <li data-url="<?php echo home_url('/'); ?>kogao#area2" class="js-link">・エラボトックス</li>
-          <li data-url="<?php echo home_url('/'); ?>kogao#area1" class="js-link">・脂肪溶解注射/BNLSneo、カベルライン(カベリン)、<br>チンセラプラス</li>
+          <li data-url="<?php echo home_url('/'); ?>kogao#area1" class="js-link">・脂肪溶解注射/BNLSneo、デオリポ(カベルライン)、<br class="pc">チンセラプラス</li>
         </ul>
         </a> </li>
       <li class="box-size"> <a href="<?php echo home_url('/'); ?>nose-lift">
@@ -317,7 +317,7 @@
     <div class="inner flex">
       <div class="left-slide slide-area">
         <h2 class="cp tc c_gray">よくある質問</h2>
-        <p class="md tc c__l_green mb30 ">question</p>
+        <p class="md tc c__l_green mb30 ">frequently asked questions</p>
         <div class="swiper-container slide-p2 swiper2 cont">
           <div class="swiper-wrapper gosic">
             <!-- Slides -->
@@ -360,7 +360,7 @@
 
       <div class="right-slide slide-area">
         <h2 class="cp tc c_gray">症例写真</h2>
-        <p class="md tc c__l_green mb30">symptom</p>
+        <p class="md tc c__l_green mb30">case photo</p>
         <div class="slide-in">
           <?php
           $args = array(
