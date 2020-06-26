@@ -88,7 +88,46 @@ $bg_btx: #fedcf9;
     }
 }
 
-/* 施術名 */
+/* アンカーエリア改修 */
+
+.ancor-box--price {
+    width: 96%;
+    max-width: 880px;
+    margin: 0 auto 1.78rem;
+    flex-wrap: wrap;
+
+    .ancor-box--price__link {
+        width: 22%;
+        margin: 0 0 1.45rem;
+        position: relative;
+
+        @media (max-width: 767px) {
+            width: 31%;
+            height: 5vw;
+            line-height: 7vw;
+            font-size: 2.98vw;
+            font-feature-settings: 'palt' 1;
+        }
+
+        &--line02 {
+            @media (max-width: 767px) {
+                position: absolute;
+                top: 46%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                line-height: 1.23;
+                width: 100%;
+            }
+        }
+
+        &::after {
+            @media (max-width: 767px) {
+                width: 7px;
+                height: 7px;
+            }
+        }
+    }
+}
 
 .price-ope-ttl {
     font-size: 1.8rem;
@@ -100,11 +139,11 @@ $bg_btx: #fedcf9;
     margin-bottom: 3.4rem;
 
     &--hel {
-        border-color: #fcb7b7;
+        border-color: #cfa8dc;
     }
 
     &--btx {
-        border-color: #be7bda;
+        border-color: #fab2c0;
     }
 
     &--md {
@@ -112,7 +151,11 @@ $bg_btx: #fedcf9;
     }
 
     &--sapuli {
-        border-color: #7ff0b2;
+        border-color: #ead7bd;
+    }
+
+    &--tenteki {
+        border-color: #aeebeb;
     }
 }
 
@@ -146,7 +189,7 @@ $bg_btx: #fedcf9;
     &__sub {
         display: block;
         text-align: center;
-        font-size: .88rem;
+        font-size: 1.09rem;
     }
 }
 
@@ -201,6 +244,26 @@ $bg_btx: #fedcf9;
         font-size: .8rem;
     }
 
+    &--wide {
+        tr {
+            th {
+                width: 48%;
+
+                @media (max-width: 767px) {
+                    width: 60%;
+                }
+            }
+
+            td {
+                width: 52%;
+
+                @media (max-width: 767px) {
+                    width: 40%;
+                }
+            }
+        }
+    }
+
     //各施術の背景色
 
     /* ヒアルロン酸 */
@@ -208,7 +271,7 @@ $bg_btx: #fedcf9;
     &--hel {
         tr {
             th {
-                background-color: $bg_hel;
+                background-color: #faf4fc;
 
                 //border-top: 1px solid $bg_hel;
            
@@ -220,7 +283,7 @@ $bg_btx: #fedcf9;
     &--btx {
         tr {
             th {
-                background-color: $bg_btx;
+                background-color: #fff2f2;
             }
         }
     }
@@ -230,7 +293,15 @@ $bg_btx: #fedcf9;
     &--lift {
         tr {
             th {
-                background-color: #fcf7dd;
+                background-color: #fffaf3;
+            }
+        }
+    }
+
+    &--nose {
+        tr {
+            th {
+                background-color: #f0fff8;
             }
         }
     }
@@ -238,7 +309,7 @@ $bg_btx: #fedcf9;
     &--md {
         tr {
             th {
-                background-color: #d3e3ff;
+                background-color: #eefaff;
             }
         }
     }
@@ -246,7 +317,7 @@ $bg_btx: #fedcf9;
     &--tenteki {
         tr {
             th {
-                background-color: #f2e2f9;
+                background-color: #eefefe;
             }
         }
     }
@@ -254,7 +325,7 @@ $bg_btx: #fedcf9;
     &--sapuli {
         tr {
             th {
-                background-color: #e2f9ed;
+                background-color: #fcf7f0;
             }
         }
     }
@@ -262,7 +333,7 @@ $bg_btx: #fedcf9;
     &--sosume {
         tr {
             th {
-                background-color: #e2f9ed;
+                background-color: #fcf7f0;
             }
         }
     }
@@ -270,7 +341,7 @@ $bg_btx: #fedcf9;
     &--keisei {
         tr {
             th {
-                background-color: #ffebd2;
+                background-color: #f9f9f9;
             }
         }
     }
@@ -295,7 +366,7 @@ $bg_btx: #fedcf9;
         &__thead {}
 
         &__head-th {
-            background-color: #edc6ff !important;
+            background-color: #fab2c0 !important;
             color: #fff;
             border: 1px solid #dbdbdb;
             padding: 1.24rem 0;
@@ -312,11 +383,11 @@ $bg_btx: #fedcf9;
 }
 
 .price-sub-desc {
-    background-color: #f3f8ff;
+    background-color: #fcfcfc;
     padding: 1.2rem 1.5rem;
 
     &__text {
         font-size: 1rem;
-        color: #3886e4;
+        color: #686868;
     }
 }

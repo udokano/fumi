@@ -966,7 +966,7 @@ body.page {
     position: fixed;
     bottom: 3%;
     right: 2%;
-    width: 12px;
+    width: 19px;
     z-index: 9000;
     display: none;
 }
@@ -1011,7 +1011,7 @@ body.page {
     .page-top {
         bottom: 12%;
         right: 3.75%;
-        width: 7px;
+        width: 14px;
     }
 }
 
@@ -1043,203 +1043,6 @@ body.page {
 
     section {
         margin-bottom: 30px;
-    }
-}
-
-/*
-
-アーカイブページスタイル
-
-*/
-
-.archive {
-    .inner {
-        @media (max-width: 767px) {
-            width: 92%;
-        }
-
-        .post__list {
-            border: 1px solid #ededed;
-            color: $gray;
-            margin-bottom: 1.8rem;
-            padding: 45px;
-            font-family: $gosic;
-
-            @media (max-width: 767px) {
-                padding: 4%;
-            }
-
-            .thumb {
-                width: 210px;
-                height: 240px;
-
-                img {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                }
-
-                @media (max-width: 767px) {
-                    width: 32%;
-                    height: 32vw;
-
-                    img {}
-                }
-            }
-
-            .post__info {
-                width: 630px;
-
-                @media (max-width: 767px) {
-                    width: 64%;
-                    margin-left: 4.5%;
-                }
-
-                .top__info {
-                    margin-bottom: 1.1rem;
-                    align-items: center;
-
-                    @media (max-width: 767px) {
-                        flex-flow: column-reverse;
-                        align-items: flex-start;
-                        margin-bottom: .85rem;
-                    }
-
-                    .tax__content {}
-
-                    .tax {
-                        background-color: $new_rs;
-                        color: #fff;
-                        padding: 4px 8px;
-                        font-size: .7rem;
-                        display: inline-block;
-                        margin-right: .25rem;
-                        letter-spacing: 0;
-
-                        @media (max-width: 767px) {
-                            font-size: .6rem;
-                            padding: 2px 4px;
-                        }
-
-                        &:nth-of-type(1) {
-                            margin-left: 0;
-                        }
-                    }
-
-                    .article-date {
-                        font-size: .78rem;
-                        color: #ccc;
-
-                        @media (max-width: 767px) {
-                            font-size: .64rem;
-                            margin-bottom: .22rem;
-                        }
-                    }
-                }
-
-                h2 {
-                    font-size: 1.6rem;
-                    margin-bottom: 1.1rem;
-                    font-weight: 600;
-
-                    @media (max-width: 767px) {
-                        font-size: 1.01rem;
-                        margin-bottom: .58rem;
-                        letter-spacing: 0;
-                        overflow: hidden;
-                        text-overflow: ellipsis;
-                        white-space: nowrap;
-                    }
-                }
-
-                .comment {
-                    height: 5.5em;
-                    overflow: hidden;
-                    display: -webkit-box;
-                    -webkit-box-orient: vertical;
-                    -webkit-line-clamp: 4;
-
-                    @media (max-width: 767px) {
-                        height: 2.8rem;
-                        -webkit-line-clamp: 3;
-                    }
-
-                    p {
-                        font-size: .98rem;
-
-                        @media (max-width: 767px) {
-                            font-size: .7rem;
-                            line-height: 1.25;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-/*
-
-ページャーデザイン
-
-*/
-
-.pagination {
-    text-align: center;
-
-    ul.page-numbers {
-        display: inline-block;
-        text-align: center;
-
-        li {
-            display: inline-block;
-            padding: 10px 16px;
-            color: $gray;
-            background-color: $new_line;
-            font-weight: 600;
-            font-family: $gosic;
-
-            a {
-                color: $gray;
-            }
-        }
-    }
-}
-
-/*
-
-新しいアーカイヴスタイル
-
-*/
-
-.new_archive {
-    .inner {
-        width: 700px;
-
-        @media (max-width: 767px) {
-            width: 90%;
-        }
-
-        .new_archive_list {
-            margin-bottom: 3.5rem;
-
-            h2 {
-                text-align: center;
-                color: $gray;
-                font-size: 1.4rem;
-                background-color: $new_rs;
-                margin-bottom: 2.5rem;
-                padding: .5rem 0;
-                font-family: $gosic;
-
-                @media (max-width: 767px) {
-                    padding: .62rem;
-                    box-sizing: border-box;
-                    letter-spacing: 0;
-                    font-size: 1.15rem;
-                }
-            }
-        }
     }
 }
 

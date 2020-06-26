@@ -45,23 +45,6 @@ $query->set('posts_per_page', 4); //表示件数4件まで
 add_action('pre_get_posts', 'twpp_change_sort_order');
 
 
-//記事ページ　メインループ条件変更
-
- function twpp_change_sort_order02($query)
-{
-    if (is_admin() || ! $query->is_main_query()) {
-        return;
-    }
-
-    if ($query->is_tag() || $query->is_category() || $query->is_singular("post") || $query->is_date()) {
-
-$query->set('posts_per_page', 6); //表示件数4件まで
-    }
-}
-
-add_action('pre_get_posts', 'twpp_change_sort_order02');
-
-
 //GET terms で投稿タイプ縛り
 
 
@@ -147,13 +130,9 @@ function breadcrumb_func()
             $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><span itemprop="name"><a href="#" itemprop="item">'.esc_html(get_post_type_object(get_post_type())->label).'</span></a><meta itemprop="position" content="2" /></li>';
         } elseif (is_tax()) {
             $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_post_type_archive_link(get_post_type()).'" itemprop="item"><span itemprop="name">'.esc_html(get_post_type_object(get_post_type())->label).'</span></a><meta itemprop="position" content="2" /></li>';
-             $str.= '<li>&gt;</li>';
-            $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.single_term_title('', false).'</span></a><meta itemprop="position" content="3" /></li>';
+            $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">><a href="#" itemprop="item"><span itemprop="name">'.single_term_title('', false).'</span></a><meta itemprop="position" content="3" /></li>';
         } elseif (is_tag()) {
-            $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.single_tag_title('', false).'</span></a><meta itemprop="position" content="2" /></li>';
-        } elseif (is_date()) {
-            $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.get_the_date('Y年M', false).'</span></a><meta itemprop="position" content="2" /></li>';
-
+            $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">><a href="#" itemprop="item"><span itemprop="name">'.single_tag_title('', false).'</span></a><meta itemprop="position" content="2" /></li>';
         } elseif (is_category()) {
             $cat = get_queried_object();
             if ($cat -> parent != 0) {
@@ -183,39 +162,37 @@ function breadcrumb_func()
             } else {
                 $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="2" /></li>';
             }
-        }
-        elseif (is_singular("case")) {
-            $terms = wp_get_object_terms($post->ID, 'faq_kind');
-            $term_id = $terms[0];
-            if ($cat -> parent != 0) {
-                $ancestors = array_reverse(get_ancestors($term_id -> term_ID, 'faq_kind'));
-                foreach ($ancestors as $ancestor) {
-                    $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_term_link($ancestor).'" itemprop="item"><span itemprop="name aaaaa">'.$terms[0]->name.'</span></a><meta itemprop="position" content="2" /></li>';
-                    $str.= '<li>&gt;</li>';
-                }
-                $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_term_link($term_id).'" itemprop="item"><span itemprop="name">'.$terms[0]->name.'</span></a><meta itemprop="position" content="3" /></li>';
-                $str.= '<li>&gt;</li>';
-                $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="4" /></li>';
-            } else {
-                $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_term_link($term_id).'" itemprop="item"><span itemprop="name">'.$term_id->name.'</span></a><meta itemprop="position" content="2" /></li>';
-                $str.= '<li>&gt;</li>';
-                $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="3" /></li>';
-            }
-        }
-        elseif (is_single()) {
+        } /* elseif (is_single()) {
             $categories = get_the_category($post->ID);
             $cat = $categories[0];
             if ($cat -> parent != 0) {
                 $ancestors = array_reverse(get_ancestors($cat -> cat_ID, 'category'));
                 foreach ($ancestors as $ancestor) {
-                    $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_category_link($ancestor).'" itemprop="item"><span itemprop="name aaaa">'.get_cat_name($ancestor).'</span></a><meta itemprop="position" content="2" /></li>';
+                    $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_category_link($ancestor).'" itemprop="item"><span itemprop="name">'.get_cat_name($ancestor).'</span></a><meta itemprop="position" content="2" /></li>';
                     $str.= '<li>&gt;</li>';
                 }
                 $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_category_link($cat -> term_id).'" itemprop="item"><span itemprop="name">'.$categories[0]->cat_name.'</span></a><meta itemprop="position" content="3" /></li>';
                 $str.= '<li>&gt;</li>';
                 $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="4" /></li>';
             } else {
-                $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_category_link($cat -> term_id).'" itemprop="item"><span itemprop="name  aaaa">'.$cat-> cat_name.'</span></a><meta itemprop="position" content="2" /></li>';
+                $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_category_link($cat -> term_id).'" itemprop="item"><span itemprop="name">'.$cat-> cat_name.'</span></a><meta itemprop="position" content="2" /></li>';
+                $str.= '<li>&gt;</li>';
+                $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="3" /></li>';
+            }
+        } */ elseif (is_single()) {
+            $terms = wp_get_object_terms($post->ID, 'faq_kind');
+            $term_id = $terms[0];
+            if ($cat -> parent != 0) {
+                $ancestors = array_reverse(get_ancestors($term_id -> term_ID, 'faq_kind'));
+                foreach ($ancestors as $ancestor) {
+                    $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_term_link($ancestor).'" itemprop="item"><span itemprop="name">'.get_cat_name($ancestor).'</span></a><meta itemprop="position" content="2" /></li>';
+                    $str.= '<li>&gt;</li>';
+                }
+                $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_term_link($term_id).'" itemprop="item"><span itemprop="name">'.$terms[0]->name.'</span></a><meta itemprop="position" content="3" /></li>';
+                $str.= '<li>&gt;</li>';
+                $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="4" /></li>';
+            } else {
+                $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_term_link($term_id).'" itemprop="item"><span itemprop="name">'.$term_id-> name.'</span></a><meta itemprop="position" content="2" /></li>';
                 $str.= '<li>&gt;</li>';
                 $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="3" /></li>';
             }
@@ -239,7 +216,7 @@ function save_default_thumbnail($post_id)
     $post_thumbnail = get_post_meta($post_id, $key = '_thumbnail_id', $single = true);
     if (!wp_is_post_revision($post_id)) {
         if (empty($post_thumbnail)) {
-            update_post_meta($post_id, $meta_key = '_thumbnail_id', $meta_value = '847');
+            update_post_meta($post_id, $meta_key = '_thumbnail_id', $meta_value = '789');
         }
     }
 }
@@ -256,17 +233,9 @@ function save_default_thumbnail($post_id)
 add_action('admin_menu','remove_menus');*/
 
 
-/* 管理者以外でも外観設定を付与 */
+//管理画面カスタマイズ(お客様ダッシュボードレイアウト)
 
 
-function add_theme_caps(){
-    $role = get_role( 'editor' );
-    $role->add_cap( 'edit_theme_options' );
-}
-add_action( 'admin_init', 'add_theme_caps' );
-
-
-//管理画面カスタマイズ(お客様用ダッシュボードレイアウト)
 
 function remove_menus()
 {
@@ -274,7 +243,7 @@ function remove_menus()
 
 
         remove_menu_page('index.php');                  // ダッシュボード
-    //remove_menu_page('edit.php');                   // 投稿
+    remove_menu_page('edit.php');                   // 投稿
     remove_menu_page('upload.php');                 // メディア
     //remove_menu_page('edit.php?post_type=page');    // 固定ページ
     remove_menu_page('edit-comments.php');          // コメント
@@ -285,10 +254,6 @@ function remove_menus()
     remove_menu_page('options-general.php');        // 設定
     remove_menu_page('edit.php?post_type=mw-wp-form');  // お問い合わせ（mw-wp-form）
     //remove_menu_page( 'profile.php' );  // プロフィール
-    add_menu_page('ウィジット', 'ウィジット', 'edit_posts', 'widgets.php', '', 'dashicons-editor-table
-', 6);
-
-
     }
 }
 add_action('admin_menu', 'remove_menus');
@@ -330,118 +295,3 @@ add_action('admin_menu', 'add_page_to_admin_menu3');
  */
 add_action('admin_footer-welcart-shop_page_usces_itemedit', 'super_category_toggler');
 add_action('admin_footer-welcart-shop_page_usces_itemnew', 'super_category_toggler');
-
-
-/* カスタムウィジェット導入 */
-
-function my_theme_widgets_init() {
-  register_sidebar( array(
-    'name' => 'BLOG Sidebar',
-    'id' => 'blog-sidebar',
-    'class' => 'blog-sidebar',
-   /*  'before_widget' => '<li class="widget__list">',
-    'after_widget' => '</li>', */
-    'before_title' => '<h3 class="widget__ttl">',
-    'after_title' => '</h3>'
-  ) );
-}
-add_action( 'widgets_init', 'my_theme_widgets_init' );
-
-/* いらないウィジェット削除 */
-
-function unregister_default_widget() {
-	//unregister_widget('WP_Widget_Pages');            // 固定ページ
-	//unregister_widget('WP_Widget_Calendar');         // カレンダー
-	//unregister_widget('WP_Widget_Archives');         // アーカイブ
-	//unregister_widget('WP_Widget_Meta');             // メタ情報
-	unregister_widget('WP_Widget_Search');           // 検索
-	//unregister_widget('WP_Widget_Text');             // テキスト
-	//unregister_widget('WP_Widget_Categories');       // カテゴリー
-	//unregister_widget('WP_Widget_Recent_Posts');     // 最近の投稿
-	unregister_widget('WP_Widget_Recent_Comments');  // 最近のコメント
-	unregister_widget('WP_Widget_RSS');              // RSS
-	//unregister_widget('WP_Widget_Tag_Cloud');        // タグクラウド
-	unregister_widget('WP_Nav_Menu_Widget');         // カスタムメニュー
-}
-add_action( 'widgets_init', 'unregister_default_widget' );
-
-
-/* 本文抜粋のを...に変更 */
-
-function twpp_change_excerpt_more( $more ) {
-  return '...';
-}
-add_filter( 'excerpt_more', 'twpp_change_excerpt_more' );
-
-
-function twpp_change_excerpt_length( $length ) {
-  return 105;
-}
-add_filter( 'excerpt_length', 'twpp_change_excerpt_length', 999 );
-
-//urlのカテゴリー削除
-
-
-/*
-エディタースタイル読み込み
------------------------------------*/
-
-// テーマフォルダ直下のeditor-style.cssを読み込み
-add_action('admin_init',function(){
-    add_editor_style();
-});
-
-function default_quicktags($qtInit) {
-  $qtInit['buttons'] = 'link';//表示するボタンのIDを羅列
-  return $qtInit;
-}
-add_filter('quicktags_settings', 'default_quicktags', 10, 1);
-
-if ( !function_exists( 'st_add_orignal_quicktags' ) ) {
-  /**
-   * オリジナルクイックタグ登録
-   */
-  function st_add_orignal_quicktags() {
-    if ( wp_script_is( 'quicktags' ) ) {
-      ?>
-            <script type="text/javascript">
-                QTags.addButton('ed_p', '文章段落', '<div class="blog-text">', '</div>');
-                QTags.addButton('ed_b', '太字', '<b>', '</b>');
-                 QTags.addButton('ed_strong', '強調文字', '<strong>','</strong>');
-                  QTags.addButton('ed_text_small', '小さな文字', '<span class="blog-text-small">','</span>');
-                  QTags.addButton('ed_text_medium', '少し大きな文字', '<span class="blog-text-medium">','</span>');
-                   QTags.addButton('ed_text_large', '大きな文字', '<span class="blog-text-large">','</span>');
-                   QTags.addButton('ed_text_center', 'テキスト中央寄せ', '<p class="blog-text-center">','</p>');
-                QTags.addButton('ed_br', '改行', '<br>');
-                QTags.addButton('ed_br__pc', '改行PCのみ', '<br class="pc">');
-                 QTags.addButton('ed_br__sp', '改行SPのみ', '<br class="sp">');
-                 QTags.addButton('purple', '紫文字', '<span class="blog-c-purple">','</span>');
-                 QTags.addButton('ed_text_pink', 'ピンク文字', '<span class="blog-c-pink">','</span>');
-                 QTags.addButton('ed_text_blue', '青文字', '<span class="blog-c-blue">','</span>');
-                 QTags.addButton('ed_text_gold', '金色文字', '<span class="blog-c-gold">','</span>');
-                 QTags.addButton('ed_text_underline', 'グレー下線', '<span class="blog-under-line">','</span>');
-                 QTags.addButton('ed_text_purple_underline', '下線付き紫文字', '<span class="blog-under-purple">','</span>');
-                 QTags.addButton('ed_text_pink_underline', '下線付きピンク文字', '<span class="blog-under-pink">','</span>');
-                  QTags.addButton('ed_text_blue_underline', '下線付き青文字', '<span class="blog-under-blue">','</span>');
-                 QTags.addButton('ed_text_gold_underline', '下線付き金色文字', '<span class="blog-under-gold">','</span>');
-                QTags.addButton('ed_img_center_small', '画像中央寄せ（小さめ）', '<div class="blog-img-center--small">','ここに画像を挿入してください</div>');
-                QTags.addButton('ed_img_center_medium', '画像中央寄せ（普通）', '<div class="blog-img-center--medium">','ここに画像を挿入してください</div>');
-                QTags.addButton('ed_img_center_large', '画像中央寄せ（大きめ）', '<div class="blog-img-center--large">','ここに画像を挿入してください</div>');
-                QTags.addButton('ed_img_center_full', '画像中央寄せ（100%）', '<div class="blog-img-center--full">','ここに画像を挿入してください</div>');
-                QTags.addButton('ed_text_box', 'グレーのテキストボックス', '<div class="blog-text-box">','</div>');
-			</script>
-<?php
-}
-}
-}
-add_action( 'admin_print_footer_scripts', 'st_add_orignal_quicktags' );
-
-/* ビジュアルエディタの指定できるフォーマットを変更
-* ---------------------------------------- */
-
-add_filter( 'tiny_mce_before_init', 'custom_tiny_mce_formats' );
-function custom_tiny_mce_formats( $settings ){
-  $settings[ 'block_formats' ] = '段落=p;見出し1=h2;見出し2=h3;見出し3=h4;';
-  return $settings;
-
-}

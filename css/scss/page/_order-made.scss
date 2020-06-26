@@ -811,7 +811,7 @@
 
     @media (max-width: 767px) {
         display: block;
-        width: 72%;
+        width: 58%;
         margin: 1.2rem auto;
     }
 }
@@ -1568,9 +1568,12 @@
 
 .bnls-btn {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 1.5rem;
+
+    @media (max-width: 767px) {
+        justify-content: space-between;
+    }
 
     &::after {
         content: "";
@@ -1579,9 +1582,9 @@
     }
 
     &__link {
-        width: 180px;
-        height: 57px;
-        line-height: 57px;
+        width: 152px;
+        height: 49px;
+        line-height: 49px;
 
         //background-color: #e6c2a6;
         background-color: #fcd072;
@@ -1591,13 +1594,28 @@
         color: #454545;
         font-weight: 600;
         margin-left: 0;
-        margin-right: 0;
+        margin-right: 1.4rem;
+        font-size: .92rem;
+        position: relative;
 
         @media (max-width: 767px) {
             width: 30%;
             height: 41px;
             line-height: 41px;
             font-size: 2.8vw;
+            margin-right: 0;
+        }
+
+        &--lhauto {
+            line-height: 1.25;
+        }
+
+        &--text-cent {
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
 
         &::after {
@@ -1620,12 +1638,12 @@
             //background-color: transparent;
             //border-color: #686868;
             //color: #686868;
-            background-color: #fcd072;
+            background-color: #bababa;
             color: #777;
-            border: 1px solid #fcd072;
+            border: 1px solid #bababa;
             width: 29%;
             margin-top: 0;
-            color: #686868;
+            color: #fff;
 
             @media (max-width: 767px) {
                 width: 30%;
@@ -1646,6 +1664,7 @@
                 //color: #fff;
 
                 opacity: 1;
+                color: #686868;
 
                 &::after {}
             }
@@ -1878,7 +1897,7 @@
 }
 
 .bg__deep__cach {
-    background-color: #00a3fe;
+    background-color: #d4f1fe;
 }
 
 .border__deep {
@@ -1898,7 +1917,7 @@
 }
 
 .bg__shallow__cach {
-    background-color: #ffea01 !important;
+    background-color: #fff8ae !important;
 }
 
 .lift_desc {
@@ -1962,11 +1981,13 @@
             color: #fff;
             text-align: center;
             font-size: 20px;
-            background-color: #00a3fe;
+            background-color: #d4f1fe;
             border-radius: 17px;
             line-height: 1;
             padding: 6px 0;
             margin-bottom: 12px;
+            color: #686868;
+            font-weight: 600;
 
             &--right {
                 width: 89%;
@@ -2041,6 +2062,7 @@
             text-align: center;
             width: 100%;
             line-height: 1.19;
+            color: #686868;
 
             @media (max-width: 767px) {
                 font-size: 3.4888vw;
