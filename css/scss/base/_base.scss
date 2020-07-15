@@ -284,6 +284,10 @@ section {
     }
 }
 
+.bdtop0 {
+    border-top: none !important;
+}
+
 /*HEADER  CV-BTNS*/
 
 /* .top-cv-btn {
@@ -393,12 +397,16 @@ body.page {
 
         a {
             font-size: .78rem;
-            color: $cg;
+
+            //color: $cg;
+            color: #686868;
             font-family: $gosic;
+            font-weight: 600;
         }
 
         &:nth-of-type(1) a {
             color: #686868;
+            font-weight: normal;
         }
     }
 }

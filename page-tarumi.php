@@ -132,7 +132,7 @@ Template Name: たるみ治療
       </dl>
       <dl class="flex">
         <dt>0.1cc</dt>
-        <dd>¥13,000</dd>
+        <dd>¥10,000</dd>
       </dl>
     </div>
     <p class="note gosic">＊カニューレを使用する場合は別途＋¥1,250(税別)</p>

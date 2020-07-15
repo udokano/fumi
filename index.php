@@ -419,7 +419,7 @@
           <!-- ./posts  -->
 
           <?php endwhile; wp_reset_postdata(); ?>
-          <div class="btn__cont"> <a href="<?php echo get_post_type_archive_link(get_post_type());?>">記事一覧へ</a> </div>
+          <div class="btn__cont"> <a href="<?php echo home_url('/');?>case-list">症例写真一覧へ</a> </div>
 <?php else: ?>
 <p class="tc gray gosic">ただいま準備中です<br>公開まで今しばらくお待ちくださいませ</p>
 
