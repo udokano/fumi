@@ -88,6 +88,40 @@ function hoge_terms_clauses($clauses, $taxonomy, $args)
 add_filter('terms_clauses', 'hoge_terms_clauses', 10, 3);
 
 
+//GET terms 説明文の001でそーと
+
+
+function taxonomy_orderby_description( $orderby) {
+  if ( $args['orderby'] == 'description' ) {
+    $orderby = 'tt.description';
+  }
+  return $orderby;
+}
+add_filter( 'get_terms_orderby', 'taxonomy_orderby_description', 10, 1 );
+
+
+
+/* function my_admin_script() {
+  echo '<script>
+  jQuery(".term-description-wrap p").text("aaaaaa");
+  
+  </script>';
+}
+add_action('admin_print_scripts-edit-tags.php', 'my_admin_script');
+
+
+function admin_func() {
+
+"<script>
+alert('test');
+</script>";
+
+}
+add_action('admin_head-edit-tags.php?taxonomy=faq_kind&post_type=case', 'admin_func');
+add_action('admin_head-edit-tags.php?taxonomy=faq_kind&post_type=case', 'admin_func');
+ */
+
+
 
 // レスポンシブページネーション
 
@@ -379,7 +413,7 @@ function twpp_change_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'twpp_change_excerpt_length', 999 );
 
-/* remove_filter('the_content','wpautop'); */
+//urlのカテゴリー削除
 
 
 /*
@@ -445,7 +479,6 @@ function custom_tiny_mce_formats( $settings ){
   return $settings;
 
 }
-
 
 //TinyMCE追加用のスタイルを初期化
 //http://com4tis.net/tinymce-advanced-post-custom/

@@ -17,6 +17,8 @@
  <?php
   $args = array(
      'post_type' => array('case'),
+      'orderby' => 'description',
+     'order' => 'ASC'
     );
 
 $my_terms = get_terms('faq_kind', $args);
