@@ -408,7 +408,7 @@ function ua_smt()
           <tr>
             <td rowspan="2" style="background-color: #eddbe7; vertical-align: middle;" class="left">クレビエルコントア(あご形成) </td>
             <td>0.1cc</td>
-            <td class="right">¥13,000</td>
+            <td class="right">¥10,000</td>
           </tr>
         </tbody>
       </table>
