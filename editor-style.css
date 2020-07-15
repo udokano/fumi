@@ -56,36 +56,36 @@ thead,
 tr,
 th,
 td {
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
-    font-family: inherit;
-    font-size: 100%;
-    font-weight: inherit;
-    font-style: inherit;
-    border: 0;
-    outline: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+  border: 0;
+  outline: 0;
 }
 
 li {
-    list-style-position: inside;
+  list-style-position: inside;
 }
 
 a img:hover,
 a:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 li img {
-    display: block;
+  display: block;
 }
 
 a img {
-    border-style: none;
+  border-style: none;
 }
 
 img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 /*===================
@@ -104,265 +104,272 @@ menu,
 nav,
 section,
 summary {
-    display: block;
+  display: block;
 }
 
 /* 基本スタイル */
 
 #tinymce {
-    padding: 2.78rem;
+  padding: 2.78rem;
 }
 
 body {
-    color: #666;
-    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+  color: #666;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
+    "MS PGothic", "sans-serif";
 }
 
 /* 見づらいので余白追加 */
 
 body.wp-autoresize {
-    padding: 1.88rem !important;
+  padding: 1.88rem !important;
 }
 
 html {
-    font-size: 100%;
+  font-size: 100%;
 }
 
 @media (max-width: 767px) {
-    html {
-        font-size: 80%;
-    }
+  html {
+    font-size: 80%;
+  }
 }
 
 a {
-    text-decoration: none;
-    color: #666;
+  text-decoration: none;
+  color: #666;
 }
 
 img {
-    width: 100% !important;
-    height: auto !important;
+  width: auto !important;
+  height: auto !important;
+  max-width: 100% !important;
 }
 
 /* 文章段落 */
 
 p {
-    margin-bottom: 1em;
-    font-size: 1.20rem;
-    line-height: 1.9;
+  margin-bottom: 1em;
+  font-size: 1.2rem;
+  line-height: 1.9;
 }
 
 a {
-    color: #f575bc;
-    font-weight: 600;
+  color: #f575bc;
+  font-weight: 600;
 }
 
 h1 {
-    font-size: 2.2rem;
-    line-height: 1.34;
-    margin-bottom: 1.25rem;
-    position: relative;
+  font-size: 2.2rem;
+  line-height: 1.34;
+  margin-bottom: 1.25rem;
+  position: relative;
 }
 
 h1::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    width: 100%;
-    height: 13px;
-    background-color: rgba(255, 240, 224, 0.62);
-    z-index: -1;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 13px;
+  background-color: rgba(255, 240, 224, 0.62);
+  z-index: -1;
 }
 
 h2 {
-    font-size: 1.4rem;
-    margin-bottom: 1.25rem;
-    padding-bottom: .88rem;
-    position: relative;
+  font-size: 1.4rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.88rem;
+  position: relative;
 }
 
 h2::after {
-    content: "";
-    display: block;
-    height: 4px;
-    background: -webkit-linear-gradient(to right, rgb(254, 171, 240), transparent);
-    background: linear-gradient(to right, rgb(254, 171, 240), transparent);
+  content: "";
+  display: block;
+  height: 4px;
+  background: -webkit-linear-gradient(to right, rgb(254, 171, 240), transparent);
+  background: linear-gradient(to right, rgb(254, 171, 240), transparent);
 }
 
 h3 {
-    font-size: 1.9rem;
-    border-bottom: 1px dashed #dadada;
-    padding-bottom: .42rem;
-    margin-bottom: 1.35rem;
+  font-size: 1.9rem;
+  border-bottom: 1px dashed #dadada;
+  padding-bottom: 0.42rem;
+  margin-bottom: 1.35rem;
 }
 
 h4 {
-    font-size: 1.6rem;
-    border-left: 4px solid #666;
-    padding-left: 1.1rem;
-    margin-bottom: 1.35rem;
+  font-size: 1.6rem;
+  border-left: 4px solid #666;
+  padding-left: 1.1rem;
+  margin-bottom: 1.35rem;
 }
 
-p, .blog-text {
-    font-size: 1rem;
-    margin-bottom: 1.34rem;
+p,
+.blog-text {
+  font-size: 1rem;
+  margin-bottom: 1.34rem;
 }
 
 strong {
-    background-color: #ffebf8;
-    padding: .22rem .11rem;
-    font-weight: 600;
-    color: #e33bb0;
+  background-color: #ffebf8;
+  padding: 0.22rem 0.11rem;
+  font-weight: 600;
+  color: #e33bb0;
 }
 
 .blog-text-small {
-    font-size: .78rem;
+  font-size: 0.78rem;
 }
 
 .blog-text-medium {
-    font-size: 1.27rem;
+  font-size: 1.27rem;
 }
 
 .blog-text-large {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 .blog-text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .blog-c-gold {
-    color: #9d8440;
+  color: #9d8440;
 }
 
 .blog-c-purple {
-    color: #d891f7;
+  color: #d891f7;
 }
 
 .blog-c-pink {
-    color: #f774c7;
+  color: #f774c7;
 }
 
 .blog-c-blue {
-    color: #52a0ff;
+  color: #52a0ff;
 }
 
 /* アンダーライン */
 
 .blog-under-line {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .blog-under-purple {
-    text-decoration: underline;
-    color: #d891f7;
+  text-decoration: underline;
+  color: #d891f7;
 }
 
 .blog-under-pink {
-    text-decoration: underline;
-    color: #f774c7;
+  text-decoration: underline;
+  color: #f774c7;
 }
 
 .blog-under-blue {
-    text-decoration: underline;
-    color: #52a0ff;
+  text-decoration: underline;
+  color: #52a0ff;
 }
 
 .blog-under-gold {
-    text-decoration: underline;
-    color: #9d8440;
+  text-decoration: underline;
+  color: #9d8440;
 }
 
 .blog-img-center--small {
-    width: 38%;
-    max-width: 338px;
-    margin: 0 auto 1.2rem;
+  width: 38%;
+  max-width: 338px;
+  margin: 0 auto 1.2rem;
 }
 
 .blog-img-center--medium {
-    max-width: 448px;
-    width: 54%;
-    margin: 0 auto 1.2rem;
+  max-width: 448px;
+  width: 54%;
+  margin: 0 auto 1.2rem;
 }
 
 .blog-img-center--large {
-    max-width: 680px;
-    width: 82%;
-    margin: 0 auto 1.2rem;
+  max-width: 680px;
+  width: 82%;
+  margin: 0 auto 1.2rem;
 }
 
 .blog-img-center--full {
-    width: 88%;
-    margin: 0 auto 1.2rem;
+  width: 88%;
+  margin: 0 auto 1.2rem;
 }
 
 /* テキストボックス */
 
 .blog-text-box {
-    box-sizing: border-box;
-    padding: 1.5rem;
-    background-color: #fafafa;
-    border: 1px solid #ededed;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  background-color: #fafafa;
+  border: 1px solid #ededed;
 }
 
 /* テーブル */
 
 table {
-    width: 62%;
-    margin: 0 auto 1.2rem;
+  width: 62%;
+  margin: 0 auto 1.2rem;
 }
 
-table tr th, table tr td {
-    padding: 1.2rem 0;
-    text-align: center;
-    vertical-align: middle;
-    border: 1px solid #cdf9f5 !important;
-    font-size: 1.08rem;
+table tr th,
+table tr td {
+  padding: 1.2rem 0;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #cdf9f5 !important;
+  font-size: 1.08rem;
 }
 
-table tr:first-of-type td, table tr:first-of-type th {
-    background-color: #eafdfb;
-    font-weight: 600;
+table tr:first-of-type td,
+table tr:first-of-type th {
+  background-color: #eafdfb;
+  font-weight: 600;
 }
 
-ul, ol {
-    margin-bottom: 1.55rem;
+ul,
+ol {
+  margin-bottom: 1.55rem;
 }
 
-ul li, ol li {
-    font-size: 1.08rem;
+ul li,
+ol li {
+  font-size: 1.08rem;
 }
 
 /* 引用 */
 
 blockquote {
-    background-color: #f8f8f8;
-    padding: 1.89rem 1.65rem;
-    padding-top: 2.8rem;
-    border-left: 4px solid #ebdbc1;
-    margin-bottom: 1.25rem;
-    font-size: .88rem;
-    line-height: 1.55;
-    background: #f8f8f8 url("http://fumibeauty/wp-content/uploads/2020/06/quote.png") no-repeat 29px 12px / 26px auto;
+  background-color: #f8f8f8;
+  padding: 1.89rem 1.65rem;
+  padding-top: 2.8rem;
+  border-left: 4px solid #ebdbc1;
+  margin-bottom: 1.25rem;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  background: #f8f8f8 url("http://fumibeauty/wp-content/uploads/2020/06/quote.png") no-repeat 29px 12px / 26px auto;
 }
 
 blockquote p {
-    margin-bottom: 0 !important;
-    font-size: .88rem;
-    line-height: 1.55;
+  margin-bottom: 0 !important;
+  font-size: 0.88rem;
+  line-height: 1.55;
 }
 
 .sp {
-    display: none;
+  display: none;
 }
 
 @media (max-width: 767px) {
-    .sp {
-        display: block;
-    }
+  .sp {
+    display: block;
+  }
 
-    .pc {
-        display: none;
-    }
+  .pc {
+    display: none;
+  }
 }
