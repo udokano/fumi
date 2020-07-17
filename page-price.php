@@ -124,7 +124,12 @@ Template Name: 料金一覧
     </tr>
 
      <tr class="price-table__tr">
-      <td class="price-table__td price-table__td--col02" colspan="2">スタンダード部位<span class="price-table-ttl__sub">目尻 ・ 眉間 ・ 額 ・ あご ・ 鼻(バニー)</span><span class="price-table-ttl__sub">※アラガン社ボトックスビスタを使用</span></td>
+      <td class="price-table__td price-table__td--col02" colspan="2">
+
+      <div class="price-table-ttl__sub-sub-ttl">スタンダード部位：目尻 ・ 眉間 ・ 額 ・ あご ・ 鼻(バニー)
+      <span class="price-table-ttl__sub-sub-ttl--bottom">※アラガン社ボトックスビスタを使用</span></div>
+
+      </td>
     </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">１部位</th>
@@ -147,8 +152,9 @@ Template Name: 料金一覧
       <td class="price-table__td">¥70,000（税別）</td>
     </tr>
      <tr class="price-table__tr">
-      <td class="price-table__td price-table__td--col02" colspan="2">アディショナル部位<span class="price-table-ttl__sub">口角 ・ 目頭 ・ 口唇(口すぼめ時のしわ) ・ 眉下(ブローリフト) ・ アーモンドアイ(たれ目）・ 鼻翼
-</span><span class="price-table-ttl__sub">※アラガン社ボトックスビスタを使用</span></td>
+      <td class="price-table__td price-table__td--col02" colspan="2">
+      <div class="price-table-ttl__sub-sub-ttl"><span class="price-table-ttl__sub">アディショナル部位：口角 ・ 目頭 ・ 口唇(口すぼめ時のしわ) ・ 眉下(ブローリフト) ・ アーモンドアイ(たれ目）・ 鼻翼
+<span class="price-table-ttl__sub-sub-ttl--bottom">※アラガン社ボトックスビスタを使用</span></div></td>
     </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">スタンダード部位に追加１部位</th>
@@ -310,7 +316,7 @@ Template Name: 料金一覧
       <td class="price-table__td">¥50,000（税別）</td>
     </tr>
     <tr class="price-table__tr">
-      <th class="price-table__th">1ヶ月以内の再施術<span class="price-table__note">※同一箇所</span></th>
+      <th class="price-table__th">1ヶ月以内の再施術　※同一箇所</th>
       <td class="price-table__td">¥45,000（税別）</td>
     </tr>
   </table>
@@ -522,9 +528,8 @@ Template Name: 料金一覧
     </tr>
 
      <tr class="price-table__tr">
-      <th class="price-table__th">いぼ</th>
+      <th class="price-table__th">いぼレーザー治療</th>
       <td class="price-table__td">¥1,000（税別）~
-        <span class="price-table__note">※切開摘出術が必要な場合もあり、その場合は保険適応となります。</span>
       </td>
     </tr>
 
@@ -539,7 +544,7 @@ Template Name: 料金一覧
     </tr>
 
     <tr class="price-table__tr">
-      <td class="price-table__td price-table__td--col02" colspan="2">※その他、肥厚性瘢痕や粉瘤等の手術は保険適応となります。</td>
+      <td class="price-table__td price-table__td--col02" colspan="2">※ホクロやイボの状態によっては切開摘出術が必要な場合もありその場合は保険適応となります。<br class="">その他肥厚性瘢痕や粉瘤の手術も保険適応となります。</td>
     </tr>
 
    <!--  <tr class="price-table__tr">
@@ -754,7 +759,7 @@ Template Name: 料金一覧
   <td class="price-table__td price-table__td--top head-bg-btx price-table__td--col02" colspan="2">ピーリング</td>
   </tr>
      <tr class="price-table__tr">
-      <th class="price-table__th" rowspan="1">マッサージピール<br>（コラーゲンピールPRX-T33）</th>
+      <th class="price-table__th" rowspan="1">マッサージピール<br class="sp">（コラーゲンピールPRX-T33）</th>
       <td class="price-table__td price-table__td--fz-small" >全顔 ¥15,000（税別）<br>全顔+首 ¥23,000（税別）</td>
     </tr>
 
@@ -1030,11 +1035,11 @@ Template Name: 料金一覧
       <td class="price-table__td">¥1,500（税別）</td>
     </tr>
     <tr class="price-table__tr">
-      <th class="price-table__th">マルチビタミン&ミネラル(酵母フリー) <br>180カプセル</th>
+      <th class="price-table__th">マルチビタミン&ミネラル(酵母フリー) <br class="sp">180カプセル</th>
       <td class="price-table__td">¥5,000（税別）</td>
     </tr>
     <tr class="price-table__tr">
-      <th class="price-table__th">マルチビタミン&ミネラル女性用 <br>270カプセル</th>
+      <th class="price-table__th">マルチビタミン&ミネラル女性用 <br class="sp">270カプセル</th>
       <td class="price-table__td">¥9,500（税別）</td>
     </tr>
     <tr class="price-table__tr">
