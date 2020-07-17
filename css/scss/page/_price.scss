@@ -216,6 +216,20 @@ $bg_btx: #fedcf9;
         font-size: .99rem;
         font-weight: normal;
     }
+
+    &__sub-sub-ttl {
+        /*  width: 80%;
+         max-width: 400px; */
+        font-size: .99rem;
+        text-align: center;
+        margin: 0 auto;
+        display: inline-block;
+
+        &--bottom {
+            text-align: right;
+            display: block;
+        }
+    }
 }
 
 .price-table {
@@ -339,7 +353,7 @@ $bg_btx: #fedcf9;
     &--btx {
         tr {
             th {
-                background-color: #fff2f2;
+                background-color: #fce9f5;
             }
         }
     }
@@ -389,7 +403,7 @@ $bg_btx: #fedcf9;
     &--sosume {
         tr {
             th {
-                background-color: #ffefdd;
+                background-color: #ffe2c6;
             }
         }
     }

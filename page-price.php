@@ -124,7 +124,12 @@ Template Name: 料金一覧
     </tr>
 
      <tr class="price-table__tr">
-      <td class="price-table__td price-table__td--col02" colspan="2">スタンダード部位<span class="price-table-ttl__sub">目尻 ・ 眉間 ・ 額 ・ あご ・ 鼻(バニー)</span><span class="price-table-ttl__sub">※アラガン社ボトックスビスタを使用</span></td>
+      <td class="price-table__td price-table__td--col02" colspan="2">
+
+      <div class="price-table-ttl__sub-sub-ttl">スタンダード部位：目尻 ・ 眉間 ・ 額 ・ あご ・ 鼻(バニー)
+      <span class="price-table-ttl__sub-sub-ttl--bottom">※アラガン社ボトックスビスタを使用</span></div>
+
+      </td>
     </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">１部位</th>
@@ -147,8 +152,9 @@ Template Name: 料金一覧
       <td class="price-table__td">¥70,000（税別）</td>
     </tr>
      <tr class="price-table__tr">
-      <td class="price-table__td price-table__td--col02" colspan="2">アディショナル部位<span class="price-table-ttl__sub">口角 ・ 目頭 ・ 口唇(口すぼめ時のしわ) ・ 眉下(ブローリフト) ・ アーモンドアイ(たれ目）・ 鼻翼
-</span><span class="price-table-ttl__sub">※アラガン社ボトックスビスタを使用</span></td>
+      <td class="price-table__td price-table__td--col02" colspan="2">
+      <div class="price-table-ttl__sub-sub-ttl"><span class="price-table-ttl__sub">アディショナル部位：口角 ・ 目頭 ・ 口唇(口すぼめ時のしわ) ・ 眉下(ブローリフト) ・ アーモンドアイ(たれ目）・ 鼻翼
+<span class="price-table-ttl__sub-sub-ttl--bottom">※アラガン社ボトックスビスタを使用</span></div></td>
     </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">スタンダード部位に追加１部位</th>
