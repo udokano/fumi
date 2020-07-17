@@ -89,6 +89,19 @@ add_filter('terms_clauses', 'hoge_terms_clauses', 10, 3);
 
 
 
+//GET terms 説明文の001でそーと
+
+
+function taxonomy_orderby_description( $orderby) {
+  if ( $args['orderby'] == 'description' ) {
+    $orderby = 'tt.description';
+  }
+  return $orderby;
+}
+add_filter( 'get_terms_orderby', 'taxonomy_orderby_description', 10, 1 );
+
+
+
 // レスポンシブページネーション
 
 //レスポンシブなページネーションを作成する
