@@ -25,7 +25,7 @@ $my_terms = get_terms('faq_kind', $args);
   echo '<select id="tax__change" onchange="location.href=value;">';
 echo '<option value="case-list">'."選択してください".'</option>';
 foreach ($my_terms as $term) {
-    echo '<option value="' . get_term_link($term->slug, "faq_kind") . '">' . $term->name . '</option>';
+    echo '<option value="' . get_term_link($term->slug, "faq_kind") . '" data-value="' . $term->slug . '">' . $term->name . '</option>';
 }
    echo '</select>';
 
