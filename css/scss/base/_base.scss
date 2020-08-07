@@ -401,12 +401,12 @@ body.page {
             //color: $cg;
             color: #686868;
             font-family: $gosic;
-            font-weight: 600;
+            font-weight: normal;
         }
 
-        &:nth-of-type(1) a {
+        &:last-of-type a {
             color: #686868;
-            font-weight: normal;
+            font-weight: 600;
         }
     }
 }
@@ -418,7 +418,7 @@ body.page {
 
     h1 {
         margin: 0 auto 46px;
-        line-height: 1;
+        line-height: 1.35;
     }
 }
 
@@ -432,7 +432,15 @@ body.page {
     }
 }
 
-/* GNAVI*/
+/* アーカイブページトップ */
+
+.page-head.--head-archive {
+    width: 90%;
+    max-width: 1150px;
+    margin: auto;
+
+    h1 {}
+}
 
 .navi {
     ul {
@@ -618,6 +626,10 @@ body.page {
     .inner {
         width: 96%;
         margin: auto;
+    }
+
+    .sp-w100 {
+        width: 100% !important;
     }
 }
 
@@ -815,6 +827,10 @@ body.page {
         margin-top: -136px !important;
         padding-top: 136px !important;
     }
+}
+
+.border-bottom-none {
+    border-bottom: none !important;
 }
 
 /*swiper*/

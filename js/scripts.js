@@ -192,7 +192,11 @@ $(function () {
 
   });
 
-  //現在のタクソノミーが一致し選択肢を選択済み
+  /*
+
+  タクソノミー一致するセレクトボックスを選択
+
+  -----------------------------*/
 
   $(function () {
     $('#tax__change option').each(function () {
@@ -220,36 +224,43 @@ $(function () {
   });
 
 
-  /* パラメーター処理 */
+  /*
 
-  /* $(function () {
-    $('#tax__change option').each(function () {
+  記事のURLにはタクソノミースラックを持たせられないので、
+  パラメーターをつけて一致するセレクトボックスを選択
 
-      //現在ページのURLの末尾を取得
-      var activeUrl = location.search.substring(1);;　// 2階層目
-      //var activeUrl02 = location.href;　// 2階層目
-      console.log(activeUrl);
-      //テスト出力
-
-      //valu(カテゴリースラッグ)取得
-      var href = $(this).val();
-      //テスト出力
-      console.log(href);
-      //  console.log(href);
-      if (href.match(activeUrl)) {
-        // $("#foo option").prop("selected",false);
-        $(this).prop("selected", true);
-        // $("#bar").prop("disabled",false);
-        //$("#foo option").val(href);
-      }
-
-            else {
-              $("value=[case-list]").prop("selected", true);
-            }
-    });
+  ---------------------------------*/
 
 
-  }); */
+
+  jQuery(function ($) {
+
+    var url = location.protocol + "//" + location.host + location.pathname + location.search;
+    var params = url.split('?');
+    console.log(params);
+    var paramms = params.length > 1 && params[1].split('&');
+    var paramArray = [];
+    console.log(paramArray);
+    for (var i = 0; i < paramms.length; i++) {
+      var vl = paramms[i].split('=');
+      paramArray.push(vl[0]);
+      paramArray[vl[0]] = vl[1];
+
+      var terms = vl[1];
+      console.log(terms);
+      $('#tax__change option').each(function () {
+        var val = $(this).data("value");
+        console.log(val);
+        if (terms == val) {
+          $(this).prop("selected", true);
+        }
+      });
+
+    }
+
+
+  });
+
 
   //スムーススクロール
 

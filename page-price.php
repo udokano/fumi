@@ -28,17 +28,17 @@ Template Name: 料金一覧
 
 
   <div class="ancor-box ancor-box--price">
-      <a href="#link-p-hel" class="ancor-box--price__link">注入治療</a>
-      <a href="#link-p-lift" class="ancor-box--price__link">糸の治療</a>
-        <a href="#link-p-keisei" class="ancor-box--price__link">
+      <a href="#link-p-hel" class="ancor-box--price__link --color-hel">注入治療</a>
+      <a href="#link-p-lift" class="ancor-box--price__link --color-lift">糸の治療</a>
+        <a href="#link-p-keisei" class="ancor-box--price__link --color-keisei">
        形成外科治療
       </a>
-      <a href="#link-p-hada" class="ancor-box--price__link">
+      <a href="#link-p-hada" class="ancor-box--price__link --color-medi">
         美肌治療
       </a>
 
-      <a href="#link-p-naika" class="ancor-box--price__link">美容内科</a>
-      <a href="#link-p-home" class="ancor-box--price__link">ホームケア</a>
+      <a href="#link-p-naika" class="ancor-box--price__link --color-naika">美容内科</a>
+      <a href="#link-p-home" class="ancor-box--price__link --color-home">ホームケア</a>
 
   </div>
   <!-- ./ancor-box -->
@@ -55,7 +55,7 @@ Template Name: 料金一覧
 <!-- ヒアルロン酸 -->
 
 
- <section class="price native__mt">
+ <section class="price native__mt mb0">
 
   <div class="inner-box2">
     <h3 class="price-ope-ttl price-ope-ttl--hel tc" id="link-p-hel">注入治療</h3>
@@ -85,11 +85,11 @@ Template Name: 料金一覧
     <dd>¥60,000</dd>
   </dl>
   </div> -->
-<div class="price-list gosic">
+<div class="price-list gosic mb0">
 <!-- <h4 class="price-table-ttl">ボリューマ・ボリフト</h4> -->
   <table class="price-table price-table--hel">
    <tr class="price-table__tr">
-      <td class="price-table__td price-table__td--top head-bg-inf price-table__td--col02" colspan="2">ヒアルロン酸</td>
+      <td class="price-table__td price-table__td--top head-bg-inf tb-ttl-color-hel price-table__td--col02" colspan="2">ヒアルロン酸</td>
     </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">ボリューマ・ボリフト・ボルベラ 0.1cc</th>
@@ -111,23 +111,15 @@ Template Name: 料金一覧
       <th class="price-table__th">カニューレ</th>
       <td class="price-table__td">¥1,250（税別）</td>
     </tr>
-
-  </table>
- </div>
-
-
-<div class="price-list gosic">
-
-  <table class="price-table  price-table--hel">
   <tr class="price-table__tr">
-      <td class="price-table__td price-table__td--col02 head-bg-inf price-table__td--top" colspan="2">ボトックス</td>
+      <td class="price-table__td price-table__td--col02 head-bg-inf tb-ttl-color-hel price-table__td--top" colspan="2">ボトックス</td>
     </tr>
 
      <tr class="price-table__tr">
       <td class="price-table__td price-table__td--col02" colspan="2">
 
-      <div class="price-table-ttl__sub-sub-ttl">スタンダード部位：目尻 ・ 眉間 ・ 額 ・ あご ・ 鼻(バニー)
-      <span class="price-table-ttl__sub-sub-ttl--bottom">※アラガン社ボトックスビスタを使用</span></div>
+      <span class="price-table-ttl__sub-sub-ttl">スタンダード部位：目尻・眉間・額・あご・鼻(バニー)</span>
+      <span class="price-table-ttl__sub-sub-ttl--bottom">※アラガン社ボトックスビスタを使用</span>
 
       </td>
     </tr>
@@ -153,8 +145,8 @@ Template Name: 料金一覧
     </tr>
      <tr class="price-table__tr">
       <td class="price-table__td price-table__td--col02" colspan="2">
-      <div class="price-table-ttl__sub-sub-ttl"><span class="price-table-ttl__sub">アディショナル部位：口角 ・ 目頭 ・ 口唇(口すぼめ時のしわ) ・ 眉下(ブローリフト) ・ アーモンドアイ(たれ目）・ 鼻翼
-<span class="price-table-ttl__sub-sub-ttl--bottom">※アラガン社ボトックスビスタを使用</span></div></td>
+
+      <span class="price-table-ttl__sub-sub-ttl price-table-ttl__sub-sub-ttl--adi">アディショナル部位：口角・目頭・口唇(口すぼめ時のしわ)・眉下(ブローリフト)・アーモンドアイ(たれ目)・鼻翼</span><span class="price-table-ttl__sub-sub-ttl--bottom">※アラガン社ボトックスビスタを使用</span></td>
     </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">スタンダード部位に追加１部位</th>
@@ -165,8 +157,7 @@ Template Name: 料金一覧
       <td class="price-table__td">¥20,000（税別）</td>
     </tr>
   <tr class="price-table__tr">
-      <td class="price-table__td price-table__td--col02" colspan="2">その他の部位
-      <span class="price-table-ttl__sub">※アラガン社ボトックスビスタを使用</span></td>
+      <td class="price-table__td price-table__td--col02" colspan="2"> <span class="price-table-ttl__sub-sub-ttl price-table-ttl__sub">その他の部位</span><span class="price-table-ttl__sub-sub-ttl--bottom">※アラガン社ボトックスビスタを使用</span></td>
     </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">エラボトックス</th>
@@ -192,52 +183,13 @@ Template Name: 料金一覧
       <th class="price-table__th">ボトックスリフト</th>
       <td class="price-table__td">¥68,000（税別）</td>
     </tr>
-  </table>
-</div>
-<!-- ./price-list -->
 
-</div>
-</section>
-
-
-<!-- ===========================
-
-ボトックス注入（体）
-
-================================-->
-
- <section class="price native__mt" id="link-price-btx-body">
-
-  <div class="inner-box2">
-
-
-<!-- <div class="price-list gosic">
-  <dl class="flex">
-    <dt class="fw600">ボリューマ・ボリフト</dt>
-    <dd class="f-bold">税別</dd>
-  </dl>
-  <dl class="flex">
-    <dt>0.1cc</dt>
-    <dd>¥10,000</dd>
-  </dl>
-  <dl class="flex">
-    <dt>1本～3本</dt>
-    <dd>¥80,000</dd>
-  </dl>
-  <dl class="flex">
-    <dt>4本目以降</dt>
-    <dd>¥60,000</dd>
-  </dl>
-  </div> -->
-<div class="price-list mb0 gosic">
-
-  <table class="price-table price-table--hel ">
    <tr class="price-table__tr">
-      <td class="price-table__td price-table__td--top head-bg-inf price-table__td--col02" colspan="2">ボトックス(身体)</td>
+      <td class="price-table__td price-table__td--top head-bg-inf tb-ttl-color-hel price-table__td--col02" colspan="2">ボトックス(身体)</td>
     </tr>
   <tr class="price-table__tr">
-      <td class="price-table__td price-table__td--col02" colspan="2">制汗ボトックス
-      <span class="price-table-ttl__sub">※アラガン社ボトックスビスタを使用</span></td>
+      <td class="price-table__td price-table__td--col02" colspan="2"><span class="price-table-ttl__sub price-table-ttl__sub-sub-ttl">制汗ボトックス</span>
+      <span class="price-table-ttl__sub-sub-ttl--bottom">※アラガン社ボトックスビスタを使用</span></td>
     </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">わき汗</th>
@@ -262,13 +214,13 @@ Template Name: 料金一覧
   </table>
  </div>
 
-<div class="price-list gosic">
+<div class="price-list gosic mb0">
 
   <table class="price-table price-table--row03 price-table--hel ">
 
     <thead class="price-table--row03__thead">
      <tr class="price-table__tr">
-      <td class="price-table__td price-table__td--col02 head-bg-inf bdtop0" colspan="3">ボディボトックス</td>
+      <td class="price-table__td price-table__td--col02 head-bg-inf bdtop0" colspan="3"><span class="price-table-ttl__sub price-table-ttl__sub--sp-tc price-table-ttl__sub-sub-ttl">ボディボトックス</span></td>
     </tr>
         <tr class="price-table--row03__head-tr">
           <th class="price-table--row03__head-th price-table--row03__th">部位</th>
@@ -292,9 +244,9 @@ Template Name: 料金一覧
        <td class="price-table__td price-table--row03__td">¥142,500（税別）</td>
     </tr>
     <tr class="price-table__tr price-table--row03__tr">
-      <th class="price-table__th price-table--row03__th">二の腕</th>
-      <td class="price-table__td price-table--row03__td">¥72,000（税別）</td>
-       <td class="price-table__td price-table--row03__td">¥54,000（税別）</td>
+      <th class="price-table__th price-table--row03__th border-bottom-none">二の腕</th>
+      <td class="price-table__td price-table--row03__td border-bottom-none">¥72,000（税別）</td>
+       <td class="price-table__td price-table--row03__td border-bottom-none">¥54,000（税別）</td>
     </tr>
   </table>
 </div>
@@ -309,7 +261,7 @@ Template Name: 料金一覧
 
   <table class="price-table price-table--hel">
   <tr class="price-table__tr">
-      <td class="price-table__td price-table__td--top head-bg-inf price-table__td--col02" colspan="2">SUNEKOS(スネコス）</td>
+      <td class="price-table__td price-table__td--top head-bg-inf tb-ttl-color-hel price-table__td--col02" colspan="2">SUNEKOS(スネコス）</td>
     </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">SUNEKOS(スネコス） 1本</th>
@@ -319,19 +271,9 @@ Template Name: 料金一覧
       <th class="price-table__th">1ヶ月以内の再施術　※同一箇所</th>
       <td class="price-table__td">¥45,000（税別）</td>
     </tr>
-  </table>
- </div>
- <!-- ./price-list -->
 
- <section class="price native__mt" id="link-price-bnls">
-
-
-
-<div class="price-list gosic">
-<!-- <h4 class="price-table-ttl">BNLSneo</h4> -->
-  <table class="price-table price-table--hel">
    <tr class="price-table__tr">
-      <td class="price-table__td price-table__td--top head-bg-inf price-table__td--col02" colspan="2">脂肪溶解注射</td>
+      <td class="price-table__td price-table__td--top head-bg-inf tb-ttl-color-hel price-table__td--col02" colspan="2">脂肪溶解注射</td>
     </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">BNLSneo 1cc（4ccまで）</th>
@@ -382,7 +324,27 @@ Template Name: 料金一覧
 <!-- <h4 class="price-table-ttl">シルエットソフト(３D リフト)</h4> -->
   <table class="price-table price-table--lift">
    <tr class="price-table__tr">
-      <td class="price-table__td head-bg-lift price-table__td--top price-table__td--col02" colspan="2">スレッドリフト</td>
+      <td class="price-table__td head-bg-lift price-table__td--top tb-ttl-color-lift price-table__td--col02" colspan="2">スレッドリフト</td>
+    </tr>
+    <tr class="price-table__tr">
+      <th class="price-table__th">セルフロック 1本</th>
+      <td class="price-table__td">¥20,000（税別）</td>
+    </tr>
+     <tr class="price-table__tr">
+      <th class="price-table__th">VOVリフトプレミアム 1本</th>
+      <td class="price-table__td">¥40,000（税別）
+
+      </td>
+    </tr>
+    <tr class="price-table__tr">
+      <th class="price-table__th">VOVリフトプレミアム 5本目以降</th>
+      <td class="price-table__td price-table__td--sp-w-sm">1本あたり¥30,000<br class="sp">（税別）
+      <span class="price-table__note">※Gコグと併用した場合も<br class="sp">TOTAL5本を超えた場合は<br class="sp">5本目以降￥30,000</span>
+       </td>
+    </tr>
+     <tr class="price-table__tr">
+      <th class="price-table__th">Gコグソフト 1本</th>
+      <td class="price-table__td">¥60,000（税別）</td>
     </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">シルエットソフト(３D リフト) 2本</th>
@@ -409,29 +371,6 @@ Template Name: 料金一覧
       </td>
     </tr>
     <tr class="price-table__tr">
-      <th class="price-table__th">Gコグソフト 1本</th>
-      <td class="price-table__td">¥60,000（税別）</td>
-    </tr>
-    <tr class="price-table__tr">
-      <th class="price-table__th">VOVリフトプレミアム 1本</th>
-      <td class="price-table__td">¥40,000（税別）
-
-      </td>
-    </tr>
-    <tr class="price-table__tr">
-      <th class="price-table__th">VOVリフトプレミアム 5本目以降</th>
-      <td class="price-table__td price-table__td--sp-w-sm">1本あたり¥30,000<br class="sp">（税別）
-      <span class="price-table__note">※Gコグと併用した場合も<br class="sp">TOTAL5本を超えた場合は<br class="sp">5本目以降￥30,000</span>
-       </td>
-    </tr>
-
-
-    <tr class="price-table__tr">
-      <th class="price-table__th">セルフロック 1本</th>
-      <td class="price-table__td">¥20,000（税別）</td>
-    </tr>
-
-    <tr class="price-table__tr">
       <th class="price-table__th">ショッピングリフト 20本</th>
       <td class="price-table__td">¥66,000（税別）</td>
     </tr>
@@ -454,15 +393,8 @@ Template Name: 料金一覧
     <tr class="price-table__tr">
       <th class="price-table__th">スレッドアイリフト 20本</th>
       <td class="price-table__td">¥69,000（税別）</td>
-    </tr>
-  </table>
- </div>
- <!-- ./price-list -->
-<div class="price-list gosic mt75">
-<!-- <h4 class="price-table-ttl">Gコグノーズ</h4> -->
-  <table class="price-table price-table--lift">
    <tr class="price-table__tr">
-      <td class="price-table__td head-bg-inf price-table__td--top price-table__td--col02" colspan="2">鼻の糸</td>
+      <td class="price-table__td head-bg-inf tb-ttl-color-lift price-table__td--top price-table__td--col02" colspan="2">鼻の糸</td>
     </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">Gコグノーズ 1本目</th>
@@ -508,7 +440,7 @@ Template Name: 料金一覧
 <!-- <h4 class="price-table-ttl">ホクロ・イボ</h4> -->
   <table class="price-table price-table--nose">
    <tr class="price-table__tr">
-      <td class="price-table__td head-bg-nose price-table__td--top price-table__td--col02" colspan="2">形成外科治療</td>
+      <td class="price-table__td head-bg-nose price-table__td--top tb-ttl-color-keisei price-table__td--col02" colspan="2">形成外科治療</td>
     </tr>
      <tr class="price-table__tr">
       <th class="price-table__th">上まぶたのたるみ取り（眉下切開）</th>
@@ -590,7 +522,7 @@ Template Name: 料金一覧
  <section class="price native__mt" id="link-price-md">
 
   <div class="inner-box2">
-    <h3 class="price-ope-ttl price-ope-ttl--btx tc" id="link-p-hada">美肌治療</h3>
+    <h3 class="price-ope-ttl price-ope-ttl--btx tb-ttl-color-md tc" id="link-p-hada">美肌治療</h3>
 
     <!-- <p class="price-intro f-ryu">
      肌表面の美しさもお顔の印象に大きく影響します。<br>当院ではお悩みに合わせて最適な施術を提案しております。
@@ -618,7 +550,7 @@ Template Name: 料金一覧
 <!-- <h4 class="price-table-ttl">ダーマペン4</h4> -->
   <table class="price-table price-table--btx">
    <tr class="price-table__tr">
-      <td class="price-table__td head-bg-btx price-table__td--top price-table__td--col02" colspan="2">ダーマペン4</td>
+      <td class="price-table__td head-bg-btx price-table__td--top tb-ttl-color-md price-table__td--col02" colspan="2">ダーマペン4</td>
     </tr>
 
     <tr class="price-table__tr">
@@ -641,15 +573,9 @@ Template Name: 料金一覧
       <th class="price-table__th">ヴェルヴェットスキン(顔+首)</th>
       <td class="price-table__td">¥68,000（税別）</td>
     </tr>
-  </table>
- </div>
- <!-- ./price-list -->
 
- <div class="price-list gosic">
-
-  <table class="price-table price-table--btx">
    <tr class="price-table__tr">
-      <td class="price-table__td head-bg-btx price-table__td--top price-table__td--col02" colspan="2">ダーマペンオプション</td>
+      <td class="price-table__td head-bg-btx price-table__td--top tb-ttl-color-md price-table__td--col02" colspan="2">ダーマペンオプション</td>
     </tr>
     <!--  <tr class="price-table__tr">
       <th class="price-table__th">マッサージピール（ヴェルヴェットスキン）</th>
@@ -667,96 +593,9 @@ Template Name: 料金一覧
       <th class="price-table__th">トラネキサム酸（肝斑・色素沈着）</th>
       <td class="price-table__td">+¥5,000（税別）</td>
     </tr>
-  </table>
- </div>
- <!-- ./price-list -->
 
-
-<!-- <div class="price-list gosic">
-<h4 class="price-table-ttl">ヴェルヴェットスキン</h4>
-  <table class="price-table price-table--md">
     <tr class="price-table__tr">
-      <th class="price-table__th">ダーマペン４＋マッサージピール（顔）</th>
-      <td class="price-table__td">¥45,000（税別）</td>
-    </tr>
-    <tr class="price-table__tr">
-      <th class="price-table__th">ダーマペン４＋マッサージピール（顔＋首）</th>
-      <td class="price-table__td">¥68,000（税別）</td>
-    </tr>
-  </table>
-</div> -->
-<!-- ./price-list -->
-
-
-
-  <div class="price-list gosic">
-<!-- <h4 class="price-table-ttl">ピーリング</h4> -->
-  <!-- <table class="price-table price-table--md">
-     <tr class="price-table__tr">
-      <th class="price-table__th">マッサージピール（顔）</th>
-      <td class="price-table__td">¥15,000（税別）</td>
-    </tr>
-     <tr class="price-table__tr">
-      <th class="price-table__th">マッサージピール（顔＋首）</th>
-      <td class="price-table__td">¥23,000（税別）</td>
-    </tr>
-    <tr class="price-table__tr">
-      <th class="price-table__th">マッサージピール（首）</th>
-      <td class="price-table__td">¥15,000（税別）</td>
-    </tr>
-    <tr class="price-table__tr">
-      <th class="price-table__th">マッサージピール（手甲指）</th>
-      <td class="price-table__td">¥15,000（税別）</td>
-    </tr>
-    <tr class="price-table__tr">
-      <th class="price-table__th">マッサージピール（身体1部位）</th>
-      <td class="price-table__td">¥26,000（税別）</td>
-    </tr>
-    <tr class="price-table__tr">
-      <th class="price-table__th">マッサージピール OPニードリング</th>
-      <td class="price-table__td">¥5,000（税別）</td>
-    </tr>
-    <tr class="price-table__tr">
-      <th class="price-table__th">レチノールピール（一部位）</th>
-      <td class="price-table__td">¥20,000（税別）</td>
-    </tr>
-    <tr class="price-table__tr">
-      <th class="price-table__th">トックスピール（顔）</th>
-      <td class="price-table__td">¥15,000（税別）</td>
-    </tr>
-     <tr class="price-table__tr">
-      <th class="price-table__th">トックスピール（顔＋首）</th>
-      <td class="price-table__td">¥20,000（税別）</td>
-    </tr>
-     <tr class="price-table__tr">
-      <th class="price-table__th">ベビーピール（顔）</th>
-      <td class="price-table__td">¥10,000（税別）</td>
-    </tr>
-     <tr class="price-table__tr">
-      <th class="price-table__th">ベビーピール（顔＋首）</th>
-      <td class="price-table__td">¥15,000（税別）</td>
-    </tr>
-     <tr class="price-table__tr">
-      <th class="price-table__th">ベビーピール（身体一部位）</th>
-      <td class="price-table__td">¥17,000（税別）</td>
-    </tr>
-     <tr class="price-table__tr">
-      <th class="price-table__th">ケミカルピール（顔）</th>
-      <td class="price-table__td">¥8,000（税別）</td>
-    </tr>
-     <tr class="price-table__tr">
-      <th class="price-table__th">ケミカルピール（顔＋首）</th>
-      <td class="price-table__td">¥12,000（税別）</td>
-    </tr>
-     <tr class="price-table__tr">
-      <th class="price-table__th">ケミカルピール（身体一部位）</th>
-      <td class="price-table__td">¥14,000（税別）</td>
-    </tr>
-  </table> -->
-
-  <table class="price-table price-table--btx">
-    <tr class="price-table__tr">
-  <td class="price-table__td price-table__td--top head-bg-btx price-table__td--col02" colspan="2">ピーリング</td>
+  <td class="price-table__td price-table__td--top head-bg-btx tb-ttl-color-md price-table__td--col02" colspan="2">ピーリング</td>
   </tr>
      <tr class="price-table__tr">
       <th class="price-table__th" rowspan="1">マッサージピール<br class="sp">（コラーゲンピールPRX-T33）</th>
@@ -788,14 +627,9 @@ Template Name: 料金一覧
       <td class="price-table__td">¥8,000（税別）</td>
     </tr>
 
-  </table>
-</div>
-<!-- ./price-list -->
 
-  <div class="price-list gosic">
-<table class="price-table price-table--btx">
     <tr class="price-table__tr">
-  <td class="price-table__td price-table__td--top head-bg-btx price-table__td--col02" colspan="2">ピーリングオプション</td>
+  <td class="price-table__td price-table__td--top head-bg-btx tb-ttl-color-md price-table__td--col02" colspan="2">ピーリングオプション</td>
   </tr>
 
     <tr class="price-table__tr">
@@ -830,17 +664,9 @@ Template Name: 料金一覧
 
 
 
-  </table>
-</div>
-<!-- ./price-list -->
 
-
-
-<div class="price-list gosic">
-<!-- <h4 class="price-table-ttl">エンビロン</h4> -->
-  <table class="price-table price-table--btx">
      <tr class="price-table__tr">
-  <td class="price-table__td price-table__td--top head-bg-btx price-table__td--col02" colspan="2">エンビロントリートメント</td>
+  <td class="price-table__td price-table__td--top head-bg-btx tb-ttl-color-md price-table__td--col02" colspan="2">エンビロントリートメント</td>
   </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">クールビタミンコース</th>
@@ -861,14 +687,8 @@ Template Name: 料金一覧
       <td class="price-table__td">+¥5,000（税別）</td>
     </tr>
 
-  </table>
-</div>
-
-<div class="price-list gosic">
-<!-- <h4 class="price-table-ttl">エンビロン</h4> -->
-  <table class="price-table price-table--btx">
      <tr class="price-table__tr">
-  <td class="price-table__td price-table__td--top head-bg-btx price-table__td--col02" colspan="2">ヒト幹細胞トリートメント</td>
+  <td class="price-table__td price-table__td--top head-bg-btx tb-ttl-color-md price-table__td--col02" colspan="2">ヒト幹細胞トリートメント</td>
   </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">ハリ艶UPコース</th>
@@ -882,14 +702,9 @@ Template Name: 料金一覧
       <th class="price-table__th">胞パック導入コース</th>
       <td class="price-table__td">¥10,000（税別）</td>
     </tr>
-  </table>
-</div>
 
-<div class="price-list gosic">
-<!-- <h4 class="price-table-ttl">エンビロン</h4> -->
-  <table class="price-table price-table--btx">
      <tr class="price-table__tr">
-  <td class="price-table__td price-table__td--top head-bg-btx price-table__td--col02" colspan="2">オプショントリートメント</td>
+  <td class="price-table__td price-table__td--top head-bg-btx tb-ttl-color-md price-table__td--col02" colspan="2">オプショントリートメント</td>
   </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">シリコンオフ</th>
@@ -901,17 +716,11 @@ Template Name: 料金一覧
     </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">コメド圧出処置</th>
-      <td class="price-table__td">+¥3,002（税別）</td>
+      <td class="price-table__td">+¥1,500（税別）</td>
     </tr>
-  </table>
-</div>
 
-
-<div class="price-list gosic">
-<!-- <h4 class="price-table-ttl">エンビロン</h4> -->
-  <table class="price-table price-table--btx">
      <tr class="price-table__tr">
-  <td class="price-table__td price-table__td--top head-bg-btx price-table__td--col02" colspan="2">ボディトリートメント</td>
+  <td class="price-table__td price-table__td--top head-bg-btx tb-ttl-color-md price-table__td--col02" colspan="2">ボディトリートメント</td>
   </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">ボディリンパマッサージ10分</th>
@@ -944,11 +753,28 @@ Template Name: 料金一覧
   <div class="inner-box2">
 
 
-     <h3 class="price-ope-ttl price-ope-ttl--tenteki tc " id="link-p-naika">美容内科</h3>
+     <h3 class="price-ope-ttl price-ope-ttl--tenteki tc" id="link-p-naika">美容内科</h3>
 <div class="price-list gosic mt75">
 <!-- <h4 class="price-table-ttl">美容点滴・注射</h4> -->
   <table class="price-table price-table--tenteki">
-<td class="price-table__td price-table__td--top head-bg-tenteki price-table__td--col02" colspan="2">美容点滴・注射</td>
+<td class="price-table__td price-table__td--top head-bg-tenteki tb-ttl-color-tenteki price-table__td--col02" colspan="2">美容点滴・注射</td>
+<tr class="price-table__tr">
+      <th class="price-table__th">疲労回復注射</th>
+      <td class="price-table__td">¥3,000（税別）
+         <span class="price-table__note">※強ミノ追加<br class="sp">１本あたり￥250</span>
+      </td>
+    </tr>
+
+     <tr class="price-table__tr">
+      <th class="price-table__th">疲労回復点滴（マイヤーズカクテル）</th>
+      <td class="price-table__td">¥6,000（税別）</td>
+    </tr>
+     <tr class="price-table__tr">
+      <th class="price-table__th">白玉点滴（グルタチオン）</th>
+      <td class="price-table__td">¥8,000（税別）
+        <span class="price-table__note">※グルタチオン追加<br class="sp">1本あたり￥250</span>
+      </td>
+    </tr>
  <tr class="price-table__tr">
       <th class="price-table__th">高濃度ビタミンC点滴　25gまで</th>
       <td class="price-table__td">¥12,000（税別）</td>
@@ -958,32 +784,12 @@ Template Name: 料金一覧
       <td class="price-table__td">¥15,000（税別）</td>
     </tr>
 
-     <tr class="price-table__tr">
-      <th class="price-table__th">白玉点滴（グルタチオン）</th>
-      <td class="price-table__td">¥8,000（税別）
-        <span class="price-table__note">※グルタチオン追加<br class="sp">1本あたり￥250</span>
-      </td>
-    </tr>
-
-  <tr class="price-table__tr">
-      <th class="price-table__th">疲労回復点滴（マイヤーズカクテル）</th>
-      <td class="price-table__td">¥6,000（税別）</td>
-    </tr>
-    <tr class="price-table__tr">
-      <th class="price-table__th">疲労回復注射</th>
-      <td class="price-table__td">¥3,000（税別）
-         <span class="price-table__note">※強ミノ追加<br class="sp">１本あたり￥250</span>
-      </td>
-    </tr>
-  </table>
- </div>
- <!-- ./price-list -->
 
 
- <div class="price-list gosic mt75">
-<!-- <h4 class="price-table-ttl">プラセンタ注射</h4> -->
-  <table class="price-table price-table--tenteki">
-  <td class="price-table__td price-table__td--top head-bg-tenteki price-table__td--col02" colspan="2">プラセンタ</td>
+
+
+
+  <td class="price-table__td price-table__td--top head-bg-tenteki tb-ttl-color-tenteki price-table__td--col02" colspan="2">プラセンタ</td>
     <tr class="price-table__tr">
       <th class="price-table__th">プラセンタ注射　1本</th>
       <td class="price-table__td">¥1,500（税別）</td>
@@ -1000,18 +806,10 @@ Template Name: 料金一覧
       <th class="price-table__th">肩こりプラセンタ</th>
       <td class="price-table__td">¥10,000（税別）</td>
     </tr>
-  </table>
- </div>
- <!-- ./price-list -->
 
-
-
- <div class="price-list gosic mt75">
-<!-- <h4 class="price-table-ttl">サプリメント</h4> -->
-  <table class="price-table price-table--tenteki">
-   <td class="price-table__td price-table__td--top head-bg-tenteki price-table__td--col02" colspan="2">サプリメント</td>
+   <td class="price-table__td price-table__td--top head-bg-tenteki tb-ttl-color-tenteki price-table__td--col02" colspan="2">サプリメント</td>
     <tr class="price-table__tr">
-      <th class="price-table__th">ソリプロホワイト　30カプセル</th>
+      <th class="price-table__th">ソルプロホワイト　30カプセル</th>
       <td class="price-table__td">¥5,000（税別）</td>
     </tr>
       <tr class="price-table__tr">
@@ -1043,17 +841,11 @@ Template Name: 料金一覧
       <td class="price-table__td">¥9,500（税別）</td>
     </tr>
     <tr class="price-table__tr">
-      <th class="price-table__th">チャーガ茶　5包(10~20ℓ分）</th>
+      <th class="price-table__th">チャーガ茶　5包(5~10ℓ分）</th>
       <td class="price-table__td">¥1,800（税別）</td>
     </tr>
-  </table>
- </div>
- <!-- ./price-list -->
 
-  <div class="price-list gosic mt75">
-<!-- <h4 class="price-table-ttl">サプリメント</h4> -->
-  <table class="price-table price-table--tenteki">
-   <td class="price-table__td price-table__td--top head-bg-tenteki price-table__td--col02" colspan="2">内服薬</td>
+   <td class="price-table__td price-table__td--top head-bg-tenteki tb-ttl-color-tenteki price-table__td--col02" colspan="2">内服薬</td>
     <tr class="price-table__tr">
       <th class="price-table__th">ルグゼバイブ(女性用薄毛治療薬)</th>
       <td class="price-table__td">¥9,000（税別）</td>
@@ -1104,7 +896,7 @@ Template Name: 料金一覧
 
   <table class="price-table price-table--sosume">
     <tr class="price-table__tr">
-     <td class="price-table__td price-table__td--top head-bg-sosume price-table__td--col02" colspan="2">エンビロン</td>
+     <td class="price-table__td price-table__td--top head-bg-sosume tb-ttl-color-sosume price-table__td--col02" colspan="2">エンビロン</td>
     </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">クレンジングジェル　100g</th>
@@ -1177,17 +969,8 @@ Template Name: 料金一覧
      <tr class="price-table__tr">
      <td class="price-table__td price-table__td--col02" colspan="2">※メニューにない製品も受注発注が可能です。<br class="sp">お気軽にお問合せ下さい。</td>
     </tr>
-    </table>
-</div>
-<!-- ./price -->
-
-
-
- <div class="price-list gosic">
-
-  <table class="price-table price-table--sosume">
     <tr class="price-table__tr">
-     <td class="price-table__td price-table__td--top head-bg-sosume price-table__td--col02" colspan="2">ゼオスキン</td>
+     <td class="price-table__td price-table__td--top head-bg-sosume tb-ttl-color-sosume price-table__td--col02" colspan="2">ゼオスキン</td>
     </tr>
 
     <tr class="price-table__tr">
@@ -1241,16 +1024,10 @@ Template Name: 料金一覧
      <td class="price-table__td price-table__td--col02" colspan="2">※メニューにない製品も受注発注が可能です。<br class="sp">お気軽にお問合せ下さい。</td>
     </tr>
 
-    </table>
-</div>
-<!-- ./price -->
 
- <div class="price-list gosic mt75">
-
-  <table class="price-table  price-table--sosume">
 
    <tr class="price-table__tr">
-    <td class="price-table__td  price-table__td--top head-bg-sosume  price-table__td--col02" colspan="2">FAITHラメラボ</td>
+    <td class="price-table__td  price-table__td--top head-bg-sosume tb-ttl-color-sosume  price-table__td--col02" colspan="2">FAITHラメラボ</td>
     </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">ジェルクレンズ　180㎖</th>
@@ -1280,16 +1057,10 @@ Template Name: 料金一覧
       <th class="price-table__th">サンプロテクターエッセンス　50㎖</th>
       <td class="price-table__td">¥4,000（税別）</td>
     </tr>
-</table>
-</div>
-<!-- ./price -->
 
- <div class="price-list gosic mt75">
-
-  <table class="price-table  price-table--sosume">
 
    <tr class="price-table__tr">
-    <td class="price-table__td  price-table__td--top head-bg-sosume  price-table__td--col02" colspan="2">医療美容機器</td>
+    <td class="price-table__td  price-table__td--top head-bg-sosume tb-ttl-color-sosume price-table__td--col02" colspan="2">医療美容機器</td>
     </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">Vsculpt(膣の若返り・引締め)</th>
@@ -1315,16 +1086,10 @@ Template Name: 料金一覧
      <td class="price-table__td price-table__td--col02" colspan="2">※NEWAの体験も行っております。<br class="sp">お気軽にお問い合わせください。</td>
     </tr>
 
-</table>
-</div>
-<!-- ./price -->
 
- <div class="price-list gosic mt75">
-
-  <table class="price-table  price-table--sosume">
 
    <tr class="price-table__tr">
-    <td class="price-table__td  price-table__td--top head-bg-sosume  price-table__td--col02" colspan="2">自費薬</td>
+    <td class="price-table__td  price-table__td--top head-bg-sosume tb-ttl-color-sosume price-table__td--col02" colspan="2">自費薬</td>
     </tr>
     <tr class="price-table__tr">
       <th class="price-table__th">ハイドロキノン4%クリーム5g</th>
@@ -1348,18 +1113,9 @@ Template Name: 料金一覧
       <span class="price-table__note">ご来院が難しい場合はオンライン診療でも可能な場合もございますので<br class="sp">お気軽にご相談ください。</span>
       </td>
     </tr>
-</table>
-</div>
-<!-- ./price -->
 
-
-
-
-
- <div class="price-list gosic">
-  <table class="price-table price-table--sosume">
     <tr class="price-table__tr">
-       <td class="price-table__td price-table__td--top head-bg-sosume price-table__td--col02" colspan="2">その他ホームケア</td>
+       <td class="price-table__td price-table__td--top head-bg-sosume tb-ttl-color-sosume price-table__td--col02" colspan="2">その他ホームケア</td>
     </tr>
 
     <tr class="price-table__tr">

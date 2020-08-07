@@ -1,19 +1,4 @@
 <?php
-function admin_func() {
-?>
-<script>
-
-jQuery('#widget-tag_cloud-2-taxonomy option').remove();
-jQuery('#widget-tag_cloud-2-taxonomy option[value=faq_kind]').remove();
-</script>
-<?php
-}
-add_action('admin_head-widgets.php', 'admin_func');
-
-?>
-
-
-<?php
 
 
 
@@ -264,10 +249,9 @@ function breadcrumb_func()
             if ($cat -> parent != 0) {
                 $ancestors = array_reverse(get_ancestors($cat -> cat_ID, 'category'));
                 foreach ($ancestors as $ancestor) {
-                    $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_category_link($ancestor).'" itemprop="item"><span itemprop="name">'.get_cat_name($ancestor).'</span></a><meta itemprop="position" content="2" /></li><li>&gt;</li>';
+                    $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_category_link($ancestor).'" itemprop="item"><span itemprop="name">'.get_cat_name($ancestor).'</span></a><meta itemprop="position" content="2" /></li>';
                 }
             }
-
             $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.$cat-> cat_name.'</span></a><meta itemprop="position" content="3" /></li>';
         } elseif (is_page()) {
             if ($post -> post_parent != 0) {
@@ -391,10 +375,8 @@ function remove_menus()
     remove_menu_page('options-general.php');        // 設定
     remove_menu_page('edit.php?post_type=mw-wp-form');  // お問い合わせ（mw-wp-form）
     //remove_menu_page( 'profile.php' );  // プロフィール
-    add_menu_page('ブログサイドバー', 'ブログサイドバー', 'edit_posts', 'widgets.php', '', 'dashicons-editor-table
+    add_menu_page('ウィジット', 'ウィジット', 'edit_posts', 'widgets.php', '', 'dashicons-editor-table
 ', 6);
- /* add_menu_page('サイドバーページリンク', 'サイドバーページリンク', 'edit_posts', 'nav-menus.php', '', 'dashicons-editor-table
-', 6); */
 
 
     }
@@ -440,136 +422,11 @@ add_action('admin_footer-welcart-shop_page_usces_itemedit', 'super_category_togg
 add_action('admin_footer-welcart-shop_page_usces_itemnew', 'super_category_toggler');
 
 
-
-/* 記事タイトルの前に投稿日を表示 */
-
-class WP_Widget_Recent_Posts_Override extends WP_Widget_Recent_Posts{
-
-	public function widget( $args, $instance ) {
-		if ( ! isset( $args['widget_id'] ) ) {
-			$args['widget_id'] = $this->id;
-		}
-		$title = ( ! empty( $instance['title'] ) ) ? $instance['title'] : __( 'Recent Posts' );
-		$title = apply_filters( 'widget_title', $title, $instance, $this->id_base );
-		$number = ( ! empty( $instance['number'] ) ) ? absint( $instance['number'] ) : 5;
-		if ( ! $number )
-			$number = 5;
-		$show_date = isset( $instance['show_date'] ) ? $instance['show_date'] : false;
-		$r = new WP_Query( apply_filters( 'widget_posts_args', array(
-			'posts_per_page'      => $number,
-			'no_found_rows'       => true,
-			'post_status'         => 'publish',
-			'ignore_sticky_posts' => true
-		) ) );
-		if ($r->have_posts()) :
-		?>
-		<?php echo $args['before_widget']; ?>
-		<?php if ( $title ) {
-			echo $args['before_title'] . $title . $args['after_title'];
-		} ?>
-		<ul>
-		<?php while ( $r->have_posts() ) : $r->the_post(); ?>
-			<li>
-
-				<a href="<?php the_permalink(); ?>"><?php if ( $show_date ) : ?>
-				<span class="post-date"><?php echo get_the_date(); ?></span>
-			<?php endif; ?><?php get_the_title() ? the_title() : the_ID(); ?></a>
-			</li>
-		<?php endwhile; ?>
-		</ul>
-		<?php echo $args['after_widget']; ?>
-		<?php
-		wp_reset_postdata();
-		endif;
-	}
-
-}
-
-function theme_wp_widget_override() {
-
-	// 「最近の投稿」ウィジェットのオーバーライド
-	register_widget('WP_Widget_Recent_Posts_Override');
-
-
-}
-add_action('widgets_init', 'theme_wp_widget_override');
-
-
-
-/* タグをチェックボックスで選択できるようにする */
-
-/*
- * Meta Box Removal
- */
-function rudr_post_tags_meta_box_remove() {
-	$id = 'tagsdiv-post_tag'; // you can find it in a page source code (Ctrl+U)
-	$post_type = 'post'; // remove only from post edit screen
-	$position = 'side';
-	remove_meta_box( $id, $post_type, $position );
-}
-add_action( 'admin_menu', 'rudr_post_tags_meta_box_remove');
-
-/*
- * Add
- */
-function rudr_add_new_tags_metabox(){
-	$id = 'rudrtagsdiv-post_tag'; // it should be unique
-	$heading = 'タグ'; // meta box heading
-	$callback = 'rudr_metabox_content'; // the name of the callback function
-	$post_type = 'post';
-	$position = 'side';
-	$pri = 'default'; // priority, 'default' is good for us
-	add_meta_box( $id, $heading, $callback, $post_type, $position, $pri );
-}
-add_action( 'admin_menu', 'rudr_add_new_tags_metabox');
-
-/*
- * Fill
- */
-function rudr_metabox_content($post) {
-
-	// get all blog post tags as an array of objects
-	$all_tags = get_terms( array('taxonomy' => 'post_tag', 'hide_empty' => 0) );
-
-	// get all tags assigned to a post
-	$all_tags_of_post = get_the_terms( $post->ID, 'post_tag' );
-
-	// create an array of post tags ids
-	$ids = array();
-	if ( $all_tags_of_post ) {
-		foreach ($all_tags_of_post as $tag ) {
-			$ids[] = $tag->term_id;
-		}
-	}
-
-	// HTML
-	echo '<div id="taxonomy-post_tag" class="categorydiv">';
-	echo '<input type="hidden" name="tax_input[post_tag][]" value="0" />';
-	echo '<ul>';
-	foreach( $all_tags as $tag ){
-		// unchecked by default
-		$checked = "";
-		// if an ID of a tag in the loop is in the array of assigned post tags - then check the checkbox
-		if ( in_array( $tag->term_id, $ids ) ) {
-			$checked = " checked='checked'";
-		}
-		$id = 'post_tag-' . $tag->term_id;
-		echo "<li id='{$id}'>";
-		echo "<label><input type='checkbox' name='tax_input[post_tag][]' id='in-$id'". $checked ." value='$tag->slug' /> $tag->name</label><br />";
-		echo "</li>";
-	}
-	echo '</ul></div>'; // end HTML
-}
-
-
-
-
-
 /* カスタムウィジェット導入 */
 
 function my_theme_widgets_init() {
   register_sidebar( array(
-    'name' => 'ブログサイドバー',
+    'name' => 'BLOG Sidebar',
     'id' => 'blog-sidebar',
     'class' => 'blog-sidebar',
    /*  'before_widget' => '<li class="widget__list">',
@@ -583,10 +440,10 @@ add_action( 'widgets_init', 'my_theme_widgets_init' );
 /* いらないウィジェット削除 */
 
 function unregister_default_widget() {
-	unregister_widget('WP_Widget_Pages');            // 固定ページ
+	//unregister_widget('WP_Widget_Pages');            // 固定ページ
 	//unregister_widget('WP_Widget_Calendar');         // カレンダー
 	//unregister_widget('WP_Widget_Archives');         // アーカイブ
-	unregister_widget('WP_Widget_Meta');             // メタ情報
+	//unregister_widget('WP_Widget_Meta');             // メタ情報
 	unregister_widget('WP_Widget_Search');           // 検索
 	//unregister_widget('WP_Widget_Text');             // テキスト
 	//unregister_widget('WP_Widget_Categories');       // カテゴリー
@@ -594,22 +451,9 @@ function unregister_default_widget() {
 	unregister_widget('WP_Widget_Recent_Comments');  // 最近のコメント
 	unregister_widget('WP_Widget_RSS');              // RSS
 	//unregister_widget('WP_Widget_Tag_Cloud');        // タグクラウド
-  unregister_widget('WP_Nav_Menu_Widget');         // カスタムメニュー
-  unregister_widget('WP_Widget_Media_Gallery');         // ギャラリー
-  unregister_widget('WP_Widget_Custom_HTML');         // カスタムHTML
+	unregister_widget('WP_Nav_Menu_Widget');         // カスタムメニュー
 }
 add_action( 'widgets_init', 'unregister_default_widget' );
-
-
-/* サイドウィジエットタグ編集 */
-
-//カテゴリ・アーカイブウィジェットの投稿数出力場所変更
-function remove_post_count_parentheses( $output ) {
-  $output = preg_replace('/<\/a>.*\((\d+)\)/','<span class="post-count">（$1）</span></a>',$output);
-  return $output;
-}
-add_filter( 'wp_list_categories', 'remove_post_count_parentheses' );
-add_filter( 'get_archives_link',  'remove_post_count_parentheses' );
 
 
 /* 本文抜粋のを...に変更 */
@@ -692,15 +536,6 @@ function custom_tiny_mce_formats( $settings ){
 
 }
 
-function modify_formats($settings){
-   $formats = array(
-     'bold' => array('inline' => 'b')
-    );
-    $settings['formats'] = json_encode( $formats );
-    return $settings;
-}
-add_filter('tiny_mce_before_init', 'modify_formats');
-
 
 //TinyMCE追加用のスタイルを初期化
 //http://com4tis.net/tinymce-advanced-post-custom/
@@ -708,16 +543,26 @@ if ( !function_exists( 'initialize_tinymce_styles' ) ):
 function initialize_tinymce_styles($init_array) {
   //追加するスタイルの配列を作成
   $style_formats = array(
+      array(
+      'title' => '見出し1',
+      'block' => 'h2',
+      'classes' => ''
+    ),
+    array(
+      'title' => '見出し2',
+      'block' => 'h3',
+      'classes' => ''
+    ),
+    array(
+      'title' => '見出し3',
+      'block' => 'h4',
+      'classes' => ''
+    ),
 
     array(
       'title' => '強調文字',
       'inline' => 'strong',
-      'classes' => 'strong-small'
-    ),
-     array(
-      'title' => '太字',
-      'inline' => 'b',
-      'classes' => 'fw600'
+      'classes' => ''
     ),
     array(
       'title' => '小さな文字',
@@ -733,6 +578,11 @@ function initialize_tinymce_styles($init_array) {
       'title' => '大きな文字',
       'inline' => 'span',
       'classes' => 'blog-text-large'
+    ),
+     array(
+      'title' => 'テキスト中央寄せ',
+      'block' => 'p',
+      'classes' => 'blog-text-center'
     ),
      array(
       'title' => '紫文字',

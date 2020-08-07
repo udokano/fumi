@@ -1,12 +1,15 @@
 
 <?php get_header()?>
 <div class="blog-head single">
-  <div class="blog-head__bg" style="background-image: url(<?php the_field("title__img"); ?>) ;">
+  <div class="blog-head__bg" >
 
   </div>
 
-  <div class="blog-head__content">
-         <h1 class="f-ryu blog-head__text">
+  <div class="blog-head__content" style="background-image: url(<?php the_field("title__img"); ?>) ;">
+
+  </div>
+
+   <h1 class="f-ryu blog-head__text">
 
           <span class="blog-head__time">
               <time datetime="<?php echo get_the_date( 'Y/m/d' ); ?>">
@@ -15,7 +18,6 @@
          </span>
          <?php the_title(); ?>
         </h1>
-  </div>
 
 
 

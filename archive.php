@@ -1,6 +1,6 @@
 <?php get_header();?>
 
-<div class="page-head">
+<div class="page-head --head-archive">
   <h1 class="tc f-ryu">
   <!-- カテゴリー一覧の場合 -->
   <?php if ( is_category() ) : ?>
@@ -26,46 +26,55 @@
 
 <article class="blog-article ">
 
- <a href="<?php the_permalink(); ?>" class="blog-article__link flex">
-  <div class="blog-article__thumb">
-      	<?php the_post_thumbnail(''); ?>
-  </div>
-  <!-- ./blog-article__thumb -->
+ <a href="<?php the_permalink(); ?>" class="blog-article__link ">
+
+  <div class="blog-article__row flex">
+
+          <div class="blog-article__thumb">
+                <?php the_post_thumbnail(''); ?>
+          </div>
+          <!-- ./blog-article__thumb -->
 
 
-  <div class="blog-article__right">
+          <div class="blog-article__right">
 
-              <div class="blog-article__top flex al-cent">
+                      <div class="blog-article__top flex al-cent">
 
-               <?php if( has_category() ){ ?>
-              <div class="blog-article__category-wrap">
-                        <?php
-                        $categories = get_the_category();
-                        foreach( $categories as $category ) {
-                        echo '<span class="blog-article__category">'.$category->name.'</span>';
-                        }
-                        ?>
-               </div>
-                <?php } ?>
+                      <?php if( has_category() ){ ?>
+                      <div class="blog-article__category-wrap">
+                                <?php
+                                $categories = get_the_category();
+                                foreach( $categories as $category ) {
+                                echo '<span class="blog-article__category">'.$category->name.'</span>';
+                                }
+                                ?>
+                      </div>
+                        <?php } ?>
 
-              </div>
-              <!-- ./blog-article__top -->
+                      </div>
+                      <!-- ./blog-article__top -->
 
-              <h3 class="blog-article__ttl"><?php the_title(); ?></h3>
-              <p class="blog-article__excerpt">
-                <?php remove_filter('the_excerpt', 'wpautop'); ?>
-                <?php the_excerpt(); ?>
-              </p>
+                      <h3 class="blog-article__ttl"><?php the_title(); ?></h3>
+                      <p class="blog-article__excerpt">
+                        <?php remove_filter('the_excerpt', 'wpautop'); ?>
+                        <?php the_excerpt(); ?>
+                      </p>
 
-              <div class="blog-article__btm-cont flex al-cent">
-                   <span class="blog-article__time">
-                              <time datetime="<?php echo get_the_date( 'Y/m/d' ); ?>">
-                                <?php the_time('Y年m月d日'); ?>
-                              </time>
-                </span>
-                <p class="blog-article__btn arrow">続きを見る</p>
-              </div>
-              <!-- タグ出力 -->
+                      <div class="blog-article__btm-cont flex al-cent">
+                          <span class="blog-article__time">
+                                      <time datetime="<?php echo get_the_date( 'Y/m/d' ); ?>">
+                                        <?php the_time('Y年m月d日'); ?>
+                                      </time>
+                        </span>
+                        <p class="blog-article__btn arrow">続きを見る</p>
+                      </div>
+
+
+          </div>
+          <!-- ./blog-article__right -->
+    </div>
+
+    <!-- タグ出力 -->
               <?php
               $posttags = get_the_tags();
               if ($posttags) {
@@ -76,9 +85,6 @@
               echo '</ul>';
               }
               ?>
-
-  </div>
-  <!-- ./blog-article__right -->
 
  </a>
 </article>

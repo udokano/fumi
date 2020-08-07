@@ -80,7 +80,7 @@ Copyright(C) fumi beauty clinic All Rights Reserved.</small></p>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?6128aaaacddff"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?<?php echo filemtime(get_template_directory() . '/js/scripts.js');?>"></script>
 
   <script>
 

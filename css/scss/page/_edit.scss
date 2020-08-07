@@ -6,13 +6,38 @@
     text-align: justify;
     font-size: 1rem;
 
+    img {
+        width: auto;
+        max-width: 100%;
+        margin-bottom: 1.2rem;
+        display: block;
+    }
+
+    img.aligncenter {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img.alignright {
+        margin-left: auto;
+    }
+
     a {
-        color: #ff669e;
+        color: #6685ff;
         font-weight: 600;
+        font-size: 1.16rem;
+        text-decoration: underline;
+    }
+
+    em {
+        font-style: italic;
     }
 
     &__category-wrap {
         text-align: center;
+        width: 92%;
+        max-width: 1200px;
+        margin: auto;
         margin-bottom: 2.25rem;
 
         @media (max-width: 767px) {
@@ -25,7 +50,13 @@
         margin-bottom: .78rem;
         display: inline-block;
         font-size: 0;
-        text-align: left;
+
+        //text-align: left;
+        text-align: center;
+
+        @media (max-width: 767px) {
+            text-align: center;
+        }
 
         a {
             color: #686868;
@@ -34,7 +65,7 @@
             font-size: .88rem;
             line-height: 1;
             display: inline-block;
-            padding: .7rem .72rem;
+            padding: .45rem .72rem;
             margin-right: .42rem;
             text-align: center;
             margin-bottom: .42rem;
@@ -69,7 +100,7 @@
     }
 
     h2 {
-        font-size: 2.0rem;
+        font-size: 1.8rem;
         margin-bottom: 1.25rem;
         padding-bottom: .88rem;
         position: relative;
@@ -114,12 +145,14 @@
         margin-bottom: 1.25rem;
         font-size: .88rem;
         line-height: 1.55;
-        background: #f8f8f8 url("http://fumibeauty/wp-content/uploads/2020/06/quote.png") no-repeat 29px 12px / 26px auto;
+
+        /* アップしたらちゃんとURL代えろ */
+        background: #f8f8f8 url("https://fumibeauty.jp/wp/wp-content/uploads/2020/08/quote.png") no-repeat 29px 12px / 26px auto;
 
         @media (max-width: 767px) {
-            background-position-x: 9%;
-            background-size: 20px auto;
-            padding-top: 3.4rem;
+            background-position-x: 20px;
+            background-size: 18px auto;
+            padding-top: 3.2rem;
             line-height: 1.78;
         }
     }
@@ -135,14 +168,14 @@
     }
 
     h3 {
-        font-size: 1.9rem;
+        font-size: 1.48rem;
         border-bottom: 1px dashed #dadada;
         padding-bottom: .42rem;
         margin-bottom: 1.35rem;
     }
 
     h4 {
-        font-size: 1.9rem;
+        font-size: 1.32rem;
         border-left: 4px solid #666;
         padding-left: 1.1rem;
         margin-bottom: 1.35rem;
@@ -266,5 +299,6 @@
         padding: 1.5rem;
         background-color: #fafafa;
         border: 1px solid #ededed;
+        margin-bottom: 1.78rem;
     }
 }
