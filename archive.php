@@ -42,12 +42,28 @@
 
                       <?php if( has_category() ){ ?>
                       <div class="blog-article__category-wrap">
-                                <?php
-                                $categories = get_the_category();
-                                foreach( $categories as $category ) {
-                                echo '<span class="blog-article__category">'.$category->name.'</span>';
-                                }
-                                ?>
+<?php
+$post_cats = get_the_category();
+if($post_cats){
+  $bottom_cat = $post_cats[0];
+  $bottom_anc = get_ancestors($bottom_cat->term_id, 'category');
+  foreach ($post_cats as $index => $cat) {
+    if ($index > 0) {
+      $anc = get_ancestors($cat->term_id, 'category');
+      if(count($anc) > count($bottom_anc)){
+        $bottom_cat = $cat;
+        $bottom_anc = $anc;
+      }
+    }
+  }
+  $bottom_anc = array_reverse($bottom_anc);
+  foreach ($bottom_anc as $anc) {
+    $cat = get_category($anc);
+    echo '<span class="blog-article__category">'.$cat->name.'</span>';
+  }
+  echo '<span class="blog-article__category">'.$bottom_cat->name.'</span>';
+}
+?>
                       </div>
                         <?php } ?>
 

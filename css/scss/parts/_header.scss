@@ -425,6 +425,10 @@
 .top__menu__area {
     background: url("../img/top/bg05222.jpg") no-repeat 50% (50% / cover);
 
+    &--pb {
+        padding-bottom: 1.45rem;
+    }
+
     .cv-wrap, .menu-link {
         height: 223px;
     }
@@ -456,6 +460,48 @@
                     display: block;
                     font-size: .88rem;
                 } */
+            }
+
+            &--width {
+                width: 45%;
+
+                @media screen and (min-width: 768px) and (max-width: 1520px) {
+                    width: 46%;
+                }
+
+                @media (max-width: 767px) {
+                    padding-top: 0 !important;
+                }
+
+                li {
+                    @media (min-width: 1521px) {
+                        height: 250px;
+                    }
+
+                    @media screen and (min-width: 768px) and (max-width: 1520px) {
+                        height: 223px;
+                    }
+
+                    a {
+                        img {
+                            @media (min-width: 1521px) {
+                                height: 135px;
+                                margin-bottom: 17px;
+                            }
+
+                            @media screen and (min-width: 768px) and (max-width: 1520px) {
+                                height: 128px;
+                                margin-bottom: 11px;
+                            }
+                        }
+
+                        p {
+                            @media screen and (min-width: 768px) and (max-width: 1520px) {
+                                font-size: 1.1vw;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -535,6 +581,35 @@
             .bg-icon {
                 background-image: url("../img/common/icon_mail02.png");
             }
+        }
+    }
+}
+
+.hifu-bnr {
+    width: 51.2%;
+
+    @media screen and (min-width: 768px) and (max-width: 1520px) {
+        width: 642px;
+    }
+
+    @media (max-width: 767px) {
+        min-width: auto;
+        width: 100%;
+    }
+}
+
+#cv-wrap {
+    margin: 0 auto;
+    max-width: 742px;
+
+    @media (max-width: 767px) {
+        width: 96%;
+        height: auto;
+    }
+
+    .cv-btns {
+        @media (min-width: 768px) {
+            width: 48%;
         }
     }
 }
@@ -675,57 +750,58 @@
                     }
                 }
             }
+        }
 
-            .cv-wrap {
-                width: 100%;
-                padding: 20px;
+        .cv-wrap {
+            width: 100%;
+            padding: 20px;
+            height: auto;
 
-                .top {
-                    padding-top: 0;
-                    padding-bottom: 0;
-                    margin-bottom: 5px;
-                    display: block;
+            .top {
+                padding-top: 0;
+                padding-bottom: 0;
+                margin-bottom: 5px;
+                display: block;
+                text-align: center;
+
+                .left {
+                    margin-bottom: .6rem;
+                    font-size: 1.1rem;
+                }
+
+                .tel {
+                    width: 100%;
                     text-align: center;
+                    margin-bottom: 1.1%;
 
-                    .left {
-                        margin-bottom: .6rem;
-                        font-size: 1.1rem;
-                    }
-
-                    .tel {
-                        width: 100%;
-                        text-align: center;
-                        margin-bottom: 1.1%;
-
-                        a {
-                            background-size: 28px;
-                            font-size: 2.57rem;
-                            padding-left: 52px;
-                            background-size: 40px;
-                        }
-                    }
-
-                    .time {
-                        width: 100%;
-                        font-size: .5rem;
-                        letter-spacing: 0;
-                        text-align: center;
+                    a {
+                        background-size: 28px;
+                        font-size: 2.57rem;
+                        padding-left: 52px;
+                        background-size: 40px;
                     }
                 }
 
-                .cv-btns {
-                    width: 48.2%;
-                    padding: 15px 0;
+                .time {
+                    width: 100%;
+                    font-size: .5rem;
+                    letter-spacing: 0;
+                    text-align: center;
+                }
+            }
 
-                    span {
-                        font-size: .95rem;
-                        line-height: 1.22;
-                    }
+            .cv-btns {
+                width: 48.2%;
+                padding: 15px 0;
 
-                    span.sm {
-                        font-size: 8px;
-                        letter-spacing: 0;
-                    }
+                span {
+                    font-size: .95rem;
+                    line-height: 1.22;
+                }
+
+                span.sm {
+                    font-size: 8px;
+                    letter-spacing: 0;
                 }
             }
         }

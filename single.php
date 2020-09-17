@@ -27,7 +27,30 @@
 
 <?php if ( has_category() ) : ?>
 <div class="blog-page-content__category-wrap">
-<span class="blog-page-content__category"><?php the_category(' '); ?></span>
+<span class="blog-page-content__category">
+
+
+<?php
+$cats = $sort = array();
+$post_cats = get_the_category();
+foreach ($post_cats as $cat) {
+$layer = count(get_ancestors($cat->term_id, 'category'));
+$cats[] = array(
+'name' => $cat->name,
+'id' => $cat->term_id
+);
+$sort[] = $layer;
+}
+array_multisort($sort, SORT_ASC, $cats);
+foreach ($cats as $cat) {
+echo '<a href="'.get_category_link( $cat['id'] ).'">'.$cat['name'].'</a>';
+}
+?>
+
+
+
+
+</span>
 </div>
 <?php endif; ?>
 

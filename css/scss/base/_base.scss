@@ -288,6 +288,10 @@ section {
     border-top: none !important;
 }
 
+.bd-bottom-none {
+    border-bottom: none !important;
+}
+
 /*HEADER  CV-BTNS*/
 
 /* .top-cv-btn {
@@ -776,6 +780,10 @@ body.page {
 .flex {
     display: flex;
     justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center !important;
 }
 
 .fw {

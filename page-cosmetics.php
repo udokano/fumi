@@ -10,6 +10,7 @@ Template Name: ドクターズコスメ・サプリメント
   <?php echo breadcrumb_func(); ?> </div>
 <div class="ancor-box gosic mb60">
       <a href="#area1">エンビロン</a>
+       <a href="#area6">ゼオスキン</a>
       <a href="#area2">FAITHラメラボ</a>
       <a href="#area3">幹細胞</a>
         <a href="#area4">ドクターズサプリメント</a>
@@ -64,8 +65,73 @@ Template Name: ドクターズコスメ・サプリメント
      <p class="note tc">※メニューにない商品も受注発注が可能です。お気軽にお申し付けください。</p>
   </div>
 </section>
-<section class="ope-intro bg-cp" id="area2">
+<section class="ope-intro bg-cp" id="area6">
   <div class="inner flex ff-row-reverse al-cent">
+    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/thumb10.jpg" alt="サムネイル"> </div>
+    <div class="text box-size">
+      <h2>ゼオスキン</h2>
+      <p class="ls1 gosic">“真に美しく健やかな肌がどのようなものなのか？”と追及したセイン・オバジが本当に作りたかった化粧品！！医療機関向けのセラピューティックプログラムも人気です♡</p>
+    </div>
+  </div>
+</section>
+<section class="price">
+  <div class="inner-box2">
+    <h2 class="tc ls1">ゼオスキン料金</h2>
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">種類</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>ハイドレーティングクレンザー</dt>
+        <dd>¥5,200</dd>
+      </dl>
+      <dl class="flex">
+        <dt>エクスフォリエーティングポリッシュ</dt>
+        <dd>¥7,600</dd>
+      </dl>
+      <dl class="flex">
+        <dt>バランサートナー</dt>
+        <dd>¥6,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>デイリーPD</dt>
+        <dd>¥18,600</dd>
+      </dl>
+      <dl class="flex">
+        <dt>ミラミン	</dt>
+        <dd>¥12,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>シーセラム</dt>
+        <dd>¥13,500</dd>
+      </dl>
+      <dl class="flex">
+        <dt>ミラミックス</dt>
+        <dd>¥11,600</dd>
+      </dl>
+       <dl class="flex">
+        <dt>Wテクスチャーリペア</dt>
+        <dd>¥17,600</dd>
+      </dl>
+       <dl class="flex">
+        <dt>ファーミングセラム</dt>
+        <dd>¥28,000</dd>
+      </dl>
+       <dl class="flex">
+        <dt>Gファクターセラム</dt>
+        <dd>¥16,800</dd>
+      </dl>
+       <dl class="flex">
+        <dt>サンスクリーンプラスプライマー</dt>
+        <dd>¥7,200</dd>
+      </dl>
+    </div>
+    <p class="note tc">※メニューにない商品も受注発注が可能です。お気軽にお申し付けください。</p>
+  </div>
+</section>
+<section class="ope-intro bg-cp" id="area2">
+  <div class="inner flex  al-cent">
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/thumb01.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>FAITHラメラボシリーズ</h2>
@@ -112,8 +178,14 @@ Template Name: ドクターズコスメ・サプリメント
     </div>
   </div>
 </section>
+
+
+
+
+
+
 <section class="ope-intro bg-cp" id="area3">
-  <div class="inner flex al-cent">
+  <div class="inner flex ff-row-reverse al-cent">
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/thumb03.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>幹細胞シリーズ</h2>
@@ -167,7 +239,7 @@ Template Name: ドクターズコスメ・サプリメント
 </section>
 
 <section class="ope-intro bg-cp" id="area4">
-  <div class="inner flex ff-row-reverse al-cent">
+  <div class="inner flex al-cent">
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/thumb09.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>ドクターズサプリメント</h2>
@@ -243,7 +315,7 @@ Template Name: ドクターズコスメ・サプリメント
 </section>
 
 <section class="ope-intro bg-cp" id="area5">
-  <div class="inner flex al-cent">
+  <div class="inner flex ff-row-reverse al-cent">
     <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/thumb08.jpg" alt="サムネイル"> </div>
     <div class="text box-size">
       <h2>まつげ育毛薬</h2>

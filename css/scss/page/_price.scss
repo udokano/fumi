@@ -93,13 +93,13 @@ $bg_btx: #fedcf9;
 
 .ancor-box--price {
     width: 96%;
-    max-width: 880px;
+    max-width: 1080px;
     margin: 0 auto 1.78rem;
     text-align: center;
 
     .ancor-box--price__link {
         display: inline-block;
-        width: 22%;
+        width: 18%;
         margin: 0 .88rem 1.45rem;
         position: relative;
         line-height: 1;
@@ -154,6 +154,8 @@ $color-medi: #fab2c0;
 $color-naika: #aeebeb;
 
 $color-home: #f9cea7;
+
+$color-hifu: #7695d7;
 
 .--color-hel {
     border-color: $color-hel !important;
@@ -215,6 +217,16 @@ $color-home: #f9cea7;
     }
 }
 
+.--color-hifu {
+    border-color: $color-hifu !important;
+    color: $color-hifu !important;
+
+    &:hover {
+        background-color: $color-hifu !important;
+        color: #fff !important;
+    }
+}
+
 .price-ope-ttl {
     font-size: 2.1rem;
     margin-top: 3.2rem;
@@ -264,6 +276,11 @@ $color-home: #f9cea7;
     &--tenteki {
         border-color: #aeebeb;
         background-color: #aeebeb;
+    }
+
+    &--hifu {
+        border-color: #7695d7;
+        background-color: #7695d7;
     }
 }
 
@@ -487,7 +504,7 @@ $color-home: #f9cea7;
     &--lift {
         tr {
             th {
-                background-color: #ffffb0;
+                background-color: #ffffcd;
             }
 
             .tb-ttl-color-lift {
@@ -539,7 +556,7 @@ $color-home: #f9cea7;
     &--sosume {
         tr {
             th {
-                background-color: #ffd6ad;
+                background-color: #ffe1cf;
             }
 
             .tb-ttl-color-sosume {
@@ -552,6 +569,18 @@ $color-home: #f9cea7;
         tr {
             th {
                 background-color: #f9f9f9;
+            }
+        }
+    }
+
+    &--hifu {
+        tr {
+            th {
+                background-color: #d5e2ff;
+            }
+
+            .tb-ttl-color-hifu {
+                color: #507dde;
             }
         }
     }
@@ -596,6 +625,47 @@ $color-home: #f9cea7;
                 padding: 1.3rem .5rem;
             }
         }
+
+        &__th--hifu {
+            width: 35%;
+
+            @media (max-width: 767px) {
+                width: 50%;
+            }
+        }
+
+        &__th--hifu-left {
+            width: 20%;
+
+            @media (max-width: 767px) {
+                width: 14%;
+            }
+        }
+
+        &__th--hifu-right {
+         /*   width: 20%;
+*/
+            @media (max-width: 767px) {
+                width: 35%;
+            }
+        }
+    }
+}
+
+.table-width-auto {
+    width: auto;
+}
+
+.table-text-center {
+    text-align: center !important;
+    padding-left: .35rem;
+    padding-right: .35rem;
+    background-color: #ebf1fe;
+
+    @media (max-width: 767px) {
+        padding-left: .32rem;
+        padding-right: .32rem;
+        font-size: .94rem;
     }
 }
 

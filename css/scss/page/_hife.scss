@@ -1,0 +1,1234 @@
+/*
+
+ウルセラQプラス
+----------------------------------------*/
+
+.page-template-page-hife {
+    *, *::after, *::before {
+        box-sizing: border-box;
+    }
+}
+
+.bg__p03 {
+    background-color: #fcdede;
+}
+
+.bg__gray_sec {
+    background-color: #f7f7f7;
+}
+
+.bg__gold {
+    background-color: #c59650;
+}
+
+/* よく使うテキストカラー */
+
+.color-gold {
+    color: #c6974f;
+}
+
+/* タイトルエリア */
+
+.hifu-ttl {
+    h2 {
+        font-size: 2.663125rem;
+        letter-spacing: .1em;
+        color: #616161;
+
+        @media (max-width: 767px) {
+            font-size: 1.53rem;
+        }
+    }
+}
+
+/* HIFUとは */
+
+.hifu-about {
+    background-color: #f7f7f7;
+    padding: 5.625rem 0 5.125rem;
+    margin-bottom: 0;
+}
+
+.hifu-about-box-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    @media (max-width: 767px) {
+        display: block;
+        padding: 0 2.2%;
+    }
+
+    &__text {
+        width: 100%;
+        max-width: 613px;
+
+        @media (max-width: 767px) {
+            margin-bottom: 2.48rem;
+        }
+    }
+
+    &__ttl {
+        font-size: 2.266875rem;
+        padding-left: 1.0625rem;
+        border-left: 8px solid #3ca2cd;
+        margin-bottom: 1.375rem;
+        line-height: 1;
+        font-weight: 600;
+        color: #3ca2cd;
+
+        @media (max-width: 767px) {
+            font-size: 1.8rem;
+            border-left-width: 6px;
+            padding-left: 0.82rem;
+        }
+    }
+
+    &__desc {
+        font-size: 1.0625rem;
+        line-height: 1.65;
+        letter-spacing: .05em;
+    }
+
+    &__thumb {
+        width: 100%;
+        max-width: 544px;
+
+        @media (min-width: 768px) {
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 767px) {
+            // margin: 0 auto;
+        }
+    }
+}
+
+.hifu-merit {
+    background: #f7f7f7 url(../img/operation/hifu/merit_bg.jpg) no-repeat 0% (50% / auto) 100%;
+    padding: 5.6875rem 0;
+
+    @media (max-width: 767px) {
+        background-image: url(../img/operation/hifu/merit_bg_sp.jpg);
+        padding: 3.75rem 0;
+    }
+
+    &__text {
+        width: 526px;
+        margin-left: auto;
+
+        @media (min-width: 768px) {
+            margin-right: 95px;
+        }
+
+        @media (max-width: 767px) {
+            width: 60%;
+            margin-right: 2%;
+        }
+    }
+}
+
+.hifu-problem {
+    //background: url("../img/operation/hifu/problem_bg.jpg") 50% 50% no-repeat;
+    background-size: auto 100%;
+    padding: 2.125rem 0 4.6875rem;
+}
+
+.hifu-problem-contents {
+    max-width: 926px;
+    width: 100%;
+
+    &__ttl {
+        margin-bottom: 1.4375rem;
+    }
+}
+
+.hifu-problem-list {
+    padding-left: 1.625rem;
+
+    &__item {
+        padding-left: 2.75rem;
+        margin-bottom: 1.0875rem;
+        color: #fff;
+        font-size: 1.375rem;
+        letter-spacing: .05em;
+        background: url(../img/operation/hifu/check_bg_icon.png) no-repeat 0% 44% / 1.5rem auto;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+}
+
+/* そんなお悩みを解決 */
+
+.hifu-catch {
+    padding: 2.75rem 0 4.1875rem;
+
+    &__ttl-content {
+        max-width: 1066px;
+        width: 100%;
+        margin: auto;
+    }
+
+    &__ttl-sub {
+        position: relative;
+
+        img {
+            display: block;
+            max-width: 336px;
+            width: 45%;
+            margin: 0 auto 1.375rem;
+            position: relative;
+            z-index: 500;
+        }
+
+        &::before {
+            position: absolute;
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            background-color: #c5974f;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
+    &__ttl {
+        text-align: center;
+        letter-spacing: 0.1em;
+        font-weight: 800;
+    }
+
+    &__ttl-blue {
+        color: #4fb9ea;
+        font-weight: 800;
+        font-size: 3.9275rem;
+    }
+
+    &__ttl-gray {
+        color: #666666;
+        font-size: 2.440625rem;
+    }
+
+    &__ttl-gold {
+        font-size: 2.944375rem;
+        color: #e2a13c;
+    }
+}
+
+/* 施術のポイント */
+
+.hifu-points {
+    flex-wrap: wrap;
+
+    @media (max-width: 767px) {
+        padding: 2.2rem 0;
+    }
+
+    &__item {
+        margin-bottom: 5.4375rem;
+        position: relative;
+        height: 285px;
+        max-width: 535px;
+        width: 100%;
+        border: 1px solid #e4e4e4;
+        border-radius: 15px 30px 15px 30px;
+
+        @media (min-width: 768px) {
+            &:nth-of-type(3), &:nth-of-type(4) {
+                margin-bottom: 0;
+            }
+        }
+
+        @media (max-width: 767px) {
+            height: auto;
+            padding-bottom: 1.55rem !important;
+
+            &:last-of-type {
+                margin-bottom: 0 !important;
+            }
+        }
+
+        &--min {
+            @media (min-width: 768px) {
+                height: 260px;
+            }
+        }
+    }
+}
+
+.hifu-ttl-q {
+    text-align: center;
+    position: relative;
+    margin-bottom: 5.675rem;
+
+    &::before {
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 0;
+        display: block;
+        height: 1px;
+        width: 100%;
+        background-color: #dbdbdb;
+        transform: translateY(-50%);
+    }
+
+    &__text {
+        display: inline-block;
+        font-size: 37px;
+        letter-spacing: .05em;
+        color: #898989;
+        font-weight: 600;
+        padding: 0 3.5rem;
+        background-color: #fff;
+        position: relative;
+        z-index: 5;
+    }
+}
+
+.color-mint {
+    color: #44c1c6;
+}
+
+/* ポイント中身 */
+
+.hifu-point-box {
+    padding: 2.25rem 1.8125rem 0;
+
+    @media (max-width: 767px) {
+        padding: 2.25rem 1.2125rem 0;
+        padding-top: 2.95rem;
+    }
+
+    &--sp-pt-plus {
+        @media (max-width: 767px) {
+            padding-top: 2.22rem;
+        }
+    }
+
+    &__ttl {
+        position: absolute;
+        left: 50%;
+        top: -50px;
+        transform: translateX(-50%);
+        text-align: center;
+        display: inline-block;
+        background: #ffffff;
+        white-space: nowrap;
+
+        @media (max-width: 767px) {
+            top: -52px;
+
+            // white-space: wrap;
+        }
+
+        &--line02 {
+            @media (min-width: 768px) {
+                top: -65px;
+            }
+        }
+
+        &--sp-line01 {
+            @media (max-width: 767px) {
+                top: -40px;
+            }
+        }
+    }
+
+    &__point {
+        color: #f7abcf;
+        display: block;
+        font-size: 1.0625rem;
+        letter-spacing: 0.1em;
+        margin-bottom: 0.8125rem;
+        line-height: 1;
+    }
+
+    &__point-num {
+        font-size: 1.375rem;
+    }
+
+    &__ttl-text {
+        color: #e684b3;
+        display: block;
+        font-size: 1.5rem;
+        letter-spacing: .025em;
+        font-weight: 600;
+        line-height: 1.26;
+        padding: 0 0.8625rem;
+        position: relative;
+
+        &::after, &::before {
+            content: "";
+            position: absolute;
+            height: 33px;
+            width: 1px;
+            background-color: #e4e4e4;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        &::after {
+            left: 0;
+        }
+
+        &::before {
+            right: 0;
+        }
+
+        @media (max-width: 767px) {
+            line-height: 1.42;
+
+            /*  font-size: 5.1vw;
+             padding: 0 2.98vw; */
+
+            font-size: 1.42rem;
+        }
+    }
+
+    &__desc {
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #717171;
+        letter-spacing: .001em;
+
+        @media (max-width: 767px) {
+            line-height: 1.57;
+        }
+    }
+}
+
+/* HIFUについて */
+
+/*
+ウルセラQプラスとは？
+------------------------------------*/
+
+.q-plus-about {
+    padding: 7.3125rem 0 7.5rem;
+
+    @media (max-width: 767px) {
+        padding: 3.7rem 0;
+    }
+}
+
+.hifu-about-box {
+    background-color: #fff;
+    padding: 2.625rem 3.0625rem 3rem;
+    border: 1px solid #e4e4e4;
+    margin-bottom: 4.6875rem;
+
+    @media (max-width: 767px) {
+        padding: 1.5rem 1.1rem 1.7rem;
+    }
+}
+
+.hifu__title_img {
+    width: 96%;
+    max-width: 747px;
+    margin-bottom: 2.7625rem;
+
+    @media (max-width: 767px) {
+        margin-bottom: 1.1rem;
+        margin-left: .5%;
+    }
+}
+
+.hifu-about-box02 {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 767px) {
+        display: block;
+    }
+
+    &__left {
+        max-width: 833px;
+        width: 100%;
+
+        @media (max-width: 767px) {
+            margin-bottom: 1.25rem;
+        }
+    }
+
+    &__thumb {
+        max-width: 338px;
+        width: 100%;
+    }
+
+    &__band {
+        margin-bottom: 0.5625rem;
+    }
+
+    &__band-main {
+        font-size: 16px;
+        text-align: center;
+        line-height: 26px;
+        height: 26px;
+        width: 69px;
+        display: inline-block;
+    }
+
+    &__band-sub {}
+
+    &__ttl {
+        margin-bottom: 1rem;
+        letter-spacing: .025em;
+        font-size: 1.90625;
+        line-height: 1;
+        padding-bottom: 0.8125rem;
+        border-bottom: 1px solid #e4e4e4;
+    }
+
+    &__ttl-sub {
+        display: inline-block;
+        margin-right: 7px;
+        font-size: 19px;
+        color: #686868;
+        vertical-align: middle;
+    }
+
+    &__desc {
+        font-size: 1rem;
+        line-height: 1.63;
+        letter-spacing: 0.025em;
+        color: #616161;
+    }
+}
+
+/*
+
+カートリッジ
+----------------------------------------*/
+
+.hifu-cartridge {
+    margin-bottom: 3.625rem;
+    background-color: #fff;
+    border: 1px solid;
+
+    &__box {
+        padding: 13.875rem 3.8125rem 4rem;
+        position: relative;
+
+        @media (max-width: 767px) {
+            padding: 8rem 1.1rem 3.5rem;
+        }
+    }
+
+    &__ttl {
+        position: absolute;
+        left: 0;
+        top: 64px;
+        display: inline-block;
+        color: #fff;
+        font-weight: 600;
+        font-size: 3.0625rem;
+        letter-spacing: .025em;
+        line-height: 1;
+        border-radius: 0 42.5px 42.5px 0;
+        padding: 1.1875rem 0;
+        padding-left: 3.3875rem;
+        padding-right: 2.75rem;
+
+        @media (max-width: 767px) {
+            top: 26px;
+            font-size: 6.2vw;
+            padding: .88rem 0;
+            padding-left: 1.4rem;
+            padding-right: 1.8rem;
+        }
+
+        &--lift {
+            background-color: #09ace1;
+        }
+
+        &--lina {
+            background-color: #44c1c6;
+        }
+    }
+}
+
+.--bc-lift {
+    border-color: #8bd2f5;
+}
+
+.--bc-lina {
+    border-color: #44c1c6;
+}
+
+.about-qps {
+    padding: 3.4375rem 3.8125rem 3.5rem;
+    position: relative;
+    border-bottom: 1px solid #c4c4c4;
+
+    @media (max-width: 767px) {
+        padding: 1.78rem 1.1rem;
+    }
+
+    &__left {
+        max-width: 808px;
+        width: 100%;
+
+        @media (max-width: 767px) {
+            width: 67%;
+        }
+    }
+
+    &__ttl {
+        width: 437px;
+        margin-bottom: .975rem;
+
+        //margin-left: 1rem;
+
+        @media (max-width: 767px) {
+            width: 96%;
+            margin-left: 0;
+        }
+    }
+
+    &__desc {
+        font-size: 1.761875rem;
+        letter-spacing: .025em;
+        font-weight: 600;
+        color: #666666;
+        line-height: 1.71;
+
+        @media (max-width: 767px) {
+            font-size: 3.45vw;
+            position: relative;
+            z-index: 500;
+        }
+    }
+
+    &__img {
+        width: 80%;
+        max-width: 296px;
+        right: 44px;
+        bottom: 0;
+        position: absolute;
+
+        @media (max-width: 767px) {
+            width: 42%;
+            right: 0;
+        }
+    }
+}
+
+.cartridge-desc {
+    &__row {
+        display: flex;
+        justify-content: space-between;
+
+        @media (min-width: 768px) {
+            //padding: 0 2.25rem;
+            padding-right: 0;
+        }
+
+        @media (max-width: 767px) {
+            display: block;
+        }
+    }
+
+    &__thumb {
+        max-width: 567px;
+        width: 100%;
+
+        @media (max-width: 767px) {
+            margin-bottom: 2.4rem;
+        }
+    }
+
+    &__right {
+        width: 100%;
+        max-width: 457px;
+    }
+
+    &__right-bottom {
+        background-color: rgba($color: #d8f2ff, $alpha: 0.23);
+        padding: 1.25rem 1.375rem;
+        border-radius: 10px;
+        font-size: 1rem;
+        letter-spacing: 0.025em;
+        color: #686868;
+        line-height: 1.69;
+    }
+}
+
+.cartridge-illust-row {
+    display: flex;
+    align-items: center;
+
+    /*    justify-content: space-between;
+      align-items: center; */
+    flex-flow: column;
+    margin-bottom: 19px;
+
+    @media (max-width: 767px) {
+        //flex-flow: row;
+        justify-content: space-between;
+        margin-bottom: 0;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &__img {
+        /*  width: 205px;
+         flex-basis: 205px; */
+        width: 399px;
+        margin-bottom: 13px;
+
+        @media (max-width: 767px) {
+            width: 100%;
+            margin-bottom: 1.2rem;
+        }
+
+        &--lina {
+            @media (min-width: 768px) {
+                width: 437px;
+                margin-bottom: 9px;
+            }
+        }
+    }
+
+    &__text-top {
+        text-align: center;
+        font-size: 1.1875rem;
+        letter-spacing: .025em;
+        font-weight: 600;
+        margin-bottom: 19px;
+        line-height: 1;
+
+        &--lift {
+            color: #09ace1;
+
+            @media (min-width: 768px) {
+                max-width: 233px;
+            }
+        }
+
+        &--lina {
+            color: #44c1c6;
+
+            @media (min-width: 768px) {
+                margin-bottom: 7px;
+                max-width: 433px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            display: block;
+            width: 92%;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.24;
+        }
+    }
+
+    &__text-top-sq {
+        display: inline-block;
+        font-size: 2.204375rem;
+        border: 1px solid;
+        border-radius: 9px;
+        padding: 8px 25px;
+        line-height: 1;
+        margin-top: 11px;
+
+        @media (max-width: 767px) {
+            font-size: 1.88rem;
+            padding: 7px 16px;
+        }
+
+        &--lift {
+            border-color: #09ace1;
+        }
+
+        &--lina {
+            border-color: #44c1c6;
+        }
+    }
+
+    &__text {
+        font-size: 1.3125rem;
+        line-height: 1.43;
+        letter-spacing: .025em;
+
+        /*  margin-left: 21px;
+         flex-shrink: 1; */
+        /*  text-align: center; */
+        color: #686868;
+
+        // width: 387px;
+
+        /*  padding-left: 17px; */
+        margin: 0 auto;
+        text-align: center;
+
+        @media (max-width: 767px) {
+            width: 100%;
+            font-size: 1.08rem;
+            margin: 0;
+            padding-left: 0;
+        }
+    }
+}
+
+.cartridge-sub-desc {
+    padding: 2.75rem 0 2.9375rem;
+
+    @media (max-width: 767px) {
+        padding: 2.7rem 0 1.7rem;
+    }
+
+    &__ttl {
+        margin: 0 auto 1.6875rem;
+        width: 96%;
+
+        &--lift {
+            max-width: 778px;
+        }
+
+        &--lina {
+            max-width: 619px;
+        }
+    }
+
+    &__text {
+        font-size: 1rem;
+        line-height: 1.69;
+        text-align: center;
+        color: #686868;
+        letter-spacing: 0.025em;
+
+        @media (max-width: 767px) {
+            text-align: left;
+        }
+    }
+}
+
+.cartridge-ilst {
+    //margin-bottom: 4.6875rem;
+}
+
+/*
+
+hIFU アイ
+----------------------------------------*/
+
+.hifu-eye {
+    border-top: 1px solid #c4c4c4;
+    display: flex;
+    justify-content: space-between;
+    padding: 3.875rem 3.8125rem 4rem;
+
+    @media (max-width: 767px) {
+        display: block;
+        padding: 2.5rem 1.1rem;
+    }
+
+    &__texts {
+        width: 100%;
+        max-width: 497px;
+
+        @media (min-width: 768px) {
+            padding-right: 1.4375rem;
+        }
+
+        @media (max-width: 767px) {
+            margin-bottom: 1.88rem;
+        }
+    }
+
+    &__ttl {
+        font-size: 2.530625rem;
+        letter-spacing: 0.025em;
+        color: #c39883;
+        border-bottom: 1px solid #a6a6a6;
+        margin-bottom: 1rem;
+        padding-bottom: 0.875rem;
+        line-height: 1;
+
+        @media (max-width: 767px) {
+            font-size: 1.8rem;
+        }
+    }
+
+    &__ttl-sub {
+        display: inline-block;
+        font-size: 1.706875rem;
+        padding: 0.375rem 1.5625rem;
+        border: 1px solid #c39883;
+        margin-bottom: 0.875rem;
+
+        @media (max-width: 767px) {
+            font-size: 1.4rem;
+        }
+    }
+
+    &__ttl-main {
+        display: block;
+    }
+
+    &__desc {
+        color: #686868;
+        line-height: 1.62;
+        font-size: 1.04125rem;
+    }
+
+    &__thumb {
+        width: 100%;
+        max-width: 561px;
+    }
+}
+
+.hifu-feature {
+    padding: 4.5rem 0 6.5625rem;
+
+    &__inner {
+        @media (max-width: 767px) {
+            width: 100% !important;
+        }
+    }
+
+    &__ttl {
+        margin: 0 auto 2.5625rem;
+        width: 364px;
+    }
+
+    &__desc {
+        margin-bottom: 3.25rem;
+        text-align: center;
+        letter-spacing: 0.1em;
+        font-size: 1.25rem;
+    }
+}
+
+/* 円形のリスト */
+
+.hifu-feature-circle {
+    margin-bottom: 5.4375rem;
+
+    @media (max-width: 767px) {
+        width: 92%;
+        margin: 0 auto 3.2rem;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        width: 279px;
+
+        @media (max-width: 767px) {
+            width: 47%;
+            margin-bottom: 1.89rem;
+
+            &:nth-of-type(3), &:nth-of-type(4) {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.hifu-feature-list {
+    &__item {
+        margin-bottom: 1.625rem;
+    }
+}
+
+/* 特徴の説明 */
+
+.hifu-feature-contents {
+    height: 365px;
+
+    @media (max-width: 767px) {
+        height: 320px;
+    }
+
+    &:nth-child(odd) {
+        padding-left: 50%;
+        background: no-repeat 0% 50% / auto 100%;
+
+        @media (max-width: 767px) {
+            padding-left: 20%;
+            background-size: cover;
+        }
+    }
+
+    &:nth-child(even) {
+        padding-right: 50%;
+        background: no-repeat 100% 50% / auto 100%;
+
+        @media (max-width: 767px) {
+            padding-right: 20%;
+            background-size: cover;
+        }
+    }
+
+    &__textarea {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        background-color: #f5f5f5;
+        height: 100%;
+        padding: 0 3.0625rem;
+
+        @media (max-width: 767px) {
+            background: none;
+            padding: 0 1.22rem;
+        }
+    }
+
+    &__ttl {
+        font-size: 2.0625rem;
+        color: #248dbe;
+        letter-spacing: 0.1em;
+        padding-bottom: 0.625rem;
+        border-bottom: 1px solid #e5e5e5;
+        margin-bottom: 0.625rem;
+        line-height: 1;
+        font-weight: 600;
+    }
+
+    &__desc {
+        font-size: 1rem;
+        letter-spacing: 0.1em;
+        color: #616161;
+        line-height: 1.44;
+        font-family: $gosic;
+    }
+}
+
+.hifu-feature-contents.--feature-contents01 {
+    background-image: url(../img/operation/hifu/point01_thumb.png);
+
+    @media (max-width: 767px) {
+        background-image: url(../img/operation/hifu/point01_thumb_sp.jpg);
+    }
+}
+
+.hifu-feature-contents.--feature-contents02 {
+    background-image: url(../img/operation/hifu/point02_thumb.png);
+
+    @media (max-width: 767px) {
+        background-image: url(../img/operation/hifu/point02_thumb_sp.jpg);
+    }
+}
+
+.hifu-feature-contents.--feature-contents03 {
+    background-image: url(../img/operation/hifu/point03_thumb.png);
+
+    @media (max-width: 767px) {
+        background-image: url(../img/operation/hifu/point03_thumb_sp.jpg);
+    }
+}
+
+.hifu-feature-contents.--feature-contents04 {
+    background-image: url(../img/operation/hifu/point04_thumb.png);
+
+    @media (max-width: 767px) {
+        background-image: url(../img/operation/hifu/point04_thumb_sp.jpg);
+    }
+}
+
+/*
+
+注入部位
+------------------------------------------------*/
+
+.hifu-parts {
+    &__illustration {}
+}
+
+/*
+
+料金
+-----------------------------------------*/
+
+.hifu-price {
+    padding: 5.1875rem 0 5.75rem;
+
+    @media (max-width: 767px) {
+        padding: 3.2rem 0;
+    }
+}
+
+.hifu-table-ttl {
+    border: 1px solid;
+    font-size: 1.42rem;
+    font-weight: 600;
+    text-align: center;
+    padding: .88rem .24rem;
+    letter-spacing: .1em;
+    margin-bottom: .92rem;
+    line-height: 1;
+
+    &--lift {
+        border-color: #04b8d3;
+        color: #04b8d3;
+    }
+
+    &--lina {
+        border-color: #44c1c6;
+        color: #44c1c6;
+    }
+}
+
+.hifu-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2.75rem;
+
+    @media (max-width: 767px) {
+        margin-bottom: 2.1rem;
+    }
+
+    tr {
+        td, th {
+            padding: 0.75rem 0;
+            text-align: center;
+            vertical-align: middle;
+            letter-spacing: 0.1em;
+            border: 1px solid #e8e8e8;
+            font-size: 1.25rem;
+
+            @media (max-width: 767px) {
+                font-size: .94rem;
+                letter-spacing: 0;
+            }
+        }
+    }
+
+    .hifu-table__head {
+        font-weight: 600;
+        color: #fff;
+
+        &--lift {
+            background-color: #1587ab;
+        }
+
+        &--lina {
+            background-color: #1a898d;
+        }
+
+        th {
+            font-size: 1.125rem;
+
+            @media (max-width: 767px) {
+                font-size: .94rem;
+            }
+        }
+    }
+
+    .hifu-table__head-th {
+        &--row01 {
+            width: 326px;
+        }
+
+        &--row02 {
+            width: 219px;
+
+            @media (max-width: 767px) {
+                width: 20%;
+            }
+        }
+
+        &--row03 {
+            width: 351px;
+
+            @media (max-width: 767px) {
+                width: 35%;
+            }
+        }
+
+        &--row04 {
+            width: 311px;
+
+            @media (max-width: 767px) {
+                width: 35%;
+            }
+        }
+    }
+
+    .hifu-table__body {}
+
+    .hifu-table__tr {}
+
+    .hifu-table__th {
+        &--left-top {
+            font-weight: 600;
+            color: #fff;
+            font-size: 1.4375rem;
+        }
+
+        &--lift {
+            background-color: #04b8d3;
+        }
+
+        &--lina {
+            background-color: #44c1c6;
+        }
+    }
+
+    .hifu-table__td {
+        &--lift {
+            background-color: #e6f9ff;
+        }
+
+        &--lina {
+            background-color: #e1f6f7;
+        }
+    }
+}
+
+.table-text-small {
+    font-size: 0.75rem;
+    letter-spacing: 0;
+
+    @media (max-width: 767px) {
+        display: block;
+    }
+}
+
+/*
+
+
+施術の流れ
+
+----------------------------------*/
+
+.color-gray {
+    color: #a7a7a7;
+}
+
+.--sp-flow-height-up {
+    @media (max-width: 767px) {
+        height: 67vw;
+    }
+}
+
+.--pc-flow-pt-top {
+    @media (min-width: 768px) {
+        padding-top: 26px;
+    }
+
+    @media (max-width: 767px) {
+        padding-top: 1.5vw;
+    }
+}
+
+.hifu-flow {
+  /*  @media (max-width: 767px) {
+       padding-top: 4.8vw;
+       padding-bottom: 1.8vw;
+   }
+*/
+    &__contents {}
+
+    &__ttl {
+        @media (max-width: 767px) {
+            font-size: 1.38rem;
+            margin-top: 2.5vw;
+        }
+    }
+}

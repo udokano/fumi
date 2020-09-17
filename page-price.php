@@ -30,6 +30,7 @@ Template Name: 料金一覧
   <div class="ancor-box ancor-box--price">
       <a href="#link-p-hel" class="ancor-box--price__link --color-hel">注入治療</a>
       <a href="#link-p-lift" class="ancor-box--price__link --color-lift">糸の治療</a>
+       <a href="#link-p-hifu" class="ancor-box--price__link --color-hifu">HIFU（ハイフ）</a>
         <a href="#link-p-keisei" class="ancor-box--price__link --color-keisei">
        形成外科治療
       </a>
@@ -419,6 +420,97 @@ Template Name: 料金一覧
 </div>
 </section>
 
+<!-- =======
+
+HIFU(ハイフ)
+
+==============-->
+
+
+
+ <section class="price native__mt">
+
+  <div class="inner-box2">
+    <h3 class="price-ope-ttl price-ope-ttl--hifu tc mb0" id="link-p-hifu">HIFU（ハイフ）</h3>
+
+<div class="price-list gosic mt75">
+<!-- <h4 class="price-table-ttl">シルエットソフト(３D リフト)</h4> -->
+  <table class="price-table price-table--hifu">
+   <tr class="price-table__tr">
+      <td class="price-table__td head-bg-hifu price-table__td--top tb-ttl-color-hifu price-table__td--col02" colspan="4">リフトアップカートリッジ</td>
+    </tr>
+    <tr class="price-table--row03__head-tr">
+          <th class="price-table--row03__head-th price-table--row03__th price-table--row03__th--hifu-left">部位</th>
+          <th class="price-table--row03__head-th price-table--row03__th price-table--row03__th--hifu" colspan="2">値段</th>
+          <th class="price-table--row03__head-th price-table--row03__th price-table--row03__th--hifu price-table--row03__th--hifu-right">7ヶ月以内の<br class="sp">再施術</th>
+        </tr>
+    <tr class="price-table--row03__tr">
+      <th class="price-table__th table-width-auto" rowspan="2">顔全体</th>
+      <td class="price-table__td table-width-auto table-text-center">トリプル</td>
+      <td class="price-table__td table-width-auto">¥140,000（税別）</td>
+      <td class="price-table__td table-width-auto">¥126,000（税別）</td>
+    </tr>
+    <tr class="price-table--row03__tr">
+    <!--   <th class="price-table__th price-table--row03__th">顔全体 ダブル</th> -->
+    <td class="price-table__td table-width-auto table-text-center">ダブル</td>
+      <td class="price-table__td table-width-auto">¥120,000（税別）</td>
+      <td class="price-table__td table-width-auto">¥108,000（税別）</td>
+    </tr>
+
+    <tr class="price-table--row03__tr">
+      <th class="price-table__th table-width-auto" rowspan="2">顔全体+首</th>
+       <td class="price-table__td table-width-auto table-text-center">トリプル</td>
+      <td class="price-table__td table-width-auto">¥160,000（税別）</td>
+      <td class="price-table__td table-width-auto">¥144,000（税別）</td>
+    </tr>
+
+    <tr class="price-table--row03__tr">
+
+      <td class="price-table__td table-width-auto table-text-center">ダブル</td>
+      <td class="price-table__td table-width-auto">¥140,000（税別）</td>
+      <td class="price-table__td table-width-auto">¥126,000（税別）</td>
+    </tr>
+
+    <tr class="price-table--row03__tr">
+      <th class="price-table__th table-width-auto">頬のみ</th>
+      <td class="price-table__td table-width-auto" colspan="2">¥80,000（税別）</td>
+       <td class="price-table__td table-width-auto">¥72,000（税別）</td>
+    </tr>
+
+    <tr class="price-table--row03__tr">
+      <th class="price-table__th table-width-auto">ハイフアイ</th>
+      <td class="price-table__td table-width-auto" colspan="2">¥40,000（税別）</td>
+      <td class="price-table__td table-width-auto">¥36,000（税別）</td>
+    </tr>
+
+
+   <tr class="price-table--row03__tr">
+      <td class="price-table__td head-bg-hifu tb-ttl-color-hifu price-table__td--top price-table__td--col02" colspan="4">リニアカートリッジ</td>
+    </tr>
+    <tr class="price-table--row03__head-tr">
+          <th class="price-table--row03__head-th price-table--row03__th price-table--row03__th--hifu-left">部位</th>
+          <th class="price-table--row03__head-th price-table--row03__th price-table--row03__th--hifu" colspan="2">値段</th>
+          <th class="price-table--row03__head-th price-table--row03__th price-table--row03__th--hifu price-table--row03__th--hifu-right">1ヶ月以内の<br class="sp">再施術</th>
+        </tr>
+    <tr class="price-table--row03__tr">
+      <th class="price-table__th table-width-auto">4.5mm 二重アゴ解消</th>
+      <td class="price-table__td table-width-auto" colspan="2">¥50,000（税別）</td>
+       <td class="price-table__td table-width-auto">¥45,000（税別）</td>
+    </tr>
+
+    <tr class="price-table--row03__tr">
+      <th class="price-table__th table-width-auto">2.0mm 美肌・美白</th>
+      <td class="price-table__td table-width-auto" colspan="2">¥50,000（税別）</td>
+      <td class="price-table__td table-width-auto">¥45,000（税別）</td>
+    </tr>
+
+  </table>
+ </div>
+ <!-- ./price-list -->
+
+</div>
+</section>
+
 
 <!-- ===========================
 
@@ -699,7 +791,7 @@ Template Name: 料金一覧
       <td class="price-table__td">+¥3,000（税別）</td>
     </tr>
     <tr class="price-table__tr">
-      <th class="price-table__th">胞パック導入コース</th>
+      <th class="price-table__th">幹細胞パック導入コース</th>
       <td class="price-table__td">¥10,000（税別）</td>
     </tr>
 

@@ -108,7 +108,7 @@
 
   <div class="top__menu__area">
     <div class="bottom inner-box flex">
-      <ul class="menu-link flex">
+      <ul class="menu-link  flex">
         <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
           <p class="tc">オーダーメイド注入<br>
             <span class="gd">INJECTION</span></p>
@@ -131,8 +131,27 @@
           <span class="sm">RESERVATION</span></span></a> <a href="<?php echo home_url('/'); ?>contact" class="cv-btns c_gray bg-ct bg__n_ct"><span class="bg-icon">お問合わせ<br>
           <span class="sm">CONTACT</span></span></a> </div>
       </div>
+
+     <!--  <div class="hifu-bnr">
+        <a href="" class="">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr.jpg" alt="">
+        </a>
+      </div> -->
     </div>
     <!--BOTTOM END-->
+
+    <!-- <div class="cv-wrap box-size" id="cv-wrap">
+        <div class="top flex al-cent">
+          <div class="left sm">お電話による<br class="pc">
+            お問い合わせ</div>
+          <div class="tel"><a href="tel:0663722323" class="">06-6372-2323</a></div>
+          <div class="time sm"> 平日 10:00～18:00<br>
+            土 10:00～17:00</div>
+        </div>
+        <div class="bottom__btn flex"> <a href="https://fumibeauty.reserve.ne.jp/" class="cv-btns bg-rs c_gray" target="_blank"><span class="bg-icon">来院予約<br>
+          <span class="sm">RESERVATION</span></span></a> <a href="<?php echo home_url('/'); ?>contact" class="cv-btns c_gray bg-ct bg__n_ct"><span class="bg-icon">お問合わせ<br>
+          <span class="sm">CONTACT</span></span></a> </div>
+      </div> -->
 
   </div>
   <!--top__menu__area END-->
@@ -242,6 +261,7 @@
           <li>・ヒアルロン酸</li>
           <li>・スレッドリフト</li>
           <li>・ボトックスリフト</li>
+           <li>・ウルトラセルQプラス</li>
         </ul>
         </a> </li>
       <li class="box-size hg-row"> <a href="<?php echo home_url('/'); ?>siwa">
@@ -261,6 +281,7 @@
           <li>・ダーマペン4/ヴェルヴェットスキン</li>
           <li>・メディカルエステ</li>
           <li>・美容点滴/プラセンタ</li>
+          <li>・ウルトラセルQプラス<br class="sp">リニア2.0</li>
         </ul>
         </a> </li>
       <li class="box-size "> <a href="<?php echo home_url('/'); ?>kogao">
@@ -270,6 +291,7 @@
           <li data-url="<?php echo home_url('/'); ?>kogao#area3" class="js-link">・スレッドリフト</li>
           <li data-url="<?php echo home_url('/'); ?>kogao#area2" class="js-link">・エラボトックス</li>
           <li data-url="<?php echo home_url('/'); ?>kogao#area1" class="js-link">・脂肪溶解注射/BNLSneo、デオリポ(カベルライン)、<br class="pc">チンセラプラス</li>
+           <li data-url="<?php echo home_url('/'); ?>kogao#area4" class="js-link">・ウルトラセルQプラス</li>
         </ul>
         </a> </li>
       <li class="box-size"> <a href="<?php echo home_url('/'); ?>nose-lift">
@@ -293,11 +315,29 @@
 
     </ul>
   </section>
+  <!-- エンビロンバナー -->
   <div class="cosmetics__bnr">
     <div class="inner">
-      <div class="bnr"> <a href="<?php echo home_url('/');?>cosmetics" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/common/cosmetics_bnr02.jpg?1203" alt="ドクターズサプリメントのバナー"></a> </div>
+      <div class="bnr"> <a href="<?php echo home_url('/');?>cosmetics" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/common/cosmetics_bnr03.jpg?555555555555555555" alt="ドクターズサプリメントのバナー"></a> </div>
     </div>
   </div>
+  <!-- ./エンビロンバナー -->
+
+  <!-- HIFUバナー -->
+
+
+
+<!--   <div class="cosmetics__bnr">
+        <div class="inner">
+          <div class="bnr"> <a href="<?php echo home_url('/');?>hifu" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr.jpg?1203" alt="HIFU"></a>
+          </div>
+        </div>
+  </div> -->
+
+  <!-- ./HIFUバナー -->
+
+
+
   <?php if (have_rows('bnr_cam', 28)): ?>
   <div class="banner-campaign">
     <h2 class="tc c_gray">当院からのお知らせ<br>

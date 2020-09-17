@@ -17,6 +17,7 @@ Template Name: 小顔治療
      <a href="#area3">スレッドリフト</a>
      <a href="#area1">脂肪溶解注射</a>
   <a href="#area2">エラボトックス</a>
+  <a href="#area4">ウルトラセルQプラス</a>
 
 </div>
 </section>
@@ -587,6 +588,150 @@ Template Name: 小顔治療
     <?php endwhile; wp_reset_postdata(); ?>
   </div>
 </section>
+
+<section class="ope-intro bg-cp" id="area4">
+  <div class="inner flex al-cent">
+    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/thumb02.jpg" alt="サムネイル"> </div>
+    <div class="text box-size">
+      <h2>ウルトラセルQプラス</h2>
+      <p class="ls1 gosic">ウルトラセルQプラスは、HIFU（高密度焦点式超音波）というテクノロジーを使用し、短時間で快適に肌のリフトアップやたるみ・しわの改善、引き締めにはたらきかけます。</p>
+    </div>
+  </div>
+</section>
+<section class="features layout1">
+  <div class="inner-box2">
+    <h2 class="cp gosic tc ls1">ウルトラセルQプラスの特徴</h2>
+    <div class="box">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/point01_hifu.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.1</div>
+        <h3 class="gd ls1">安定したリフトアップ効果</h3>
+        <p class="gosic">リニア・カートリッジ2.0mmを高出力・広範囲にわたり照射することによって、美白美肌効果が期待できます。</p>
+      </div>
+    </div>
+    <div class="box cf">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/point02_hifu.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.2</div>
+        <h3 class="gd ls1">美白・美肌効果</h3>
+        <p class="gosic">コラーゲンの増生による、お肌の引き締め効果で小顔に近づけることが可能です。</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/point03_hifu.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.3</div>
+        <h3 class="gd ls1">二重アゴの改善</h3>
+        <p class="gosic">リニアカートリッジ4.5mmを使用して、気になる二重アゴを改善します。</p>
+      </div>
+    </div>
+    <div class="box cf">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/point02.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.4</div>
+        <h3 class="gd ls1">小顔効果</h3>
+        <p class="gosic">顔の小顔治療は、顔全体への照射、特に目元（目のキワ）などの細かい部分へ照射を行う事によって引き締めます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="price native__mt" id="">
+  <div class="inner-box2">
+    <h2 class="tc ls1">ウルトラセルQプラス料金</h2>
+   <!--  <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。<br>ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
+    <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p> -->
+ <!--      <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。
+      ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>-->
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">リフトアップカートリッジ</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex bd-bottom-none">
+        <dt>顔全体 トリプル</dt>
+        <dd>¥140,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>※7ヶ月以内の再施術</dt>
+        <dd>¥126,000</dd>
+      </dl>
+       <dl class="flex bd-bottom-none">
+        <dt>顔全体 ダブル</dt>
+        <dd>¥120,000</dd>
+      </dl>
+
+       <dl class="flex">
+        <dt>※7ヶ月以内の再施術</dt>
+        <dd>¥108,000</dd>
+      </dl>
+       <dl class="flex bd-bottom-none">
+        <dt>顔全体+首 トリプル</dt>
+        <dd>¥160,000</dd>
+      </dl>
+       <dl class="flex">
+        <dt>※7ヶ月以内の再施術</dt>
+        <dd>¥144,000</dd>
+      </dl>
+       <dl class="flex bd-bottom-none">
+        <dt>顔全体+首 ダブル</dt>
+        <dd>¥140,000</dd>
+      </dl>
+
+      <dl class="flex">
+        <dt>※7ヶ月以内の再施術</dt>
+        <dd>¥126,000</dd>
+      </dl>
+
+       <dl class="flex bd-bottom-none">
+        <dt>頬のみ</dt>
+        <dd>¥80,000</dd>
+      </dl>
+
+      <dl class="flex">
+        <dt>※7ヶ月以内の再施術</dt>
+        <dd>¥72,000</dd>
+      </dl>
+
+       <dl class="flex bd-bottom-none">
+        <dt>ハイフアイ</dt>
+        <dd>¥40,000</dd>
+      </dl>
+
+      <dl class="flex">
+        <dt>※7ヶ月以内の再施術</dt>
+        <dd>¥36,000</dd>
+      </dl>
+    </div>
+
+     <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">リニアカートリッジ</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex bd-bottom-none">
+        <dt>4.5mm 二重アゴ解消</dt>
+        <dd>¥50,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>※1ヶ月以内の再施術</dt>
+        <dd>¥45,000</dd>
+      </dl>
+       <dl class="flex bd-bottom-none">
+        <dt>2.0mm 美肌・美白</dt>
+        <dd>¥50,000</dd>
+      </dl>
+
+       <dl class="flex">
+        <dt>※1ヶ月以内の再施術</dt>
+        <dd>¥45,000</dd>
+      </dl>
+
+    </div>
+  </div>
+</section>
+
+
 
 
 <section class="flow">

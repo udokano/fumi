@@ -140,6 +140,8 @@
             display: block;
             color: #959595;
             position: relative;
+            font-weight: 600;
+            line-height: 1.19;
 
             &::after {
                 content: "";
