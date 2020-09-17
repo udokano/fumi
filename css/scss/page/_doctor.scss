@@ -1,58 +1,515 @@
 .doctor-intro {
     background-color: #f6eeee;
-    padding: 60px 0 0;
+
     .inner {
-        background: url("../img/doctor/doctor_img.png") no-repeat 100% 100%/250px;
+        padding: 60px 0 0;
+        background: url("../img/doctor/doctor_img.png") no-repeat 100% 100% / 340px;
+
         .text {
-        width: 62%;
+            width: 57%;
             padding-bottom: 80px;
-           h2 {
+
+            h2 {
                 width: 34%;
-               margin-bottom: 35px;
-           }
-           
-           p {
-               line-height: 1.84;
-               margin-bottom: 35px;
-           }
-           
-           .blog {
-               margin-bottom: 30px;
-               a {
-                   display: inline-block;
-                   background-color: $cp;
-                   padding: 2px 3px;
-                   margin-right: 1.1rem;
-                   font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
-               }
-           }
-       } 
+                margin-bottom: 35px;
+                color: #7c7c7c;
+
+                .sm {
+                    font-size: .9rem;
+                }
+            }
+
+            p {
+                line-height: 1.8;
+                margin-bottom: 35px;
+                font-size: .97rem;
+                color: #7c7c7c;
+            }
+
+            .blog {
+                margin-bottom: 30px;
+
+                a {
+                    display: inline-block;
+                    background-color: #c086ae;
+                    padding: 4px 6px;
+                    margin-right: 1.1rem;
+                    font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
+                }
+
+                .link-txt {
+                    background: none;
+                    color: #7c7c7c;
+                }
+            }
+        }
     }
-    
 }
 
+/* 先生の紹介文周りも修正 */
+
+.doctor-intro.doctor__intro__repair {
+    background-color: #f6eeee;
+    margin-bottom: 0;
+
+    .inner {
+        padding: 60px 0 0;
+        background: none;
+        color: #7c7c7c;
+        align-items: flex-end;
+
+        @media (max-width: 767px) {
+            padding: 0;
+        }
+
+        .text {
+            width: 68%;
+            padding-bottom: 60px;
+
+            @media (max-width: 767px) {
+                width: 94%;
+                padding-bottom: 0;
+            }
+
+            h2 {
+                margin-bottom: 35px;
+                color: #7c7c7c;
+                width: auto;
+                font-weight: 800;
+
+                .sm {
+                    font-size: .9rem;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 1.82rem;
+                    text-align: left;
+                }
+            }
+
+            p {
+                line-height: 1.8;
+                margin-bottom: 35px;
+                font-size: .97rem;
+                color: #7c7c7c;
+                text-align: justify;
+
+                @media (max-width: 767px) {
+                    margin-bottom: 25px;
+                    font-size: 3.78285vw;
+                }
+            }
+
+            .blog__name__container {
+                @media (max-width: 767px) {
+                    flex-flow: column-reverse;
+                }
+
+                .blog {
+                    margin-bottom: 0;
+
+                    @media (max-width: 767px) {
+                        text-align: center;
+                    }
+
+                    a {
+                        display: inline-block;
+                        background-color: #c086ae;
+                        padding: 4px 6px;
+                        margin-right: 1.1rem;
+                        font-family: $min;
+                    }
+
+                    .link-txt {
+                        background: none;
+                        color: #7c7c7c;
+                    }
+                }
+
+                div.doctor__name__as {
+                    @media (max-width: 767px) {
+                        margin-bottom: 1.35rem;
+                    }
+                }
+            }
+        }
+
+        .thumb {
+            width: 22%;
+        }
+    }
+}
+
+.doctor-intro.doctor__intro__repair02 {
+    background-color: #f6eeee;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+    .doctor__message__tit {
+        margin-bottom: 35px;
+        color: #7c7c7c;
+        width: auto;
+        padding: 15px 0;
+        font-weight: 800;
+
+        //border-top: 1px solid;
+        //border-bottom: 1px solid;
+        border-color: #b0b0b0;
+        font-size: 1.8rem;
+        margin-left: 0;
+        margin-bottom: 3.5rem;
+        line-height: 1;
+        text-align: center;
+        background-color: #faf5f5;
+        text-align: center;
+
+        .sm {
+            font-size: .9rem;
+        }
+
+        span {
+            @media (min-width: 768px) {
+                //padding-right: 635px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            font-size: 1.82rem;
+            width: 94%;
+            margin: 0 auto 2.5rem;
+        }
+    }
+
+    .inner {
+        padding: 60px 0 0;
+        background: none;
+        color: #7c7c7c;
+        align-items: flex-end;
+
+        @media (max-width: 767px) {
+            padding: 0;
+        }
+
+        .contents__wrap {
+            justify-content: flex-start;
+
+            @media (min-width: 768px) {
+                padding-left: 10%;
+            }
+        }
+
+        .text {
+            width: 73%;
+            margin-left: 4%;
+            padding-bottom: 0px;
+
+            @media (max-width: 767px) {
+                width: 94%;
+                margin-left: auto;
+                padding-bottom: 0;
+            }
+
+            p {
+                line-height: 1.8;
+                margin-bottom: 33px;
+                font-size: 1.05rem;
+                color: #7c7c7c;
+                text-align: justify;
+
+                @media (max-width: 767px) {
+                    margin-bottom: 25px;
+                    font-size: 3.78285vw;
+                }
+            }
+
+            .blog__name__container {
+                float: right;
+
+                @media (max-width: 767px) {
+                    float: none;
+                    text-align: center;
+                }
+
+                div.doctor__name__as {
+                    @media (min-width: 768px) {
+                        padding-right: 5%;
+                        white-space: nowrap;
+                    }
+
+                    @media (max-width: 767px) {
+                        margin-bottom: 0rem;
+                    }
+
+                    .doctor__name__tit__as#doctor__name {
+                        font-size: 1.4rem;
+
+                        .sm {
+                            font-size: .98rem;
+                            display: inline-block;
+                            vertical-align: middle;
+                            padding-bottom: 4px;
+                            margin-right: 1.0rem;
+                        }
+
+                        @media (max-width: 767px) {
+                            font-size: 6.2vw;
+                            text-align: right;
+                            padding-right: 10%;
+
+                            .sm {
+                                font-size: 4.0vw;
+                                padding-bottom: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .thumb {
+            width: 20.9%;
+        }
+    }
+}
+
+.doctor__name__tit__as#doctor__name {
+    font-size: 1.8rem;
+
+    .sm {
+        font-size: .98rem;
+    }
+}
 
 .doctor-carrer {
     div {
         width: 47%;
+
         h3 {
             background-color: #d7ccb0;
         }
-        
-        h3,ul li {
+
+        h3, ul li, .introduction__text {
             padding: 14px 24px;
         }
-        
+
         ul {
             li {
                 font-size: 1.17rem;
+
                 span {
                     display: inline-block;
                     padding-right: 1.1rem;
                 }
-                
+
                 &:nth-of-type(even) {
                     background-color: #f4f4f4;
+                }
+            }
+        }
+
+        /* 追加文 */
+
+        .introduction__text {
+            width: 100%;
+            background-color: #f4f4f4;
+
+            p {
+                line-height: 1.65;
+                text-align: justify;
+                margin-bottom: .9rem;
+            }
+        }
+    }
+}
+
+/* 先生の経歴の部分改修 */
+
+.doctor-carrer.career__repair {
+    background-color: #f6eeee;
+    color: #7c7c7c;
+    padding: 60px 0;
+    margin-bottom: 0;
+
+    @media (max-width: 767px) {
+        padding: 30px 0;
+    }
+
+    .career__contents {
+        width: 69%;
+        margin-bottom: 2.2rem;
+
+        @media (max-width: 767px) {
+            width: 96%;
+            margin: 0 auto !important;
+        }
+
+        h3 {
+            background: none;
+            color: #7c7c7c;
+            font-weight: 800;
+
+            @media (max-width: 767px) {
+                font-size: 1.82rem;
+            }
+        }
+
+        h3, ul li, .introduction__text {
+            padding: 14px 0;
+        }
+
+        ul {
+            li {
+                font-size: 1.17rem;
+
+                span {
+                    display: inline-block;
+                    padding-right: 1.1rem;
+                }
+
+                &:nth-of-type(even) {
+                    background-color: #f4f4f4;
+                }
+            }
+        }
+
+        /* 追加文 */
+
+        .introduction__text {
+            width: 100%;
+            background-color: transparent;
+
+            p {
+                line-height: 1.65;
+                text-align: justify;
+                margin-bottom: .9rem;
+                font-size: .97rem;
+                line-height: 1.8;
+
+                @media (max-width: 767px) {
+                    font-size: 3.78285vw;
+                }
+
+                .text-small {
+                    font-size: .84rem;
+
+                    @media (max-width: 767px) {
+                        font-size: 3.08285vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.doctor-carrer.career__repair02 {
+    background-color: #f6eeee;
+    color: #7c7c7c;
+    padding: 60px 0;
+    margin-bottom: 0;
+
+    @media (max-width: 767px) {
+        padding: 30px 0;
+    }
+
+    .career__contents {
+        margin-bottom: 1.5rem;
+        width: 100%;
+
+        @media (min-width: 768px) {
+            padding-left: 247px;
+        }
+
+        @media (max-width: 767px) {
+            width: 96%;
+            margin: 0 auto !important;
+        }
+
+        h3 {
+            background: none;
+            color: #7c7c7c;
+            padding: 0;
+            padding-bottom: 5px;
+
+            //border-bottom: 1px solid #b0b0b0;
+            font-weight: 800;
+            font-size: 1.8rem;
+
+            span {
+                @media (min-width: 768px) {
+                    //padding-left: 247px;
+                }
+
+                position: relative;
+                display: inline-block;
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #7c7c7c;
+                    display: inline-block;
+                }
+            }
+
+            @media (max-width: 767px) {
+                font-size: 1.82rem;
+            }
+        }
+
+        ul li, .introduction__text {
+            padding: 14px 0;
+            width: 71%;
+
+            @media (min-width: 768px) {
+                //padding-left: 249px;
+            }
+        }
+
+        ul {
+            li {
+                font-size: 1.17rem;
+
+                span {
+                    display: inline-block;
+                    padding-right: 1.1rem;
+                }
+
+                &:nth-of-type(even) {
+                    background-color: #f4f4f4;
+                }
+            }
+        }
+
+        /* 追加文 */
+
+        .introduction__text {
+            width: 77%;
+            background-color: transparent;
+
+            @media (max-width: 767px) {
+                width: 100%;
+            }
+
+            p {
+                line-height: 1.65;
+                text-align: justify;
+                margin-bottom: .9rem;
+                font-size: 1.05rem;
+                line-height: 1.8;
+
+                @media (max-width: 767px) {
+                    font-size: 3.78285vw;
+                }
+
+                .text-small {
+                    font-size: .84rem;
+
+                    @media (max-width: 767px) {
+                        font-size: 3.08285vw;
+                    }
                 }
             }
         }
@@ -60,87 +517,74 @@
 }
 
 @media (max-width: 767px) {
-    
-    
     .doctor-intro {
-    padding: 60px 0 0;
-    .inner {
-        background: none;
-        .text {
-        width: 94%;
+        padding: 40px 0 30px;
+
+        .inner {
+            background: none;
+            padding: 0;
+
+            .text {
+                width: 94%;
+                margin: auto;
+                padding-bottom: 0px;
+
+                h2 {
+                    width: 100%;
+                    text-align: center;
+                }
+
+                .thumb {
+                    width: 68%;
+                    margin: 0 auto 35px;
+                }
+
+                p {
+                    line-height: 1.84;
+                    margin-bottom: 35px;
+                }
+
+                .blog {
+                    margin-bottom: 30px;
+
+                    a {
+                        display: inline-block;
+                        background-color: $cp;
+                        padding: 2px 3px;
+                        margin-right: 1.1rem;
+                        font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
+                    }
+                }
+            }
+        }
+    }
+
+    .doctor-carrer {
+        .inner {
+            width: 94%;
             margin: auto;
-            padding-bottom: 80px;
-           h2 {
-                width: 62%;
-               margin:0 auto 35px;
-           }
-            
-            .thumb {
-                width: 90%;
-                margin: 0 auto 35px;
+            display: block;
+
+            div {
+                width: 100%;
+                margin: auto;
+
+                h3 {}
+
+                h3, ul li {
+                    padding: 14px 24px;
+                }
+
+                ul {
+                    li {
+                        font-size: 1.17rem;
+                    }
+                }
             }
-           
-           p {
-               line-height: 1.84;
-               margin-bottom: 35px;
-           }
-           
-           .blog {
-               margin-bottom: 30px;
-               a {
-                   display: inline-block;
-                   background-color: $cp;
-                   padding: 2px 3px;
-                   margin-right: 1.1rem;
-                   font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
-               }
-           }
-       } 
-    }
-    
-}
 
-
-.doctor-carrer {
-    
-    
-    .inner {
-        width: 94%;
-        margin: auto;
-        display: block;
-        div {
-        width: 100%;
-        margin: auto;
-        h3 {
-        }
-        
-        h3,ul li {
-            padding: 14px 24px;
-        }
-        
-        ul {
-            li {
-                font-size: 1.17rem;
-               
-                
-                
+            .left {
+                margin-bottom: 35px;
             }
         }
     }
-        
-        .left {
-            margin-bottom: 35px;
-        }
-        
-        
-        
-    }
-    
-}
-
-    
-    
-    
-    
-    
 }

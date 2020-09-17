@@ -1,0 +1,748 @@
+<?php
+/*
+Template Name: たるみ治療
+*/
+
+?>
+<?php get_header()?>
+<div class="page-head">
+  <h1 class="tc f-ryu">たるみ治療</h1>
+  <?php echo breadcrumb_func(); ?> </div>
+<section class="ope-top-desc gosic">
+  <p class="tc pc">当院では溶ける糸を用いたリフトアップやヒアルロン酸注入<br>
+    によるリフトアップをおすすめしています。<br>
+    お顔のタイプによっておすすめの治療が変わるため、<br>
+    診察でより適切な治療をご提案させていただきます。</p>
+  <p class="tc sp">当院では溶ける糸を用いたリフトアップやヒアルロン酸注入によるリフトアップをおすすめしています。
+    お顔のタイプによっておすすめの治療が変わるため、診察でより適切な治療をご提案させていただきます。</p>
+        <div class="ancor-box">
+            <a href="#area1">ヒアルロン酸</a>
+            <a href="#area2">スレッドリフト</a>
+            <a href="#area3">ボトックスリフト</a>
+             <a href="#area4">ウルトラセルQプラス</a>
+        </div>
+</section>
+<section class="ope-intro bg-cp" id="area1">
+  <div class="inner flex al-cent">
+    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/thumb02.jpg" alt="サムネイル"> </div>
+    <div class="text box-size">
+      <h2>ヒアルロン酸注入</h2>
+      <p class="ls1 gosic">ほうれい線やマリオネットライン、ゴルゴライン(目の下のくぼみ)などはたるみになるしわといえます。ヒアルロン酸でお顔全体をリフトアップさせたり、気になるしわやくぼみを埋めることで、自然な印象でたるみが改善し若々しい仕上がりとなります。</p>
+    </div>
+  </div>
+</section>
+<section class="features layout1">
+  <div class="inner-box2">
+    <h2 class="cp gosic tc ls1">ヒアルロン酸の特徴</h2>
+    <div class="box">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/point04.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.1</div>
+        <h3 class="gd ls1">リフトアップして<br>
+          しわを改善</h3>
+        <p class="gosic">お顔のたるみを直して、リフトアップと同時にしわも改善します。</p>
+      </div>
+    </div>
+    <div class="box cf">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/point04.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.2</div>
+        <h3 class="gd ls1">自然な仕上がり</h3>
+        <p class="gosic">いかにも、ヒアルロンを注入したような不自然なバランスになることはなく、患者様お一人お一人のお顔にあった自然な仕上がりを目指しています。</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/point05.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.3</div>
+        <h3 class="gd ls1">顔全体のバランスを<br>
+          整える</h3>
+        <p class="gosic">気になる部位にヒアルロン酸を注入して、お顔全体を黄金バランスにより近づくようにします。</p>
+      </div>
+    </div>
+  </div>
+</section>
+<?php if (have_rows('ope_tarumi_hel', 155)): ?>
+<section class="case">
+  <div class="inner">
+    <h2 class="tc">症例</h2>
+    <div class="case-wrap flex">
+      <?php while (have_rows('ope_tarumi_hel', 155)) : the_row(); ?>
+      <div class="case-box flex">
+        <div class="box">
+          <div class="thumb"> <img src="<?php the_sub_field('befor_p', 155); ?>" alt=""> </div>
+          <p class="gosic tc">
+            <?php the_sub_field('befor_txt', 155); ?>
+          </p>
+        </div>
+        <div class="box">
+          <div class="thumb"> <img src="<?php the_sub_field('after_p', 155); ?>" alt=""> </div>
+          <p class="gosic tc">
+            <?php the_sub_field('after_txt', 155); ?>
+          </p>
+        </div>
+      </div>
+      <?php endwhile; ?>
+    </div>
+    <div class="note box-size gosic">
+      <p>リスク副作用</p>
+      <p>・注入直後、赤みが出る場合がございます。＊メイクで隠れる程度の赤みです。</p>
+    </div>
+  </div>
+</section>
+<?php else: ?>
+<?php endif; ?>
+<section class="price native__mt" id="hel__price">
+  <div class="inner-box2">
+    <h2 class="tc ls1">ヒアルロン酸注入料金</h2>
+    <p class="p-desc gosic tc mb60 pc">当院では厚生省の承認を取得したジュビダームボリューマ、ジュビダームボリフト、ジュビダームボルベラを特におすすめしています。<br>
+      ジュビダームビスタ認定医の院長が全てのヒアルロン酸治療を行います。</p>
+    <p class="p-desc gosic tc mb60 sp">当院では厚生省の承認を取得したジュビダームボリューマ、ジュビダームボリフト、ジュビダームボルベラを特におすすめしています。ジュビダームビスタ認定医の院長が全てのヒアルロン酸治療を行います。</p>
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">ボリューマ、ボリフト</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>0.1cc</dt>
+        <dd>¥10,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>1本</dt>
+        <dd>¥80,000</dd>
+      </dl>
+      <!-- <dl class="flex">
+        <dt>2本</dt>
+        <dd>¥180,000</dd>
+      </dl> -->
+      <dl class="flex">
+        <dt>&nbsp;</dt>
+        <dd>4本目以降 1本あたりプラス¥60,000</dd>
+      </dl>
+    </div>
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">ボルベラ</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>0.1cc</dt>
+        <dd>¥10,000</dd>
+      </dl>
+    </div>
+    <div class="price-list gosic mb45">
+      <dl class="flex">
+        <dt class="fw600">クレビエルコントア(あご形成)</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>0.1cc</dt>
+        <dd>¥10,000</dd>
+      </dl>
+    </div>
+    <p class="note gosic">＊カニューレを使用する場合は別途＋¥1,250(税別)</p>
+  </div>
+</section>
+<section class="ope-faq">
+  <div class="inner">
+    <h2 class="tc ls1">よくある質問</h2>
+    <?php
+    $args = array(
+      'post_type' => 'faq',
+      'tax_query' => array(
+        array(
+          'taxonomy' => 'faq_kind',
+          'field' => 'slug',
+          'terms' => array( 'hes' )
+        )
+      ),
+      'orderby' => 'date',
+      'order' => 'DESC',
+    );
+    $the_query = new WP_Query($args);
+    while ($the_query->have_posts()): $the_query->the_post();
+    ?>
+
+    <!--ここにループの中の記述 -->
+
+    <dl class="box-size">
+      <dt><span class="q">Q</span><span class="gosic">
+        <?php the_title(); ?>
+        </span></dt>
+      <dd><span class="a">A</span><span class="gosic">
+        <?php remove_filter('the_content', 'wpautop'); ?>
+        <?php the_content(); ?>
+        </span></dd>
+    </dl>
+    <?php endwhile; wp_reset_postdata(); ?>
+  </div>
+</section>
+<section class="ope-intro bg-cp" id="area2">
+  <div class="inner flex al-cent">
+    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/thumb01.jpg" alt="サムネイル"> </div>
+    <div class="text box-size">
+      <h2>スレッドリフト</h2>
+      <p class="ls1 gosic">溶ける糸を用いて気になるたるみを引き上げます。</p>
+    </div>
+  </div>
+</section>
+<section class="features layout1">
+  <div class="inner-box2">
+    <h2 class="cp gosic tc ls1">スレッドリフトの特徴</h2>
+    <div class="box">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/point01.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.1</div>
+        <h3 class="gd ls1">お肌のハリ向上</h3>
+        <p class="gosic">挿入した糸が周囲の組織を活性化させ自身のコラーゲンが増生されることによって、お肌のハリが向上します。</p>
+      </div>
+    </div>
+    <div class="box cf">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/point02.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.2</div>
+        <h3 class="gd ls1">小顔効果</h3>
+        <p class="gosic">コラーゲンの増生による、お肌の引き締め効果で小顔に近づけることが可能です。</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/point03.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.3</div>
+        <h3 class="gd ls1">リフトアップ効果</h3>
+        <p class="gosic">糸の挿入によって、お肌の引き上げ効果（リフティング効果）で、リフトアップが期待できます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+<?php if (have_rows('ope_tarumi_lift', 155)): ?>
+<section class="case">
+  <div class="inner">
+    <h2 class="tc">症例</h2>
+    <div class="case-wrap flex">
+      <?php while (have_rows('ope_tarumi_lift', 155)) : the_row(); ?>
+      <div class="case-box flex">
+        <div class="box">
+          <div class="thumb"> <img src="<?php the_sub_field('befor_p', 155); ?>" alt=""> </div>
+          <p class="gosic tc">
+            <?php the_sub_field('befor_txt', 155); ?>
+          </p>
+        </div>
+        <div class="box">
+          <div class="thumb"> <img src="<?php the_sub_field('after_p', 155); ?>" alt=""> </div>
+          <p class="gosic tc">
+            <?php the_sub_field('after_txt', 155); ?>
+          </p>
+        </div>
+      </div>
+      <?php endwhile; ?>
+    </div>
+    <div class="note box-size gosic">
+      <p>リスク副作用</p>
+      <p>・ごく稀に、術後は多少の腫れや突っ張り感を感じることもありますが、
+        通常数日で落ち着きます。</p>
+    </div>
+  </div>
+</section>
+<?php else: ?>
+<?php endif; ?>
+<!--<section class="bg-cg2 kuchikomi">
+  <div class="inner-box2">
+    <div class="kuchikomi-slide slide-area">
+      <h2 class="tc gd gosic ls2">施術の感想</h2>
+      <div class="swiper-container slide-p2 swiper4">
+        <div class="swiper-wrapper">
+          <div class="gosic swiper-slide">
+            <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/coming.jpg" alt="準備中"></div>
+            <p class="tc mt20">準備中</p>
+          </div>
+            <div class="gosic swiper-slide">
+            <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/coming.jpg" alt="準備中"></div>
+            <p class="tc mt20">準備中</p>
+          </div>
+            <div class="gosic swiper-slide">
+            <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/coming.jpg" alt="準備中"></div>
+            <p class="tc mt20">準備中</p>
+          </div>
+            <div class="gosic swiper-slide">
+            <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/coming.jpg" alt="準備中"></div>
+            <p class="tc mt20">準備中</p>
+          </div>
+        </div>
+        <div class="swiper-button-prev prev2"></div>
+        <div class="swiper-button-next next2"></div>
+          <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+  </div>
+</section>-->
+<section class="price">
+  <div class="inner-box2">
+    <h2 class="tc ls1">スレッドリフト料金</h2>
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">シルエットソフト(3Dリフト)</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 2本</dt>
+        <dd>¥195,000(1本あたり¥97,500)</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 4本</dt>
+        <dd>¥296,000(1本あたり¥74,000)</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 6本</dt>
+        <dd>¥378,000(1本あたり¥63,000)</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 8本</dt>
+        <dd>¥400,000(1本あたり¥50,000)</dd>
+      </dl>
+    </div>
+    <!-- ./price-list -->
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">Gコグリフト</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 1本</dt>
+        <dd>¥60,000</dd>
+      </dl>
+    </div>
+    <!-- ./price-list -->
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">VOVリフトプレミアム</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 1本</dt>
+        <dd>¥40,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 5本目以降</dt>
+        <dd>1本あたり¥30,000<br>
+          Gコグリフトとの併用の場合1本30000円</dd>
+      </dl>
+    </div>
+    <!-- ./price-list -->
+     <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">セルフロック</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 1本</dt>
+        <dd>¥20,000</dd>
+      </dl>
+    </div>
+    <!-- ./price-list -->
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">ショッピングリフト<br class="sp">(ビューティーエナジー)</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 20本</dt>
+        <dd>¥66,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 40本</dt>
+        <dd>¥102,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 60本</dt>
+        <dd>¥138,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 80本</dt>
+        <dd>¥174,000</dd>
+      </dl>
+    </div>
+    <!-- ./price-list -->
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">スレッドアイリフト(Gグロス)</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 10本</dt>
+        <dd>¥47,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt> 20本</dt>
+        <dd>¥69,000</dd>
+      </dl>
+    </div>
+    <!-- ./price-list -->
+  </div>
+  </div>
+</section>
+<section class="ope-faq">
+  <div class="inner">
+    <h2 class="tc ls1">よくある質問</h2>
+    <?php
+    $args = array(
+      'post_type' => 'faq',
+      'tax_query' => array(
+        array(
+          'taxonomy' => 'faq_kind',
+          'field' => 'slug',
+          'terms' => array( 's_lift' )
+        )
+      ),
+      'orderby' => 'date',
+      'order' => 'DESC',
+    );
+    $the_query = new WP_Query($args);
+    while ($the_query->have_posts()): $the_query->the_post();
+    ?>
+
+    <!--ここにループの中の記述 -->
+
+    <dl class="box-size">
+      <dt><span class="q">Q</span><span class="gosic">
+        <?php the_title(); ?>
+        </span></dt>
+      <dd><span class="a">A</span><span class="gosic">
+        <?php remove_filter('the_content', 'wpautop'); ?>
+        <?php the_content(); ?>
+        </span></dd>
+    </dl>
+    <?php endwhile; wp_reset_postdata(); ?>
+  </div>
+</section>
+
+
+
+<section class="ope-intro bg-cp" id="area3">
+<div class="inner flex al-cent">
+<div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/thumb01.jpg" alt="サムネイル"> </div>
+<div class="text box-size">
+  <h2>ボトックスリフト</h2>
+  <p class="ls1 gosic">引き締めを目的としてボトックスを細かく注射する方法です。表情じわを改善するボトックスと違い、ボトックスを皮膚のごく表面に浅く細かく注入する事でお顔を引き締めたり引き上げる治療です。1週間から10日おきに数回行うとより効果的です。 </p>
+</div>
+</section>
+<section class="features layout1">
+  <div class="inner-box2">
+    <h2 class="cp gosic tc ls1">ボトックスリフトの特徴</h2>
+    <div class="box">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/point04.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.1</div>
+        <h3 class="gd ls1">たるみとシワ解消</h3>
+        <p class="gosic">小顔効果だけではなく、自然な表情を保ちながらたるみとシワを和らげることが可能です。</p>
+      </div>
+    </div>
+    <div class="box cf">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/point05.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.2</div>
+        <h3 class="gd ls1">お肌を滑らかに</h3>
+        <p class="gosic">ボトックスを注入することで、筋肉の表面繊維だけの働きを弱めて、皮膚の表面を滑らかにします。</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/point06.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.3</div>
+        <h3 class="gd ls1">フェイスラインを<br>
+          美しくする</h3>
+        <p class="gosic">アゴから首に、ほうれいせんの横の肉、眼の下のたるみに対するリフトアップ効果が期待できます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="infu-point">
+  <div class="inner">
+    <h2 class="cp tc goisc ls1">注入部位</h2>
+    <div class="img"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/kogao/img02.png" alt="注入部位"> </div>
+  </div>
+</section>
+<?php if (have_rows('ope_kogao_btxlift', 155)): ?>
+<section class="case">
+  <div class="inner">
+    <h2 class="tc">症例</h2>
+    <div class="case-wrap flex">
+      <?php while (have_rows('ope_kogao_btxlift', 155)) : the_row(); ?>
+      <div class="case-box flex">
+        <div class="box">
+          <div class="thumb"> <img src="<?php the_sub_field('befor_p', 155); ?>" alt=""> </div>
+          <p class="gosic tc">
+            <?php the_sub_field('befor_txt', 155); ?>
+          </p>
+        </div>
+        <div class="box">
+          <div class="thumb"> <img src="<?php the_sub_field('after_p', 155); ?>" alt=""> </div>
+          <p class="gosic tc">
+            <?php the_sub_field('after_txt', 155); ?>
+          </p>
+        </div>
+      </div>
+      <?php endwhile; ?>
+    </div>
+    <div class="note box-size gosic">
+      <p>リスク副作用</p>
+      <p>・個人差がありますが、腫れなどが発生する場合がございます。</p>
+    </div>
+  </div>
+</section>
+<?php else: ?>
+<?php endif; ?>
+<section class="price native__mt" id="btx_lift__price">
+  <div class="inner-box2">
+    <h2 class="tc ls1">ボトックスリフト料金</h2>
+    <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。<br>ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
+    <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
+ <!--      <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。
+      ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>-->
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">&nbsp;</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>ボトックスリフト</dt>
+        <dd>¥68,000</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+<section class="ope-faq">
+  <div class="inner">
+    <h2 class="tc ls1">よくある質問</h2>
+    <?php
+    $args = array(
+      'post_type' => 'faq',
+      'tax_query' => array(
+        array(
+          'taxonomy' => 'faq_kind',
+          'field' => 'slug',
+          'terms' => array( 'bx_lift' )
+        )
+      ),
+      'orderby' => 'date',
+      'order' => 'DESC',
+    );
+    $the_query = new WP_Query($args);
+    while ($the_query->have_posts()): $the_query->the_post();
+    ?>
+
+    <!--ここにループの中の記述 -->
+
+    <dl class="box-size">
+      <dt><span class="q">Q</span><span class="gosic">
+        <?php the_title(); ?>
+        </span></dt>
+      <dd><span class="a">A</span><span class="gosic">
+        <?php remove_filter('the_content', 'wpautop'); ?>
+        <?php the_content(); ?>
+        </span></dd>
+    </dl>
+    <?php endwhile; wp_reset_postdata(); ?>
+  </div>
+</section>
+
+<section class="ope-intro bg-cp" id="area4">
+  <div class="inner flex al-cent">
+    <div class="thumb-sq"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/thumb02.jpg" alt="サムネイル"> </div>
+    <div class="text box-size">
+      <h2>ウルトラセルQプラス</h2>
+      <p class="ls1 gosic">ウルトラセルQプラスは、HIFU（高密度焦点式超音波）というテクノロジーを使用し、短時間で快適に肌のリフトアップやたるみ・しわの改善、引き締めにはたらきかけます。</p>
+    </div>
+  </div>
+</section>
+<section class="features layout1">
+  <div class="inner-box2">
+    <h2 class="cp gosic tc ls1">ウルトラセルQプラスの特徴</h2>
+    <div class="box">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/point01_hifu.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.1</div>
+        <h3 class="gd ls1">安定したリフトアップ効果</h3>
+        <p class="gosic">リニア・カートリッジ2.0mmを高出力・広範囲にわたり照射することによって、美白美肌効果が期待できます。</p>
+      </div>
+    </div>
+    <div class="box cf">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/point02_hifu.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.2</div>
+        <h3 class="gd ls1">美白・美肌効果</h3>
+        <p class="gosic">コラーゲンの増生による、お肌の引き締め効果で小顔に近づけることが可能です。</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/point03_hifu.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.3</div>
+        <h3 class="gd ls1">二重アゴの改善</h3>
+        <p class="gosic">リニアカートリッジ4.5mmを使用して、気になる二重アゴを改善します。</p>
+      </div>
+    </div>
+    <div class="box cf">
+      <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/point02.jpg" alt="ポイントエリアサムネイル"></div>
+      <div class="desc box-size bg-grade">
+        <div class="points f-ryu cw">Point.4</div>
+        <h3 class="gd ls1">小顔効果</h3>
+        <p class="gosic">顔の小顔治療は、顔全体への照射、特に目元（目のキワ）などの細かい部分へ照射を行う事によって引き締めます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="price native__mt" id="">
+  <div class="inner-box2">
+    <h2 class="tc ls1">ウルトラセルQプラス料金</h2>
+   <!--  <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。<br>ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
+    <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p> -->
+ <!--      <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタを使用しています。
+      ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>-->
+    <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">リフトアップカートリッジ</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex bd-bottom-none">
+        <dt>顔全体 トリプル</dt>
+        <dd>¥140,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>※7ヶ月以内の再施術</dt>
+        <dd>¥126,000</dd>
+      </dl>
+       <dl class="flex bd-bottom-none">
+        <dt>顔全体 ダブル</dt>
+        <dd>¥120,000</dd>
+      </dl>
+
+       <dl class="flex">
+        <dt>※7ヶ月以内の再施術</dt>
+        <dd>¥108,000</dd>
+      </dl>
+       <dl class="flex bd-bottom-none">
+        <dt>顔全体+首 トリプル</dt>
+        <dd>¥160,000</dd>
+      </dl>
+       <dl class="flex">
+        <dt>※7ヶ月以内の再施術</dt>
+        <dd>¥144,000</dd>
+      </dl>
+       <dl class="flex bd-bottom-none">
+        <dt>顔全体+首 ダブル</dt>
+        <dd>¥140,000</dd>
+      </dl>
+
+      <dl class="flex">
+        <dt>※7ヶ月以内の再施術</dt>
+        <dd>¥126,000</dd>
+      </dl>
+
+       <dl class="flex bd-bottom-none">
+        <dt>頬のみ</dt>
+        <dd>¥80,000</dd>
+      </dl>
+
+      <dl class="flex">
+        <dt>※7ヶ月以内の再施術</dt>
+        <dd>¥72,000</dd>
+      </dl>
+
+       <dl class="flex bd-bottom-none">
+        <dt>ハイフアイ</dt>
+        <dd>¥40,000</dd>
+      </dl>
+
+      <dl class="flex">
+        <dt>※7ヶ月以内の再施術</dt>
+        <dd>¥36,000</dd>
+      </dl>
+    </div>
+
+     <div class="price-list gosic">
+      <dl class="flex">
+        <dt class="fw600">リニアカートリッジ</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex bd-bottom-none">
+        <dt>4.5mm 二重アゴ解消</dt>
+        <dd>¥50,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>※1ヶ月以内の再施術</dt>
+        <dd>¥45,000</dd>
+      </dl>
+       <dl class="flex bd-bottom-none">
+        <dt>2.0mm 美肌・美白</dt>
+        <dd>¥50,000</dd>
+      </dl>
+
+       <dl class="flex">
+        <dt>※1ヶ月以内の再施術</dt>
+        <dd>¥45,000</dd>
+      </dl>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="flow">
+  <div class="inner">
+    <h2 class="tc ls1">施術の流れ</h2>
+    <ul>
+      <li class="box-size flex">
+        <div class="left">
+          <div class="top">
+            <div class="step points f-ryu cw">STEP 01</div>
+            <h3 class="f-bold">ご予約</h3>
+          </div>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow01.jpg" alt="ご予約"></div>
+          <p class="gosic ls1">お電話・WEBの予約フォームにて、ご予約をよろしくお願い致します。来院前にご不明点があれば、お気軽にご相談ください。</p>
+        </div>
+        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow01.jpg" alt="ご予約"></div>
+      </li>
+      <li class="box-size flex">
+        <div class="left">
+          <div class="top">
+            <div class="step points f-ryu cw">STEP 02</div>
+            <h3 class="f-bold">診察、カウンセリング</h3>
+          </div>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow02.jpg" alt="診察、カウンセリング"></div>
+          <p class="gosic ls1">施術前に、患者様の悩みをお伺いします。お身体の状態を診て、治療計画を決めていきます。注意点、リスクについても詳しく説明いたしますので、ご不明な点や不安なことがあれば遠慮せずにご質問ください。</p>
+        </div>
+        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow02.jpg" alt="診察、カウンセリング"></div>
+      </li>
+      <li class="box-size flex">
+        <div class="left">
+          <div class="top">
+            <div class="step points f-ryu cw">STEP 03</div>
+            <h3 class="f-bold">お会計</h3>
+          </div>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow05.jpg" alt="施術開始"></div>
+          <p class="gosic ls1">施術の前にお会計をお願いいたします。<br>
+            当院は、下記のクレジットカードのご利用が可能です。</p>
+          <div class="card-img"><img src="<?php echo get_template_directory_uri(); ?>/img/common/card.png?0918" alt="カード"></div>
+        </div>
+        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow05.jpg" alt="施術開始"></div>
+      </li>
+      <li class="box-size flex">
+        <div class="left">
+          <div class="top">
+            <div class="step points f-ryu cw">STEP 04</div>
+            <h3 class="f-bold">施術開始</h3>
+          </div>
+          <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_1.jpg" alt="施術終了・お会計"></div>
+          <p class="gosic ls1">痛みを極力に抑え、安全第一に責任を持って施術いたします。施術は全て有資格者が行うので、ご安心くださいませ。</p>
+        </div>
+        <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_1.jpg" alt="施術終了・お会計"></div>
+      </li>
+    </ul>
+  </div>
+</section>
+<?php get_footer();?>

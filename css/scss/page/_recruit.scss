@@ -1,0 +1,144 @@
+.recruit-intro {
+    .inner {
+        width: auto;
+        max-width: 1360px;
+        padding: 30px 0;
+
+        .text {
+            //width: 50%;
+            width: 66%;
+            margin: auto;
+            padding: 40px;
+            padding-left: 100px;
+
+            h2 {
+                margin-bottom: 35px;
+            }
+
+            p {
+                margin-bottom: 35px;
+                line-height: 1.9;
+            }
+
+            a {
+                display: inline-block;
+                padding: 14px 44px;
+                border: 1px solid #666;
+                color: #666;
+            }
+        }
+
+        .thumb {
+            width: 50%;
+        }
+    }
+}
+
+.recruit-info {
+    .inner {
+        width: 800px;
+        margin: auto;
+
+        h2 {
+            margin-bottom: 45px;
+        }
+
+        dl {
+            border-bottom: 1px solid #ccc;
+            display: table;
+
+            dt, dd {
+                display: table-cell;
+                padding: 15px 25px;
+                box-sizing: border-box;
+            }
+
+            dt {
+                width: 120px;
+                background-color: #f8f8f8;
+            }
+
+            dd {
+                width: 680px;
+
+                span {
+                    margin-right: .5em;
+                }
+            }
+
+            &:nth-of-type(1) {
+                border-top: 1px solid #ccc;
+            }
+        }
+    }
+}
+
+.recruit-form {
+    h2 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .recruit-intro {
+        .inner {
+            flex-flow: column-reverse;
+
+            .text {
+                width: 90%;
+                margin: auto;
+                padding: 40px 28px;
+
+                h2 {
+                    margin-bottom: 25px;
+                }
+
+                p {
+                    margin-bottom: 35px;
+                    line-height: 1.7;
+                }
+
+                a {
+                    display: inline-block;
+                    padding: 14px 44px;
+                    border: 1px solid #666;
+                    color: #666;
+                }
+            }
+
+            .thumb {
+                width: 100%;
+            }
+        }
+    }
+
+    .recruit-info {
+        .inner {
+            width: 92%;
+            margin: auto;
+
+            h2 {
+                margin-bottom: 45px;
+            }
+
+            dl {
+                table-layout: fixed;
+                width: 100%;
+
+                dt, dd {
+                    padding: 12px 10px;
+                }
+
+                dt {
+                    width: 20%;
+                }
+
+                dd {
+                    width: 80%;
+
+                    span {}
+                }
+            }
+        }
+    }
+}

@@ -1,6 +1,11 @@
-
 //紫背景、紫文字
 $cp: #a64987;
+
+//紫文字
+$cp02: #cc27a3;
+
+//薄い紫背景
+$bg-cp: #f6eeee;
 
 //テキストカラー薄い黒
 $text-color: #686868;
@@ -11,21 +16,70 @@ $cg: #9d8440;
 //カラーブルー
 $cb: #1d4a6f;
 
+//カラーグレー
+$gray: #777777;
+
+//カラーグレー02
+$gray02: #777777;
+
+//カラーグレー03
+$gray03: #e3e3e3;
+
 //薄い金色背景
 $bg-g: #f0ede3;
 
 //よくある質問コーナーBG
 $bg-q: #f1f8ff;
 
+//必須
+$pink: #f7b3fd;
+
 //見出しキャチなどの文字カラー金色
 $cachccollor: #8b7770;
 
-//BG 透明しろ
+//新しい予約ボタンの背景色
+$new_rs: #E2D2E9;
 
-$bg-w : rgba(255,255,255,.79);
+//新しい問い合わせボタンの背景色
+$new_ct: #DBD3E8;
+
+//新しいLINEボタンの背景色
+$new_line: #E8DCD3;
+
+//BG 透明しろ
+$bg-w: rgba(255, 255, 255, 0.8);
 
 //BG 透明紫
-$bg-p: rgba(166,73,135,.65);
+$bg-p: rgba(166, 73, 135, 0.65);
+
+/* オーダーメイド治療カラー */
+
+//薄い緑
+
+$order__green: #cdf2de;
+
+//薄い紫
+
+$order__pe: #cdcef2;
+
+//薄いピンク
+
+$order__pink: #f2cbde;
+
+//ヒアルロン酸テキスト
+
+$hel__text: #708e44;
+
+//ボットクス テキスト
+$btx__text: #7578d7;
+
+//スネコスなどのテキストカラー
+
+$other__text: #c973a5;
+
+//施術説明背景色　
+
+$desc__box: #fffaf3;
 
 //PCインナーWIDTH
 
@@ -45,6 +99,9 @@ $cp2: #fff7f4;
 
 //フォントゴシック
 $gosic: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+
+//フォンと明兆
+$min: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体", serif;
 
 //表見出し
 $tableth: #7da7e1;
