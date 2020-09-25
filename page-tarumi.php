@@ -563,8 +563,8 @@ Template Name: たるみ治療
       <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/point01_hifu.jpg" alt="ポイントエリアサムネイル"></div>
       <div class="desc box-size bg-grade">
         <div class="points f-ryu cw">Point.1</div>
-        <h3 class="gd ls1">安定したリフトアップ効果</h3>
-        <p class="gosic">リニア・カートリッジ2.0mmを高出力・広範囲にわたり照射することによって、美白美肌効果が期待できます。</p>
+        <h3 class="gd ls1">リフトアップ効果</h3>
+        <p class="gosic">緩んだお顔の深層に照射された熱エネルギーがタンパク質に届き、コラーゲンが新形成されることで照射部にハリが生まれ、リフトアップへと導きます。</p>
       </div>
     </div>
     <div class="box cf">
@@ -572,7 +572,7 @@ Template Name: たるみ治療
       <div class="desc box-size bg-grade">
         <div class="points f-ryu cw">Point.2</div>
         <h3 class="gd ls1">美白・美肌効果</h3>
-        <p class="gosic">コラーゲンの増生による、お肌の引き締め効果で小顔に近づけることが可能です。</p>
+        <p class="gosic">リニア・カートリッジ2.0mmを高出力・広範囲にわたり照射することによって、美白美肌効果が期待できます。</p>
       </div>
     </div>
     <div class="box">
@@ -607,40 +607,22 @@ Template Name: たるみ治療
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex bd-bottom-none">
-        <dt>顔全体 トリプル</dt>
+        <dt>顔全体</dt>
         <dd>¥140,000</dd>
       </dl>
       <dl class="flex">
         <dt>※7ヶ月以内の再施術</dt>
         <dd>¥126,000</dd>
       </dl>
-       <dl class="flex bd-bottom-none">
-        <dt>顔全体 ダブル</dt>
-        <dd>¥120,000</dd>
-      </dl>
 
-       <dl class="flex">
-        <dt>※7ヶ月以内の再施術</dt>
-        <dd>¥108,000</dd>
-      </dl>
        <dl class="flex bd-bottom-none">
-        <dt>顔全体+首 トリプル</dt>
+        <dt>顔全体+あご下</dt>
         <dd>¥160,000</dd>
       </dl>
        <dl class="flex">
         <dt>※7ヶ月以内の再施術</dt>
         <dd>¥144,000</dd>
       </dl>
-       <dl class="flex bd-bottom-none">
-        <dt>顔全体+首 ダブル</dt>
-        <dd>¥140,000</dd>
-      </dl>
-
-      <dl class="flex">
-        <dt>※7ヶ月以内の再施術</dt>
-        <dd>¥126,000</dd>
-      </dl>
-
        <dl class="flex bd-bottom-none">
         <dt>頬のみ</dt>
         <dd>¥80,000</dd>
@@ -671,10 +653,17 @@ Template Name: たるみ治療
         <dt>4.5mm 二重アゴ解消</dt>
         <dd>¥50,000</dd>
       </dl>
-      <dl class="flex">
+
+      <dl class="flex bd-bottom-none">
         <dt>※1ヶ月以内の再施術</dt>
         <dd>¥45,000</dd>
       </dl>
+
+        <dl class="flex">
+        <dt>※リフトアップカートリッジの顔全体・頬のみと併用の場合</dt>
+        <dd>¥20,000</dd>
+      </dl>
+
        <dl class="flex bd-bottom-none">
         <dt>2.0mm 美肌・美白</dt>
         <dd>¥50,000</dd>

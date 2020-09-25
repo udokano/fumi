@@ -19,7 +19,7 @@
 
       <!-- アンカーエリア -->
       <div class="ancor-box order">
-          <a href="#area1"><span class="row__center">HIFUとは</span></a>
+          <a href="#area1"><span class="row__center">ウルトラセルQプラスの<br class="sp">効果</span></a>
           <a href="#area2"><span class="row__center">ウルトラセルQプラスとは</span></a>
           <a href="#area3"><span class="row__center">料金</span></a>
           <a href="#area4"><span class="row__center">施術の流れ</span></a>
@@ -27,7 +27,7 @@
         <!-- ./anchor-box -->
 </section>
 
-<section class="hifu-about" id="area1">
+<section class="hifu-about" >
 
     <div class="inner">
 
@@ -51,7 +51,7 @@
 </section>
 
 
-<section class="order__made__tit hifu-ttl bg__p03 mb0" id="">
+<section class="order__made__tit hifu-ttl bg__p03 mb0" id="area1">
   <h2 class="tc">ウルトラセルQプラスの嬉しい効果</h2>
 </section>
 
@@ -219,7 +219,7 @@
 
             <div class="cartridge-ilst">
               <img src="<?php echo get_template_directory_uri(); ?>/img/operation/hifu/lift_isat.jpg" alt="" class="pc">
-               <img src="<?php echo get_template_directory_uri(); ?>/img/operation/hifu/lift_isat_sp.jpg" alt="" class="sp">
+               <img src="<?php echo get_template_directory_uri(); ?>/img/operation/hifu/lift_isat_sp.jpg?54444444" alt="" class="sp">
             </div>
 
 
@@ -305,7 +305,7 @@
 
             <div class="cartridge-ilst">
               <img src="<?php echo get_template_directory_uri(); ?>/img/operation/hifu/lina_isat.jpg" alt="" class="pc">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/operation/hifu/lina_isat_sp.jpg" alt="" class="sp">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/operation/hifu/lina_isat_sp.jpg?54444444" alt="" class="sp">
             </div>
 
 
@@ -412,33 +412,33 @@
           <tbody class="hifu-table__body">
             <tr class="hifu-table__tr">
               <th class="hifu-table__th hifu-table__th--left-top hifu-table__th--lift pc" rowspan="6">リフトアップカートリッジ</th>
-              <td class="hifu-table__td hifu-table__td--lift" rowspan="2">顔全体</td>
-               <td class="hifu-table__td hifu-table__td--lift">トリプル</td>
-                <td class="hifu-table__td">¥140,000</td>
+              <td class="hifu-table__td hifu-table__td--lift">顔全体</td>
+              <!--  <td class="hifu-table__td hifu-table__td--lift">トリプル</td> -->
+                <td class="hifu-table__td" colspan="2">¥140,000</td>
                  <td class="hifu-table__td">¥126,000</td>
             </tr>
 
-             <tr class="hifu-table__tr">
+           <!--   <tr class="hifu-table__tr">
 
                <td class="hifu-table__td hifu-table__td--lift">ダブル</td>
                 <td class="hifu-table__td">¥120,000</td>
                  <td class="hifu-table__td">¥108,000</td>
-            </tr>
+            </tr> -->
 
               <tr class="hifu-table__tr">
 
-              <td class="hifu-table__td hifu-table__td--lift" rowspan="2">顔全体＋首</td>
-               <td class="hifu-table__td hifu-table__td--lift">トリプル</td>
-                <td class="hifu-table__td">¥160,000</td>
+              <td class="hifu-table__td hifu-table__td--lift" >顔全体＋あご下</td>
+             <!--   <td class="hifu-table__td hifu-table__td--lift">トリプル</td> -->
+                <td class="hifu-table__td" colspan="2">¥160,000</td>
                  <td class="hifu-table__td">¥144,000</td>
             </tr>
 
-             <tr class="hifu-table__tr">
+           <!--   <tr class="hifu-table__tr">
 
                <td class="hifu-table__td hifu-table__td--lift">ダブル</td>
                 <td class="hifu-table__td">¥140,000</td>
                  <td class="hifu-table__td">¥126,000</td>
-            </tr>
+            </tr> -->
 
             <tr class="hifu-table__tr">
 
@@ -473,9 +473,19 @@
             <tr class="hifu-table__tr">
               <th class="hifu-table__th hifu-table__th--left-top hifu-table__th--lina pc" rowspan="6">リニアカートリッジ</th>
 
-              <td class="hifu-table__td hifu-table__td--lina" >4,5mm<span class="table-text-small">(二重あご解消)</span></td>
+              <td class="hifu-table__td hifu-table__td--lina" rowspan="2">4,5mm<span class="table-text-small">(二重あご解消)</span></td>
                <td class="hifu-table__td" colspan="2">¥50,000</td>
                  <td class="hifu-table__td">¥45,000</td>
+            </tr>
+
+            <tr class="hifu-table__tr">
+
+
+              <td class="hifu-table__td" colspan="3">
+              ※リフトアップカートリッジの<br class="sp">顔全体・頬のみと併用の場合   <br class="sp">¥20,000
+              </td>
+
+
             </tr>
 
              <tr class="hifu-table__tr">

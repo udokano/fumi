@@ -344,7 +344,7 @@ Template Name: 料金一覧
        </td>
     </tr>
      <tr class="price-table__tr">
-      <th class="price-table__th">Gコグソフト 1本</th>
+      <th class="price-table__th">Gコグリフト 1本</th>
       <td class="price-table__td">¥60,000（税別）</td>
     </tr>
     <tr class="price-table__tr">
@@ -445,31 +445,21 @@ HIFU(ハイフ)
           <th class="price-table--row03__head-th price-table--row03__th price-table--row03__th--hifu price-table--row03__th--hifu-right">7ヶ月以内の<br class="sp">再施術</th>
         </tr>
     <tr class="price-table--row03__tr">
-      <th class="price-table__th table-width-auto" rowspan="2">顔全体</th>
-      <td class="price-table__td table-width-auto table-text-center">トリプル</td>
-      <td class="price-table__td table-width-auto">¥140,000（税別）</td>
+      <th class="price-table__th table-width-auto">顔全体</th>
+     <!--  <td class="price-table__td table-width-auto table-text-center">トリプル</td> -->
+      <td class="price-table__td table-width-auto"  colspan="2">¥140,000（税別）</td>
       <td class="price-table__td table-width-auto">¥126,000（税別）</td>
     </tr>
-    <tr class="price-table--row03__tr">
-    <!--   <th class="price-table__th price-table--row03__th">顔全体 ダブル</th> -->
-    <td class="price-table__td table-width-auto table-text-center">ダブル</td>
-      <td class="price-table__td table-width-auto">¥120,000（税別）</td>
-      <td class="price-table__td table-width-auto">¥108,000（税別）</td>
-    </tr>
+
 
     <tr class="price-table--row03__tr">
-      <th class="price-table__th table-width-auto" rowspan="2">顔全体+首</th>
-       <td class="price-table__td table-width-auto table-text-center">トリプル</td>
-      <td class="price-table__td table-width-auto">¥160,000（税別）</td>
+      <th class="price-table__th table-width-auto" >顔全体+あご下</th>
+     <!--   <td class="price-table__td table-width-auto table-text-center">トリプル</td> -->
+      <td class="price-table__td table-width-auto"  colspan="2">¥160,000（税別）</td>
       <td class="price-table__td table-width-auto">¥144,000（税別）</td>
     </tr>
 
-    <tr class="price-table--row03__tr">
 
-      <td class="price-table__td table-width-auto table-text-center">ダブル</td>
-      <td class="price-table__td table-width-auto">¥140,000（税別）</td>
-      <td class="price-table__td table-width-auto">¥126,000（税別）</td>
-    </tr>
 
     <tr class="price-table--row03__tr">
       <th class="price-table__th table-width-auto">頬のみ</th>
@@ -493,13 +483,19 @@ HIFU(ハイフ)
           <th class="price-table--row03__head-th price-table--row03__th price-table--row03__th--hifu price-table--row03__th--hifu-right">1ヶ月以内の<br class="sp">再施術</th>
         </tr>
     <tr class="price-table--row03__tr">
-      <th class="price-table__th table-width-auto">4.5mm 二重アゴ解消</th>
+      <th class="price-table__th table-width-auto" rowspan="2">4.5mm <br class="sp">二重アゴ解消</th>
       <td class="price-table__td table-width-auto" colspan="2">¥50,000（税別）</td>
        <td class="price-table__td table-width-auto">¥45,000（税別）</td>
     </tr>
 
+      <tr class="price-table--row03__tr">
+
+      <td class="price-table__td table-width-auto tc-i" colspan="3"> ※リフトアップカートリッジの<br class="sp">顔全体・頬のみと併用の場合   <br class="sp">¥20,000（税別）</td>
+
+    </tr>
+
     <tr class="price-table--row03__tr">
-      <th class="price-table__th table-width-auto">2.0mm 美肌・美白</th>
+      <th class="price-table__th table-width-auto">2.0mm <br class="sp">美肌・美白</th>
       <td class="price-table__td table-width-auto" colspan="2">¥50,000（税別）</td>
       <td class="price-table__td table-width-auto">¥45,000（税別）</td>
     </tr>

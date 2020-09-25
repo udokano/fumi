@@ -436,6 +436,12 @@
     .bottom {
         padding: 1.5rem 0;
 
+        &--re {
+            @media (min-width: 768px) {
+                width: 1100px;
+            }
+        }
+
         .menu-link {
             width: 49%;
 
@@ -463,10 +469,11 @@
             }
 
             &--width {
-                width: 45%;
+                width: 57%;
+                height: 242px;
 
                 @media screen and (min-width: 768px) and (max-width: 1520px) {
-                    width: 46%;
+                    //width: 46%;
                 }
 
                 @media (max-width: 767px) {
@@ -474,30 +481,34 @@
                 }
 
                 li {
+                    height: 100%;
+
                     @media (min-width: 1521px) {
-                        height: 250px;
+                        //height: 250px;
                     }
 
                     @media screen and (min-width: 768px) and (max-width: 1520px) {
-                        height: 223px;
+                        //height: 223px;
                     }
 
                     a {
                         img {
+                            height: 132px;
+
                             @media (min-width: 1521px) {
-                                height: 135px;
+                                //height: 135px;
                                 margin-bottom: 17px;
                             }
 
                             @media screen and (min-width: 768px) and (max-width: 1520px) {
-                                height: 128px;
-                                margin-bottom: 11px;
+                                //height: 128px;
+                                margin-bottom: 17px;
                             }
                         }
 
                         p {
                             @media screen and (min-width: 768px) and (max-width: 1520px) {
-                                font-size: 1.1vw;
+                                //font-size: 1.1vw;
                             }
                         }
                     }
@@ -586,15 +597,16 @@
 }
 
 .hifu-bnr {
-    width: 51.2%;
+    width: 40.5%;
 
     @media screen and (min-width: 768px) and (max-width: 1520px) {
-        width: 642px;
+        // width: 602px;
     }
 
     @media (max-width: 767px) {
         min-width: auto;
-        width: 100%;
+        width: 90%;
+        margin: auto;
     }
 }
 
