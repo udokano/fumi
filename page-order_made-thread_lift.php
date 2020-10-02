@@ -23,7 +23,7 @@
   <!-- ./anchor-box -->
 </section>
 
-<section class="order__made__tit bg__p02" id="area1">
+<section class="order__made__tit bg__p02">
   <h2 class="tc">こんな方におすすめです</h2>
 </section>
 

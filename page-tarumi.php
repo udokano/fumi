@@ -650,7 +650,7 @@ Template Name: たるみ治療
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex bd-bottom-none">
-        <dt>4.5mm 二重アゴ解消</dt>
+        <dt>4.5mm 二重あご解消</dt>
         <dd>¥50,000</dd>
       </dl>
 
@@ -659,10 +659,10 @@ Template Name: たるみ治療
         <dd>¥45,000</dd>
       </dl>
 
-        <dl class="flex">
+      <!--   <dl class="flex">
         <dt>※リフトアップカートリッジの顔全体・頬のみと併用の場合</dt>
         <dd>¥20,000</dd>
-      </dl>
+      </dl> -->
 
        <dl class="flex bd-bottom-none">
         <dt>2.0mm 美肌・美白</dt>

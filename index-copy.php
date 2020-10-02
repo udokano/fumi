@@ -143,8 +143,8 @@ Template Name: ページ改修テスト
 
       <div class="hifu-bnr">
         <a href="<?php echo home_url( '/' ); ?>hifu" class="" target="_blank">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr02.jpg?55555555" alt="ウルトラセルQプラス" class="pc">
-           <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr.jpg?555555555" alt="ウルトラセルQプラス" class="sp">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr02.jpg?555555ssss55assaa4111" alt="ウルトラセルQプラス" class="pc">
+           <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr.jpg?4445565sss65aassssa65665" alt="ウルトラセルQプラス" class="sp">
         </a>
       </div>
     </div>

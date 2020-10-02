@@ -392,11 +392,11 @@ Template Name: 小顔治療
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
-        <dt> 1cc（4ccまで）</dt>
+        <dt> 1cc<!-- （4ccまで） --></dt>
         <dd>¥9,000</dd>
       </dl>
        <dl class="flex">
-        <dt>1cc（5cc以上）</dt>
+        <dt>1cc（5cc以降）</dt>
         <dd>¥6,000</dd>
       </dl>
     </div>
@@ -407,11 +407,11 @@ Template Name: 小顔治療
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
-        <dt>1cc（4ccまで）</dt>
+        <dt>1cc<!-- （4ccまで） --></dt>
         <dd>¥10,500</dd>
       </dl>
        <dl class="flex">
-        <dt>1cc（5cc以上）</dt>
+        <dt>1cc（5cc以降）</dt>
         <dd>¥7,000</dd>
       </dl>
     </div>
@@ -422,11 +422,11 @@ Template Name: 小顔治療
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex">
-        <dt>1cc（4ccまで）</dt>
+        <dt>1cc<!-- （4ccまで） --></dt>
         <dd>¥15,000</dd>
       </dl>
        <dl class="flex">
-        <dt>1cc（5cc以上）</dt>
+        <dt>1cc（5cc以降）</dt>
         <dd>¥10,000</dd>
       </dl>
     </div>
@@ -453,7 +453,9 @@ Template Name: 小顔治療
     while ($the_query->have_posts()): $the_query->the_post();
     ?>
 
-    <!--ここにループの中の記述 -->
+    ここにループの中の記述 -->
+
+    <!--
 
     <dl class="box-size">
       <dt><span class="q">Q</span><span class="gosic">
@@ -693,7 +695,7 @@ Template Name: 小顔治療
         <dd class="f-bold">税別</dd>
       </dl>
       <dl class="flex bd-bottom-none">
-        <dt>4.5mm 二重アゴ解消</dt>
+        <dt>4.5mm 二重あご解消</dt>
         <dd>¥50,000</dd>
       </dl>
 
@@ -702,10 +704,10 @@ Template Name: 小顔治療
         <dd>¥45,000</dd>
       </dl>
 
-        <dl class="flex">
+      <!--   <dl class="flex">
         <dt>※リフトアップカートリッジの顔全体・頬のみと併用の場合</dt>
         <dd>¥20,000</dd>
-      </dl>
+      </dl> -->
 
        <dl class="flex bd-bottom-none">
         <dt>2.0mm 美肌・美白</dt>

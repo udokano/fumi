@@ -473,12 +473,12 @@
             <tr class="hifu-table__tr">
               <th class="hifu-table__th hifu-table__th--left-top hifu-table__th--lina pc" rowspan="6">リニアカートリッジ</th>
 
-              <td class="hifu-table__td hifu-table__td--lina" rowspan="2">4,5mm<span class="table-text-small">(二重あご解消)</span></td>
+              <td class="hifu-table__td hifu-table__td--lina" >4,5mm<span class="table-text-small">(二重あご解消)</span></td>
                <td class="hifu-table__td" colspan="2">¥50,000</td>
                  <td class="hifu-table__td">¥45,000</td>
             </tr>
 
-            <tr class="hifu-table__tr">
+         <!--    <tr class="hifu-table__tr">
 
 
               <td class="hifu-table__td" colspan="3">
@@ -487,7 +487,7 @@
 
 
             </tr>
-
+ -->
              <tr class="hifu-table__tr">
 
               <td class="hifu-table__td hifu-table__td--lina" >2,0mm<span class="table-text-small">(美肌・美白)</span></td>

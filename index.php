@@ -258,10 +258,10 @@
         <h3 class="tc">たるみ治療</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb05.jpg" alt="サムネイル"></div>
         <ul>
-          <li>・ヒアルロン酸</li>
-          <li>・スレッドリフト</li>
-          <li>・ボトックスリフト</li>
-           <li>・ウルトラセルQプラス</li>
+          <li data-url="<?php echo home_url('/'); ?>tarumi#area1" class="js-link">・ヒアルロン酸</li>
+          <li data-url="<?php echo home_url('/'); ?>tarumi#area2" class="js-link">・スレッドリフト</li>
+          <li data-url="<?php echo home_url('/'); ?>tarumi#area3" class="js-link">・ボトックスリフト</li>
+           <li data-url="<?php echo home_url('/'); ?>tarumi#area4" class="js-link">・ウルトラセルQプラス</li>
         </ul>
         </a> </li>
       <li class="box-size hg-row"> <a href="<?php echo home_url('/'); ?>siwa">
@@ -277,17 +277,17 @@
         <h3 class="cw tc">美肌治療</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb10.jpg" alt="サムネイル"></div>
         <ul class="col">
-          <li>・SUNEKOS(スネコス)</li>
-          <li>・ダーマペン4/ヴェルヴェットスキン</li>
-          <li>・メディカルエステ</li>
-          <li>・美容点滴/プラセンタ</li>
-          <li>・ウルトラセルQプラス<br class="sp">リニア2.0</li>
+         <li data-url="<?php echo home_url('/'); ?>medikaru#area5" class="js-link">・SUNEKOS(スネコス)</li>
+          <li data-url="<?php echo home_url('/'); ?>medikaru#area4" class="js-link">・ダーマペン4/ヴェルヴェットスキン</li>
+          <li data-url="<?php echo home_url('/'); ?>medikaru#area3" class="js-link">・メディカルエステ</li>
+          <li data-url="<?php echo home_url('/'); ?>medikaru#area1" class="js-link">・美容点滴/プラセンタ</li>
+          <li data-url="<?php echo home_url('/'); ?>medikaru#area6" class="js-link">・ウルトラセルQプラス<br class="sp">(リニア2.0)</li>
         </ul>
         </a> </li>
       <li class="box-size "> <a href="<?php echo home_url('/'); ?>kogao">
         <h3 class="tc">小顔治療 </h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb07.jpg" alt="サムネイル"></div>
-        <ul class="col">
+       <ul class="col">
           <li data-url="<?php echo home_url('/'); ?>kogao#area3" class="js-link">・スレッドリフト</li>
           <li data-url="<?php echo home_url('/'); ?>kogao#area2" class="js-link">・エラボトックス</li>
           <li data-url="<?php echo home_url('/'); ?>kogao#area1" class="js-link">・脂肪溶解注射/BNLSneo、デオリポ(カベルライン)、<br class="pc">チンセラプラス</li>

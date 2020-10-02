@@ -277,28 +277,28 @@ Template Name: 料金一覧
       <td class="price-table__td price-table__td--top head-bg-inf tb-ttl-color-hel price-table__td--col02" colspan="2">脂肪溶解注射</td>
     </tr>
     <tr class="price-table__tr">
-      <th class="price-table__th">BNLSneo 1cc（4ccまで）</th>
+      <th class="price-table__th">BNLSneo 1cc</th>
       <td class="price-table__td">¥9,000（税別）</td>
     </tr>
     <tr class="price-table__tr">
-      <th class="price-table__th">BNLSneo 1cc（5cc以上）</th>
+      <th class="price-table__th">BNLSneo 1cc（5cc以降）</th>
       <td class="price-table__td">¥6,000（税別）</td>
     </tr>
     <tr class="price-table__tr">
-      <th class="price-table__th">デオリポ(カベルライン) 1cc（4ccまで）</th>
+      <th class="price-table__th">デオリポ(カベルライン) 1cc</th>
       <td class="price-table__td">¥10,500（税別）</td>
     </tr>
     <tr class="price-table__tr">
-      <th class="price-table__th">デオリポ(カベルライン) 1cc（5cc以上）</th>
+      <th class="price-table__th">デオリポ(カベルライン) 1cc（5cc以降）</th>
       <td class="price-table__td">¥7,000（税別）</td>
     </tr>
 
     <tr class="price-table__tr">
-      <th class="price-table__th">チンセラプラス 1cc（4ccまで）</th>
+      <th class="price-table__th">チンセラプラス 1cc</th>
       <td class="price-table__td">¥15,000（税別）</td>
     </tr>
     <tr class="price-table__tr">
-      <th class="price-table__th">チンセラプラス 1cc（5cc以上）</th>
+      <th class="price-table__th">チンセラプラス 1cc（5cc以降）</th>
       <td class="price-table__td">¥10,000（税別）</td>
     </tr>
   </table>
@@ -483,16 +483,16 @@ HIFU(ハイフ)
           <th class="price-table--row03__head-th price-table--row03__th price-table--row03__th--hifu price-table--row03__th--hifu-right">1ヶ月以内の<br class="sp">再施術</th>
         </tr>
     <tr class="price-table--row03__tr">
-      <th class="price-table__th table-width-auto" rowspan="2">4.5mm <br class="sp">二重アゴ解消</th>
+      <th class="price-table__th table-width-auto" >4.5mm <br class="sp">二重アゴ解消</th>
       <td class="price-table__td table-width-auto" colspan="2">¥50,000（税別）</td>
        <td class="price-table__td table-width-auto">¥45,000（税別）</td>
     </tr>
 
-      <tr class="price-table--row03__tr">
+    <!--   <tr class="price-table--row03__tr">
 
       <td class="price-table__td table-width-auto tc-i" colspan="3"> ※リフトアップカートリッジの<br class="sp">顔全体・頬のみと併用の場合   <br class="sp">¥20,000（税別）</td>
 
-    </tr>
+    </tr> -->
 
     <tr class="price-table--row03__tr">
       <th class="price-table__th table-width-auto">2.0mm <br class="sp">美肌・美白</th>
