@@ -118,11 +118,11 @@ Template Name: ページ改修テスト
   <div class="top__menu__area top__menu__area--pb">
     <div class="bottom bottom--re inner-box  flex al-cent">
       <ul class="menu-link menu-link--width flex">
-        <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
+        <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01_new.jpg" alt="サムネイル">
           <p class="tc">オーダーメイド注入<br>
             <span class="gd">INJECTION</span></p>
           </a> </li>
-        <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made_thread_lift" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02.jpg" alt="サムネイル">
+        <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made_thread_lift" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02_new.jpg" alt="サムネイル">
           <p class="od__thread__lift tc">オーダーメイド<br class="sp">スレッドリフト<br>
          <span class="gd od__thread__lift_sub">THREAD LIFT</span></p>
 
@@ -143,8 +143,8 @@ Template Name: ページ改修テスト
 
       <div class="hifu-bnr">
         <a href="<?php echo home_url( '/' ); ?>hifu" class="" target="_blank">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr02.jpg?555555ssss55assaa4111" alt="ウルトラセルQプラス" class="pc">
-           <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr.jpg?4445565sss65aassssa65665" alt="ウルトラセルQプラス" class="sp">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr02.jpg?20201008" alt="ウルトラセルQプラス" class="pc">
+           <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr.jpg?20201008" alt="ウルトラセルQプラス" class="sp">
         </a>
       </div>
     </div>

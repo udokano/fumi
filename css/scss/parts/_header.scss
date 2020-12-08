@@ -471,7 +471,7 @@
             }
 
             &--width {
-                width: 64.5%;
+                width: 67.5%;
                 height: 242px;
 
                 @media screen and (min-width: 768px) and (max-width: 1520px) {
@@ -496,16 +496,16 @@
 
                     a {
                         img {
-                            height: 132px;
+                            height: 125px;
 
-                            @media (min-width: 1521px) {
-                                //height: 135px;
-                                margin-bottom: 18px;
-                            }
+                            /*  @media (min-width: 1521px) {
+                                 //height: 135px;
+                                 margin-bottom: 18px;
+                             } */
 
-                            @media screen and (min-width: 768px) and (max-width: 1520px) {
+                            @media screen and (min-width: 768px) {
                                 //height: 128px;
-                                margin-bottom: 18px;
+                                margin-bottom: 19px;
                             }
                         }
 
@@ -515,7 +515,7 @@
                             }
 
                             @media (min-width: 768px) {
-                                font-size: 1.23rem;
+                                font-size: 1.29rem;
                                 line-height: 1.24;
                             }
                         }
@@ -605,7 +605,7 @@
 }
 
 .hifu-bnr {
-    width: 32.85%;
+    width: 29.85%;
 
     @media screen and (min-width: 768px) and (max-width: 1520px) {
         // width: 602px;

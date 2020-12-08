@@ -128,7 +128,7 @@
           <li class="hifu-points__item hifu-point-box">
                 <h3 class="hifu-point-box__ttl hifu-point-box__ttl--line02">
                   <span class="hifu-point-box__point">point.<span class="hifu-point-box__point-num">04</span></span>
-                   <em class="hifu-point-box__ttl-text">カードリッジの切替が<br class="sp">できるので<br class="pc">効果の幅がUP！
+                   <em class="hifu-point-box__ttl-text">カートリッジの切替が<br class="sp">できるので<br class="pc">効果の幅がUP！
 </em>
                 </h3>
 
@@ -235,7 +235,7 @@
             <p class="hifu-eye__desc">リフトアップカートリッジの2.0㎜を使用し、上眼瞼・下眼瞼・額に照射することで、目元の緩みや小じわを改善し、ハリのある若々しい目元に導きます。<br class="">まぶたの下がり感が軽減することで目が開きやすくなったり、目がぱっちりと大きくなる効果も期待できます。</p>
             </div>
             <div class="hifu-eye__thumb">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/operation/hifu/hifu_eye_thumb.jpg" alt="HIFI（ハイフ・アイ）">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/operation/hifu/hifu_eye_thumb.jpg?541778555" alt="HIFI（ハイフ・アイ）">
             </div>
         </div>
  </div>

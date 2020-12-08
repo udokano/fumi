@@ -101,26 +101,48 @@
       <!-- swiper-wrapper END-->
     </div>
     <!-- swiper-container END-->
-    <a href="#contents1" class="bounce scroll-down"><img src="<?php echo get_template_directory_uri(); ?>/img/common/scrool_down.svg" alt="scroll-down"></a> </div>
+    <a href="#bg4" class="bounce scroll-down"><img src="<?php echo get_template_directory_uri(); ?>/img/common/scrool_down.svg" alt="scroll-down"></a> </div>
   <!-- fv END-->
 
   <!--FV END-->
 
-  <div class="top__menu__area">
-    <div class="bottom inner-box flex">
-      <ul class="menu-link  flex">
-        <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01.jpg" alt="サムネイル">
+ <div class="top__menu__area top__menu__area--pb">
+    <div class="bottom bottom--re inner-box  flex al-cent">
+      <ul class="menu-link menu-link--width flex">
+        <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01_new.jpg" alt="サムネイル">
           <p class="tc">オーダーメイド注入<br>
             <span class="gd">INJECTION</span></p>
           </a> </li>
-        <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made_thread_lift" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02.jpg" alt="サムネイル">
+        <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made_thread_lift" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb02_new.jpg" alt="サムネイル">
           <p class="od__thread__lift tc">オーダーメイド<br class="sp">スレッドリフト<br>
          <span class="gd od__thread__lift_sub">THREAD LIFT</span></p>
 
           </a> </li>
       </ul>
-      <div class="cv-wrap box-size">
+      <!-- <div class="cv-wrap box-size">
         <div class="top flex al-cent">
+          <div class="left sm">お電話による<br class="pc">
+            お問い合わせ</div>
+          <div class="tel"><a href="tel:0663722323" class="">06-6372-2323</a></div>
+          <div class="time sm"> 平日 10:00～18:00<br>
+            土 10:00～17:00</div>
+        </div>
+        <div class="bottom__btn flex"> <a href="https://fumibeauty.reserve.ne.jp/" class="cv-btns bg-rs c_gray" target="_blank"><span class="bg-icon">来院予約<br>
+          <span class="sm">RESERVATION</span></span></a> <a href="<?php echo home_url('/'); ?>contact" class="cv-btns c_gray bg-ct bg__n_ct"><span class="bg-icon">お問合わせ<br>
+          <span class="sm">CONTACT</span></span></a> </div>
+      </div> -->
+
+      <div class="hifu-bnr">
+        <a href="<?php echo home_url( '/' ); ?>hifu" class="" target="_blank">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr02.jpg?20201008" alt="ウルトラセルQプラス" class="pc">
+           <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr.jpg?20201008" alt="ウルトラセルQプラス" class="sp">
+        </a>
+      </div>
+    </div>
+    <!--BOTTOM END-->
+
+    <div class="cv-wrap box-size" id="cv-wrap">
+        <div class="top flex al-cent justify-center">
           <div class="left sm">お電話による<br class="pc">
             お問い合わせ</div>
           <div class="tel"><a href="tel:0663722323" class="">06-6372-2323</a></div>
@@ -131,27 +153,6 @@
           <span class="sm">RESERVATION</span></span></a> <a href="<?php echo home_url('/'); ?>contact" class="cv-btns c_gray bg-ct bg__n_ct"><span class="bg-icon">お問合わせ<br>
           <span class="sm">CONTACT</span></span></a> </div>
       </div>
-
-     <!--  <div class="hifu-bnr">
-        <a href="" class="">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr.jpg" alt="">
-        </a>
-      </div> -->
-    </div>
-    <!--BOTTOM END-->
-
-    <!-- <div class="cv-wrap box-size" id="cv-wrap">
-        <div class="top flex al-cent">
-          <div class="left sm">お電話による<br class="pc">
-            お問い合わせ</div>
-          <div class="tel"><a href="tel:0663722323" class="">06-6372-2323</a></div>
-          <div class="time sm"> 平日 10:00～18:00<br>
-            土 10:00～17:00</div>
-        </div>
-        <div class="bottom__btn flex"> <a href="https://fumibeauty.reserve.ne.jp/" class="cv-btns bg-rs c_gray" target="_blank"><span class="bg-icon">来院予約<br>
-          <span class="sm">RESERVATION</span></span></a> <a href="<?php echo home_url('/'); ?>contact" class="cv-btns c_gray bg-ct bg__n_ct"><span class="bg-icon">お問合わせ<br>
-          <span class="sm">CONTACT</span></span></a> </div>
-      </div> -->
 
   </div>
   <!--top__menu__area END-->
@@ -417,7 +418,12 @@
           <!--ここにループの中の記述 -->
 
           <!--記事へのリンクを出力-->
-          <a href="<?php the_permalink(); ?>" class="flex posts">
+          <a href="<?php the_permalink(); ?>?cat=<?php //所属タクソノミースラック表示
+                $terms = wp_get_object_terms($post->ID, 'faq_kind');
+                foreach ($terms as $term) {
+                    echo $term->slug;
+                    break;
+                }?>" class="flex posts">
           <div class="thumb">
             <!--サムネイル(アイキャッチ)画像を出力-->
             <?php
