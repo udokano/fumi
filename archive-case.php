@@ -66,12 +66,16 @@ foreach ($my_terms as $term) {
   <?php endif; ?>
 
   <p class="read__single">
+<<<<<<< HEAD
     <a href="<?php the_permalink();?>?cat=<?php //所属タクソノミースラック表示
                 $terms = wp_get_object_terms($post->ID, 'faq_kind');
                 foreach ($terms as $term) {
                     echo $term->slug;
                     break;
                 }?>">詳しく見る</a>
+=======
+    <a href="<?php the_permalink();?>">詳しく見る</a>
+>>>>>>> cd3661fdbeeb610adc944c857af9ef78b8951c7c
   </p>
 
     </div><!--./new_archive_list-->

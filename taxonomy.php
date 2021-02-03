@@ -16,7 +16,11 @@
 
 $my_terms = get_terms('faq_kind', $args);
   echo '<select id="tax__change" onchange="location.href=value;">';
+<<<<<<< HEAD
  echo '<option value="' . home_url('/') . 'case-list">'."選択してください".'</option>';
+=======
+echo '<option value="case-list">'."選択してください".'</option>';
+>>>>>>> cd3661fdbeeb610adc944c857af9ef78b8951c7c
 foreach ($my_terms as $term) {
     echo '<option value="' . get_term_link($term->slug, "faq_kind") . '" data-value="' . $term->slug . '">' . $term->name . '</option>';
 }
@@ -59,12 +63,16 @@ foreach ($my_terms as $term) {
         </dl>
       </div>
       <?php endif; ?>
+<<<<<<< HEAD
       <p class="read__single"> <a href="<?php the_permalink();?>?cat=<?php //所属タクソノミースラック表示
                 $terms = wp_get_object_terms($post->ID, 'faq_kind');
                 foreach ($terms as $term) {
                     echo $term->slug;
                     break;
                 }?>">詳しく見る</a> </p>
+=======
+      <p class="read__single"> <a href="<?php the_permalink();?>">詳しく見る</a> </p>
+>>>>>>> cd3661fdbeeb610adc944c857af9ef78b8951c7c
     </div>
     <!--./new_archive_list-->
     <?php endwhile; endif; ?>

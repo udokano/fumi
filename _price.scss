@@ -1,0 +1,470 @@
+/* 各施術の背景色 */
+
+//ヒアルロン酸
+$bg_hel: #feefef;
+
+//ボトックス
+$bg_btx: #fedcf9;
+
+/* アンカーエリア */
+
+.sq-anchor {
+    display: flex;
+    justify-content: center;
+    max-width: 690px;
+    flex-wrap: wrap;
+    width: 96%;
+    margin: 0 auto 2.58rem;
+
+    /*  @media (max-width: 767px) {
+         justify-content: space-between;
+     } */
+
+    &__link {
+        width: 133px;
+        height: 133px;
+        border-radius: 50%;
+        border: 1px solid #686868;
+        position: relative;
+        margin: 0 .78rem;
+        display: block;
+        transition: ease-out .32s;
+
+        @media (max-width: 767px) {
+            width: 29.2%;
+            height: 29.2vw;
+            margin: 0 1.6vw 2.34vw;
+            border-color: #969696;
+
+            &:last-of-type {
+                margin-right: auto;
+            }
+        }
+
+        &::after {
+            /*  position: absolute;
+             content: "";
+             left: 50%;
+             bottom: 10px;
+             transform: translateX(-50%) rotate(45deg);
+             width: 10px;
+             height: 10px;
+             border-right: 1px solid #cdcdcd;
+             border-bottom: 1px solid #cdcdcd; */
+            display: none;
+        }
+
+        &:hover {
+            background-color: #686868;
+
+            &::after {
+                border-color: #fff;
+            }
+
+            .sq-anchor__text {
+                color: #ffffff;
+            }
+        }
+    }
+
+    &__text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: .9rem;
+        width: 100%;
+        text-align: center;
+        color: #666;
+
+        @media (max-width: 767px) {
+            font-size: 3.5vw;
+        }
+
+        &--small {
+            @media (max-width: 767px) {
+                font-size: 3.0vw;
+            }
+        }
+    }
+}
+
+/* アンカーエリア改修 */
+
+.ancor-box--price {
+    width: 96%;
+    max-width: 880px;
+    margin: 0 auto 1.78rem;
+    text-align: center;
+
+    .ancor-box--price__link {
+        display: inline-block;
+        width: 22%;
+        margin: 0 .88rem 1.45rem;
+        position: relative;
+        line-height: 1;
+        padding: 0;
+        height: 61px;
+        line-height: 61px;
+        font-weight: 600;
+        color: #666666;
+        letter-spacing: .05em;
+        font-size: 1.08rem;
+        font-family: $gosic;
+
+        @media (max-width: 767px) {
+            width: 42%;
+            height: 12vw;
+            line-height: 12vw;
+            font-size: 3.68vw;
+            font-feature-settings: 'palt' 1;
+            margin: 0 .44rem 1.05rem;
+        }
+
+        &--line02 {
+            @media (max-width: 767px) {
+                position: absolute;
+                top: 46%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                line-height: 1.23;
+                width: 100%;
+            }
+        }
+
+        &::after {
+            display: none;
+
+            @media (max-width: 767px) {
+                width: 7px;
+                height: 7px;
+            }
+        }
+    }
+}
+
+.price-ope-ttl {
+    font-size: 1.8rem;
+    margin-top: 3.2rem;
+    border: 1px solid;
+    padding: .98rem 0;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 3.4rem;
+
+    &--hel {
+        border-color: #cfa8dc;
+    }
+
+    &--btx {
+        border-color: #fab2c0;
+    }
+
+    &--md {
+        border-color: #bbcff5;
+    }
+
+    &--lift {
+        border-color: #edcfa6;
+    }
+
+    &--nose {
+        border-color: #abe6cb;
+    }
+
+    &--sapuli {
+        border-color: #ead7bd;
+    }
+
+    &--tenteki {
+        border-color: #aeebeb;
+    }
+}
+
+/* 導入文 */
+
+.price-intro {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+
+    //background-color: #fef2f6;
+    padding: 2.98rem 0;
+
+    @media (max-width: 767px) {
+        font-size: 2.98vw;
+        font-feature-settings: 'palt' 1;
+    }
+}
+
+.price-intro02 {
+    padding: 2.5rem 0;
+    background-color: #fbfbfb;
+    margin-bottom: 3.78rem;
+}
+
+.price-table-ttl {
+    text-align: center;
+    font-size: 1.55rem;
+    margin-bottom: 1.78rem;
+
+    &__sub {
+        display: block;
+        text-align: center;
+
+        //font-size: 1.09rem;
+        font-size: .99rem;
+        font-weight: normal;
+    }
+
+    &__sub-sub-ttl {
+        /*  width: 80%;
+         max-width: 400px; */
+        font-size: .99rem;
+        text-align: center;
+        margin: 0 auto;
+        display: inline-block;
+
+        &--bottom {
+            text-align: right;
+            display: block;
+        }
+    }
+}
+
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+
+    &__tr {}
+
+    &__th, &__td {
+        padding: 1.24rem 1.25rem;
+        vertical-align: middle;
+        text-align: left;
+        font-size: 1.12rem;
+        color: #454545;
+        border: 1px solid #fff;
+        font-feature-settings: 'palt' 1;
+
+        @media (max-width: 767px) {
+            font-size: 2.9vw;
+            padding: 3.48vw 3.1vw;
+        }
+    }
+
+    &__th {
+        width: 50%;
+        border: 1px solid #dbdbdb;
+        border-right: none !important;
+
+        @media (max-width: 767px) {
+            width: 56%;
+        }
+    }
+
+    &__td {
+        width: 50%;
+        border: 1px solid #dbdbdb;
+        border-left: none;
+        text-align: right;
+
+        @media (max-width: 767px) {
+            width: 44%;
+            font-size: 3.2vw;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        &--col02 {
+            border-left: 1px solid #dbdbdb;
+            text-align: center;
+        }
+
+        &--top {
+            font-size: 1.54rem;
+            font-weight: 600;
+        }
+
+        &--fz-small {
+            @media (max-width: 767px) {
+                font-size: 2.8vw;
+            }
+        }
+    }
+
+    &__note {
+        display: block;
+        font-size: .8rem;
+    }
+
+    &--wide {
+        tr {
+            th {
+                width: 48%;
+
+                @media (max-width: 767px) {
+                    width: 60%;
+                }
+            }
+
+            td {
+                width: 52%;
+
+                @media (max-width: 767px) {
+                    width: 40%;
+                }
+            }
+        }
+    }
+
+    &--sp-short {
+        tr {
+            th {
+                @media (max-width: 767px) {
+                    width: 30%;
+                }
+            }
+
+            td {
+                @media (max-width: 767px) {
+                    width: 70%;
+                }
+            }
+        }
+    }
+
+    //各施術の背景色
+
+    /* ヒアルロン酸 */
+
+    &--hel {
+        tr {
+            th {
+                background-color: #faf4fc;
+
+                //border-top: 1px solid $bg_hel;
+           
+            }
+        }
+    }
+
+    /* ボトックス */
+    &--btx {
+        tr {
+            th {
+                background-color: #fce9f5;
+            }
+        }
+    }
+
+    /* スレッドリフト */
+
+    &--lift {
+        tr {
+            th {
+                background-color: #fffaf3;
+            }
+        }
+    }
+
+    &--nose {
+        tr {
+            th {
+                background-color: #f0fff8;
+            }
+        }
+    }
+
+    &--md {
+        tr {
+            th {
+                background-color: #eefaff;
+            }
+        }
+    }
+
+    &--tenteki {
+        tr {
+            th {
+                background-color: #eefefe;
+            }
+        }
+    }
+
+    &--sapuli {
+        tr {
+            th {
+                background-color: #fcf7f0;
+            }
+        }
+    }
+
+    &--sosume {
+        tr {
+            th {
+                background-color: #ffe2c6;
+            }
+        }
+    }
+
+    &--keisei {
+        tr {
+            th {
+                background-color: #f9f9f9;
+            }
+        }
+    }
+
+    /* ３列バージョン */
+
+    &--row03 {
+        &__th, &__td {
+            width: 33.3333333333%;
+        }
+
+        &__th {
+            @media (max-width: 767px) {
+                width: 20%;
+            }
+        }
+
+        &__td {
+            font-feature-settings: 'palt' 1;
+        }
+
+        &__thead {}
+
+        &__head-th {
+            //background-color: #fab2c0 !important;
+            background-color: transparent !important;
+
+            //color: #fff;
+
+            //border: 1px solid #dbdbdb;
+            border-left: 1px solid #dbdbdb;
+            border-right: 1px solid #dbdbdb;
+            padding: 1.24rem 0;
+
+            //font-size: 1.2rem;
+
+            //font-weight: 600;
+            vertical-align: middle;
+
+            @media (max-width: 767px) {
+                font-size: 1.0rem;
+                padding: 1.3rem .5rem;
+            }
+        }
+    }
+}
+
+.price-sub-desc {
+    background-color: #fcfcfc;
+    padding: 1.2rem 1.5rem;
+
+    &__text {
+        font-size: 1rem;
+        color: #686868;
+    }
+}

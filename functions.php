@@ -117,6 +117,7 @@ add_filter( 'get_terms_orderby', 'taxonomy_orderby_description', 10, 1 );
 
 
 
+<<<<<<< HEAD
 /* 症例写真の記事一覧にタクソノミーでソート機能追加 */
 
 
@@ -194,6 +195,8 @@ add_filter( 'manage_edit-faq_columns', 'my_manage_posts_columns_faq_category02' 
 add_action( 'manage_faq_posts_custom_column', 'my_add_column_faq_category02', 10, 2 );
 add_action( 'restrict_manage_posts', 'my_add_post_taxonomy_restrict_filter02' );
  */
+=======
+>>>>>>> cd3661fdbeeb610adc944c857af9ef78b8951c7c
 // レスポンシブページネーション
 
 //レスポンシブなページネーションを作成する
