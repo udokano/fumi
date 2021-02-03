@@ -34,6 +34,9 @@ function shortcode_url()
     return get_template_directory_uri();
 }
 
+/*
+エディタ内にURL記入用ショートコード
+--------------------------------------*/
 
 //タクソノミー 一覧ページメインループ条件変更
 
@@ -186,6 +189,7 @@ add_filter( 'manage_edit-faq_columns', 'my_manage_posts_columns_faq_category02' 
 add_action( 'manage_faq_posts_custom_column', 'my_add_column_faq_category02', 10, 2 );
 add_action( 'restrict_manage_posts', 'my_add_post_taxonomy_restrict_filter02' );
  */
+
 // レスポンシブページネーション
 
 //レスポンシブなページネーションを作成する
@@ -239,12 +243,11 @@ function breadcrumb_func()
     if (!is_home()&&!is_admin()) {
         $str.= '<ol class="path" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">';
         $str.= '<a href="'.home_url().'" itemprop="item"><span itemprop="name">'.'HOME'.'</span></a><meta itemprop="position" content="1" /></li>';
-        
+
         if (is_post_type_archive()) {
             $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><span itemprop="name"><a href="#" itemprop="item">'.esc_html(get_post_type_object(get_post_type())->label).'</span></a><meta itemprop="position" content="2" /></li>';
         } elseif (is_tax()) {
             $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_post_type_archive_link(get_post_type()).'" itemprop="item"><span itemprop="name">'.esc_html(get_post_type_object(get_post_type())->label).'</span></a><meta itemprop="position" content="2" /></li>';
-             
             $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.single_term_title('', false).'</span></a><meta itemprop="position" content="3" /></li>';
         } elseif (is_tag()) {
             $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.single_tag_title('', false).'</span></a><meta itemprop="position" content="2" /></li>';
@@ -289,14 +292,14 @@ function breadcrumb_func()
                 $ancestors = array_reverse(get_ancestors($term_id -> term_ID, 'faq_kind'));
                 foreach ($ancestors as $ancestor) {
                     $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_term_link($ancestor).'" itemprop="item"><span itemprop="name aaaaa">'.$terms[0]->name.'</span></a><meta itemprop="position" content="2" /></li>';
-                    
+
                 }
                 $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_term_link($term_id).'" itemprop="item"><span itemprop="name">'.$terms[0]->name.'</span></a><meta itemprop="position" content="3" /></li>';
-                
+
                 $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="4" /></li>';
             } else {
                 $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_term_link($term_id).'" itemprop="item"><span itemprop="name">'.$term_id->name.'</span></a><meta itemprop="position" content="2" /></li>';
-                
+
                 $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="3" /></li>';
             }
         }
@@ -307,14 +310,14 @@ function breadcrumb_func()
                 $ancestors = array_reverse(get_ancestors($cat -> cat_ID, 'category'));
                 foreach ($ancestors as $ancestor) {
                     $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_category_link($ancestor).'" itemprop="item"><span itemprop="name aaaa">'.get_cat_name($ancestor).'</span></a><meta itemprop="position" content="2" /></li>';
-                    
+
                 }
                 $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_category_link($cat -> term_id).'" itemprop="item"><span itemprop="name">'.$categories[0]->cat_name.'</span></a><meta itemprop="position" content="3" /></li>';
-                
+
                 $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="4" /></li>';
             } else {
                 $str.='<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="'.get_category_link($cat -> term_id).'" itemprop="item"><span itemprop="name  aaaa">'.$cat-> cat_name.'</span></a><meta itemprop="position" content="2" /></li>';
-                
+
                 $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">'.wp_title('', false).'</span></a><meta itemprop="position" content="3" /></li>';
             }
         }
