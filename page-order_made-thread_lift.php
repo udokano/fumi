@@ -10,10 +10,10 @@
   <?php echo breadcrumb_func(); ?> </div>
 <section class="ope-top-desc order-made-top-desc gosic">
   <p class="tc">溶ける糸を使用してたるみを引き上げる<br class="sp">"切らないフォイスリフト治療"です。<br>スレッド治療で大切なのは、その方の脂肪の<br class="sp">つき方やたるみの状態を見極め、<br class="pc">最適な層の<br class="sp">最適な部位と方向にスレッドを挿入することです。<br>当院のスレッド治療は全て形成外科医の院長が行います。<br>たるみの状態やお悩みに合わせて最適な糸をご提案。<br>数種類の糸を組み合わせて<br class="sp">リフトアップを行うこともあります。</p>
-  <div class="ancor-box order">
+<div class="ancor-box order">
    <a href="#area1"><span class="row__center">スレッド治療の良さ</span></a>
-    <a href="#area2"><span class="row__center">糸の種類</span></a>
-    <a href="#area3" class="center"><span class="row__center">
+   <a href="#area2"><span class="row__center">糸の種類</span></a>
+  <a href="#area3" class="center"><span class="row__center">
       スレッドリフトと<br>
       組み合わせが<br>
       おすすめの治療</span>
@@ -22,13 +22,13 @@
 </div>
   <!-- ./anchor-box -->
 </section>
-
-<section class="order__made__tit bg__p02">
+<section>
+<div class="order__made__tit bg__p02">
   <h2 class="tc">こんな方におすすめです</h2>
-</section>
+</div>
 
 
-<section class="recommended">
+<div class="recommended">
   <div class="inner">
     <div class="recommended__box flex">
   <div class="recommended__thumb pc-dis">
@@ -44,14 +44,14 @@
   </ul>
     </div>
   </div>
+</div>
 </section>
-
-
-<section class="order__made__tit bg__p02" id="area1">
+<section>
+<div class="order__made__tit bg__p02" id="area1">
   <h2 class="tc">スレッド治療の良さ</h2>
-</section>
+</div>
 
-<section class="quality">
+<div class="quality">
   <div class="inner">
     <ul class="quality__list quality__list__top flex">
       <li class="quality__list__item quality__list__top__item">
@@ -127,11 +127,12 @@
 
   </div>
   <!-- ./inner -->
+</div>
 </section>
-
-<section class="order__made__tit bg__p02" id="area2">
+<section>
+<div class="order__made__tit bg__p02" id="area2">
   <h2 class="tc">糸の種類</h2>
-</section>
+</div>
 
 <div class="lift_type">
   <div class="inner">
@@ -173,9 +174,10 @@
 </div>
 <!-- ./lift_type -->
 
-<section class="lift_desc lift_desc__deep box-size">
+<section>
+<div class="lift_desc lift_desc__deep box-size">
   <div class="inner">
-<h2 class="lift_desc__tit bg__deep__tit">深めに入れるスレッド</h2>
+<h3 class="lift_desc__tit bg__deep__tit">深めに入れるスレッド</h3>
 <div class="lift_desc__box bg__deep flex">
   <div class="lift_desc__box__left">
     <div class="lift_desc__box__left__text">
@@ -229,11 +231,11 @@
   <!-- ./lift_desc -->
   </div>
   <!-- ./inner -->
-</section>
 
-<section class="lift_ope">
+<div class="lift_ope">
     <div class="inner">
-          <h2 class="lift_ope__tit border__deep" id="lift_type01">シルエットソフト(3Dリフト)</h2>
+    <section>
+          <h4 class="lift_ope__tit border__deep" id="lift_type01">シルエットソフト(3Dリフト)</h4>
           <div class="lift_ope__box flex">
             <div class="lift_ope__box__left">
               <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/deep_lift_item_thumb01.png?0513" alt="イラスト">
@@ -255,7 +257,9 @@
 
           </div>
           <!-- ./lift_ope__box -->
-           <h2 class="lift_ope__tit border__deep" id="lift_type02">Gコグリフト</h2>
+          </section>
+          <section>
+           <h4 class="lift_ope__tit border__deep" id="lift_type02">Gコグリフト</h4>
           <div class="lift_ope__box flex">
             <div class="lift_ope__box__left">
               <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/deep_lift_item_thumb02.png?0513" alt="イラスト">
@@ -276,7 +280,10 @@
 
           </div>
           <!-- ./lift_ope__box -->
-           <h2 class="lift_ope__tit border__deep" id="lift_type03">VOVリフトプレミアム</h2>
+          </section>
+
+          <section>
+           <h4 class="lift_ope__tit border__deep" id="lift_type03">VOVリフトプレミアム</h4>
           <div class="lift_ope__box flex">
             <div class="lift_ope__box__left">
               <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/deep_lift_item_thumb03.png?0513" alt="イラスト">
@@ -299,8 +306,9 @@
 
           </div>
           <!-- ./lift_ope__box -->
-
-             <h2 class="lift_ope__tit border__deep" id="lift_type04">セルフロック</h2>
+          </section>
+          <section>
+             <h4 class="lift_ope__tit border__deep" id="lift_type04">セルフロック</h4>
           <div class="lift_ope__box flex">
             <div class="lift_ope__box__left">
               <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/deep_lift_item_thumb04.png?0513" alt="イラスト">
@@ -323,11 +331,14 @@
           <!-- ./lift_ope__box -->
     </div>
     <!-- ./inner -->
+    </section>
+</div>
+</div>
 </section>
 
 <section class="lift_desc lift_desc__deep box-size">
   <div class="inner">
-<h2 class="lift_desc__tit bg__shallow__tit">浅めに入れるスレッド</h2>
+<h3 class="lift_desc__tit bg__shallow__tit">浅めに入れるスレッド</h3>
 <div class="lift_desc__box bg__shallow flex">
   <div class="lift_desc__box__left">
     <div class="lift_desc__box__left__text lift_desc__box__left__text--shallow__border">
@@ -380,11 +391,13 @@
   <!-- ./lift_desc -->
   </div>
   <!-- ./inner -->
-</section>
 
-<section class="lift_ope mb0">
+
+
+<div class="lift_ope mb0">
     <div class="inner">
-          <h2 class="lift_ope__tit shallow__border" id="lift_type05">ショッピングリフト（ビューティーエナジー）</h2>
+    <section>
+          <h4 class="lift_ope__tit shallow__border" id="lift_type05">ショッピングリフト（ビューティーエナジー）</h4>
           <div class="lift_ope__box flex">
             <div class="lift_ope__box__left lift_ope__box__left--shallow">
               <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/shallow_lift_item_thumb01.png?0513" alt="イラスト">
@@ -409,7 +422,11 @@
 
           </div>
           <!-- ./lift_ope__box -->
-           <h2 class="lift_ope__tit shallow__border" id="lift_type06">スレッドアイリフト(Gグロス)</h2>
+
+          </section>
+
+          <section>
+           <h4 class="lift_ope__tit shallow__border" id="lift_type06">スレッドアイリフト(Gグロス)</h4>
           <div class="lift_ope__box flex">
             <div class="lift_ope__box__left lift_ope__box__left--shallow">
               <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/shallow_lift_item_thumb02.png?0513" alt="イラスト">
@@ -435,13 +452,16 @@
 
           </div>
           <!-- ./lift_ope__box -->
-    </div>
-    <!-- ./inner -->
-</section>
-
-<section class="order__made__tit bg__p02" id="area3">
+          </section>
+          </section>
+  
+</div>
+</div>
+<!-- ./inner -->
+<section>
+<div class="order__made__tit bg__p02" id="area3">
   <h2 class="tc">スレッドリフトと組み合わせが<br class="sp">お勧めの治療</h2>
-</section>
+</div>
 
 <div class="recommended_thumb">
 
@@ -482,12 +502,15 @@
 
 </div>
 <!-- ./recommended_thumb -->
-
-<section class="order__made__tit bg__p02" id="area4">
-  <h2 class="tc">スレッド治療の流れ</h2>
 </section>
 
-<section class="thread_flow">
+<section>
+
+<div class="order__made__tit bg__p02" id="area4">
+  <h2 class="tc">スレッド治療の流れ</h2>
+</div>
+
+<div class="thread_flow">
   <div class="inner">
 
   <!-- step01 -->
@@ -698,10 +721,11 @@
 <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made_thread_lift/flow_thumb09.jpg" alt="診察">
 </div>
 <!-- ./thread_flow__contents__thumb -->
-<h3 class="thread_flow__contents__tit">施術終了</h3>
+  <h3 class="thread_flow__contents__tit">施術終了</h3>
 <p class="thread_flow__contents__text">
   スキンケアをしてお帰りいただけます。<br class="pc">糸の種類によっては当日からメイクが可能です。
 </p>
+</div>
 </div>
 <!-- ./thread_flow__contents__left -->
 
@@ -711,8 +735,8 @@
  </div>
  <!-- ./inner -->
 
-</section>
 
+</section>
 <section class="conversion__area conversion__area--bg__none">
   <div class="inner">
     <h2 class="tc gd f-ryu"><span>来院予約・お問合せはこちらから</span></h2>

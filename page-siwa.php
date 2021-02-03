@@ -5,6 +5,7 @@
 
 ?>
 <?php get_header()?>
+<main>
 <div class="page-head">
   <h1 class="tc f-ryu">しわ治療</h1>
   <?php echo breadcrumb_func(); ?> </div>
@@ -16,11 +17,11 @@
     診察によってより適切なしわ治療をご提案させていただきます。</p>
   <p class="tc sp">しわには動的なしわ(お顔の表情によってできる表情じわ)と静的なしわ(ほうれい線やマリオネットラインのようなたるみになるしわや、<br>
     皮膚の乾燥や肌老化による小じわ、ちりめんジワ)があり、しわの種類によって治療方法が異なります。診察によってより適切なしわ治療をご提案させていただきます。</p>
-  <div class="ancor-box">
-     <a href="#area1">ボトックス注射</a>
-  <a href="#area2">ヒアルロン酸</a>
-<a href="#area3">SUNEKOS(スネコス)</a>
-</div>
+  <nav><ul class="ancor-box">
+     <li><a href="#area1">ボトックス注射</a></li>
+     <li><a href="#area2">ヒアルロン酸</a></li>
+     <li><a href="#area3">SUNEKOS(スネコス)</a></li>
+</ul></nav>
 </section>
 <section class="ope-intro bg-cp" id="area1">
   <div class="inner flex al-cent">
@@ -32,13 +33,13 @@
   </div>
 </section>
 <section class="features layout1">
-  <div class="inner-box2">
-    <h2 class="cp gosic tc ls1">ボトックス注射の特徴</h2>
+  <div class="inner-box2 hx">
+    <h3 class="cp gosic tc ls1">ボトックス注射の特徴</h3>
     <div class="box">
       <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/point01.jpg" alt="ポイントエリアサムネイル"></div>
       <div class="desc box-size bg-grade">
         <div class="points f-ryu cw">Point.1</div>
-        <h3 class="gd ls1">目尻のシワ改善</h3>
+        <h4 class="gd ls1">目尻のシワ改善</h4>
         <p class="gosic">目尻のシワを目立たなくして、シワを気にせずに笑えるような、ハリのある目元に仕上げます。</p>
       </div>
     </div>
@@ -46,7 +47,7 @@
       <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/point02.jpg" alt="ポイントエリアサムネイル"></div>
       <div class="desc box-size bg-grade">
         <div class="points f-ryu cw">Point.2</div>
-        <h3 class="gd ls1">眉間のシワ</h3>
+        <h4 class="gd ls1">眉間のシワ</h4>
         <p class="gosic">眉間のシワを改善して、ハリのある眉間に仕上げます。シワが、深くなるのも予防できます。</p>
       </div>
     </div>
@@ -54,7 +55,7 @@
       <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/point03.jpg" alt="ポイントエリアサムネイル"></div>
       <div class="desc box-size bg-grade">
         <div class="points f-ryu cw">Point.3</div>
-        <h3 class="gd ls1">額のシワ</h3>
+        <h4 class="gd ls1">額のシワ</h4>
         <p class="gosic">生まれつきあるシワも、加齢によって発生したシワにも効果的で、自然な仕上がりで改善することが可能です。</p>
       </div>
     </div>
@@ -123,83 +124,90 @@
 </section>-->
 <section class="price native__mt" id="btx__price">
   <div class="inner-box2">
-    <h2 class="tc ls1">ボトックス（顔）注入料金</h2>
+    <h3 class="tc ls1 hx3">ボトックス（顔）注入料金</h3>
    <p class="p-desc gosic tc mb60 pc">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。<br>ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
     <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
     <div class="price-list gosic">
-      <dl class="flex">
-        <dt class="fw600">スタンダード部位<br class="pc">
+    <table>
+<tr class="flex">
+<th class="fw600 left">スタンダード部位<br class="pc">
           目尻、眉間、額、あご、鼻(バニーライン)<br class="pc">
-          (1ヶ月以内の追加・調整無料、針代無料、再診料無料)<span class="sm">※アラガン社ボトックスビスタ使用</span></dt>
-        <dd class="f-bold">税別</dd>
-      </dl>
-      <dl class="flex">
-        <dt>1部位</dt>
-        <dd>¥25,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>2部位</dt>
-        <dd>¥40,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>3部位</dt>
-        <dd>¥50,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>4部位</dt>
-        <dd>¥60,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>5部位</dt>
-        <dd>¥70,000</dd>
-      </dl>
-    </div>
-    <div class="price-list gosic">
-      <dl class="flex">
-        <dt class="fw600">アディショナル部位<br class="pc">
+          (1ヶ月以内の追加・調整無料、針代無料、再診料無料)<span class="sm">※アラガン社ボトックスビスタ使用</span></th>
+<th class="f-bold">税別</th>
+</tr>
+<tr class="flex">
+<td>1部位</td>
+<td>¥25,000</td>
+</tr>
+<tr class="flex">
+<td>2部位</td>
+<td>¥40,000</td>
+</tr>
+<tr class="flex">
+<td>3部位</td>
+<td>¥50,000</td>
+</tr>
+<tr class="flex">
+<td>4部位</td>
+<td>¥60,000</td>
+</tr>
+<tr class="flex">
+<td>5部位</td>
+<td>¥70,000</td>
+</tr>
+</table>
+</div>
+<div class="price-list gosic">
+    <table>
+<tr class="flex">
+<th class="fw600 left left">アディショナル部位<br class="pc">
           口角、目頭、口唇(口すぼめ時のしわ) 、眉下(ブローリフト)、<br class="pc">
-          アーモンドアイ(たれ目)<span class="sm">※アラガン社ボトックスビスタ使用</span></dt>
-        <dd class="f-bold">税別</dd>
-      </dl>
-      <dl class="flex">
-        <dt> スタンダード部位に追加１部位</dt>
-        <dd>¥10,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>アディショナル部位のみ１部位</dt>
-        <dd>¥20,000</dd>
-      </dl>
-    </div>
-     <div class="price-list gosic">
-      <dl class="flex">
-        <dt class="fw600">その他の部位<span class="sm">※アラガン社ボトックスビスタ使用</span></dt>
-        <dd class="f-bold">税別</dd>
-      </dl>
-
-      <dl class="flex">
-        <dt>エラボトックス</dt>
-        <dd>¥50,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>首(ネフェルティティリフト)</dt>
-        <dd>¥65,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>マイクロボトックス(額＆眉間)</dt>
-        <dd>¥50,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>マイクロボトックス(鼻＆鼻横の頬)</dt>
-        <dd>¥50,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>わき汗</dt>
-        <dd>¥65,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>ガミースマイル</dt>
-        <dd>¥30,000</dd>
-      </dl>
+          アーモンドアイ(たれ目)<span class="sm">※アラガン社ボトックスビスタ使用</span></th>
+<th class="f-bold">税別</th>
+</tr>
+<tr class="flex">
+<td>スタンダード部位に追加１部位</td>
+<td>¥10,000</td>
+</tr>
+<tr class="flex">
+<td>アディショナル部位のみ１部位</td>
+<td>¥20,000</td>
+</tr>
+</table>
+</div>
+<div class="price-list gosic">
+    <table>
+<tr class="flex">
+<th class="fw600 left">その他の部位<span class="sm">※アラガン社ボトックスビスタ使用</span></th>
+<th class="f-bold">税別</th>
+</tr>
+<tr class="flex">
+<td>エラボトックス</td>
+<td>¥50,000</td>
+</tr>
+<tr class="flex">
+<td>首(ネフェルティティリフト)</td>
+<td>¥65,000</td>
+</tr>
+<tr class="flex">
+<td>マイクロボトックス(額＆眉間)</td>
+<td>¥50,000</td>
+</tr>
+<tr class="flex">
+<td>マイクロボトックス(鼻＆鼻横の頬)</td>
+<td>¥50,000</td>
+</tr>
+<tr class="flex">
+<td>わき汗</td>
+<td>¥65,000</td>
+</tr>
+<tr class="flex">
+<td>ガミースマイル</td>
+<td>¥30,000</td>
+</tr>
+</table>
+</div>
+    
        <!--    <dl class="flex">
         <dt>肩こり両側</dt>
         <dd>¥74,800</dd>
@@ -214,11 +222,9 @@
         <dd>¥268,000</dd>
       </dl> -->
 
-    </div>
-
      <!-- <div class="price-list gosic">
       <dl class="flex">
-        <dt class="fw600">ボツリヌス・トキシン <span class="sm">(リジェノックスの場合)</span></dt>
+        <dt class="fw600 left">ボツリヌス・トキシン <span class="sm">(リジェノックスの場合)</span></dt>
         <dd class="f-bold">税別</dd>
       </dl>
 
@@ -231,93 +237,95 @@
         <dd>¥72,600</dd>
       </dl>
     </div> -->
-
-    <h2 class="tc ls1">ボトックス（身体）注入料金</h2>
-
+    <h3 class="tc ls1 hx3">ボトックス（身体）注入料金</h3>
     <div class="price-list gosic">
-      <dl class="flex">
-        <dt class="fw600">制汗ボトックス</dt>
-        <dd class="f-bold">税別</dd>
-      </dl>
+    <table>
+<tr class="flex">
+<th class="fw600 left">制汗ボトックス</th>
+<th class="f-bold">税別</th>
+</tr>
+<tr class="flex">
+<td>わき汗</td>
+<td>¥65,000</td>
+</tr>
+<tr class="flex">
+<td>手あせ（両手）</td>
+<td>¥68,000</td>
+</tr>
+<tr class="flex">
+<td>足うら汗（両足）</td>
+<td>¥88,000</td>
+</tr>
+<tr class="flex">
+<td>額の汗</td>
+<td>¥48,000</td>
+</tr>
+<tr class="flex">
+<td>頭の汗</td>
+<td>¥68,000</td>
+</tr>
+</table>
+</div>
 
-      <dl class="flex">
-        <dt>わき汗</dt>
-        <dd>¥65,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>手あせ（両手）</dt>
-        <dd>¥68,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>足うら汗（両足）</dt>
-        <dd>¥88,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>額の汗</dt>
-        <dd>¥48,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>頭の汗</dt>
-        <dd>¥68,000</dd>
-      </dl>
-    </div>
     <!-- ./price-list -->
+    <div class="price-list gosic">
+    <table>
+<tr class="flex">
+<th class="fw600 left">ボディボトックス<span class="sm">(アラガン社 ボトックスビスタの場合)</span></th>
+<th class="f-bold">税別</th>
+</tr>
+<tr class="flex">
+<td>肩こり</td>
+<td>¥64,800</td>
+</tr>
+<tr class="flex">
+<td>脚痩せ(ふくらはぎ) 小</td>
+<td>¥128,000</td>
+</tr>
+<tr class="flex">
+<td>脚痩せ(ふくらはぎ) 大</td>
+<td>¥190,000</td>
+</tr>
+<tr class="flex">
+<td>二の腕</td>
+<td>¥72,000</td>
+</tr>
+</table>
+</div>
 
-     <div class="price-list gosic">
-      <dl class="flex">
-        <dt class="fw600">ボディボトックス<span class="sm">(アラガン社 ボトックスビスタの場合)</span></dt>
-        <dd class="f-bold">税別</dd>
-      </dl>
-
-      <dl class="flex">
-        <dt>肩こり</dt>
-        <dd>¥64,800</dd>
-      </dl>
-      <dl class="flex">
-        <dt>脚痩せ(ふくらはぎ) 小</dt>
-        <dd>¥128,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>脚痩せ(ふくらはぎ) 大</dt>
-        <dd>¥190,000</dd>
-      </dl>
-       <dl class="flex">
-        <dt>二の腕</dt>
-        <dd>¥72,000</dd>
-      </dl>
-    </div>
       <!-- ./price-list -->
+      <div class="price-list gosic">
+    <table>
+<tr class="flex">
+<th class="fw600 left">ボディボトックス<span class="sm">(リジェノックスの場合)</span></th>
+<th class="f-bold">税別</th>
+</tr>
+<tr class="flex">
+<td>肩こり</td>
+<td>¥48,600</td>
+</tr>
+<tr class="flex">
+<td>脚痩せ(ふくらはぎ) 小</td>
+<td>¥96,000</td>
+</tr>
+<tr class="flex">
+<td>脚痩せ(ふくらはぎ) 大</td>
+<td>¥142,500</td>
+</tr>
+<tr class="flex">
+<td>二の腕</td>
+<td>¥54,000</td>
+</tr>
+</table>
+</div>
 
-     <div class="price-list gosic">
-      <dl class="flex">
-        <dt class="fw600">ボディボトックス<span class="sm">(リジェノックスの場合)</span></dt>
-        <dd class="f-bold">税別</dd>
-      </dl>
-
-        <dl class="flex">
-        <dt>肩こり</dt>
-        <dd>¥48,600</dd>
-      </dl>
-      <dl class="flex">
-        <dt>脚痩せ(ふくらはぎ) 小</dt>
-        <dd>¥96,000</dd>
-      </dl>
-      <dl class="flex">
-        <dt>脚痩せ(ふくらはぎ) 大</dt>
-        <dd>¥142,500</dd>
-      </dl>
-       <dl class="flex">
-        <dt>二の腕</dt>
-        <dd>¥54,000</dd>
-      </dl>
-    </div>
       <!-- ./price-list -->
 
   </div>
 </section>
 <section class="ope-faq">
   <div class="inner">
-    <h2 class="tc ls1">よくある質問</h2>
+    <h3 class="tc ls1 hx3">よくある質問</h3>
     <?php
     $args = array(
       'post_type' => 'faq',
@@ -359,14 +367,14 @@
   </div>
 </section>
 <section class="features layout1">
-  <div class="inner-box2">
-    <h2 class="cp gosic tc ls1">ヒアルロン酸の特徴</h2>
+  <div class="inner-box2 hx">
+    <h3 class="cp gosic tc ls1">ヒアルロン酸の特徴</h3>
       <div class="box">
       <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/tarumi/point04.jpg" alt="ポイントエリアサムネイル"></div>
       <div class="desc box-size bg-grade">
         <div class="points f-ryu cw">Point.1</div>
-        <h3 class="gd ls1">リフトアップして<br>
-          しわを改善</h3>
+        <h4 class="gd ls1">リフトアップして<br>
+          しわを改善</h4>
         <p class="gosic">お顔のたるみを直して、リフトアップと同時にしわも改善します。</p>
       </div>
     </div>
@@ -374,7 +382,7 @@
       <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/point05.jpg" alt="ポイントエリアサムネイル"></div>
       <div class="desc box-size bg-grade">
         <div class="points f-ryu cw">Point.2</div>
-        <h3 class="gd ls1">自然な仕上がり</h3>
+        <h4 class="gd ls1">自然な仕上がり</h4>
         <p class="gosic">いかにも、ヒアルロンを注入したような不自然なバランスになることはなく、患者様お一人お一人のお顔にあった自然な仕上がりを目指しています。</p>
       </div>
     </div>
@@ -382,8 +390,8 @@
       <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/siwa/point04.jpg" alt="ポイントエリアサムネイル"></div>
       <div class="desc box-size bg-grade">
         <div class="points f-ryu cw">Point.1</div>
-        <h3 class="gd ls1">顔全体のバランスを<br>
-          整える</h3>
+        <h4 class="gd ls1">顔全体のバランスを<br>
+          整える</h4>
         <p class="gosic">気になる部位にヒアルロン酸を注入して、お顔全体を黄金バランスにより近づくようにします。</p>
       </div>
     </div>
@@ -393,7 +401,7 @@
 <?php if (have_rows('ope_siwa_hel', 155)): ?>
 <section class="case">
   <div class="inner">
-    <h2 class="tc">症例</h2>
+    <h3 class="tc hx3">症例</h3>
     <div class="case-wrap flex">
       <?php while (have_rows('ope_siwa_hel', 155)) : the_row(); ?>
       <div class="case-box flex">
@@ -422,57 +430,66 @@
 <?php endif; ?>
 <section class="price">
 <div class="inner-box2">
-<h2 class="tc ls1">ヒアルロン酸注入料金</h2>
+<h3 class="tc ls1 hx3">ヒアルロン酸注入料金</h3>
 <p class="p-desc gosic tc mb60 pc">当院では厚生省の承認を取得したジュビダームボリューマ、ジュビダームボリフト、ジュビダームボルベラを特におすすめしています。<br>
   ジュビダームビスタ認定医の院長が全てのヒアルロン酸治療を行います。</p>
 <p class="p-desc gosic tc mb60 sp">当院では厚生省の承認を取得したジュビダームボリューマ、ジュビダームボリフト、ジュビダームボルベラを特におすすめしています。ジュビダームビスタ認定医の院長が全てのヒアルロン酸治療を行います。</p>
 <div class="price-list gosic">
-  <dl class="flex">
-    <dt class="fw600">ボリューマ、ボリフト</dt>
-    <dd class="f-bold">税別</dd>
-  </dl>
-  <dl class="flex">
-    <dt>0.1cc</dt>
-    <dd>¥10,000</dd>
-  </dl>
-  <dl class="flex">
-    <dt>1本</dt>
-    <dd>¥80,000</dd>
-  </dl>
+    <table>
+<tr class="flex">
+<th class="fw600 left">ボリューマ、ボリフト</th>
+<th class="f-bold">税別</th>
+</tr>
+<tr class="flex">
+<td>0.1cc</td>
+<td>¥10,000</td>
+</tr>
+<tr class="flex">
+<td>1本</td>
+<td>¥80,000</td>
+</tr>
+<tr class="flex">
+<td>4本目以降</td>
+<td>1本あたりプラス¥60,000</td>
+</tr>
+</table>
+</div>
+
+<div class="price-list gosic">
+    <table>
+<tr class="flex">
+<th class="fw600 left">ボルベラ</th>
+<th class="f-bold">税別</th>
+</tr>
+<tr class="flex">
+<td>0.1cc</td>
+<td>¥10,000</td>
+</tr>
+</table>
+</div>
+
  <!--  <dl class="flex">
     <dt>2本</dt>
     <dd>¥180,000</dd>
   </dl> -->
-  <dl class="flex">
-    <dt>&nbsp;</dt>
-    <dd>4本目以降 1本あたりプラス¥60,000</dd>
-  </dl>
-</div>
-<div class="price-list gosic">
-  <dl class="flex">
-    <dt class="fw600">ボルベラ</dt>
-    <dd class="f-bold">税別</dd>
-  </dl>
-  <dl class="flex">
-    <dt>0.1cc</dt>
-    <dd>¥10,000</dd>
-  </dl>
-</div>
-<div class="price-list gosic mb45">
-<dl class="flex">
-  <dt class="fw600">クレビエルコントア(あご形成)</dt>
-  <dd class="f-bold">税別</dd>
-</dl>
-<dl class="flex">
-<dt>0.1cc</dt>
-<dd>¥10,000</dd>
+  <div class="price-list gosic">
+    <table>
+<tr class="flex">
+<th class="fw600 left">クレビエルコントア(あご形成)</th>
+<th class="f-bold">税別</th>
+</tr>
+<tr class="flex">
+<td>0.1cc</td>
+<td>¥10,000</td>
+</tr>
+</table>
 </div>
 <p class="note gosic">＊カニューレを使用する場合は別途＋¥1,250(税別)</p>
 </div>
 </section>
 <section class="ope-faq">
   <div class="inner">
-    <h2 class="tc ls1">よくある質問</h2>
+    <h3 class="tc ls1 hx3">よくある質問</h3>
     <?php
     $args = array(
       'post_type' => 'faq',
@@ -514,7 +531,7 @@
   </div>
 </section>
 <section class="ope__pr">
-<div class="inner-box2">
+<div class="inner-box2 hx">
     <div class="ope__pr__box box-size gosic">
       <div class="pr__top__content flex">
 
@@ -524,7 +541,7 @@
 
 
         <div class="pr__point">
-            <h2 class="cp">SUNEKOS(スネコス)の特徴</h2>
+            <h3 class="cp">SUNEKOS(スネコス)の特徴</h3>
             <ul class="min">
               <li>しわの改善(目元や口元のちりめんじわ・小じわの改善、ほうれい線などの深いしわの改善)</li>
               <li>肌つやの改善</li>
@@ -548,27 +565,30 @@
 </section>
 <section class="price">
   <div class="inner-box2">
-    <h2 class="tc ls1">料金表</h2>
+    <h3 class="tc ls1 hx3">料金表</h3>
     <div class="price-list gosic">
-      <dl class="flex">
-        <dt class="fw600">SUNEKOS(スネコス)</dt>
-        <dd class="f-bold">税別</dd>
-      </dl>
-     <dl class="flex">
-        <dt>1回</dt>
-        <dd>¥50,000</dd>
-        </dl>
-        <dl class="flex">
-        <dt>1回 ※2回目以降1ヶ月以内の場合</dt>
-        <dd>¥45,000</dd>
-        </dl>
-    </div>
+    <table>
+<tr class="flex">
+<th class="fw600 left left">SUNEKOS(スネコス)</th>
+<th class="f-bold">税別</th>
+</tr>
+<tr class="flex">
+<td>1回</td>
+<td>¥50,000</td>
+</tr>
+<tr class="flex">
+<td>1回 ※2回目以降1ヶ月以内の場合</td>
+<td>¥45,000</td>
+</tr>
+</table>
+</div>
+    
   </div>
 </section>
 <section class="flow">
   <div class="inner">
     <h2 class="tc ls1">施術の流れ</h2>
-    <ul>
+    <ol>
       <li class="box-size flex">
         <div class="left">
           <div class="top">
@@ -615,7 +635,50 @@
         </div>
         <div class="thumb pc"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/common/flow03_1.jpg" alt="施術終了"></div>
       </li>
-    </ul>
+    </ol>
   </div>
 </section>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "ヒアルロン酸：ヒアルロン酸はどのくらいの量が必要ですか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "リフトアップやお顔のバランス改善ではある程度の量を注入したほうが効果を実感していただけます。年齢やたるみの程度にもよりますが３㏄以上がおすすめです。リップや涙袋、あごなどのパーツ治療では少量（1㏄以内）で治療する場合もあります。"
+        }
+      }, {
+        "@type": "Question",
+        "name": "ヒアルロン酸：持続期間はどのくらいですか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "長期持続型のバイクロス製剤の高品質ヒアルロン酸をおすすめしています。注入部位にもよりますが、1年半～2年程で吸収されてなくなります。"
+        }
+      }, {
+        "@type": "Question",
+        "name": "ヒアルロン酸：顔のしわ全てに有効ですか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ほうれい線やマリオネットラインなどたるみが原因のしわには効果的です。眉間のしわや目じりの笑いジワなどの表情じわにはボトックス治療、小じわやちりめんジワにはダーマペン４やマッサージピール、メディカルエステなどがおすすめです。"
+        }
+      }, {
+        "@type": "Question",
+        "name": "ヒアルロン酸：ヒアルロン酸注射の痛みはどれくらいですか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "麻酔クリームを塗っていただいてから細い針やカニューレなどを使用して施術を行いますので、我慢できる程度の痛みです。痛みの軽減に最大限配慮してますので、ご不安がある方はご相談ください。"
+        }
+      }, {
+        "@type": "Question",
+        "name": "ボトックス注射：ボトックス注射の痛みはどれくらいですか？        ",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "冷却しながら細い針で注射しますが施術中はチクチクっと多少の痛みがあります。特殊な極細の針を使用しますし、ご希望の方には麻酔クリームを塗っていただいてからの施術も可能ですので、ご心配な方は相談してください。"
+        }
+      }]
+    }
+    </script>
+  </main>
 <?php get_footer();?>

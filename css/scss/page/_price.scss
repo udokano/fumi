@@ -42,16 +42,15 @@ $bg_btx: #fedcf9;
         }
 
         &::after {
-            /*  position: absolute;
-             content: "";
-             left: 50%;
-             bottom: 10px;
-             transform: translateX(-50%) rotate(45deg);
-             width: 10px;
-             height: 10px;
-             border-right: 1px solid #cdcdcd;
-             border-bottom: 1px solid #cdcdcd; */
-            display: none;
+            position: absolute;
+            content: "";
+            left: 50%;
+            bottom: 10px;
+            transform: translateX(-50%) rotate(45deg);
+            width: 10px;
+            height: 10px;
+            border-right: 1px solid #cdcdcd;
+            border-bottom: 1px solid #cdcdcd;
         }
 
         &:hover {
@@ -93,32 +92,21 @@ $bg_btx: #fedcf9;
 
 .ancor-box--price {
     width: 96%;
-    max-width: 1080px;
+    max-width: 880px;
     margin: 0 auto 1.78rem;
-    text-align: center;
+    flex-wrap: wrap;
 
     .ancor-box--price__link {
-        display: inline-block;
-        width: 18%;
-        margin: 0 .88rem 1.45rem;
+        width: 22%;
+        margin: 0 0 1.45rem;
         position: relative;
-        line-height: 1;
-        padding: 0;
-        height: 61px;
-        line-height: 61px;
-        font-weight: 600;
-        color: #666666;
-        letter-spacing: .05em;
-        font-size: 1.08rem;
-        font-family: $gosic;
 
         @media (max-width: 767px) {
-            width: 42%;
-            height: 12vw;
-            line-height: 12vw;
-            font-size: 3.68vw;
+            width: 31%;
+            height: 5vw;
+            line-height: 7vw;
+            font-size: 2.98vw;
             font-feature-settings: 'palt' 1;
-            margin: 0 .44rem 1.05rem;
         }
 
         &--line02 {
@@ -133,8 +121,6 @@ $bg_btx: #fedcf9;
         }
 
         &::after {
-            display: none;
-
             @media (max-width: 767px) {
                 width: 7px;
                 height: 7px;
@@ -143,144 +129,33 @@ $bg_btx: #fedcf9;
     }
 }
 
-$color-hel: #cfa8dc;
-
-$color-lift: #efef32;
-
-$color-keisei: #abe6cb;
-
-$color-medi: #fab2c0;
-
-$color-naika: #aeebeb;
-
-$color-home: #f9cea7;
-
-$color-hifu: #7695d7;
-
-.--color-hel {
-    border-color: $color-hel !important;
-    color: $color-hel !important;
-
-    &:hover {
-        background-color: $color-hel !important;
-        color: #fff !important;
-    }
-}
-
-.--color-lift {
-    border-color: $color-lift !important;
-    color: $color-lift !important;
-
-    &:hover {
-        background-color: $color-lift !important;
-        color: #fff !important;
-    }
-}
-
-.--color-keisei {
-    border-color: $color-keisei !important;
-    color: $color-keisei !important;
-
-    &:hover {
-        background-color: $color-keisei !important;
-        color: #fff !important;
-    }
-}
-
-.--color-medi {
-    border-color: $color-medi !important;
-    color: $color-medi !important;
-
-    &:hover {
-        background-color: $color-medi !important;
-        color: #fff !important;
-    }
-}
-
-.--color-naika {
-    border-color: $color-naika !important;
-    color: $color-naika !important;
-
-    &:hover {
-        background-color: $color-naika !important;
-        color: #fff !important;
-    }
-}
-
-.--color-home {
-    border-color: $color-home !important;
-    color: $color-home !important;
-
-    &:hover {
-        background-color: $color-home !important;
-        color: #fff !important;
-    }
-}
-
-.--color-hifu {
-    border-color: $color-hifu !important;
-    color: $color-hifu !important;
-
-    &:hover {
-        background-color: $color-hifu !important;
-        color: #fff !important;
-    }
-}
-
 .price-ope-ttl {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     margin-top: 3.2rem;
     border: 1px solid;
     padding: .98rem 0;
     font-weight: 600;
-
-    //color: #666;
-    color: #fff;
+    color: #666;
     margin-bottom: 3.4rem;
-    transform: scale(1.2);
-
-    @media (max-width: 767px) {
-        transform: scale(1.035);
-    }
 
     &--hel {
         border-color: #cfa8dc;
-        background-color: #cfa8dc;
     }
 
     &--btx {
         border-color: #fab2c0;
-        background-color: #fab2c0;
     }
 
     &--md {
         border-color: #bbcff5;
-        background-color: #bbcff5;
-    }
-
-    &--lift {
-        border-color: #f7f795;
-        background-color: #f7f795;
-    }
-
-    &--nose {
-        border-color: #abe6cb;
-        background-color: #abe6cb;
     }
 
     &--sapuli {
-        border-color: #ffc992;
-        background-color: #ffc992;
+        border-color: #ead7bd;
     }
 
     &--tenteki {
         border-color: #aeebeb;
-        background-color: #aeebeb;
-    }
-
-    &--hifu {
-        border-color: #7695d7;
-        background-color: #7695d7;
     }
 }
 
@@ -308,62 +183,15 @@ $color-hifu: #7695d7;
 
 .price-table-ttl {
     text-align: center;
-    font-size: 1.75rem;
+    font-size: 1.55rem;
     margin-bottom: 1.78rem;
 
     &__sub {
         display: block;
         text-align: center;
-
-        //font-size: 1.09rem;
-        font-size: .955rem;
-        font-weight: normal;
-
-        //text-decoration: underline;
-        font-feature-settings: 'palt' 1;
-        font-weight: 600;
-
-        @media (max-width: 767px) {
-            font-size: .99rem;
-            text-align: right;
-        }
-
-        &--sp-tc {
-            @media (max-width: 767px) {
-                text-align: center;
-            }
-        }
-    }
-
-    &__sub-sub-ttl {
-        /*  width: 80%;
-         max-width: 400px; */
-        font-size: 1.123rem;
-        text-align: center;
-        margin: 0 auto;
-
-        //display: block;
-        display: inline-block;
-        text-decoration: underline;
-
-        //border-bottom: 1px solid #454545;
-        font-feature-settings: 'palt' 1;
-        font-weight: 600;
-        margin-bottom: .4rem;
-
-        &--bottom {
-            text-align: right;
-            display: block;
-            font-size: .8rem;
-            text-decoration: none !important;
-            color: #b5b5b5;
-        }
+        font-size: 1.09rem;
     }
 }
-
-/* .price {
-    margin-bottom: 0;
-} */
 
 .price-table {
     width: 100%;
@@ -372,57 +200,42 @@ $color-hifu: #7695d7;
     &__tr {}
 
     &__th, &__td {
-        padding: 1.24rem 1.25rem;
+        padding: 1.24rem 0;
         vertical-align: middle;
-        text-align: left;
+        text-align: center;
         font-size: 1.12rem;
         color: #454545;
         border: 1px solid #fff;
-        font-feature-settings: 'palt' 1;
 
         @media (max-width: 767px) {
             font-size: 2.9vw;
-            padding: 3.48vw 3.1vw;
+            padding: 1.28rem .55rem;
         }
     }
 
     &__th {
-        width: 50%;
+        width: 41%;
         border: 1px solid #dbdbdb;
         border-right: none !important;
 
         @media (max-width: 767px) {
-            width: 60%;
+            width: 50%;
         }
     }
 
     &__td {
-        width: 50%;
+        width: 59%;
         border: 1px solid #dbdbdb;
         border-left: none;
-        text-align: right;
 
         @media (max-width: 767px) {
-            width: 40%;
-            font-size: 3.2vw;
+            width: 50%;
+            font-size: 3.8vw;
             font-weight: 600;
-            text-align: center;
         }
 
         &--col02 {
             border-left: 1px solid #dbdbdb;
-            text-align: center;
-        }
-
-        &--top {
-            font-size: 1.54rem;
-            font-weight: 600;
-        }
-
-        &--fz-small {
-            @media (max-width: 767px) {
-                font-size: 2.8vw;
-            }
         }
     }
 
@@ -451,22 +264,6 @@ $color-hifu: #7695d7;
         }
     }
 
-    &--sp-short {
-        tr {
-            th {
-                @media (max-width: 767px) {
-                    width: 30%;
-                }
-            }
-
-            td {
-                @media (max-width: 767px) {
-                    width: 70%;
-                }
-            }
-        }
-    }
-
     //各施術の背景色
 
     /* ヒアルロン酸 */
@@ -479,10 +276,6 @@ $color-hifu: #7695d7;
                 //border-top: 1px solid $bg_hel;
            
             }
-
-            .tb-ttl-color-hel {
-                color: #cfa8dc;
-            }
         }
     }
 
@@ -490,11 +283,7 @@ $color-hifu: #7695d7;
     &--btx {
         tr {
             th {
-                background-color: #ffe2e4;
-            }
-
-            .tb-ttl-color-md {
-                color: #fab2c0;
+                background-color: #fff2f2;
             }
         }
     }
@@ -504,11 +293,7 @@ $color-hifu: #7695d7;
     &--lift {
         tr {
             th {
-                background-color: #ffffcd;
-            }
-
-            .tb-ttl-color-lift {
-                color: #efef40;
+                background-color: #fffaf3;
             }
         }
     }
@@ -517,10 +302,6 @@ $color-hifu: #7695d7;
         tr {
             th {
                 background-color: #f0fff8;
-            }
-
-            .tb-ttl-color-keisei {
-                color: #abe6cb;
             }
         }
     }
@@ -538,10 +319,6 @@ $color-hifu: #7695d7;
             th {
                 background-color: #eefefe;
             }
-
-            .tb-ttl-color-tenteki {
-                color: #aeebeb;
-            }
         }
     }
 
@@ -556,11 +333,7 @@ $color-hifu: #7695d7;
     &--sosume {
         tr {
             th {
-                background-color: #ffe1cf;
-            }
-
-            .tb-ttl-color-sosume {
-                color: #fabd83;
+                background-color: #fcf7f0;
             }
         }
     }
@@ -569,18 +342,6 @@ $color-hifu: #7695d7;
         tr {
             th {
                 background-color: #f9f9f9;
-            }
-        }
-    }
-
-    &--hifu {
-        tr {
-            th {
-                background-color: #d5e2ff;
-            }
-
-            .tb-ttl-color-hifu {
-                color: #507dde;
             }
         }
     }
@@ -605,19 +366,12 @@ $color-hifu: #7695d7;
         &__thead {}
 
         &__head-th {
-            //background-color: #fab2c0 !important;
-            background-color: transparent !important;
-
-            //color: #fff;
-
-            //border: 1px solid #dbdbdb;
-            border-left: 1px solid #dbdbdb;
-            border-right: 1px solid #dbdbdb;
+            background-color: #fab2c0 !important;
+            color: #fff;
+            border: 1px solid #dbdbdb;
             padding: 1.24rem 0;
-
-            //font-size: 1.2rem;
-
-            //font-weight: 600;
+            font-size: 1.2rem;
+            font-weight: 600;
             vertical-align: middle;
 
             @media (max-width: 767px) {
@@ -625,47 +379,6 @@ $color-hifu: #7695d7;
                 padding: 1.3rem .5rem;
             }
         }
-
-        &__th--hifu {
-            //width: 35%;
-
-            @media (max-width: 767px) {
-                width: 30%;
-            }
-        }
-
-        &__th--hifu-left {
-            //width: 30%;
-
-            @media (max-width: 767px) {
-                width: 25%;
-            }
-        }
-
-        &__th--hifu-right {
-         /*   width: 20%;
-*/
-            @media (max-width: 767px) {
-                width: 30%;
-            }
-        }
-    }
-}
-
-.table-width-auto {
-    width: auto;
-}
-
-.table-text-center {
-    text-align: center !important;
-    padding-left: .35rem;
-    padding-right: .35rem;
-    background-color: #ebf1fe;
-
-    @media (max-width: 767px) {
-        padding-left: .32rem;
-        padding-right: .32rem;
-        font-size: .94rem;
     }
 }
 

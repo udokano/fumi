@@ -30,7 +30,7 @@
           <nav class="navi pc-dis">
             <ul>
               <li><a href="<?php echo home_url('/'); ?>concept">当院について</a></li>
-              <li class="navi-parent"><a>施術・料金</a>
+              <li class="navi-parent"><p>施術・料金</p>
                 <ul class="nav-child bg__sub__menu">
                     <li class="nav-price"><a href="<?php echo home_url('/'); ?>price">料金一覧</a></li>
                     <li><a href="<?php echo home_url('/'); ?>tarumi" class="c_gray">たるみ治療</a></li>
@@ -67,6 +67,7 @@
         <!-- ./top-cv-btn -->
     </div>
   </header>
+  <main>
   <div class="fv" id="fv-slide">
     <div class="fv__items">
       <div class="logos"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_logo_re.png?02054" alt="FMUI BEAUTY CLINIC"> </div>
@@ -79,7 +80,7 @@
           <div class="slide01__texts">
             <div class="band cp tc ls2">注入＆スレッド治療専門クリニック</div>
             <!--band END-->
-            <h1> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv2_cach_re.png?0204" alt="洗練された美容技術であなたの美しさを引き出します。" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_cach_sp_re.png?0304" alt="洗練された美容技術であなたの美しさを引き出します" class="sp"> </h1>
+            <div> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv2_cach_re.png?0204" alt="洗練された美容技術であなたの美しさを引き出します。" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_cach_sp_re.png?0304" alt="洗練された美容技術であなたの美しさを引き出します" class="sp"> </div>
           </div>
         </div>
 
@@ -156,7 +157,12 @@
 
   </div>
   <!--top__menu__area END-->
-
+  <section class="box-size mb0 area-bgs">
+    <div class="inner cf ttlTxt">
+    <h1 class="cach gd c_gray tc title">シワ・たるみの治療は<span class="sp_br">ふみビューティークリニック梅田</span><span class="sm c__l_gold ttlSpan">fumi beauty clinic</span></h1>
+		<p>大阪市北区梅田にある美容皮膚科・形成外科のふみビューティクリニック梅田です。<span class="br">皆さんのもつ本来の美しさを引き出すためにヒアルロン酸・ボトックス注射でタルミ、シワ治療を中心とした施術をご提供しております。</span></p>
+    </div>
+  </section>
   <section class="doctor box-size mb0 area-bgs" id="bg4">
     <div class="inner cf">
       <div class="text">
@@ -373,23 +379,24 @@
             $the_query = new WP_Query($args);
             while ($the_query->have_posts()): $the_query->the_post();
             ?>
-            <div class="qas gd box-size swiper-slide c_gray bc__gray">
-              <h3 class="cat cw tc bg__gray">
+            <dl class="qas gd box-size swiper-slide c_gray bc__gray">
+              <dt class="cat cw tc bg__gray">
                 <?php //所属タクソノミー表示
                 $terms = wp_get_object_terms($post->ID, 'faq_kind');
                 foreach ($terms as $term) {
                     echo $term->name;
                 }
                 ?>
-              </h3>
-              <p class="qa-txt qa-tit pb0"><span class="q">Q</span>
+              </dt>
+              <dd>
+                <dl><dt class="qa-txt qa-tit pb0"><span class="q">Q</span>
                 <?php the_title(); ?>
-              </p>
-              <div class="qa-txt qa-answer text-over pb0"><span class="a">A</span>
+              </dt>
+              <dd class="qa-txt qa-answer text-over pb0"><span class="a">A</span>
                 <?php remove_filter('the_content', 'wpautop'); ?>
                 <?php the_content()?>
-              </div>
-            </div>
+              </dd></dl>
+              </dd></dl>
             <?php endwhile; wp_reset_postdata(); ?>
           </div>
           <div class="swiper-button-prev prev2"></div>
@@ -550,11 +557,11 @@
       </div>
     </div>
   </section>
-  <section class="map">
+  <div class="map">
     <div class="inner" id="map"></div>
-  </section>
+        </div>
   <!--MAP END-->
-
+        </main>
   <footer>
     <div class="inner flex">
       <nav class="navi pc-dis">
@@ -644,7 +651,9 @@
         /*=========ここまで追加=========*/
       }
 </script>
+
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBwr6DPo5X5S4CbkcKpSV5atpzNnKAifI&callback=initMap"></script>
 <?php wp_footer(); ?>
+
 </body>
 </html>

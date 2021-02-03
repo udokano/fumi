@@ -157,7 +157,6 @@
 .site-header {
     width: 100%;
     position: fixed;
-    top: 0;
     background-color: #fff;
     z-index: 9999;
 
@@ -425,24 +424,12 @@
 .top__menu__area {
     background: url("../img/top/bg05222.jpg") no-repeat 50% (50% / cover);
 
-    &--pb {
-        padding-bottom: 1.45rem;
-    }
-
     .cv-wrap, .menu-link {
         height: 223px;
     }
 
     .bottom {
         padding: 1.5rem 0;
-
-        &--re {
-            @media (min-width: 768px) {
-                width: 1200px;
-
-                //min-width: auto;
-            }
-        }
 
         .menu-link {
             width: 49%;
@@ -468,59 +455,6 @@
                     display: block;
                     font-size: .88rem;
                 } */
-            }
-
-            &--width {
-                width: 67.5%;
-                height: 242px;
-
-                @media screen and (min-width: 768px) and (max-width: 1520px) {
-                    //width: 46%;
-                }
-
-                @media (max-width: 767px) {
-                    padding-top: 0 !important;
-                }
-
-                li {
-                    height: 100%;
-
-                    @media (min-width: 768px) {
-                        //height: 250px;
-                        border-width: 2px;
-                    }
-
-                    @media screen and (min-width: 768px) and (max-width: 1520px) {
-                        //height: 223px;
-                    }
-
-                    a {
-                        img {
-                            height: 125px;
-
-                            /*  @media (min-width: 1521px) {
-                                 //height: 135px;
-                                 margin-bottom: 18px;
-                             } */
-
-                            @media screen and (min-width: 768px) {
-                                //height: 128px;
-                                margin-bottom: 19px;
-                            }
-                        }
-
-                        p {
-                            @media screen and (min-width: 768px) and (max-width: 1520px) {
-                                //font-size: 1.1vw;
-                            }
-
-                            @media (min-width: 768px) {
-                                font-size: 1.29rem;
-                                line-height: 1.24;
-                            }
-                        }
-                    }
-                }
             }
         }
     }
@@ -600,52 +534,6 @@
             .bg-icon {
                 background-image: url("../img/common/icon_mail02.png");
             }
-        }
-    }
-}
-
-.hifu-bnr {
-    width: 29.85%;
-
-    @media screen and (min-width: 768px) and (max-width: 1520px) {
-        // width: 602px;
-    }
-
-    @media (max-width: 767px) {
-        min-width: auto;
-        width: 97.2%;
-        margin: auto;
-    }
-}
-
-#cv-wrap {
-    margin: 0 auto;
-    width: 742px;
-
-    @media (max-width: 767px) {
-        width: 96%;
-        height: auto;
-    }
-
-    .top {
-        @media (min-width: 768px) {
-            .left {
-                font-size: 1.02rem;
-            }
-
-            .tel {
-                font-size: 2.32rem;
-            }
-
-            .time {
-                font-size: 1.02rem;
-            }
-        }
-    }
-
-    .cv-btns {
-        @media (min-width: 768px) {
-            width: 48%;
         }
     }
 }
@@ -786,58 +674,57 @@
                     }
                 }
             }
-        }
 
-        .cv-wrap {
-            width: 100%;
-            padding: 20px;
-            height: auto;
+            .cv-wrap {
+                width: 100%;
+                padding: 20px;
 
-            .top {
-                padding-top: 0;
-                padding-bottom: 0;
-                margin-bottom: 5px;
-                display: block;
-                text-align: center;
-
-                .left {
-                    margin-bottom: .6rem;
-                    font-size: 1.1rem;
-                }
-
-                .tel {
-                    width: 100%;
+                .top {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    margin-bottom: 5px;
+                    display: block;
                     text-align: center;
-                    margin-bottom: 1.1%;
 
-                    a {
-                        background-size: 28px;
-                        font-size: 2.57rem;
-                        padding-left: 52px;
-                        background-size: 40px;
+                    .left {
+                        margin-bottom: .6rem;
+                        font-size: 1.1rem;
+                    }
+
+                    .tel {
+                        width: 100%;
+                        text-align: center;
+                        margin-bottom: 1.1%;
+
+                        a {
+                            background-size: 28px;
+                            font-size: 2.57rem;
+                            padding-left: 52px;
+                            background-size: 40px;
+                        }
+                    }
+
+                    .time {
+                        width: 100%;
+                        font-size: .5rem;
+                        letter-spacing: 0;
+                        text-align: center;
                     }
                 }
 
-                .time {
-                    width: 100%;
-                    font-size: .5rem;
-                    letter-spacing: 0;
-                    text-align: center;
-                }
-            }
+                .cv-btns {
+                    width: 48.2%;
+                    padding: 15px 0;
 
-            .cv-btns {
-                width: 48.2%;
-                padding: 15px 0;
+                    span {
+                        font-size: .95rem;
+                        line-height: 1.22;
+                    }
 
-                span {
-                    font-size: .95rem;
-                    line-height: 1.22;
-                }
-
-                span.sm {
-                    font-size: 8px;
-                    letter-spacing: 0;
+                    span.sm {
+                        font-size: 8px;
+                        letter-spacing: 0;
+                    }
                 }
             }
         }
