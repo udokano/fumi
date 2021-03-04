@@ -82,50 +82,94 @@ Template Name: ドクターズコスメ・サプリメント
         <dt class="fw600">種類</dt>
         <dd class="f-bold">税別</dd>
       </dl>
+		
+<!--2021/2/18 変更↓-->
       <dl class="flex">
-        <dt>ハイドレーティングクレンザー</dt>
+        <dt>ハイドレーティングクレンザー　200㎖</dt>
         <dd>¥5,200</dd>
       </dl>
       <dl class="flex">
-        <dt>エクスフォリエーティングポリッシュ</dt>
+        <dt>ジェントルクレンザー　200㎖</dt>
+        <dd>￥5,200</dd>
+      </dl>
+      <dl class="flex">
+        <dt>エクスフォリエーティングクレンザー　200㎖</dt>
+        <dd>￥5,200</dd>
+      </dl>
+      <dl class="flex">
+        <dt>エクスフォリエーティングポリッシュ　65g</dt>
         <dd>¥7,600</dd>
       </dl>
       <dl class="flex">
-        <dt>バランサートナー</dt>
+        <dt>バランサートナー　180㎖</dt>
         <dd>¥6,000</dd>
       </dl>
       <dl class="flex">
-        <dt>デイリーPD</dt>
-        <dd>¥18,600</dd>
-      </dl>
-      <dl class="flex">
-        <dt>ミラミン	</dt>
+        <dt>ミラミン　80㎖</dt>
         <dd>¥12,000</dd>
       </dl>
       <dl class="flex">
-        <dt>シーセラム</dt>
+        <dt>ミラミックス　80㎖</dt>
+        <dd>¥11,600</dd>
+      </dl>
+      <dl class="flex">
+        <dt>デイリーPD　50㎖</dt>
+        <dd>¥18,600</dd>
+      </dl>
+      <dl class="flex">
+        <dt>RCクリーム　50㎖</dt>
+        <dd>￥13,200</dd>
+      </dl>	
+      <dl class="flex">
+        <dt>シーセラム　50㎖</dt>
         <dd>¥13,500</dd>
       </dl>
       <dl class="flex">
-        <dt>ミラミックス</dt>
-        <dd>¥11,600</dd>
+        <dt>ブライタライブ　50㎖</dt>
+        <dd>￥18,000</dd>
       </dl>
        <dl class="flex">
-        <dt>Wテクスチャーリペア</dt>
-        <dd>¥17,600</dd>
-      </dl>
-       <dl class="flex">
-        <dt>ファーミングセラム</dt>
+        <dt>ファーミングセラム　47㎖</dt>
         <dd>¥28,000</dd>
       </dl>
        <dl class="flex">
-        <dt>Gファクターセラム</dt>
+        <dt>Gファクターセラム　30㎖</dt>
         <dd>¥16,800</dd>
       </dl>
-       <dl class="flex">
-        <dt>サンスクリーンプラスプライマー</dt>
+      <dl class="flex">
+        <dt>Wテクスチャーリペア　50㎖</dt>
+        <dd>¥17,600</dd>
+      </dl>
+	  <dl class="flex">
+        <dt>スキンブライセラム0.25　50㎖</dt>
+        <dd>￥10,2000</dd>
+      </dl>
+	  <dl class="flex">
+        <dt>スキンブライセラム0.5　50㎖</dt>
+        <dd>￥11,400</dd>
+      </dl>
+	  <dl class="flex">
+        <dt>ARナイトリペア　60㎖</dt>
+        <dd>￥18,000</dd>
+      </dl>
+	  <dl class="flex">
+        <dt>ハイドラファーム　15㎖</dt>
+        <dd>￥16,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>サンスクリーンプラスプライマーSPF30　30㎖</dt>
         <dd>¥7,200</dd>
       </dl>
+      <dl class="flex">
+        <dt>BSサンスクリーンSPF50　118g</dt>
+        <dd>￥10,600</dd>
+      </dl>
+      <dl class="flex">
+        <dt>ボディエマルジョン　240㎖</dt>
+        <dd>￥13,200</dd>
+      </dl>
+<!--2021/2/18 変更↑-->	
+		
     </div>
     <p class="note tc">※メニューにない商品も受注発注が可能です。お気軽にお申し付けください。</p>
   </div>
@@ -310,6 +354,34 @@ Template Name: ドクターズコスメ・サプリメント
         <dt>アルベックス　30包</dt>
         <dd>￥8,000</dd>
       </dl>
+		
+<!--2021/2/18 追加↓-->
+      <dl class="flex">
+        <dt>Dr.パワーベジタブル＋KUWA</dt>
+        <dd>￥12,500</dd>
+      </dl>
+      <dl class="flex">
+        <dt>高濃度ビタミンC　3000㎎</dt>
+        <dd>￥4,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>高濃度ビタミンC 3000㎎＋ビタミンD4000IU</dt>
+        <dd>￥5,400</dd>
+      </dl>
+      <dl class="flex">
+        <dt>ビタミンC400</dt>
+        <dd>￥2,797</dd>
+      </dl>
+      <dl class="flex">
+        <dt>ビタミンD</dt>
+        <dd>￥1,500</dd>
+      </dl>
+      <dl class="flex">
+        <dt>アンチーOXY</dt>
+        <dd>￥5,000</dd>
+      </dl>
+<!--2021/2/18 追加↑-->
+		
     </div><!-- price-list END -->
   </div><!-- inner-box2 END -->
 </section>

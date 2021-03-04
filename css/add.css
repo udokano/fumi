@@ -1,0 +1,32 @@
+/*
+
+
+バナーを新規に設置したときに追加したスタイル
+----------------------------------------*/
+
+#cv-btm.cv-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#cv-btm.cv-bottom #cv-wrap {
+    width: 67.5%;
+    height: 242px;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    #cv-btm.cv-bottom {
+        flex-flow: column-reverse;
+        width: 96%;
+        margin: 0 auto 0;
+    }
+
+    #cv-btm.cv-bottom #cv-wrap {
+        width: 96%;
+        height: auto;
+        margin-top: 1.8rem;
+    }
+}

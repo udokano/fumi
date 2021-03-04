@@ -455,6 +455,25 @@
 </table>
 </div>
 
+<!--2021/2/18 追加↓-->
+<div class="price-list gosic">
+    <table>
+<tr class="flex">
+<th class="fw600 left">ボラックス</th>
+<th class="f-bold">税別</th>
+</tr>
+<tr class="flex">
+<td>0.1cc</td>
+<td>￥12,000</td>
+</tr>
+<tr class="flex">
+<td>1本</td>
+<td>￥96,000</td>
+</tr>
+</table>
+</div>
+<!--2021/2/18 追加↑-->
+	
 <div class="price-list gosic">
     <table>
 <tr class="flex">
@@ -472,6 +491,8 @@
     <dt>2本</dt>
     <dd>¥180,000</dd>
   </dl> -->
+	
+<!--2021/2/26　削除↓↓
   <div class="price-list gosic">
     <table>
 <tr class="flex">
@@ -484,6 +505,7 @@
 </tr>
 </table>
 </div>
+-->
 <p class="note gosic">＊カニューレを使用する場合は別途＋¥1,250(税別)</p>
 </div>
 </section>
@@ -582,6 +604,21 @@
 </tr>
 </table>
 </div>
+	  
+<!--2021/2/18 追加↓-->
+    <div class="price-list gosic">
+    <table>
+<tr class="flex">
+<th class="fw600 left left">SUNEKOS(スネコス)1200</th>
+<th class="f-bold">税別</th>
+</tr>
+<tr class="flex">
+<td>1本</td>
+<td>￥100,000</td>
+</tr>
+</table>
+</div>
+<!--2021/2/18 追加↑-->
     
   </div>
 </section>

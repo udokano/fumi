@@ -107,7 +107,7 @@
 
   <!--FV END-->
 
- <div class="top__menu__area top__menu__area--pb">
+  <div class="top__menu__area top__menu__area--pb">
     <div class="bottom bottom--re inner-box  flex al-cent">
       <ul class="menu-link menu-link--width flex">
         <li class="box-size"> <a href="<?php echo home_url('/'); ?>order_made" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb01_new.jpg" alt="サムネイル">

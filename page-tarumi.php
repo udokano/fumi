@@ -122,6 +122,25 @@ Template Name: たるみ治療
 </tr>
 </table>
 </div>
+	  
+<!--2021/2/18 追加↓ -->
+<div class="price-list gosic">
+    <table>
+<tr class="flex">
+<th class="fw600">ボラックス</th>
+<th class="f-bold">税別</th>
+</tr>
+<tr class="flex">
+<td>0.1cc</td>
+<td>￥12,000</td>
+</tr>
+<tr class="flex">
+<td>1本</td>
+<td>￥96,000</td>
+</tr>
+</table>
+</div>
+<!--2021/2/18 追加↑ -->
     
 <div class="price-list gosic">
     <table>
@@ -135,6 +154,7 @@ Template Name: たるみ治療
 </tr>
 </table>
 </div>
+<!--2021/2/26 削除↓↓
 <div class="price-list gosic mb45">
     <table>
 <tr class="flex">
@@ -147,6 +167,7 @@ Template Name: たるみ治療
 </tr>
 </table>
 </div>
+-->
     <p class="note gosic">＊カニューレを使用する場合は別途＋¥1,250(税別)</p>
   </div>
 </section>
@@ -287,6 +308,31 @@ Template Name: たるみ治療
 <section class="price">
   <div class="inner-box2">
     <h3 class="tc ls1 hx3">スレッドリフト料金</h3>
+	  
+<!--2021/2/18 追加↓ -->
+	    <!-- ./price-list -->
+        <div class="price-list gosic">
+    <table>
+<tr class="flex">
+<th class="fw600">オーダーメイドスレッドリフト</th>
+<th class="f-bold">税別</th>
+</tr>
+<tr class="flex">
+<td>S</td>
+<td>￥380,000</td>
+</tr>
+<tr class="flex">
+<td>M</td>
+<td>￥560,000</td>
+</tr>
+<tr class="flex">
+<td>L</td>
+<td>￥720,000</td>
+</tr>
+</table>
+</div>
+<!--/2021/2/18 追加↑ -->	
+	  
     <div class="price-list gosic">
     <table>
 <tr class="flex">
@@ -359,7 +405,7 @@ Template Name: たるみ治療
     <div class="price-list gosic">
     <table>
 <tr class="flex">
-<th class="fw600">セルフロック</th>
+<th class="fw600">ショッピングリフト</th>
 <th class="f-bold">税別</th>
 </tr>
 <tr class="flex">

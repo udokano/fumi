@@ -124,6 +124,28 @@ Template Name: 小顔治療
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">スレッドリフト料金</h2>
+<!--2021/2/18　追加↓  -->
+	<!-- ./price-list -->
+    <div class="price-list gosic " id="silhouette_lift__price">
+      <dl class="flex">
+        <dt class="fw600">オーダーメイドスレッドリフト</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>S</dt>
+        <dd>￥380,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>M</dt>
+        <dd>￥560,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>L</dt>
+        <dd>￥720,000</dd>
+      </dl>
+    </div>
+<!--2021/2/18　追加↑  -->	 
+	 <!-- ./price-list --> 
     <div class="price-list gosic " id="silhouette_lift__price">
       <dl class="flex">
         <dt class="fw600">シルエットソフト(3Dリフト)</dt>
