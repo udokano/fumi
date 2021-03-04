@@ -47,6 +47,34 @@ Template Name: 形成外科治療
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">料金表</h2>
+	  
+<!--2021/2/18 追加↓-->
+	 <div class="price-list gosic mb60">
+      <dl class="flex">
+        <dt class="fw600">上まぶたのたるみ取り</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>眉下切開</dt>
+        <dd>￥320,000</dd>
+      </dl>
+    </div>
+    <div class="price-list gosic mb60">
+      <dl class="flex">
+        <dt class="fw600">小陰唇縮小手術</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>両側</dt>
+        <dd>￥280,000</dd>
+      </dl>
+      <dl class="flex">
+        <dt>片側</dt>
+        <dd>￥180,000</dd>
+      </dl>
+    </div>
+<!--2021/2/18 追加↑-->	
+	  
     <div class="price-list gosic mb60">
       <dl class="flex">
         <dt class="fw600">ホクロ</dt>
@@ -61,6 +89,24 @@ Template Name: 形成外科治療
         <dd>＊レーザー治療ではなく、切開摘出手術が必要な場合がございます。その場合は保険適応となります。</dd>
       </dl>
     </div>
+	  
+<!--2021/2/18 追加↓-->	  
+	<div class="price-list gosic mb60">
+      <dl class="flex">
+        <dt class="fw600">いぼ</dt>
+        <dd class="f-bold">税別</dd>
+      </dl>
+      <dl class="flex">
+        <dt>レーザー治療</dt>
+        <dd>￥1,000～</dd>
+      </dl>
+	   <dl class="flex">
+        <dt>サブシジョン1cm×1cm</dt>
+        <dd>¥10,000</dd>
+      </dl>
+    </div>
+<!--/2021/2/18 追加↑-->	
+	  
     <div class="price-list gosic mb60">
       <dl class="flex">
         <dt class="fw600">巻き爪</dt>

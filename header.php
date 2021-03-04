@@ -30,7 +30,7 @@
     <nav class="navi pc-dis">
       <ul>
         <li><a href="<?php echo home_url('/'); ?>concept">当院について</a></li>
-        <li class="navi-parent"><a>施術・料金</a>
+        <li class="navi-parent"><p>施術・料金</p>
           <ul class="nav-child">
             <li class="nav-price"><a href="<?php echo home_url('/'); ?>price">料金一覧</a></li>
               <li><a href="<?php echo home_url('/'); ?>tarumi">たるみ治療</a></li>

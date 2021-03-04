@@ -42,7 +42,7 @@ Template Name: ドクター紹介
     <div class="career__contents right box-size">
       <h3 class="f-ryu"><span>所属</span></h3>
        <div class="introduction__text box-size">
-      <p class="mb0 f-ryu">日本形成外科学会、日本美容皮膚科学会、日本坑加齢学会、<br>ジュビダームビスタ認定医、ボトックスビスタ認定医</p>
+      <p class="mb0 f-ryu">日本形成外科学会、日本美容皮膚科学会、日本坑加齢学会、<br>ジュビダームビスタ認定医、ボトックスビスタ認定医、日本美容外科学会（JSAPS）</p>
       </div><!-- ./introduction__text -->
     </div>
   </div>
