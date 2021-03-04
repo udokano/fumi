@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?<?php echo filemtime(get_stylesheet_directory() . '/css/style.css'); ?>">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/add.css?<?php echo filemtime(get_stylesheet_directory() . '/css/add.css'); ?>">
 <script>
   (function(d) {
     var config = {
@@ -135,28 +136,41 @@
 
       <div class="hifu-bnr">
         <a href="<?php echo home_url( '/' ); ?>hifu" class="" target="_blank">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr02.jpg?20201008" alt="ウルトラセルQプラス" class="pc">
-           <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr.jpg?20201008" alt="ウルトラセルQプラス" class="sp">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr02.jpg?20200304" alt="ウルトラセルQプラス" class="pc">
+           <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr.jpg?20200304" alt="ウルトラセルQプラス" class="sp">
+        </a>
+
+         <a href="<?php echo home_url( '/' ); ?>pfc" class="" target="_blank">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/common/pfc_bnr02.png?20200304" alt="PFC治療" class="pc">
+           <img src="<?php echo get_template_directory_uri(); ?>/img/common/pfc_bnr.png?20200304" alt="PFC治療" class="sp">
         </a>
       </div>
     </div>
     <!--BOTTOM END-->
 
-    <div class="cv-wrap box-size" id="cv-wrap">
-        <div class="top flex al-cent justify-center">
-          <div class="left sm">お電話による<br class="pc">
-            お問い合わせ</div>
-          <div class="tel"><a href="tel:0663722323" class="">06-6372-2323</a></div>
-          <div class="time sm"> 平日 10:00～18:00<br>
-            土 10:00～17:00</div>
-        </div>
-        <div class="bottom__btn flex"> <a href="https://fumibeauty.reserve.ne.jp/" class="cv-btns bg-rs c_gray" target="_blank"><span class="bg-icon">来院予約<br>
-          <span class="sm">RESERVATION</span></span></a> <a href="<?php echo home_url('/'); ?>contact" class="cv-btns c_gray bg-ct bg__n_ct"><span class="bg-icon">お問合わせ<br>
-          <span class="sm">CONTACT</span></span></a> </div>
-      </div>
 
+
+    <div class="cv-bottom" id="cv-btm">
+
+           <div class="cv-wrap box-size" id="cv-wrap">
+            <div class="top flex al-cent justify-center">
+              <div class="left sm">お電話による<br class="pc">
+                お問い合わせ</div>
+              <div class="tel"><a href="tel:0663722323" class="">06-6372-2323</a></div>
+              <div class="time sm"> 平日 10:00～18:00<br>
+                土 10:00～17:00</div>
+            </div>
+            <div class="bottom__btn flex"> <a href="https://fumibeauty.reserve.ne.jp/" class="cv-btns bg-rs c_gray" target="_blank"><span class="bg-icon">来院予約<br>
+              <span class="sm">RESERVATION</span></span></a> <a href="<?php echo home_url('/'); ?>contact" class="cv-btns c_gray bg-ct bg__n_ct"><span class="bg-icon">お問合わせ<br>
+              <span class="sm">CONTACT</span></span></a> </div>
+          </div>
+          <!-- ./cv-wrap -->
+    </div>
+    <!-- ./cv-bottom -->
   </div>
   <!--top__menu__area END-->
+
+
   <section class="box-size mb0 area-bgs">
     <div class="inner cf ttlTxt">
     <h1 class="cach gd c_gray tc title">シワ・たるみの治療は<span class="sp_br">ふみビューティークリニック梅田</span><span class="sm c__l_gold ttlSpan">fumi beauty clinic</span></h1>
