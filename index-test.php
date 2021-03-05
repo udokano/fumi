@@ -142,8 +142,13 @@ Template Name: トップページ改修テスト閲覧用
 
       <div class="hifu-bnr">
         <a href="<?php echo home_url( '/' ); ?>hifu" class="" target="_blank">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr02.jpg?20201008" alt="ウルトラセルQプラス" class="pc">
-           <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr.jpg?20201008" alt="ウルトラセルQプラス" class="sp">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr02.jpg?20200304" alt="ウルトラセルQプラス" class="pc">
+           <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr.jpg?20200304" alt="ウルトラセルQプラス" class="sp">
+        </a>
+
+         <a href="<?php echo home_url( '/' ); ?>pfc" class="" target="_blank">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/common/pfc_bnr02.png?20200304" alt="PFC治療" class="pc">
+           <img src="<?php echo get_template_directory_uri(); ?>/img/common/pfc_bnr.png?20200304" alt="PFC治療" class="sp">
         </a>
       </div>
     </div>
@@ -166,12 +171,6 @@ Template Name: トップページ改修テスト閲覧用
               <span class="sm">CONTACT</span></span></a> </div>
           </div>
           <!-- ./cv-wrap -->
-           <div class="hifu-bnr">
-        <a href="<?php echo home_url( '/' ); ?>pfc" class="" target="_blank">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/common/pfc_bnr02.png?20201008" alt="PFC治療" class="pc">
-           <img src="<?php echo get_template_directory_uri(); ?>/img/common/pfc_bnr.png?20201008" alt="PFC治療" class="sp">
-        </a>
-      </div>
     </div>
     <!-- ./cv-bottom -->
 

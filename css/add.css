@@ -4,9 +4,90 @@
 バナーを新規に設置したときに追加したスタイル
 ----------------------------------------*/
 
-#cv-btm.cv-bottom {
+/*
+
+上のメニューのスタイル
+
+--------*/
+
+.top__menu__area {}
+
+.top__menu__area .bottom--re {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+}
+
+.top__menu__area .bottom .menu-link--width {
+    margin-bottom: 22px;
+}
+
+@media (max-width: 767px) {
+    .top__menu__area .bottom--re {
+        padding-bottom: 0;
+    }
+
+    .top__menu__area .bottom .menu-link--width {
+        margin-bottom: 22px;
+        padding-bottom: 0;
+    }
+}
+
+/*
+
+バナーエリアのスタイル
+
+--------*/
+
+.hifu-bnr {
+    width: 67.5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.hifu-bnr a {
+    display: block;
+    width: 44%;
+}
+
+@media (min-width: 768px) {
+    .hifu-bnr a:nth-of-type(1) {
+        padding-right: 28px;
+    }
+
+    .hifu-bnr a:nth-of-type(2) {
+        padding-left: 36px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hifu-bnr {
+        width: 96%;
+        margin: 0 auto 22px;
+        display: block;
+    }
+
+    .hifu-bnr a {
+        width: 100%;
+    }
+
+    .hifu-bnr a:nth-of-type(1) {
+        margin-bottom: 12px;
+    }
+}
+
+/*
+
+コンバージョンエリアのスタイル
+
+--------*/
+
+#cv-btm.cv-bottom {
     width: 1200px;
     margin: 0 auto;
 }
@@ -14,12 +95,11 @@
 #cv-btm.cv-bottom #cv-wrap {
     width: 67.5%;
     height: 242px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 @media (max-width: 767px) {
     #cv-btm.cv-bottom {
-        flex-flow: column-reverse;
         width: 96%;
         margin: 0 auto 0;
     }
@@ -27,6 +107,5 @@
     #cv-btm.cv-bottom #cv-wrap {
         width: 96%;
         height: auto;
-        margin-top: 1.8rem;
     }
 }
