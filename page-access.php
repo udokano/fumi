@@ -50,7 +50,9 @@ Template Name: アクセス
 </section>
 <section class="access-info">
 <div class="inner">
-<div class="page-map" id="map"></div>
+<div class="page-map" id="map">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6559.845843163352!2d135.496039!3d34.707124!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc8adcc2fef54cfce!2z44G144G_44OT44Ol44O844OG44Kj44O844Kv44Oq44OL44OD44Kv5qKF55Sw!5e0!3m2!1sja!2sjp!4v1618215393318!5m2!1sja!2sjp" loading="lazy" class="map-inside"></iframe>
+</div>
 <!--MAP END-->
 
 <p class="map-link"><a href="https://www.google.com/maps/place/%E3%80%92530-0012+%E5%A4%A7%E9%98%AA%E5%BA%9C%E5%A4%A7%E9%98%AA%E5%B8%82%E5%8C%97%E5%8C%BA%E8%8A%9D%E7%94%B0%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%98%E2%88%92%EF%BC%93%EF%BC%93+%E8%8A%9D%E7%94%B0%E3%83%93%E3%83%AB/@34.7071032,135.4959917,17z/data=!4m2!3m1!1s0x6000e68fc13f248b:0xc11dcd33c073a9ec" class="cp gosic" target="_blank">GoogleMAPを開く </a></p>
@@ -157,7 +159,7 @@ Template Name: アクセス
 </div>
 <!--Inner END-->
 </section>
-<script>
+<!-- <script>
     function initMap() {
         var latlng = new google.maps.LatLng( 34.707103, 135.495992 );
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -181,7 +183,7 @@ Template Name: アクセス
             map.setMapTypeId( 'GrayScaleMap' );
         /*=========ここまで追加=========*/
       }
-</script>
+</script> -->
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBwr6DPo5X5S4CbkcKpSV5atpzNnKAifI&callback=initMap"></script>
 	<script type="application/ld+json">
 { "@context":"http://schema.org",

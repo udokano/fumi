@@ -128,20 +128,21 @@ Template Name: 小顔治療
 	<!-- ./price-list -->
     <div class="price-list gosic " id="silhouette_lift__price">
       <dl class="flex">
+<!--2021/3/16　料金税込み価格修正↓  -->
         <dt class="fw600">オーダーメイドスレッドリフト</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">
         <dt>S</dt>
-        <dd>￥380,000</dd>
+        <dd>￥418,000</dd>
       </dl>
       <dl class="flex">
         <dt>M</dt>
-        <dd>￥560,000</dd>
+        <dd>￥616,000</dd>
       </dl>
       <dl class="flex">
         <dt>L</dt>
-        <dd>￥720,000</dd>
+        <dd>￥792,000</dd>
       </dl>
     </div>
 <!--2021/2/18　追加↑  -->	 
@@ -149,99 +150,99 @@ Template Name: 小顔治療
     <div class="price-list gosic " id="silhouette_lift__price">
       <dl class="flex">
         <dt class="fw600">シルエットソフト(3Dリフト)</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">
         <dt> 2本</dt>
-        <dd>¥195,000(1本あたり¥97,500)</dd>
+        <dd>¥214,500(1本あたり¥107,250)</dd>
       </dl>
       <dl class="flex">
         <dt> 4本</dt>
-        <dd>¥296,000(1本あたり¥74,000)</dd>
+        <dd>¥325,600(1本あたり¥81,400)</dd>
       </dl>
       <dl class="flex">
         <dt> 6本</dt>
-        <dd>¥378,000(1本あたり¥63,000)</dd>
+        <dd>¥415,800(1本あたり¥69,300)</dd>
       </dl>
       <dl class="flex">
         <dt> 8本</dt>
-        <dd>¥400,000(1本あたり¥50,000)</dd>
+        <dd>¥440,000(1本あたり¥55,000)</dd>
       </dl>
     </div>
     <!-- ./price-list -->
     <div class="price-list gosic " id="gcog_lift__price">
       <dl class="flex">
         <dt class="fw600">Gコグリフト</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">
         <dt> 1本</dt>
-        <dd>¥60,000</dd>
+        <dd>¥66,000</dd>
       </dl>
     </div>
     <!-- ./price-list -->
     <div class="price-list gosic " id="vov_lift__price">
       <dl class="flex">
         <dt class="fw600">VOVリフトプレミアム</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">
         <dt> 1本</dt>
-        <dd>¥40,000</dd>
+        <dd>¥44,000</dd>
       </dl>
       <dl class="flex">
         <dt> 5本目以降</dt>
-        <dd>1本あたり¥30,000<br>
-          Gコグリフトとの併用の場合1本30000円</dd>
+        <dd>1本あたり¥33,000<br>
+          Gコグリフトとの併用の場合1本33000円</dd>
       </dl>
     </div>
     <!-- ./price-list -->
      <div class="price-list gosic " id="selfu_rock__price">
       <dl class="flex">
         <dt class="fw600">セルフロック</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">
         <dt> 1本</dt>
-        <dd>¥20,000</dd>
+        <dd>¥22,000</dd>
       </dl>
     </div>
     <!-- ./price-list -->
     <div class="price-list gosic " id="shopping_lift__price">
       <dl class="flex">
         <dt class="fw600">ショッピングリフト<br class="sp">(ビューティーエナジー)</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">
         <dt> 20本</dt>
-        <dd>¥66,000</dd>
+        <dd>¥72,600</dd>
       </dl>
       <dl class="flex">
         <dt> 40本</dt>
-        <dd>¥102,000</dd>
+        <dd>¥112,200</dd>
       </dl>
       <dl class="flex">
         <dt> 60本</dt>
-        <dd>¥138,000</dd>
+        <dd>¥151,800</dd>
       </dl>
       <dl class="flex">
         <dt> 80本</dt>
-        <dd>¥174,000</dd>
+        <dd>¥191,400</dd>
       </dl>
     </div>
     <!-- ./price-list -->
     <div class="price-list gosic " id="thread_lift__price">
       <dl class="flex">
         <dt class="fw600">スレッドアイリフト(Gグロス)</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">
         <dt> 10本</dt>
-        <dd>¥47,000</dd>
+        <dd>¥51,700</dd>
       </dl>
       <dl class="flex">
         <dt> 20本</dt>
-        <dd>¥69,000</dd>
+        <dd>¥75,900</dd>
       </dl>
     </div>
     <!-- ./price-list -->
@@ -411,45 +412,45 @@ Template Name: 小顔治療
     <div class="price-list gosic" id="bnls-p">
       <dl class="flex">
         <dt class="fw600">BNLS neo</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">
         <dt> 1cc<!-- （4ccまで） --></dt>
-        <dd>¥9,000</dd>
+        <dd>¥9,900</dd>
       </dl>
        <dl class="flex">
         <dt>1cc（5cc以降）</dt>
-        <dd>¥6,000</dd>
+        <dd>¥6,600</dd>
       </dl>
     </div>
     <!-- ./price-list -->
      <div class="price-list gosic" id="gabel-p">
       <dl class="flex">
         <dt class="fw600">デオリポ(カベルライン)</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">
         <dt>1cc<!-- （4ccまで） --></dt>
-        <dd>¥10,500</dd>
+        <dd>¥11,550</dd>
       </dl>
        <dl class="flex">
         <dt>1cc（5cc以降）</dt>
-        <dd>¥7,000</dd>
+        <dd>¥7,700</dd>
       </dl>
     </div>
     <!-- ./price-list -->
      <div class="price-list gosic" id="tinela-p">
       <dl class="flex">
         <dt class="fw600">チンセラプラス</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">
         <dt>1cc<!-- （4ccまで） --></dt>
-        <dd>¥15,000</dd>
+        <dd>¥16,500</dd>
       </dl>
        <dl class="flex">
         <dt>1cc（5cc以降）</dt>
-        <dd>¥10,000</dd>
+        <dd>¥11,000</dd>
       </dl>
     </div>
     <!-- ./price-list -->
@@ -569,11 +570,11 @@ Template Name: 小顔治療
     <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">&nbsp;</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">
         <dt>エラボトックス</dt>
-        <dd>¥50,000</dd>
+        <dd>¥55,000</dd>
       </dl>
     </div>
   </div>
@@ -671,59 +672,59 @@ Template Name: 小顔治療
     <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">リフトアップカートリッジ</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex bd-bottom-none">
         <dt>顔全体</dt>
-        <dd>¥140,000</dd>
+        <dd>¥154,000</dd>
       </dl>
       <dl class="flex">
         <dt>※7ヶ月以内の再施術</dt>
-        <dd>¥126,000</dd>
+        <dd>¥138,600</dd>
       </dl>
 
        <dl class="flex bd-bottom-none">
         <dt>顔全体+あご下</dt>
-        <dd>¥160,000</dd>
+        <dd>¥176,000</dd>
       </dl>
        <dl class="flex">
         <dt>※7ヶ月以内の再施術</dt>
-        <dd>¥144,000</dd>
+        <dd>¥158,400</dd>
       </dl>
        <dl class="flex bd-bottom-none">
         <dt>頬のみ</dt>
-        <dd>¥80,000</dd>
+        <dd>¥88,000</dd>
       </dl>
 
       <dl class="flex">
         <dt>※7ヶ月以内の再施術</dt>
-        <dd>¥72,000</dd>
+        <dd>¥79,200</dd>
       </dl>
 
        <dl class="flex bd-bottom-none">
         <dt>ハイフアイ</dt>
-        <dd>¥40,000</dd>
+        <dd>¥44,000</dd>
       </dl>
 
       <dl class="flex">
         <dt>※7ヶ月以内の再施術</dt>
-        <dd>¥36,000</dd>
+        <dd>¥39,600</dd>
       </dl>
     </div>
 
      <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">リニアカートリッジ</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex bd-bottom-none">
         <dt>4.5mm 二重あご解消</dt>
-        <dd>¥50,000</dd>
+        <dd>¥55,000</dd>
       </dl>
 
       <dl class="flex bd-bottom-none">
         <dt>※1ヶ月以内の再施術</dt>
-        <dd>¥45,000</dd>
+        <dd>¥49,500</dd>
       </dl>
 
       <!--   <dl class="flex">
@@ -733,12 +734,12 @@ Template Name: 小顔治療
 
        <dl class="flex bd-bottom-none">
         <dt>2.0mm 美肌・美白</dt>
-        <dd>¥50,000</dd>
+        <dd>¥55,000</dd>
       </dl>
 
        <dl class="flex">
         <dt>※1ヶ月以内の再施術</dt>
-        <dd>¥45,000</dd>
+        <dd>¥49,500</dd>
       </dl>
 
     </div>

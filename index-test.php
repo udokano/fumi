@@ -31,7 +31,7 @@ Template Name: トップページ改修テスト閲覧用
 </head>
 <body <?php body_class(); ?> id="top">
 <div class="wrapper">
-  <header class="site-header front">
+  <header class="site-header front" id="header">
     <div class="header-inner flex al-cent">
           <div class="logo tc"><a href="<?php echo home_url('/'); ?>"> <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo_re.png?02085" alt="FMUI BEAUTY CLINIC"></a></div>
           <nav class="navi pc-dis">
@@ -75,22 +75,19 @@ Template Name: トップページ改修テスト閲覧用
     </div>
   </header>
   <main>
-  <div class="fv" id="fv-slide">
-    <div class="fv__items">
-      <div class="logos"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_logo_re.png?02054" alt="FMUI BEAUTY CLINIC"> </div>
-      <!--logos-->
+  <div class="fv fv-re" id="fv-slide">
+      <div class="fv__catch-text">
+        <div class="fv__catch-inner">
+            <div class="fv__catch-img">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_text.png" alt="みなさまお一人お一人が美しく年齢を重ね、輝き続けられるよう最良の治療でお手伝いいたします" class="pc">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_text_sp.png" alt="みなさまお一人お一人が美しく年齢を重ね、輝き続けられるよう最良の治療でお手伝いいたします" class="sp">
+            </div>
+        </div>
+      </div>
 
-    </div>
     <div class="swiper-container fv-slide" >
       <div class="swiper-wrapper fv-slider-content">
-        <div class="fv__slide-wrap swiper-slide slide01 swiper-no-swipng">
-          <div class="slide01__texts">
-            <div class="band cp tc ls2">注入＆スレッド治療専門クリニック</div>
-            <!--band END-->
-            <div> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv2_cach_re.png?0204" alt="洗練された美容技術であなたの美しさを引き出します。" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_cach_sp_re.png?0304" alt="洗練された美容技術であなたの美しさを引き出します" class="sp"> </div>
-          </div>
-        </div>
-
+        <div class="fv__slide-wrap swiper-slide slide01 swiper-no-swipng"></div>
         <!-- fv__slide-wrap slide01 END -->
         <div class="fv__slide-wrap swiper-slide slide02 swiper-no-swipng"> </div>
         <!-- fv__slide-wrap slide02 END -->
@@ -100,7 +97,7 @@ Template Name: トップページ改修テスト閲覧用
         <!-- fv__slide-wrap slide04 END -->
         <div class="fv__slide-wrap swiper-slide slide05 swiper-no-swipng"> </div>
         <!-- fv__slide-wrap slide05 END -->
-        <div class="fv__slide-wrap swiper-slide slide06 swiper-no-swipng"> </div>
+       <!--  <div class="fv__slide-wrap swiper-slide slide06 swiper-no-swipng"> </div> -->
         <!-- fv__slide-wrap slide06 END -->
         <div class="fv__slide-wrap swiper-slide slide07 swiper-no-swipng"> </div>
         <!-- fv__slide-wrap slide07 END -->

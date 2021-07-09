@@ -19,8 +19,6 @@ Template Name: ページ改修テスト
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css?<?php echo filemtime(get_stylesheet_directory() . '/css/style.css'); ?>">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/add.css?<?php echo filemtime(get_stylesheet_directory() . '/css/add.css'); ?>">
-
 <script>
   (function(d) {
     var config = {
@@ -41,7 +39,7 @@ Template Name: ページ改修テスト
           <nav class="navi pc-dis">
             <ul>
               <li><a href="<?php echo home_url('/'); ?>concept">当院について</a></li>
-              <li class="navi-parent"><p>施術・料金</p>
+              <li class="navi-parent"><a>施術・料金</a>
                 <ul class="nav-child bg__sub__menu">
                     <li class="nav-price"><a href="<?php echo home_url('/'); ?>price">料金一覧</a></li>
                     <li><a href="<?php echo home_url('/'); ?>tarumi" class="c_gray">たるみ治療</a></li>
@@ -78,7 +76,6 @@ Template Name: ページ改修テスト
         <!-- ./top-cv-btn -->
     </div>
   </header>
-  <main>
   <div class="fv" id="fv-slide">
     <div class="fv__items">
       <div class="logos"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_logo_re.png?02054" alt="FMUI BEAUTY CLINIC"> </div>
@@ -91,7 +88,7 @@ Template Name: ページ改修テスト
           <div class="slide01__texts">
             <div class="band cp tc ls2">注入＆スレッド治療専門クリニック</div>
             <!--band END-->
-            <div> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv2_cach_re.png?0204" alt="洗練された美容技術であなたの美しさを引き出します。" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_cach_sp_re.png?0304" alt="洗練された美容技術であなたの美しさを引き出します" class="sp"> </div>
+            <h1> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv2_cach_re.png?0204" alt="洗練された美容技術であなたの美しさを引き出します。" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/top/fv_cach_sp_re.png?0304" alt="洗練された美容技術であなたの美しさを引き出します" class="sp"> </h1>
           </div>
         </div>
 
@@ -113,7 +110,7 @@ Template Name: ページ改修テスト
       <!-- swiper-wrapper END-->
     </div>
     <!-- swiper-container END-->
-    <a href="#bg4" class="bounce scroll-down"><img src="<?php echo get_template_directory_uri(); ?>/img/common/scrool_down.svg" alt="scroll-down"></a> </div>
+    <a href="#contents1" class="bounce scroll-down"><img src="<?php echo get_template_directory_uri(); ?>/img/common/scrool_down.svg" alt="scroll-down"></a> </div>
   <!-- fv END-->
 
   <!--FV END-->
@@ -153,42 +150,22 @@ Template Name: ページ改修テスト
     </div>
     <!--BOTTOM END-->
 
-
-
-    <div class="cv-bottom" id="cv-btm">
-
-           <div class="cv-wrap box-size" id="cv-wrap">
-            <div class="top flex al-cent justify-center">
-              <div class="left sm">お電話による<br class="pc">
-                お問い合わせ</div>
-              <div class="tel"><a href="tel:0663722323" class="">06-6372-2323</a></div>
-              <div class="time sm"> 平日 10:00～18:00<br>
-                土 10:00～17:00</div>
-            </div>
-            <div class="bottom__btn flex"> <a href="https://fumibeauty.reserve.ne.jp/" class="cv-btns bg-rs c_gray" target="_blank"><span class="bg-icon">来院予約<br>
-              <span class="sm">RESERVATION</span></span></a> <a href="<?php echo home_url('/'); ?>contact" class="cv-btns c_gray bg-ct bg__n_ct"><span class="bg-icon">お問合わせ<br>
-              <span class="sm">CONTACT</span></span></a> </div>
-          </div>
-          <!-- ./cv-wrap -->
-           <div class="hifu-bnr">
-        <a href="<?php echo home_url( '/' ); ?>pfc" class="" target="_blank">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/common/pfc_bnr02.jpg?20201008" alt="ウルトラセルQプラス" class="pc">
-           <img src="<?php echo get_template_directory_uri(); ?>/img/common/pfc_bnr.jpg?20201008" alt="ウルトラセルQプラス" class="sp">
-        </a>
+    <div class="cv-wrap box-size" id="cv-wrap">
+        <div class="top flex al-cent justify-center">
+          <div class="left sm">お電話による<br class="pc">
+            お問い合わせ</div>
+          <div class="tel"><a href="tel:0663722323" class="">06-6372-2323</a></div>
+          <div class="time sm"> 平日 10:00～18:00<br>
+            土 10:00～17:00</div>
+        </div>
+        <div class="bottom__btn flex"> <a href="https://fumibeauty.reserve.ne.jp/" class="cv-btns bg-rs c_gray" target="_blank"><span class="bg-icon">来院予約<br>
+          <span class="sm">RESERVATION</span></span></a> <a href="<?php echo home_url('/'); ?>contact" class="cv-btns c_gray bg-ct bg__n_ct"><span class="bg-icon">お問合わせ<br>
+          <span class="sm">CONTACT</span></span></a> </div>
       </div>
-    </div>
-    <!-- ./cv-bottom -->
-
-
 
   </div>
   <!--top__menu__area END-->
-  <section class="box-size mb0 area-bgs">
-    <div class="inner cf ttlTxt">
-    <h1 class="cach gd c_gray tc title">シワ・たるみの治療は<span class="sp_br">ふみビューティークリニック梅田</span><span class="sm c__l_gold ttlSpan">fumi beauty clinic</span></h1>
-		<p>大阪市北区梅田にある美容皮膚科・形成外科のふみビューティクリニック梅田です。<span class="br">皆さんのもつ本来の美しさを引き出すためにヒアルロン酸・ボトックス注射でタルミ、シワ治療を中心とした施術をご提供しております。</span></p>
-    </div>
-  </section>
+
   <section class="doctor box-size mb0 area-bgs" id="bg4">
     <div class="inner cf">
       <div class="text">
@@ -310,7 +287,7 @@ Template Name: ページ改修テスト
         <h3 class="cw tc">美肌治療</h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb10.jpg" alt="サムネイル"></div>
         <ul class="col">
-         <li data-url="<?php echo home_url('/'); ?>medikaru#area5" class="js-link">・SUNEKOS(スネコス)</li>
+          <li data-url="<?php echo home_url('/'); ?>medikaru#area5" class="js-link">・SUNEKOS(スネコス)</li>
           <li data-url="<?php echo home_url('/'); ?>medikaru#area4" class="js-link">・ダーマペン4/ヴェルヴェットスキン</li>
           <li data-url="<?php echo home_url('/'); ?>medikaru#area3" class="js-link">・メディカルエステ</li>
           <li data-url="<?php echo home_url('/'); ?>medikaru#area1" class="js-link">・美容点滴/プラセンタ</li>
@@ -320,7 +297,7 @@ Template Name: ページ改修テスト
       <li class="box-size "> <a href="<?php echo home_url('/'); ?>kogao">
         <h3 class="tc">小顔治療 </h3>
         <div class="thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/top/thumb07.jpg" alt="サムネイル"></div>
-       <ul class="col">
+        <ul class="col">
           <li data-url="<?php echo home_url('/'); ?>kogao#area3" class="js-link">・スレッドリフト</li>
           <li data-url="<?php echo home_url('/'); ?>kogao#area2" class="js-link">・エラボトックス</li>
           <li data-url="<?php echo home_url('/'); ?>kogao#area1" class="js-link">・脂肪溶解注射/BNLSneo、デオリポ(カベルライン)、<br class="pc">チンセラプラス</li>
@@ -405,24 +382,23 @@ Template Name: ページ改修テスト
             $the_query = new WP_Query($args);
             while ($the_query->have_posts()): $the_query->the_post();
             ?>
-            <dl class="qas gd box-size swiper-slide c_gray bc__gray">
-              <dt class="cat cw tc bg__gray">
+            <div class="qas gd box-size swiper-slide c_gray bc__gray">
+              <h3 class="cat cw tc bg__gray">
                 <?php //所属タクソノミー表示
                 $terms = wp_get_object_terms($post->ID, 'faq_kind');
                 foreach ($terms as $term) {
                     echo $term->name;
                 }
                 ?>
-              </dt>
-              <dd>
-                <dl><dt class="qa-txt qa-tit pb0"><span class="q">Q</span>
+              </h3>
+              <p class="qa-txt qa-tit pb0"><span class="q">Q</span>
                 <?php the_title(); ?>
-              </dt>
-              <dd class="qa-txt qa-answer text-over pb0"><span class="a">A</span>
+              </p>
+              <div class="qa-txt qa-answer text-over pb0"><span class="a">A</span>
                 <?php remove_filter('the_content', 'wpautop'); ?>
                 <?php the_content()?>
-              </dd></dl>
-              </dd></dl>
+              </div>
+            </div>
             <?php endwhile; wp_reset_postdata(); ?>
           </div>
           <div class="swiper-button-prev prev2"></div>
@@ -451,12 +427,7 @@ Template Name: ページ改修テスト
           <!--ここにループの中の記述 -->
 
           <!--記事へのリンクを出力-->
-          <a href="<?php the_permalink(); ?>?cat=<?php //所属タクソノミースラック表示
-                $terms = wp_get_object_terms($post->ID, 'faq_kind');
-                foreach ($terms as $term) {
-                    echo $term->slug;
-                    break;
-                }?>" class="flex posts">
+          <a href="<?php the_permalink(); ?>" class="flex posts">
           <div class="thumb">
             <!--サムネイル(アイキャッチ)画像を出力-->
             <?php
@@ -583,11 +554,11 @@ Template Name: ページ改修テスト
       </div>
     </div>
   </section>
-  <div class="map">
+  <section class="map">
     <div class="inner" id="map"></div>
-        </div>
+  </section>
   <!--MAP END-->
-        </main>
+
   <footer>
     <div class="inner flex">
       <nav class="navi pc-dis">
@@ -677,9 +648,7 @@ Template Name: ページ改修テスト
         /*=========ここまで追加=========*/
       }
 </script>
-
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBwr6DPo5X5S4CbkcKpSV5atpzNnKAifI&callback=initMap"></script>
 <?php wp_footer(); ?>
-
 </body>
 </html>

@@ -288,7 +288,8 @@ Template Name: ランディングページヒアルロン酸
   </section>
   <section class="price">
     <div class="lp-inner">
-      <h2 class="gd tc">料金</h2>
+<!--2021/3/16 料金税込み価格修正-->
+	<h2 class="gd tc">料金</h2>
       <!--    <table class="gosic">
         <thead>
           <tr>
@@ -336,18 +337,19 @@ Template Name: ランディングページヒアルロン酸
           <tr>
             <th scope="col">施術名</th>
             <th scope="col">目安量</th>
-            <th scope="col">値段(税別)</th>
+            <th scope="col">値段(税込)</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td rowspan="4"style="background-color: #eddbe7; vertical-align: middle;" class="left">ボリューマ、<br class="sp">ボリフト</td>
+            <td rowspan="4"style="background-color: #eddbe7; vertical-align: middle;" class="left">ボリューマ、<br class="sp">ボリフト、
+				ボルベラ</td>
             <td>0.1cc</td>
-            <td class="right">¥10,000</td>
+            <td class="right">¥11,000</td>
           </tr>
           <tr>
             <td>1本</td>
-            <td class="right">¥80,000</td>
+            <td class="right">¥88,000</td>
           </tr>
          <!--  <tr>
             <td>2本</td>
@@ -355,43 +357,88 @@ Template Name: ランディングページヒアルロン酸
           </tr> -->
           <tr>
             <td>4本目以降</td>
-            <td class="right">1本あたりプラス¥60,000</td>
+            <td class="right">1本あたりプラス¥66,000</td>
           </tr>
         </tbody>
       </table>
+<!--2021/3/25 削除↓
       <table class="pt2 gosic mb35">
         <thead>
           <tr>
             <th scope="col">施術名</th>
             <th scope="col">目安量</th>
-            <th scope="col">値段(税別)</th>
+            <th scope="col">値段(税込)</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td style="background-color: #eddbe7; vertical-align: middle;" class="left">ボルベラ</td>
             <td>0.1cc</td>
-            <td class="right">¥10,000</td>
+            <td class="right">¥11,000</td>
           </tr>
         </tbody>
-      </table>
-      <table class="pt2 gosic mb35">
+      </table>-->
+<!--2021/3/25 削除↓
+     <table class="pt2 gosic mb35">
         <thead>
           <tr>
             <th scope="col">施術名</th>
             <th scope="col">目安量</th>
-            <th scope="col">値段(税別)</th>
+            <th scope="col">値段(税込)</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td rowspan="2" style="background-color: #eddbe7; vertical-align: middle;" class="left">クレビエルコントア(あご形成) </td>
             <td>0.1cc</td>
-            <td class="right">¥10,000</td>
+            <td class="right">¥11,000</td>
+          </tr>
+        </tbody>
+      </table>-->
+
+<!--2021/3/25 追加↓-->
+   <table class="pt2 gosic mb35">
+        <thead>
+          <tr>
+            <th scope="col">施術名</th>
+            <th scope="col">目安量</th>
+            <th scope="col">値段(税込)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="4"style="background-color: #eddbe7; vertical-align: middle;" class="left">ボラックス</td>
+            <td>0.1cc</td>
+            <td class="right">¥13,200</td>
+          </tr>
+          <tr>
+            <td>1本</td>
+            <td class="right">¥105,600</td>
+          </tr>
+        </tbody>
+      </table>
+　　　<table class="pt2 gosic mb35">
+        <thead>
+          <tr>
+            <th scope="col">施術名</th>
+            <th scope="col">目安量</th>
+            <th scope="col">値段(税込)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="4"style="background-color: #eddbe7; vertical-align: middle;" class="left">ボライト</td>
+            <td>0.1cc</td>
+            <td class="right">¥13,750</td>
+          </tr>
+          <tr>
+            <td>1本</td>
+            <td class="right">¥110,000</td>
           </tr>
         </tbody>
       </table>
-      <p class="note tc gosic">＊カニューレを使用する場合は別途＋¥1,250(税別)</p>
+<!--2021/3/25 追加↑-->
+      <p class="note tc gosic">＊カニューレを使用する場合は別途＋¥1,375(税込)</p>
     </div>
   </section>
   <div class="lp-cv">

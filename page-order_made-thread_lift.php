@@ -250,7 +250,7 @@
                   <li class="lift_ope__box__right__item">・お顔全体をナチュラルに引き上げたい方</li>
                 </ol>
                 <div class="case__btn__wrap case__btn__col2 case__btn__wrap__lift">
-                  <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1262108.html" target="_blank" class="case__btn btn__left">症例写真はこちら</a>
+                  <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1275235.html" target="_blank" class="case__btn btn__left">症例写真はこちら</a>
                      <a href="<?php echo home_url( '/' ); ?>kogao#silhouette_lift__price" class="case__btn">料金はこちら</a>
                </div>
             </div>
@@ -454,7 +454,7 @@
           <!-- ./lift_ope__box -->
           </section>
           </section>
-  
+
 </div>
 </div>
 <!-- ./inner -->

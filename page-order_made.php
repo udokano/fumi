@@ -185,7 +185,12 @@
 </section>
 <section class="order__case__banner">
   <div class="inner">
-    <div class="case__banner"> <a href="<?php echo home_url("/");?>case-list"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/case__banner.jpg?0318" alt="症例写真にご協力頂いた患者様のビフォーアフターはこちらから" class="pc"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/case__banner_sp.jpg?0318" alt="症例写真にご協力頂いた患者様のビフォーアフターはこちらから" class="sp"></a> </div>
+    <div class="case__banner">
+      <a href="http://blog.livedoor.jp/dr_sakiyama/archives/cat_1166123.html" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/case__banner.jpg?0318" alt="症例写真にご協力頂いた患者様のビフォーアフターはこちらから" class="pc">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/case__banner_sp.jpg?0318" alt="症例写真にご協力頂いた患者様のビフォーアフターはこちらから" class="sp">
+      </a>
+    </div>
   </div>
 </section>
 <section class="ope-top-desc  top-desc-p02 bg__p02 top-desc-p03" id="area2">
@@ -263,7 +268,7 @@
         </dl>
         <div class="thumb dn"> <img src="<?php echo get_template_directory_uri(); ?>/img/operation/order_made/ope_ilast03.png?0513" alt="イラスト"> </div>
             <div class="case__btn__col2">
-               <a href="http://blog.livedoor.jp/dr_sakiyama/archives/1065492225.html" target="_blank" class="case__btn btn__left"><span class="height__center">あごのヒアルロン酸の<br>症例写真はこちら</span></a>
+               <a href="http://blog.livedoor.jp/dr_sakiyama/archives/1078791956.html" target="_blank" class="case__btn btn__left"><span class="height__center">あごのヒアルロン酸の<br>症例写真はこちら</span></a>
                 <a href="http://blog.livedoor.jp/dr_sakiyama/archives/1075939077.html" target="_blank" class="case__btn"><span class="height__center">あごのボトックスの<br>症例写真はこちら</span></a>
             </div>
         </div>

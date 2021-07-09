@@ -395,7 +395,7 @@
   <h2 class="tc">料金</h2>
 </section>
 
-
+<!--2021/3/16 料金税込み価格修正-->
 <div class="hifu-price">
     <div class="inner">
         <p class="hifu-table-ttl gosic hifu-table-ttl--lift sp">リフトアップカートリッジ</p>
@@ -404,8 +404,8 @@
             <tr class="hifu-table__head-tr">
               <th class="hifu-table__head-th hifu-table__head-th--row01 pc">施術名</th>
               <th class="hifu-table__head-th hifu-table__head-th--row02">施術部位</th>
-              <th class="hifu-table__head-th hifu-table__head-th--row03"  colspan="2">値段（税別）</th>
-              <th class="hifu-table__head-th hifu-table__head-th--row04">7ヶ月以内に再施術の方<br class="sp">（税別）</th>
+              <th class="hifu-table__head-th hifu-table__head-th--row03"  colspan="2">値段（税込）</th>
+              <th class="hifu-table__head-th hifu-table__head-th--row04">7ヶ月以内に再施術の方<br class="sp">（税込）</th>
             </tr>
           </thead>
 
@@ -414,8 +414,8 @@
               <th class="hifu-table__th hifu-table__th--left-top hifu-table__th--lift pc" rowspan="6">リフトアップカートリッジ</th>
               <td class="hifu-table__td hifu-table__td--lift">顔全体</td>
               <!--  <td class="hifu-table__td hifu-table__td--lift">トリプル</td> -->
-                <td class="hifu-table__td" colspan="2">¥140,000</td>
-                 <td class="hifu-table__td">¥126,000</td>
+                <td class="hifu-table__td" colspan="2">¥154,000</td>
+                 <td class="hifu-table__td">¥138,600</td>
             </tr>
 
            <!--   <tr class="hifu-table__tr">
@@ -429,8 +429,8 @@
 
               <td class="hifu-table__td hifu-table__td--lift" >顔全体＋あご下</td>
              <!--   <td class="hifu-table__td hifu-table__td--lift">トリプル</td> -->
-                <td class="hifu-table__td" colspan="2">¥160,000</td>
-                 <td class="hifu-table__td">¥144,000</td>
+                <td class="hifu-table__td" colspan="2">¥176,000</td>
+                 <td class="hifu-table__td">¥158,400</td>
             </tr>
 
            <!--   <tr class="hifu-table__tr">
@@ -443,15 +443,15 @@
             <tr class="hifu-table__tr">
 
               <td class="hifu-table__td hifu-table__td--lift" >頬のみ</td>
-               <td class="hifu-table__td" colspan="2">¥80,000</td>
-                 <td class="hifu-table__td">¥72,000</td>
+               <td class="hifu-table__td" colspan="2">¥88,000</td>
+                 <td class="hifu-table__td">¥79,200</td>
             </tr>
 
              <tr class="hifu-table__tr">
 
               <td class="hifu-table__td hifu-table__td--lift" >ハイフアイ</td>
-               <td class="hifu-table__td" colspan="2">¥40,000</td>
-                 <td class="hifu-table__td">¥36,000</td>
+               <td class="hifu-table__td" colspan="2">¥44,000</td>
+                 <td class="hifu-table__td">¥39,600</td>
             </tr>
           </tbody>
 
@@ -464,8 +464,8 @@
             <tr class="hifu-table__head-tr">
               <th class="hifu-table__head-th hifu-table__head-th--row01 pc">施術名</th>
               <th class="hifu-table__head-th hifu-table__head-th--row02">施術部位</th>
-              <th class="hifu-table__head-th hifu-table__head-th--row03"  colspan="2">値段（税別）</th>
-              <th class="hifu-table__head-th hifu-table__head-th--row04">1ヶ月以内に再施術の方<br class="sp">（税別）</th>
+              <th class="hifu-table__head-th hifu-table__head-th--row03"  colspan="2">値段（税込）</th>
+              <th class="hifu-table__head-th hifu-table__head-th--row04">1ヶ月以内に再施術の方<br class="sp">（税込）</th>
             </tr>
           </thead>
 
@@ -474,8 +474,8 @@
               <th class="hifu-table__th hifu-table__th--left-top hifu-table__th--lina pc" rowspan="6">リニアカートリッジ</th>
 
               <td class="hifu-table__td hifu-table__td--lina" >4,5mm<span class="table-text-small">(二重あご解消)</span></td>
-               <td class="hifu-table__td" colspan="2">¥50,000</td>
-                 <td class="hifu-table__td">¥45,000</td>
+               <td class="hifu-table__td" colspan="2">¥55,000</td>
+                 <td class="hifu-table__td">¥49,500</td>
             </tr>
 
          <!--    <tr class="hifu-table__tr">
@@ -491,8 +491,8 @@
              <tr class="hifu-table__tr">
 
               <td class="hifu-table__td hifu-table__td--lina" >2,0mm<span class="table-text-small">(美肌・美白)</span></td>
-               <td class="hifu-table__td" colspan="2">¥50,000</td>
-                 <td class="hifu-table__td">¥45,000</td>
+               <td class="hifu-table__td" colspan="2">¥55,000</td>
+                 <td class="hifu-table__td">¥49,500</td>
             </tr>
 
           </tbody>

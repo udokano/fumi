@@ -54,6 +54,9 @@
 .b {
   font-weight: 700
 } /* 太字 */
+.bold {
+  font-weight: 600
+} /* 太字 */
 .u {
   text-decoration: underline
 } /* 下線 */

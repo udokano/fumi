@@ -7,7 +7,101 @@ Template Name: ドクターズコスメ・サプリメント
 <?php get_header()?>
 <div class="page-head">
   <h1 class="tc f-ryu">ドクターズコスメ・サプリメント</h1>
-  <?php echo breadcrumb_func(); ?> </div>
+  <?php echo breadcrumb_func(); ?>
+</div>
+<!-- ./page-head -->
+
+
+<section class="online-thumbs">
+
+
+<div class="online-thumbs__inner f-ryu">
+
+  <h2 class="online-thumbs__ttl ">当院でお取り扱いのある<br class="sp">コスメ・サプリメント</h2>
+  <p class="online-thumbs__desc">お肌の状態やお悩みに合わせて、最適なものを<br class="sp">ご提案いたします。<br class="">オンラインショップからもご購入いただけます。</p>
+
+  <ul class="online-thumbs__list">
+    <li class="online-thumbs__item">
+      <a href="https://shop.fumibeauty.jp/collections/%E3%82%BC%E3%82%AA%E3%82%B9%E3%82%AD%E3%83%B3%E3%83%98%E3%83%AB%E3%82%B9" class="online-thumbs__link" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/online_thumb01.jpg" alt="ゼオスキンヘルス">
+      </a>
+    </li>
+    <li class="online-thumbs__item">
+      <a href="https://shop.fumibeauty.jp/collections/%E3%82%A8%E3%83%B3%E3%83%93%E3%83%AD%E3%83%B3" class="online-thumbs__link" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/online_thumb02.jpg" alt="エンビロン">
+      </a>
+    </li>
+    <li class="online-thumbs__item">
+      <a href="https://shop.fumibeauty.jp/collections/%E3%83%AA%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3" class="online-thumbs__link" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/online_thumb03.jpg" alt="リビジョン">
+      </a>
+    </li>
+    <li class="online-thumbs__item">
+      <a href="https://shop.fumibeauty.jp/collections/%E3%83%A9%E3%83%A1%E3%83%A9%E3%83%9C" class="online-thumbs__link" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/online_thumb04.jpg" alt="FAITH ラメラボ">
+      </a>
+    </li>
+    <li class="online-thumbs__item">
+      <a href="https://shop.fumibeauty.jp/collections/%E3%82%B7%E3%82%B9%E3%83%9A%E3%83%A9" class="online-thumbs__link" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/online_thumb05.jpg" alt="シスペラ">
+      </a>
+    </li>
+    <li class="online-thumbs__item">
+      <a href="https://shop.fumibeauty.jp/collections/wiqo" class="online-thumbs__link" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/online_thumb06.jpg" alt="WIQO">
+      </a>
+    </li>
+    <li class="online-thumbs__item">
+      <a href="https://shop.fumibeauty.jp/collections/%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88-1" class="online-thumbs__link" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/online_thumb07.jpg" alt="サプリメント">
+      </a>
+    </li>
+    <li class="online-thumbs__item">
+      <a href="https://shop.fumibeauty.jp/collections/%E3%82%A8%E3%83%8B%E3%82%B7%E3%83%BC%E3%82%B0%E3%83%AD%E3%82%A6%E3%83%91%E3%83%83%E3%82%AF" class="online-thumbs__link" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/online_thumb08.jpg" alt="エニシーグロウパック">
+      </a>
+    </li>
+    <li class="online-thumbs__item">
+      <a href="https://shop.fumibeauty.jp/collections/v%EF%BC%93%E3%83%95%E3%82%A1%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3" class="online-thumbs__link" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/online_thumb09.jpg" alt="V3 ファンデーション">
+      </a>
+    </li>
+    <li class="online-thumbs__item">
+      <a href="https://shop.fumibeauty.jp/collections/%E3%83%A9%E3%82%B7%E3%83%A3%E3%82%B9%E3%83%AA%E3%83%83%E3%83%97%E3%82%B9" class="online-thumbs__link" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/online_thumb10.jpg" alt="ラシャスリップス">
+      </a>
+    </li>
+    <li class="online-thumbs__item">
+      <a href="https://shop.fumibeauty.jp/collections/newa%E3%83%AA%E3%83%95%E3%83%88" class="online-thumbs__link" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/online_thumb11.jpg" alt="NEWAリフト">
+      </a>
+    </li>
+    <li class="online-thumbs__item">
+      <a href="https://shop.fumibeauty.jp/collections/v%E3%82%B9%E3%82%AB%E3%83%AB%E3%83%97%E3%83%88" class="online-thumbs__link" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/online_thumb12.jpg" alt="Vスカルプト">
+      </a>
+    </li>
+      <li class="online-thumbs__item">
+      <a href="https://shop.fumibeauty.jp/collections/%E3%83%81%E3%83%A3%E3%83%BC%E3%82%AC%E8%8C%B6" class="online-thumbs__link" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/online_thumb13.jpg" alt="チャーガ茶">
+      </a>
+    </li>
+    <li class="online-thumbs__item">
+      <a href="https://shop.fumibeauty.jp/collections/%E3%81%9D%E3%81%AE%E4%BB%96" class="online-thumbs__link" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/cosmetics/online_thumb14.jpg" alt="その他">
+      </a>
+    </li>
+  </ul>
+
+</div>
+<!-- ./inner -->
+
+
+</section>
+
+
+
+
 <div class="ancor-box gosic mb60">
       <a href="#area1">エンビロン</a>
        <a href="#area6">ゼオスキン</a>
@@ -26,40 +120,41 @@ Template Name: ドクターズコスメ・サプリメント
   </div>
 </section>
 <section class="price">
+<!--2021/3/17 料金税込み価格修正↓-->
   <div class="inner-box2">
     <h2 class="tc ls1">エンビロン料金</h2>
     <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">種類</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">
         <dt>モイスチャートーナー　100㎖</dt>
-        <dd>¥5,500</dd>
+        <dd>¥6,050</dd>
       </dl>
       <dl class="flex">
         <dt>モイスチャージェル１　25㎖</dt>
-        <dd>¥3,800</dd>
+        <dd>¥4,180</dd>
       </dl>
       <dl class="flex">
         <dt>モイスチャージェル２　60㎖</dt>
-        <dd>¥7,500</dd>
+        <dd>¥8,250</dd>
       </dl>
       <dl class="flex">
         <dt>モイスチャークリーム１　25㎖</dt>
-        <dd>¥3,800</dd>
+        <dd>¥4,180</dd>
       </dl>
       <dl class="flex">
         <dt>モイスチャークリーム２　60㎖</dt>
-        <dd>¥7,800</dd>
+        <dd>¥8,580</dd>
       </dl>
       <dl class="flex">
         <dt>モイスチャークリーム３　60㎖</dt>
-        <dd>¥8,300</dd>
+        <dd>¥9,130</dd>
       </dl>
       <dl class="flex">
         <dt>モイスチャークリーム４　60㎖</dt>
-        <dd>¥8,800</dd>
+        <dd>¥9,680</dd>
       </dl>
     </div>
      <p class="note tc">※メニューにない商品も受注発注が可能です。お気軽にお申し付けください。</p>
@@ -80,96 +175,96 @@ Template Name: ドクターズコスメ・サプリメント
     <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">種類</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
-		
+
 <!--2021/2/18 変更↓-->
       <dl class="flex">
         <dt>ハイドレーティングクレンザー　200㎖</dt>
-        <dd>¥5,200</dd>
+        <dd>¥5,720</dd>
       </dl>
       <dl class="flex">
         <dt>ジェントルクレンザー　200㎖</dt>
-        <dd>￥5,200</dd>
+        <dd>￥5,720</dd>
       </dl>
       <dl class="flex">
         <dt>エクスフォリエーティングクレンザー　200㎖</dt>
-        <dd>￥5,200</dd>
+        <dd>￥5,720</dd>
       </dl>
       <dl class="flex">
         <dt>エクスフォリエーティングポリッシュ　65g</dt>
-        <dd>¥7,600</dd>
+        <dd>¥8,360</dd>
       </dl>
       <dl class="flex">
         <dt>バランサートナー　180㎖</dt>
-        <dd>¥6,000</dd>
+        <dd>¥6,600</dd>
       </dl>
       <dl class="flex">
         <dt>ミラミン　80㎖</dt>
-        <dd>¥12,000</dd>
+        <dd>¥13,200</dd>
       </dl>
       <dl class="flex">
         <dt>ミラミックス　80㎖</dt>
-        <dd>¥11,600</dd>
+        <dd>¥12,760</dd>
       </dl>
       <dl class="flex">
         <dt>デイリーPD　50㎖</dt>
-        <dd>¥18,600</dd>
+        <dd>¥20,460</dd>
       </dl>
       <dl class="flex">
         <dt>RCクリーム　50㎖</dt>
-        <dd>￥13,200</dd>
-      </dl>	
+        <dd>￥14,520</dd>
+      </dl>
       <dl class="flex">
         <dt>シーセラム　50㎖</dt>
-        <dd>¥13,500</dd>
+        <dd>¥14,580</dd>
       </dl>
       <dl class="flex">
         <dt>ブライタライブ　50㎖</dt>
-        <dd>￥18,000</dd>
+        <dd>￥19,800</dd>
       </dl>
        <dl class="flex">
         <dt>ファーミングセラム　47㎖</dt>
-        <dd>¥28,000</dd>
+        <dd>¥30,800</dd>
       </dl>
        <dl class="flex">
         <dt>Gファクターセラム　30㎖</dt>
-        <dd>¥16,800</dd>
+        <dd>¥18,480</dd>
       </dl>
       <dl class="flex">
         <dt>Wテクスチャーリペア　50㎖</dt>
-        <dd>¥17,600</dd>
+        <dd>¥19,360</dd>
       </dl>
 	  <dl class="flex">
         <dt>スキンブライセラム0.25　50㎖</dt>
-        <dd>￥10,2000</dd>
+        <dd>￥11,220</dd>
       </dl>
 	  <dl class="flex">
         <dt>スキンブライセラム0.5　50㎖</dt>
-        <dd>￥11,400</dd>
+        <dd>￥12,540</dd>
       </dl>
 	  <dl class="flex">
         <dt>ARナイトリペア　60㎖</dt>
-        <dd>￥18,000</dd>
+        <dd>￥19,800</dd>
       </dl>
 	  <dl class="flex">
         <dt>ハイドラファーム　15㎖</dt>
-        <dd>￥16,000</dd>
+        <dd>￥17,600</dd>
       </dl>
       <dl class="flex">
         <dt>サンスクリーンプラスプライマーSPF30　30㎖</dt>
-        <dd>¥7,200</dd>
+        <dd>¥7,920</dd>
       </dl>
       <dl class="flex">
         <dt>BSサンスクリーンSPF50　118g</dt>
-        <dd>￥10,600</dd>
+        <dd>￥11,660</dd>
       </dl>
       <dl class="flex">
         <dt>ボディエマルジョン　240㎖</dt>
-        <dd>￥13,200</dd>
+        <dd>￥14,520</dd>
       </dl>
-<!--2021/2/18 変更↑-->	
-		
+<!--2021/2/18 変更↑-->
+
     </div>
     <p class="note tc">※メニューにない商品も受注発注が可能です。お気軽にお申し付けください。</p>
   </div>
@@ -189,35 +284,35 @@ Template Name: ドクターズコスメ・サプリメント
     <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">種類</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">
         <dt>ラメラボジェルクレンズ　180㎖</dt>
-        <dd>¥4,000</dd>
+        <dd>¥4,400</dd>
       </dl>
       <dl class="flex">
         <dt>ラメラボクレイウォッシュ　220g</dt>
-        <dd>¥4,000</dd>
+        <dd>¥4,400</dd>
       </dl>
       <dl class="flex">
         <dt>ラメラボエッセンスセラム　22.5㎖</dt>
-        <dd>¥15,000</dd>
+        <dd>¥16,500</dd>
       </dl>
       <dl class="flex">
         <dt>ラメラボモイスチャーローション　120㎖</dt>
-        <dd>¥8,000</dd>
+        <dd>¥8,800</dd>
       </dl>
       <dl class="flex">
         <dt>ラメラボモイスチャージェルライト　30g</dt>
-        <dd>¥12,000</dd>
+        <dd>¥13,200</dd>
       </dl>
       <dl class="flex">
         <dt>ラメラボモイスチャージェルエンリッチ　30g</dt>
-        <dd>¥12,000</dd>
+        <dd>¥13,200</dd>
       </dl>
       <dl class="flex">
         <dt>ラメラボサンプロテクターエッセンス　50㎖</dt>
-        <dd>¥4,000</dd>
+        <dd>¥4,400</dd>
       </dl>
     </div>
   </div>
@@ -243,19 +338,19 @@ Template Name: ドクターズコスメ・サプリメント
     <div class="price-list gosic">
       <dl class="flex">
         <dt>幹細胞</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">
         <dt>ヒト幹細胞パック1枚</dt>
-        <dd>¥2,000</dd>
+        <dd>¥2,200</dd>
       </dl>
       <dl class="flex">
         <dt>ヒト幹細胞パック5枚セット</dt>
-        <dd style="text-align:right;">¥9,000<span class="sm">(1枚当たり¥1,800)</span></dd>
+        <dd style="text-align:right;">¥9,900<span class="sm">(1枚当たり¥1,980)</span></dd>
       </dl>
       <dl class="flex">
         <dt>ヒト幹細胞パック10枚セット</dt>
-        <dd style="text-align:right;">¥16,000<span class="sm">(1枚当たり¥1,600)</span></dd>
+        <dd style="text-align:right;">¥17,600<span class="sm">(1枚当たり¥1,760)</span></dd>
       </dl>
     </div><!-- price-list END -->
 </div><!-- ./inner-box2 -->
@@ -340,48 +435,48 @@ Template Name: ドクターズコスメ・サプリメント
     <div class="price-list gosic">
       <dl class="flex">
         <dt>ドクターズサプリメント</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">
         <dt>ソルプロリュクスホワイト　30カプセル </dt>
-        <dd>¥5,000</dd>
+        <dd>¥5,500</dd>
       </dl>
        <dl class="flex">
         <dt>Corrｍ(コルム)　30包</dt>
-        <dd>¥12,000</dd>
+        <dd>¥13,200</dd>
       </dl>
        <dl class="flex">
         <dt>アルベックス　30包</dt>
-        <dd>￥8,000</dd>
+        <dd>￥8,800</dd>
       </dl>
-		
+
 <!--2021/2/18 追加↓-->
       <dl class="flex">
         <dt>Dr.パワーベジタブル＋KUWA</dt>
-        <dd>￥12,500</dd>
+        <dd>￥13,750</dd>
       </dl>
       <dl class="flex">
         <dt>高濃度ビタミンC　3000㎎</dt>
-        <dd>￥4,000</dd>
+        <dd>￥4,400</dd>
       </dl>
       <dl class="flex">
         <dt>高濃度ビタミンC 3000㎎＋ビタミンD4000IU</dt>
-        <dd>￥5,400</dd>
+        <dd>￥5,940</dd>
       </dl>
       <dl class="flex">
         <dt>ビタミンC400</dt>
-        <dd>￥2,797</dd>
+        <dd>￥3,076</dd>
       </dl>
       <dl class="flex">
         <dt>ビタミンD</dt>
-        <dd>￥1,500</dd>
+        <dd>￥1,650</dd>
       </dl>
       <dl class="flex">
         <dt>アンチーOXY</dt>
-        <dd>￥5,000</dd>
+        <dd>￥5,500</dd>
       </dl>
 <!--2021/2/18 追加↑-->
-		
+
     </div><!-- price-list END -->
   </div><!-- inner-box2 END -->
 </section>
@@ -417,11 +512,11 @@ Template Name: ドクターズコスメ・サプリメント
    <div class="price-list gosic">
       <dl class="flex">
         <dt>まつげ育毛薬</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
        <dl class="flex">
         <dt><!-- <span class="fw600">自まつげが驚くほど濃く!長く!!</span>   -->グラッシュビスタ　約2ヵ月分</dt>
-        <dd>¥15,000</dd>
+        <dd>¥16,500</dd>
       </dl>
     </div><!-- price-list END -->
   </div><!-- inner-box END -->

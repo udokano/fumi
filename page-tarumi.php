@@ -100,17 +100,18 @@ Template Name: たるみ治療
     <p class="p-desc gosic tc mb60 sp">当院では厚生省の承認を取得したジュビダームボリューマ、ジュビダームボリフト、ジュビダームボルベラを特におすすめしています。ジュビダームビスタ認定医の院長が全てのヒアルロン酸治療を行います。</p>
     <div class="price-list gosic">
     <table>
+<!--2021/3/16料金税込み価格表示 修正↓ -->
 <tr class="flex">
 <th class="fw600">ボリューマ、ボリフト</th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>0.1cc</td>
-<td>¥10,000</td>
+<td>¥11,000</td>
 </tr>
 <tr class="flex">
 <td>1本</td>
-<td>¥80,000</td>
+<td>¥88,000</td>
 </tr>
 <!--<tr class="flex">
 <td>2本<</td>
@@ -118,7 +119,7 @@ Template Name: たるみ治療
 </tr>-->
 <tr class="flex">
 <td>4本目以降</td>
-<td>1本あたりプラス¥60,000</td>
+<td>1本あたりプラス¥66,000</td>
 </tr>
 </table>
 </div>
@@ -128,15 +129,15 @@ Template Name: たるみ治療
     <table>
 <tr class="flex">
 <th class="fw600">ボラックス</th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>0.1cc</td>
-<td>￥12,000</td>
+<td>￥13,200</td>
 </tr>
 <tr class="flex">
 <td>1本</td>
-<td>￥96,000</td>
+<td>￥105,600</td>
 </tr>
 </table>
 </div>
@@ -146,11 +147,11 @@ Template Name: たるみ治療
     <table>
 <tr class="flex">
 <th class="fw600">ボルベラ</th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>0.1cc</td>
-<td>¥10,000</td>
+<td>¥11,000</td>
 </tr>
 </table>
 </div>
@@ -168,7 +169,7 @@ Template Name: たるみ治療
 </table>
 </div>
 -->
-    <p class="note gosic">＊カニューレを使用する場合は別途＋¥1,250(税別)</p>
+    <p class="note gosic">＊カニューレを使用する場合は別途＋¥1,375(税別)</p>
   </div>
 </section>
 <section class="ope-faq">
@@ -315,19 +316,19 @@ Template Name: たるみ治療
     <table>
 <tr class="flex">
 <th class="fw600">オーダーメイドスレッドリフト</th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>S</td>
-<td>￥380,000</td>
+<td>￥418,000</td>
 </tr>
 <tr class="flex">
 <td>M</td>
-<td>￥560,000</td>
+<td>￥616,000</td>
 </tr>
 <tr class="flex">
 <td>L</td>
-<td>￥720,000</td>
+<td>￥792,000</td>
 </tr>
 </table>
 </div>
@@ -337,23 +338,23 @@ Template Name: たるみ治療
     <table>
 <tr class="flex">
 <th class="fw600">シルエットソフト(3Dリフト)</th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>2本</td>
-<td>¥195,000(1本あたり¥97,500)</td>
+<td>¥214,500(1本あたり¥107,250)</td>
 </tr>
 <tr class="flex">
 <td>4本</td>
-<td>¥296,000(1本あたり¥74,000)</td>
+<td>¥325,600(1本あたり¥81,400)</td>
 </tr>
 <tr class="flex">
 <td>6本</td>
-<td>¥378,000(1本あたり¥63,000)</td>
+<td>¥415,800(1本あたり¥69,300)</td>
 </tr>
 <tr class="flex">
 <td>8本</td>
-<td>¥400,000(1本あたり¥50,000)</td>
+<td>¥440,000(1本あたり¥55,000)</td>
 </tr>
 </table>
 </div>
@@ -363,11 +364,11 @@ Template Name: たるみ治療
     <table>
 <tr class="flex">
 <th class="fw600">Gコグリフト</th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>1本</td>
-<td>¥60,000</td>
+<td>¥66,000</td>
 </tr>
 </table>
 </div>
@@ -376,15 +377,15 @@ Template Name: たるみ治療
     <table>
 <tr class="flex">
 <th class="fw600">VOVリフトプレミアム</th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>1本</td>
-<td>¥60,000</td>
+<td>¥44,000</td>
 </tr>
 <tr class="flex">
 <td>5本目以降</td>
-<td>1本あたり¥30,000<br>Gコグリフトとの併用の場合1本30000円</td>
+<td>1本あたり¥33,000<br>Gコグリフトとの併用の場合1本33000円</td>
 </tr>
 </table>
 </div>
@@ -393,11 +394,11 @@ Template Name: たるみ治療
     <table>
 <tr class="flex">
 <th class="fw600">セルフロック</th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>1本</td>
-<td>¥20,000</td>
+<td>¥22,000</td>
 </tr>
 </table>
 </div>
@@ -406,23 +407,23 @@ Template Name: たるみ治療
     <table>
 <tr class="flex">
 <th class="fw600">ショッピングリフト</th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>20本</td>
-<td>¥66,000</td>
+<td>¥72,600</td>
 </tr>
 <tr class="flex">
 <td>40本</td>
-<td>¥102,000</td>
+<td>¥112,200</td>
 </tr>
 <tr class="flex">
 <td>60本</td>
-<td>¥138,000</td>
+<td>¥151,800</td>
 </tr>
 <tr class="flex">
 <td>80本</td>
-<td>¥174,000</td>
+<td>¥191,400</td>
 </tr>
 </table>
 </div>
@@ -431,15 +432,15 @@ Template Name: たるみ治療
     <table>
 <tr class="flex">
 <th class="fw600">スレッドアイリフト(Gグロス)</th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>10本</td>
-<td>¥47,000</td>
+<td>¥51,700</td>
 </tr>
 <tr class="flex">
 <td>20本</td>
-<td>¥69,000</td>
+<td>¥75,900</td>
 </tr>
 </table>
 </div>
@@ -568,11 +569,11 @@ Template Name: たるみ治療
     <div class="price-list gosic">
       <dl class="flex">
         <dt class="fw600">&nbsp;</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">
         <dt>ボトックスリフト</dt>
-        <dd>¥68,000</dd>
+        <dd>¥74,800</dd>
       </dl>
     </div>
   </div>
@@ -670,39 +671,39 @@ Template Name: たるみ治療
     <table>
 <tr class="flex">
 <th class="fw600">リフトアップカートリッジ</th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex bd-bottom-none">
 <td>顔全体</td>
-<td>¥140,000</td>
+<td>¥154,000</td>
 </tr>
 <tr class="flex">
 <td>※7ヶ月以内の再施術</td>
-<td>¥126,000</td>
+<td>¥138,600</td>
 </tr>
 <tr class="flex bd-bottom-none">
 <td>顔全体+あご下</td>
-<td>¥160,000</td>
+<td>¥176,000</td>
 </tr>
 <tr class="flex">
 <td>※7ヶ月以内の再施術</td>
-<td>¥144,000</td>
+<td>¥158,400</td>
 </tr>
 <tr class="flex bd-bottom-none">
 <td>頬のみ</td>
-<td>¥80,000</td>
+<td>¥88,000</td>
 </tr>
 <tr class="flex">
 <td>※7ヶ月以内の再施術</td>
-<td>¥72,000</td>
+<td>¥79,200</td>
 </tr>
 <tr class="flex bd-bottom-none">
 <td>ハイフアイ</td>
-<td>¥40,000</td>
+<td>¥44,000</td>
 </tr>
 <tr class="flex">
 <td>※7ヶ月以内の再施術</td>
-<td>¥36,000</td>
+<td>¥39,600</td>
 </tr>
 </table>
 </div>
@@ -710,15 +711,15 @@ Template Name: たるみ治療
     <table>
 <tr class="flex">
 <th class="fw600">リニアカートリッジ</th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex bd-bottom-none">
 <td>4.5mm 二重あご解消</td>
-<td>¥50,000</td>
+<td>¥55,000</td>
 </tr>
 <tr class="flex bd-bottom-none">
 <td>※1ヶ月以内の再施術</td>
-<td>¥45,000</td>
+<td>¥49,500</td>
 </tr>
 <!--  <tr class="flex bd-bottom-none">
 <td>※リフトアップカートリッジの顔全体・頬のみと併用の場合</td>
@@ -726,11 +727,11 @@ Template Name: たるみ治療
 </tr>-->
 <tr class="flex bd-bottom-none">
 <td>2.0mm 美肌・美白</td>
-<td>¥50,000</td>
+<td>¥55,000</td>
 </tr>
 <tr class="flex">
 <td>※1ヶ月以内の再施術</td>
-<td>¥45,000</td>
+<td>¥49,500</td>
 </tr>
 </table>
 </div>

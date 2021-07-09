@@ -129,31 +129,33 @@
     <p class="p-desc gosic tc mb60 sp">当院では全てのボトックス治療に、国内で唯一厚生省の承認を取得しているアラガン社のボトックスビスタをおすすめしています。ボトックスビスタ認定医の院長が全てのボトックス治療を行います。</p>
     <div class="price-list gosic">
     <table>
+		
 <tr class="flex">
+<!--2021/3/16　料金税込み価格修正↓-->
 <th class="fw600 left">スタンダード部位<br class="pc">
           目尻、眉間、額、あご、鼻(バニーライン)<br class="pc">
           (1ヶ月以内の追加・調整無料、針代無料、再診料無料)<span class="sm">※アラガン社ボトックスビスタ使用</span></th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>1部位</td>
-<td>¥25,000</td>
+<td>¥27,500</td>
 </tr>
 <tr class="flex">
 <td>2部位</td>
-<td>¥40,000</td>
+<td>¥44,000</td>
 </tr>
 <tr class="flex">
 <td>3部位</td>
-<td>¥50,000</td>
+<td>¥55,000</td>
 </tr>
 <tr class="flex">
 <td>4部位</td>
-<td>¥60,000</td>
+<td>¥66,000</td>
 </tr>
 <tr class="flex">
 <td>5部位</td>
-<td>¥70,000</td>
+<td>¥77,000</td>
 </tr>
 </table>
 </div>
@@ -163,15 +165,15 @@
 <th class="fw600 left left">アディショナル部位<br class="pc">
           口角、目頭、口唇(口すぼめ時のしわ) 、眉下(ブローリフト)、<br class="pc">
           アーモンドアイ(たれ目)<span class="sm">※アラガン社ボトックスビスタ使用</span></th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>スタンダード部位に追加１部位</td>
-<td>¥10,000</td>
+<td>¥11,000</td>
 </tr>
 <tr class="flex">
 <td>アディショナル部位のみ１部位</td>
-<td>¥20,000</td>
+<td>¥22,000</td>
 </tr>
 </table>
 </div>
@@ -179,31 +181,33 @@
     <table>
 <tr class="flex">
 <th class="fw600 left">その他の部位<span class="sm">※アラガン社ボトックスビスタ使用</span></th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>エラボトックス</td>
-<td>¥50,000</td>
+<td>¥55,000</td>
 </tr>
 <tr class="flex">
 <td>首(ネフェルティティリフト)</td>
-<td>¥65,000</td>
+<td>¥71,500</td>
 </tr>
 <tr class="flex">
 <td>マイクロボトックス(額＆眉間)</td>
-<td>¥50,000</td>
+<td>¥55,000</td>
 </tr>
 <tr class="flex">
 <td>マイクロボトックス(鼻＆鼻横の頬)</td>
-<td>¥50,000</td>
+<td>¥55,000</td>
 </tr>
+<!--2021/3/25 削除↓
 <tr class="flex">
 <td>わき汗</td>
-<td>¥65,000</td>
+<td>¥71,500</td>
 </tr>
+-->
 <tr class="flex">
 <td>ガミースマイル</td>
-<td>¥30,000</td>
+<td>¥33,000</td>
 </tr>
 </table>
 </div>
@@ -242,27 +246,27 @@
     <table>
 <tr class="flex">
 <th class="fw600 left">制汗ボトックス</th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>わき汗</td>
-<td>¥65,000</td>
+<td>¥71,500</td>
 </tr>
 <tr class="flex">
 <td>手あせ（両手）</td>
-<td>¥68,000</td>
+<td>¥74,800</td>
 </tr>
 <tr class="flex">
 <td>足うら汗（両足）</td>
-<td>¥88,000</td>
+<td>¥96,800</td>
 </tr>
 <tr class="flex">
 <td>額の汗</td>
-<td>¥48,000</td>
+<td>¥52,800</td>
 </tr>
 <tr class="flex">
 <td>頭の汗</td>
-<td>¥68,000</td>
+<td>¥74,800</td>
 </tr>
 </table>
 </div>
@@ -272,23 +276,23 @@
     <table>
 <tr class="flex">
 <th class="fw600 left">ボディボトックス<span class="sm">(アラガン社 ボトックスビスタの場合)</span></th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>肩こり</td>
-<td>¥64,800</td>
+<td>¥71,280</td>
 </tr>
 <tr class="flex">
 <td>脚痩せ(ふくらはぎ) 小</td>
-<td>¥128,000</td>
+<td>¥140,800</td>
 </tr>
 <tr class="flex">
 <td>脚痩せ(ふくらはぎ) 大</td>
-<td>¥190,000</td>
+<td>¥209,000</td>
 </tr>
 <tr class="flex">
 <td>二の腕</td>
-<td>¥72,000</td>
+<td>¥79,200</td>
 </tr>
 </table>
 </div>
@@ -298,23 +302,23 @@
     <table>
 <tr class="flex">
 <th class="fw600 left">ボディボトックス<span class="sm">(リジェノックスの場合)</span></th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>肩こり</td>
-<td>¥48,600</td>
+<td>53,460</td>
 </tr>
 <tr class="flex">
 <td>脚痩せ(ふくらはぎ) 小</td>
-<td>¥96,000</td>
+<td>¥105,600</td>
 </tr>
 <tr class="flex">
 <td>脚痩せ(ふくらはぎ) 大</td>
-<td>¥142,500</td>
+<td>¥156,750</td>
 </tr>
 <tr class="flex">
 <td>二の腕</td>
-<td>¥54,000</td>
+<td>¥59,400</td>
 </tr>
 </table>
 </div>
@@ -438,19 +442,19 @@
     <table>
 <tr class="flex">
 <th class="fw600 left">ボリューマ、ボリフト</th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>0.1cc</td>
-<td>¥10,000</td>
+<td>¥11,000</td>
 </tr>
 <tr class="flex">
 <td>1本</td>
-<td>¥80,000</td>
+<td>¥88,000</td>
 </tr>
 <tr class="flex">
 <td>4本目以降</td>
-<td>1本あたりプラス¥60,000</td>
+<td>1本あたりプラス¥66,000</td>
 </tr>
 </table>
 </div>
@@ -460,15 +464,15 @@
     <table>
 <tr class="flex">
 <th class="fw600 left">ボラックス</th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>0.1cc</td>
-<td>￥12,000</td>
+<td>￥13,200</td>
 </tr>
 <tr class="flex">
 <td>1本</td>
-<td>￥96,000</td>
+<td>￥105,600</td>
 </tr>
 </table>
 </div>
@@ -478,11 +482,11 @@
     <table>
 <tr class="flex">
 <th class="fw600 left">ボルベラ</th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>0.1cc</td>
-<td>¥10,000</td>
+<td>¥11,000</td>
 </tr>
 </table>
 </div>
@@ -506,7 +510,7 @@
 </table>
 </div>
 -->
-<p class="note gosic">＊カニューレを使用する場合は別途＋¥1,250(税別)</p>
+<p class="note gosic">＊カニューレを使用する場合は別途＋¥1,375(税別)</p>
 </div>
 </section>
 <section class="ope-faq">
@@ -592,15 +596,15 @@
     <table>
 <tr class="flex">
 <th class="fw600 left left">SUNEKOS(スネコス)</th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>1回</td>
-<td>¥50,000</td>
+<td>¥55,000</td>
 </tr>
 <tr class="flex">
 <td>1回 ※2回目以降1ヶ月以内の場合</td>
-<td>¥45,000</td>
+<td>¥49,500</td>
 </tr>
 </table>
 </div>
@@ -610,11 +614,11 @@
     <table>
 <tr class="flex">
 <th class="fw600 left left">SUNEKOS(スネコス)1200</th>
-<th class="f-bold">税別</th>
+<th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
 <td>1本</td>
-<td>￥100,000</td>
+<td>￥110,000</td>
 </tr>
 </table>
 </div>

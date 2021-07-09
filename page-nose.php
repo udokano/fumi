@@ -140,35 +140,36 @@ Template Name: 鼻の糸
     </div>
   </div>
 </section>-->
+<!--2021/3/16　料金税込み価格修正-->
 <section class="price">
   <div class="inner-box2">
     <h2 class="tc ls1">料金表</h2>
     <div class="price-list gosic">
       <dl class="flex">
         <dt>Gコグノーズ</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">
         <dt>1本目</dt>
-        <dd>¥40,000</dd>
+        <dd>¥44,000</dd>
       </dl>
       <dl class="flex">
         <dt>2本目以降</dt>
-        <dd>¥30,000</dd>
+        <dd>¥33,000</dd>
       </dl>
     </div>
     <div class="price-list gosic">
       <dl class="flex">
         <dt>Gメッシュ</dt>
-        <dd class="f-bold">税別</dd>
+        <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">
         <dt>1本目</dt>
-        <dd>¥40,000</dd>
+        <dd>¥44,000</dd>
       </dl>
       <dl class="flex">
         <dt>2本目以降</dt>
-        <dd>¥30,000</dd>
+        <dd>¥33,000</dd>
       </dl>
     </div>
   </div>
