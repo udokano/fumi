@@ -254,7 +254,7 @@ Template Name: ランディングページスレッドリフト リスティン�
         </thead>
         <tbody>
            <tr>
-            <td rowspan="4"style="background-color: #e4f6fd; vertical-align: middle;" class="left">シルエットソフト(3Dリフト)</td>
+            <td rowspan="4"style="background-color: #e4f6fd; vertical-align: middle;" class="left">シルエットソフト・アンカーDXダブル(3Dリフト)</td>
             <td class="cent">2本</td>
             <td class="right">¥195,000<br>
               (1本あたり¥97,500)</td>
@@ -286,7 +286,7 @@ Template Name: ランディングページスレッドリフト リスティン�
         </thead>
         <tbody>
           <tr>
-            <td rowspan="4"style="background-color: #e4f6fd; vertical-align: middle;" class="left">Gコグリフト</td>
+            <td rowspan="4"style="background-color: #e4f6fd; vertical-align: middle;" class="left">Gコグリフト・アンカープラス</td>
             <td>1本</td>
             <td class="right">¥60,000</td>
           </tr>

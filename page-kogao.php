@@ -145,11 +145,11 @@ Template Name: 小顔治療
         <dd>￥792,000</dd>
       </dl>
     </div>
-<!--2021/2/18　追加↑  -->	 
-	 <!-- ./price-list --> 
+<!--2021/2/18　追加↑  -->
+	 <!-- ./price-list -->
     <div class="price-list gosic " id="silhouette_lift__price">
       <dl class="flex">
-        <dt class="fw600">シルエットソフト(3Dリフト)</dt>
+        <dt class="fw600">シルエットソフト・アンカーDXダブル(3Dリフト)</dt>
         <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">
@@ -172,7 +172,7 @@ Template Name: 小顔治療
     <!-- ./price-list -->
     <div class="price-list gosic " id="gcog_lift__price">
       <dl class="flex">
-        <dt class="fw600">Gコグリフト</dt>
+        <dt class="fw600">Gコグリフト・アンカープラス</dt>
         <dd class="f-bold">税込</dd>
       </dl>
       <dl class="flex">

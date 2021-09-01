@@ -73,6 +73,7 @@
                         <li><a href="<?php echo home_url('/'); ?>doctor">ドクター紹介</a></li>
                         <li><a href="<?php echo home_url('/');?>case-list">症例写真</a></li>
                         <li><a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank">院長ブログ</a></li>
+                        <li><a href="https://shop.fumibeauty.jp/" target="_blank">オンラインショップ</a></li>
                     </ul>
                 </nav>
                 <div class="top-cv-btn">

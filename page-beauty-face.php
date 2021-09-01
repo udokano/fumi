@@ -167,10 +167,10 @@
               <div class="sp sp_w80 mb30"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/area1-2_img.jpg" alt=""></div>
               <ul class="menu_problem flex fw jc-cent tc mb30">
                 <li><span class="">自然な若返り</span></li>
-                <li><span class="">ふっくらと<br class="">
+				<li><span class="">リフトアップ</span></li>
+                <li><span class="">ふっくら<br class="">
                   したハリ肌</span></li>
-                <li><span class="">弾力UP</span></li>
-                <li><span class="">小じわ</span></li>
+                <li><span class="">弾力UP<br class="">小じわ</span></li>
               </ul>
               <div class="flex mb30">
                 <div class="col_3-2 gosic">
@@ -179,7 +179,7 @@
                   </p>
                   <ul class="check_list">
                     <li>高分子量と低分子量のヒアルロン酸が注入後全体に均一に行きわたり細胞外マトリックス(ECM)の再構築を促します。</li>
-                    <li>線維芽細胞・ケラチノサイト・脂肪細胞にも浸潤し活性化することでふっくらとハリのある肌に導きます。線維芽細胞・ケラチノサイト・脂肪細胞にも浸潤し活性化することでふっくらとハリのある肌に導きます。</li>
+                    <li>線維芽細胞・ケラチノサイト・脂肪細胞にも浸潤し活性化することでふっくらとハリのある肌に導きます。</li>
                   </ul>
                 </div>
                 <div class="pc col_3-1">
@@ -190,7 +190,7 @@
                 <div class="col_3-2 mb30">
                   <div class="box_red gosic">
                     <p>
-                      肌の老化が感じられるようになったら（35歳くらいから）半年に１度の治療を繰り返し行います。<br class="">すでにシワが刻まれている場合はまず30日毎に２回の治療を行います。<br class="">その後2か月から8カ月後に再度1回の治療を行います。これをご希望のタイミングで繰り返し行います。
+                      肌の老化が感じられるようになったら（35歳くらいから）半年に１度の治療を繰り返し行います。<br class="">すでにシワが刻まれている場合はまず30日毎に２回の治療を行います。<br class="">その後2カ月から8カ月後に再度1回の治療を行います。これをご希望のタイミングで繰り返し行います。
                     </p>
                   </div><!-- box-red END -->
                 </div><!-- inner END -->
@@ -224,7 +224,7 @@
             </div><!-- bg_blue END -->
             <div class="inner">
               <p class="txt_lead tc">
-                ヌクレオフィルは、抗酸化作用を高め、肌の保水力・はり・キメ・透明感を<br class="pc">UPし輝く美肌に導きます。
+                ヌクレオフィルは、抗酸化作用を高め、肌の保水力・ハリ・キメ・透明感を<br class="pc">UPし輝く美肌に導きます。
               </p>
               <div class="sp sp_w80 mb30"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/area1-3_img.jpg" alt=""></div>
               <ul class="menu_problem flex fw jc-cent tc mb30">
@@ -236,13 +236,13 @@
               <div class="flex mb30">
                 <div class="col_3-2 gosic">
                   <p class="mb20">
-                    ヌクレオフィルは”イタリアで作られた製品です。ポリヌクレオチド”というサーモンのDNAより抽出された成分が業界最高濃度の2.5％が配合されたスーパーサーモン注射です。ポリヌクレオチドは、皮膚の自己再生に必要な細胞外マトリックスや様々な成長因子の生産増加を活性化させる効果がある美肌再生治療です。<br class="">
+                    ヌクレオフィルはイタリアで作られた製品です。”ポリヌクレオチド”というサーモンのDNAより抽出された成分が業界最高濃度の2.5％が配合されたスーパーサーモン注射です。ポリヌクレオチドは、皮膚の自己再生に必要な細胞外マトリックスや様々な成長因子の生産増加を活性化させる効果がある美肌再生治療です。<br class="">
                     DNAそのものや細胞を使うわけではなく、あくまでも「核酸」という一成分が主成分となります。皮膚に高い適合性を持つよう処理されており、安全性の高い製剤です。
                   </p>
                   <ul class="check_list">
-                    <li>皮膚の組織再生に必要な細胞外マトリックス(ECM)や様々な成長因子の成長や増加促しアンチエイジングを行います。</li>
+                    <li>皮膚の組織再生に必要な細胞外マトリックス(ECM)や様々な成長因子の成長や増加を促しアンチエイジングを行います。</li>
                     <li>線維芽細胞を活性、また肌の保水効果を高めハリと弾力のある肌に導きます。</li>
-                    <li>抗酸化作用が高く肌のくすみをとりのぞき透明感がUPします。</li>
+                    <li>抗酸化作用が高く肌のくすみを取り除き透明感がUPします。</li>
                     <li>瘢痕等硬くなった組織を柔らかくし、凹凸を滑らかにします。</li>
                   </ul>
                 </div>
@@ -285,7 +285,7 @@
           <div class="info inner">
             <h2 class="tc"><span class="info_icon"><img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/area2_icon.png" alt=""></span>ダーマペン4</h2>
             <p class="txt_lead tc">
-              お肌に極小の穴をつくることで、コラーゲン生成を促します。<br class="">これがお肌にハリや弾力を蘇らせ、なめらかな毛穴をつくります。
+              微細な針で皮膚表面に微小な穴を開けることで皮膚の創傷治癒力を利用し、<br class="">コラーゲン増生を促し、若々しい滑らかな肌に導く治療法です。<br class="">また美容成分を併用することで、薬剤が効率的に浸透し効果をもたらします。
             </p>
           </div><!-- info END -->
           <div class="problem inner">
@@ -333,7 +333,7 @@
             <a href="https://fumibeauty.jp/faq_kind/%e3%83%80%e3%83%bc%e3%83%9e%e3%83%9a%e3%83%b3%ef%bc%94/" class="btn_case gosic mb30">ダーマペン4 症例写真はこちら</a>
           </div><!-- btn_box END -->
           <div class="btn_ancor inner mb30">
-            <a href="#area2-1"><span class="">ダーマペン4</span></a><a href="#area2-2"><span class="">ヴェルヴェット<br class="sp">スキン</span></a><a href="#area2-3"><span class="">ヴァンパイア<br class="sp">フェイシャル</span></a>
+            <a href="#area2-1"><span class="">ダーマペン4</span></a><a href="#area2-2"><span class="">ヴェルヴェット<br class="sp">スキン</span></a><a href="#area2-3"><span class="">ヴァンパイア<br class="sp">フェイシャル</span></a><a href="#area2-4"><span class="">その他の<br class="sp">使用薬剤</span></a>
           </div><!-- btn_ancor END -->
           <div id="area2-1" class="mb50">
             <div class="bg_blue">
@@ -391,7 +391,7 @@
           <div id="area2-2" class="mb50">
             <div class="bg_blue">
               <div class="inner">
-                <h3 class="tc bold">ダーマペヴェルヴェットスキン</h3>
+                <h3 class="tc bold">ヴェルヴェットスキン</h3>
               </div><!-- inner END -->
             </div><!-- bg_blue END -->
             <div class="inner">
@@ -427,8 +427,12 @@
                 <table class="price_list gosic">
                   <tbody>
                     <tr class="flex">
-                      <td>ヴェルヴェットスキン</td>
-                      <td>＋¥16,500 (税込)</td>
+                      <td>ヴェルヴェットスキン(ダーマペン4＋マッサージピール)顔</td>
+                      <td>¥49,500 (税込)</td>
+                    </tr>
+                    <tr class="flex">
+                      <td>ヴェルヴェットスキン(ダーマペン4＋マッサージピール)顔＋首</td>
+                      <td>¥74,800 (税込)</td>
                     </tr>
                   </tbody>
                 </table>
@@ -484,16 +488,20 @@
                 <table class="price_list gosic">
                   <tbody>
                     <tr class="flex">
-                      <td>ヴァンパイアフェイシャル顔</td>
+                      <td>ヴァンパイアフェイシャル(ダーマペン4×PFC)顔</td>
                       <td>¥66,000 (税込)</td>
                     </tr>
                     <tr class="flex">
-                      <td>ヴァンパイアフェイシャル顔＋首</td>
+                      <td>ヴァンパイアフェイシャル(ダーマペン4×PFC)顔＋首</td>
                       <td>¥88,000 (税込)</td>
                     </tr>
                     <tr class="flex">
-                      <td>ヴァンパイアフェイシャル1部位</td>
+                      <td>ヴァンパイアフェイシャル(ダーマペン4×PFC)1部位</td>
                       <td>¥44,000 (税込)</td>
+                    </tr>
+                    <tr class="flex">
+                      <td>※PFC作成費用(6バイアル分)別途¥132,000かかります。</td>
+                      <td></td>
                     </tr>
                   </tbody>
                 </table>
@@ -560,20 +568,24 @@
                   <table class="price_list gosic">
                     <tbody>
                       <tr class="flex">
-                        <td>ダーマペン4×フィロルガ注射</td>
+                        <td>フィロルガ注射</td>
                         <td>＋¥28,000 (税込)</td>
                       </tr>
                       <tr class="flex">
-                        <td>ダーマペン4×白雪注射</td>
+                        <td>白雪注射</td>
                         <td>＋￥16,500 (税込)</td>
                       </tr>
                       <tr class="flex">
-                        <td>ダーマペン4×ボトックス</td>
+                        <td>ボトックス</td>
                         <td>＋￥16,500 (税込)</td>
                       </tr>
                       <tr class="flex">
-                        <td>ダーマペン4×トラネキサム酸</td>
+                        <td>トラネキサム酸</td>
                         <td>＋￥5,500 (税込)</td>
+                      </tr>
+                      <tr class="flex">
+                        <td>※別途ダーマペン4施術料金がかかります。</td>
+                        <td></td>
                       </tr>
                     </tbody>
                   </table>
@@ -812,8 +824,12 @@
                 <table class="price_list gosic">
                   <tbody>
                     <tr class="flex">
+                      <td>疲労回復点滴</td>
+                      <td>¥3,300 (税込)<br>※強ミノ追加<br>1本あたり¥275</td>
+                    </tr>
+                    <tr class="flex">
                       <td>疲労回復点滴(マイヤーズカクテル)</td>
-                      <td>¥13,200 (税込)</td>
+                      <td>¥6,600 (税込)</td>
                     </tr>
                   </tbody>
                 </table>
@@ -855,8 +871,8 @@
                 <table class="price_list gosic">
                   <tbody>
                     <tr class="flex">
-                      <td>白玉点滴(グルタチオン)</td>
-                      <td>¥8,800 (税込)〜</td>
+                      <td>白玉点滴(グルタチオン1200mg)</td>
+                      <td>¥8,800 (税込)</td>
                     </tr>
                   </tbody>
                 </table>
@@ -898,23 +914,27 @@
                   <tbody>
                     <tr class="flex">
                       <td>プラセンタ注射１本</td>
-                      <td>¥1,600 (税込)</td>
+                      <td>¥1,650 (税込)</td>
                     </tr>
                     <tr class="flex">
                       <td>プラセンタ注射 ２本目以降</td>
                       <td>¥1,100 (税込)</td>
                     </tr>
                     <tr class="flex">
-                      <td>プラセンタチケット</td>
+                      <td>プラセンタチケット(30本分)</td>
                       <td>¥33,000 (税込)</td>
                     </tr>
                     <tr class="flex">
-                      <td>プラセンタツボ注射</td>
+                      <td>プラセンタ顔ツボ注射</td>
                       <td>¥5,500 (税込)</td>
                     </tr>
                     <tr class="flex">
-                      <td>プラセンタツボ注射10階コース</td>
+                      <td>プラセンタ顔ツボ注射チケット(10回分)</td>
                       <td>¥44,000 (税込)</td>
+                    </tr>
+                    <tr class="flex">
+                      <td>肩こりプラセンタ</td>
+                      <td>¥11,000 (税込)</td>
                     </tr>
                   </tbody>
                 </table>
@@ -1189,7 +1209,7 @@
           <div class="sp_col1 flex inner">
             <div class="col_3-2 mb30">
               <p class="gosic">
-                ピーリングとは、薬剤を用いて肌表面のいらなくなった角質を除去することで、肌のターンオーバーや再生を促す施術です。また皮膚の内部に浸透させてコラーゲンの再生や修復、生産をうながしたり、肌内部からのターンオーバーを促すピーリングも人気です。<br class="">使用する薬剤によってその効果もかわってきますので、当院ではおひとりおひとりのお肌状態にあったピーリングを提案しております。
+                ピーリングとは、薬剤を用いて肌表面のいらなくなった角質を除去することで、肌のターンオーバーや再生を促す施術です。また皮膚の内部に浸透させてコラーゲンの再生や修復、生産を促したり、肌内部からのターンオーバーを促すピーリングも人気です。<br class="">使用する薬剤によってその効果もかわってきますので、当院ではおひとりおひとりのお肌状態にあったピーリングを提案しております。
               </p>
             </div>
             <div class="col_3-1 mb30">
@@ -1200,7 +1220,7 @@
             <a href="https://fumibeauty.jp/faq_kind/me/" class="btn_case gosic mb30">各種ピーリング 症例写真はこちら</a>
           </div><!-- btn_box END -->
           <div class="btn_ancor inner mb30">
-            <a href="#area6-1"><span class="">ベビーピール<br class="pc">(サリチル酸マクロゴール)</span></a><a href="#area6-2"><span class="">ミックスピールPlus<br class="pc">スキン</span></a><a href="#area6-3"><span class="">マッサージピール<br class="pc">(コラーゲンピール)</span></a><a href="#area6-4"><span class="">トックスピール<br class="pc">(成長因子ピーリング)</span></a><a href="#area6-5"><span class="">レチノールピール<br class="pc">(イエローピール)</span></a>
+            <a href="#area6-1"><span class="">ベビーピール<br class="pc">(サリチル酸マクロゴール)</span></a><a href="#area6-2"><span class="">ミックスピールPlus</span></a><a href="#area6-3"><span class="">マッサージピール<br class="pc">(コラーゲンピール)</span></a><a href="#area6-4"><span class="">トックスピール<br class="pc">(成長因子ピーリング)</span></a><a href="#area6-5"><span class="">レチノールピール<br class="pc">(イエローピール)</span></a>
           </div><!-- btn_ancor END -->
           <div id="area6-1" class="mb50">
             <div class="bg_blue">
@@ -1231,7 +1251,7 @@
                   </ul>
                 </div>
                 <div class="pc col_3-1">
-                  <img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/area6-5_img.jpg" alt="">
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/operation/medikaru/area6-1_img.jpg" alt="">
                 </div>
               </div><!-- flex END -->
               <div class="flow bg_gray_box mb30">
@@ -1715,7 +1735,7 @@
           <div id="area7-2">
             <div class="bg_blue">
               <div class="inner">
-                <h3 class="tc bold">Wビタミンコース</h3>
+                <h3 class="tc bold">エンビロンWビタミンコース</h3>
               </div><!-- inner END -->
             </div><!-- bg_blue END -->
             <div class="inner">
@@ -1741,7 +1761,7 @@
                 </div>
               </div>
               <div class="flow bg_gray_box mb30">
-                <h3 class="tc">Wビタミンコース 施術の流れ</h3>
+                <h3 class="tc">エンビロンWビタミンコース 施術の流れ</h3>
                 <ol class="flow_step">
                   <li><span class="gosic">クレンジング・洗顔</span></li>
                   <li><span class="gosic">写真撮影</span></li>
@@ -1757,8 +1777,8 @@
                 <table class="price_list gosic">
                   <tbody>
                     <tr class="flex">
-                      <td>クールビタミンコース</td>
-                      <td>¥8,800 (税込)</td>
+                      <td>Wビタミンコース</td>
+                      <td>¥13,200 (税込)</td>
                     </tr>
                   </tbody>
                 </table>

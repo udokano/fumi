@@ -123,7 +123,7 @@ Template Name: たるみ治療
 </tr>
 </table>
 </div>
-	  
+
 <!--2021/2/18 追加↓ -->
 <div class="price-list gosic">
     <table>
@@ -142,7 +142,7 @@ Template Name: たるみ治療
 </table>
 </div>
 <!--2021/2/18 追加↑ -->
-    
+
 <div class="price-list gosic">
     <table>
 <tr class="flex">
@@ -309,7 +309,7 @@ Template Name: たるみ治療
 <section class="price">
   <div class="inner-box2">
     <h3 class="tc ls1 hx3">スレッドリフト料金</h3>
-	  
+
 <!--2021/2/18 追加↓ -->
 	    <!-- ./price-list -->
         <div class="price-list gosic">
@@ -332,12 +332,12 @@ Template Name: たるみ治療
 </tr>
 </table>
 </div>
-<!--/2021/2/18 追加↑ -->	
-	  
+<!--/2021/2/18 追加↑ -->
+
     <div class="price-list gosic">
     <table>
 <tr class="flex">
-<th class="fw600">シルエットソフト(3Dリフト)</th>
+<th class="fw600">シルエットソフト・アンカーDXダブル(3Dリフト)</th>
 <th class="f-bold">税込</th>
 </tr>
 <tr class="flex">
@@ -358,12 +358,12 @@ Template Name: たるみ治療
 </tr>
 </table>
 </div>
-    
+
     <!-- ./price-list -->
     <div class="price-list gosic">
     <table>
 <tr class="flex">
-<th class="fw600">Gコグリフト</th>
+<th class="fw600">Gコグリフト・アンカープラス</th>
 <th class="f-bold">税込</th>
 </tr>
 <tr class="flex">

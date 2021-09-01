@@ -74,6 +74,7 @@
                         <li><a href="<?php echo home_url('/'); ?>doctor">ドクター紹介</a></li>
                         <li><a href="<?php echo home_url('/');?>case-list">症例写真</a></li>
                         <li><a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank">院長ブログ</a></li>
+                        <li><a href="https://shop.fumibeauty.jp/" target="_blank">オンラインショップ</a></li>
                     </ul>
                 </nav>
                 <div class="top-cv-btn">
@@ -176,6 +177,12 @@
       </div> -->
 
                     <div class="hifu-bnr">
+                    <a href="<?php echo home_url( '/' ); ?>medikaru" class="" target="_blank">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/common/medikaru_bnr02.jpg?20210712"
+                                alt="美肌治療" class="pc">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/common/medikaru_bnr.jpg?20210712"
+                                alt="美肌治療" class="sp">
+                        </a>
                         <a href="<?php echo home_url( '/' ); ?>hifu" class="" target="_blank">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/common/hifu_bnr02.jpg?20200304"
                                 alt="ウルトラセルQプラス" class="pc">
@@ -366,10 +373,10 @@
                                     src="<?php echo get_template_directory_uri(); ?>/img/top/thumb10.jpg" alt="サムネイル">
                             </div>
                             <ul class="col">
-                                <li data-url="<?php echo home_url('/'); ?>medikaru#area5" class="js-link">・SUNEKOS(スネコス)
+                                <li data-url="<?php echo home_url('/'); ?>medikaru#area5" class="js-link">・SUNEKOS(スネコス)/プロファイロ/ヌクレオフィル
                                 </li>
                                 <li data-url="<?php echo home_url('/'); ?>medikaru#area4" class="js-link">
-                                    ・ダーマペン4/ヴェルヴェットスキン</li>
+                                    ・ダーマペン4/ヴェルヴェットスキン/ヴァンパイアフェイシャル</li>
                                 <li data-url="<?php echo home_url('/'); ?>medikaru#area3" class="js-link">・メディカルエステ</li>
                                 <li data-url="<?php echo home_url('/'); ?>medikaru#area1" class="js-link">・美容点滴/プラセンタ
                                 </li>
@@ -656,7 +663,7 @@
                                     alt="サムネイル">
                             </div>
                             <h3 class="media__ttl">仕事を楽しむためのwebマガジン<br class="pc">"Bplus"掲載</h3>
-                            <a href="https://www.business-plus.net/interview/1911/k5216.html" class="media__link"
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>bplus" class="media__link"
                                 target="_blank">詳しく見る</a>
                         </li>
 
@@ -704,6 +711,7 @@
                         <li><a href="<?php echo home_url('/');?>case-list" class="c_gray">症例写真</a></li>
                         <li><a href="https://fumibeauty.reserve.ne.jp/" class="c_gray" target="_blank">来院予約</a></li>
                         <li><a href="<?php echo home_url('/'); ?>contact" class="c_gray">お問合わせ</a></li>
+                        <li><a href="https://shop.fumibeauty.jp/" class="c_gray" target="_blank">オンラインショップ</a></li>
                     </ul>
                 </nav>
                 <p class="copy cp c_gray"><small>fumi beauty cinic(ふみビューティクリニック梅田)美容皮膚科・形成外科・皮膚科<br>
@@ -736,7 +744,8 @@
                 <li><a href="http://blog.livedoor.jp/dr_sakiyama" target="_blank">院長ブログ</a></li>
                 <li><a href="<?php echo home_url('/');?>case-list" class="c_gray">症例写真</a></li>
                 <!--  <li><a href="https://fumibeauty.reserve.ne.jp/" target="_blank">来院予約</a></li>-->
-                <li class="mb0"><a href="<?php echo home_url('/'); ?>contact" class="c_gray">お問合わせ</a></li>
+                <li ><a href="<?php echo home_url('/'); ?>contact">お問合わせ</a></li>
+            <li class="mb0"><a href="https://shop.fumibeauty.jp/" target="_blank">オンラインショップ</a></li>
                 <p class="menu-close"></p>
             </ul>
         </nav>
